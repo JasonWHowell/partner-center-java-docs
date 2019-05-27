@@ -1,194 +1,170 @@
 ### YamlMime:ManagedReference
 items:
-- uid: com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestNote
-  id: ServiceRequestNote
-  parent: com.microsoft.store.partnercenter.models.servicerequests
+- uid: "com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestNote"
+  id: "ServiceRequestNote"
+  parent: "com.microsoft.store.partnercenter.models.servicerequests"
   children:
-  - com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestNote.getCreatedByName()
-  - com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestNote.getCreatedDate()
-  - com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestNote.getText()
-  - com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestNote.setCreatedByName(String)
-  - com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestNote.setCreatedDate(DateTime)
-  - com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestNote.setText(String)
-  href: com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestNote.yml
+  - "com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestNote.ServiceRequestNote()"
+  - "com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestNote.getCreatedByName()"
+  - "com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestNote.setCreatedByName(java.lang.String)"
+  - "com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestNote.getCreatedDate()"
+  - "com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestNote.setCreatedDate(org.joda.time.DateTime)"
+  - "com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestNote.getText()"
+  - "com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestNote.setText(java.lang.String)"
   langs:
-  - java
-  name: ServiceRequestNote
-  nameWithType: ServiceRequestNote
-  fullName: com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestNote
-  type: Class
-  source:
-    remote: &o0
-      path: src/main/java/com/microsoft/store/partnercenter/models/servicerequests/ServiceRequestNote.java
-      branch: master
-      repo: https://github.com/microsoft/Partner-Center-Java
-    path: src/main/java/com/microsoft/store/partnercenter/models/servicerequests/ServiceRequestNote.java
-    startLine: 13
-  package: com.microsoft.store.partnercenter.models.servicerequests
-  summary: "<p>Represents a Service Request Note class </p>"
+  - "java"
+  name: "ServiceRequestNote"
+  nameWithType: "ServiceRequestNote"
+  fullName: "com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestNote"
+  type: "Class"
+  package: "com.microsoft.store.partnercenter.models.servicerequests"
+  summary: "Represents a Service Request Note class"
   syntax:
-    content: public class ServiceRequestNote
+    content: "public class ServiceRequestNote"
   inheritance:
-  - java.lang.Object
-- uid: com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestNote.getCreatedByName()
-  id: getCreatedByName()
-  parent: com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestNote
-  href: com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestNote.yml
+  - "java.lang.Object"
+- uid: "com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestNote.ServiceRequestNote()"
+  id: "ServiceRequestNote()"
+  parent: "com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestNote"
   langs:
-  - java
-  name: getCreatedByName()
-  nameWithType: ServiceRequestNote.getCreatedByName()
-  fullName: com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestNote.getCreatedByName()
-  overload: com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestNote.getCreatedByName*
-  type: Method
-  source:
-    remote: *o0
-    path: src/main/java/com/microsoft/store/partnercenter/models/servicerequests/ServiceRequestNote.java
-    startLine: 20
-  package: com.microsoft.store.partnercenter.models.servicerequests
+  - "java"
+  name: "ServiceRequestNote()"
+  nameWithType: "ServiceRequestNote.ServiceRequestNote()"
+  fullName: "com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestNote.ServiceRequestNote()"
+  overload: "com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestNote.ServiceRequestNote*"
+  type: "Constructor"
+  package: "com.microsoft.store.partnercenter.models.servicerequests"
   syntax:
-    content: public String getCreatedByName()
+    content: "public ServiceRequestNote()"
+- uid: "com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestNote.getCreatedByName()"
+  id: "getCreatedByName()"
+  parent: "com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestNote"
+  langs:
+  - "java"
+  name: "getCreatedByName()"
+  nameWithType: "ServiceRequestNote.getCreatedByName()"
+  fullName: "com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestNote.getCreatedByName()"
+  overload: "com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestNote.getCreatedByName*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.servicerequests"
+  syntax:
+    content: "public String getCreatedByName()"
     return:
-      type: "26831127"
-- uid: com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestNote.getCreatedDate()
-  id: getCreatedDate()
-  parent: com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestNote
-  href: com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestNote.yml
+      type: "java.lang.String"
+- uid: "com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestNote.setCreatedByName(java.lang.String)"
+  id: "setCreatedByName(java.lang.String)"
+  parent: "com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestNote"
   langs:
-  - java
-  name: getCreatedDate()
-  nameWithType: ServiceRequestNote.getCreatedDate()
-  fullName: com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestNote.getCreatedDate()
-  overload: com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestNote.getCreatedDate*
-  type: Method
-  source:
-    remote: *o0
-    path: src/main/java/com/microsoft/store/partnercenter/models/servicerequests/ServiceRequestNote.java
-    startLine: 35
-  package: com.microsoft.store.partnercenter.models.servicerequests
+  - "java"
+  name: "setCreatedByName(String value)"
+  nameWithType: "ServiceRequestNote.setCreatedByName(String value)"
+  fullName: "com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestNote.setCreatedByName(String value)"
+  overload: "com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestNote.setCreatedByName*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.servicerequests"
   syntax:
-    content: public DateTime getCreatedDate()
+    content: "public void setCreatedByName(String value)"
+    parameters:
+    - id: "value"
+      type: "java.lang.String"
+- uid: "com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestNote.getCreatedDate()"
+  id: "getCreatedDate()"
+  parent: "com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestNote"
+  langs:
+  - "java"
+  name: "getCreatedDate()"
+  nameWithType: "ServiceRequestNote.getCreatedDate()"
+  fullName: "com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestNote.getCreatedDate()"
+  overload: "com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestNote.getCreatedDate*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.servicerequests"
+  syntax:
+    content: "public DateTime getCreatedDate()"
     return:
-      type: 230df18c
-- uid: com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestNote.getText()
-  id: getText()
-  parent: com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestNote
-  href: com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestNote.yml
+      type: "org.joda.time.DateTime"
+- uid: "com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestNote.setCreatedDate(org.joda.time.DateTime)"
+  id: "setCreatedDate(org.joda.time.DateTime)"
+  parent: "com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestNote"
   langs:
-  - java
-  name: getText()
-  nameWithType: ServiceRequestNote.getText()
-  fullName: com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestNote.getText()
-  overload: com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestNote.getText*
-  type: Method
-  source:
-    remote: *o0
-    path: src/main/java/com/microsoft/store/partnercenter/models/servicerequests/ServiceRequestNote.java
-    startLine: 50
-  package: com.microsoft.store.partnercenter.models.servicerequests
+  - "java"
+  name: "setCreatedDate(DateTime value)"
+  nameWithType: "ServiceRequestNote.setCreatedDate(DateTime value)"
+  fullName: "com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestNote.setCreatedDate(DateTime value)"
+  overload: "com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestNote.setCreatedDate*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.servicerequests"
   syntax:
-    content: public String getText()
+    content: "public void setCreatedDate(DateTime value)"
+    parameters:
+    - id: "value"
+      type: "org.joda.time.DateTime"
+- uid: "com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestNote.getText()"
+  id: "getText()"
+  parent: "com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestNote"
+  langs:
+  - "java"
+  name: "getText()"
+  nameWithType: "ServiceRequestNote.getText()"
+  fullName: "com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestNote.getText()"
+  overload: "com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestNote.getText*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.servicerequests"
+  syntax:
+    content: "public String getText()"
     return:
-      type: "26831127"
-- uid: com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestNote.setCreatedByName(String)
-  id: setCreatedByName(String)
-  parent: com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestNote
-  href: com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestNote.yml
+      type: "java.lang.String"
+- uid: "com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestNote.setText(java.lang.String)"
+  id: "setText(java.lang.String)"
+  parent: "com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestNote"
   langs:
-  - java
-  name: setCreatedByName(String value)
-  nameWithType: ServiceRequestNote.setCreatedByName(String value)
-  fullName: com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestNote.setCreatedByName(String value)
-  overload: com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestNote.setCreatedByName*
-  type: Method
-  source:
-    remote: *o0
-    path: src/main/java/com/microsoft/store/partnercenter/models/servicerequests/ServiceRequestNote.java
-    startLine: 25
-  package: com.microsoft.store.partnercenter.models.servicerequests
+  - "java"
+  name: "setText(String value)"
+  nameWithType: "ServiceRequestNote.setText(String value)"
+  fullName: "com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestNote.setText(String value)"
+  overload: "com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestNote.setText*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.servicerequests"
   syntax:
-    content: public void setCreatedByName(String value)
+    content: "public void setText(String value)"
     parameters:
-    - id: value
-      type: "26831127"
-- uid: com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestNote.setCreatedDate(DateTime)
-  id: setCreatedDate(DateTime)
-  parent: com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestNote
-  href: com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestNote.yml
-  langs:
-  - java
-  name: setCreatedDate(DateTime value)
-  nameWithType: ServiceRequestNote.setCreatedDate(DateTime value)
-  fullName: com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestNote.setCreatedDate(DateTime value)
-  overload: com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestNote.setCreatedDate*
-  type: Method
-  source:
-    remote: *o0
-    path: src/main/java/com/microsoft/store/partnercenter/models/servicerequests/ServiceRequestNote.java
-    startLine: 40
-  package: com.microsoft.store.partnercenter.models.servicerequests
-  syntax:
-    content: public void setCreatedDate(DateTime value)
-    parameters:
-    - id: value
-      type: 230df18c
-- uid: com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestNote.setText(String)
-  id: setText(String)
-  parent: com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestNote
-  href: com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestNote.yml
-  langs:
-  - java
-  name: setText(String value)
-  nameWithType: ServiceRequestNote.setText(String value)
-  fullName: com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestNote.setText(String value)
-  overload: com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestNote.setText*
-  type: Method
-  source:
-    remote: *o0
-    path: src/main/java/com/microsoft/store/partnercenter/models/servicerequests/ServiceRequestNote.java
-    startLine: 55
-  package: com.microsoft.store.partnercenter.models.servicerequests
-  syntax:
-    content: public void setText(String value)
-    parameters:
-    - id: value
-      type: "26831127"
+    - id: "value"
+      type: "java.lang.String"
 references:
-- uid: "26831127"
-  spec.java:
-  - name: String
-    fullName: String
-- uid: com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestNote.getCreatedByName*
-  name: getCreatedByName
-  nameWithType: ServiceRequestNote.getCreatedByName
-  fullName: com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestNote.getCreatedByName
-  package: com.microsoft.store.partnercenter.models.servicerequests
-- uid: com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestNote.setCreatedByName*
-  name: setCreatedByName
-  nameWithType: ServiceRequestNote.setCreatedByName
-  fullName: com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestNote.setCreatedByName
-  package: com.microsoft.store.partnercenter.models.servicerequests
-- uid: 230df18c
-  spec.java:
-  - name: DateTime
-    fullName: DateTime
-- uid: com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestNote.getCreatedDate*
-  name: getCreatedDate
-  nameWithType: ServiceRequestNote.getCreatedDate
-  fullName: com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestNote.getCreatedDate
-  package: com.microsoft.store.partnercenter.models.servicerequests
-- uid: com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestNote.setCreatedDate*
-  name: setCreatedDate
-  nameWithType: ServiceRequestNote.setCreatedDate
-  fullName: com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestNote.setCreatedDate
-  package: com.microsoft.store.partnercenter.models.servicerequests
-- uid: com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestNote.getText*
-  name: getText
-  nameWithType: ServiceRequestNote.getText
-  fullName: com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestNote.getText
-  package: com.microsoft.store.partnercenter.models.servicerequests
-- uid: com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestNote.setText*
-  name: setText
-  nameWithType: ServiceRequestNote.setText
-  fullName: com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestNote.setText
-  package: com.microsoft.store.partnercenter.models.servicerequests
+- uid: "com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestNote.ServiceRequestNote*"
+  name: "ServiceRequestNote"
+  nameWithType: "ServiceRequestNote.ServiceRequestNote"
+  fullName: "com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestNote.ServiceRequestNote"
+- uid: "java.lang.String"
+  isExternal: true
+  name: "String"
+  nameWithType: "String"
+  fullName: "java.lang.String"
+- uid: "com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestNote.getCreatedByName*"
+  name: "getCreatedByName"
+  nameWithType: "ServiceRequestNote.getCreatedByName"
+  fullName: "com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestNote.getCreatedByName"
+- uid: "com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestNote.setCreatedByName*"
+  name: "setCreatedByName"
+  nameWithType: "ServiceRequestNote.setCreatedByName"
+  fullName: "com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestNote.setCreatedByName"
+- uid: "org.joda.time.DateTime"
+  isExternal: true
+  name: "DateTime"
+  nameWithType: "DateTime"
+  fullName: "org.joda.time.DateTime"
+- uid: "com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestNote.getCreatedDate*"
+  name: "getCreatedDate"
+  nameWithType: "ServiceRequestNote.getCreatedDate"
+  fullName: "com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestNote.getCreatedDate"
+- uid: "com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestNote.setCreatedDate*"
+  name: "setCreatedDate"
+  nameWithType: "ServiceRequestNote.setCreatedDate"
+  fullName: "com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestNote.setCreatedDate"
+- uid: "com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestNote.getText*"
+  name: "getText"
+  nameWithType: "ServiceRequestNote.getText"
+  fullName: "com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestNote.getText"
+- uid: "com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestNote.setText*"
+  name: "setText"
+  nameWithType: "ServiceRequestNote.setText"
+  fullName: "com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestNote.setText"

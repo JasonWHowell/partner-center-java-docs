@@ -1,124 +1,150 @@
 ### YamlMime:ManagedReference
 items:
-- uid: com.microsoft.store.partnercenter.models.query.sort.SortDirection
-  id: SortDirection
-  parent: com.microsoft.store.partnercenter.models.query.sort
+- uid: "com.microsoft.store.partnercenter.models.query.sort.SortDirection"
+  id: "SortDirection"
+  parent: "com.microsoft.store.partnercenter.models.query.sort"
   children:
-  - com.microsoft.store.partnercenter.models.query.sort.SortDirection.ASCENDING
-  - com.microsoft.store.partnercenter.models.query.sort.SortDirection.DESCENDING
-  - com.microsoft.store.partnercenter.models.query.sort.SortDirection.SortDirection(String)
-  - com.microsoft.store.partnercenter.models.query.sort.SortDirection.toString()
-  href: com.microsoft.store.partnercenter.models.query.sort.SortDirection.yml
+  - "com.microsoft.store.partnercenter.models.query.sort.SortDirection.values()"
+  - "com.microsoft.store.partnercenter.models.query.sort.SortDirection.valueOf(java.lang.String)"
+  - "com.microsoft.store.partnercenter.models.query.sort.SortDirection.toString()"
+  - "com.microsoft.store.partnercenter.models.query.sort.SortDirection.ASCENDING"
+  - "com.microsoft.store.partnercenter.models.query.sort.SortDirection.DESCENDING"
   langs:
-  - java
-  name: SortDirection
-  nameWithType: SortDirection
-  fullName: com.microsoft.store.partnercenter.models.query.sort.SortDirection
-  type: Enum
-  source:
-    remote: &o0
-      path: src/main/java/com/microsoft/store/partnercenter/models/query/sort/SortDirection.java
-      branch: master
-      repo: https://github.com/microsoft/Partner-Center-Java
-    path: src/main/java/com/microsoft/store/partnercenter/models/query/sort/SortDirection.java
-    startLine: 10
-  package: com.microsoft.store.partnercenter.models.query.sort
+  - "java"
+  name: "SortDirection"
+  nameWithType: "SortDirection"
+  fullName: "com.microsoft.store.partnercenter.models.query.sort.SortDirection"
+  type: "Enum"
+  package: "com.microsoft.store.partnercenter.models.query.sort"
   syntax:
-    content: public enum SortDirection
+    content: "public enum SortDirection extends Enum<SortDirection>"
   inheritance:
-  - java.lang.Object
-  - java.lang.Enum<SortDirection>
-- uid: com.microsoft.store.partnercenter.models.query.sort.SortDirection.ASCENDING
-  id: ASCENDING
-  parent: com.microsoft.store.partnercenter.models.query.sort.SortDirection
-  href: com.microsoft.store.partnercenter.models.query.sort.SortDirection.yml
+  - "java.lang.Enum<com.microsoft.store.partnercenter.models.query.sort.SortDirection>"
+- uid: "com.microsoft.store.partnercenter.models.query.sort.SortDirection.SortDirection(java.lang.String)"
+  id: "SortDirection(java.lang.String)"
+  parent: "com.microsoft.store.partnercenter.models.query.sort.SortDirection"
   langs:
-  - java
-  name: ASCENDING
-  nameWithType: SortDirection.ASCENDING
-  fullName: com.microsoft.store.partnercenter.models.query.sort.SortDirection.ASCENDING
-  type: Field
-  source:
-    remote: *o0
-    path: src/main/java/com/microsoft/store/partnercenter/models/query/sort/SortDirection.java
-    startLine: 15
-  package: com.microsoft.store.partnercenter.models.query.sort
-  summary: "<p>Sort direction enumeration. Ascending sort. </p>"
+  - "java"
+  name: "SortDirection(String value)"
+  nameWithType: "SortDirection.SortDirection(String value)"
+  fullName: "com.microsoft.store.partnercenter.models.query.sort.SortDirection.SortDirection(String value)"
+  overload: "com.microsoft.store.partnercenter.models.query.sort.SortDirection.SortDirection*"
+  type: "Constructor"
+  package: "com.microsoft.store.partnercenter.models.query.sort"
   syntax:
-    content: public ASCENDING=("ascending")
-- uid: com.microsoft.store.partnercenter.models.query.sort.SortDirection.DESCENDING
-  id: DESCENDING
-  parent: com.microsoft.store.partnercenter.models.query.sort.SortDirection
-  href: com.microsoft.store.partnercenter.models.query.sort.SortDirection.yml
-  langs:
-  - java
-  name: DESCENDING
-  nameWithType: SortDirection.DESCENDING
-  fullName: com.microsoft.store.partnercenter.models.query.sort.SortDirection.DESCENDING
-  type: Field
-  source:
-    remote: *o0
-    path: src/main/java/com/microsoft/store/partnercenter/models/query/sort/SortDirection.java
-    startLine: 20
-  package: com.microsoft.store.partnercenter.models.query.sort
-  summary: "<p>Descending sort. </p>"
-  syntax:
-    content: public DESCENDING=("descending")
-- uid: com.microsoft.store.partnercenter.models.query.sort.SortDirection.SortDirection(String)
-  id: SortDirection(String)
-  parent: com.microsoft.store.partnercenter.models.query.sort.SortDirection
-  href: com.microsoft.store.partnercenter.models.query.sort.SortDirection.yml
-  langs:
-  - java
-  name: SortDirection(String value)
-  nameWithType: SortDirection.SortDirection(String value)
-  fullName: com.microsoft.store.partnercenter.models.query.sort.SortDirection.SortDirection(String value)
-  overload: com.microsoft.store.partnercenter.models.query.sort.SortDirection.SortDirection*
-  type: Constructor
-  source:
-    remote: *o0
-    path: src/main/java/com/microsoft/store/partnercenter/models/query/sort/SortDirection.java
-    startLine: 24
-  package: com.microsoft.store.partnercenter.models.query.sort
-  syntax:
-    content: public SortDirection(String value)
+    content: "private SortDirection(String value)"
     parameters:
-    - id: value
-      type: "26831127"
-- uid: com.microsoft.store.partnercenter.models.query.sort.SortDirection.toString()
-  id: toString()
-  parent: com.microsoft.store.partnercenter.models.query.sort.SortDirection
-  href: com.microsoft.store.partnercenter.models.query.sort.SortDirection.yml
+    - id: "value"
+      type: "java.lang.String"
+- uid: "com.microsoft.store.partnercenter.models.query.sort.SortDirection.values()"
+  id: "values()"
+  parent: "com.microsoft.store.partnercenter.models.query.sort.SortDirection"
   langs:
-  - java
-  name: toString()
-  nameWithType: SortDirection.toString()
-  fullName: com.microsoft.store.partnercenter.models.query.sort.SortDirection.toString()
-  overload: com.microsoft.store.partnercenter.models.query.sort.SortDirection.toString*
-  type: Method
-  source:
-    remote: *o0
-    path: src/main/java/com/microsoft/store/partnercenter/models/query/sort/SortDirection.java
-    startLine: 36
-  package: com.microsoft.store.partnercenter.models.query.sort
-  summary: "<p>Converts the object to a string.</p>\r\n<p></p>"
+  - "java"
+  name: "values()"
+  nameWithType: "SortDirection.values()"
+  fullName: "com.microsoft.store.partnercenter.models.query.sort.SortDirection.values()"
+  overload: "com.microsoft.store.partnercenter.models.query.sort.SortDirection.values*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.query.sort"
   syntax:
-    content: public String toString()
+    content: "public static SortDirection[] values()"
     return:
-      type: "26831127"
-      description: <p>A string that represents this object. </p>
+      type: "com.microsoft.store.partnercenter.models.query.sort.SortDirection[]"
+- uid: "com.microsoft.store.partnercenter.models.query.sort.SortDirection.valueOf(java.lang.String)"
+  id: "valueOf(java.lang.String)"
+  parent: "com.microsoft.store.partnercenter.models.query.sort.SortDirection"
+  langs:
+  - "java"
+  name: "valueOf(String name)"
+  nameWithType: "SortDirection.valueOf(String name)"
+  fullName: "com.microsoft.store.partnercenter.models.query.sort.SortDirection.valueOf(String name)"
+  overload: "com.microsoft.store.partnercenter.models.query.sort.SortDirection.valueOf*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.query.sort"
+  syntax:
+    content: "public static SortDirection valueOf(String name)"
+    parameters:
+    - id: "name"
+      type: "java.lang.String"
+    return:
+      type: "com.microsoft.store.partnercenter.models.query.sort.SortDirection"
+- uid: "com.microsoft.store.partnercenter.models.query.sort.SortDirection.toString()"
+  id: "toString()"
+  parent: "com.microsoft.store.partnercenter.models.query.sort.SortDirection"
+  langs:
+  - "java"
+  name: "toString()"
+  nameWithType: "SortDirection.toString()"
+  fullName: "com.microsoft.store.partnercenter.models.query.sort.SortDirection.toString()"
+  overload: "com.microsoft.store.partnercenter.models.query.sort.SortDirection.toString*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.query.sort"
+  summary: "Converts the object to a string."
+  syntax:
+    content: "public String toString()"
+    return:
+      type: "java.lang.String"
+      description: "A string that represents this object."
+- uid: "com.microsoft.store.partnercenter.models.query.sort.SortDirection.ASCENDING"
+  id: "ASCENDING"
+  parent: "com.microsoft.store.partnercenter.models.query.sort.SortDirection"
+  langs:
+  - "java"
+  name: "ASCENDING"
+  nameWithType: "SortDirection.ASCENDING"
+  fullName: "com.microsoft.store.partnercenter.models.query.sort.SortDirection.ASCENDING"
+  type: "Field"
+  package: "com.microsoft.store.partnercenter.models.query.sort"
+  summary: "Sort direction enumeration. Ascending sort."
+  syntax:
+    content: "public static final SortDirection ASCENDING"
+    return:
+      type: "com.microsoft.store.partnercenter.models.query.sort.SortDirection"
+- uid: "com.microsoft.store.partnercenter.models.query.sort.SortDirection.DESCENDING"
+  id: "DESCENDING"
+  parent: "com.microsoft.store.partnercenter.models.query.sort.SortDirection"
+  langs:
+  - "java"
+  name: "DESCENDING"
+  nameWithType: "SortDirection.DESCENDING"
+  fullName: "com.microsoft.store.partnercenter.models.query.sort.SortDirection.DESCENDING"
+  type: "Field"
+  package: "com.microsoft.store.partnercenter.models.query.sort"
+  summary: "Descending sort."
+  syntax:
+    content: "public static final SortDirection DESCENDING"
+    return:
+      type: "com.microsoft.store.partnercenter.models.query.sort.SortDirection"
 references:
-- uid: "26831127"
-  spec.java:
-  - name: String
-    fullName: String
-- uid: com.microsoft.store.partnercenter.models.query.sort.SortDirection.SortDirection*
-  name: SortDirection
-  nameWithType: SortDirection.SortDirection
-  fullName: com.microsoft.store.partnercenter.models.query.sort.SortDirection.SortDirection
-  package: com.microsoft.store.partnercenter.models.query.sort
-- uid: com.microsoft.store.partnercenter.models.query.sort.SortDirection.toString*
-  name: toString
-  nameWithType: SortDirection.toString
-  fullName: com.microsoft.store.partnercenter.models.query.sort.SortDirection.toString
-  package: com.microsoft.store.partnercenter.models.query.sort
+- uid: "java.lang.String"
+  isExternal: true
+  name: "String"
+  nameWithType: "String"
+  fullName: "java.lang.String"
+- uid: "com.microsoft.store.partnercenter.models.query.sort.SortDirection.SortDirection*"
+  name: "SortDirection"
+  nameWithType: "SortDirection.SortDirection"
+  fullName: "com.microsoft.store.partnercenter.models.query.sort.SortDirection.SortDirection"
+- uid: "com.microsoft.store.partnercenter.models.query.sort.SortDirection.values*"
+  name: "values"
+  nameWithType: "SortDirection.values"
+  fullName: "com.microsoft.store.partnercenter.models.query.sort.SortDirection.values"
+- uid: "com.microsoft.store.partnercenter.models.query.sort.SortDirection.valueOf*"
+  name: "valueOf"
+  nameWithType: "SortDirection.valueOf"
+  fullName: "com.microsoft.store.partnercenter.models.query.sort.SortDirection.valueOf"
+- uid: "com.microsoft.store.partnercenter.models.query.sort.SortDirection.toString*"
+  name: "toString"
+  nameWithType: "SortDirection.toString"
+  fullName: "com.microsoft.store.partnercenter.models.query.sort.SortDirection.toString"
+- uid: "java.lang.Enum<com.microsoft.store.partnercenter.models.query.sort.SortDirection>"
+  isExternal: true
+  name: "Enum<SortDirection>"
+  nameWithType: "Enum<SortDirection>"
+  fullName: "java.lang.Enum<com.microsoft.store.partnercenter.models.query.sort.SortDirection>"
+- uid: "java.lang.Enum"
+  isExternal: true
+  name: "Enum"
+  nameWithType: "Enum"
+  fullName: "java.lang.Enum"

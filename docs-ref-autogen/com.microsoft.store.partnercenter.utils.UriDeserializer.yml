@@ -1,70 +1,99 @@
 ### YamlMime:ManagedReference
 items:
-- uid: com.microsoft.store.partnercenter.utils.UriDeserializer
-  id: UriDeserializer
-  parent: com.microsoft.store.partnercenter.utils
+- uid: "com.microsoft.store.partnercenter.utils.UriDeserializer"
+  id: "UriDeserializer"
+  parent: "com.microsoft.store.partnercenter.utils"
   children:
-  - com.microsoft.store.partnercenter.utils.UriDeserializer.deserialize(JsonParser,DeserializationContext)
-  href: com.microsoft.store.partnercenter.utils.UriDeserializer.yml
+  - "com.microsoft.store.partnercenter.utils.UriDeserializer.UriDeserializer()"
+  - "com.microsoft.store.partnercenter.utils.UriDeserializer.deserialize(com.fasterxml.jackson.core.JsonParser,com.fasterxml.jackson.databind.DeserializationContext)"
   langs:
-  - java
-  name: UriDeserializer
-  nameWithType: UriDeserializer
-  fullName: com.microsoft.store.partnercenter.utils.UriDeserializer
-  type: Class
-  source:
-    remote: &o0
-      path: src/main/java/com/microsoft/store/partnercenter/utils/UriDeserializer.java
-      branch: master
-      repo: https://github.com/microsoft/Partner-Center-Java
-    path: src/main/java/com/microsoft/store/partnercenter/utils/UriDeserializer.java
-    startLine: 20
-  package: com.microsoft.store.partnercenter.utils
+  - "java"
+  name: "UriDeserializer"
+  nameWithType: "UriDeserializer"
+  fullName: "com.microsoft.store.partnercenter.utils.UriDeserializer"
+  type: "Class"
+  package: "com.microsoft.store.partnercenter.utils"
   syntax:
-    content: public class UriDeserializer
+    content: "public class UriDeserializer extends JsonDeserializer<URI>"
   inheritance:
-  - java.lang.Object
-  - com.fasterxml.jackson.databind.JsonDeserializer<URI>
-- uid: com.microsoft.store.partnercenter.utils.UriDeserializer.deserialize(JsonParser,DeserializationContext)
-  id: deserialize(JsonParser,DeserializationContext)
-  parent: com.microsoft.store.partnercenter.utils.UriDeserializer
-  href: com.microsoft.store.partnercenter.utils.UriDeserializer.yml
+  - "com.fasterxml.jackson.databind.JsonDeserializer<java.net.URI>"
+- uid: "com.microsoft.store.partnercenter.utils.UriDeserializer.UriDeserializer()"
+  id: "UriDeserializer()"
+  parent: "com.microsoft.store.partnercenter.utils.UriDeserializer"
   langs:
-  - java
-  name: deserialize(JsonParser parser, DeserializationContext context)
-  nameWithType: UriDeserializer.deserialize(JsonParser parser, DeserializationContext context)
-  fullName: com.microsoft.store.partnercenter.utils.UriDeserializer.deserialize(JsonParser parser, DeserializationContext context)
-  overload: com.microsoft.store.partnercenter.utils.UriDeserializer.deserialize*
-  type: Method
-  source:
-    remote: *o0
-    path: src/main/java/com/microsoft/store/partnercenter/utils/UriDeserializer.java
-    startLine: 24
-  package: com.microsoft.store.partnercenter.utils
+  - "java"
+  name: "UriDeserializer()"
+  nameWithType: "UriDeserializer.UriDeserializer()"
+  fullName: "com.microsoft.store.partnercenter.utils.UriDeserializer.UriDeserializer()"
+  overload: "com.microsoft.store.partnercenter.utils.UriDeserializer.UriDeserializer*"
+  type: "Constructor"
+  package: "com.microsoft.store.partnercenter.utils"
   syntax:
-    content: public URI deserialize(JsonParser parser, DeserializationContext context)
+    content: "public UriDeserializer()"
+- uid: "com.microsoft.store.partnercenter.utils.UriDeserializer.deserialize(com.fasterxml.jackson.core.JsonParser,com.fasterxml.jackson.databind.DeserializationContext)"
+  id: "deserialize(com.fasterxml.jackson.core.JsonParser,com.fasterxml.jackson.databind.DeserializationContext)"
+  parent: "com.microsoft.store.partnercenter.utils.UriDeserializer"
+  langs:
+  - "java"
+  name: "deserialize(JsonParser parser, DeserializationContext context)"
+  nameWithType: "UriDeserializer.deserialize(JsonParser parser, DeserializationContext context)"
+  fullName: "com.microsoft.store.partnercenter.utils.UriDeserializer.deserialize(JsonParser parser, DeserializationContext context)"
+  overload: "com.microsoft.store.partnercenter.utils.UriDeserializer.deserialize*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.utils"
+  syntax:
+    content: "public URI deserialize(JsonParser parser, DeserializationContext context)"
     parameters:
-    - id: parser
-      type: 555884ec
-    - id: context
-      type: 8ccc68c8
+    - id: "parser"
+      type: "com.fasterxml.jackson.core.JsonParser"
+    - id: "context"
+      type: "com.fasterxml.jackson.databind.DeserializationContext"
     return:
-      type: "62304784"
+      type: "java.net.URI"
+  exceptions:
+  - type: "java.io.IOException"
+  - type: "com.fasterxml.jackson.core.JsonProcessingException"
 references:
-- uid: 555884ec
-  spec.java:
-  - name: JsonParser
-    fullName: JsonParser
-- uid: 8ccc68c8
-  spec.java:
-  - name: DeserializationContext
-    fullName: DeserializationContext
-- uid: "62304784"
-  spec.java:
-  - name: URI
-    fullName: URI
-- uid: com.microsoft.store.partnercenter.utils.UriDeserializer.deserialize*
-  name: deserialize
-  nameWithType: UriDeserializer.deserialize
-  fullName: com.microsoft.store.partnercenter.utils.UriDeserializer.deserialize
-  package: com.microsoft.store.partnercenter.utils
+- uid: "com.microsoft.store.partnercenter.utils.UriDeserializer.UriDeserializer*"
+  name: "UriDeserializer"
+  nameWithType: "UriDeserializer.UriDeserializer"
+  fullName: "com.microsoft.store.partnercenter.utils.UriDeserializer.UriDeserializer"
+- uid: "java.io.IOException"
+  isExternal: true
+  name: "IOException"
+  nameWithType: "IOException"
+  fullName: "java.io.IOException"
+- uid: "com.fasterxml.jackson.core.JsonProcessingException"
+  isExternal: true
+  name: "JsonProcessingException"
+  nameWithType: "JsonProcessingException"
+  fullName: "com.fasterxml.jackson.core.JsonProcessingException"
+- uid: "com.fasterxml.jackson.core.JsonParser"
+  isExternal: true
+  name: "JsonParser"
+  nameWithType: "JsonParser"
+  fullName: "com.fasterxml.jackson.core.JsonParser"
+- uid: "com.fasterxml.jackson.databind.DeserializationContext"
+  isExternal: true
+  name: "DeserializationContext"
+  nameWithType: "DeserializationContext"
+  fullName: "com.fasterxml.jackson.databind.DeserializationContext"
+- uid: "java.net.URI"
+  isExternal: true
+  name: "URI"
+  nameWithType: "URI"
+  fullName: "java.net.URI"
+- uid: "com.microsoft.store.partnercenter.utils.UriDeserializer.deserialize*"
+  name: "deserialize"
+  nameWithType: "UriDeserializer.deserialize"
+  fullName: "com.microsoft.store.partnercenter.utils.UriDeserializer.deserialize"
+- uid: "com.fasterxml.jackson.databind.JsonDeserializer<java.net.URI>"
+  isExternal: true
+  name: "JsonDeserializer<URI>"
+  nameWithType: "JsonDeserializer<URI>"
+  fullName: "com.fasterxml.jackson.databind.JsonDeserializer<java.net.URI>"
+- uid: "com.fasterxml.jackson.databind.JsonDeserializer"
+  isExternal: true
+  name: "JsonDeserializer"
+  nameWithType: "JsonDeserializer"
+  fullName: "com.fasterxml.jackson.databind.JsonDeserializer"

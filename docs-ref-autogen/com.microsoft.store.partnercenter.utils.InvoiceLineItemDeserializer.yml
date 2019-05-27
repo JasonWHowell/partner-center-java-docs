@@ -1,126 +1,131 @@
 ### YamlMime:ManagedReference
 items:
-- uid: com.microsoft.store.partnercenter.utils.InvoiceLineItemDeserializer
-  id: InvoiceLineItemDeserializer
-  parent: com.microsoft.store.partnercenter.utils
+- uid: "com.microsoft.store.partnercenter.utils.InvoiceLineItemDeserializer"
+  id: "InvoiceLineItemDeserializer"
+  parent: "com.microsoft.store.partnercenter.utils"
   children:
-  - com.microsoft.store.partnercenter.utils.InvoiceLineItemDeserializer.deserialize(JsonParser,DeserializationContext)
-  - com.microsoft.store.partnercenter.utils.InvoiceLineItemDeserializer.InvoiceLineItemDeserializer()
-  - com.microsoft.store.partnercenter.utils.InvoiceLineItemDeserializer.InvoiceLineItemDeserializer(Class<?>)
-  href: com.microsoft.store.partnercenter.utils.InvoiceLineItemDeserializer.yml
+  - "com.microsoft.store.partnercenter.utils.InvoiceLineItemDeserializer.InvoiceLineItemDeserializer()"
+  - "com.microsoft.store.partnercenter.utils.InvoiceLineItemDeserializer.InvoiceLineItemDeserializer(java.lang.Class<?>)"
+  - "com.microsoft.store.partnercenter.utils.InvoiceLineItemDeserializer.deserialize(com.fasterxml.jackson.core.JsonParser,com.fasterxml.jackson.databind.DeserializationContext)"
   langs:
-  - java
-  name: InvoiceLineItemDeserializer
-  nameWithType: InvoiceLineItemDeserializer
-  fullName: com.microsoft.store.partnercenter.utils.InvoiceLineItemDeserializer
-  type: Class
-  source:
-    remote: &o0
-      path: src/main/java/com/microsoft/store/partnercenter/utils/InvoiceLineItemDeserializer.java
-      branch: master
-      repo: https://github.com/microsoft/Partner-Center-Java
-    path: src/main/java/com/microsoft/store/partnercenter/utils/InvoiceLineItemDeserializer.java
-    startLine: 26
-  package: com.microsoft.store.partnercenter.utils
+  - "java"
+  name: "InvoiceLineItemDeserializer"
+  nameWithType: "InvoiceLineItemDeserializer"
+  fullName: "com.microsoft.store.partnercenter.utils.InvoiceLineItemDeserializer"
+  type: "Class"
+  package: "com.microsoft.store.partnercenter.utils"
   syntax:
-    content: public class InvoiceLineItemDeserializer
+    content: "public class InvoiceLineItemDeserializer extends StdDeserializer<InvoiceLineItem>"
   inheritance:
-  - java.lang.Object
-  - com.fasterxml.jackson.databind.deser.std.StdDeserializer<InvoiceLineItem>
-- uid: com.microsoft.store.partnercenter.utils.InvoiceLineItemDeserializer.deserialize(JsonParser,DeserializationContext)
-  id: deserialize(JsonParser,DeserializationContext)
-  parent: com.microsoft.store.partnercenter.utils.InvoiceLineItemDeserializer
-  href: com.microsoft.store.partnercenter.utils.InvoiceLineItemDeserializer.yml
+  - "com.fasterxml.jackson.databind.deser.std.StdDeserializer<com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem>"
+- uid: "com.microsoft.store.partnercenter.utils.InvoiceLineItemDeserializer.InvoiceLineItemDeserializer()"
+  id: "InvoiceLineItemDeserializer()"
+  parent: "com.microsoft.store.partnercenter.utils.InvoiceLineItemDeserializer"
   langs:
-  - java
-  name: deserialize(JsonParser parser, DeserializationContext ctxt)
-  nameWithType: InvoiceLineItemDeserializer.deserialize(JsonParser parser, DeserializationContext ctxt)
-  fullName: com.microsoft.store.partnercenter.utils.InvoiceLineItemDeserializer.deserialize(JsonParser parser, DeserializationContext ctxt)
-  overload: com.microsoft.store.partnercenter.utils.InvoiceLineItemDeserializer.deserialize*
-  type: Method
-  source:
-    remote: *o0
-    path: src/main/java/com/microsoft/store/partnercenter/utils/InvoiceLineItemDeserializer.java
-    startLine: 42
-  package: com.microsoft.store.partnercenter.utils
+  - "java"
+  name: "InvoiceLineItemDeserializer()"
+  nameWithType: "InvoiceLineItemDeserializer.InvoiceLineItemDeserializer()"
+  fullName: "com.microsoft.store.partnercenter.utils.InvoiceLineItemDeserializer.InvoiceLineItemDeserializer()"
+  overload: "com.microsoft.store.partnercenter.utils.InvoiceLineItemDeserializer.InvoiceLineItemDeserializer*"
+  type: "Constructor"
+  package: "com.microsoft.store.partnercenter.utils"
   syntax:
-    content: public InvoiceLineItem deserialize(JsonParser parser, DeserializationContext ctxt)
+    content: "public InvoiceLineItemDeserializer()"
+- uid: "com.microsoft.store.partnercenter.utils.InvoiceLineItemDeserializer.InvoiceLineItemDeserializer(java.lang.Class<?>)"
+  id: "InvoiceLineItemDeserializer(java.lang.Class<?>)"
+  parent: "com.microsoft.store.partnercenter.utils.InvoiceLineItemDeserializer"
+  langs:
+  - "java"
+  name: "InvoiceLineItemDeserializer(Class<?> vc)"
+  nameWithType: "InvoiceLineItemDeserializer.InvoiceLineItemDeserializer(Class<?> vc)"
+  fullName: "com.microsoft.store.partnercenter.utils.InvoiceLineItemDeserializer.InvoiceLineItemDeserializer(Class<?> vc)"
+  overload: "com.microsoft.store.partnercenter.utils.InvoiceLineItemDeserializer.InvoiceLineItemDeserializer*"
+  type: "Constructor"
+  package: "com.microsoft.store.partnercenter.utils"
+  syntax:
+    content: "public InvoiceLineItemDeserializer(Class<?> vc)"
     parameters:
-    - id: parser
-      type: 555884ec
-    - id: ctxt
-      type: 8ccc68c8
+    - id: "vc"
+      type: "java.lang.Class<?>"
+- uid: "com.microsoft.store.partnercenter.utils.InvoiceLineItemDeserializer.deserialize(com.fasterxml.jackson.core.JsonParser,com.fasterxml.jackson.databind.DeserializationContext)"
+  id: "deserialize(com.fasterxml.jackson.core.JsonParser,com.fasterxml.jackson.databind.DeserializationContext)"
+  parent: "com.microsoft.store.partnercenter.utils.InvoiceLineItemDeserializer"
+  langs:
+  - "java"
+  name: "deserialize(JsonParser parser, DeserializationContext ctxt)"
+  nameWithType: "InvoiceLineItemDeserializer.deserialize(JsonParser parser, DeserializationContext ctxt)"
+  fullName: "com.microsoft.store.partnercenter.utils.InvoiceLineItemDeserializer.deserialize(JsonParser parser, DeserializationContext ctxt)"
+  overload: "com.microsoft.store.partnercenter.utils.InvoiceLineItemDeserializer.deserialize*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.utils"
+  syntax:
+    content: "public InvoiceLineItem deserialize(JsonParser parser, DeserializationContext ctxt)"
+    parameters:
+    - id: "parser"
+      type: "com.fasterxml.jackson.core.JsonParser"
+    - id: "ctxt"
+      type: "com.fasterxml.jackson.databind.DeserializationContext"
     return:
-      type: com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem
-- uid: com.microsoft.store.partnercenter.utils.InvoiceLineItemDeserializer.InvoiceLineItemDeserializer()
-  id: InvoiceLineItemDeserializer()
-  parent: com.microsoft.store.partnercenter.utils.InvoiceLineItemDeserializer
-  href: com.microsoft.store.partnercenter.utils.InvoiceLineItemDeserializer.yml
-  langs:
-  - java
-  name: InvoiceLineItemDeserializer()
-  nameWithType: InvoiceLineItemDeserializer.InvoiceLineItemDeserializer()
-  fullName: com.microsoft.store.partnercenter.utils.InvoiceLineItemDeserializer.InvoiceLineItemDeserializer()
-  overload: com.microsoft.store.partnercenter.utils.InvoiceLineItemDeserializer.InvoiceLineItemDeserializer*
-  type: Constructor
-  source:
-    remote: *o0
-    path: src/main/java/com/microsoft/store/partnercenter/utils/InvoiceLineItemDeserializer.java
-    startLine: 31
-  package: com.microsoft.store.partnercenter.utils
-  syntax:
-    content: public InvoiceLineItemDeserializer()
-- uid: com.microsoft.store.partnercenter.utils.InvoiceLineItemDeserializer.InvoiceLineItemDeserializer(Class<?>)
-  id: InvoiceLineItemDeserializer(Class<?>)
-  parent: com.microsoft.store.partnercenter.utils.InvoiceLineItemDeserializer
-  href: com.microsoft.store.partnercenter.utils.InvoiceLineItemDeserializer.yml
-  langs:
-  - java
-  name: InvoiceLineItemDeserializer(Class<?> vc)
-  nameWithType: InvoiceLineItemDeserializer.InvoiceLineItemDeserializer(Class<?> vc)
-  fullName: com.microsoft.store.partnercenter.utils.InvoiceLineItemDeserializer.InvoiceLineItemDeserializer(Class<?> vc)
-  overload: com.microsoft.store.partnercenter.utils.InvoiceLineItemDeserializer.InvoiceLineItemDeserializer*
-  type: Constructor
-  source:
-    remote: *o0
-    path: src/main/java/com/microsoft/store/partnercenter/utils/InvoiceLineItemDeserializer.java
-    startLine: 36
-  package: com.microsoft.store.partnercenter.utils
-  syntax:
-    content: public InvoiceLineItemDeserializer(Class<?> vc)
-    parameters:
-    - id: vc
-      type: a19781f8
+      type: "com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem"
+  exceptions:
+  - type: "java.io.IOException"
+  - type: "com.fasterxml.jackson.core.JsonProcessingException"
 references:
-- uid: com.microsoft.store.partnercenter.utils.InvoiceLineItemDeserializer.InvoiceLineItemDeserializer*
-  name: InvoiceLineItemDeserializer
-  nameWithType: InvoiceLineItemDeserializer.InvoiceLineItemDeserializer
-  fullName: com.microsoft.store.partnercenter.utils.InvoiceLineItemDeserializer.InvoiceLineItemDeserializer
-  package: com.microsoft.store.partnercenter.utils
-- uid: a19781f8
-  spec.java:
-  - name: Class<?>
-    fullName: Class<?>
-- uid: 555884ec
-  spec.java:
-  - name: JsonParser
-    fullName: JsonParser
-- uid: 8ccc68c8
-  spec.java:
-  - name: DeserializationContext
-    fullName: DeserializationContext
-- uid: com.microsoft.store.partnercenter.utils.InvoiceLineItemDeserializer.deserialize*
-  name: deserialize
-  nameWithType: InvoiceLineItemDeserializer.deserialize
-  fullName: com.microsoft.store.partnercenter.utils.InvoiceLineItemDeserializer.deserialize
-  package: com.microsoft.store.partnercenter.utils
-- uid: com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem
-  parent: com.microsoft.store.partnercenter.models.invoices
-  href: com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem.yml
-  name: InvoiceLineItem
-  nameWithType: InvoiceLineItem
-  fullName: com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem
-  type: Class
-  summary: "<p>Represents a line item on an invoice. </p>"
-  syntax:
-    content: public class InvoiceLineItem extends ResourceBase
+- uid: "com.microsoft.store.partnercenter.utils.InvoiceLineItemDeserializer.InvoiceLineItemDeserializer*"
+  name: "InvoiceLineItemDeserializer"
+  nameWithType: "InvoiceLineItemDeserializer.InvoiceLineItemDeserializer"
+  fullName: "com.microsoft.store.partnercenter.utils.InvoiceLineItemDeserializer.InvoiceLineItemDeserializer"
+- uid: "java.lang.Class<?>"
+  isExternal: true
+  name: "Class<?>"
+  nameWithType: "Class<?>"
+  fullName: "java.lang.Class<?>"
+- uid: "java.io.IOException"
+  isExternal: true
+  name: "IOException"
+  nameWithType: "IOException"
+  fullName: "java.io.IOException"
+- uid: "com.fasterxml.jackson.core.JsonProcessingException"
+  isExternal: true
+  name: "JsonProcessingException"
+  nameWithType: "JsonProcessingException"
+  fullName: "com.fasterxml.jackson.core.JsonProcessingException"
+- uid: "com.fasterxml.jackson.core.JsonParser"
+  isExternal: true
+  name: "JsonParser"
+  nameWithType: "JsonParser"
+  fullName: "com.fasterxml.jackson.core.JsonParser"
+- uid: "com.fasterxml.jackson.databind.DeserializationContext"
+  isExternal: true
+  name: "DeserializationContext"
+  nameWithType: "DeserializationContext"
+  fullName: "com.fasterxml.jackson.databind.DeserializationContext"
+- uid: "com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem"
+  isExternal: true
+  name: "InvoiceLineItem"
+  nameWithType: "InvoiceLineItem"
+  fullName: "com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem"
+- uid: "com.microsoft.store.partnercenter.utils.InvoiceLineItemDeserializer.deserialize*"
+  name: "deserialize"
+  nameWithType: "InvoiceLineItemDeserializer.deserialize"
+  fullName: "com.microsoft.store.partnercenter.utils.InvoiceLineItemDeserializer.deserialize"
+- uid: "com.fasterxml.jackson.databind.deser.std.StdDeserializer<com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem>"
+  isExternal: true
+  name: "StdDeserializer<InvoiceLineItem>"
+  nameWithType: "StdDeserializer<InvoiceLineItem>"
+  fullName: "com.fasterxml.jackson.databind.deser.std.StdDeserializer<com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem>"
+- uid: "java.lang.Class"
+  isExternal: true
+  name: "Class"
+  nameWithType: "Class"
+  fullName: "java.lang.Class"
+- uid: "?"
+  isExternal: true
+  name: "?"
+  nameWithType: "?"
+  fullName: "?"
+- uid: "com.fasterxml.jackson.databind.deser.std.StdDeserializer"
+  isExternal: true
+  name: "StdDeserializer"
+  nameWithType: "StdDeserializer"
+  fullName: "com.fasterxml.jackson.databind.deser.std.StdDeserializer"
