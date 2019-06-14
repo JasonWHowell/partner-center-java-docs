@@ -73,6 +73,7 @@ references:
   name: "CustomerLicensesUsageInsightsCollectionOperations"
   nameWithType: "CustomerLicensesUsageInsightsCollectionOperations.CustomerLicensesUsageInsightsCollectionOperations"
   fullName: "com.microsoft.store.partnercenter.analytics.CustomerLicensesUsageInsightsCollectionOperations.CustomerLicensesUsageInsightsCollectionOperations"
+  package: "com.microsoft.store.partnercenter.analytics"
 - uid: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.analytics.CustomerLicensesUsageInsights>"
   isExternal: true
   name: "ResourceCollection<CustomerLicensesUsageInsights>"
@@ -82,6 +83,7 @@ references:
   name: "get"
   nameWithType: "CustomerLicensesUsageInsightsCollectionOperations.get"
   fullName: "com.microsoft.store.partnercenter.analytics.CustomerLicensesUsageInsightsCollectionOperations.get"
+  package: "com.microsoft.store.partnercenter.analytics"
 - uid: "com.microsoft.store.partnercenter.BasePartnerComponentString"
   isExternal: true
   name: "BasePartnerComponentString"

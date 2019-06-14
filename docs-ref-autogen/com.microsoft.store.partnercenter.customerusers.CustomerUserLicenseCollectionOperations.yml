@@ -97,6 +97,7 @@ references:
   name: "CustomerUserLicenseCollectionOperations"
   nameWithType: "CustomerUserLicenseCollectionOperations.CustomerUserLicenseCollectionOperations"
   fullName: "com.microsoft.store.partnercenter.customerusers.CustomerUserLicenseCollectionOperations.CustomerUserLicenseCollectionOperations"
+  package: "com.microsoft.store.partnercenter.customerusers"
 - uid: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.licenses.License>"
   isExternal: true
   name: "ResourceCollection<License>"
@@ -106,6 +107,7 @@ references:
   name: "get"
   nameWithType: "CustomerUserLicenseCollectionOperations.get"
   fullName: "com.microsoft.store.partnercenter.customerusers.CustomerUserLicenseCollectionOperations.get"
+  package: "com.microsoft.store.partnercenter.customerusers"
 - uid: "java.util.List<com.microsoft.store.partnercenter.models.licenses.LicenseGroupId>"
   isExternal: true
   name: "List<LicenseGroupId>"

@@ -51,3 +51,4 @@ references:
   name: "byCurrency"
   nameWithType: "IEstimateLink.byCurrency"
   fullName: "com.microsoft.store.partnercenter.invoices.IEstimateLink.byCurrency"
+  package: "com.microsoft.store.partnercenter.invoices"

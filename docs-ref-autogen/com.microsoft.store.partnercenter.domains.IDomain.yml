@@ -44,6 +44,7 @@ references:
   name: "exists"
   nameWithType: "IDomain.exists"
   fullName: "com.microsoft.store.partnercenter.domains.IDomain.exists"
+  package: "com.microsoft.store.partnercenter.domains"
 - uid: "com.microsoft.store.partnercenter.IPartnerComponentString"
   isExternal: true
   name: "IPartnerComponentString"

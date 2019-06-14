@@ -71,6 +71,7 @@ references:
   name: "InvoiceDocumentsOperations"
   nameWithType: "InvoiceDocumentsOperations.InvoiceDocumentsOperations"
   fullName: "com.microsoft.store.partnercenter.invoices.InvoiceDocumentsOperations.InvoiceDocumentsOperations"
+  package: "com.microsoft.store.partnercenter.invoices"
 - uid: "com.microsoft.store.partnercenter.invoices.IInvoiceStatement"
   isExternal: true
   name: "IInvoiceStatement"
@@ -80,6 +81,7 @@ references:
   name: "getStatement"
   nameWithType: "InvoiceDocumentsOperations.getStatement"
   fullName: "com.microsoft.store.partnercenter.invoices.InvoiceDocumentsOperations.getStatement"
+  package: "com.microsoft.store.partnercenter.invoices"
 - uid: "com.microsoft.store.partnercenter.BasePartnerComponentString"
   isExternal: true
   name: "BasePartnerComponentString"

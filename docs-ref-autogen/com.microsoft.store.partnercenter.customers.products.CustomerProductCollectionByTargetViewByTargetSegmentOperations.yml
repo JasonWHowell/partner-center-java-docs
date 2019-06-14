@@ -79,6 +79,7 @@ references:
   name: "CustomerProductCollectionByTargetViewByTargetSegmentOperations"
   nameWithType: "CustomerProductCollectionByTargetViewByTargetSegmentOperations.CustomerProductCollectionByTargetViewByTargetSegmentOperations"
   fullName: "com.microsoft.store.partnercenter.customers.products.CustomerProductCollectionByTargetViewByTargetSegmentOperations.CustomerProductCollectionByTargetViewByTargetSegmentOperations"
+  package: "com.microsoft.store.partnercenter.customers.products"
 - uid: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.products.Product>"
   isExternal: true
   name: "ResourceCollection<Product>"
@@ -88,6 +89,7 @@ references:
   name: "get"
   nameWithType: "CustomerProductCollectionByTargetViewByTargetSegmentOperations.get"
   fullName: "com.microsoft.store.partnercenter.customers.products.CustomerProductCollectionByTargetViewByTargetSegmentOperations.get"
+  package: "com.microsoft.store.partnercenter.customers.products"
 - uid: "com.microsoft.store.partnercenter.BasePartnerComponent<com.microsoft.store.partnercenter.models.utils.TripletTuple<java.lang.String,java.lang.String,java.lang.String>>"
   isExternal: true
   name: "BasePartnerComponent<TripletTuple<String,String,String>>"

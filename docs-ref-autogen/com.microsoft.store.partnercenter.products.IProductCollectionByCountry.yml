@@ -76,6 +76,7 @@ references:
   name: "byId"
   nameWithType: "IProductCollectionByCountry.byId"
   fullName: "com.microsoft.store.partnercenter.products.IProductCollectionByCountry.byId"
+  package: "com.microsoft.store.partnercenter.products"
 - uid: "com.microsoft.store.partnercenter.products.IProductCollectionByCountryByTargetView"
   isExternal: true
   name: "IProductCollectionByCountryByTargetView"
@@ -85,6 +86,7 @@ references:
   name: "byTargetView"
   nameWithType: "IProductCollectionByCountry.byTargetView"
   fullName: "com.microsoft.store.partnercenter.products.IProductCollectionByCountry.byTargetView"
+  package: "com.microsoft.store.partnercenter.products"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntitySelector<java.lang.String,com.microsoft.store.partnercenter.products.IProduct>"
   isExternal: true
   name: "IEntitySelector<String,IProduct>"

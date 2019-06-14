@@ -67,6 +67,7 @@ references:
   name: "BasePartnerComponentString"
   nameWithType: "BasePartnerComponentString.BasePartnerComponentString"
   fullName: "com.microsoft.store.partnercenter.BasePartnerComponentString.BasePartnerComponentString"
+  package: "com.microsoft.store.partnercenter"
 - uid: "java.lang.String"
   isExternal: true
   name: "String"

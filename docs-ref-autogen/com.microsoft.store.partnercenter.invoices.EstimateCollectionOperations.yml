@@ -65,6 +65,7 @@ references:
   name: "EstimateCollectionOperations"
   nameWithType: "EstimateCollectionOperations.EstimateCollectionOperations"
   fullName: "com.microsoft.store.partnercenter.invoices.EstimateCollectionOperations.EstimateCollectionOperations"
+  package: "com.microsoft.store.partnercenter.invoices"
 - uid: "com.microsoft.store.partnercenter.invoices.IEstimateLink"
   isExternal: true
   name: "IEstimateLink"
@@ -74,6 +75,7 @@ references:
   name: "getLinks"
   nameWithType: "EstimateCollectionOperations.getLinks"
   fullName: "com.microsoft.store.partnercenter.invoices.EstimateCollectionOperations.getLinks"
+  package: "com.microsoft.store.partnercenter.invoices"
 - uid: "com.microsoft.store.partnercenter.BasePartnerComponentString"
   isExternal: true
   name: "BasePartnerComponentString"

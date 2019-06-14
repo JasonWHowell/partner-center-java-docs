@@ -98,6 +98,7 @@ references:
   name: "CustomerProductCollectionOperations"
   nameWithType: "CustomerProductCollectionOperations.CustomerProductCollectionOperations"
   fullName: "com.microsoft.store.partnercenter.customers.products.CustomerProductCollectionOperations.CustomerProductCollectionOperations"
+  package: "com.microsoft.store.partnercenter.customers.products"
 - uid: "com.microsoft.store.partnercenter.products.IProduct"
   isExternal: true
   name: "IProduct"
@@ -107,6 +108,7 @@ references:
   name: "byId"
   nameWithType: "CustomerProductCollectionOperations.byId"
   fullName: "com.microsoft.store.partnercenter.customers.products.CustomerProductCollectionOperations.byId"
+  package: "com.microsoft.store.partnercenter.customers.products"
 - uid: "com.microsoft.store.partnercenter.customers.products.ICustomerProductCollectionByTargetView"
   isExternal: true
   name: "ICustomerProductCollectionByTargetView"
@@ -116,6 +118,7 @@ references:
   name: "byTargetView"
   nameWithType: "CustomerProductCollectionOperations.byTargetView"
   fullName: "com.microsoft.store.partnercenter.customers.products.CustomerProductCollectionOperations.byTargetView"
+  package: "com.microsoft.store.partnercenter.customers.products"
 - uid: "com.microsoft.store.partnercenter.BasePartnerComponentString"
   isExternal: true
   name: "BasePartnerComponentString"

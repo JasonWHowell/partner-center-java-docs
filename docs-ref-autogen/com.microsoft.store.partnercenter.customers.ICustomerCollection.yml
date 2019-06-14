@@ -56,7 +56,7 @@ items:
     content: "public abstract ICustomerRelationshipRequest getRelationshipRequests()"
     return:
       type: "com.microsoft.store.partnercenter.relationshiprequests.ICustomerRelationshipRequest"
-      description: "The customer replationship request operations."
+      description: "The customer relationship request operations."
 - uid: "com.microsoft.store.partnercenter.customers.ICustomerCollection.byId(java.lang.String)"
   id: "byId(java.lang.String)"
   parent: "com.microsoft.store.partnercenter.customers.ICustomerCollection"
@@ -126,6 +126,7 @@ references:
   name: "getUsageRecords"
   nameWithType: "ICustomerCollection.getUsageRecords"
   fullName: "com.microsoft.store.partnercenter.customers.ICustomerCollection.getUsageRecords"
+  package: "com.microsoft.store.partnercenter.customers"
 - uid: "com.microsoft.store.partnercenter.relationshiprequests.ICustomerRelationshipRequest"
   isExternal: true
   name: "ICustomerRelationshipRequest"
@@ -135,6 +136,7 @@ references:
   name: "getRelationshipRequests"
   nameWithType: "ICustomerCollection.getRelationshipRequests"
   fullName: "com.microsoft.store.partnercenter.customers.ICustomerCollection.getRelationshipRequests"
+  package: "com.microsoft.store.partnercenter.customers"
 - uid: "java.lang.String"
   isExternal: true
   name: "String"
@@ -149,6 +151,7 @@ references:
   name: "byId"
   nameWithType: "ICustomerCollection.byId"
   fullName: "com.microsoft.store.partnercenter.customers.ICustomerCollection.byId"
+  package: "com.microsoft.store.partnercenter.customers"
 - uid: "com.microsoft.store.partnercenter.models.SeekBasedResourceCollection<com.microsoft.store.partnercenter.models.customers.Customer>"
   isExternal: true
   name: "SeekBasedResourceCollection<Customer>"
@@ -158,6 +161,7 @@ references:
   name: "get"
   nameWithType: "ICustomerCollection.get"
   fullName: "com.microsoft.store.partnercenter.customers.ICustomerCollection.get"
+  package: "com.microsoft.store.partnercenter.customers"
 - uid: "com.microsoft.store.partnercenter.models.query.IQuery"
   isExternal: true
   name: "IQuery"
@@ -167,6 +171,7 @@ references:
   name: "query"
   nameWithType: "ICustomerCollection.query"
   fullName: "com.microsoft.store.partnercenter.customers.ICustomerCollection.query"
+  package: "com.microsoft.store.partnercenter.customers"
 - uid: "com.microsoft.store.partnercenter.IPartnerComponentString"
   isExternal: true
   name: "IPartnerComponentString"

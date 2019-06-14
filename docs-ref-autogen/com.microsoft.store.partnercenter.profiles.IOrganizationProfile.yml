@@ -68,10 +68,12 @@ references:
   name: "get"
   nameWithType: "IOrganizationProfile.get"
   fullName: "com.microsoft.store.partnercenter.profiles.IOrganizationProfile.get"
+  package: "com.microsoft.store.partnercenter.profiles"
 - uid: "com.microsoft.store.partnercenter.profiles.IOrganizationProfile.update*"
   name: "update"
   nameWithType: "IOrganizationProfile.update"
   fullName: "com.microsoft.store.partnercenter.profiles.IOrganizationProfile.update"
+  package: "com.microsoft.store.partnercenter.profiles"
 - uid: "com.microsoft.store.partnercenter.IPartnerComponentString"
   isExternal: true
   name: "IPartnerComponentString"

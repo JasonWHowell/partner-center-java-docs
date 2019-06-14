@@ -53,6 +53,7 @@ references:
   name: "get"
   nameWithType: "IServiceIncidentCollection.get"
   fullName: "com.microsoft.store.partnercenter.serviceincidents.IServiceIncidentCollection.get"
+  package: "com.microsoft.store.partnercenter.serviceincidents"
 - uid: "com.microsoft.store.partnercenter.IPartnerComponentString"
   isExternal: true
   name: "IPartnerComponentString"

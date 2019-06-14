@@ -78,6 +78,7 @@ references:
   name: "byBillingCycleType"
   nameWithType: "IOrderCollection.byBillingCycleType"
   fullName: "com.microsoft.store.partnercenter.orders.IOrderCollection.byBillingCycleType"
+  package: "com.microsoft.store.partnercenter.orders"
 - uid: "java.lang.Boolean"
   isExternal: true
   name: "Boolean"
@@ -92,6 +93,7 @@ references:
   name: "get"
   nameWithType: "IOrderCollection.get"
   fullName: "com.microsoft.store.partnercenter.orders.IOrderCollection.get"
+  package: "com.microsoft.store.partnercenter.orders"
 - uid: "com.microsoft.store.partnercenter.IPartnerComponentString"
   isExternal: true
   name: "IPartnerComponentString"

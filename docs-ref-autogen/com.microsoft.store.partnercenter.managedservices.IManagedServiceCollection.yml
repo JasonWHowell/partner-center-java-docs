@@ -45,6 +45,7 @@ references:
   name: "get"
   nameWithType: "IManagedServiceCollection.get"
   fullName: "com.microsoft.store.partnercenter.managedservices.IManagedServiceCollection.get"
+  package: "com.microsoft.store.partnercenter.managedservices"
 - uid: "com.microsoft.store.partnercenter.IPartnerComponentString"
   isExternal: true
   name: "IPartnerComponentString"

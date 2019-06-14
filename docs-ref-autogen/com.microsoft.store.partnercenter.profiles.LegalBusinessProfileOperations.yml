@@ -87,6 +87,7 @@ references:
   name: "LegalBusinessProfileOperations"
   nameWithType: "LegalBusinessProfileOperations.LegalBusinessProfileOperations"
   fullName: "com.microsoft.store.partnercenter.profiles.LegalBusinessProfileOperations.LegalBusinessProfileOperations"
+  package: "com.microsoft.store.partnercenter.profiles"
 - uid: "com.microsoft.store.partnercenter.models.partners.LegalBusinessProfile"
   isExternal: true
   name: "LegalBusinessProfile"
@@ -96,10 +97,12 @@ references:
   name: "get"
   nameWithType: "LegalBusinessProfileOperations.get"
   fullName: "com.microsoft.store.partnercenter.profiles.LegalBusinessProfileOperations.get"
+  package: "com.microsoft.store.partnercenter.profiles"
 - uid: "com.microsoft.store.partnercenter.profiles.LegalBusinessProfileOperations.update*"
   name: "update"
   nameWithType: "LegalBusinessProfileOperations.update"
   fullName: "com.microsoft.store.partnercenter.profiles.LegalBusinessProfileOperations.update"
+  package: "com.microsoft.store.partnercenter.profiles"
 - uid: "com.microsoft.store.partnercenter.BasePartnerComponentString"
   isExternal: true
   name: "BasePartnerComponentString"

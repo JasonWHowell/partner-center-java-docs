@@ -97,6 +97,7 @@ references:
   name: "SkuOperations"
   nameWithType: "SkuOperations.SkuOperations"
   fullName: "com.microsoft.store.partnercenter.products.SkuOperations.SkuOperations"
+  package: "com.microsoft.store.partnercenter.products"
 - uid: "com.microsoft.store.partnercenter.products.IAvailabilityCollection"
   isExternal: true
   name: "IAvailabilityCollection"
@@ -106,6 +107,7 @@ references:
   name: "getAvailabilities"
   nameWithType: "SkuOperations.getAvailabilities"
   fullName: "com.microsoft.store.partnercenter.products.SkuOperations.getAvailabilities"
+  package: "com.microsoft.store.partnercenter.products"
 - uid: "com.microsoft.store.partnercenter.models.products.Sku"
   isExternal: true
   name: "Sku"
@@ -115,6 +117,7 @@ references:
   name: "get"
   nameWithType: "SkuOperations.get"
   fullName: "com.microsoft.store.partnercenter.products.SkuOperations.get"
+  package: "com.microsoft.store.partnercenter.products"
 - uid: "com.microsoft.store.partnercenter.BasePartnerComponent<com.microsoft.store.partnercenter.models.utils.TripletTuple<java.lang.String,java.lang.String,java.lang.String>>"
   isExternal: true
   name: "BasePartnerComponent<TripletTuple<String,String,String>>"

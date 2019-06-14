@@ -44,6 +44,7 @@ references:
   name: "getActivationLink"
   nameWithType: "IOrderLineItem.getActivationLink"
   fullName: "com.microsoft.store.partnercenter.orders.IOrderLineItem.getActivationLink"
+  package: "com.microsoft.store.partnercenter.orders"
 - uid: "com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.TripletTuple<java.lang.String,java.lang.String,java.lang.Integer>>"
   isExternal: true
   name: "IPartnerComponent<TripletTuple<String,String,Integer>>"

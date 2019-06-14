@@ -49,6 +49,7 @@ references:
   name: "create"
   nameWithType: "ICustomerUserLicenseUpdates.create"
   fullName: "com.microsoft.store.partnercenter.customerusers.ICustomerUserLicenseUpdates.create"
+  package: "com.microsoft.store.partnercenter.customerusers"
 - uid: "com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>"
   isExternal: true
   name: "IPartnerComponent<Tuple<String,String>>"

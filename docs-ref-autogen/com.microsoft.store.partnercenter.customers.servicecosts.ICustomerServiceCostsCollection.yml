@@ -53,6 +53,7 @@ references:
   name: "byBillingPeriod"
   nameWithType: "ICustomerServiceCostsCollection.byBillingPeriod"
   fullName: "com.microsoft.store.partnercenter.customers.servicecosts.ICustomerServiceCostsCollection.byBillingPeriod"
+  package: "com.microsoft.store.partnercenter.customers.servicecosts"
 - uid: "com.microsoft.store.partnercenter.IPartnerComponentString"
   isExternal: true
   name: "IPartnerComponentString"

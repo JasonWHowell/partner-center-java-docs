@@ -45,6 +45,7 @@ references:
   name: "get"
   nameWithType: "ISubscriptionRegistrationStatus.get"
   fullName: "com.microsoft.store.partnercenter.subscriptions.ISubscriptionRegistrationStatus.get"
+  package: "com.microsoft.store.partnercenter.subscriptions"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations<com.microsoft.store.partnercenter.models.subscriptions.SubscriptionRegistrationStatus>"
   isExternal: true
   name: "IEntityGetOperations<SubscriptionRegistrationStatus>"

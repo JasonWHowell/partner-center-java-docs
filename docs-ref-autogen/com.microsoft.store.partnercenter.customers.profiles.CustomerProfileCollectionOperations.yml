@@ -89,6 +89,7 @@ references:
   name: "CustomerProfileCollectionOperations"
   nameWithType: "CustomerProfileCollectionOperations.CustomerProfileCollectionOperations"
   fullName: "com.microsoft.store.partnercenter.customers.profiles.CustomerProfileCollectionOperations.CustomerProfileCollectionOperations"
+  package: "com.microsoft.store.partnercenter.customers.profiles"
 - uid: "com.microsoft.store.partnercenter.customers.profiles.ICustomerProfile<com.microsoft.store.partnercenter.models.customers.CustomerBillingProfile>"
   isExternal: true
   name: "ICustomerProfile<CustomerBillingProfile>"
@@ -98,6 +99,7 @@ references:
   name: "getBilling"
   nameWithType: "CustomerProfileCollectionOperations.getBilling"
   fullName: "com.microsoft.store.partnercenter.customers.profiles.CustomerProfileCollectionOperations.getBilling"
+  package: "com.microsoft.store.partnercenter.customers.profiles"
 - uid: "com.microsoft.store.partnercenter.customers.profiles.ICustomerReadonlyProfile<com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile>"
   isExternal: true
   name: "ICustomerReadonlyProfile<CustomerCompanyProfile>"
@@ -107,6 +109,7 @@ references:
   name: "getCompany"
   nameWithType: "CustomerProfileCollectionOperations.getCompany"
   fullName: "com.microsoft.store.partnercenter.customers.profiles.CustomerProfileCollectionOperations.getCompany"
+  package: "com.microsoft.store.partnercenter.customers.profiles"
 - uid: "com.microsoft.store.partnercenter.BasePartnerComponentString"
   isExternal: true
   name: "BasePartnerComponentString"

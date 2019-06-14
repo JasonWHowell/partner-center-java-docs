@@ -82,6 +82,7 @@ references:
   name: "CustomerAvailabilityOperations"
   nameWithType: "CustomerAvailabilityOperations.CustomerAvailabilityOperations"
   fullName: "com.microsoft.store.partnercenter.customers.products.CustomerAvailabilityOperations.CustomerAvailabilityOperations"
+  package: "com.microsoft.store.partnercenter.customers.products"
 - uid: "com.microsoft.store.partnercenter.models.products.Availability"
   isExternal: true
   name: "Availability"
@@ -91,6 +92,7 @@ references:
   name: "get"
   nameWithType: "CustomerAvailabilityOperations.get"
   fullName: "com.microsoft.store.partnercenter.customers.products.CustomerAvailabilityOperations.get"
+  package: "com.microsoft.store.partnercenter.customers.products"
 - uid: "com.microsoft.store.partnercenter.BasePartnerComponent<com.microsoft.store.partnercenter.models.utils.QuadrupleTuple<java.lang.String,java.lang.String,java.lang.String,java.lang.String>>"
   isExternal: true
   name: "BasePartnerComponent<QuadrupleTuple<String,String,String,String>>"

@@ -70,6 +70,7 @@ references:
   name: "get"
   nameWithType: "IOfferAddOns.get"
   fullName: "com.microsoft.store.partnercenter.offers.IOfferAddOns.get"
+  package: "com.microsoft.store.partnercenter.offers"
 - uid: "int"
   isExternal: true
   name: "int"

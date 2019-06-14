@@ -92,10 +92,12 @@ references:
   name: "get"
   nameWithType: "ICustomerQualification.get"
   fullName: "com.microsoft.store.partnercenter.qualification.ICustomerQualification.get"
+  package: "com.microsoft.store.partnercenter.qualification"
 - uid: "com.microsoft.store.partnercenter.qualification.ICustomerQualification.update*"
   name: "update"
   nameWithType: "ICustomerQualification.update"
   fullName: "com.microsoft.store.partnercenter.qualification.ICustomerQualification.update"
+  package: "com.microsoft.store.partnercenter.qualification"
 - uid: "com.microsoft.store.partnercenter.models.validationcodes.ValidationCode"
   isExternal: true
   name: "ValidationCode"

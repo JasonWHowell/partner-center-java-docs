@@ -118,6 +118,7 @@ references:
   name: "byId"
   nameWithType: "IOfferCollection.byId"
   fullName: "com.microsoft.store.partnercenter.offers.IOfferCollection.byId"
+  package: "com.microsoft.store.partnercenter.offers"
 - uid: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.offers.Offer>"
   isExternal: true
   name: "ResourceCollection<Offer>"
@@ -127,6 +128,7 @@ references:
   name: "get"
   nameWithType: "IOfferCollection.get"
   fullName: "com.microsoft.store.partnercenter.offers.IOfferCollection.get"
+  package: "com.microsoft.store.partnercenter.offers"
 - uid: "int"
   isExternal: true
   name: "int"
@@ -141,6 +143,7 @@ references:
   name: "byCategory"
   nameWithType: "IOfferCollection.byCategory"
   fullName: "com.microsoft.store.partnercenter.offers.IOfferCollection.byCategory"
+  package: "com.microsoft.store.partnercenter.offers"
 - uid: "com.microsoft.store.partnercenter.IPartnerComponentString"
   isExternal: true
   name: "IPartnerComponentString"

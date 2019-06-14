@@ -68,10 +68,12 @@ references:
   name: "get"
   nameWithType: "ICustomerUsageSpendingBudget.get"
   fullName: "com.microsoft.store.partnercenter.usage.ICustomerUsageSpendingBudget.get"
+  package: "com.microsoft.store.partnercenter.usage"
 - uid: "com.microsoft.store.partnercenter.usage.ICustomerUsageSpendingBudget.patch*"
   name: "patch"
   nameWithType: "ICustomerUsageSpendingBudget.patch"
   fullName: "com.microsoft.store.partnercenter.usage.ICustomerUsageSpendingBudget.patch"
+  package: "com.microsoft.store.partnercenter.usage"
 - uid: "com.microsoft.store.partnercenter.IPartnerComponentString"
   isExternal: true
   name: "IPartnerComponentString"

@@ -142,6 +142,7 @@ references:
   name: "UserMemberCollectionOperations"
   nameWithType: "UserMemberCollectionOperations.UserMemberCollectionOperations"
   fullName: "com.microsoft.store.partnercenter.customerdirectoryroles.UserMemberCollectionOperations.UserMemberCollectionOperations"
+  package: "com.microsoft.store.partnercenter.customerdirectoryroles"
 - uid: "com.microsoft.store.partnercenter.customerdirectoryroles.IUserMember"
   isExternal: true
   name: "IUserMember"
@@ -151,6 +152,7 @@ references:
   name: "byId"
   nameWithType: "UserMemberCollectionOperations.byId"
   fullName: "com.microsoft.store.partnercenter.customerdirectoryroles.UserMemberCollectionOperations.byId"
+  package: "com.microsoft.store.partnercenter.customerdirectoryroles"
 - uid: "com.microsoft.store.partnercenter.models.roles.UserMember"
   isExternal: true
   name: "UserMember"
@@ -160,6 +162,7 @@ references:
   name: "create"
   nameWithType: "UserMemberCollectionOperations.create"
   fullName: "com.microsoft.store.partnercenter.customerdirectoryroles.UserMemberCollectionOperations.create"
+  package: "com.microsoft.store.partnercenter.customerdirectoryroles"
 - uid: "com.microsoft.store.partnercenter.models.SeekBasedResourceCollection<com.microsoft.store.partnercenter.models.roles.UserMember>"
   isExternal: true
   name: "SeekBasedResourceCollection<UserMember>"
@@ -169,6 +172,7 @@ references:
   name: "get"
   nameWithType: "UserMemberCollectionOperations.get"
   fullName: "com.microsoft.store.partnercenter.customerdirectoryroles.UserMemberCollectionOperations.get"
+  package: "com.microsoft.store.partnercenter.customerdirectoryroles"
 - uid: "com.microsoft.store.partnercenter.models.query.IQuery"
   isExternal: true
   name: "IQuery"
@@ -178,6 +182,7 @@ references:
   name: "query"
   nameWithType: "UserMemberCollectionOperations.query"
   fullName: "com.microsoft.store.partnercenter.customerdirectoryroles.UserMemberCollectionOperations.query"
+  package: "com.microsoft.store.partnercenter.customerdirectoryroles"
 - uid: "com.microsoft.store.partnercenter.BasePartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>"
   isExternal: true
   name: "BasePartnerComponent<Tuple<String,String>>"

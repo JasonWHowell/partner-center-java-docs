@@ -76,6 +76,7 @@ references:
   name: "SubscriptionProvisioningStatusOperations"
   nameWithType: "SubscriptionProvisioningStatusOperations.SubscriptionProvisioningStatusOperations"
   fullName: "com.microsoft.store.partnercenter.subscriptions.SubscriptionProvisioningStatusOperations.SubscriptionProvisioningStatusOperations"
+  package: "com.microsoft.store.partnercenter.subscriptions"
 - uid: "com.microsoft.store.partnercenter.models.subscriptions.SubscriptionProvisioningStatus"
   isExternal: true
   name: "SubscriptionProvisioningStatus"
@@ -85,6 +86,7 @@ references:
   name: "get"
   nameWithType: "SubscriptionProvisioningStatusOperations.get"
   fullName: "com.microsoft.store.partnercenter.subscriptions.SubscriptionProvisioningStatusOperations.get"
+  package: "com.microsoft.store.partnercenter.subscriptions"
 - uid: "com.microsoft.store.partnercenter.BasePartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>"
   isExternal: true
   name: "BasePartnerComponent<Tuple<String,String>>"

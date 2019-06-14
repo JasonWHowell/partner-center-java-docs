@@ -98,6 +98,7 @@ references:
   name: "SubscriptionConversionCollectionOperations"
   nameWithType: "SubscriptionConversionCollectionOperations.SubscriptionConversionCollectionOperations"
   fullName: "com.microsoft.store.partnercenter.subscriptions.SubscriptionConversionCollectionOperations.SubscriptionConversionCollectionOperations"
+  package: "com.microsoft.store.partnercenter.subscriptions"
 - uid: "com.microsoft.store.partnercenter.models.subscriptions.Conversion"
   isExternal: true
   name: "Conversion"
@@ -112,6 +113,7 @@ references:
   name: "create"
   nameWithType: "SubscriptionConversionCollectionOperations.create"
   fullName: "com.microsoft.store.partnercenter.subscriptions.SubscriptionConversionCollectionOperations.create"
+  package: "com.microsoft.store.partnercenter.subscriptions"
 - uid: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.subscriptions.Conversion>"
   isExternal: true
   name: "ResourceCollection<Conversion>"
@@ -121,6 +123,7 @@ references:
   name: "get"
   nameWithType: "SubscriptionConversionCollectionOperations.get"
   fullName: "com.microsoft.store.partnercenter.subscriptions.SubscriptionConversionCollectionOperations.get"
+  package: "com.microsoft.store.partnercenter.subscriptions"
 - uid: "com.microsoft.store.partnercenter.BasePartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>"
   isExternal: true
   name: "BasePartnerComponent<Tuple<String,String>>"

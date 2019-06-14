@@ -45,10 +45,12 @@ items:
   overload: "com.microsoft.store.partnercenter.models.subscriptions.ConversionError.getCode*"
   type: "Method"
   package: "com.microsoft.store.partnercenter.models.subscriptions"
+  summary: "Gets the error code associated with the issue."
   syntax:
     content: "public ConversionErrorCode getCode()"
     return:
       type: "com.microsoft.store.partnercenter.models.subscriptions.ConversionErrorCode"
+      description: "The error code associated with the issue."
 - uid: "com.microsoft.store.partnercenter.models.subscriptions.ConversionError.setCode(com.microsoft.store.partnercenter.models.subscriptions.ConversionErrorCode)"
   id: "setCode(com.microsoft.store.partnercenter.models.subscriptions.ConversionErrorCode)"
   parent: "com.microsoft.store.partnercenter.models.subscriptions.ConversionError"
@@ -60,11 +62,13 @@ items:
   overload: "com.microsoft.store.partnercenter.models.subscriptions.ConversionError.setCode*"
   type: "Method"
   package: "com.microsoft.store.partnercenter.models.subscriptions"
+  summary: "Sets the error code associated with the issue."
   syntax:
     content: "public void setCode(ConversionErrorCode value)"
     parameters:
     - id: "value"
       type: "com.microsoft.store.partnercenter.models.subscriptions.ConversionErrorCode"
+      description: "The error code associated with the issue."
 - uid: "com.microsoft.store.partnercenter.models.subscriptions.ConversionError.getDescription()"
   id: "getDescription()"
   parent: "com.microsoft.store.partnercenter.models.subscriptions.ConversionError"
@@ -76,10 +80,12 @@ items:
   overload: "com.microsoft.store.partnercenter.models.subscriptions.ConversionError.getDescription*"
   type: "Method"
   package: "com.microsoft.store.partnercenter.models.subscriptions"
+  summary: "Gets the friendly text describing the error."
   syntax:
     content: "public String getDescription()"
     return:
       type: "java.lang.String"
+      description: "The friendly text describing the error."
 - uid: "com.microsoft.store.partnercenter.models.subscriptions.ConversionError.setDescription(java.lang.String)"
   id: "setDescription(java.lang.String)"
   parent: "com.microsoft.store.partnercenter.models.subscriptions.ConversionError"
@@ -91,16 +97,19 @@ items:
   overload: "com.microsoft.store.partnercenter.models.subscriptions.ConversionError.setDescription*"
   type: "Method"
   package: "com.microsoft.store.partnercenter.models.subscriptions"
+  summary: "Sets the friendly text describing the error."
   syntax:
     content: "public void setDescription(String value)"
     parameters:
     - id: "value"
       type: "java.lang.String"
+      description: "The friendly text describing the error."
 references:
 - uid: "com.microsoft.store.partnercenter.models.subscriptions.ConversionError.ConversionError*"
   name: "ConversionError"
   nameWithType: "ConversionError.ConversionError"
   fullName: "com.microsoft.store.partnercenter.models.subscriptions.ConversionError.ConversionError"
+  package: "com.microsoft.store.partnercenter.models.subscriptions"
 - uid: "com.microsoft.store.partnercenter.models.subscriptions.ConversionErrorCode"
   isExternal: true
   name: "ConversionErrorCode"
@@ -110,10 +119,12 @@ references:
   name: "getCode"
   nameWithType: "ConversionError.getCode"
   fullName: "com.microsoft.store.partnercenter.models.subscriptions.ConversionError.getCode"
+  package: "com.microsoft.store.partnercenter.models.subscriptions"
 - uid: "com.microsoft.store.partnercenter.models.subscriptions.ConversionError.setCode*"
   name: "setCode"
   nameWithType: "ConversionError.setCode"
   fullName: "com.microsoft.store.partnercenter.models.subscriptions.ConversionError.setCode"
+  package: "com.microsoft.store.partnercenter.models.subscriptions"
 - uid: "java.lang.String"
   isExternal: true
   name: "String"
@@ -123,10 +134,12 @@ references:
   name: "getDescription"
   nameWithType: "ConversionError.getDescription"
   fullName: "com.microsoft.store.partnercenter.models.subscriptions.ConversionError.getDescription"
+  package: "com.microsoft.store.partnercenter.models.subscriptions"
 - uid: "com.microsoft.store.partnercenter.models.subscriptions.ConversionError.setDescription*"
   name: "setDescription"
   nameWithType: "ConversionError.setDescription"
   fullName: "com.microsoft.store.partnercenter.models.subscriptions.ConversionError.setDescription"
+  package: "com.microsoft.store.partnercenter.models.subscriptions"
 - uid: "com.microsoft.store.partnercenter.models.ResourceBase"
   isExternal: true
   name: "ResourceBase"

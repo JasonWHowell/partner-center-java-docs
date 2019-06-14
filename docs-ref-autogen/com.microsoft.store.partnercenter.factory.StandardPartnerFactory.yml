@@ -59,6 +59,7 @@ references:
   name: "StandardPartnerFactory"
   nameWithType: "StandardPartnerFactory.StandardPartnerFactory"
   fullName: "com.microsoft.store.partnercenter.factory.StandardPartnerFactory.StandardPartnerFactory"
+  package: "com.microsoft.store.partnercenter.factory"
 - uid: "com.microsoft.store.partnercenter.IPartnerCredentials"
   isExternal: true
   name: "IPartnerCredentials"
@@ -73,6 +74,7 @@ references:
   name: "build"
   nameWithType: "StandardPartnerFactory.build"
   fullName: "com.microsoft.store.partnercenter.factory.StandardPartnerFactory.build"
+  package: "com.microsoft.store.partnercenter.factory"
 - uid: "com.microsoft.store.partnercenter.factory.IPartnerFactory"
   isExternal: true
   name: "IPartnerFactory"

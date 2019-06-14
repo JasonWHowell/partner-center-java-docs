@@ -44,6 +44,7 @@ references:
   name: "getDevices"
   nameWithType: "IDevicesBatch.getDevices"
   fullName: "com.microsoft.store.partnercenter.devicesdeployment.IDevicesBatch.getDevices"
+  package: "com.microsoft.store.partnercenter.devicesdeployment"
 - uid: "com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>"
   isExternal: true
   name: "IPartnerComponent<Tuple<String,String>>"

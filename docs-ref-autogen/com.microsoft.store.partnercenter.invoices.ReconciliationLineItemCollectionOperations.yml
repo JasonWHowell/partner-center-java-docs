@@ -137,6 +137,7 @@ references:
   name: "ReconciliationLineItemCollectionOperations"
   nameWithType: "ReconciliationLineItemCollectionOperations.ReconciliationLineItemCollectionOperations"
   fullName: "com.microsoft.store.partnercenter.invoices.ReconciliationLineItemCollectionOperations.ReconciliationLineItemCollectionOperations"
+  package: "com.microsoft.store.partnercenter.invoices"
 - uid: "int"
   isExternal: true
   name: "int"
@@ -151,6 +152,7 @@ references:
   name: "get"
   nameWithType: "ReconciliationLineItemCollectionOperations.get"
   fullName: "com.microsoft.store.partnercenter.invoices.ReconciliationLineItemCollectionOperations.get"
+  package: "com.microsoft.store.partnercenter.invoices"
 - uid: "com.microsoft.store.partnercenter.BasePartnerComponent<java.lang.String>"
   isExternal: true
   name: "BasePartnerComponent<String>"

@@ -76,6 +76,7 @@ references:
   name: "ReceiptCollectionOperations"
   nameWithType: "ReceiptCollectionOperations.ReceiptCollectionOperations"
   fullName: "com.microsoft.store.partnercenter.invoices.ReceiptCollectionOperations.ReceiptCollectionOperations"
+  package: "com.microsoft.store.partnercenter.invoices"
 - uid: "com.microsoft.store.partnercenter.invoices.IReceipt"
   isExternal: true
   name: "IReceipt"
@@ -85,6 +86,7 @@ references:
   name: "byId"
   nameWithType: "ReceiptCollectionOperations.byId"
   fullName: "com.microsoft.store.partnercenter.invoices.ReceiptCollectionOperations.byId"
+  package: "com.microsoft.store.partnercenter.invoices"
 - uid: "com.microsoft.store.partnercenter.BasePartnerComponentString"
   isExternal: true
   name: "BasePartnerComponentString"

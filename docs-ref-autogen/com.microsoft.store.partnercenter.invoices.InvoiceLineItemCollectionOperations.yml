@@ -111,6 +111,7 @@ references:
   name: "InvoiceLineItemCollectionOperations"
   nameWithType: "InvoiceLineItemCollectionOperations.InvoiceLineItemCollectionOperations"
   fullName: "com.microsoft.store.partnercenter.invoices.InvoiceLineItemCollectionOperations.InvoiceLineItemCollectionOperations"
+  package: "com.microsoft.store.partnercenter.invoices"
 - uid: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem>"
   isExternal: true
   name: "ResourceCollection<InvoiceLineItem>"
@@ -120,6 +121,7 @@ references:
   name: "get"
   nameWithType: "InvoiceLineItemCollectionOperations.get"
   fullName: "com.microsoft.store.partnercenter.invoices.InvoiceLineItemCollectionOperations.get"
+  package: "com.microsoft.store.partnercenter.invoices"
 - uid: "int"
   isExternal: true
   name: "int"

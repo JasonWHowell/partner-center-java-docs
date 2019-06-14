@@ -102,6 +102,7 @@ references:
   name: "PartnerServiceRetryStrategy"
   nameWithType: "PartnerServiceRetryStrategy.PartnerServiceRetryStrategy"
   fullName: "com.microsoft.store.partnercenter.network.PartnerServiceRetryStrategy.PartnerServiceRetryStrategy"
+  package: "com.microsoft.store.partnercenter.network"
 - uid: "okhttp3.Response"
   isExternal: true
   name: "Response"
@@ -116,6 +117,7 @@ references:
   name: "shouldRetry"
   nameWithType: "PartnerServiceRetryStrategy.shouldRetry"
   fullName: "com.microsoft.store.partnercenter.network.PartnerServiceRetryStrategy.shouldRetry"
+  package: "com.microsoft.store.partnercenter.network"
 - uid: "java.lang.String"
   isExternal: true
   name: "String"

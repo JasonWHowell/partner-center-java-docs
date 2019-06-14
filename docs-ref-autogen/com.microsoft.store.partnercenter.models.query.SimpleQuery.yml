@@ -153,6 +153,7 @@ references:
   name: "SimpleQuery"
   nameWithType: "SimpleQuery.SimpleQuery"
   fullName: "com.microsoft.store.partnercenter.models.query.SimpleQuery.SimpleQuery"
+  package: "com.microsoft.store.partnercenter.models.query"
 - uid: "java.lang.Object"
   isExternal: true
   name: "Object"
@@ -167,6 +168,7 @@ references:
   name: "getType"
   nameWithType: "SimpleQuery.getType"
   fullName: "com.microsoft.store.partnercenter.models.query.SimpleQuery.getType"
+  package: "com.microsoft.store.partnercenter.models.query"
 - uid: "com.microsoft.store.partnercenter.models.query.filters.FieldFilter"
   isExternal: true
   name: "FieldFilter"
@@ -176,10 +178,12 @@ references:
   name: "getFilter"
   nameWithType: "SimpleQuery.getFilter"
   fullName: "com.microsoft.store.partnercenter.models.query.SimpleQuery.getFilter"
+  package: "com.microsoft.store.partnercenter.models.query"
 - uid: "com.microsoft.store.partnercenter.models.query.SimpleQuery.setFilter*"
   name: "setFilter"
   nameWithType: "SimpleQuery.setFilter"
   fullName: "com.microsoft.store.partnercenter.models.query.SimpleQuery.setFilter"
+  package: "com.microsoft.store.partnercenter.models.query"
 - uid: "com.microsoft.store.partnercenter.models.query.sort.Sort"
   isExternal: true
   name: "Sort"
@@ -189,10 +193,12 @@ references:
   name: "getSort"
   nameWithType: "SimpleQuery.getSort"
   fullName: "com.microsoft.store.partnercenter.models.query.SimpleQuery.getSort"
+  package: "com.microsoft.store.partnercenter.models.query"
 - uid: "com.microsoft.store.partnercenter.models.query.SimpleQuery.setSort*"
   name: "setSort"
   nameWithType: "SimpleQuery.setSort"
   fullName: "com.microsoft.store.partnercenter.models.query.SimpleQuery.setSort"
+  package: "com.microsoft.store.partnercenter.models.query"
 - uid: "java.lang.String"
   isExternal: true
   name: "String"
@@ -202,6 +208,7 @@ references:
   name: "toString"
   nameWithType: "SimpleQuery.toString"
   fullName: "com.microsoft.store.partnercenter.models.query.SimpleQuery.toString"
+  package: "com.microsoft.store.partnercenter.models.query"
 - uid: "com.microsoft.store.partnercenter.models.query.BaseQuery"
   isExternal: true
   name: "BaseQuery"

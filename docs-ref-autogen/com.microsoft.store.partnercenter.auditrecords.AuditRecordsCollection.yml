@@ -68,6 +68,7 @@ references:
   name: "AuditRecordsCollection"
   nameWithType: "AuditRecordsCollection.AuditRecordsCollection"
   fullName: "com.microsoft.store.partnercenter.auditrecords.AuditRecordsCollection.AuditRecordsCollection"
+  package: "com.microsoft.store.partnercenter.auditrecords"
 - uid: "org.joda.time.DateTime"
   isExternal: true
   name: "DateTime"
@@ -87,6 +88,7 @@ references:
   name: "query"
   nameWithType: "AuditRecordsCollection.query"
   fullName: "com.microsoft.store.partnercenter.auditrecords.AuditRecordsCollection.query"
+  package: "com.microsoft.store.partnercenter.auditrecords"
 - uid: "com.microsoft.store.partnercenter.BasePartnerComponentString"
   isExternal: true
   name: "BasePartnerComponentString"

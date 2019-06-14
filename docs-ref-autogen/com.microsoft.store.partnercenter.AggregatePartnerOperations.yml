@@ -69,6 +69,7 @@ references:
   name: "AggregatePartnerOperations"
   nameWithType: "AggregatePartnerOperations.AggregatePartnerOperations"
   fullName: "com.microsoft.store.partnercenter.AggregatePartnerOperations.AggregatePartnerOperations"
+  package: "com.microsoft.store.partnercenter"
 - uid: "com.microsoft.store.partnercenter.requestcontext.IRequestContext"
   isExternal: true
   name: "IRequestContext"
@@ -83,6 +84,7 @@ references:
   name: "with"
   nameWithType: "AggregatePartnerOperations.with"
   fullName: "com.microsoft.store.partnercenter.AggregatePartnerOperations.with"
+  package: "com.microsoft.store.partnercenter"
 - uid: "com.microsoft.store.partnercenter.PartnerOperations"
   isExternal: true
   name: "PartnerOperations"

@@ -69,6 +69,7 @@ references:
   name: "get"
   nameWithType: "IInvoiceLineItemCollection.get"
   fullName: "com.microsoft.store.partnercenter.invoices.IInvoiceLineItemCollection.get"
+  package: "com.microsoft.store.partnercenter.invoices"
 - uid: "int"
   isExternal: true
   name: "int"

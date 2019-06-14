@@ -67,6 +67,7 @@ references:
   name: "get"
   nameWithType: "ICustomerProductCollectionByTargetView.get"
   fullName: "com.microsoft.store.partnercenter.customers.products.ICustomerProductCollectionByTargetView.get"
+  package: "com.microsoft.store.partnercenter.customers.products"
 - uid: "java.lang.String"
   isExternal: true
   name: "String"
@@ -81,6 +82,7 @@ references:
   name: "byTargetSegment"
   nameWithType: "ICustomerProductCollectionByTargetView.byTargetSegment"
   fullName: "com.microsoft.store.partnercenter.customers.products.ICustomerProductCollectionByTargetView.byTargetSegment"
+  package: "com.microsoft.store.partnercenter.customers.products"
 - uid: "com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>"
   isExternal: true
   name: "IPartnerComponent<Tuple<String,String>>"

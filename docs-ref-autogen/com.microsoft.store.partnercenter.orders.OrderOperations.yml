@@ -156,6 +156,7 @@ references:
   name: "OrderOperations"
   nameWithType: "OrderOperations.OrderOperations"
   fullName: "com.microsoft.store.partnercenter.orders.OrderOperations.OrderOperations"
+  package: "com.microsoft.store.partnercenter.orders"
 - uid: "com.microsoft.store.partnercenter.models.orders.Order"
   isExternal: true
   name: "Order"
@@ -165,6 +166,7 @@ references:
   name: "get"
   nameWithType: "OrderOperations.get"
   fullName: "com.microsoft.store.partnercenter.orders.OrderOperations.get"
+  package: "com.microsoft.store.partnercenter.orders"
 - uid: "java.lang.Boolean"
   isExternal: true
   name: "Boolean"
@@ -179,6 +181,7 @@ references:
   name: "getOrderLineItems"
   nameWithType: "OrderOperations.getOrderLineItems"
   fullName: "com.microsoft.store.partnercenter.orders.OrderOperations.getOrderLineItems"
+  package: "com.microsoft.store.partnercenter.orders"
 - uid: "com.microsoft.store.partnercenter.orders.IOrderProvisioningStatus"
   isExternal: true
   name: "IOrderProvisioningStatus"
@@ -188,10 +191,12 @@ references:
   name: "getProvisioningStatus"
   nameWithType: "OrderOperations.getProvisioningStatus"
   fullName: "com.microsoft.store.partnercenter.orders.OrderOperations.getProvisioningStatus"
+  package: "com.microsoft.store.partnercenter.orders"
 - uid: "com.microsoft.store.partnercenter.orders.OrderOperations.patch*"
   name: "patch"
   nameWithType: "OrderOperations.patch"
   fullName: "com.microsoft.store.partnercenter.orders.OrderOperations.patch"
+  package: "com.microsoft.store.partnercenter.orders"
 - uid: "com.microsoft.store.partnercenter.BasePartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>"
   isExternal: true
   name: "BasePartnerComponent<Tuple<String,String>>"

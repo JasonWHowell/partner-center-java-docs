@@ -79,6 +79,7 @@ references:
   name: "OrderLineItemCollectionOperations"
   nameWithType: "OrderLineItemCollectionOperations.OrderLineItemCollectionOperations"
   fullName: "com.microsoft.store.partnercenter.orders.OrderLineItemCollectionOperations.OrderLineItemCollectionOperations"
+  package: "com.microsoft.store.partnercenter.orders"
 - uid: "java.lang.Integer"
   isExternal: true
   name: "Integer"
@@ -93,6 +94,7 @@ references:
   name: "byId"
   nameWithType: "OrderLineItemCollectionOperations.byId"
   fullName: "com.microsoft.store.partnercenter.orders.OrderLineItemCollectionOperations.byId"
+  package: "com.microsoft.store.partnercenter.orders"
 - uid: "com.microsoft.store.partnercenter.BasePartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>"
   isExternal: true
   name: "BasePartnerComponent<Tuple<String,String>>"

@@ -528,10 +528,12 @@ references:
   name: "QueryFactory"
   nameWithType: "QueryFactory.QueryFactory"
   fullName: "com.microsoft.store.partnercenter.models.query.QueryFactory.QueryFactory"
+  package: "com.microsoft.store.partnercenter.models.query"
 - uid: "com.microsoft.store.partnercenter.models.query.QueryFactory.getInstance*"
   name: "getInstance"
   nameWithType: "QueryFactory.getInstance"
   fullName: "com.microsoft.store.partnercenter.models.query.QueryFactory.getInstance"
+  package: "com.microsoft.store.partnercenter.models.query"
 - uid: "com.microsoft.store.partnercenter.models.query.filters.FieldFilter"
   isExternal: true
   name: "FieldFilter"
@@ -556,6 +558,7 @@ references:
   name: "buildSimpleQuery"
   nameWithType: "QueryFactory.buildSimpleQuery"
   fullName: "com.microsoft.store.partnercenter.models.query.QueryFactory.buildSimpleQuery"
+  package: "com.microsoft.store.partnercenter.models.query"
 - uid: "int"
   isExternal: true
   name: "int"
@@ -565,10 +568,12 @@ references:
   name: "buildIndexedQuery"
   nameWithType: "QueryFactory.buildIndexedQuery"
   fullName: "com.microsoft.store.partnercenter.models.query.QueryFactory.buildIndexedQuery"
+  package: "com.microsoft.store.partnercenter.models.query"
 - uid: "com.microsoft.store.partnercenter.models.query.QueryFactory.buildCountQuery*"
   name: "buildCountQuery"
   nameWithType: "QueryFactory.buildCountQuery"
   fullName: "com.microsoft.store.partnercenter.models.query.QueryFactory.buildCountQuery"
+  package: "com.microsoft.store.partnercenter.models.query"
 - uid: "com.microsoft.store.partnercenter.models.query.SeekOperation"
   isExternal: true
   name: "SeekOperation"
@@ -578,3 +583,4 @@ references:
   name: "buildSeekQuery"
   nameWithType: "QueryFactory.buildSeekQuery"
   fullName: "com.microsoft.store.partnercenter.models.query.QueryFactory.buildSeekQuery"
+  package: "com.microsoft.store.partnercenter.models.query"

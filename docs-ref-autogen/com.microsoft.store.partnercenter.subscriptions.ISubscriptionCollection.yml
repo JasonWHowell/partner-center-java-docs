@@ -129,6 +129,7 @@ references:
   name: "getUsageRecords"
   nameWithType: "ISubscriptionCollection.getUsageRecords"
   fullName: "com.microsoft.store.partnercenter.subscriptions.ISubscriptionCollection.getUsageRecords"
+  package: "com.microsoft.store.partnercenter.subscriptions"
 - uid: "java.lang.String"
   isExternal: true
   name: "String"
@@ -143,6 +144,7 @@ references:
   name: "byId"
   nameWithType: "ISubscriptionCollection.byId"
   fullName: "com.microsoft.store.partnercenter.subscriptions.ISubscriptionCollection.byId"
+  package: "com.microsoft.store.partnercenter.subscriptions"
 - uid: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.subscriptions.Subscription>"
   isExternal: true
   name: "ResourceCollection<Subscription>"
@@ -152,6 +154,7 @@ references:
   name: "get"
   nameWithType: "ISubscriptionCollection.get"
   fullName: "com.microsoft.store.partnercenter.subscriptions.ISubscriptionCollection.get"
+  package: "com.microsoft.store.partnercenter.subscriptions"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations<com.microsoft.store.partnercenter.models.subscriptions.Subscription,com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.subscriptions.Subscription>>"
   isExternal: true
   name: "IEntireEntityCollectionRetrievalOperations<Subscription,ResourceCollection<Subscription>>"
@@ -161,10 +164,12 @@ references:
   name: "byOrder"
   nameWithType: "ISubscriptionCollection.byOrder"
   fullName: "com.microsoft.store.partnercenter.subscriptions.ISubscriptionCollection.byOrder"
+  package: "com.microsoft.store.partnercenter.subscriptions"
 - uid: "com.microsoft.store.partnercenter.subscriptions.ISubscriptionCollection.byPartner*"
   name: "byPartner"
   nameWithType: "ISubscriptionCollection.byPartner"
   fullName: "com.microsoft.store.partnercenter.subscriptions.ISubscriptionCollection.byPartner"
+  package: "com.microsoft.store.partnercenter.subscriptions"
 - uid: "com.microsoft.store.partnercenter.IPartnerComponentString"
   isExternal: true
   name: "IPartnerComponentString"

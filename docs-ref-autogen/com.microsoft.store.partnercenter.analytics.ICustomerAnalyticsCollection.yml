@@ -44,6 +44,7 @@ references:
   name: "getLicenses"
   nameWithType: "ICustomerAnalyticsCollection.getLicenses"
   fullName: "com.microsoft.store.partnercenter.analytics.ICustomerAnalyticsCollection.getLicenses"
+  package: "com.microsoft.store.partnercenter.analytics"
 - uid: "com.microsoft.store.partnercenter.IPartnerComponentString"
   isExternal: true
   name: "IPartnerComponentString"

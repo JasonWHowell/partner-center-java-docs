@@ -76,6 +76,7 @@ references:
   name: "ResourceUsageRecordCollectionOperations"
   nameWithType: "ResourceUsageRecordCollectionOperations.ResourceUsageRecordCollectionOperations"
   fullName: "com.microsoft.store.partnercenter.usage.ResourceUsageRecordCollectionOperations.ResourceUsageRecordCollectionOperations"
+  package: "com.microsoft.store.partnercenter.usage"
 - uid: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.usage.AzureResourceMonthlyUsageRecord>"
   isExternal: true
   name: "ResourceCollection<AzureResourceMonthlyUsageRecord>"
@@ -85,6 +86,7 @@ references:
   name: "get"
   nameWithType: "ResourceUsageRecordCollectionOperations.get"
   fullName: "com.microsoft.store.partnercenter.usage.ResourceUsageRecordCollectionOperations.get"
+  package: "com.microsoft.store.partnercenter.usage"
 - uid: "com.microsoft.store.partnercenter.BasePartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>"
   isExternal: true
   name: "BasePartnerComponent<Tuple<String,String>>"

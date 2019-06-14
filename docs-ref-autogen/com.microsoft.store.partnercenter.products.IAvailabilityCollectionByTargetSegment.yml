@@ -45,6 +45,7 @@ references:
   name: "get"
   nameWithType: "IAvailabilityCollectionByTargetSegment.get"
   fullName: "com.microsoft.store.partnercenter.products.IAvailabilityCollectionByTargetSegment.get"
+  package: "com.microsoft.store.partnercenter.products"
 - uid: "com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.QuadrupleTuple<java.lang.String,java.lang.String,java.lang.String,java.lang.String>>"
   isExternal: true
   name: "IPartnerComponent<QuadrupleTuple<String,String,String,String>>"

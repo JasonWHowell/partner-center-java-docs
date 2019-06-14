@@ -109,6 +109,7 @@ references:
   name: "Artifact"
   nameWithType: "Artifact.Artifact"
   fullName: "com.microsoft.store.partnercenter.models.entitlements.Artifact.Artifact"
+  package: "com.microsoft.store.partnercenter.models.entitlements"
 - uid: "java.lang.String"
   isExternal: true
   name: "String"
@@ -118,10 +119,12 @@ references:
   name: "getArtifactType"
   nameWithType: "Artifact.getArtifactType"
   fullName: "com.microsoft.store.partnercenter.models.entitlements.Artifact.getArtifactType"
+  package: "com.microsoft.store.partnercenter.models.entitlements"
 - uid: "com.microsoft.store.partnercenter.models.entitlements.Artifact.setArtifactType*"
   name: "setArtifactType"
   nameWithType: "Artifact.setArtifactType"
   fullName: "com.microsoft.store.partnercenter.models.entitlements.Artifact.setArtifactType"
+  package: "com.microsoft.store.partnercenter.models.entitlements"
 - uid: "java.util.Map<java.lang.String,java.lang.Object>"
   isExternal: true
   name: "Map<String,Object>"
@@ -131,10 +134,12 @@ references:
   name: "getDynamicAttributes"
   nameWithType: "Artifact.getDynamicAttributes"
   fullName: "com.microsoft.store.partnercenter.models.entitlements.Artifact.getDynamicAttributes"
+  package: "com.microsoft.store.partnercenter.models.entitlements"
 - uid: "com.microsoft.store.partnercenter.models.entitlements.Artifact.setDynamicAttributes*"
   name: "setDynamicAttributes"
   nameWithType: "Artifact.setDynamicAttributes"
   fullName: "com.microsoft.store.partnercenter.models.entitlements.Artifact.setDynamicAttributes"
+  package: "com.microsoft.store.partnercenter.models.entitlements"
 - uid: "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks<com.microsoft.store.partnercenter.models.StandardResourceLinks>"
   isExternal: true
   name: "ResourceBaseWithLinks<StandardResourceLinks>"

@@ -65,6 +65,7 @@ references:
   name: "SupportTopicsCollectionOperations"
   nameWithType: "SupportTopicsCollectionOperations.SupportTopicsCollectionOperations"
   fullName: "com.microsoft.store.partnercenter.servicerequests.SupportTopicsCollectionOperations.SupportTopicsCollectionOperations"
+  package: "com.microsoft.store.partnercenter.servicerequests"
 - uid: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.servicerequests.SupportTopic>"
   isExternal: true
   name: "ResourceCollection<SupportTopic>"
@@ -74,6 +75,7 @@ references:
   name: "get"
   nameWithType: "SupportTopicsCollectionOperations.get"
   fullName: "com.microsoft.store.partnercenter.servicerequests.SupportTopicsCollectionOperations.get"
+  package: "com.microsoft.store.partnercenter.servicerequests"
 - uid: "com.microsoft.store.partnercenter.BasePartnerComponentString"
   isExternal: true
   name: "BasePartnerComponentString"

@@ -144,6 +144,7 @@ references:
   name: "getEstimates"
   nameWithType: "IInvoiceCollection.getEstimates"
   fullName: "com.microsoft.store.partnercenter.invoices.IInvoiceCollection.getEstimates"
+  package: "com.microsoft.store.partnercenter.invoices"
 - uid: "com.microsoft.store.partnercenter.invoices.IInvoiceSummary"
   isExternal: true
   name: "IInvoiceSummary"
@@ -153,6 +154,7 @@ references:
   name: "getSummary"
   nameWithType: "IInvoiceCollection.getSummary"
   fullName: "com.microsoft.store.partnercenter.invoices.IInvoiceCollection.getSummary"
+  package: "com.microsoft.store.partnercenter.invoices"
 - uid: "com.microsoft.store.partnercenter.invoices.IInvoiceSummaryCollection"
   isExternal: true
   name: "IInvoiceSummaryCollection"
@@ -162,6 +164,7 @@ references:
   name: "getSummaries"
   nameWithType: "IInvoiceCollection.getSummaries"
   fullName: "com.microsoft.store.partnercenter.invoices.IInvoiceCollection.getSummaries"
+  package: "com.microsoft.store.partnercenter.invoices"
 - uid: "java.lang.String"
   isExternal: true
   name: "String"
@@ -176,6 +179,7 @@ references:
   name: "byId"
   nameWithType: "IInvoiceCollection.byId"
   fullName: "com.microsoft.store.partnercenter.invoices.IInvoiceCollection.byId"
+  package: "com.microsoft.store.partnercenter.invoices"
 - uid: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.invoices.Invoice>"
   isExternal: true
   name: "ResourceCollection<Invoice>"
@@ -185,6 +189,7 @@ references:
   name: "get"
   nameWithType: "IInvoiceCollection.get"
   fullName: "com.microsoft.store.partnercenter.invoices.IInvoiceCollection.get"
+  package: "com.microsoft.store.partnercenter.invoices"
 - uid: "com.microsoft.store.partnercenter.models.query.IQuery"
   isExternal: true
   name: "IQuery"
@@ -194,6 +199,7 @@ references:
   name: "query"
   nameWithType: "IInvoiceCollection.query"
   fullName: "com.microsoft.store.partnercenter.invoices.IInvoiceCollection.query"
+  package: "com.microsoft.store.partnercenter.invoices"
 - uid: "com.microsoft.store.partnercenter.IPartnerComponentString"
   isExternal: true
   name: "IPartnerComponentString"

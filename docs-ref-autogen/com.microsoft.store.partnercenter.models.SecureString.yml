@@ -67,6 +67,7 @@ references:
   name: "SecureString"
   nameWithType: "SecureString.SecureString"
   fullName: "com.microsoft.store.partnercenter.models.SecureString.SecureString"
+  package: "com.microsoft.store.partnercenter.models"
 - uid: "int"
   isExternal: true
   name: "int"
@@ -76,7 +77,9 @@ references:
   name: "getLength"
   nameWithType: "SecureString.getLength"
   fullName: "com.microsoft.store.partnercenter.models.SecureString.getLength"
+  package: "com.microsoft.store.partnercenter.models"
 - uid: "com.microsoft.store.partnercenter.models.SecureString.setLength*"
   name: "setLength"
   nameWithType: "SecureString.setLength"
   fullName: "com.microsoft.store.partnercenter.models.SecureString.setLength"
+  package: "com.microsoft.store.partnercenter.models"

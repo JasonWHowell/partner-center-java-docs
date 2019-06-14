@@ -67,6 +67,7 @@ references:
   name: "get"
   nameWithType: "IMpnProfile.get"
   fullName: "com.microsoft.store.partnercenter.profiles.IMpnProfile.get"
+  package: "com.microsoft.store.partnercenter.profiles"
 - uid: "java.lang.String"
   isExternal: true
   name: "String"

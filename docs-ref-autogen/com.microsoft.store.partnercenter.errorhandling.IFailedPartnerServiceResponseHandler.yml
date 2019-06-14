@@ -76,6 +76,7 @@ references:
   name: "handleFailedResponse"
   nameWithType: "IFailedPartnerServiceResponseHandler.handleFailedResponse"
   fullName: "com.microsoft.store.partnercenter.errorhandling.IFailedPartnerServiceResponseHandler.handleFailedResponse"
+  package: "com.microsoft.store.partnercenter.errorhandling"
 - uid: "com.microsoft.store.partnercenter.requestcontext.IRequestContext"
   isExternal: true
   name: "IRequestContext"

@@ -68,10 +68,12 @@ references:
   name: "get"
   nameWithType: "ILegalBusinessProfile.get"
   fullName: "com.microsoft.store.partnercenter.profiles.ILegalBusinessProfile.get"
+  package: "com.microsoft.store.partnercenter.profiles"
 - uid: "com.microsoft.store.partnercenter.profiles.ILegalBusinessProfile.update*"
   name: "update"
   nameWithType: "ILegalBusinessProfile.update"
   fullName: "com.microsoft.store.partnercenter.profiles.ILegalBusinessProfile.update"
+  package: "com.microsoft.store.partnercenter.profiles"
 - uid: "com.microsoft.store.partnercenter.IPartnerComponentString"
   isExternal: true
   name: "IPartnerComponentString"

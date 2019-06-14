@@ -26,15 +26,15 @@ items:
   parent: "com.microsoft.store.partnercenter.orders.OrderCollectionByBillingCycleTypeOperations"
   langs:
   - "java"
-  name: "OrderCollectionByBillingCycleTypeOperations(IPartner rootPartnerOperations, String customerId, BillingCycleType billingCyleType)"
-  nameWithType: "OrderCollectionByBillingCycleTypeOperations.OrderCollectionByBillingCycleTypeOperations(IPartner rootPartnerOperations, String customerId, BillingCycleType billingCyleType)"
-  fullName: "com.microsoft.store.partnercenter.orders.OrderCollectionByBillingCycleTypeOperations.OrderCollectionByBillingCycleTypeOperations(IPartner rootPartnerOperations, String customerId, BillingCycleType billingCyleType)"
+  name: "OrderCollectionByBillingCycleTypeOperations(IPartner rootPartnerOperations, String customerId, BillingCycleType billingCycleType)"
+  nameWithType: "OrderCollectionByBillingCycleTypeOperations.OrderCollectionByBillingCycleTypeOperations(IPartner rootPartnerOperations, String customerId, BillingCycleType billingCycleType)"
+  fullName: "com.microsoft.store.partnercenter.orders.OrderCollectionByBillingCycleTypeOperations.OrderCollectionByBillingCycleTypeOperations(IPartner rootPartnerOperations, String customerId, BillingCycleType billingCycleType)"
   overload: "com.microsoft.store.partnercenter.orders.OrderCollectionByBillingCycleTypeOperations.OrderCollectionByBillingCycleTypeOperations*"
   type: "Constructor"
   package: "com.microsoft.store.partnercenter.orders"
   summary: "Initializes a new instance of the OrderCollectionByBillingCycleTypeOperations class."
   syntax:
-    content: "public OrderCollectionByBillingCycleTypeOperations(IPartner rootPartnerOperations, String customerId, BillingCycleType billingCyleType)"
+    content: "public OrderCollectionByBillingCycleTypeOperations(IPartner rootPartnerOperations, String customerId, BillingCycleType billingCycleType)"
     parameters:
     - id: "rootPartnerOperations"
       type: "com.microsoft.store.partnercenter.IPartner"
@@ -42,7 +42,7 @@ items:
     - id: "customerId"
       type: "java.lang.String"
       description: "The customer identifier."
-    - id: "billingCyleType"
+    - id: "billingCycleType"
       type: "com.microsoft.store.partnercenter.models.offers.BillingCycleType"
       description: "The billing type."
 - uid: "com.microsoft.store.partnercenter.orders.OrderCollectionByBillingCycleTypeOperations.get()"
@@ -103,6 +103,7 @@ references:
   name: "OrderCollectionByBillingCycleTypeOperations"
   nameWithType: "OrderCollectionByBillingCycleTypeOperations.OrderCollectionByBillingCycleTypeOperations"
   fullName: "com.microsoft.store.partnercenter.orders.OrderCollectionByBillingCycleTypeOperations.OrderCollectionByBillingCycleTypeOperations"
+  package: "com.microsoft.store.partnercenter.orders"
 - uid: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.orders.Order>"
   isExternal: true
   name: "ResourceCollection<Order>"
@@ -112,6 +113,7 @@ references:
   name: "get"
   nameWithType: "OrderCollectionByBillingCycleTypeOperations.get"
   fullName: "com.microsoft.store.partnercenter.orders.OrderCollectionByBillingCycleTypeOperations.get"
+  package: "com.microsoft.store.partnercenter.orders"
 - uid: "boolean"
   isExternal: true
   name: "boolean"

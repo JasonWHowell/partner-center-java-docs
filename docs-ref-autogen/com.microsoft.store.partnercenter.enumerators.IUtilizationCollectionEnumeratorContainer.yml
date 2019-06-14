@@ -44,6 +44,7 @@ references:
   name: "getAzure"
   nameWithType: "IUtilizationCollectionEnumeratorContainer.getAzure"
   fullName: "com.microsoft.store.partnercenter.enumerators.IUtilizationCollectionEnumeratorContainer.getAzure"
+  package: "com.microsoft.store.partnercenter.enumerators"
 - uid: "com.microsoft.store.partnercenter.IPartnerComponentString"
   isExternal: true
   name: "IPartnerComponentString"

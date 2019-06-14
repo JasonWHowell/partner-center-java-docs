@@ -87,6 +87,7 @@ references:
   name: "SupportProfileOperations"
   nameWithType: "SupportProfileOperations.SupportProfileOperations"
   fullName: "com.microsoft.store.partnercenter.profiles.SupportProfileOperations.SupportProfileOperations"
+  package: "com.microsoft.store.partnercenter.profiles"
 - uid: "com.microsoft.store.partnercenter.models.partners.SupportProfile"
   isExternal: true
   name: "SupportProfile"
@@ -96,10 +97,12 @@ references:
   name: "get"
   nameWithType: "SupportProfileOperations.get"
   fullName: "com.microsoft.store.partnercenter.profiles.SupportProfileOperations.get"
+  package: "com.microsoft.store.partnercenter.profiles"
 - uid: "com.microsoft.store.partnercenter.profiles.SupportProfileOperations.update*"
   name: "update"
   nameWithType: "SupportProfileOperations.update"
   fullName: "com.microsoft.store.partnercenter.profiles.SupportProfileOperations.update"
+  package: "com.microsoft.store.partnercenter.profiles"
 - uid: "com.microsoft.store.partnercenter.BasePartnerComponentString"
   isExternal: true
   name: "BasePartnerComponentString"

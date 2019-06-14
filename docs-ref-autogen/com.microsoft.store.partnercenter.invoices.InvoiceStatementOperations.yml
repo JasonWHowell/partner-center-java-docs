@@ -72,6 +72,7 @@ references:
   name: "InvoiceStatementOperations"
   nameWithType: "InvoiceStatementOperations.InvoiceStatementOperations"
   fullName: "com.microsoft.store.partnercenter.invoices.InvoiceStatementOperations.InvoiceStatementOperations"
+  package: "com.microsoft.store.partnercenter.invoices"
 - uid: "java.io.InputStream"
   isExternal: true
   name: "InputStream"
@@ -81,6 +82,7 @@ references:
   name: "get"
   nameWithType: "InvoiceStatementOperations.get"
   fullName: "com.microsoft.store.partnercenter.invoices.InvoiceStatementOperations.get"
+  package: "com.microsoft.store.partnercenter.invoices"
 - uid: "com.microsoft.store.partnercenter.BasePartnerComponentString"
   isExternal: true
   name: "BasePartnerComponentString"

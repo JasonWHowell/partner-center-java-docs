@@ -260,10 +260,12 @@ references:
   name: "PartnerErrorCategory"
   nameWithType: "PartnerErrorCategory.PartnerErrorCategory"
   fullName: "com.microsoft.store.partnercenter.exception.PartnerErrorCategory.PartnerErrorCategory"
+  package: "com.microsoft.store.partnercenter.exception"
 - uid: "com.microsoft.store.partnercenter.exception.PartnerErrorCategory.values*"
   name: "values"
   nameWithType: "PartnerErrorCategory.values"
   fullName: "com.microsoft.store.partnercenter.exception.PartnerErrorCategory.values"
+  package: "com.microsoft.store.partnercenter.exception"
 - uid: "java.lang.String"
   isExternal: true
   name: "String"
@@ -273,6 +275,7 @@ references:
   name: "valueOf"
   nameWithType: "PartnerErrorCategory.valueOf"
   fullName: "com.microsoft.store.partnercenter.exception.PartnerErrorCategory.valueOf"
+  package: "com.microsoft.store.partnercenter.exception"
 - uid: "java.lang.Enum<com.microsoft.store.partnercenter.exception.PartnerErrorCategory>"
   isExternal: true
   name: "Enum<PartnerErrorCategory>"

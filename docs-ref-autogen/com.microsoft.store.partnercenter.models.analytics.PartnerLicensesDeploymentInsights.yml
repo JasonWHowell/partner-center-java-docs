@@ -101,6 +101,7 @@ references:
   name: "PartnerLicensesDeploymentInsights"
   nameWithType: "PartnerLicensesDeploymentInsights.PartnerLicensesDeploymentInsights"
   fullName: "com.microsoft.store.partnercenter.models.analytics.PartnerLicensesDeploymentInsights.PartnerLicensesDeploymentInsights"
+  package: "com.microsoft.store.partnercenter.models.analytics"
 - uid: "long"
   isExternal: true
   name: "long"
@@ -110,10 +111,12 @@ references:
   name: "getLicensesSold"
   nameWithType: "PartnerLicensesDeploymentInsights.getLicensesSold"
   fullName: "com.microsoft.store.partnercenter.models.analytics.PartnerLicensesDeploymentInsights.getLicensesSold"
+  package: "com.microsoft.store.partnercenter.models.analytics"
 - uid: "com.microsoft.store.partnercenter.models.analytics.PartnerLicensesDeploymentInsights.setLicensesSold*"
   name: "setLicensesSold"
   nameWithType: "PartnerLicensesDeploymentInsights.setLicensesSold"
   fullName: "com.microsoft.store.partnercenter.models.analytics.PartnerLicensesDeploymentInsights.setLicensesSold"
+  package: "com.microsoft.store.partnercenter.models.analytics"
 - uid: "double"
   isExternal: true
   name: "double"
@@ -123,10 +126,12 @@ references:
   name: "getProratedDeploymentPercent"
   nameWithType: "PartnerLicensesDeploymentInsights.getProratedDeploymentPercent"
   fullName: "com.microsoft.store.partnercenter.models.analytics.PartnerLicensesDeploymentInsights.getProratedDeploymentPercent"
+  package: "com.microsoft.store.partnercenter.models.analytics"
 - uid: "com.microsoft.store.partnercenter.models.analytics.PartnerLicensesDeploymentInsights.setProratedDeploymentPercent*"
   name: "setProratedDeploymentPercent"
   nameWithType: "PartnerLicensesDeploymentInsights.setProratedDeploymentPercent"
   fullName: "com.microsoft.store.partnercenter.models.analytics.PartnerLicensesDeploymentInsights.setProratedDeploymentPercent"
+  package: "com.microsoft.store.partnercenter.models.analytics"
 - uid: "com.microsoft.store.partnercenter.models.analytics.LicensesInsightsBase"
   isExternal: true
   name: "LicensesInsightsBase"

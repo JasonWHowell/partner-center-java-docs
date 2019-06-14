@@ -45,6 +45,7 @@ references:
   name: "get"
   nameWithType: "ISubscriptionAddOnCollection.get"
   fullName: "com.microsoft.store.partnercenter.subscriptions.ISubscriptionAddOnCollection.get"
+  package: "com.microsoft.store.partnercenter.subscriptions"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations<com.microsoft.store.partnercenter.models.subscriptions.Subscription,com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.subscriptions.Subscription>>"
   isExternal: true
   name: "IEntireEntityCollectionRetrievalOperations<Subscription,ResourceCollection<Subscription>>"

@@ -98,6 +98,7 @@ references:
   name: "DeviceOperations"
   nameWithType: "DeviceOperations.DeviceOperations"
   fullName: "com.microsoft.store.partnercenter.devicesdeployment.DeviceOperations.DeviceOperations"
+  package: "com.microsoft.store.partnercenter.devicesdeployment"
 - uid: "com.microsoft.store.partnercenter.models.devicesdeployment.Device"
   isExternal: true
   name: "Device"
@@ -107,10 +108,12 @@ references:
   name: "patch"
   nameWithType: "DeviceOperations.patch"
   fullName: "com.microsoft.store.partnercenter.devicesdeployment.DeviceOperations.patch"
+  package: "com.microsoft.store.partnercenter.devicesdeployment"
 - uid: "com.microsoft.store.partnercenter.devicesdeployment.DeviceOperations.delete*"
   name: "delete"
   nameWithType: "DeviceOperations.delete"
   fullName: "com.microsoft.store.partnercenter.devicesdeployment.DeviceOperations.delete"
+  package: "com.microsoft.store.partnercenter.devicesdeployment"
 - uid: "com.microsoft.store.partnercenter.BasePartnerComponent<com.microsoft.store.partnercenter.models.utils.TripletTuple<java.lang.String,java.lang.String,java.lang.String>>"
   isExternal: true
   name: "BasePartnerComponent<TripletTuple<String,String,String>>"

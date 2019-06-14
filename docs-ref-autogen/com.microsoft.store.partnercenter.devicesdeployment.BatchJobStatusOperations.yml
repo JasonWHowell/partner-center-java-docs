@@ -76,6 +76,7 @@ references:
   name: "BatchJobStatusOperations"
   nameWithType: "BatchJobStatusOperations.BatchJobStatusOperations"
   fullName: "com.microsoft.store.partnercenter.devicesdeployment.BatchJobStatusOperations.BatchJobStatusOperations"
+  package: "com.microsoft.store.partnercenter.devicesdeployment"
 - uid: "com.microsoft.store.partnercenter.models.devicesdeployment.BatchUploadDetails"
   isExternal: true
   name: "BatchUploadDetails"
@@ -85,6 +86,7 @@ references:
   name: "get"
   nameWithType: "BatchJobStatusOperations.get"
   fullName: "com.microsoft.store.partnercenter.devicesdeployment.BatchJobStatusOperations.get"
+  package: "com.microsoft.store.partnercenter.devicesdeployment"
 - uid: "com.microsoft.store.partnercenter.BasePartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>"
   isExternal: true
   name: "BasePartnerComponent<Tuple<String,String>>"

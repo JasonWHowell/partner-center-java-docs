@@ -73,6 +73,7 @@ references:
   name: "CustomerCompanyProfileOperations"
   nameWithType: "CustomerCompanyProfileOperations.CustomerCompanyProfileOperations"
   fullName: "com.microsoft.store.partnercenter.customers.profiles.CustomerCompanyProfileOperations.CustomerCompanyProfileOperations"
+  package: "com.microsoft.store.partnercenter.customers.profiles"
 - uid: "com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile"
   isExternal: true
   name: "CustomerCompanyProfile"
@@ -82,6 +83,7 @@ references:
   name: "get"
   nameWithType: "CustomerCompanyProfileOperations.get"
   fullName: "com.microsoft.store.partnercenter.customers.profiles.CustomerCompanyProfileOperations.get"
+  package: "com.microsoft.store.partnercenter.customers.profiles"
 - uid: "com.microsoft.store.partnercenter.BasePartnerComponentString"
   isExternal: true
   name: "BasePartnerComponentString"

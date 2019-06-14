@@ -98,6 +98,7 @@ references:
   name: "SubscriptionSupportContactOperations"
   nameWithType: "SubscriptionSupportContactOperations.SubscriptionSupportContactOperations"
   fullName: "com.microsoft.store.partnercenter.subscriptions.SubscriptionSupportContactOperations.SubscriptionSupportContactOperations"
+  package: "com.microsoft.store.partnercenter.subscriptions"
 - uid: "com.microsoft.store.partnercenter.models.subscriptions.SupportContact"
   isExternal: true
   name: "SupportContact"
@@ -107,10 +108,12 @@ references:
   name: "get"
   nameWithType: "SubscriptionSupportContactOperations.get"
   fullName: "com.microsoft.store.partnercenter.subscriptions.SubscriptionSupportContactOperations.get"
+  package: "com.microsoft.store.partnercenter.subscriptions"
 - uid: "com.microsoft.store.partnercenter.subscriptions.SubscriptionSupportContactOperations.update*"
   name: "update"
   nameWithType: "SubscriptionSupportContactOperations.update"
   fullName: "com.microsoft.store.partnercenter.subscriptions.SubscriptionSupportContactOperations.update"
+  package: "com.microsoft.store.partnercenter.subscriptions"
 - uid: "com.microsoft.store.partnercenter.BasePartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>"
   isExternal: true
   name: "BasePartnerComponent<Tuple<String,String>>"

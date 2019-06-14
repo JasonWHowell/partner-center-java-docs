@@ -117,6 +117,7 @@ references:
   name: "byId"
   nameWithType: "ICustomerUserCollection.byId"
   fullName: "com.microsoft.store.partnercenter.customerusers.ICustomerUserCollection.byId"
+  package: "com.microsoft.store.partnercenter.customerusers"
 - uid: "com.microsoft.store.partnercenter.models.query.IQuery"
   isExternal: true
   name: "IQuery"
@@ -131,6 +132,7 @@ references:
   name: "query"
   nameWithType: "ICustomerUserCollection.query"
   fullName: "com.microsoft.store.partnercenter.customerusers.ICustomerUserCollection.query"
+  package: "com.microsoft.store.partnercenter.customerusers"
 - uid: "com.microsoft.store.partnercenter.models.users.CustomerUser"
   isExternal: true
   name: "CustomerUser"
@@ -140,10 +142,12 @@ references:
   name: "create"
   nameWithType: "ICustomerUserCollection.create"
   fullName: "com.microsoft.store.partnercenter.customerusers.ICustomerUserCollection.create"
+  package: "com.microsoft.store.partnercenter.customerusers"
 - uid: "com.microsoft.store.partnercenter.customerusers.ICustomerUserCollection.get*"
   name: "get"
   nameWithType: "ICustomerUserCollection.get"
   fullName: "com.microsoft.store.partnercenter.customerusers.ICustomerUserCollection.get"
+  package: "com.microsoft.store.partnercenter.customerusers"
 - uid: "com.microsoft.store.partnercenter.IPartnerComponentString"
   isExternal: true
   name: "IPartnerComponentString"

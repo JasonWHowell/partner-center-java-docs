@@ -68,6 +68,7 @@ references:
   name: "ServiceCostsSummaryLinks"
   nameWithType: "ServiceCostsSummaryLinks.ServiceCostsSummaryLinks"
   fullName: "com.microsoft.store.partnercenter.models.servicecosts.ServiceCostsSummaryLinks.ServiceCostsSummaryLinks"
+  package: "com.microsoft.store.partnercenter.models.servicecosts"
 - uid: "com.microsoft.store.partnercenter.models.Link"
   isExternal: true
   name: "Link"
@@ -77,10 +78,12 @@ references:
   name: "getServiceCostLineItems"
   nameWithType: "ServiceCostsSummaryLinks.getServiceCostLineItems"
   fullName: "com.microsoft.store.partnercenter.models.servicecosts.ServiceCostsSummaryLinks.getServiceCostLineItems"
+  package: "com.microsoft.store.partnercenter.models.servicecosts"
 - uid: "com.microsoft.store.partnercenter.models.servicecosts.ServiceCostsSummaryLinks.setServiceCostLineItems*"
   name: "setServiceCostLineItems"
   nameWithType: "ServiceCostsSummaryLinks.setServiceCostLineItems"
   fullName: "com.microsoft.store.partnercenter.models.servicecosts.ServiceCostsSummaryLinks.setServiceCostLineItems"
+  package: "com.microsoft.store.partnercenter.models.servicecosts"
 - uid: "com.microsoft.store.partnercenter.models.StandardResourceLinks"
   isExternal: true
   name: "StandardResourceLinks"

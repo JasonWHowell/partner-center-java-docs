@@ -64,6 +64,7 @@ references:
   name: "query"
   nameWithType: "IAuditRecordsCollection.query"
   fullName: "com.microsoft.store.partnercenter.auditrecords.IAuditRecordsCollection.query"
+  package: "com.microsoft.store.partnercenter.auditrecords"
 - uid: "com.microsoft.store.partnercenter.IPartnerComponentString"
   isExternal: true
   name: "IPartnerComponentString"

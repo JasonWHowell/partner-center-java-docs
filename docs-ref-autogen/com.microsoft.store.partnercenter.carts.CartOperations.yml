@@ -116,6 +116,7 @@ references:
   name: "CartOperations"
   nameWithType: "CartOperations.CartOperations"
   fullName: "com.microsoft.store.partnercenter.carts.CartOperations.CartOperations"
+  package: "com.microsoft.store.partnercenter.carts"
 - uid: "com.microsoft.store.partnercenter.models.carts.CartCheckoutResult"
   isExternal: true
   name: "CartCheckoutResult"
@@ -125,6 +126,7 @@ references:
   name: "checkout"
   nameWithType: "CartOperations.checkout"
   fullName: "com.microsoft.store.partnercenter.carts.CartOperations.checkout"
+  package: "com.microsoft.store.partnercenter.carts"
 - uid: "com.microsoft.store.partnercenter.models.carts.Cart"
   isExternal: true
   name: "Cart"
@@ -134,10 +136,12 @@ references:
   name: "get"
   nameWithType: "CartOperations.get"
   fullName: "com.microsoft.store.partnercenter.carts.CartOperations.get"
+  package: "com.microsoft.store.partnercenter.carts"
 - uid: "com.microsoft.store.partnercenter.carts.CartOperations.put*"
   name: "put"
   nameWithType: "CartOperations.put"
   fullName: "com.microsoft.store.partnercenter.carts.CartOperations.put"
+  package: "com.microsoft.store.partnercenter.carts"
 - uid: "com.microsoft.store.partnercenter.BasePartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>"
   isExternal: true
   name: "BasePartnerComponent<Tuple<String,String>>"

@@ -73,6 +73,7 @@ references:
   name: "ServiceCostLineItemsOperations"
   nameWithType: "ServiceCostLineItemsOperations.ServiceCostLineItemsOperations"
   fullName: "com.microsoft.store.partnercenter.customers.servicecosts.ServiceCostLineItemsOperations.ServiceCostLineItemsOperations"
+  package: "com.microsoft.store.partnercenter.customers.servicecosts"
 - uid: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem>"
   isExternal: true
   name: "ResourceCollection<ServiceCostLineItem>"
@@ -82,6 +83,7 @@ references:
   name: "get"
   nameWithType: "ServiceCostLineItemsOperations.get"
   fullName: "com.microsoft.store.partnercenter.customers.servicecosts.ServiceCostLineItemsOperations.get"
+  package: "com.microsoft.store.partnercenter.customers.servicecosts"
 - uid: "com.microsoft.store.partnercenter.BasePartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>"
   isExternal: true
   name: "BasePartnerComponent<Tuple<String,String>>"

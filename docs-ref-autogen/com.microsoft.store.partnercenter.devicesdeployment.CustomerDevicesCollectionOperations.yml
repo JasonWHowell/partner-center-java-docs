@@ -77,6 +77,7 @@ references:
   name: "CustomerDevicesCollectionOperations"
   nameWithType: "CustomerDevicesCollectionOperations.CustomerDevicesCollectionOperations"
   fullName: "com.microsoft.store.partnercenter.devicesdeployment.CustomerDevicesCollectionOperations.CustomerDevicesCollectionOperations"
+  package: "com.microsoft.store.partnercenter.devicesdeployment"
 - uid: "com.microsoft.store.partnercenter.models.devicesdeployment.DevicePolicyUpdateRequest"
   isExternal: true
   name: "DevicePolicyUpdateRequest"
@@ -86,6 +87,7 @@ references:
   name: "update"
   nameWithType: "CustomerDevicesCollectionOperations.update"
   fullName: "com.microsoft.store.partnercenter.devicesdeployment.CustomerDevicesCollectionOperations.update"
+  package: "com.microsoft.store.partnercenter.devicesdeployment"
 - uid: "com.microsoft.store.partnercenter.BasePartnerComponentString"
   isExternal: true
   name: "BasePartnerComponentString"

@@ -75,6 +75,7 @@ references:
   name: "UtilizationCollectionOperations"
   nameWithType: "UtilizationCollectionOperations.UtilizationCollectionOperations"
   fullName: "com.microsoft.store.partnercenter.utilization.UtilizationCollectionOperations.UtilizationCollectionOperations"
+  package: "com.microsoft.store.partnercenter.utilization"
 - uid: "com.microsoft.store.partnercenter.utilization.IAzureUtilizationCollection"
   isExternal: true
   name: "IAzureUtilizationCollection"
@@ -84,6 +85,7 @@ references:
   name: "getAzure"
   nameWithType: "UtilizationCollectionOperations.getAzure"
   fullName: "com.microsoft.store.partnercenter.utilization.UtilizationCollectionOperations.getAzure"
+  package: "com.microsoft.store.partnercenter.utilization"
 - uid: "com.microsoft.store.partnercenter.BasePartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>"
   isExternal: true
   name: "BasePartnerComponent<Tuple<String,String>>"

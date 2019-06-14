@@ -98,6 +98,7 @@ references:
   name: "SubscriptionUpgradeCollectionOperations"
   nameWithType: "SubscriptionUpgradeCollectionOperations.SubscriptionUpgradeCollectionOperations"
   fullName: "com.microsoft.store.partnercenter.subscriptions.SubscriptionUpgradeCollectionOperations.SubscriptionUpgradeCollectionOperations"
+  package: "com.microsoft.store.partnercenter.subscriptions"
 - uid: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.subscriptions.Upgrade>"
   isExternal: true
   name: "ResourceCollection<Upgrade>"
@@ -107,6 +108,7 @@ references:
   name: "get"
   nameWithType: "SubscriptionUpgradeCollectionOperations.get"
   fullName: "com.microsoft.store.partnercenter.subscriptions.SubscriptionUpgradeCollectionOperations.get"
+  package: "com.microsoft.store.partnercenter.subscriptions"
 - uid: "com.microsoft.store.partnercenter.models.subscriptions.Upgrade"
   isExternal: true
   name: "Upgrade"
@@ -121,6 +123,7 @@ references:
   name: "create"
   nameWithType: "SubscriptionUpgradeCollectionOperations.create"
   fullName: "com.microsoft.store.partnercenter.subscriptions.SubscriptionUpgradeCollectionOperations.create"
+  package: "com.microsoft.store.partnercenter.subscriptions"
 - uid: "com.microsoft.store.partnercenter.BasePartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>"
   isExternal: true
   name: "BasePartnerComponent<Tuple<String,String>>"

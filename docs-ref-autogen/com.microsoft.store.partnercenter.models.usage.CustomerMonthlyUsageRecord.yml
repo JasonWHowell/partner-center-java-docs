@@ -101,6 +101,7 @@ references:
   name: "CustomerMonthlyUsageRecord"
   nameWithType: "CustomerMonthlyUsageRecord.CustomerMonthlyUsageRecord"
   fullName: "com.microsoft.store.partnercenter.models.usage.CustomerMonthlyUsageRecord.CustomerMonthlyUsageRecord"
+  package: "com.microsoft.store.partnercenter.models.usage"
 - uid: "com.microsoft.store.partnercenter.models.usage.SpendingBudget"
   isExternal: true
   name: "SpendingBudget"
@@ -110,10 +111,12 @@ references:
   name: "getBudget"
   nameWithType: "CustomerMonthlyUsageRecord.getBudget"
   fullName: "com.microsoft.store.partnercenter.models.usage.CustomerMonthlyUsageRecord.getBudget"
+  package: "com.microsoft.store.partnercenter.models.usage"
 - uid: "com.microsoft.store.partnercenter.models.usage.CustomerMonthlyUsageRecord.setBudget*"
   name: "setBudget"
   nameWithType: "CustomerMonthlyUsageRecord.setBudget"
   fullName: "com.microsoft.store.partnercenter.models.usage.CustomerMonthlyUsageRecord.setBudget"
+  package: "com.microsoft.store.partnercenter.models.usage"
 - uid: "double"
   isExternal: true
   name: "double"
@@ -123,10 +126,12 @@ references:
   name: "getPercentUsed"
   nameWithType: "CustomerMonthlyUsageRecord.getPercentUsed"
   fullName: "com.microsoft.store.partnercenter.models.usage.CustomerMonthlyUsageRecord.getPercentUsed"
+  package: "com.microsoft.store.partnercenter.models.usage"
 - uid: "com.microsoft.store.partnercenter.models.usage.CustomerMonthlyUsageRecord.setPercentUsed*"
   name: "setPercentUsed"
   nameWithType: "CustomerMonthlyUsageRecord.setPercentUsed"
   fullName: "com.microsoft.store.partnercenter.models.usage.CustomerMonthlyUsageRecord.setPercentUsed"
+  package: "com.microsoft.store.partnercenter.models.usage"
 - uid: "com.microsoft.store.partnercenter.models.usage.UsageRecordBase"
   isExternal: true
   name: "UsageRecordBase"

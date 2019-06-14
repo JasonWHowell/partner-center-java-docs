@@ -123,6 +123,7 @@ references:
   name: "FieldFilter"
   nameWithType: "FieldFilter.FieldFilter"
   fullName: "com.microsoft.store.partnercenter.models.query.filters.FieldFilter.FieldFilter"
+  package: "com.microsoft.store.partnercenter.models.query.filters"
 - uid: "com.microsoft.store.partnercenter.models.query.filters.FieldFilterOperation"
   isExternal: true
   name: "FieldFilterOperation"
@@ -132,10 +133,12 @@ references:
   name: "getOperator"
   nameWithType: "FieldFilter.getOperator"
   fullName: "com.microsoft.store.partnercenter.models.query.filters.FieldFilter.getOperator"
+  package: "com.microsoft.store.partnercenter.models.query.filters"
 - uid: "com.microsoft.store.partnercenter.models.query.filters.FieldFilter.setOperator*"
   name: "setOperator"
   nameWithType: "FieldFilter.setOperator"
   fullName: "com.microsoft.store.partnercenter.models.query.filters.FieldFilter.setOperator"
+  package: "com.microsoft.store.partnercenter.models.query.filters"
 - uid: "com.microsoft.store.partnercenter.models.query.filters.FieldType"
   isExternal: true
   name: "FieldType"
@@ -145,10 +148,12 @@ references:
   name: "getFieldType"
   nameWithType: "FieldFilter.getFieldType"
   fullName: "com.microsoft.store.partnercenter.models.query.filters.FieldFilter.getFieldType"
+  package: "com.microsoft.store.partnercenter.models.query.filters"
 - uid: "com.microsoft.store.partnercenter.models.query.filters.FieldFilter.setFieldType*"
   name: "setFieldType"
   nameWithType: "FieldFilter.setFieldType"
   fullName: "com.microsoft.store.partnercenter.models.query.filters.FieldFilter.setFieldType"
+  package: "com.microsoft.store.partnercenter.models.query.filters"
 - uid: "com.microsoft.store.partnercenter.models.query.filters.IFilterExpressionGenerator"
   isExternal: true
   name: "IFilterExpressionGenerator"
@@ -163,3 +168,4 @@ references:
   name: "generateExpression"
   nameWithType: "FieldFilter.generateExpression"
   fullName: "com.microsoft.store.partnercenter.models.query.filters.FieldFilter.generateExpression"
+  package: "com.microsoft.store.partnercenter.models.query.filters"

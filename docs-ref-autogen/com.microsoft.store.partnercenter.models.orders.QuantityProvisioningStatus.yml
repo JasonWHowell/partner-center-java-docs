@@ -45,10 +45,12 @@ items:
   overload: "com.microsoft.store.partnercenter.models.orders.QuantityProvisioningStatus.getQuantity*"
   type: "Method"
   package: "com.microsoft.store.partnercenter.models.orders"
+  summary: "Gets the product quantity."
   syntax:
     content: "public int getQuantity()"
     return:
       type: "int"
+      description: "The product quantity."
 - uid: "com.microsoft.store.partnercenter.models.orders.QuantityProvisioningStatus.setQuantity(int)"
   id: "setQuantity(int)"
   parent: "com.microsoft.store.partnercenter.models.orders.QuantityProvisioningStatus"
@@ -60,11 +62,13 @@ items:
   overload: "com.microsoft.store.partnercenter.models.orders.QuantityProvisioningStatus.setQuantity*"
   type: "Method"
   package: "com.microsoft.store.partnercenter.models.orders"
+  summary: "Sets the product quantity."
   syntax:
     content: "public void setQuantity(int value)"
     parameters:
     - id: "value"
       type: "int"
+      description: "The product quantity."
 - uid: "com.microsoft.store.partnercenter.models.orders.QuantityProvisioningStatus.getStatus()"
   id: "getStatus()"
   parent: "com.microsoft.store.partnercenter.models.orders.QuantityProvisioningStatus"
@@ -76,10 +80,12 @@ items:
   overload: "com.microsoft.store.partnercenter.models.orders.QuantityProvisioningStatus.getStatus*"
   type: "Method"
   package: "com.microsoft.store.partnercenter.models.orders"
+  summary: "Gets the provisioning status."
   syntax:
     content: "public String getStatus()"
     return:
       type: "java.lang.String"
+      description: "The provisioning status."
 - uid: "com.microsoft.store.partnercenter.models.orders.QuantityProvisioningStatus.setStatus(java.lang.String)"
   id: "setStatus(java.lang.String)"
   parent: "com.microsoft.store.partnercenter.models.orders.QuantityProvisioningStatus"
@@ -91,16 +97,19 @@ items:
   overload: "com.microsoft.store.partnercenter.models.orders.QuantityProvisioningStatus.setStatus*"
   type: "Method"
   package: "com.microsoft.store.partnercenter.models.orders"
+  summary: "Sets the provisioning status."
   syntax:
     content: "public void setStatus(String value)"
     parameters:
     - id: "value"
       type: "java.lang.String"
+      description: "The provisioning status."
 references:
 - uid: "com.microsoft.store.partnercenter.models.orders.QuantityProvisioningStatus.QuantityProvisioningStatus*"
   name: "QuantityProvisioningStatus"
   nameWithType: "QuantityProvisioningStatus.QuantityProvisioningStatus"
   fullName: "com.microsoft.store.partnercenter.models.orders.QuantityProvisioningStatus.QuantityProvisioningStatus"
+  package: "com.microsoft.store.partnercenter.models.orders"
 - uid: "int"
   isExternal: true
   name: "int"
@@ -110,10 +119,12 @@ references:
   name: "getQuantity"
   nameWithType: "QuantityProvisioningStatus.getQuantity"
   fullName: "com.microsoft.store.partnercenter.models.orders.QuantityProvisioningStatus.getQuantity"
+  package: "com.microsoft.store.partnercenter.models.orders"
 - uid: "com.microsoft.store.partnercenter.models.orders.QuantityProvisioningStatus.setQuantity*"
   name: "setQuantity"
   nameWithType: "QuantityProvisioningStatus.setQuantity"
   fullName: "com.microsoft.store.partnercenter.models.orders.QuantityProvisioningStatus.setQuantity"
+  package: "com.microsoft.store.partnercenter.models.orders"
 - uid: "java.lang.String"
   isExternal: true
   name: "String"
@@ -123,10 +134,12 @@ references:
   name: "getStatus"
   nameWithType: "QuantityProvisioningStatus.getStatus"
   fullName: "com.microsoft.store.partnercenter.models.orders.QuantityProvisioningStatus.getStatus"
+  package: "com.microsoft.store.partnercenter.models.orders"
 - uid: "com.microsoft.store.partnercenter.models.orders.QuantityProvisioningStatus.setStatus*"
   name: "setStatus"
   nameWithType: "QuantityProvisioningStatus.setStatus"
   fullName: "com.microsoft.store.partnercenter.models.orders.QuantityProvisioningStatus.setStatus"
+  package: "com.microsoft.store.partnercenter.models.orders"
 - uid: "com.microsoft.store.partnercenter.models.ResourceBase"
   isExternal: true
   name: "ResourceBase"

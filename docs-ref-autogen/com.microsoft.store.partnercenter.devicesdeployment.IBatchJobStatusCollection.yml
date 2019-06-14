@@ -54,6 +54,7 @@ references:
   name: "byId"
   nameWithType: "IBatchJobStatusCollection.byId"
   fullName: "com.microsoft.store.partnercenter.devicesdeployment.IBatchJobStatusCollection.byId"
+  package: "com.microsoft.store.partnercenter.devicesdeployment"
 - uid: "com.microsoft.store.partnercenter.IPartnerComponentString"
   isExternal: true
   name: "IPartnerComponentString"

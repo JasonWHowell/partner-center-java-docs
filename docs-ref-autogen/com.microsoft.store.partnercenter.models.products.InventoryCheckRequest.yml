@@ -101,6 +101,7 @@ references:
   name: "InventoryCheckRequest"
   nameWithType: "InventoryCheckRequest.InventoryCheckRequest"
   fullName: "com.microsoft.store.partnercenter.models.products.InventoryCheckRequest.InventoryCheckRequest"
+  package: "com.microsoft.store.partnercenter.models.products"
 - uid: "java.util.List<com.microsoft.store.partnercenter.models.products.InventoryItem>"
   isExternal: true
   name: "List<InventoryItem>"
@@ -110,10 +111,12 @@ references:
   name: "getTargetItems"
   nameWithType: "InventoryCheckRequest.getTargetItems"
   fullName: "com.microsoft.store.partnercenter.models.products.InventoryCheckRequest.getTargetItems"
+  package: "com.microsoft.store.partnercenter.models.products"
 - uid: "com.microsoft.store.partnercenter.models.products.InventoryCheckRequest.setTargetItems*"
   name: "setTargetItems"
   nameWithType: "InventoryCheckRequest.setTargetItems"
   fullName: "com.microsoft.store.partnercenter.models.products.InventoryCheckRequest.setTargetItems"
+  package: "com.microsoft.store.partnercenter.models.products"
 - uid: "java.util.Map<java.lang.String,java.lang.String>"
   isExternal: true
   name: "Map<String,String>"
@@ -123,10 +126,12 @@ references:
   name: "getInventoryContext"
   nameWithType: "InventoryCheckRequest.getInventoryContext"
   fullName: "com.microsoft.store.partnercenter.models.products.InventoryCheckRequest.getInventoryContext"
+  package: "com.microsoft.store.partnercenter.models.products"
 - uid: "com.microsoft.store.partnercenter.models.products.InventoryCheckRequest.setInventoryContext*"
   name: "setInventoryContext"
   nameWithType: "InventoryCheckRequest.setInventoryContext"
   fullName: "com.microsoft.store.partnercenter.models.products.InventoryCheckRequest.setInventoryContext"
+  package: "com.microsoft.store.partnercenter.models.products"
 - uid: "java.util.List"
   isExternal: true
   name: "List"

@@ -87,6 +87,7 @@ references:
   name: "MpnProfileOperations"
   nameWithType: "MpnProfileOperations.MpnProfileOperations"
   fullName: "com.microsoft.store.partnercenter.profiles.MpnProfileOperations.MpnProfileOperations"
+  package: "com.microsoft.store.partnercenter.profiles"
 - uid: "com.microsoft.store.partnercenter.models.partners.MpnProfile"
   isExternal: true
   name: "MpnProfile"
@@ -96,6 +97,7 @@ references:
   name: "get"
   nameWithType: "MpnProfileOperations.get"
   fullName: "com.microsoft.store.partnercenter.profiles.MpnProfileOperations.get"
+  package: "com.microsoft.store.partnercenter.profiles"
 - uid: "java.lang.String"
   isExternal: true
   name: "String"

@@ -45,6 +45,7 @@ references:
   name: "get"
   nameWithType: "IOfferCategoryCollection.get"
   fullName: "com.microsoft.store.partnercenter.offers.IOfferCategoryCollection.get"
+  package: "com.microsoft.store.partnercenter.offers"
 - uid: "com.microsoft.store.partnercenter.IPartnerComponentString"
   isExternal: true
   name: "IPartnerComponentString"

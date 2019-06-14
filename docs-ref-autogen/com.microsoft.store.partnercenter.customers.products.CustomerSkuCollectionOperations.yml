@@ -120,6 +120,7 @@ references:
   name: "CustomerSkuCollectionOperations"
   nameWithType: "CustomerSkuCollectionOperations.CustomerSkuCollectionOperations"
   fullName: "com.microsoft.store.partnercenter.customers.products.CustomerSkuCollectionOperations.CustomerSkuCollectionOperations"
+  package: "com.microsoft.store.partnercenter.customers.products"
 - uid: "com.microsoft.store.partnercenter.products.ISku"
   isExternal: true
   name: "ISku"
@@ -129,6 +130,7 @@ references:
   name: "byId"
   nameWithType: "CustomerSkuCollectionOperations.byId"
   fullName: "com.microsoft.store.partnercenter.customers.products.CustomerSkuCollectionOperations.byId"
+  package: "com.microsoft.store.partnercenter.customers.products"
 - uid: "com.microsoft.store.partnercenter.products.ISkuCollectionByTargetSegment"
   isExternal: true
   name: "ISkuCollectionByTargetSegment"
@@ -138,6 +140,7 @@ references:
   name: "byTargetSegment"
   nameWithType: "CustomerSkuCollectionOperations.byTargetSegment"
   fullName: "com.microsoft.store.partnercenter.customers.products.CustomerSkuCollectionOperations.byTargetSegment"
+  package: "com.microsoft.store.partnercenter.customers.products"
 - uid: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.products.Sku>"
   isExternal: true
   name: "ResourceCollection<Sku>"
@@ -147,6 +150,7 @@ references:
   name: "get"
   nameWithType: "CustomerSkuCollectionOperations.get"
   fullName: "com.microsoft.store.partnercenter.customers.products.CustomerSkuCollectionOperations.get"
+  package: "com.microsoft.store.partnercenter.customers.products"
 - uid: "com.microsoft.store.partnercenter.BasePartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>"
   isExternal: true
   name: "BasePartnerComponent<Tuple<String,String>>"

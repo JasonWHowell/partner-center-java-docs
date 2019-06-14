@@ -87,6 +87,7 @@ references:
   name: "ValidationOperations"
   nameWithType: "ValidationOperations.ValidationOperations"
   fullName: "com.microsoft.store.partnercenter.validations.ValidationOperations.ValidationOperations"
+  package: "com.microsoft.store.partnercenter.validations"
 - uid: "java.util.List<com.microsoft.store.partnercenter.models.validationcodes.ValidationCode>"
   isExternal: true
   name: "List<ValidationCode>"
@@ -96,6 +97,7 @@ references:
   name: "getValidationCodes"
   nameWithType: "ValidationOperations.getValidationCodes"
   fullName: "com.microsoft.store.partnercenter.validations.ValidationOperations.getValidationCodes"
+  package: "com.microsoft.store.partnercenter.validations"
 - uid: "com.microsoft.store.partnercenter.models.Address"
   isExternal: true
   name: "Address"
@@ -110,6 +112,7 @@ references:
   name: "isAddressValid"
   nameWithType: "ValidationOperations.isAddressValid"
   fullName: "com.microsoft.store.partnercenter.validations.ValidationOperations.isAddressValid"
+  package: "com.microsoft.store.partnercenter.validations"
 - uid: "com.microsoft.store.partnercenter.BasePartnerComponentString"
   isExternal: true
   name: "BasePartnerComponentString"

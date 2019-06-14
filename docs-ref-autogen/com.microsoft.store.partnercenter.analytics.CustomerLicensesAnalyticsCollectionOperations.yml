@@ -91,6 +91,7 @@ references:
   name: "CustomerLicensesAnalyticsCollectionOperations"
   nameWithType: "CustomerLicensesAnalyticsCollectionOperations.CustomerLicensesAnalyticsCollectionOperations"
   fullName: "com.microsoft.store.partnercenter.analytics.CustomerLicensesAnalyticsCollectionOperations.CustomerLicensesAnalyticsCollectionOperations"
+  package: "com.microsoft.store.partnercenter.analytics"
 - uid: "com.microsoft.store.partnercenter.analytics.ICustomerLicensesDeploymentInsightsCollection"
   isExternal: true
   name: "ICustomerLicensesDeploymentInsightsCollection"
@@ -100,6 +101,7 @@ references:
   name: "getDeployment"
   nameWithType: "CustomerLicensesAnalyticsCollectionOperations.getDeployment"
   fullName: "com.microsoft.store.partnercenter.analytics.CustomerLicensesAnalyticsCollectionOperations.getDeployment"
+  package: "com.microsoft.store.partnercenter.analytics"
 - uid: "com.microsoft.store.partnercenter.analytics.ICustomerLicensesUsageInsightsCollection"
   isExternal: true
   name: "ICustomerLicensesUsageInsightsCollection"
@@ -109,6 +111,7 @@ references:
   name: "getUsage"
   nameWithType: "CustomerLicensesAnalyticsCollectionOperations.getUsage"
   fullName: "com.microsoft.store.partnercenter.analytics.CustomerLicensesAnalyticsCollectionOperations.getUsage"
+  package: "com.microsoft.store.partnercenter.analytics"
 - uid: "com.microsoft.store.partnercenter.BasePartnerComponentString"
   isExternal: true
   name: "BasePartnerComponentString"

@@ -101,6 +101,7 @@ references:
   name: "CartError"
   nameWithType: "CartError.CartError"
   fullName: "com.microsoft.store.partnercenter.models.carts.CartError.CartError"
+  package: "com.microsoft.store.partnercenter.models.carts"
 - uid: "com.microsoft.store.partnercenter.models.carts.CartErrorCode"
   isExternal: true
   name: "CartErrorCode"
@@ -110,10 +111,12 @@ references:
   name: "getErrorCode"
   nameWithType: "CartError.getErrorCode"
   fullName: "com.microsoft.store.partnercenter.models.carts.CartError.getErrorCode"
+  package: "com.microsoft.store.partnercenter.models.carts"
 - uid: "com.microsoft.store.partnercenter.models.carts.CartError.setErrorCode*"
   name: "setErrorCode"
   nameWithType: "CartError.setErrorCode"
   fullName: "com.microsoft.store.partnercenter.models.carts.CartError.setErrorCode"
+  package: "com.microsoft.store.partnercenter.models.carts"
 - uid: "java.lang.String"
   isExternal: true
   name: "String"
@@ -123,10 +126,12 @@ references:
   name: "getErrorDescription"
   nameWithType: "CartError.getErrorDescription"
   fullName: "com.microsoft.store.partnercenter.models.carts.CartError.getErrorDescription"
+  package: "com.microsoft.store.partnercenter.models.carts"
 - uid: "com.microsoft.store.partnercenter.models.carts.CartError.setErrorDescription*"
   name: "setErrorDescription"
   nameWithType: "CartError.setErrorDescription"
   fullName: "com.microsoft.store.partnercenter.models.carts.CartError.setErrorDescription"
+  package: "com.microsoft.store.partnercenter.models.carts"
 - uid: "com.microsoft.store.partnercenter.models.ResourceBase"
   isExternal: true
   name: "ResourceBase"

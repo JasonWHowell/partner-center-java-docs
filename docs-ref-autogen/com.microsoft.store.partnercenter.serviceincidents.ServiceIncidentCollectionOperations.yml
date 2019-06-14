@@ -86,6 +86,7 @@ references:
   name: "ServiceIncidentCollectionOperations"
   nameWithType: "ServiceIncidentCollectionOperations.ServiceIncidentCollectionOperations"
   fullName: "com.microsoft.store.partnercenter.serviceincidents.ServiceIncidentCollectionOperations.ServiceIncidentCollectionOperations"
+  package: "com.microsoft.store.partnercenter.serviceincidents"
 - uid: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidents>"
   isExternal: true
   name: "ResourceCollection<ServiceIncidents>"
@@ -95,6 +96,7 @@ references:
   name: "get"
   nameWithType: "ServiceIncidentCollectionOperations.get"
   fullName: "com.microsoft.store.partnercenter.serviceincidents.ServiceIncidentCollectionOperations.get"
+  package: "com.microsoft.store.partnercenter.serviceincidents"
 - uid: "com.microsoft.store.partnercenter.models.query.IQuery"
   isExternal: true
   name: "IQuery"

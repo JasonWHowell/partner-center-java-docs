@@ -117,6 +117,7 @@ references:
   name: "LicenseUpdate"
   nameWithType: "LicenseUpdate.LicenseUpdate"
   fullName: "com.microsoft.store.partnercenter.models.licenses.LicenseUpdate.LicenseUpdate"
+  package: "com.microsoft.store.partnercenter.models.licenses"
 - uid: "java.lang.Iterable<com.microsoft.store.partnercenter.models.licenses.LicenseAssignment>"
   isExternal: true
   name: "Iterable<LicenseAssignment>"
@@ -126,10 +127,12 @@ references:
   name: "getLicensesToAssign"
   nameWithType: "LicenseUpdate.getLicensesToAssign"
   fullName: "com.microsoft.store.partnercenter.models.licenses.LicenseUpdate.getLicensesToAssign"
+  package: "com.microsoft.store.partnercenter.models.licenses"
 - uid: "com.microsoft.store.partnercenter.models.licenses.LicenseUpdate.setLicensesToAssign*"
   name: "setLicensesToAssign"
   nameWithType: "LicenseUpdate.setLicensesToAssign"
   fullName: "com.microsoft.store.partnercenter.models.licenses.LicenseUpdate.setLicensesToAssign"
+  package: "com.microsoft.store.partnercenter.models.licenses"
 - uid: "java.lang.Iterable<java.lang.String>"
   isExternal: true
   name: "Iterable<String>"
@@ -139,10 +142,12 @@ references:
   name: "getLicensesToRemove"
   nameWithType: "LicenseUpdate.getLicensesToRemove"
   fullName: "com.microsoft.store.partnercenter.models.licenses.LicenseUpdate.getLicensesToRemove"
+  package: "com.microsoft.store.partnercenter.models.licenses"
 - uid: "com.microsoft.store.partnercenter.models.licenses.LicenseUpdate.setLicensesToRemove*"
   name: "setLicensesToRemove"
   nameWithType: "LicenseUpdate.setLicensesToRemove"
   fullName: "com.microsoft.store.partnercenter.models.licenses.LicenseUpdate.setLicensesToRemove"
+  package: "com.microsoft.store.partnercenter.models.licenses"
 - uid: "java.lang.Iterable<com.microsoft.store.partnercenter.models.licenses.LicenseWarning>"
   isExternal: true
   name: "Iterable<LicenseWarning>"
@@ -152,6 +157,7 @@ references:
   name: "getLicenseWarnings"
   nameWithType: "LicenseUpdate.getLicenseWarnings"
   fullName: "com.microsoft.store.partnercenter.models.licenses.LicenseUpdate.getLicenseWarnings"
+  package: "com.microsoft.store.partnercenter.models.licenses"
 - uid: "com.microsoft.store.partnercenter.models.ResourceBase"
   isExternal: true
   name: "ResourceBase"

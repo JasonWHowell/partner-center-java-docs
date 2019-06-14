@@ -66,6 +66,7 @@ references:
   name: "OfferCountrySelector"
   nameWithType: "OfferCountrySelector.OfferCountrySelector"
   fullName: "com.microsoft.store.partnercenter.offers.OfferCountrySelector.OfferCountrySelector"
+  package: "com.microsoft.store.partnercenter.offers"
 - uid: "java.lang.String"
   isExternal: true
   name: "String"
@@ -80,6 +81,7 @@ references:
   name: "byCountry"
   nameWithType: "OfferCountrySelector.byCountry"
   fullName: "com.microsoft.store.partnercenter.offers.OfferCountrySelector.byCountry"
+  package: "com.microsoft.store.partnercenter.offers"
 - uid: "com.microsoft.store.partnercenter.BasePartnerComponentString"
   isExternal: true
   name: "BasePartnerComponentString"

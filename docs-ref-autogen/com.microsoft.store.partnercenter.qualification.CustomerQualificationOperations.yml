@@ -120,6 +120,7 @@ references:
   name: "CustomerQualificationOperations"
   nameWithType: "CustomerQualificationOperations.CustomerQualificationOperations"
   fullName: "com.microsoft.store.partnercenter.qualification.CustomerQualificationOperations.CustomerQualificationOperations"
+  package: "com.microsoft.store.partnercenter.qualification"
 - uid: "com.microsoft.store.partnercenter.models.customers.CustomerQualification"
   isExternal: true
   name: "CustomerQualification"
@@ -129,10 +130,12 @@ references:
   name: "get"
   nameWithType: "CustomerQualificationOperations.get"
   fullName: "com.microsoft.store.partnercenter.qualification.CustomerQualificationOperations.get"
+  package: "com.microsoft.store.partnercenter.qualification"
 - uid: "com.microsoft.store.partnercenter.qualification.CustomerQualificationOperations.update*"
   name: "update"
   nameWithType: "CustomerQualificationOperations.update"
   fullName: "com.microsoft.store.partnercenter.qualification.CustomerQualificationOperations.update"
+  package: "com.microsoft.store.partnercenter.qualification"
 - uid: "com.microsoft.store.partnercenter.models.validationcodes.ValidationCode"
   isExternal: true
   name: "ValidationCode"

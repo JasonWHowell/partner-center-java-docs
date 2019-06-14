@@ -69,6 +69,7 @@ references:
   name: "getSupportTopics"
   nameWithType: "IPartnerServiceRequestCollection.getSupportTopics"
   fullName: "com.microsoft.store.partnercenter.servicerequests.IPartnerServiceRequestCollection.getSupportTopics"
+  package: "com.microsoft.store.partnercenter.servicerequests"
 - uid: "com.microsoft.store.partnercenter.models.servicerequests.ServiceRequest"
   isExternal: true
   name: "ServiceRequest"
@@ -83,6 +84,7 @@ references:
   name: "create"
   nameWithType: "IPartnerServiceRequestCollection.create"
   fullName: "com.microsoft.store.partnercenter.servicerequests.IPartnerServiceRequestCollection.create"
+  package: "com.microsoft.store.partnercenter.servicerequests"
 - uid: "com.microsoft.store.partnercenter.servicerequests.IServiceRequestCollection"
   isExternal: true
   name: "IServiceRequestCollection"

@@ -66,6 +66,7 @@ references:
   name: "OfferCategoryCountrySelector"
   nameWithType: "OfferCategoryCountrySelector.OfferCategoryCountrySelector"
   fullName: "com.microsoft.store.partnercenter.offers.OfferCategoryCountrySelector.OfferCategoryCountrySelector"
+  package: "com.microsoft.store.partnercenter.offers"
 - uid: "java.lang.String"
   isExternal: true
   name: "String"
@@ -80,6 +81,7 @@ references:
   name: "byCountry"
   nameWithType: "OfferCategoryCountrySelector.byCountry"
   fullName: "com.microsoft.store.partnercenter.offers.OfferCategoryCountrySelector.byCountry"
+  package: "com.microsoft.store.partnercenter.offers"
 - uid: "com.microsoft.store.partnercenter.BasePartnerComponentString"
   isExternal: true
   name: "BasePartnerComponentString"

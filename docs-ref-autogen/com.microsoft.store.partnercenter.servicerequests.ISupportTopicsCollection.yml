@@ -45,6 +45,7 @@ references:
   name: "get"
   nameWithType: "ISupportTopicsCollection.get"
   fullName: "com.microsoft.store.partnercenter.servicerequests.ISupportTopicsCollection.get"
+  package: "com.microsoft.store.partnercenter.servicerequests"
 - uid: "com.microsoft.store.partnercenter.IPartnerComponentString"
   isExternal: true
   name: "IPartnerComponentString"

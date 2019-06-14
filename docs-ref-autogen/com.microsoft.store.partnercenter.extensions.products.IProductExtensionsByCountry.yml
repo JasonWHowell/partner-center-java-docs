@@ -53,6 +53,7 @@ references:
   name: "checkInventory"
   nameWithType: "IProductExtensionsByCountry.checkInventory"
   fullName: "com.microsoft.store.partnercenter.extensions.products.IProductExtensionsByCountry.checkInventory"
+  package: "com.microsoft.store.partnercenter.extensions.products"
 - uid: "com.microsoft.store.partnercenter.IPartnerComponentString"
   isExternal: true
   name: "IPartnerComponentString"

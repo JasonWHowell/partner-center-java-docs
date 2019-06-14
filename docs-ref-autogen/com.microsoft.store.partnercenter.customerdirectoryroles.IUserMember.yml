@@ -37,6 +37,7 @@ references:
   name: "delete"
   nameWithType: "IUserMember.delete"
   fullName: "com.microsoft.store.partnercenter.customerdirectoryroles.IUserMember.delete"
+  package: "com.microsoft.store.partnercenter.customerdirectoryroles"
 - uid: "com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.TripletTuple<java.lang.String,java.lang.String,java.lang.String>>"
   isExternal: true
   name: "IPartnerComponent<TripletTuple<String,String,String>>"

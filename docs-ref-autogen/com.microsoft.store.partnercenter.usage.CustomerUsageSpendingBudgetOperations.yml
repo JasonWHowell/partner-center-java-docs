@@ -95,6 +95,7 @@ references:
   name: "CustomerUsageSpendingBudgetOperations"
   nameWithType: "CustomerUsageSpendingBudgetOperations.CustomerUsageSpendingBudgetOperations"
   fullName: "com.microsoft.store.partnercenter.usage.CustomerUsageSpendingBudgetOperations.CustomerUsageSpendingBudgetOperations"
+  package: "com.microsoft.store.partnercenter.usage"
 - uid: "com.microsoft.store.partnercenter.models.usage.SpendingBudget"
   isExternal: true
   name: "SpendingBudget"
@@ -104,10 +105,12 @@ references:
   name: "get"
   nameWithType: "CustomerUsageSpendingBudgetOperations.get"
   fullName: "com.microsoft.store.partnercenter.usage.CustomerUsageSpendingBudgetOperations.get"
+  package: "com.microsoft.store.partnercenter.usage"
 - uid: "com.microsoft.store.partnercenter.usage.CustomerUsageSpendingBudgetOperations.patch*"
   name: "patch"
   nameWithType: "CustomerUsageSpendingBudgetOperations.patch"
   fullName: "com.microsoft.store.partnercenter.usage.CustomerUsageSpendingBudgetOperations.patch"
+  package: "com.microsoft.store.partnercenter.usage"
 - uid: "com.microsoft.store.partnercenter.BasePartnerComponentString"
   isExternal: true
   name: "BasePartnerComponentString"

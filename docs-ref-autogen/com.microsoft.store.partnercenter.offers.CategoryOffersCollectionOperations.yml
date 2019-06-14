@@ -100,6 +100,7 @@ references:
   name: "CategoryOffersCollectionOperations"
   nameWithType: "CategoryOffersCollectionOperations.CategoryOffersCollectionOperations"
   fullName: "com.microsoft.store.partnercenter.offers.CategoryOffersCollectionOperations.CategoryOffersCollectionOperations"
+  package: "com.microsoft.store.partnercenter.offers"
 - uid: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.offers.Offer>"
   isExternal: true
   name: "ResourceCollection<Offer>"
@@ -109,6 +110,7 @@ references:
   name: "get"
   nameWithType: "CategoryOffersCollectionOperations.get"
   fullName: "com.microsoft.store.partnercenter.offers.CategoryOffersCollectionOperations.get"
+  package: "com.microsoft.store.partnercenter.offers"
 - uid: "int"
   isExternal: true
   name: "int"

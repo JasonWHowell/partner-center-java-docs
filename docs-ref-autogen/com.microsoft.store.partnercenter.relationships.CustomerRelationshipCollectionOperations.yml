@@ -73,6 +73,7 @@ references:
   name: "CustomerRelationshipCollectionOperations"
   nameWithType: "CustomerRelationshipCollectionOperations.CustomerRelationshipCollectionOperations"
   fullName: "com.microsoft.store.partnercenter.relationships.CustomerRelationshipCollectionOperations.CustomerRelationshipCollectionOperations"
+  package: "com.microsoft.store.partnercenter.relationships"
 - uid: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.relationships.PartnerRelationship>"
   isExternal: true
   name: "ResourceCollection<PartnerRelationship>"
@@ -82,6 +83,7 @@ references:
   name: "get"
   nameWithType: "CustomerRelationshipCollectionOperations.get"
   fullName: "com.microsoft.store.partnercenter.relationships.CustomerRelationshipCollectionOperations.get"
+  package: "com.microsoft.store.partnercenter.relationships"
 - uid: "com.microsoft.store.partnercenter.BasePartnerComponentString"
   isExternal: true
   name: "BasePartnerComponentString"

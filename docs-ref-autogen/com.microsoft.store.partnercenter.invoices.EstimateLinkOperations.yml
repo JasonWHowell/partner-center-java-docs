@@ -69,6 +69,7 @@ references:
   name: "EstimateLinkOperations"
   nameWithType: "EstimateLinkOperations.EstimateLinkOperations"
   fullName: "com.microsoft.store.partnercenter.invoices.EstimateLinkOperations.EstimateLinkOperations"
+  package: "com.microsoft.store.partnercenter.invoices"
 - uid: "java.lang.String"
   isExternal: true
   name: "String"
@@ -83,6 +84,7 @@ references:
   name: "byCurrency"
   nameWithType: "EstimateLinkOperations.byCurrency"
   fullName: "com.microsoft.store.partnercenter.invoices.EstimateLinkOperations.byCurrency"
+  package: "com.microsoft.store.partnercenter.invoices"
 - uid: "com.microsoft.store.partnercenter.BasePartnerComponentString"
   isExternal: true
   name: "BasePartnerComponentString"

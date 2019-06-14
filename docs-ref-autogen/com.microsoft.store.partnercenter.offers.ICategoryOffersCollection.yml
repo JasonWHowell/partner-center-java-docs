@@ -69,6 +69,7 @@ references:
   name: "get"
   nameWithType: "ICategoryOffersCollection.get"
   fullName: "com.microsoft.store.partnercenter.offers.ICategoryOffersCollection.get"
+  package: "com.microsoft.store.partnercenter.offers"
 - uid: "int"
   isExternal: true
   name: "int"

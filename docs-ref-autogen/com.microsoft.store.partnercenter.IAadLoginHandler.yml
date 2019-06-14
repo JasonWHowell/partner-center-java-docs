@@ -40,3 +40,4 @@ references:
   name: "authenticate"
   nameWithType: "IAadLoginHandler.authenticate"
   fullName: "com.microsoft.store.partnercenter.IAadLoginHandler.authenticate"
+  package: "com.microsoft.store.partnercenter"

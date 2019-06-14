@@ -53,6 +53,7 @@ references:
   name: "byCountry"
   nameWithType: "IProductCollection.byCountry"
   fullName: "com.microsoft.store.partnercenter.products.IProductCollection.byCountry"
+  package: "com.microsoft.store.partnercenter.products"
 - uid: "com.microsoft.store.partnercenter.IPartnerComponentString"
   isExternal: true
   name: "IPartnerComponentString"

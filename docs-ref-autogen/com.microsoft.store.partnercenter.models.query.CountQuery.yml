@@ -125,6 +125,7 @@ references:
   name: "CountQuery"
   nameWithType: "CountQuery.CountQuery"
   fullName: "com.microsoft.store.partnercenter.models.query.CountQuery.CountQuery"
+  package: "com.microsoft.store.partnercenter.models.query"
 - uid: "com.microsoft.store.partnercenter.models.query.QueryType"
   isExternal: true
   name: "QueryType"
@@ -134,6 +135,7 @@ references:
   name: "getType"
   nameWithType: "CountQuery.getType"
   fullName: "com.microsoft.store.partnercenter.models.query.CountQuery.getType"
+  package: "com.microsoft.store.partnercenter.models.query"
 - uid: "com.microsoft.store.partnercenter.models.query.filters.FieldFilter"
   isExternal: true
   name: "FieldFilter"
@@ -143,10 +145,12 @@ references:
   name: "getFilter"
   nameWithType: "CountQuery.getFilter"
   fullName: "com.microsoft.store.partnercenter.models.query.CountQuery.getFilter"
+  package: "com.microsoft.store.partnercenter.models.query"
 - uid: "com.microsoft.store.partnercenter.models.query.CountQuery.setFilter*"
   name: "setFilter"
   nameWithType: "CountQuery.setFilter"
   fullName: "com.microsoft.store.partnercenter.models.query.CountQuery.setFilter"
+  package: "com.microsoft.store.partnercenter.models.query"
 - uid: "java.lang.String"
   isExternal: true
   name: "String"
@@ -156,6 +160,7 @@ references:
   name: "toString"
   nameWithType: "CountQuery.toString"
   fullName: "com.microsoft.store.partnercenter.models.query.CountQuery.toString"
+  package: "com.microsoft.store.partnercenter.models.query"
 - uid: "com.microsoft.store.partnercenter.models.query.BaseQuery"
   isExternal: true
   name: "BaseQuery"

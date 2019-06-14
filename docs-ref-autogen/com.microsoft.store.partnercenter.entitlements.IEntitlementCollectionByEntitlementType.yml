@@ -54,6 +54,7 @@ references:
   name: "get"
   nameWithType: "IEntitlementCollectionByEntitlementType.get"
   fullName: "com.microsoft.store.partnercenter.entitlements.IEntitlementCollectionByEntitlementType.get"
+  package: "com.microsoft.store.partnercenter.entitlements"
 - uid: "com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>"
   isExternal: true
   name: "IPartnerComponent<Tuple<String,String>>"

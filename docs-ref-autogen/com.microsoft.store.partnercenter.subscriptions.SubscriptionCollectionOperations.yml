@@ -157,6 +157,7 @@ references:
   name: "SubscriptionCollectionOperations"
   nameWithType: "SubscriptionCollectionOperations.SubscriptionCollectionOperations"
   fullName: "com.microsoft.store.partnercenter.subscriptions.SubscriptionCollectionOperations.SubscriptionCollectionOperations"
+  package: "com.microsoft.store.partnercenter.subscriptions"
 - uid: "com.microsoft.store.partnercenter.usage.ISubscriptionMonthlyUsageRecordCollection"
   isExternal: true
   name: "ISubscriptionMonthlyUsageRecordCollection"
@@ -166,6 +167,7 @@ references:
   name: "getUsageRecords"
   nameWithType: "SubscriptionCollectionOperations.getUsageRecords"
   fullName: "com.microsoft.store.partnercenter.subscriptions.SubscriptionCollectionOperations.getUsageRecords"
+  package: "com.microsoft.store.partnercenter.subscriptions"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations<com.microsoft.store.partnercenter.models.subscriptions.Subscription,com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.subscriptions.Subscription>>"
   isExternal: true
   name: "IEntireEntityCollectionRetrievalOperations<Subscription,ResourceCollection<Subscription>>"
@@ -175,10 +177,12 @@ references:
   name: "byOrder"
   nameWithType: "SubscriptionCollectionOperations.byOrder"
   fullName: "com.microsoft.store.partnercenter.subscriptions.SubscriptionCollectionOperations.byOrder"
+  package: "com.microsoft.store.partnercenter.subscriptions"
 - uid: "com.microsoft.store.partnercenter.subscriptions.SubscriptionCollectionOperations.byPartner*"
   name: "byPartner"
   nameWithType: "SubscriptionCollectionOperations.byPartner"
   fullName: "com.microsoft.store.partnercenter.subscriptions.SubscriptionCollectionOperations.byPartner"
+  package: "com.microsoft.store.partnercenter.subscriptions"
 - uid: "com.microsoft.store.partnercenter.subscriptions.ISubscription"
   isExternal: true
   name: "ISubscription"
@@ -188,6 +192,7 @@ references:
   name: "byId"
   nameWithType: "SubscriptionCollectionOperations.byId"
   fullName: "com.microsoft.store.partnercenter.subscriptions.SubscriptionCollectionOperations.byId"
+  package: "com.microsoft.store.partnercenter.subscriptions"
 - uid: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.subscriptions.Subscription>"
   isExternal: true
   name: "ResourceCollection<Subscription>"
@@ -197,6 +202,7 @@ references:
   name: "get"
   nameWithType: "SubscriptionCollectionOperations.get"
   fullName: "com.microsoft.store.partnercenter.subscriptions.SubscriptionCollectionOperations.get"
+  package: "com.microsoft.store.partnercenter.subscriptions"
 - uid: "com.microsoft.store.partnercenter.BasePartnerComponentString"
   isExternal: true
   name: "BasePartnerComponentString"

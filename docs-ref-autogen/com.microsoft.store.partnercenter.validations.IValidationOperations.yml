@@ -66,6 +66,7 @@ references:
   name: "getValidationCodes"
   nameWithType: "IValidationOperations.getValidationCodes"
   fullName: "com.microsoft.store.partnercenter.validations.IValidationOperations.getValidationCodes"
+  package: "com.microsoft.store.partnercenter.validations"
 - uid: "com.microsoft.store.partnercenter.models.Address"
   isExternal: true
   name: "Address"
@@ -80,6 +81,7 @@ references:
   name: "isAddressValid"
   nameWithType: "IValidationOperations.isAddressValid"
   fullName: "com.microsoft.store.partnercenter.validations.IValidationOperations.isAddressValid"
+  package: "com.microsoft.store.partnercenter.validations"
 - uid: "com.microsoft.store.partnercenter.IPartnerComponentString"
   isExternal: true
   name: "IPartnerComponentString"

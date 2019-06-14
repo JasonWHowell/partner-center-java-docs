@@ -72,6 +72,7 @@ references:
   name: "CountryValidationRulesOperations"
   nameWithType: "CountryValidationRulesOperations.CountryValidationRulesOperations"
   fullName: "com.microsoft.store.partnercenter.countryvalidationrules.CountryValidationRulesOperations.CountryValidationRulesOperations"
+  package: "com.microsoft.store.partnercenter.countryvalidationrules"
 - uid: "com.microsoft.store.partnercenter.models.countryvalidationrules.CountryValidationRules"
   isExternal: true
   name: "CountryValidationRules"
@@ -81,6 +82,7 @@ references:
   name: "get"
   nameWithType: "CountryValidationRulesOperations.get"
   fullName: "com.microsoft.store.partnercenter.countryvalidationrules.CountryValidationRulesOperations.get"
+  package: "com.microsoft.store.partnercenter.countryvalidationrules"
 - uid: "com.microsoft.store.partnercenter.BasePartnerComponentString"
   isExternal: true
   name: "BasePartnerComponentString"

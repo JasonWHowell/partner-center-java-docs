@@ -74,6 +74,7 @@ references:
   name: "byId"
   nameWithType: "IConfigurationPolicyCollection.byId"
   fullName: "com.microsoft.store.partnercenter.devicesdeployment.IConfigurationPolicyCollection.byId"
+  package: "com.microsoft.store.partnercenter.devicesdeployment"
 - uid: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.devicesdeployment.ConfigurationPolicy>"
   isExternal: true
   name: "ResourceCollection<ConfigurationPolicy>"
@@ -83,6 +84,7 @@ references:
   name: "get"
   nameWithType: "IConfigurationPolicyCollection.get"
   fullName: "com.microsoft.store.partnercenter.devicesdeployment.IConfigurationPolicyCollection.get"
+  package: "com.microsoft.store.partnercenter.devicesdeployment"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntitySelector<java.lang.String,com.microsoft.store.partnercenter.devicesdeployment.IConfigurationPolicy>"
   isExternal: true
   name: "IEntitySelector<String,IConfigurationPolicy>"

@@ -79,6 +79,7 @@ references:
   name: "CustomerSkuCollectionByTargetSegmentOperations"
   nameWithType: "CustomerSkuCollectionByTargetSegmentOperations.CustomerSkuCollectionByTargetSegmentOperations"
   fullName: "com.microsoft.store.partnercenter.customers.products.CustomerSkuCollectionByTargetSegmentOperations.CustomerSkuCollectionByTargetSegmentOperations"
+  package: "com.microsoft.store.partnercenter.customers.products"
 - uid: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.products.Sku>"
   isExternal: true
   name: "ResourceCollection<Sku>"
@@ -88,6 +89,7 @@ references:
   name: "get"
   nameWithType: "CustomerSkuCollectionByTargetSegmentOperations.get"
   fullName: "com.microsoft.store.partnercenter.customers.products.CustomerSkuCollectionByTargetSegmentOperations.get"
+  package: "com.microsoft.store.partnercenter.customers.products"
 - uid: "com.microsoft.store.partnercenter.BasePartnerComponent<com.microsoft.store.partnercenter.models.utils.TripletTuple<java.lang.String,java.lang.String,java.lang.String>>"
   isExternal: true
   name: "BasePartnerComponent<TripletTuple<String,String,String>>"

@@ -73,6 +73,7 @@ references:
   name: "CustomerUserRoleCollectionOperations"
   nameWithType: "CustomerUserRoleCollectionOperations.CustomerUserRoleCollectionOperations"
   fullName: "com.microsoft.store.partnercenter.customerusers.CustomerUserRoleCollectionOperations.CustomerUserRoleCollectionOperations"
+  package: "com.microsoft.store.partnercenter.customerusers"
 - uid: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.roles.DirectoryRole>"
   isExternal: true
   name: "ResourceCollection<DirectoryRole>"
@@ -82,6 +83,7 @@ references:
   name: "get"
   nameWithType: "CustomerUserRoleCollectionOperations.get"
   fullName: "com.microsoft.store.partnercenter.customerusers.CustomerUserRoleCollectionOperations.get"
+  package: "com.microsoft.store.partnercenter.customerusers"
 - uid: "com.microsoft.store.partnercenter.BasePartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>"
   isExternal: true
   name: "BasePartnerComponent<Tuple<String,String>>"

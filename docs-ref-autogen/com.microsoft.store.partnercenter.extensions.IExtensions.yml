@@ -44,6 +44,7 @@ references:
   name: "getProduct"
   nameWithType: "IExtensions.getProduct"
   fullName: "com.microsoft.store.partnercenter.extensions.IExtensions.getProduct"
+  package: "com.microsoft.store.partnercenter.extensions"
 - uid: "com.microsoft.store.partnercenter.IPartnerComponentString"
   isExternal: true
   name: "IPartnerComponentString"

@@ -74,6 +74,7 @@ references:
   name: "byId"
   nameWithType: "IDevicesBatchCollection.byId"
   fullName: "com.microsoft.store.partnercenter.devicesdeployment.IDevicesBatchCollection.byId"
+  package: "com.microsoft.store.partnercenter.devicesdeployment"
 - uid: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.devicesdeployment.DeviceBatch>"
   isExternal: true
   name: "ResourceCollection<DeviceBatch>"
@@ -83,6 +84,7 @@ references:
   name: "get"
   nameWithType: "IDevicesBatchCollection.get"
   fullName: "com.microsoft.store.partnercenter.devicesdeployment.IDevicesBatchCollection.get"
+  package: "com.microsoft.store.partnercenter.devicesdeployment"
 - uid: "com.microsoft.store.partnercenter.IPartnerComponentString"
   isExternal: true
   name: "IPartnerComponentString"

@@ -152,6 +152,7 @@ references:
   name: "PartnerServiceRequestCollectionOperations"
   nameWithType: "PartnerServiceRequestCollectionOperations.PartnerServiceRequestCollectionOperations"
   fullName: "com.microsoft.store.partnercenter.servicerequests.PartnerServiceRequestCollectionOperations.PartnerServiceRequestCollectionOperations"
+  package: "com.microsoft.store.partnercenter.servicerequests"
 - uid: "com.microsoft.store.partnercenter.servicerequests.ISupportTopicsCollection"
   isExternal: true
   name: "ISupportTopicsCollection"
@@ -161,6 +162,7 @@ references:
   name: "getSupportTopics"
   nameWithType: "PartnerServiceRequestCollectionOperations.getSupportTopics"
   fullName: "com.microsoft.store.partnercenter.servicerequests.PartnerServiceRequestCollectionOperations.getSupportTopics"
+  package: "com.microsoft.store.partnercenter.servicerequests"
 - uid: "java.lang.String"
   isExternal: true
   name: "String"
@@ -175,6 +177,7 @@ references:
   name: "byId"
   nameWithType: "PartnerServiceRequestCollectionOperations.byId"
   fullName: "com.microsoft.store.partnercenter.servicerequests.PartnerServiceRequestCollectionOperations.byId"
+  package: "com.microsoft.store.partnercenter.servicerequests"
 - uid: "com.microsoft.store.partnercenter.models.query.IQuery"
   isExternal: true
   name: "IQuery"
@@ -189,10 +192,12 @@ references:
   name: "query"
   nameWithType: "PartnerServiceRequestCollectionOperations.query"
   fullName: "com.microsoft.store.partnercenter.servicerequests.PartnerServiceRequestCollectionOperations.query"
+  package: "com.microsoft.store.partnercenter.servicerequests"
 - uid: "com.microsoft.store.partnercenter.servicerequests.PartnerServiceRequestCollectionOperations.get*"
   name: "get"
   nameWithType: "PartnerServiceRequestCollectionOperations.get"
   fullName: "com.microsoft.store.partnercenter.servicerequests.PartnerServiceRequestCollectionOperations.get"
+  package: "com.microsoft.store.partnercenter.servicerequests"
 - uid: "com.microsoft.store.partnercenter.models.servicerequests.ServiceRequest"
   isExternal: true
   name: "ServiceRequest"
@@ -202,6 +207,7 @@ references:
   name: "create"
   nameWithType: "PartnerServiceRequestCollectionOperations.create"
   fullName: "com.microsoft.store.partnercenter.servicerequests.PartnerServiceRequestCollectionOperations.create"
+  package: "com.microsoft.store.partnercenter.servicerequests"
 - uid: "com.microsoft.store.partnercenter.BasePartnerComponentString"
   isExternal: true
   name: "BasePartnerComponentString"

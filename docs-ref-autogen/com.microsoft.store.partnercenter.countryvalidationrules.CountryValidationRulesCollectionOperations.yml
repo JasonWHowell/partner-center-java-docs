@@ -69,6 +69,7 @@ references:
   name: "CountryValidationRulesCollectionOperations"
   nameWithType: "CountryValidationRulesCollectionOperations.CountryValidationRulesCollectionOperations"
   fullName: "com.microsoft.store.partnercenter.countryvalidationrules.CountryValidationRulesCollectionOperations.CountryValidationRulesCollectionOperations"
+  package: "com.microsoft.store.partnercenter.countryvalidationrules"
 - uid: "java.lang.String"
   isExternal: true
   name: "String"
@@ -83,6 +84,7 @@ references:
   name: "byCountry"
   nameWithType: "CountryValidationRulesCollectionOperations.byCountry"
   fullName: "com.microsoft.store.partnercenter.countryvalidationrules.CountryValidationRulesCollectionOperations.byCountry"
+  package: "com.microsoft.store.partnercenter.countryvalidationrules"
 - uid: "com.microsoft.store.partnercenter.BasePartnerComponentString"
   isExternal: true
   name: "BasePartnerComponentString"

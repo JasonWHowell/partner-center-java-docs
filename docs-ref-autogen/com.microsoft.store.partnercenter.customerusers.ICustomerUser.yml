@@ -138,6 +138,7 @@ references:
   name: "getDirectoryRoles"
   nameWithType: "ICustomerUser.getDirectoryRoles"
   fullName: "com.microsoft.store.partnercenter.customerusers.ICustomerUser.getDirectoryRoles"
+  package: "com.microsoft.store.partnercenter.customerusers"
 - uid: "com.microsoft.store.partnercenter.customerusers.ICustomerUserLicenseCollection"
   isExternal: true
   name: "ICustomerUserLicenseCollection"
@@ -147,6 +148,7 @@ references:
   name: "getLicenses"
   nameWithType: "ICustomerUser.getLicenses"
   fullName: "com.microsoft.store.partnercenter.customerusers.ICustomerUser.getLicenses"
+  package: "com.microsoft.store.partnercenter.customerusers"
 - uid: "com.microsoft.store.partnercenter.customerusers.ICustomerUserLicenseUpdates"
   isExternal: true
   name: "ICustomerUserLicenseUpdates"
@@ -156,6 +158,7 @@ references:
   name: "getLicenseUpdates"
   nameWithType: "ICustomerUser.getLicenseUpdates"
   fullName: "com.microsoft.store.partnercenter.customerusers.ICustomerUser.getLicenseUpdates"
+  package: "com.microsoft.store.partnercenter.customerusers"
 - uid: "com.microsoft.store.partnercenter.models.users.CustomerUser"
   isExternal: true
   name: "CustomerUser"
@@ -165,14 +168,17 @@ references:
   name: "get"
   nameWithType: "ICustomerUser.get"
   fullName: "com.microsoft.store.partnercenter.customerusers.ICustomerUser.get"
+  package: "com.microsoft.store.partnercenter.customerusers"
 - uid: "com.microsoft.store.partnercenter.customerusers.ICustomerUser.delete*"
   name: "delete"
   nameWithType: "ICustomerUser.delete"
   fullName: "com.microsoft.store.partnercenter.customerusers.ICustomerUser.delete"
+  package: "com.microsoft.store.partnercenter.customerusers"
 - uid: "com.microsoft.store.partnercenter.customerusers.ICustomerUser.patch*"
   name: "patch"
   nameWithType: "ICustomerUser.patch"
   fullName: "com.microsoft.store.partnercenter.customerusers.ICustomerUser.patch"
+  package: "com.microsoft.store.partnercenter.customerusers"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntityPatchOperations<com.microsoft.store.partnercenter.models.users.CustomerUser>"
   isExternal: true
   name: "IEntityPatchOperations<CustomerUser>"

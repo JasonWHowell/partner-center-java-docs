@@ -94,6 +94,7 @@ references:
   name: "ProductOperations"
   nameWithType: "ProductOperations.ProductOperations"
   fullName: "com.microsoft.store.partnercenter.products.ProductOperations.ProductOperations"
+  package: "com.microsoft.store.partnercenter.products"
 - uid: "com.microsoft.store.partnercenter.products.ISkuCollection"
   isExternal: true
   name: "ISkuCollection"
@@ -103,6 +104,7 @@ references:
   name: "getSkus"
   nameWithType: "ProductOperations.getSkus"
   fullName: "com.microsoft.store.partnercenter.products.ProductOperations.getSkus"
+  package: "com.microsoft.store.partnercenter.products"
 - uid: "com.microsoft.store.partnercenter.models.products.Product"
   isExternal: true
   name: "Product"
@@ -112,6 +114,7 @@ references:
   name: "get"
   nameWithType: "ProductOperations.get"
   fullName: "com.microsoft.store.partnercenter.products.ProductOperations.get"
+  package: "com.microsoft.store.partnercenter.products"
 - uid: "com.microsoft.store.partnercenter.BasePartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>"
   isExternal: true
   name: "BasePartnerComponent<Tuple<String,String>>"

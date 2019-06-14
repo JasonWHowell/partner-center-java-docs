@@ -44,7 +44,7 @@ items:
       description: "Identifier for the customer."
     - id: "entitlementType"
       type: "java.lang.String"
-      description: "The type of entitlment."
+      description: "The type of entitlement."
 - uid: "com.microsoft.store.partnercenter.entitlements.EntitlementCollectionByEntitlementTypeOperations.get()"
   id: "get()"
   parent: "com.microsoft.store.partnercenter.entitlements.EntitlementCollectionByEntitlementTypeOperations"
@@ -98,6 +98,7 @@ references:
   name: "EntitlementCollectionByEntitlementTypeOperations"
   nameWithType: "EntitlementCollectionByEntitlementTypeOperations.EntitlementCollectionByEntitlementTypeOperations"
   fullName: "com.microsoft.store.partnercenter.entitlements.EntitlementCollectionByEntitlementTypeOperations.EntitlementCollectionByEntitlementTypeOperations"
+  package: "com.microsoft.store.partnercenter.entitlements"
 - uid: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.entitlements.Entitlement>"
   isExternal: true
   name: "ResourceCollection<Entitlement>"
@@ -107,6 +108,7 @@ references:
   name: "get"
   nameWithType: "EntitlementCollectionByEntitlementTypeOperations.get"
   fullName: "com.microsoft.store.partnercenter.entitlements.EntitlementCollectionByEntitlementTypeOperations.get"
+  package: "com.microsoft.store.partnercenter.entitlements"
 - uid: "java.lang.Boolean"
   isExternal: true
   name: "Boolean"

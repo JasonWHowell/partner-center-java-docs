@@ -95,6 +95,7 @@ references:
   name: "byId"
   nameWithType: "IAvailabilityCollection.byId"
   fullName: "com.microsoft.store.partnercenter.products.IAvailabilityCollection.byId"
+  package: "com.microsoft.store.partnercenter.products"
 - uid: "com.microsoft.store.partnercenter.products.IAvailabilityCollectionByTargetSegment"
   isExternal: true
   name: "IAvailabilityCollectionByTargetSegment"
@@ -104,6 +105,7 @@ references:
   name: "byTargetSegment"
   nameWithType: "IAvailabilityCollection.byTargetSegment"
   fullName: "com.microsoft.store.partnercenter.products.IAvailabilityCollection.byTargetSegment"
+  package: "com.microsoft.store.partnercenter.products"
 - uid: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.products.Availability>"
   isExternal: true
   name: "ResourceCollection<Availability>"
@@ -113,6 +115,7 @@ references:
   name: "get"
   nameWithType: "IAvailabilityCollection.get"
   fullName: "com.microsoft.store.partnercenter.products.IAvailabilityCollection.get"
+  package: "com.microsoft.store.partnercenter.products"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations<com.microsoft.store.partnercenter.models.products.Availability,com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.products.Availability>>"
   isExternal: true
   name: "IEntireEntityCollectionRetrievalOperations<Availability,ResourceCollection<Availability>>"

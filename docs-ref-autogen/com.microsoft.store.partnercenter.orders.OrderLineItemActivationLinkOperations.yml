@@ -84,6 +84,7 @@ references:
   name: "OrderLineItemActivationLinkOperations"
   nameWithType: "OrderLineItemActivationLinkOperations.OrderLineItemActivationLinkOperations"
   fullName: "com.microsoft.store.partnercenter.orders.OrderLineItemActivationLinkOperations.OrderLineItemActivationLinkOperations"
+  package: "com.microsoft.store.partnercenter.orders"
 - uid: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.orders.OrderLineItemActivationLink>"
   isExternal: true
   name: "ResourceCollection<OrderLineItemActivationLink>"
@@ -93,6 +94,7 @@ references:
   name: "get"
   nameWithType: "OrderLineItemActivationLinkOperations.get"
   fullName: "com.microsoft.store.partnercenter.orders.OrderLineItemActivationLinkOperations.get"
+  package: "com.microsoft.store.partnercenter.orders"
 - uid: "com.microsoft.store.partnercenter.BasePartnerComponent<com.microsoft.store.partnercenter.models.utils.TripletTuple<java.lang.String,java.lang.String,java.lang.Integer>>"
   isExternal: true
   name: "BasePartnerComponent<TripletTuple<String,String,Integer>>"

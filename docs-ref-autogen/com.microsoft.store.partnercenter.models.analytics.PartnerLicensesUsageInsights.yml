@@ -101,6 +101,7 @@ references:
   name: "PartnerLicensesUsageInsights"
   nameWithType: "PartnerLicensesUsageInsights.PartnerLicensesUsageInsights"
   fullName: "com.microsoft.store.partnercenter.models.analytics.PartnerLicensesUsageInsights.PartnerLicensesUsageInsights"
+  package: "com.microsoft.store.partnercenter.models.analytics"
 - uid: "java.lang.String"
   isExternal: true
   name: "String"
@@ -110,10 +111,12 @@ references:
   name: "getWorkloadName"
   nameWithType: "PartnerLicensesUsageInsights.getWorkloadName"
   fullName: "com.microsoft.store.partnercenter.models.analytics.PartnerLicensesUsageInsights.getWorkloadName"
+  package: "com.microsoft.store.partnercenter.models.analytics"
 - uid: "com.microsoft.store.partnercenter.models.analytics.PartnerLicensesUsageInsights.setWorkloadName*"
   name: "setWorkloadName"
   nameWithType: "PartnerLicensesUsageInsights.setWorkloadName"
   fullName: "com.microsoft.store.partnercenter.models.analytics.PartnerLicensesUsageInsights.setWorkloadName"
+  package: "com.microsoft.store.partnercenter.models.analytics"
 - uid: "double"
   isExternal: true
   name: "double"
@@ -123,10 +126,12 @@ references:
   name: "getProratedLicensesUsagePercent"
   nameWithType: "PartnerLicensesUsageInsights.getProratedLicensesUsagePercent"
   fullName: "com.microsoft.store.partnercenter.models.analytics.PartnerLicensesUsageInsights.getProratedLicensesUsagePercent"
+  package: "com.microsoft.store.partnercenter.models.analytics"
 - uid: "com.microsoft.store.partnercenter.models.analytics.PartnerLicensesUsageInsights.setProratedLicensesUsagePercent*"
   name: "setProratedLicensesUsagePercent"
   nameWithType: "PartnerLicensesUsageInsights.setProratedLicensesUsagePercent"
   fullName: "com.microsoft.store.partnercenter.models.analytics.PartnerLicensesUsageInsights.setProratedLicensesUsagePercent"
+  package: "com.microsoft.store.partnercenter.models.analytics"
 - uid: "com.microsoft.store.partnercenter.models.analytics.LicensesInsightsBase"
   isExternal: true
   name: "LicensesInsightsBase"

@@ -117,6 +117,7 @@ references:
   name: "EntitlementCollectionOperations"
   nameWithType: "EntitlementCollectionOperations.EntitlementCollectionOperations"
   fullName: "com.microsoft.store.partnercenter.entitlements.EntitlementCollectionOperations.EntitlementCollectionOperations"
+  package: "com.microsoft.store.partnercenter.entitlements"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations<com.microsoft.store.partnercenter.models.entitlements.Entitlement,com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.entitlements.Entitlement>>"
   isExternal: true
   name: "IEntireEntityCollectionRetrievalOperations<Entitlement,ResourceCollection<Entitlement>>"
@@ -126,6 +127,7 @@ references:
   name: "byEntitlementType"
   nameWithType: "EntitlementCollectionOperations.byEntitlementType"
   fullName: "com.microsoft.store.partnercenter.entitlements.EntitlementCollectionOperations.byEntitlementType"
+  package: "com.microsoft.store.partnercenter.entitlements"
 - uid: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.entitlements.Entitlement>"
   isExternal: true
   name: "ResourceCollection<Entitlement>"
@@ -135,6 +137,7 @@ references:
   name: "get"
   nameWithType: "EntitlementCollectionOperations.get"
   fullName: "com.microsoft.store.partnercenter.entitlements.EntitlementCollectionOperations.get"
+  package: "com.microsoft.store.partnercenter.entitlements"
 - uid: "java.lang.Boolean"
   isExternal: true
   name: "Boolean"

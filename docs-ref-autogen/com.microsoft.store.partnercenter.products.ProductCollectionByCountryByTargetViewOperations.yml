@@ -98,6 +98,7 @@ references:
   name: "ProductCollectionByCountryByTargetViewOperations"
   nameWithType: "ProductCollectionByCountryByTargetViewOperations.ProductCollectionByCountryByTargetViewOperations"
   fullName: "com.microsoft.store.partnercenter.products.ProductCollectionByCountryByTargetViewOperations.ProductCollectionByCountryByTargetViewOperations"
+  package: "com.microsoft.store.partnercenter.products"
 - uid: "com.microsoft.store.partnercenter.products.IProductCollectionByCountryByTargetViewByTargetSegment"
   isExternal: true
   name: "IProductCollectionByCountryByTargetViewByTargetSegment"
@@ -107,6 +108,7 @@ references:
   name: "byTargetSegment"
   nameWithType: "ProductCollectionByCountryByTargetViewOperations.byTargetSegment"
   fullName: "com.microsoft.store.partnercenter.products.ProductCollectionByCountryByTargetViewOperations.byTargetSegment"
+  package: "com.microsoft.store.partnercenter.products"
 - uid: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.products.Product>"
   isExternal: true
   name: "ResourceCollection<Product>"
@@ -116,6 +118,7 @@ references:
   name: "get"
   nameWithType: "ProductCollectionByCountryByTargetViewOperations.get"
   fullName: "com.microsoft.store.partnercenter.products.ProductCollectionByCountryByTargetViewOperations.get"
+  package: "com.microsoft.store.partnercenter.products"
 - uid: "com.microsoft.store.partnercenter.BasePartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>"
   isExternal: true
   name: "BasePartnerComponent<Tuple<String,String>>"

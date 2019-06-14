@@ -95,6 +95,7 @@ references:
   name: "byId"
   nameWithType: "IServiceRequestCollection.byId"
   fullName: "com.microsoft.store.partnercenter.servicerequests.IServiceRequestCollection.byId"
+  package: "com.microsoft.store.partnercenter.servicerequests"
 - uid: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.servicerequests.ServiceRequest>"
   isExternal: true
   name: "ResourceCollection<ServiceRequest>"
@@ -104,6 +105,7 @@ references:
   name: "get"
   nameWithType: "IServiceRequestCollection.get"
   fullName: "com.microsoft.store.partnercenter.servicerequests.IServiceRequestCollection.get"
+  package: "com.microsoft.store.partnercenter.servicerequests"
 - uid: "com.microsoft.store.partnercenter.models.query.IQuery"
   isExternal: true
   name: "IQuery"
@@ -113,6 +115,7 @@ references:
   name: "query"
   nameWithType: "IServiceRequestCollection.query"
   fullName: "com.microsoft.store.partnercenter.servicerequests.IServiceRequestCollection.query"
+  package: "com.microsoft.store.partnercenter.servicerequests"
 - uid: "com.microsoft.store.partnercenter.IPartnerComponentString"
   isExternal: true
   name: "IPartnerComponentString"

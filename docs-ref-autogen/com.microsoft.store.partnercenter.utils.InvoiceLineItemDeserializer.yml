@@ -75,6 +75,7 @@ references:
   name: "InvoiceLineItemDeserializer"
   nameWithType: "InvoiceLineItemDeserializer.InvoiceLineItemDeserializer"
   fullName: "com.microsoft.store.partnercenter.utils.InvoiceLineItemDeserializer.InvoiceLineItemDeserializer"
+  package: "com.microsoft.store.partnercenter.utils"
 - uid: "java.lang.Class<?>"
   isExternal: true
   name: "Class<?>"
@@ -109,6 +110,7 @@ references:
   name: "deserialize"
   nameWithType: "InvoiceLineItemDeserializer.deserialize"
   fullName: "com.microsoft.store.partnercenter.utils.InvoiceLineItemDeserializer.deserialize"
+  package: "com.microsoft.store.partnercenter.utils"
 - uid: "com.fasterxml.jackson.databind.deser.std.StdDeserializer<com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem>"
   isExternal: true
   name: "StdDeserializer<InvoiceLineItem>"

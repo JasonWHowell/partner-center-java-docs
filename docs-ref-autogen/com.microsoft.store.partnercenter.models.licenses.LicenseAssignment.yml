@@ -101,6 +101,7 @@ references:
   name: "LicenseAssignment"
   nameWithType: "LicenseAssignment.LicenseAssignment"
   fullName: "com.microsoft.store.partnercenter.models.licenses.LicenseAssignment.LicenseAssignment"
+  package: "com.microsoft.store.partnercenter.models.licenses"
 - uid: "java.lang.Iterable<java.lang.String>"
   isExternal: true
   name: "Iterable<String>"
@@ -110,10 +111,12 @@ references:
   name: "getExcludedPlans"
   nameWithType: "LicenseAssignment.getExcludedPlans"
   fullName: "com.microsoft.store.partnercenter.models.licenses.LicenseAssignment.getExcludedPlans"
+  package: "com.microsoft.store.partnercenter.models.licenses"
 - uid: "com.microsoft.store.partnercenter.models.licenses.LicenseAssignment.setExcludedPlans*"
   name: "setExcludedPlans"
   nameWithType: "LicenseAssignment.setExcludedPlans"
   fullName: "com.microsoft.store.partnercenter.models.licenses.LicenseAssignment.setExcludedPlans"
+  package: "com.microsoft.store.partnercenter.models.licenses"
 - uid: "java.lang.String"
   isExternal: true
   name: "String"
@@ -123,10 +126,12 @@ references:
   name: "getSkuId"
   nameWithType: "LicenseAssignment.getSkuId"
   fullName: "com.microsoft.store.partnercenter.models.licenses.LicenseAssignment.getSkuId"
+  package: "com.microsoft.store.partnercenter.models.licenses"
 - uid: "com.microsoft.store.partnercenter.models.licenses.LicenseAssignment.setSkuId*"
   name: "setSkuId"
   nameWithType: "LicenseAssignment.setSkuId"
   fullName: "com.microsoft.store.partnercenter.models.licenses.LicenseAssignment.setSkuId"
+  package: "com.microsoft.store.partnercenter.models.licenses"
 - uid: "java.lang.Iterable"
   isExternal: true
   name: "Iterable"

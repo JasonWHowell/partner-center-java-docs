@@ -105,6 +105,7 @@ references:
   name: "query"
   nameWithType: "IAzureUtilizationCollection.query"
   fullName: "com.microsoft.store.partnercenter.utilization.IAzureUtilizationCollection.query"
+  package: "com.microsoft.store.partnercenter.utilization"
 - uid: "java.lang.String"
   isExternal: true
   name: "String"
@@ -119,6 +120,7 @@ references:
   name: "seek"
   nameWithType: "IAzureUtilizationCollection.seek"
   fullName: "com.microsoft.store.partnercenter.utilization.IAzureUtilizationCollection.seek"
+  package: "com.microsoft.store.partnercenter.utilization"
 - uid: "com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>"
   isExternal: true
   name: "IPartnerComponent<Tuple<String,String>>"

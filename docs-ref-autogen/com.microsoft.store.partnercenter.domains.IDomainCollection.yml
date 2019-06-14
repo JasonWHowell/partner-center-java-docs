@@ -52,6 +52,7 @@ references:
   name: "byDomain"
   nameWithType: "IDomainCollection.byDomain"
   fullName: "com.microsoft.store.partnercenter.domains.IDomainCollection.byDomain"
+  package: "com.microsoft.store.partnercenter.domains"
 - uid: "com.microsoft.store.partnercenter.IPartnerComponentString"
   isExternal: true
   name: "IPartnerComponentString"

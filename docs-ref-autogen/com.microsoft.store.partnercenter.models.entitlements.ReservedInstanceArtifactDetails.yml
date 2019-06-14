@@ -109,6 +109,7 @@ references:
   name: "ReservedInstanceArtifactDetails"
   nameWithType: "ReservedInstanceArtifactDetails.ReservedInstanceArtifactDetails"
   fullName: "com.microsoft.store.partnercenter.models.entitlements.ReservedInstanceArtifactDetails.ReservedInstanceArtifactDetails"
+  package: "com.microsoft.store.partnercenter.models.entitlements"
 - uid: "java.util.Iterator<com.microsoft.store.partnercenter.models.entitlements.Reservation>"
   isExternal: true
   name: "Iterator<Reservation>"
@@ -118,10 +119,12 @@ references:
   name: "getReservations"
   nameWithType: "ReservedInstanceArtifactDetails.getReservations"
   fullName: "com.microsoft.store.partnercenter.models.entitlements.ReservedInstanceArtifactDetails.getReservations"
+  package: "com.microsoft.store.partnercenter.models.entitlements"
 - uid: "com.microsoft.store.partnercenter.models.entitlements.ReservedInstanceArtifactDetails.setReservations*"
   name: "setReservations"
   nameWithType: "ReservedInstanceArtifactDetails.setReservations"
   fullName: "com.microsoft.store.partnercenter.models.entitlements.ReservedInstanceArtifactDetails.setReservations"
+  package: "com.microsoft.store.partnercenter.models.entitlements"
 - uid: "java.lang.String"
   isExternal: true
   name: "String"
@@ -131,10 +134,12 @@ references:
   name: "getType"
   nameWithType: "ReservedInstanceArtifactDetails.getType"
   fullName: "com.microsoft.store.partnercenter.models.entitlements.ReservedInstanceArtifactDetails.getType"
+  package: "com.microsoft.store.partnercenter.models.entitlements"
 - uid: "com.microsoft.store.partnercenter.models.entitlements.ReservedInstanceArtifactDetails.setType*"
   name: "setType"
   nameWithType: "ReservedInstanceArtifactDetails.setType"
   fullName: "com.microsoft.store.partnercenter.models.entitlements.ReservedInstanceArtifactDetails.setType"
+  package: "com.microsoft.store.partnercenter.models.entitlements"
 - uid: "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks<com.microsoft.store.partnercenter.models.StandardResourceLinks>"
   isExternal: true
   name: "ResourceBaseWithLinks<StandardResourceLinks>"

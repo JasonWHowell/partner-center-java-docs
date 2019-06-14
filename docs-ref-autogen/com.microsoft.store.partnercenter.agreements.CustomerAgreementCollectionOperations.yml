@@ -95,6 +95,7 @@ references:
   name: "CustomerAgreementCollectionOperations"
   nameWithType: "CustomerAgreementCollectionOperations.CustomerAgreementCollectionOperations"
   fullName: "com.microsoft.store.partnercenter.agreements.CustomerAgreementCollectionOperations.CustomerAgreementCollectionOperations"
+  package: "com.microsoft.store.partnercenter.agreements"
 - uid: "com.microsoft.store.partnercenter.models.agreements.Agreement"
   isExternal: true
   name: "Agreement"
@@ -104,6 +105,7 @@ references:
   name: "create"
   nameWithType: "CustomerAgreementCollectionOperations.create"
   fullName: "com.microsoft.store.partnercenter.agreements.CustomerAgreementCollectionOperations.create"
+  package: "com.microsoft.store.partnercenter.agreements"
 - uid: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.agreements.Agreement>"
   isExternal: true
   name: "ResourceCollection<Agreement>"
@@ -113,6 +115,7 @@ references:
   name: "get"
   nameWithType: "CustomerAgreementCollectionOperations.get"
   fullName: "com.microsoft.store.partnercenter.agreements.CustomerAgreementCollectionOperations.get"
+  package: "com.microsoft.store.partnercenter.agreements"
 - uid: "com.microsoft.store.partnercenter.BasePartnerComponentString"
   isExternal: true
   name: "BasePartnerComponentString"

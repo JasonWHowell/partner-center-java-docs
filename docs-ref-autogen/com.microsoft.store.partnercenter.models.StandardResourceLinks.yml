@@ -68,6 +68,7 @@ references:
   name: "StandardResourceLinks"
   nameWithType: "StandardResourceLinks.StandardResourceLinks"
   fullName: "com.microsoft.store.partnercenter.models.StandardResourceLinks.StandardResourceLinks"
+  package: "com.microsoft.store.partnercenter.models"
 - uid: "com.microsoft.store.partnercenter.models.Link"
   isExternal: true
   name: "Link"
@@ -77,7 +78,9 @@ references:
   name: "getSelf"
   nameWithType: "StandardResourceLinks.getSelf"
   fullName: "com.microsoft.store.partnercenter.models.StandardResourceLinks.getSelf"
+  package: "com.microsoft.store.partnercenter.models"
 - uid: "com.microsoft.store.partnercenter.models.StandardResourceLinks.setSelf*"
   name: "setSelf"
   nameWithType: "StandardResourceLinks.setSelf"
   fullName: "com.microsoft.store.partnercenter.models.StandardResourceLinks.setSelf"
+  package: "com.microsoft.store.partnercenter.models"

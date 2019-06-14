@@ -68,6 +68,7 @@ references:
   name: "OfferLinks"
   nameWithType: "OfferLinks.OfferLinks"
   fullName: "com.microsoft.store.partnercenter.models.offers.OfferLinks.OfferLinks"
+  package: "com.microsoft.store.partnercenter.models.offers"
 - uid: "com.microsoft.store.partnercenter.models.Link"
   isExternal: true
   name: "Link"
@@ -77,10 +78,12 @@ references:
   name: "getLearnMore"
   nameWithType: "OfferLinks.getLearnMore"
   fullName: "com.microsoft.store.partnercenter.models.offers.OfferLinks.getLearnMore"
+  package: "com.microsoft.store.partnercenter.models.offers"
 - uid: "com.microsoft.store.partnercenter.models.offers.OfferLinks.setLearnMore*"
   name: "setLearnMore"
   nameWithType: "OfferLinks.setLearnMore"
   fullName: "com.microsoft.store.partnercenter.models.offers.OfferLinks.setLearnMore"
+  package: "com.microsoft.store.partnercenter.models.offers"
 - uid: "com.microsoft.store.partnercenter.models.StandardResourceLinks"
   isExternal: true
   name: "StandardResourceLinks"

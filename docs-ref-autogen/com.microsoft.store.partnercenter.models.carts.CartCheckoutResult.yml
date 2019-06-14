@@ -45,10 +45,12 @@ items:
   overload: "com.microsoft.store.partnercenter.models.carts.CartCheckoutResult.getOrders*"
   type: "Method"
   package: "com.microsoft.store.partnercenter.models.carts"
+  summary: "Gets the order that were created."
   syntax:
     content: "public List<Order> getOrders()"
     return:
       type: "java.util.List<com.microsoft.store.partnercenter.models.orders.Order>"
+      description: "The orders that were created."
 - uid: "com.microsoft.store.partnercenter.models.carts.CartCheckoutResult.setOrders(java.util.List<com.microsoft.store.partnercenter.models.orders.Order>)"
   id: "setOrders(java.util.List<com.microsoft.store.partnercenter.models.orders.Order>)"
   parent: "com.microsoft.store.partnercenter.models.carts.CartCheckoutResult"
@@ -60,11 +62,13 @@ items:
   overload: "com.microsoft.store.partnercenter.models.carts.CartCheckoutResult.setOrders*"
   type: "Method"
   package: "com.microsoft.store.partnercenter.models.carts"
+  summary: "Sets the orders that were created."
   syntax:
     content: "public void setOrders(List<Order> value)"
     parameters:
     - id: "value"
       type: "java.util.List<com.microsoft.store.partnercenter.models.orders.Order>"
+      description: "The orders that were created."
 - uid: "com.microsoft.store.partnercenter.models.carts.CartCheckoutResult.getOrderErrors()"
   id: "getOrderErrors()"
   parent: "com.microsoft.store.partnercenter.models.carts.CartCheckoutResult"
@@ -76,10 +80,12 @@ items:
   overload: "com.microsoft.store.partnercenter.models.carts.CartCheckoutResult.getOrderErrors*"
   type: "Method"
   package: "com.microsoft.store.partnercenter.models.carts"
+  summary: "Gets the collection of order failure information."
   syntax:
     content: "public List<OrderError> getOrderErrors()"
     return:
       type: "java.util.List<com.microsoft.store.partnercenter.models.carts.OrderError>"
+      description: "The collection of order failure information."
 - uid: "com.microsoft.store.partnercenter.models.carts.CartCheckoutResult.setOrderErrors(java.util.List<com.microsoft.store.partnercenter.models.carts.OrderError>)"
   id: "setOrderErrors(java.util.List<com.microsoft.store.partnercenter.models.carts.OrderError>)"
   parent: "com.microsoft.store.partnercenter.models.carts.CartCheckoutResult"
@@ -91,16 +97,19 @@ items:
   overload: "com.microsoft.store.partnercenter.models.carts.CartCheckoutResult.setOrderErrors*"
   type: "Method"
   package: "com.microsoft.store.partnercenter.models.carts"
+  summary: "Sets the collection of order failure information."
   syntax:
     content: "public void setOrderErrors(List<OrderError> value)"
     parameters:
     - id: "value"
       type: "java.util.List<com.microsoft.store.partnercenter.models.carts.OrderError>"
+      description: "The collection of order failure information."
 references:
 - uid: "com.microsoft.store.partnercenter.models.carts.CartCheckoutResult.CartCheckoutResult*"
   name: "CartCheckoutResult"
   nameWithType: "CartCheckoutResult.CartCheckoutResult"
   fullName: "com.microsoft.store.partnercenter.models.carts.CartCheckoutResult.CartCheckoutResult"
+  package: "com.microsoft.store.partnercenter.models.carts"
 - uid: "java.util.List<com.microsoft.store.partnercenter.models.orders.Order>"
   isExternal: true
   name: "List<Order>"
@@ -110,10 +119,12 @@ references:
   name: "getOrders"
   nameWithType: "CartCheckoutResult.getOrders"
   fullName: "com.microsoft.store.partnercenter.models.carts.CartCheckoutResult.getOrders"
+  package: "com.microsoft.store.partnercenter.models.carts"
 - uid: "com.microsoft.store.partnercenter.models.carts.CartCheckoutResult.setOrders*"
   name: "setOrders"
   nameWithType: "CartCheckoutResult.setOrders"
   fullName: "com.microsoft.store.partnercenter.models.carts.CartCheckoutResult.setOrders"
+  package: "com.microsoft.store.partnercenter.models.carts"
 - uid: "java.util.List<com.microsoft.store.partnercenter.models.carts.OrderError>"
   isExternal: true
   name: "List<OrderError>"
@@ -123,10 +134,12 @@ references:
   name: "getOrderErrors"
   nameWithType: "CartCheckoutResult.getOrderErrors"
   fullName: "com.microsoft.store.partnercenter.models.carts.CartCheckoutResult.getOrderErrors"
+  package: "com.microsoft.store.partnercenter.models.carts"
 - uid: "com.microsoft.store.partnercenter.models.carts.CartCheckoutResult.setOrderErrors*"
   name: "setOrderErrors"
   nameWithType: "CartCheckoutResult.setOrderErrors"
   fullName: "com.microsoft.store.partnercenter.models.carts.CartCheckoutResult.setOrderErrors"
+  package: "com.microsoft.store.partnercenter.models.carts"
 - uid: "com.microsoft.store.partnercenter.models.ResourceBase"
   isExternal: true
   name: "ResourceBase"

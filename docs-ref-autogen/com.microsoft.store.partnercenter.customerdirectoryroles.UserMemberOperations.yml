@@ -76,10 +76,12 @@ references:
   name: "UserMemberOperations"
   nameWithType: "UserMemberOperations.UserMemberOperations"
   fullName: "com.microsoft.store.partnercenter.customerdirectoryroles.UserMemberOperations.UserMemberOperations"
+  package: "com.microsoft.store.partnercenter.customerdirectoryroles"
 - uid: "com.microsoft.store.partnercenter.customerdirectoryroles.UserMemberOperations.delete*"
   name: "delete"
   nameWithType: "UserMemberOperations.delete"
   fullName: "com.microsoft.store.partnercenter.customerdirectoryroles.UserMemberOperations.delete"
+  package: "com.microsoft.store.partnercenter.customerdirectoryroles"
 - uid: "com.microsoft.store.partnercenter.BasePartnerComponent<com.microsoft.store.partnercenter.models.utils.TripletTuple<java.lang.String,java.lang.String,java.lang.String>>"
   isExternal: true
   name: "BasePartnerComponent<TripletTuple<String,String,String>>"

@@ -99,6 +99,7 @@ references:
   name: "ServiceCostsCollectionOperations"
   nameWithType: "ServiceCostsCollectionOperations.ServiceCostsCollectionOperations"
   fullName: "com.microsoft.store.partnercenter.customers.servicecosts.ServiceCostsCollectionOperations.ServiceCostsCollectionOperations"
+  package: "com.microsoft.store.partnercenter.customers.servicecosts"
 - uid: "com.microsoft.store.partnercenter.customers.servicecosts.IServiceCostLineItemsCollection"
   isExternal: true
   name: "IServiceCostLineItemsCollection"
@@ -108,6 +109,7 @@ references:
   name: "getLineItems"
   nameWithType: "ServiceCostsCollectionOperations.getLineItems"
   fullName: "com.microsoft.store.partnercenter.customers.servicecosts.ServiceCostsCollectionOperations.getLineItems"
+  package: "com.microsoft.store.partnercenter.customers.servicecosts"
 - uid: "com.microsoft.store.partnercenter.customers.servicecosts.IServiceCostSummary"
   isExternal: true
   name: "IServiceCostSummary"
@@ -117,6 +119,7 @@ references:
   name: "getSummary"
   nameWithType: "ServiceCostsCollectionOperations.getSummary"
   fullName: "com.microsoft.store.partnercenter.customers.servicecosts.ServiceCostsCollectionOperations.getSummary"
+  package: "com.microsoft.store.partnercenter.customers.servicecosts"
 - uid: "com.microsoft.store.partnercenter.BasePartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>"
   isExternal: true
   name: "BasePartnerComponent<Tuple<String,String>>"

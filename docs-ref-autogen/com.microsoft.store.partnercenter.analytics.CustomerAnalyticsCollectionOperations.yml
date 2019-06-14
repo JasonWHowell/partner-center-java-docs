@@ -73,6 +73,7 @@ references:
   name: "CustomerAnalyticsCollectionOperations"
   nameWithType: "CustomerAnalyticsCollectionOperations.CustomerAnalyticsCollectionOperations"
   fullName: "com.microsoft.store.partnercenter.analytics.CustomerAnalyticsCollectionOperations.CustomerAnalyticsCollectionOperations"
+  package: "com.microsoft.store.partnercenter.analytics"
 - uid: "com.microsoft.store.partnercenter.analytics.ICustomerLicensesAnalyticsCollection"
   isExternal: true
   name: "ICustomerLicensesAnalyticsCollection"
@@ -82,6 +83,7 @@ references:
   name: "getLicenses"
   nameWithType: "CustomerAnalyticsCollectionOperations.getLicenses"
   fullName: "com.microsoft.store.partnercenter.analytics.CustomerAnalyticsCollectionOperations.getLicenses"
+  package: "com.microsoft.store.partnercenter.analytics"
 - uid: "com.microsoft.store.partnercenter.BasePartnerComponentString"
   isExternal: true
   name: "BasePartnerComponentString"

@@ -69,6 +69,7 @@ references:
   name: "ProductCollectionOperations"
   nameWithType: "ProductCollectionOperations.ProductCollectionOperations"
   fullName: "com.microsoft.store.partnercenter.products.ProductCollectionOperations.ProductCollectionOperations"
+  package: "com.microsoft.store.partnercenter.products"
 - uid: "java.lang.String"
   isExternal: true
   name: "String"
@@ -83,6 +84,7 @@ references:
   name: "byCountry"
   nameWithType: "ProductCollectionOperations.byCountry"
   fullName: "com.microsoft.store.partnercenter.products.ProductCollectionOperations.byCountry"
+  package: "com.microsoft.store.partnercenter.products"
 - uid: "com.microsoft.store.partnercenter.BasePartnerComponentString"
   isExternal: true
   name: "BasePartnerComponentString"

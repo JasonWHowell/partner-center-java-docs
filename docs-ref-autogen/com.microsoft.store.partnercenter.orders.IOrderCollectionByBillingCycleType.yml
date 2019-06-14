@@ -67,6 +67,7 @@ references:
   name: "get"
   nameWithType: "IOrderCollectionByBillingCycleType.get"
   fullName: "com.microsoft.store.partnercenter.orders.IOrderCollectionByBillingCycleType.get"
+  package: "com.microsoft.store.partnercenter.orders"
 - uid: "boolean"
   isExternal: true
   name: "boolean"

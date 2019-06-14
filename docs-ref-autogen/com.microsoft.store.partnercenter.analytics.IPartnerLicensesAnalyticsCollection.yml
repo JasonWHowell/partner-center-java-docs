@@ -62,6 +62,7 @@ references:
   name: "getDeployment"
   nameWithType: "IPartnerLicensesAnalyticsCollection.getDeployment"
   fullName: "com.microsoft.store.partnercenter.analytics.IPartnerLicensesAnalyticsCollection.getDeployment"
+  package: "com.microsoft.store.partnercenter.analytics"
 - uid: "com.microsoft.store.partnercenter.analytics.IPartnerLicensesUsageInsightsCollection"
   isExternal: true
   name: "IPartnerLicensesUsageInsightsCollection"
@@ -71,6 +72,7 @@ references:
   name: "getUsage"
   nameWithType: "IPartnerLicensesAnalyticsCollection.getUsage"
   fullName: "com.microsoft.store.partnercenter.analytics.IPartnerLicensesAnalyticsCollection.getUsage"
+  package: "com.microsoft.store.partnercenter.analytics"
 - uid: "com.microsoft.store.partnercenter.IPartnerComponentString"
   isExternal: true
   name: "IPartnerComponentString"

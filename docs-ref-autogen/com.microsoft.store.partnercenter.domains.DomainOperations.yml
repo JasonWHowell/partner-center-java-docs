@@ -72,6 +72,7 @@ references:
   name: "DomainOperations"
   nameWithType: "DomainOperations.DomainOperations"
   fullName: "com.microsoft.store.partnercenter.domains.DomainOperations.DomainOperations"
+  package: "com.microsoft.store.partnercenter.domains"
 - uid: "boolean"
   isExternal: true
   name: "boolean"
@@ -81,6 +82,7 @@ references:
   name: "exists"
   nameWithType: "DomainOperations.exists"
   fullName: "com.microsoft.store.partnercenter.domains.DomainOperations.exists"
+  package: "com.microsoft.store.partnercenter.domains"
 - uid: "com.microsoft.store.partnercenter.BasePartnerComponentString"
   isExternal: true
   name: "BasePartnerComponentString"

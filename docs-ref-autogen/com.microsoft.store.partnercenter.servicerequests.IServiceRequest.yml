@@ -68,10 +68,12 @@ references:
   name: "get"
   nameWithType: "IServiceRequest.get"
   fullName: "com.microsoft.store.partnercenter.servicerequests.IServiceRequest.get"
+  package: "com.microsoft.store.partnercenter.servicerequests"
 - uid: "com.microsoft.store.partnercenter.servicerequests.IServiceRequest.patch*"
   name: "patch"
   nameWithType: "IServiceRequest.patch"
   fullName: "com.microsoft.store.partnercenter.servicerequests.IServiceRequest.patch"
+  package: "com.microsoft.store.partnercenter.servicerequests"
 - uid: "com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>"
   isExternal: true
   name: "IPartnerComponent<Tuple<String,String>>"

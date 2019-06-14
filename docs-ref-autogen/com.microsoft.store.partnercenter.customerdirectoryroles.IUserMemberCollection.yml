@@ -118,6 +118,7 @@ references:
   name: "byId"
   nameWithType: "IUserMemberCollection.byId"
   fullName: "com.microsoft.store.partnercenter.customerdirectoryroles.IUserMemberCollection.byId"
+  package: "com.microsoft.store.partnercenter.customerdirectoryroles"
 - uid: "com.microsoft.store.partnercenter.models.roles.UserMember"
   isExternal: true
   name: "UserMember"
@@ -127,6 +128,7 @@ references:
   name: "create"
   nameWithType: "IUserMemberCollection.create"
   fullName: "com.microsoft.store.partnercenter.customerdirectoryroles.IUserMemberCollection.create"
+  package: "com.microsoft.store.partnercenter.customerdirectoryroles"
 - uid: "com.microsoft.store.partnercenter.models.query.IQuery"
   isExternal: true
   name: "IQuery"
@@ -141,10 +143,12 @@ references:
   name: "query"
   nameWithType: "IUserMemberCollection.query"
   fullName: "com.microsoft.store.partnercenter.customerdirectoryroles.IUserMemberCollection.query"
+  package: "com.microsoft.store.partnercenter.customerdirectoryroles"
 - uid: "com.microsoft.store.partnercenter.customerdirectoryroles.IUserMemberCollection.get*"
   name: "get"
   nameWithType: "IUserMemberCollection.get"
   fullName: "com.microsoft.store.partnercenter.customerdirectoryroles.IUserMemberCollection.get"
+  package: "com.microsoft.store.partnercenter.customerdirectoryroles"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations<com.microsoft.store.partnercenter.models.roles.UserMember,com.microsoft.store.partnercenter.models.SeekBasedResourceCollection<com.microsoft.store.partnercenter.models.roles.UserMember>>"
   isExternal: true
   name: "IEntireEntityCollectionRetrievalOperations<UserMember,SeekBasedResourceCollection<UserMember>>"

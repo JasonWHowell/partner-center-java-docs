@@ -45,6 +45,7 @@ references:
   name: "get"
   nameWithType: "ISubscriptionProvisioningStatus.get"
   fullName: "com.microsoft.store.partnercenter.subscriptions.ISubscriptionProvisioningStatus.get"
+  package: "com.microsoft.store.partnercenter.subscriptions"
 - uid: "com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>"
   isExternal: true
   name: "IPartnerComponent<Tuple<String,String>>"

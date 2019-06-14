@@ -73,6 +73,7 @@ references:
   name: "byId"
   nameWithType: "IDirectoryRoleCollection.byId"
   fullName: "com.microsoft.store.partnercenter.customerdirectoryroles.IDirectoryRoleCollection.byId"
+  package: "com.microsoft.store.partnercenter.customerdirectoryroles"
 - uid: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.roles.DirectoryRole>"
   isExternal: true
   name: "ResourceCollection<DirectoryRole>"
@@ -82,6 +83,7 @@ references:
   name: "get"
   nameWithType: "IDirectoryRoleCollection.get"
   fullName: "com.microsoft.store.partnercenter.customerdirectoryroles.IDirectoryRoleCollection.get"
+  package: "com.microsoft.store.partnercenter.customerdirectoryroles"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntitySelector<java.lang.String,com.microsoft.store.partnercenter.customerdirectoryroles.IDirectoryRole>"
   isExternal: true
   name: "IEntitySelector<String,IDirectoryRole>"

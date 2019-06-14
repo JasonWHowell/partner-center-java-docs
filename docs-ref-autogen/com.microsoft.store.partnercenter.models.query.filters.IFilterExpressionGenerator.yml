@@ -57,7 +57,7 @@ items:
   overload: "com.microsoft.store.partnercenter.models.query.filters.IFilterExpressionGenerator.generateCompoundExpression*"
   type: "Method"
   package: "com.microsoft.store.partnercenter.models.query.filters"
-  summary: "Generates a compound filter expression ( A equals 5 and ( B equals 8 or C notEquals 0 ) )"
+  summary: "Generates a compound filter expression (A equals 5 and (B equals 8 or C notEquals 0))"
   syntax:
     content: "public abstract String generateCompoundExpression(String leftSideExpression, FieldFilterOperation operation, String rightSideExpression)"
     parameters:
@@ -93,7 +93,9 @@ references:
   name: "generateSimpleExpression"
   nameWithType: "IFilterExpressionGenerator.generateSimpleExpression"
   fullName: "com.microsoft.store.partnercenter.models.query.filters.IFilterExpressionGenerator.generateSimpleExpression"
+  package: "com.microsoft.store.partnercenter.models.query.filters"
 - uid: "com.microsoft.store.partnercenter.models.query.filters.IFilterExpressionGenerator.generateCompoundExpression*"
   name: "generateCompoundExpression"
   nameWithType: "IFilterExpressionGenerator.generateCompoundExpression"
   fullName: "com.microsoft.store.partnercenter.models.query.filters.IFilterExpressionGenerator.generateCompoundExpression"
+  package: "com.microsoft.store.partnercenter.models.query.filters"

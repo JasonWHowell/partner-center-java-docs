@@ -78,10 +78,12 @@ references:
   name: "getRequestId"
   nameWithType: "IRequestContext.getRequestId"
   fullName: "com.microsoft.store.partnercenter.requestcontext.IRequestContext.getRequestId"
+  package: "com.microsoft.store.partnercenter.requestcontext"
 - uid: "com.microsoft.store.partnercenter.requestcontext.IRequestContext.getCorrelationId*"
   name: "getCorrelationId"
   nameWithType: "IRequestContext.getCorrelationId"
   fullName: "com.microsoft.store.partnercenter.requestcontext.IRequestContext.getCorrelationId"
+  package: "com.microsoft.store.partnercenter.requestcontext"
 - uid: "java.lang.String"
   isExternal: true
   name: "String"
@@ -91,3 +93,4 @@ references:
   name: "getLocale"
   nameWithType: "IRequestContext.getLocale"
   fullName: "com.microsoft.store.partnercenter.requestcontext.IRequestContext.getLocale"
+  package: "com.microsoft.store.partnercenter.requestcontext"

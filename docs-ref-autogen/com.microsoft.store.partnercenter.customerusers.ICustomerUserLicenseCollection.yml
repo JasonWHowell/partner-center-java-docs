@@ -67,6 +67,7 @@ references:
   name: "get"
   nameWithType: "ICustomerUserLicenseCollection.get"
   fullName: "com.microsoft.store.partnercenter.customerusers.ICustomerUserLicenseCollection.get"
+  package: "com.microsoft.store.partnercenter.customerusers"
 - uid: "java.util.List<com.microsoft.store.partnercenter.models.licenses.LicenseGroupId>"
   isExternal: true
   name: "List<LicenseGroupId>"

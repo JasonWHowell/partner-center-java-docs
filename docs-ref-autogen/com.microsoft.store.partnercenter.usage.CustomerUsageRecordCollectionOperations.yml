@@ -65,6 +65,7 @@ references:
   name: "CustomerUsageRecordCollectionOperations"
   nameWithType: "CustomerUsageRecordCollectionOperations.CustomerUsageRecordCollectionOperations"
   fullName: "com.microsoft.store.partnercenter.usage.CustomerUsageRecordCollectionOperations.CustomerUsageRecordCollectionOperations"
+  package: "com.microsoft.store.partnercenter.usage"
 - uid: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.usage.CustomerMonthlyUsageRecord>"
   isExternal: true
   name: "ResourceCollection<CustomerMonthlyUsageRecord>"
@@ -74,6 +75,7 @@ references:
   name: "get"
   nameWithType: "CustomerUsageRecordCollectionOperations.get"
   fullName: "com.microsoft.store.partnercenter.usage.CustomerUsageRecordCollectionOperations.get"
+  package: "com.microsoft.store.partnercenter.usage"
 - uid: "com.microsoft.store.partnercenter.BasePartnerComponentString"
   isExternal: true
   name: "BasePartnerComponentString"

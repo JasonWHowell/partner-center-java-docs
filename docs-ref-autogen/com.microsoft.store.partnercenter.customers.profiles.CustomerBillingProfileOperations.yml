@@ -95,6 +95,7 @@ references:
   name: "CustomerBillingProfileOperations"
   nameWithType: "CustomerBillingProfileOperations.CustomerBillingProfileOperations"
   fullName: "com.microsoft.store.partnercenter.customers.profiles.CustomerBillingProfileOperations.CustomerBillingProfileOperations"
+  package: "com.microsoft.store.partnercenter.customers.profiles"
 - uid: "com.microsoft.store.partnercenter.models.customers.CustomerBillingProfile"
   isExternal: true
   name: "CustomerBillingProfile"
@@ -104,10 +105,12 @@ references:
   name: "get"
   nameWithType: "CustomerBillingProfileOperations.get"
   fullName: "com.microsoft.store.partnercenter.customers.profiles.CustomerBillingProfileOperations.get"
+  package: "com.microsoft.store.partnercenter.customers.profiles"
 - uid: "com.microsoft.store.partnercenter.customers.profiles.CustomerBillingProfileOperations.update*"
   name: "update"
   nameWithType: "CustomerBillingProfileOperations.update"
   fullName: "com.microsoft.store.partnercenter.customers.profiles.CustomerBillingProfileOperations.update"
+  package: "com.microsoft.store.partnercenter.customers.profiles"
 - uid: "com.microsoft.store.partnercenter.BasePartnerComponentString"
   isExternal: true
   name: "BasePartnerComponentString"

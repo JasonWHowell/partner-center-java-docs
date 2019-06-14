@@ -72,10 +72,12 @@ references:
   name: "ApplicationConsentOperations"
   nameWithType: "ApplicationConsentOperations.ApplicationConsentOperations"
   fullName: "com.microsoft.store.partnercenter.applicationconsents.ApplicationConsentOperations.ApplicationConsentOperations"
+  package: "com.microsoft.store.partnercenter.applicationconsents"
 - uid: "com.microsoft.store.partnercenter.applicationconsents.ApplicationConsentOperations.delete*"
   name: "delete"
   nameWithType: "ApplicationConsentOperations.delete"
   fullName: "com.microsoft.store.partnercenter.applicationconsents.ApplicationConsentOperations.delete"
+  package: "com.microsoft.store.partnercenter.applicationconsents"
 - uid: "com.microsoft.store.partnercenter.BasePartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>"
   isExternal: true
   name: "BasePartnerComponent<Tuple<String,String>>"

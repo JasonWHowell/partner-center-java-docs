@@ -68,10 +68,12 @@ references:
   name: "get"
   nameWithType: "ISubscriptionSupportContact.get"
   fullName: "com.microsoft.store.partnercenter.subscriptions.ISubscriptionSupportContact.get"
+  package: "com.microsoft.store.partnercenter.subscriptions"
 - uid: "com.microsoft.store.partnercenter.subscriptions.ISubscriptionSupportContact.update*"
   name: "update"
   nameWithType: "ISubscriptionSupportContact.update"
   fullName: "com.microsoft.store.partnercenter.subscriptions.ISubscriptionSupportContact.update"
+  package: "com.microsoft.store.partnercenter.subscriptions"
 - uid: "com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>"
   isExternal: true
   name: "IPartnerComponent<Tuple<String,String>>"

@@ -65,6 +65,7 @@ references:
   name: "AgreementDetailsCollectionOperations"
   nameWithType: "AgreementDetailsCollectionOperations.AgreementDetailsCollectionOperations"
   fullName: "com.microsoft.store.partnercenter.agreements.AgreementDetailsCollectionOperations.AgreementDetailsCollectionOperations"
+  package: "com.microsoft.store.partnercenter.agreements"
 - uid: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.agreements.AgreementMetaData>"
   isExternal: true
   name: "ResourceCollection<AgreementMetaData>"
@@ -74,6 +75,7 @@ references:
   name: "get"
   nameWithType: "AgreementDetailsCollectionOperations.get"
   fullName: "com.microsoft.store.partnercenter.agreements.AgreementDetailsCollectionOperations.get"
+  package: "com.microsoft.store.partnercenter.agreements"
 - uid: "com.microsoft.store.partnercenter.BasePartnerComponentString"
   isExternal: true
   name: "BasePartnerComponentString"

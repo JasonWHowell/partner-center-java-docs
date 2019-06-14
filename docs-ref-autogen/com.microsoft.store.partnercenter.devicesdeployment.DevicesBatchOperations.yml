@@ -76,6 +76,7 @@ references:
   name: "DevicesBatchOperations"
   nameWithType: "DevicesBatchOperations.DevicesBatchOperations"
   fullName: "com.microsoft.store.partnercenter.devicesdeployment.DevicesBatchOperations.DevicesBatchOperations"
+  package: "com.microsoft.store.partnercenter.devicesdeployment"
 - uid: "com.microsoft.store.partnercenter.devicesdeployment.IDeviceCollection"
   isExternal: true
   name: "IDeviceCollection"
@@ -85,6 +86,7 @@ references:
   name: "getDevices"
   nameWithType: "DevicesBatchOperations.getDevices"
   fullName: "com.microsoft.store.partnercenter.devicesdeployment.DevicesBatchOperations.getDevices"
+  package: "com.microsoft.store.partnercenter.devicesdeployment"
 - uid: "com.microsoft.store.partnercenter.BasePartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>"
   isExternal: true
   name: "BasePartnerComponent<Tuple<String,String>>"

@@ -44,6 +44,7 @@ references:
   name: "getAzure"
   nameWithType: "IRateCardCollection.getAzure"
   fullName: "com.microsoft.store.partnercenter.ratecards.IRateCardCollection.getAzure"
+  package: "com.microsoft.store.partnercenter.ratecards"
 - uid: "com.microsoft.store.partnercenter.IPartnerComponentString"
   isExternal: true
   name: "IPartnerComponentString"

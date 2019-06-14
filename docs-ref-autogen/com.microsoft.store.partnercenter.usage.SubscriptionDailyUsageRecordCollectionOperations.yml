@@ -76,6 +76,7 @@ references:
   name: "SubscriptionDailyUsageRecordCollectionOperations"
   nameWithType: "SubscriptionDailyUsageRecordCollectionOperations.SubscriptionDailyUsageRecordCollectionOperations"
   fullName: "com.microsoft.store.partnercenter.usage.SubscriptionDailyUsageRecordCollectionOperations.SubscriptionDailyUsageRecordCollectionOperations"
+  package: "com.microsoft.store.partnercenter.usage"
 - uid: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.usage.SubscriptionDailyUsageRecord>"
   isExternal: true
   name: "ResourceCollection<SubscriptionDailyUsageRecord>"
@@ -85,6 +86,7 @@ references:
   name: "get"
   nameWithType: "SubscriptionDailyUsageRecordCollectionOperations.get"
   fullName: "com.microsoft.store.partnercenter.usage.SubscriptionDailyUsageRecordCollectionOperations.get"
+  package: "com.microsoft.store.partnercenter.usage"
 - uid: "com.microsoft.store.partnercenter.BasePartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>"
   isExternal: true
   name: "BasePartnerComponent<Tuple<String,String>>"

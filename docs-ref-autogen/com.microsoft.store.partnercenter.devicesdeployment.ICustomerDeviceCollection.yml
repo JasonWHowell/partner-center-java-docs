@@ -53,6 +53,7 @@ references:
   name: "update"
   nameWithType: "ICustomerDeviceCollection.update"
   fullName: "com.microsoft.store.partnercenter.devicesdeployment.ICustomerDeviceCollection.update"
+  package: "com.microsoft.store.partnercenter.devicesdeployment"
 - uid: "com.microsoft.store.partnercenter.IPartnerComponentString"
   isExternal: true
   name: "IPartnerComponentString"

@@ -120,7 +120,7 @@ items:
     content: "public boolean isExpired()"
     return:
       type: "boolean"
-      description: "True if token has expired. False if not."
+      description: "true if token has expired; otherwise false."
 references:
 - uid: "java.lang.String"
   isExternal: true
@@ -136,14 +136,17 @@ references:
   name: "AuthenticationToken"
   nameWithType: "AuthenticationToken.AuthenticationToken"
   fullName: "com.microsoft.store.partnercenter.AuthenticationToken.AuthenticationToken"
+  package: "com.microsoft.store.partnercenter"
 - uid: "com.microsoft.store.partnercenter.AuthenticationToken.getToken*"
   name: "getToken"
   nameWithType: "AuthenticationToken.getToken"
   fullName: "com.microsoft.store.partnercenter.AuthenticationToken.getToken"
+  package: "com.microsoft.store.partnercenter"
 - uid: "com.microsoft.store.partnercenter.AuthenticationToken.getExpiryTime*"
   name: "getExpiryTime"
   nameWithType: "AuthenticationToken.getExpiryTime"
   fullName: "com.microsoft.store.partnercenter.AuthenticationToken.getExpiryTime"
+  package: "com.microsoft.store.partnercenter"
 - uid: "org.joda.time.Duration"
   isExternal: true
   name: "Duration"
@@ -153,10 +156,12 @@ references:
   name: "getExpiryBuffer"
   nameWithType: "AuthenticationToken.getExpiryBuffer"
   fullName: "com.microsoft.store.partnercenter.AuthenticationToken.getExpiryBuffer"
+  package: "com.microsoft.store.partnercenter"
 - uid: "com.microsoft.store.partnercenter.AuthenticationToken.setExpiryBuffer*"
   name: "setExpiryBuffer"
   nameWithType: "AuthenticationToken.setExpiryBuffer"
   fullName: "com.microsoft.store.partnercenter.AuthenticationToken.setExpiryBuffer"
+  package: "com.microsoft.store.partnercenter"
 - uid: "boolean"
   isExternal: true
   name: "boolean"
@@ -166,3 +171,4 @@ references:
   name: "isExpired"
   nameWithType: "AuthenticationToken.isExpired"
   fullName: "com.microsoft.store.partnercenter.AuthenticationToken.isExpired"
+  package: "com.microsoft.store.partnercenter"

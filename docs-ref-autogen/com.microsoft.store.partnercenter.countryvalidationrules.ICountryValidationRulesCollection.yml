@@ -54,6 +54,7 @@ references:
   name: "byCountry"
   nameWithType: "ICountryValidationRulesCollection.byCountry"
   fullName: "com.microsoft.store.partnercenter.countryvalidationrules.ICountryValidationRulesCollection.byCountry"
+  package: "com.microsoft.store.partnercenter.countryvalidationrules"
 - uid: "com.microsoft.store.partnercenter.IPartnerComponentString"
   isExternal: true
   name: "IPartnerComponentString"

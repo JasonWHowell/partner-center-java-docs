@@ -30,7 +30,7 @@ items:
   name: "KeyValuePair()"
   nameWithType: "KeyValuePair<K,V>.KeyValuePair()"
   fullName: "com.microsoft.store.partnercenter.models.utils.KeyValuePair<K,V>.KeyValuePair()"
-  overload: "com.microsoft.store.partnercenter.models.utils.KeyValuePair<K,V>.KeyValuePair*"
+  overload: "com.microsoft.store.partnercenter.models.utils.KeyValuePair.KeyValuePair*"
   type: "Constructor"
   package: "com.microsoft.store.partnercenter.models.utils"
   syntax:
@@ -43,7 +43,7 @@ items:
   name: "KeyValuePair(K key, V value)"
   nameWithType: "KeyValuePair<K,V>.KeyValuePair(K key, V value)"
   fullName: "com.microsoft.store.partnercenter.models.utils.KeyValuePair<K,V>.KeyValuePair(K key, V value)"
-  overload: "com.microsoft.store.partnercenter.models.utils.KeyValuePair<K,V>.KeyValuePair*"
+  overload: "com.microsoft.store.partnercenter.models.utils.KeyValuePair.KeyValuePair*"
   type: "Constructor"
   package: "com.microsoft.store.partnercenter.models.utils"
   syntax:
@@ -61,7 +61,7 @@ items:
   name: "getKey()"
   nameWithType: "KeyValuePair<K,V>.getKey()"
   fullName: "com.microsoft.store.partnercenter.models.utils.KeyValuePair<K,V>.getKey()"
-  overload: "com.microsoft.store.partnercenter.models.utils.KeyValuePair<K,V>.getKey*"
+  overload: "com.microsoft.store.partnercenter.models.utils.KeyValuePair.getKey*"
   type: "Method"
   package: "com.microsoft.store.partnercenter.models.utils"
   syntax:
@@ -76,7 +76,7 @@ items:
   name: "getValue()"
   nameWithType: "KeyValuePair<K,V>.getValue()"
   fullName: "com.microsoft.store.partnercenter.models.utils.KeyValuePair<K,V>.getValue()"
-  overload: "com.microsoft.store.partnercenter.models.utils.KeyValuePair<K,V>.getValue*"
+  overload: "com.microsoft.store.partnercenter.models.utils.KeyValuePair.getValue*"
   type: "Method"
   package: "com.microsoft.store.partnercenter.models.utils"
   syntax:
@@ -84,10 +84,11 @@ items:
     return:
       type: "V"
 references:
-- uid: "com.microsoft.store.partnercenter.models.utils.KeyValuePair<K,V>.KeyValuePair*"
+- uid: "com.microsoft.store.partnercenter.models.utils.KeyValuePair.KeyValuePair*"
   name: "KeyValuePair"
   nameWithType: "KeyValuePair<K,V>.KeyValuePair"
   fullName: "com.microsoft.store.partnercenter.models.utils.KeyValuePair<K,V>.KeyValuePair"
+  package: "com.microsoft.store.partnercenter.models.utils"
 - uid: "K"
   isExternal: true
   name: "K"
@@ -98,11 +99,13 @@ references:
   name: "V"
   nameWithType: "V"
   fullName: "V"
-- uid: "com.microsoft.store.partnercenter.models.utils.KeyValuePair<K,V>.getKey*"
+- uid: "com.microsoft.store.partnercenter.models.utils.KeyValuePair.getKey*"
   name: "getKey"
   nameWithType: "KeyValuePair<K,V>.getKey"
   fullName: "com.microsoft.store.partnercenter.models.utils.KeyValuePair<K,V>.getKey"
-- uid: "com.microsoft.store.partnercenter.models.utils.KeyValuePair<K,V>.getValue*"
+  package: "com.microsoft.store.partnercenter.models.utils"
+- uid: "com.microsoft.store.partnercenter.models.utils.KeyValuePair.getValue*"
   name: "getValue"
   nameWithType: "KeyValuePair<K,V>.getValue"
   fullName: "com.microsoft.store.partnercenter.models.utils.KeyValuePair<K,V>.getValue"
+  package: "com.microsoft.store.partnercenter.models.utils"

@@ -67,6 +67,7 @@ references:
   name: "create"
   nameWithType: "ICustomerAgreementCollection.create"
   fullName: "com.microsoft.store.partnercenter.agreements.ICustomerAgreementCollection.create"
+  package: "com.microsoft.store.partnercenter.agreements"
 - uid: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.agreements.Agreement>"
   isExternal: true
   name: "ResourceCollection<Agreement>"
@@ -76,6 +77,7 @@ references:
   name: "get"
   nameWithType: "ICustomerAgreementCollection.get"
   fullName: "com.microsoft.store.partnercenter.agreements.ICustomerAgreementCollection.get"
+  package: "com.microsoft.store.partnercenter.agreements"
 - uid: "com.microsoft.store.partnercenter.IPartnerComponentString"
   isExternal: true
   name: "IPartnerComponentString"

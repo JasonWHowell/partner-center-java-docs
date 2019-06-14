@@ -76,10 +76,12 @@ references:
   name: "SubscriptionRegistrationOperations"
   nameWithType: "SubscriptionRegistrationOperations.SubscriptionRegistrationOperations"
   fullName: "com.microsoft.store.partnercenter.subscriptions.SubscriptionRegistrationOperations.SubscriptionRegistrationOperations"
+  package: "com.microsoft.store.partnercenter.subscriptions"
 - uid: "com.microsoft.store.partnercenter.subscriptions.SubscriptionRegistrationOperations.register*"
   name: "register"
   nameWithType: "SubscriptionRegistrationOperations.register"
   fullName: "com.microsoft.store.partnercenter.subscriptions.SubscriptionRegistrationOperations.register"
+  package: "com.microsoft.store.partnercenter.subscriptions"
 - uid: "com.microsoft.store.partnercenter.BasePartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>"
   isExternal: true
   name: "BasePartnerComponent<Tuple<String,String>>"

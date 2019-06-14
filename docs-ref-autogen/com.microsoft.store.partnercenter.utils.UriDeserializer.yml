@@ -58,6 +58,7 @@ references:
   name: "UriDeserializer"
   nameWithType: "UriDeserializer.UriDeserializer"
   fullName: "com.microsoft.store.partnercenter.utils.UriDeserializer.UriDeserializer"
+  package: "com.microsoft.store.partnercenter.utils"
 - uid: "java.io.IOException"
   isExternal: true
   name: "IOException"
@@ -87,6 +88,7 @@ references:
   name: "deserialize"
   nameWithType: "UriDeserializer.deserialize"
   fullName: "com.microsoft.store.partnercenter.utils.UriDeserializer.deserialize"
+  package: "com.microsoft.store.partnercenter.utils"
 - uid: "com.fasterxml.jackson.databind.JsonDeserializer<java.net.URI>"
   isExternal: true
   name: "JsonDeserializer<URI>"

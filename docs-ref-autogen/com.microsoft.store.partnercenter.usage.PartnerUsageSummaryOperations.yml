@@ -65,6 +65,7 @@ references:
   name: "PartnerUsageSummaryOperations"
   nameWithType: "PartnerUsageSummaryOperations.PartnerUsageSummaryOperations"
   fullName: "com.microsoft.store.partnercenter.usage.PartnerUsageSummaryOperations.PartnerUsageSummaryOperations"
+  package: "com.microsoft.store.partnercenter.usage"
 - uid: "com.microsoft.store.partnercenter.models.usage.PartnerUsageSummary"
   isExternal: true
   name: "PartnerUsageSummary"
@@ -74,6 +75,7 @@ references:
   name: "get"
   nameWithType: "PartnerUsageSummaryOperations.get"
   fullName: "com.microsoft.store.partnercenter.usage.PartnerUsageSummaryOperations.get"
+  package: "com.microsoft.store.partnercenter.usage"
 - uid: "com.microsoft.store.partnercenter.BasePartnerComponentString"
   isExternal: true
   name: "BasePartnerComponentString"

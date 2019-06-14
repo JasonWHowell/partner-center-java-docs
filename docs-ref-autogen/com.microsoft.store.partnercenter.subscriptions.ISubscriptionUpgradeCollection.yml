@@ -73,6 +73,7 @@ references:
   name: "create"
   nameWithType: "ISubscriptionUpgradeCollection.create"
   fullName: "com.microsoft.store.partnercenter.subscriptions.ISubscriptionUpgradeCollection.create"
+  package: "com.microsoft.store.partnercenter.subscriptions"
 - uid: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.subscriptions.Upgrade>"
   isExternal: true
   name: "ResourceCollection<Upgrade>"
@@ -82,6 +83,7 @@ references:
   name: "get"
   nameWithType: "ISubscriptionUpgradeCollection.get"
   fullName: "com.microsoft.store.partnercenter.subscriptions.ISubscriptionUpgradeCollection.get"
+  package: "com.microsoft.store.partnercenter.subscriptions"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations<com.microsoft.store.partnercenter.models.subscriptions.Upgrade,com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.subscriptions.Upgrade>>"
   isExternal: true
   name: "IEntireEntityCollectionRetrievalOperations<Upgrade,ResourceCollection<Upgrade>>"

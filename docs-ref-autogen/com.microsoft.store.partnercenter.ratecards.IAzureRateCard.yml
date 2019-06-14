@@ -81,10 +81,12 @@ references:
   name: "get"
   nameWithType: "IAzureRateCard.get"
   fullName: "com.microsoft.store.partnercenter.ratecards.IAzureRateCard.get"
+  package: "com.microsoft.store.partnercenter.ratecards"
 - uid: "com.microsoft.store.partnercenter.ratecards.IAzureRateCard.getShared*"
   name: "getShared"
   nameWithType: "IAzureRateCard.getShared"
   fullName: "com.microsoft.store.partnercenter.ratecards.IAzureRateCard.getShared"
+  package: "com.microsoft.store.partnercenter.ratecards"
 - uid: "com.microsoft.store.partnercenter.IPartnerComponentString"
   isExternal: true
   name: "IPartnerComponentString"

@@ -53,3 +53,4 @@ references:
   name: "with"
   nameWithType: "IAggregatePartner.with"
   fullName: "com.microsoft.store.partnercenter.IAggregatePartner.with"
+  package: "com.microsoft.store.partnercenter"

@@ -161,6 +161,7 @@ references:
   name: "OrderCollectionOperations"
   nameWithType: "OrderCollectionOperations.OrderCollectionOperations"
   fullName: "com.microsoft.store.partnercenter.orders.OrderCollectionOperations.OrderCollectionOperations"
+  package: "com.microsoft.store.partnercenter.orders"
 - uid: "com.microsoft.store.partnercenter.models.offers.BillingCycleType"
   isExternal: true
   name: "BillingCycleType"
@@ -175,6 +176,7 @@ references:
   name: "byBillingCycleType"
   nameWithType: "OrderCollectionOperations.byBillingCycleType"
   fullName: "com.microsoft.store.partnercenter.orders.OrderCollectionOperations.byBillingCycleType"
+  package: "com.microsoft.store.partnercenter.orders"
 - uid: "com.microsoft.store.partnercenter.orders.IOrder"
   isExternal: true
   name: "IOrder"
@@ -184,6 +186,7 @@ references:
   name: "byId"
   nameWithType: "OrderCollectionOperations.byId"
   fullName: "com.microsoft.store.partnercenter.orders.OrderCollectionOperations.byId"
+  package: "com.microsoft.store.partnercenter.orders"
 - uid: "com.microsoft.store.partnercenter.models.orders.Order"
   isExternal: true
   name: "Order"
@@ -193,6 +196,7 @@ references:
   name: "create"
   nameWithType: "OrderCollectionOperations.create"
   fullName: "com.microsoft.store.partnercenter.orders.OrderCollectionOperations.create"
+  package: "com.microsoft.store.partnercenter.orders"
 - uid: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.orders.Order>"
   isExternal: true
   name: "ResourceCollection<Order>"
@@ -202,6 +206,7 @@ references:
   name: "get"
   nameWithType: "OrderCollectionOperations.get"
   fullName: "com.microsoft.store.partnercenter.orders.OrderCollectionOperations.get"
+  package: "com.microsoft.store.partnercenter.orders"
 - uid: "java.lang.Boolean"
   isExternal: true
   name: "Boolean"

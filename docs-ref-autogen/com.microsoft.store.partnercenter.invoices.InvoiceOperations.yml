@@ -78,7 +78,7 @@ items:
     content: "public IReceiptCollection getReceipts()"
     return:
       type: "com.microsoft.store.partnercenter.invoices.IReceiptCollection"
-      description: "The available receipt opreations."
+      description: "The available receipt operations."
 - uid: "com.microsoft.store.partnercenter.invoices.InvoiceOperations.by(com.microsoft.store.partnercenter.models.invoices.BillingProvider,com.microsoft.store.partnercenter.models.invoices.InvoiceLineItemType)"
   id: "by(com.microsoft.store.partnercenter.models.invoices.BillingProvider,com.microsoft.store.partnercenter.models.invoices.InvoiceLineItemType)"
   parent: "com.microsoft.store.partnercenter.invoices.InvoiceOperations"
@@ -196,6 +196,7 @@ references:
   name: "InvoiceOperations"
   nameWithType: "InvoiceOperations.InvoiceOperations"
   fullName: "com.microsoft.store.partnercenter.invoices.InvoiceOperations.InvoiceOperations"
+  package: "com.microsoft.store.partnercenter.invoices"
 - uid: "com.microsoft.store.partnercenter.invoices.IInvoiceDocuments"
   isExternal: true
   name: "IInvoiceDocuments"
@@ -205,6 +206,7 @@ references:
   name: "getDocuments"
   nameWithType: "InvoiceOperations.getDocuments"
   fullName: "com.microsoft.store.partnercenter.invoices.InvoiceOperations.getDocuments"
+  package: "com.microsoft.store.partnercenter.invoices"
 - uid: "com.microsoft.store.partnercenter.invoices.IReceiptCollection"
   isExternal: true
   name: "IReceiptCollection"
@@ -214,6 +216,7 @@ references:
   name: "getReceipts"
   nameWithType: "InvoiceOperations.getReceipts"
   fullName: "com.microsoft.store.partnercenter.invoices.InvoiceOperations.getReceipts"
+  package: "com.microsoft.store.partnercenter.invoices"
 - uid: "com.microsoft.store.partnercenter.models.invoices.BillingProvider"
   isExternal: true
   name: "BillingProvider"
@@ -233,6 +236,7 @@ references:
   name: "by"
   nameWithType: "InvoiceOperations.by"
   fullName: "com.microsoft.store.partnercenter.invoices.InvoiceOperations.by"
+  package: "com.microsoft.store.partnercenter.invoices"
 - uid: "com.microsoft.store.partnercenter.models.invoices.BillingPeriod"
   isExternal: true
   name: "BillingPeriod"
@@ -247,6 +251,7 @@ references:
   name: "By"
   nameWithType: "InvoiceOperations.By"
   fullName: "com.microsoft.store.partnercenter.invoices.InvoiceOperations.By"
+  package: "com.microsoft.store.partnercenter.invoices"
 - uid: "int"
   isExternal: true
   name: "int"
@@ -261,6 +266,7 @@ references:
   name: "get"
   nameWithType: "InvoiceOperations.get"
   fullName: "com.microsoft.store.partnercenter.invoices.InvoiceOperations.get"
+  package: "com.microsoft.store.partnercenter.invoices"
 - uid: "com.microsoft.store.partnercenter.BasePartnerComponentString"
   isExternal: true
   name: "BasePartnerComponentString"

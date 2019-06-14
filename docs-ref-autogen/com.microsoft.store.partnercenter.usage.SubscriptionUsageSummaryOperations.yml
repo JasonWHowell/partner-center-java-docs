@@ -76,6 +76,7 @@ references:
   name: "SubscriptionUsageSummaryOperations"
   nameWithType: "SubscriptionUsageSummaryOperations.SubscriptionUsageSummaryOperations"
   fullName: "com.microsoft.store.partnercenter.usage.SubscriptionUsageSummaryOperations.SubscriptionUsageSummaryOperations"
+  package: "com.microsoft.store.partnercenter.usage"
 - uid: "com.microsoft.store.partnercenter.models.usage.SubscriptionUsageSummary"
   isExternal: true
   name: "SubscriptionUsageSummary"
@@ -85,6 +86,7 @@ references:
   name: "get"
   nameWithType: "SubscriptionUsageSummaryOperations.get"
   fullName: "com.microsoft.store.partnercenter.usage.SubscriptionUsageSummaryOperations.get"
+  package: "com.microsoft.store.partnercenter.usage"
 - uid: "com.microsoft.store.partnercenter.BasePartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>"
   isExternal: true
   name: "BasePartnerComponent<Tuple<String,String>>"

@@ -44,6 +44,7 @@ references:
   name: "get"
   nameWithType: "IInvoiceStatement.get"
   fullName: "com.microsoft.store.partnercenter.invoices.IInvoiceStatement.get"
+  package: "com.microsoft.store.partnercenter.invoices"
 - uid: "com.microsoft.store.partnercenter.IPartnerComponentString"
   isExternal: true
   name: "IPartnerComponentString"

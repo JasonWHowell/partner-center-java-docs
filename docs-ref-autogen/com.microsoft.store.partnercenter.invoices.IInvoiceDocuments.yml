@@ -43,6 +43,7 @@ references:
   name: "getStatement"
   nameWithType: "IInvoiceDocuments.getStatement"
   fullName: "com.microsoft.store.partnercenter.invoices.IInvoiceDocuments.getStatement"
+  package: "com.microsoft.store.partnercenter.invoices"
 - uid: "com.microsoft.store.partnercenter.IPartnerComponentString"
   isExternal: true
   name: "IPartnerComponentString"

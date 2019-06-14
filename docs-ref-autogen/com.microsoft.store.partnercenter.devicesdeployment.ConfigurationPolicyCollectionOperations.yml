@@ -117,6 +117,7 @@ references:
   name: "ConfigurationPolicyCollectionOperations"
   nameWithType: "ConfigurationPolicyCollectionOperations.ConfigurationPolicyCollectionOperations"
   fullName: "com.microsoft.store.partnercenter.devicesdeployment.ConfigurationPolicyCollectionOperations.ConfigurationPolicyCollectionOperations"
+  package: "com.microsoft.store.partnercenter.devicesdeployment"
 - uid: "com.microsoft.store.partnercenter.devicesdeployment.IConfigurationPolicy"
   isExternal: true
   name: "IConfigurationPolicy"
@@ -126,6 +127,7 @@ references:
   name: "byId"
   nameWithType: "ConfigurationPolicyCollectionOperations.byId"
   fullName: "com.microsoft.store.partnercenter.devicesdeployment.ConfigurationPolicyCollectionOperations.byId"
+  package: "com.microsoft.store.partnercenter.devicesdeployment"
 - uid: "com.microsoft.store.partnercenter.models.devicesdeployment.ConfigurationPolicy"
   isExternal: true
   name: "ConfigurationPolicy"
@@ -135,6 +137,7 @@ references:
   name: "create"
   nameWithType: "ConfigurationPolicyCollectionOperations.create"
   fullName: "com.microsoft.store.partnercenter.devicesdeployment.ConfigurationPolicyCollectionOperations.create"
+  package: "com.microsoft.store.partnercenter.devicesdeployment"
 - uid: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.devicesdeployment.ConfigurationPolicy>"
   isExternal: true
   name: "ResourceCollection<ConfigurationPolicy>"
@@ -144,6 +147,7 @@ references:
   name: "get"
   nameWithType: "ConfigurationPolicyCollectionOperations.get"
   fullName: "com.microsoft.store.partnercenter.devicesdeployment.ConfigurationPolicyCollectionOperations.get"
+  package: "com.microsoft.store.partnercenter.devicesdeployment"
 - uid: "com.microsoft.store.partnercenter.BasePartnerComponentString"
   isExternal: true
   name: "BasePartnerComponentString"

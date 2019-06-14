@@ -84,6 +84,7 @@ references:
   name: "DefaultPartnerServiceErrorHandler"
   nameWithType: "DefaultPartnerServiceErrorHandler.DefaultPartnerServiceErrorHandler"
   fullName: "com.microsoft.store.partnercenter.errorhandling.DefaultPartnerServiceErrorHandler.DefaultPartnerServiceErrorHandler"
+  package: "com.microsoft.store.partnercenter.errorhandling"
 - uid: "okhttp3.Response"
   isExternal: true
   name: "Response"
@@ -98,6 +99,7 @@ references:
   name: "handleFailedResponse"
   nameWithType: "DefaultPartnerServiceErrorHandler.handleFailedResponse"
   fullName: "com.microsoft.store.partnercenter.errorhandling.DefaultPartnerServiceErrorHandler.handleFailedResponse"
+  package: "com.microsoft.store.partnercenter.errorhandling"
 - uid: "com.microsoft.store.partnercenter.requestcontext.IRequestContext"
   isExternal: true
   name: "IRequestContext"

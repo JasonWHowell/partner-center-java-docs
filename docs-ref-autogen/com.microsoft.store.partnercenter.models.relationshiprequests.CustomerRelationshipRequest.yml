@@ -72,6 +72,7 @@ references:
   name: "CustomerRelationshipRequest"
   nameWithType: "CustomerRelationshipRequest.CustomerRelationshipRequest"
   fullName: "com.microsoft.store.partnercenter.models.relationshiprequests.CustomerRelationshipRequest.CustomerRelationshipRequest"
+  package: "com.microsoft.store.partnercenter.models.relationshiprequests"
 - uid: "java.net.URI"
   isExternal: true
   name: "URI"
@@ -81,10 +82,12 @@ references:
   name: "getUrl"
   nameWithType: "CustomerRelationshipRequest.getUrl"
   fullName: "com.microsoft.store.partnercenter.models.relationshiprequests.CustomerRelationshipRequest.getUrl"
+  package: "com.microsoft.store.partnercenter.models.relationshiprequests"
 - uid: "com.microsoft.store.partnercenter.models.relationshiprequests.CustomerRelationshipRequest.setUrl*"
   name: "setUrl"
   nameWithType: "CustomerRelationshipRequest.setUrl"
   fullName: "com.microsoft.store.partnercenter.models.relationshiprequests.CustomerRelationshipRequest.setUrl"
+  package: "com.microsoft.store.partnercenter.models.relationshiprequests"
 - uid: "com.microsoft.store.partnercenter.models.ResourceBase"
   isExternal: true
   name: "ResourceBase"

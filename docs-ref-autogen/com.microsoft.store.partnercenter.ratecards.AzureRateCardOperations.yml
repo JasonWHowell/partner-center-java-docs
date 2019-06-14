@@ -96,6 +96,7 @@ references:
   name: "AzureRateCardOperations"
   nameWithType: "AzureRateCardOperations.AzureRateCardOperations"
   fullName: "com.microsoft.store.partnercenter.ratecards.AzureRateCardOperations.AzureRateCardOperations"
+  package: "com.microsoft.store.partnercenter.ratecards"
 - uid: "java.lang.String"
   isExternal: true
   name: "String"
@@ -110,10 +111,12 @@ references:
   name: "get"
   nameWithType: "AzureRateCardOperations.get"
   fullName: "com.microsoft.store.partnercenter.ratecards.AzureRateCardOperations.get"
+  package: "com.microsoft.store.partnercenter.ratecards"
 - uid: "com.microsoft.store.partnercenter.ratecards.AzureRateCardOperations.getShared*"
   name: "getShared"
   nameWithType: "AzureRateCardOperations.getShared"
   fullName: "com.microsoft.store.partnercenter.ratecards.AzureRateCardOperations.getShared"
+  package: "com.microsoft.store.partnercenter.ratecards"
 - uid: "com.microsoft.store.partnercenter.BasePartnerComponentString"
   isExternal: true
   name: "BasePartnerComponentString"

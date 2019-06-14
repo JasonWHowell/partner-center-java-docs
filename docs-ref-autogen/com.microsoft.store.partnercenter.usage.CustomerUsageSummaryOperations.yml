@@ -73,6 +73,7 @@ references:
   name: "CustomerUsageSummaryOperations"
   nameWithType: "CustomerUsageSummaryOperations.CustomerUsageSummaryOperations"
   fullName: "com.microsoft.store.partnercenter.usage.CustomerUsageSummaryOperations.CustomerUsageSummaryOperations"
+  package: "com.microsoft.store.partnercenter.usage"
 - uid: "com.microsoft.store.partnercenter.models.usage.CustomerUsageSummary"
   isExternal: true
   name: "CustomerUsageSummary"
@@ -82,6 +83,7 @@ references:
   name: "get"
   nameWithType: "CustomerUsageSummaryOperations.get"
   fullName: "com.microsoft.store.partnercenter.usage.CustomerUsageSummaryOperations.get"
+  package: "com.microsoft.store.partnercenter.usage"
 - uid: "com.microsoft.store.partnercenter.BasePartnerComponentString"
   isExternal: true
   name: "BasePartnerComponentString"

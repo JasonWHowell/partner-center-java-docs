@@ -76,6 +76,7 @@ references:
   name: "byEntitlementType"
   nameWithType: "IEntitlementCollection.byEntitlementType"
   fullName: "com.microsoft.store.partnercenter.entitlements.IEntitlementCollection.byEntitlementType"
+  package: "com.microsoft.store.partnercenter.entitlements"
 - uid: "java.lang.Boolean"
   isExternal: true
   name: "Boolean"
@@ -90,6 +91,7 @@ references:
   name: "get"
   nameWithType: "IEntitlementCollection.get"
   fullName: "com.microsoft.store.partnercenter.entitlements.IEntitlementCollection.get"
+  package: "com.microsoft.store.partnercenter.entitlements"
 - uid: "com.microsoft.store.partnercenter.IPartnerComponentString"
   isExternal: true
   name: "IPartnerComponentString"

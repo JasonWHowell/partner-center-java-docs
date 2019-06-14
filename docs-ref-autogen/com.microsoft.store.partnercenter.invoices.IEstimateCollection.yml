@@ -44,6 +44,7 @@ references:
   name: "getLinks"
   nameWithType: "IEstimateCollection.getLinks"
   fullName: "com.microsoft.store.partnercenter.invoices.IEstimateCollection.getLinks"
+  package: "com.microsoft.store.partnercenter.invoices"
 - uid: "com.microsoft.store.partnercenter.IPartnerComponent<java.lang.String>"
   isExternal: true
   name: "IPartnerComponent<String>"

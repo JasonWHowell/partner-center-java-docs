@@ -75,6 +75,7 @@ references:
   name: "ArtifactDeserializer"
   nameWithType: "ArtifactDeserializer.ArtifactDeserializer"
   fullName: "com.microsoft.store.partnercenter.utils.ArtifactDeserializer.ArtifactDeserializer"
+  package: "com.microsoft.store.partnercenter.utils"
 - uid: "java.lang.Class<?>"
   isExternal: true
   name: "Class<?>"
@@ -109,6 +110,7 @@ references:
   name: "deserialize"
   nameWithType: "ArtifactDeserializer.deserialize"
   fullName: "com.microsoft.store.partnercenter.utils.ArtifactDeserializer.deserialize"
+  package: "com.microsoft.store.partnercenter.utils"
 - uid: "com.fasterxml.jackson.databind.deser.std.StdDeserializer<com.microsoft.store.partnercenter.models.entitlements.Artifact>"
   isExternal: true
   name: "StdDeserializer<Artifact>"

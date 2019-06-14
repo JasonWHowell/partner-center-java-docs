@@ -63,6 +63,7 @@ references:
   name: "getSkus"
   nameWithType: "IProduct.getSkus"
   fullName: "com.microsoft.store.partnercenter.products.IProduct.getSkus"
+  package: "com.microsoft.store.partnercenter.products"
 - uid: "com.microsoft.store.partnercenter.models.products.Product"
   isExternal: true
   name: "Product"
@@ -72,6 +73,7 @@ references:
   name: "get"
   nameWithType: "IProduct.get"
   fullName: "com.microsoft.store.partnercenter.products.IProduct.get"
+  package: "com.microsoft.store.partnercenter.products"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations<com.microsoft.store.partnercenter.models.products.Product>"
   isExternal: true
   name: "IEntityGetOperations<Product>"

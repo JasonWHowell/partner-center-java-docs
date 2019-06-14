@@ -94,6 +94,7 @@ references:
   name: "CustomerSubscribedSkuCollectionOperations"
   nameWithType: "CustomerSubscribedSkuCollectionOperations.CustomerSubscribedSkuCollectionOperations"
   fullName: "com.microsoft.store.partnercenter.subscribedskus.CustomerSubscribedSkuCollectionOperations.CustomerSubscribedSkuCollectionOperations"
+  package: "com.microsoft.store.partnercenter.subscribedskus"
 - uid: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.licenses.SubscribedSku>"
   isExternal: true
   name: "ResourceCollection<SubscribedSku>"
@@ -103,6 +104,7 @@ references:
   name: "get"
   nameWithType: "CustomerSubscribedSkuCollectionOperations.get"
   fullName: "com.microsoft.store.partnercenter.subscribedskus.CustomerSubscribedSkuCollectionOperations.get"
+  package: "com.microsoft.store.partnercenter.subscribedskus"
 - uid: "java.util.List<com.microsoft.store.partnercenter.models.licenses.LicenseGroupId>"
   isExternal: true
   name: "List<LicenseGroupId>"

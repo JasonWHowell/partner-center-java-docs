@@ -65,6 +65,7 @@ references:
   name: "UtilizationCollectionEnumeratorContainer"
   nameWithType: "UtilizationCollectionEnumeratorContainer.UtilizationCollectionEnumeratorContainer"
   fullName: "com.microsoft.store.partnercenter.enumerators.UtilizationCollectionEnumeratorContainer.UtilizationCollectionEnumeratorContainer"
+  package: "com.microsoft.store.partnercenter.enumerators"
 - uid: "com.microsoft.store.partnercenter.factory.IResourceCollectionEnumeratorFactory<com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationRecord>>"
   isExternal: true
   name: "IResourceCollectionEnumeratorFactory<ResourceCollection<AzureUtilizationRecord>>"
@@ -74,6 +75,7 @@ references:
   name: "getAzure"
   nameWithType: "UtilizationCollectionEnumeratorContainer.getAzure"
   fullName: "com.microsoft.store.partnercenter.enumerators.UtilizationCollectionEnumeratorContainer.getAzure"
+  package: "com.microsoft.store.partnercenter.enumerators"
 - uid: "com.microsoft.store.partnercenter.BasePartnerComponentString"
   isExternal: true
   name: "BasePartnerComponentString"

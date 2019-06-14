@@ -123,6 +123,7 @@ references:
   name: "AvailabilityCollectionOperations"
   nameWithType: "AvailabilityCollectionOperations.AvailabilityCollectionOperations"
   fullName: "com.microsoft.store.partnercenter.products.AvailabilityCollectionOperations.AvailabilityCollectionOperations"
+  package: "com.microsoft.store.partnercenter.products"
 - uid: "com.microsoft.store.partnercenter.products.IAvailability"
   isExternal: true
   name: "IAvailability"
@@ -132,6 +133,7 @@ references:
   name: "byId"
   nameWithType: "AvailabilityCollectionOperations.byId"
   fullName: "com.microsoft.store.partnercenter.products.AvailabilityCollectionOperations.byId"
+  package: "com.microsoft.store.partnercenter.products"
 - uid: "com.microsoft.store.partnercenter.products.IAvailabilityCollectionByTargetSegment"
   isExternal: true
   name: "IAvailabilityCollectionByTargetSegment"
@@ -141,6 +143,7 @@ references:
   name: "byTargetSegment"
   nameWithType: "AvailabilityCollectionOperations.byTargetSegment"
   fullName: "com.microsoft.store.partnercenter.products.AvailabilityCollectionOperations.byTargetSegment"
+  package: "com.microsoft.store.partnercenter.products"
 - uid: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.products.Availability>"
   isExternal: true
   name: "ResourceCollection<Availability>"
@@ -150,6 +153,7 @@ references:
   name: "get"
   nameWithType: "AvailabilityCollectionOperations.get"
   fullName: "com.microsoft.store.partnercenter.products.AvailabilityCollectionOperations.get"
+  package: "com.microsoft.store.partnercenter.products"
 - uid: "com.microsoft.store.partnercenter.BasePartnerComponent<com.microsoft.store.partnercenter.models.utils.TripletTuple<java.lang.String,java.lang.String,java.lang.String>>"
   isExternal: true
   name: "BasePartnerComponent<TripletTuple<String,String,String>>"

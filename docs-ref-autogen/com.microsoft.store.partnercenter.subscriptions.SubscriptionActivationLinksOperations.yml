@@ -76,6 +76,7 @@ references:
   name: "SubscriptionActivationLinksOperations"
   nameWithType: "SubscriptionActivationLinksOperations.SubscriptionActivationLinksOperations"
   fullName: "com.microsoft.store.partnercenter.subscriptions.SubscriptionActivationLinksOperations.SubscriptionActivationLinksOperations"
+  package: "com.microsoft.store.partnercenter.subscriptions"
 - uid: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.orders.OrderLineItemActivationLink>"
   isExternal: true
   name: "ResourceCollection<OrderLineItemActivationLink>"
@@ -85,6 +86,7 @@ references:
   name: "get"
   nameWithType: "SubscriptionActivationLinksOperations.get"
   fullName: "com.microsoft.store.partnercenter.subscriptions.SubscriptionActivationLinksOperations.get"
+  package: "com.microsoft.store.partnercenter.subscriptions"
 - uid: "com.microsoft.store.partnercenter.BasePartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>"
   isExternal: true
   name: "BasePartnerComponent<Tuple<String,String>>"

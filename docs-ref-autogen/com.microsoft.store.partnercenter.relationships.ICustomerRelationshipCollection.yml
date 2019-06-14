@@ -45,6 +45,7 @@ references:
   name: "get"
   nameWithType: "ICustomerRelationshipCollection.get"
   fullName: "com.microsoft.store.partnercenter.relationships.ICustomerRelationshipCollection.get"
+  package: "com.microsoft.store.partnercenter.relationships"
 - uid: "com.microsoft.store.partnercenter.IPartnerComponentString"
   isExternal: true
   name: "IPartnerComponentString"

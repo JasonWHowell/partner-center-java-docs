@@ -65,10 +65,12 @@ references:
   name: "patch"
   nameWithType: "IDevice.patch"
   fullName: "com.microsoft.store.partnercenter.devicesdeployment.IDevice.patch"
+  package: "com.microsoft.store.partnercenter.devicesdeployment"
 - uid: "com.microsoft.store.partnercenter.devicesdeployment.IDevice.delete*"
   name: "delete"
   nameWithType: "IDevice.delete"
   fullName: "com.microsoft.store.partnercenter.devicesdeployment.IDevice.delete"
+  package: "com.microsoft.store.partnercenter.devicesdeployment"
 - uid: "com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.TripletTuple<java.lang.String,java.lang.String,java.lang.String>>"
   isExternal: true
   name: "IPartnerComponent<TripletTuple<String,String,String>>"

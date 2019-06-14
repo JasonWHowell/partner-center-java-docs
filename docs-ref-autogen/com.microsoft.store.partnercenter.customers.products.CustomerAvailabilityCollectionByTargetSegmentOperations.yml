@@ -82,6 +82,7 @@ references:
   name: "CustomerAvailabilityCollectionByTargetSegmentOperations"
   nameWithType: "CustomerAvailabilityCollectionByTargetSegmentOperations.CustomerAvailabilityCollectionByTargetSegmentOperations"
   fullName: "com.microsoft.store.partnercenter.customers.products.CustomerAvailabilityCollectionByTargetSegmentOperations.CustomerAvailabilityCollectionByTargetSegmentOperations"
+  package: "com.microsoft.store.partnercenter.customers.products"
 - uid: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.products.Availability>"
   isExternal: true
   name: "ResourceCollection<Availability>"
@@ -91,6 +92,7 @@ references:
   name: "get"
   nameWithType: "CustomerAvailabilityCollectionByTargetSegmentOperations.get"
   fullName: "com.microsoft.store.partnercenter.customers.products.CustomerAvailabilityCollectionByTargetSegmentOperations.get"
+  package: "com.microsoft.store.partnercenter.customers.products"
 - uid: "com.microsoft.store.partnercenter.BasePartnerComponent<com.microsoft.store.partnercenter.models.utils.QuadrupleTuple<java.lang.String,java.lang.String,java.lang.String,java.lang.String>>"
   isExternal: true
   name: "BasePartnerComponent<QuadrupleTuple<String,String,String,String>>"

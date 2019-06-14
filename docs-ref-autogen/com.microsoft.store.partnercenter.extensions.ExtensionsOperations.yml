@@ -65,6 +65,7 @@ references:
   name: "ExtensionsOperations"
   nameWithType: "ExtensionsOperations.ExtensionsOperations"
   fullName: "com.microsoft.store.partnercenter.extensions.ExtensionsOperations.ExtensionsOperations"
+  package: "com.microsoft.store.partnercenter.extensions"
 - uid: "com.microsoft.store.partnercenter.extensions.products.IProductExtensions"
   isExternal: true
   name: "IProductExtensions"
@@ -74,6 +75,7 @@ references:
   name: "getProduct"
   nameWithType: "ExtensionsOperations.getProduct"
   fullName: "com.microsoft.store.partnercenter.extensions.ExtensionsOperations.getProduct"
+  package: "com.microsoft.store.partnercenter.extensions"
 - uid: "com.microsoft.store.partnercenter.BasePartnerComponentString"
   isExternal: true
   name: "BasePartnerComponentString"

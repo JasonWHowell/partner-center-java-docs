@@ -72,6 +72,7 @@ references:
   name: "byTargetSegment"
   nameWithType: "IProductCollectionByCountryByTargetView.byTargetSegment"
   fullName: "com.microsoft.store.partnercenter.products.IProductCollectionByCountryByTargetView.byTargetSegment"
+  package: "com.microsoft.store.partnercenter.products"
 - uid: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.products.Product>"
   isExternal: true
   name: "ResourceCollection<Product>"
@@ -81,6 +82,7 @@ references:
   name: "get"
   nameWithType: "IProductCollectionByCountryByTargetView.get"
   fullName: "com.microsoft.store.partnercenter.products.IProductCollectionByCountryByTargetView.get"
+  package: "com.microsoft.store.partnercenter.products"
 - uid: "com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>"
   isExternal: true
   name: "IPartnerComponent<Tuple<String,String>>"

@@ -42,6 +42,7 @@ references:
   name: "get"
   nameWithType: "IAgreementDetailsCollection.get"
   fullName: "com.microsoft.store.partnercenter.agreements.IAgreementDetailsCollection.get"
+  package: "com.microsoft.store.partnercenter.agreements"
 - uid: "com.microsoft.store.partnercenter.models.agreements.AgreementMetaData"
   isExternal: true
   name: "AgreementMetaData"

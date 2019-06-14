@@ -95,6 +95,7 @@ references:
   name: "DirectoryRoleCollectionOperations"
   nameWithType: "DirectoryRoleCollectionOperations.DirectoryRoleCollectionOperations"
   fullName: "com.microsoft.store.partnercenter.customerdirectoryroles.DirectoryRoleCollectionOperations.DirectoryRoleCollectionOperations"
+  package: "com.microsoft.store.partnercenter.customerdirectoryroles"
 - uid: "com.microsoft.store.partnercenter.customerdirectoryroles.IDirectoryRole"
   isExternal: true
   name: "IDirectoryRole"
@@ -104,6 +105,7 @@ references:
   name: "byId"
   nameWithType: "DirectoryRoleCollectionOperations.byId"
   fullName: "com.microsoft.store.partnercenter.customerdirectoryroles.DirectoryRoleCollectionOperations.byId"
+  package: "com.microsoft.store.partnercenter.customerdirectoryroles"
 - uid: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.roles.DirectoryRole>"
   isExternal: true
   name: "ResourceCollection<DirectoryRole>"
@@ -113,6 +115,7 @@ references:
   name: "get"
   nameWithType: "DirectoryRoleCollectionOperations.get"
   fullName: "com.microsoft.store.partnercenter.customerdirectoryroles.DirectoryRoleCollectionOperations.get"
+  package: "com.microsoft.store.partnercenter.customerdirectoryroles"
 - uid: "com.microsoft.store.partnercenter.BasePartnerComponentString"
   isExternal: true
   name: "BasePartnerComponentString"

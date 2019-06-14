@@ -87,6 +87,7 @@ references:
   name: "OrganizationProfileOperations"
   nameWithType: "OrganizationProfileOperations.OrganizationProfileOperations"
   fullName: "com.microsoft.store.partnercenter.profiles.OrganizationProfileOperations.OrganizationProfileOperations"
+  package: "com.microsoft.store.partnercenter.profiles"
 - uid: "com.microsoft.store.partnercenter.models.partners.OrganizationProfile"
   isExternal: true
   name: "OrganizationProfile"
@@ -96,10 +97,12 @@ references:
   name: "get"
   nameWithType: "OrganizationProfileOperations.get"
   fullName: "com.microsoft.store.partnercenter.profiles.OrganizationProfileOperations.get"
+  package: "com.microsoft.store.partnercenter.profiles"
 - uid: "com.microsoft.store.partnercenter.profiles.OrganizationProfileOperations.update*"
   name: "update"
   nameWithType: "OrganizationProfileOperations.update"
   fullName: "com.microsoft.store.partnercenter.profiles.OrganizationProfileOperations.update"
+  package: "com.microsoft.store.partnercenter.profiles"
 - uid: "com.microsoft.store.partnercenter.BasePartnerComponentString"
   isExternal: true
   name: "BasePartnerComponentString"

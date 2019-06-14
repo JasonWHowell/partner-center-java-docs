@@ -51,3 +51,4 @@ references:
   name: "build"
   nameWithType: "IPartnerFactory.build"
   fullName: "com.microsoft.store.partnercenter.factory.IPartnerFactory.build"
+  package: "com.microsoft.store.partnercenter.factory"

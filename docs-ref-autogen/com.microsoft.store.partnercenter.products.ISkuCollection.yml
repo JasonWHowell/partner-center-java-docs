@@ -95,6 +95,7 @@ references:
   name: "byId"
   nameWithType: "ISkuCollection.byId"
   fullName: "com.microsoft.store.partnercenter.products.ISkuCollection.byId"
+  package: "com.microsoft.store.partnercenter.products"
 - uid: "com.microsoft.store.partnercenter.products.ISkuCollectionByTargetSegment"
   isExternal: true
   name: "ISkuCollectionByTargetSegment"
@@ -104,6 +105,7 @@ references:
   name: "byTargetSegment"
   nameWithType: "ISkuCollection.byTargetSegment"
   fullName: "com.microsoft.store.partnercenter.products.ISkuCollection.byTargetSegment"
+  package: "com.microsoft.store.partnercenter.products"
 - uid: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.products.Sku>"
   isExternal: true
   name: "ResourceCollection<Sku>"
@@ -113,6 +115,7 @@ references:
   name: "get"
   nameWithType: "ISkuCollection.get"
   fullName: "com.microsoft.store.partnercenter.products.ISkuCollection.get"
+  package: "com.microsoft.store.partnercenter.products"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations<com.microsoft.store.partnercenter.models.products.Sku,com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.products.Sku>>"
   isExternal: true
   name: "IEntireEntityCollectionRetrievalOperations<Sku,ResourceCollection<Sku>>"

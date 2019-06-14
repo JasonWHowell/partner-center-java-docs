@@ -75,6 +75,7 @@ references:
   name: "ReceiptStatementOperations"
   nameWithType: "ReceiptStatementOperations.ReceiptStatementOperations"
   fullName: "com.microsoft.store.partnercenter.invoices.ReceiptStatementOperations.ReceiptStatementOperations"
+  package: "com.microsoft.store.partnercenter.invoices"
 - uid: "java.io.InputStream"
   isExternal: true
   name: "InputStream"
@@ -84,6 +85,7 @@ references:
   name: "get"
   nameWithType: "ReceiptStatementOperations.get"
   fullName: "com.microsoft.store.partnercenter.invoices.ReceiptStatementOperations.get"
+  package: "com.microsoft.store.partnercenter.invoices"
 - uid: "com.microsoft.store.partnercenter.BasePartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>"
   isExternal: true
   name: "BasePartnerComponent<Tuple<String,String>>"

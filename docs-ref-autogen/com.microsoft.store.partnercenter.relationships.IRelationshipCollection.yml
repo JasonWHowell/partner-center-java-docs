@@ -78,6 +78,7 @@ references:
   name: "get"
   nameWithType: "IRelationshipCollection.get"
   fullName: "com.microsoft.store.partnercenter.relationships.IRelationshipCollection.get"
+  package: "com.microsoft.store.partnercenter.relationships"
 - uid: "com.microsoft.store.partnercenter.models.query.IQuery"
   isExternal: true
   name: "IQuery"
@@ -87,6 +88,7 @@ references:
   name: "Query"
   nameWithType: "IRelationshipCollection.Query"
   fullName: "com.microsoft.store.partnercenter.relationships.IRelationshipCollection.Query"
+  package: "com.microsoft.store.partnercenter.relationships"
 - uid: "com.microsoft.store.partnercenter.IPartnerComponentString"
   isExternal: true
   name: "IPartnerComponentString"

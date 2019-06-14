@@ -123,6 +123,7 @@ references:
   name: "CustomerAvailabilityCollectionOperations"
   nameWithType: "CustomerAvailabilityCollectionOperations.CustomerAvailabilityCollectionOperations"
   fullName: "com.microsoft.store.partnercenter.customers.products.CustomerAvailabilityCollectionOperations.CustomerAvailabilityCollectionOperations"
+  package: "com.microsoft.store.partnercenter.customers.products"
 - uid: "com.microsoft.store.partnercenter.products.IAvailability"
   isExternal: true
   name: "IAvailability"
@@ -132,6 +133,7 @@ references:
   name: "byId"
   nameWithType: "CustomerAvailabilityCollectionOperations.byId"
   fullName: "com.microsoft.store.partnercenter.customers.products.CustomerAvailabilityCollectionOperations.byId"
+  package: "com.microsoft.store.partnercenter.customers.products"
 - uid: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.products.Availability>"
   isExternal: true
   name: "ResourceCollection<Availability>"
@@ -141,6 +143,7 @@ references:
   name: "get"
   nameWithType: "CustomerAvailabilityCollectionOperations.get"
   fullName: "com.microsoft.store.partnercenter.customers.products.CustomerAvailabilityCollectionOperations.get"
+  package: "com.microsoft.store.partnercenter.customers.products"
 - uid: "com.microsoft.store.partnercenter.products.IAvailabilityCollectionByTargetSegment"
   isExternal: true
   name: "IAvailabilityCollectionByTargetSegment"
@@ -150,6 +153,7 @@ references:
   name: "byTargetSegment"
   nameWithType: "CustomerAvailabilityCollectionOperations.byTargetSegment"
   fullName: "com.microsoft.store.partnercenter.customers.products.CustomerAvailabilityCollectionOperations.byTargetSegment"
+  package: "com.microsoft.store.partnercenter.customers.products"
 - uid: "com.microsoft.store.partnercenter.BasePartnerComponent<com.microsoft.store.partnercenter.models.utils.TripletTuple<java.lang.String,java.lang.String,java.lang.String>>"
   isExternal: true
   name: "BasePartnerComponent<TripletTuple<String,String,String>>"

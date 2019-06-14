@@ -68,10 +68,12 @@ references:
   name: "get"
   nameWithType: "IBillingProfile.get"
   fullName: "com.microsoft.store.partnercenter.profiles.IBillingProfile.get"
+  package: "com.microsoft.store.partnercenter.profiles"
 - uid: "com.microsoft.store.partnercenter.profiles.IBillingProfile.update*"
   name: "update"
   nameWithType: "IBillingProfile.update"
   fullName: "com.microsoft.store.partnercenter.profiles.IBillingProfile.update"
+  package: "com.microsoft.store.partnercenter.profiles"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations<com.microsoft.store.partnercenter.models.partners.BillingProfile>"
   isExternal: true
   name: "IEntityGetOperations<BillingProfile>"

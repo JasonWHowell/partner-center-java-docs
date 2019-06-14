@@ -98,6 +98,7 @@ references:
   name: "CustomerServiceRequestOperations"
   nameWithType: "CustomerServiceRequestOperations.CustomerServiceRequestOperations"
   fullName: "com.microsoft.store.partnercenter.servicerequests.CustomerServiceRequestOperations.CustomerServiceRequestOperations"
+  package: "com.microsoft.store.partnercenter.servicerequests"
 - uid: "com.microsoft.store.partnercenter.models.servicerequests.ServiceRequest"
   isExternal: true
   name: "ServiceRequest"
@@ -107,10 +108,12 @@ references:
   name: "get"
   nameWithType: "CustomerServiceRequestOperations.get"
   fullName: "com.microsoft.store.partnercenter.servicerequests.CustomerServiceRequestOperations.get"
+  package: "com.microsoft.store.partnercenter.servicerequests"
 - uid: "com.microsoft.store.partnercenter.servicerequests.CustomerServiceRequestOperations.patch*"
   name: "patch"
   nameWithType: "CustomerServiceRequestOperations.patch"
   fullName: "com.microsoft.store.partnercenter.servicerequests.CustomerServiceRequestOperations.patch"
+  package: "com.microsoft.store.partnercenter.servicerequests"
 - uid: "com.microsoft.store.partnercenter.BasePartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>"
   isExternal: true
   name: "BasePartnerComponent<Tuple<String,String>>"

@@ -41,3 +41,4 @@ references:
   name: "exists"
   nameWithType: "IEntityExistsOperations.exists"
   fullName: "com.microsoft.store.partnercenter.genericoperations.IEntityExistsOperations.exists"
+  package: "com.microsoft.store.partnercenter.genericoperations"

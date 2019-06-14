@@ -63,6 +63,7 @@ references:
   name: "InvoiceSummaryOperations"
   nameWithType: "InvoiceSummaryOperations.InvoiceSummaryOperations"
   fullName: "com.microsoft.store.partnercenter.invoices.InvoiceSummaryOperations.InvoiceSummaryOperations"
+  package: "com.microsoft.store.partnercenter.invoices"
 - uid: "com.microsoft.store.partnercenter.models.invoices.InvoiceSummary"
   isExternal: true
   name: "InvoiceSummary"
@@ -72,6 +73,7 @@ references:
   name: "get"
   nameWithType: "InvoiceSummaryOperations.get"
   fullName: "com.microsoft.store.partnercenter.invoices.InvoiceSummaryOperations.get"
+  package: "com.microsoft.store.partnercenter.invoices"
 - uid: "com.microsoft.store.partnercenter.BasePartnerComponentString"
   isExternal: true
   name: "BasePartnerComponentString"

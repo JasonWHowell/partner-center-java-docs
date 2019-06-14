@@ -64,6 +64,7 @@ references:
   name: "RateCardCollectionOperations"
   nameWithType: "RateCardCollectionOperations.RateCardCollectionOperations"
   fullName: "com.microsoft.store.partnercenter.ratecards.RateCardCollectionOperations.RateCardCollectionOperations"
+  package: "com.microsoft.store.partnercenter.ratecards"
 - uid: "com.microsoft.store.partnercenter.ratecards.IAzureRateCard"
   isExternal: true
   name: "IAzureRateCard"
@@ -73,6 +74,7 @@ references:
   name: "getAzure"
   nameWithType: "RateCardCollectionOperations.getAzure"
   fullName: "com.microsoft.store.partnercenter.ratecards.RateCardCollectionOperations.getAzure"
+  package: "com.microsoft.store.partnercenter.ratecards"
 - uid: "com.microsoft.store.partnercenter.BasePartnerComponentString"
   isExternal: true
   name: "BasePartnerComponentString"

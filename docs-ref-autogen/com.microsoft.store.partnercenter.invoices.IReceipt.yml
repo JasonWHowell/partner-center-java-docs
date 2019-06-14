@@ -44,6 +44,7 @@ references:
   name: "getDocuments"
   nameWithType: "IReceipt.getDocuments"
   fullName: "com.microsoft.store.partnercenter.invoices.IReceipt.getDocuments"
+  package: "com.microsoft.store.partnercenter.invoices"
 - uid: "com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>"
   isExternal: true
   name: "IPartnerComponent<Tuple<String,String>>"

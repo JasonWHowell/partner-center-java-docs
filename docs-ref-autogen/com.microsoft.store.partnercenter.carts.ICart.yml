@@ -46,6 +46,7 @@ references:
   name: "checkout"
   nameWithType: "ICart.checkout"
   fullName: "com.microsoft.store.partnercenter.carts.ICart.checkout"
+  package: "com.microsoft.store.partnercenter.carts"
 - uid: "com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>"
   isExternal: true
   name: "IPartnerComponent<Tuple<String,String>>"

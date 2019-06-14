@@ -77,6 +77,7 @@ references:
   name: "BatchJobStatusCollectionOperations"
   nameWithType: "BatchJobStatusCollectionOperations.BatchJobStatusCollectionOperations"
   fullName: "com.microsoft.store.partnercenter.devicesdeployment.BatchJobStatusCollectionOperations.BatchJobStatusCollectionOperations"
+  package: "com.microsoft.store.partnercenter.devicesdeployment"
 - uid: "com.microsoft.store.partnercenter.devicesdeployment.IBatchJobStatus"
   isExternal: true
   name: "IBatchJobStatus"
@@ -86,6 +87,7 @@ references:
   name: "byId"
   nameWithType: "BatchJobStatusCollectionOperations.byId"
   fullName: "com.microsoft.store.partnercenter.devicesdeployment.BatchJobStatusCollectionOperations.byId"
+  package: "com.microsoft.store.partnercenter.devicesdeployment"
 - uid: "com.microsoft.store.partnercenter.BasePartnerComponentString"
   isExternal: true
   name: "BasePartnerComponentString"

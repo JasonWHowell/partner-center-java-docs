@@ -142,6 +142,7 @@ references:
   name: "OfferCollectionOperations"
   nameWithType: "OfferCollectionOperations.OfferCollectionOperations"
   fullName: "com.microsoft.store.partnercenter.offers.OfferCollectionOperations.OfferCollectionOperations"
+  package: "com.microsoft.store.partnercenter.offers"
 - uid: "com.microsoft.store.partnercenter.offers.IOffer"
   isExternal: true
   name: "IOffer"
@@ -151,6 +152,7 @@ references:
   name: "byId"
   nameWithType: "OfferCollectionOperations.byId"
   fullName: "com.microsoft.store.partnercenter.offers.OfferCollectionOperations.byId"
+  package: "com.microsoft.store.partnercenter.offers"
 - uid: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.offers.Offer>"
   isExternal: true
   name: "ResourceCollection<Offer>"
@@ -160,6 +162,7 @@ references:
   name: "get"
   nameWithType: "OfferCollectionOperations.get"
   fullName: "com.microsoft.store.partnercenter.offers.OfferCollectionOperations.get"
+  package: "com.microsoft.store.partnercenter.offers"
 - uid: "int"
   isExternal: true
   name: "int"
@@ -174,6 +177,7 @@ references:
   name: "byCategory"
   nameWithType: "OfferCollectionOperations.byCategory"
   fullName: "com.microsoft.store.partnercenter.offers.OfferCollectionOperations.byCategory"
+  package: "com.microsoft.store.partnercenter.offers"
 - uid: "com.microsoft.store.partnercenter.BasePartnerComponentString"
   isExternal: true
   name: "BasePartnerComponentString"

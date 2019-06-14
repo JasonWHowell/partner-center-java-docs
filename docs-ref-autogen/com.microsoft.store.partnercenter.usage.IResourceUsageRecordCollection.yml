@@ -45,6 +45,7 @@ references:
   name: "get"
   nameWithType: "IResourceUsageRecordCollection.get"
   fullName: "com.microsoft.store.partnercenter.usage.IResourceUsageRecordCollection.get"
+  package: "com.microsoft.store.partnercenter.usage"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations<com.microsoft.store.partnercenter.models.usage.AzureResourceMonthlyUsageRecord,com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.usage.AzureResourceMonthlyUsageRecord>>"
   isExternal: true
   name: "IEntireEntityCollectionRetrievalOperations<AzureResourceMonthlyUsageRecord,ResourceCollection<AzureResourceMonthlyUsageRecord>>"

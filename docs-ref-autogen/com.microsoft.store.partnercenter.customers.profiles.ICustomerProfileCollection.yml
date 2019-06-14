@@ -62,6 +62,7 @@ references:
   name: "getBilling"
   nameWithType: "ICustomerProfileCollection.getBilling"
   fullName: "com.microsoft.store.partnercenter.customers.profiles.ICustomerProfileCollection.getBilling"
+  package: "com.microsoft.store.partnercenter.customers.profiles"
 - uid: "com.microsoft.store.partnercenter.customers.profiles.ICustomerReadonlyProfile<com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile>"
   isExternal: true
   name: "ICustomerReadonlyProfile<CustomerCompanyProfile>"
@@ -71,6 +72,7 @@ references:
   name: "getCompany"
   nameWithType: "ICustomerProfileCollection.getCompany"
   fullName: "com.microsoft.store.partnercenter.customers.profiles.ICustomerProfileCollection.getCompany"
+  package: "com.microsoft.store.partnercenter.customers.profiles"
 - uid: "com.microsoft.store.partnercenter.IPartnerComponentString"
   isExternal: true
   name: "IPartnerComponentString"

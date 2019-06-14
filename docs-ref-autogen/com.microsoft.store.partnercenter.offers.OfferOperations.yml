@@ -93,6 +93,7 @@ references:
   name: "OfferOperations"
   nameWithType: "OfferOperations.OfferOperations"
   fullName: "com.microsoft.store.partnercenter.offers.OfferOperations.OfferOperations"
+  package: "com.microsoft.store.partnercenter.offers"
 - uid: "com.microsoft.store.partnercenter.offers.IOfferAddOns"
   isExternal: true
   name: "IOfferAddOns"
@@ -102,6 +103,7 @@ references:
   name: "getAddOns"
   nameWithType: "OfferOperations.getAddOns"
   fullName: "com.microsoft.store.partnercenter.offers.OfferOperations.getAddOns"
+  package: "com.microsoft.store.partnercenter.offers"
 - uid: "com.microsoft.store.partnercenter.models.offers.Offer"
   isExternal: true
   name: "Offer"
@@ -111,6 +113,7 @@ references:
   name: "get"
   nameWithType: "OfferOperations.get"
   fullName: "com.microsoft.store.partnercenter.offers.OfferOperations.get"
+  package: "com.microsoft.store.partnercenter.offers"
 - uid: "com.microsoft.store.partnercenter.BasePartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>"
   isExternal: true
   name: "BasePartnerComponent<Tuple<String,String>>"

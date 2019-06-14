@@ -54,3 +54,4 @@ references:
   name: "create"
   nameWithType: "IEntityCreateOperations<T,T1>.create"
   fullName: "com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations<T,T1>.create"
+  package: "com.microsoft.store.partnercenter.genericoperations"

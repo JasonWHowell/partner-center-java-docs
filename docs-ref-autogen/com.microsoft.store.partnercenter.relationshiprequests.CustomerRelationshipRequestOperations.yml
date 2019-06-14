@@ -65,6 +65,7 @@ references:
   name: "CustomerRelationshipRequestOperations"
   nameWithType: "CustomerRelationshipRequestOperations.CustomerRelationshipRequestOperations"
   fullName: "com.microsoft.store.partnercenter.relationshiprequests.CustomerRelationshipRequestOperations.CustomerRelationshipRequestOperations"
+  package: "com.microsoft.store.partnercenter.relationshiprequests"
 - uid: "com.microsoft.store.partnercenter.models.relationshiprequests.CustomerRelationshipRequest"
   isExternal: true
   name: "CustomerRelationshipRequest"
@@ -74,6 +75,7 @@ references:
   name: "get"
   nameWithType: "CustomerRelationshipRequestOperations.get"
   fullName: "com.microsoft.store.partnercenter.relationshiprequests.CustomerRelationshipRequestOperations.get"
+  package: "com.microsoft.store.partnercenter.relationshiprequests"
 - uid: "com.microsoft.store.partnercenter.BasePartnerComponentString"
   isExternal: true
   name: "BasePartnerComponentString"

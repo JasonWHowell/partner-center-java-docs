@@ -45,6 +45,7 @@ references:
   name: "get"
   nameWithType: "ICustomerUsageSummary.get"
   fullName: "com.microsoft.store.partnercenter.usage.ICustomerUsageSummary.get"
+  package: "com.microsoft.store.partnercenter.usage"
 - uid: "com.microsoft.store.partnercenter.IPartnerComponentString"
   isExternal: true
   name: "IPartnerComponentString"

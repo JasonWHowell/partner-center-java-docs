@@ -120,6 +120,7 @@ references:
   name: "DeviceCollectionOperations"
   nameWithType: "DeviceCollectionOperations.DeviceCollectionOperations"
   fullName: "com.microsoft.store.partnercenter.devicesdeployment.DeviceCollectionOperations.DeviceCollectionOperations"
+  package: "com.microsoft.store.partnercenter.devicesdeployment"
 - uid: "com.microsoft.store.partnercenter.devicesdeployment.IDevice"
   isExternal: true
   name: "IDevice"
@@ -129,6 +130,7 @@ references:
   name: "byId"
   nameWithType: "DeviceCollectionOperations.byId"
   fullName: "com.microsoft.store.partnercenter.devicesdeployment.DeviceCollectionOperations.byId"
+  package: "com.microsoft.store.partnercenter.devicesdeployment"
 - uid: "java.util.List<com.microsoft.store.partnercenter.models.devicesdeployment.Device>"
   isExternal: true
   name: "List<Device>"
@@ -138,6 +140,7 @@ references:
   name: "create"
   nameWithType: "DeviceCollectionOperations.create"
   fullName: "com.microsoft.store.partnercenter.devicesdeployment.DeviceCollectionOperations.create"
+  package: "com.microsoft.store.partnercenter.devicesdeployment"
 - uid: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.devicesdeployment.Device>"
   isExternal: true
   name: "ResourceCollection<Device>"
@@ -147,6 +150,7 @@ references:
   name: "get"
   nameWithType: "DeviceCollectionOperations.get"
   fullName: "com.microsoft.store.partnercenter.devicesdeployment.DeviceCollectionOperations.get"
+  package: "com.microsoft.store.partnercenter.devicesdeployment"
 - uid: "com.microsoft.store.partnercenter.BasePartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>"
   isExternal: true
   name: "BasePartnerComponent<Tuple<String,String>>"

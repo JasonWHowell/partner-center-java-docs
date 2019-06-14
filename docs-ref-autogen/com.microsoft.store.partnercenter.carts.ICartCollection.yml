@@ -55,6 +55,7 @@ references:
   name: "byId"
   nameWithType: "ICartCollection.byId"
   fullName: "com.microsoft.store.partnercenter.carts.ICartCollection.byId"
+  package: "com.microsoft.store.partnercenter.carts"
 - uid: "com.microsoft.store.partnercenter.IPartnerComponentString"
   isExternal: true
   name: "IPartnerComponentString"

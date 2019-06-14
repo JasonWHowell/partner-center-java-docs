@@ -86,6 +86,7 @@ references:
   name: "getOrderLineItems"
   nameWithType: "IOrder.getOrderLineItems"
   fullName: "com.microsoft.store.partnercenter.orders.IOrder.getOrderLineItems"
+  package: "com.microsoft.store.partnercenter.orders"
 - uid: "com.microsoft.store.partnercenter.orders.IOrderProvisioningStatus"
   isExternal: true
   name: "IOrderProvisioningStatus"
@@ -95,6 +96,7 @@ references:
   name: "getProvisioningStatus"
   nameWithType: "IOrder.getProvisioningStatus"
   fullName: "com.microsoft.store.partnercenter.orders.IOrder.getProvisioningStatus"
+  package: "com.microsoft.store.partnercenter.orders"
 - uid: "java.lang.Boolean"
   isExternal: true
   name: "Boolean"
@@ -109,6 +111,7 @@ references:
   name: "get"
   nameWithType: "IOrder.get"
   fullName: "com.microsoft.store.partnercenter.orders.IOrder.get"
+  package: "com.microsoft.store.partnercenter.orders"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntityPatchOperations<com.microsoft.store.partnercenter.models.orders.Order>"
   isExternal: true
   name: "IEntityPatchOperations<Order>"
