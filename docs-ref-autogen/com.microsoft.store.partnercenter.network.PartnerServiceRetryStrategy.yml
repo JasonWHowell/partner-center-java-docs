@@ -94,7 +94,6 @@ items:
       type: "java.util.List<java.lang.Integer>"
 references:
 - uid: "int"
-  isExternal: true
   name: "int"
   nameWithType: "int"
   fullName: "int"
@@ -104,12 +103,10 @@ references:
   fullName: "com.microsoft.store.partnercenter.network.PartnerServiceRetryStrategy.PartnerServiceRetryStrategy"
   package: "com.microsoft.store.partnercenter.network"
 - uid: "okhttp3.Response"
-  isExternal: true
   name: "Response"
   nameWithType: "Response"
   fullName: "okhttp3.Response"
 - uid: "boolean"
-  isExternal: true
   name: "boolean"
   nameWithType: "boolean"
   fullName: "boolean"
@@ -119,27 +116,22 @@ references:
   fullName: "com.microsoft.store.partnercenter.network.PartnerServiceRetryStrategy.shouldRetry"
   package: "com.microsoft.store.partnercenter.network"
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"
 - uid: "java.util.List<java.lang.Integer>"
-  isExternal: true
   name: "List<Integer>"
   nameWithType: "List<Integer>"
   fullName: "java.util.List<java.lang.Integer>"
 - uid: "com.microsoft.rest.retry.RetryStrategy"
-  isExternal: true
   name: "RetryStrategy"
   nameWithType: "RetryStrategy"
   fullName: "com.microsoft.rest.retry.RetryStrategy"
 - uid: "java.util.List"
-  isExternal: true
   name: "List"
   nameWithType: "List"
   fullName: "java.util.List"
 - uid: "java.lang.Integer"
-  isExternal: true
   name: "Integer"
   nameWithType: "Integer"
   fullName: "java.lang.Integer"

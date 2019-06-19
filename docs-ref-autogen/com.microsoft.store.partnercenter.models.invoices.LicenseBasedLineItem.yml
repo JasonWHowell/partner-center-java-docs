@@ -964,7 +964,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.invoices.LicenseBasedLineItem.LicenseBasedLineItem"
   package: "com.microsoft.store.partnercenter.models.invoices"
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"
@@ -999,7 +998,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.invoices.LicenseBasedLineItem.setCustomerName"
   package: "com.microsoft.store.partnercenter.models.invoices"
 - uid: "int"
-  isExternal: true
   name: "int"
   nameWithType: "int"
   fullName: "int"
@@ -1084,7 +1082,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.invoices.LicenseBasedLineItem.setOfferName"
   package: "com.microsoft.store.partnercenter.models.invoices"
 - uid: "org.joda.time.DateTime"
-  isExternal: true
   name: "DateTime"
   nameWithType: "DateTime"
   fullName: "org.joda.time.DateTime"
@@ -1139,7 +1136,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.invoices.LicenseBasedLineItem.setChargeType"
   package: "com.microsoft.store.partnercenter.models.invoices"
 - uid: "double"
-  isExternal: true
   name: "double"
   nameWithType: "double"
   fullName: "double"
@@ -1224,7 +1220,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.invoices.LicenseBasedLineItem.setCurrency"
   package: "com.microsoft.store.partnercenter.models.invoices"
 - uid: "com.microsoft.store.partnercenter.models.invoices.InvoiceLineItemType"
-  isExternal: true
   name: "InvoiceLineItemType"
   nameWithType: "InvoiceLineItemType"
   fullName: "com.microsoft.store.partnercenter.models.invoices.InvoiceLineItemType"
@@ -1234,7 +1229,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.invoices.LicenseBasedLineItem.getInvoiceLineItemType"
   package: "com.microsoft.store.partnercenter.models.invoices"
 - uid: "com.microsoft.store.partnercenter.models.invoices.BillingProvider"
-  isExternal: true
   name: "BillingProvider"
   nameWithType: "BillingProvider"
   fullName: "com.microsoft.store.partnercenter.models.invoices.BillingProvider"
@@ -1274,7 +1268,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.invoices.LicenseBasedLineItem.setSubscriptionDescription"
   package: "com.microsoft.store.partnercenter.models.invoices"
 - uid: "com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem"
-  isExternal: true
   name: "InvoiceLineItem"
   nameWithType: "InvoiceLineItem"
   fullName: "com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem"

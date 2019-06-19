@@ -59,12 +59,10 @@ items:
       description: "A boolean value to indicate if the domain is available."
 references:
 - uid: "com.microsoft.store.partnercenter.IPartner"
-  isExternal: true
   name: "IPartner"
   nameWithType: "IPartner"
   fullName: "com.microsoft.store.partnercenter.IPartner"
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"
@@ -74,7 +72,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.domains.DomainOperations.DomainOperations"
   package: "com.microsoft.store.partnercenter.domains"
 - uid: "boolean"
-  isExternal: true
   name: "boolean"
   nameWithType: "boolean"
   fullName: "boolean"
@@ -84,12 +81,10 @@ references:
   fullName: "com.microsoft.store.partnercenter.domains.DomainOperations.exists"
   package: "com.microsoft.store.partnercenter.domains"
 - uid: "com.microsoft.store.partnercenter.BasePartnerComponentString"
-  isExternal: true
   name: "BasePartnerComponentString"
   nameWithType: "BasePartnerComponentString"
   fullName: "com.microsoft.store.partnercenter.BasePartnerComponentString"
 - uid: "com.microsoft.store.partnercenter.domains.IDomain"
-  isExternal: true
   name: "IDomain"
   nameWithType: "IDomain"
   fullName: "com.microsoft.store.partnercenter.domains.IDomain"

@@ -268,7 +268,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationRecord.AzureUtilizationRecord"
   package: "com.microsoft.store.partnercenter.models.utilizations"
 - uid: "org.joda.time.DateTime"
-  isExternal: true
   name: "DateTime"
   nameWithType: "DateTime"
   fullName: "org.joda.time.DateTime"
@@ -293,7 +292,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationRecord.setUsageEndTime"
   package: "com.microsoft.store.partnercenter.models.utilizations"
 - uid: "com.microsoft.store.partnercenter.models.utilizations.AzureResource"
-  isExternal: true
   name: "AzureResource"
   nameWithType: "AzureResource"
   fullName: "com.microsoft.store.partnercenter.models.utilizations.AzureResource"
@@ -308,7 +306,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationRecord.setResource"
   package: "com.microsoft.store.partnercenter.models.utilizations"
 - uid: "double"
-  isExternal: true
   name: "double"
   nameWithType: "double"
   fullName: "double"
@@ -323,7 +320,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationRecord.setQuantity"
   package: "com.microsoft.store.partnercenter.models.utilizations"
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"
@@ -338,7 +334,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationRecord.setUnit"
   package: "com.microsoft.store.partnercenter.models.utilizations"
 - uid: "java.util.Map<java.lang.String,java.lang.String>"
-  isExternal: true
   name: "Map<String,String>"
   nameWithType: "Map<String,String>"
   fullName: "java.util.Map<java.lang.String,java.lang.String>"
@@ -353,7 +348,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationRecord.setInfoFields"
   package: "com.microsoft.store.partnercenter.models.utilizations"
 - uid: "com.microsoft.store.partnercenter.models.utilizations.AzureInstanceData"
-  isExternal: true
   name: "AzureInstanceData"
   nameWithType: "AzureInstanceData"
   fullName: "com.microsoft.store.partnercenter.models.utilizations.AzureInstanceData"
@@ -368,17 +362,14 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationRecord.setInstanceData"
   package: "com.microsoft.store.partnercenter.models.utilizations"
 - uid: "com.microsoft.store.partnercenter.models.ResourceBase"
-  isExternal: true
   name: "ResourceBase"
   nameWithType: "ResourceBase"
   fullName: "com.microsoft.store.partnercenter.models.ResourceBase"
 - uid: "java.util.Map"
-  isExternal: true
   name: "Map"
   nameWithType: "Map"
   fullName: "java.util.Map"
 - uid: "java.lang.String,java.lang.String"
-  isExternal: true
   name: "String,String"
   nameWithType: "String,String"
   fullName: "java.lang.String,java.lang.String"

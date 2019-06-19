@@ -301,7 +301,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.InvoiceSummary"
   package: "com.microsoft.store.partnercenter.models.invoices"
 - uid: "double"
-  isExternal: true
   name: "double"
   nameWithType: "double"
   fullName: "double"
@@ -316,7 +315,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.setBalanceAmount"
   package: "com.microsoft.store.partnercenter.models.invoices"
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"
@@ -341,7 +339,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.setCurrencySymbol"
   package: "com.microsoft.store.partnercenter.models.invoices"
 - uid: "org.joda.time.DateTime"
-  isExternal: true
   name: "DateTime"
   nameWithType: "DateTime"
   fullName: "org.joda.time.DateTime"
@@ -396,17 +393,14 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.invoices.InvoiceSummary.setLatestInvoiceDate"
   package: "com.microsoft.store.partnercenter.models.invoices"
 - uid: "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks<com.microsoft.store.partnercenter.models.StandardResourceLinks>"
-  isExternal: true
   name: "ResourceBaseWithLinks<StandardResourceLinks>"
   nameWithType: "ResourceBaseWithLinks<StandardResourceLinks>"
   fullName: "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks<com.microsoft.store.partnercenter.models.StandardResourceLinks>"
 - uid: "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks"
-  isExternal: true
   name: "ResourceBaseWithLinks"
   nameWithType: "ResourceBaseWithLinks"
   fullName: "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks"
 - uid: "com.microsoft.store.partnercenter.models.StandardResourceLinks"
-  isExternal: true
   name: "StandardResourceLinks"
   nameWithType: "StandardResourceLinks"
   fullName: "com.microsoft.store.partnercenter.models.StandardResourceLinks"

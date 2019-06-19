@@ -92,7 +92,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.Contract.Contract"
   package: "com.microsoft.store.partnercenter.models"
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"
@@ -107,7 +106,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.Contract.setOrderId"
   package: "com.microsoft.store.partnercenter.models"
 - uid: "com.microsoft.store.partnercenter.models.ContractType"
-  isExternal: true
   name: "ContractType"
   nameWithType: "ContractType"
   fullName: "com.microsoft.store.partnercenter.models.ContractType"
@@ -117,7 +115,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.Contract.getContractType"
   package: "com.microsoft.store.partnercenter.models"
 - uid: "com.microsoft.store.partnercenter.models.ResourceBase"
-  isExternal: true
   name: "ResourceBase"
   nameWithType: "ResourceBase"
   fullName: "com.microsoft.store.partnercenter.models.ResourceBase"

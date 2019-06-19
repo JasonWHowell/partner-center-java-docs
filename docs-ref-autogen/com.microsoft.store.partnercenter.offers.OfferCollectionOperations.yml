@@ -129,12 +129,10 @@ items:
       description: "The category offers operations."
 references:
 - uid: "com.microsoft.store.partnercenter.IPartner"
-  isExternal: true
   name: "IPartner"
   nameWithType: "IPartner"
   fullName: "com.microsoft.store.partnercenter.IPartner"
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"
@@ -144,7 +142,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.offers.OfferCollectionOperations.OfferCollectionOperations"
   package: "com.microsoft.store.partnercenter.offers"
 - uid: "com.microsoft.store.partnercenter.offers.IOffer"
-  isExternal: true
   name: "IOffer"
   nameWithType: "IOffer"
   fullName: "com.microsoft.store.partnercenter.offers.IOffer"
@@ -154,7 +151,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.offers.OfferCollectionOperations.byId"
   package: "com.microsoft.store.partnercenter.offers"
 - uid: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.offers.Offer>"
-  isExternal: true
   name: "ResourceCollection<Offer>"
   nameWithType: "ResourceCollection<Offer>"
   fullName: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.offers.Offer>"
@@ -164,12 +160,10 @@ references:
   fullName: "com.microsoft.store.partnercenter.offers.OfferCollectionOperations.get"
   package: "com.microsoft.store.partnercenter.offers"
 - uid: "int"
-  isExternal: true
   name: "int"
   nameWithType: "int"
   fullName: "int"
 - uid: "com.microsoft.store.partnercenter.offers.ICategoryOffersCollection"
-  isExternal: true
   name: "ICategoryOffersCollection"
   nameWithType: "ICategoryOffersCollection"
   fullName: "com.microsoft.store.partnercenter.offers.ICategoryOffersCollection"
@@ -179,22 +173,18 @@ references:
   fullName: "com.microsoft.store.partnercenter.offers.OfferCollectionOperations.byCategory"
   package: "com.microsoft.store.partnercenter.offers"
 - uid: "com.microsoft.store.partnercenter.BasePartnerComponentString"
-  isExternal: true
   name: "BasePartnerComponentString"
   nameWithType: "BasePartnerComponentString"
   fullName: "com.microsoft.store.partnercenter.BasePartnerComponentString"
 - uid: "com.microsoft.store.partnercenter.offers.IOfferCollection"
-  isExternal: true
   name: "IOfferCollection"
   nameWithType: "IOfferCollection"
   fullName: "com.microsoft.store.partnercenter.offers.IOfferCollection"
 - uid: "com.microsoft.store.partnercenter.models.ResourceCollection"
-  isExternal: true
   name: "ResourceCollection"
   nameWithType: "ResourceCollection"
   fullName: "com.microsoft.store.partnercenter.models.ResourceCollection"
 - uid: "com.microsoft.store.partnercenter.models.offers.Offer"
-  isExternal: true
   name: "Offer"
   nameWithType: "Offer"
   fullName: "com.microsoft.store.partnercenter.models.offers.Offer"

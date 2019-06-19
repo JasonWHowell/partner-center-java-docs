@@ -103,7 +103,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.partners.MpnProfile.MpnProfile"
   package: "com.microsoft.store.partnercenter.models.partners"
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"
@@ -128,17 +127,14 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.partners.MpnProfile.setMpnId"
   package: "com.microsoft.store.partnercenter.models.partners"
 - uid: "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks<com.microsoft.store.partnercenter.models.StandardResourceLinks>"
-  isExternal: true
   name: "ResourceBaseWithLinks<StandardResourceLinks>"
   nameWithType: "ResourceBaseWithLinks<StandardResourceLinks>"
   fullName: "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks<com.microsoft.store.partnercenter.models.StandardResourceLinks>"
 - uid: "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks"
-  isExternal: true
   name: "ResourceBaseWithLinks"
   nameWithType: "ResourceBaseWithLinks"
   fullName: "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks"
 - uid: "com.microsoft.store.partnercenter.models.StandardResourceLinks"
-  isExternal: true
   name: "StandardResourceLinks"
   nameWithType: "StandardResourceLinks"
   fullName: "com.microsoft.store.partnercenter.models.StandardResourceLinks"

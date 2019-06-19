@@ -84,7 +84,6 @@ items:
       description: "The updated customer qualification."
 references:
 - uid: "com.microsoft.store.partnercenter.models.customers.CustomerQualification"
-  isExternal: true
   name: "CustomerQualification"
   nameWithType: "CustomerQualification"
   fullName: "com.microsoft.store.partnercenter.models.customers.CustomerQualification"
@@ -99,32 +98,26 @@ references:
   fullName: "com.microsoft.store.partnercenter.qualification.ICustomerQualification.update"
   package: "com.microsoft.store.partnercenter.qualification"
 - uid: "com.microsoft.store.partnercenter.models.validationcodes.ValidationCode"
-  isExternal: true
   name: "ValidationCode"
   nameWithType: "ValidationCode"
   fullName: "com.microsoft.store.partnercenter.models.validationcodes.ValidationCode"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations<com.microsoft.store.partnercenter.models.customers.CustomerQualification>"
-  isExternal: true
   name: "IEntityGetOperations<CustomerQualification>"
   nameWithType: "IEntityGetOperations<CustomerQualification>"
   fullName: "com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations<com.microsoft.store.partnercenter.models.customers.CustomerQualification>"
 - uid: "com.microsoft.store.partnercenter.IPartnerComponentString"
-  isExternal: true
   name: "IPartnerComponentString"
   nameWithType: "IPartnerComponentString"
   fullName: "com.microsoft.store.partnercenter.IPartnerComponentString"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntityUpdateOperations<com.microsoft.store.partnercenter.models.customers.CustomerQualification>"
-  isExternal: true
   name: "IEntityUpdateOperations<CustomerQualification>"
   nameWithType: "IEntityUpdateOperations<CustomerQualification>"
   fullName: "com.microsoft.store.partnercenter.genericoperations.IEntityUpdateOperations<com.microsoft.store.partnercenter.models.customers.CustomerQualification>"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations"
-  isExternal: true
   name: "IEntityGetOperations"
   nameWithType: "IEntityGetOperations"
   fullName: "com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntityUpdateOperations"
-  isExternal: true
   name: "IEntityUpdateOperations"
   nameWithType: "IEntityUpdateOperations"
   fullName: "com.microsoft.store.partnercenter.genericoperations.IEntityUpdateOperations"

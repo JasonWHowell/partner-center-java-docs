@@ -169,7 +169,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.ratecards.AzureOfferTerm.AzureOfferTerm"
   package: "com.microsoft.store.partnercenter.models.ratecards"
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"
@@ -184,7 +183,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.ratecards.AzureOfferTerm.setName"
   package: "com.microsoft.store.partnercenter.models.ratecards"
 - uid: "double"
-  isExternal: true
   name: "double"
   nameWithType: "double"
   fullName: "double"
@@ -199,7 +197,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.ratecards.AzureOfferTerm.setDiscount"
   package: "com.microsoft.store.partnercenter.models.ratecards"
 - uid: "java.lang.Iterable<java.lang.String>"
-  isExternal: true
   name: "Iterable<String>"
   nameWithType: "Iterable<String>"
   fullName: "java.lang.Iterable<java.lang.String>"
@@ -214,7 +211,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.ratecards.AzureOfferTerm.setExcludedMeterIds"
   package: "com.microsoft.store.partnercenter.models.ratecards"
 - uid: "org.joda.time.DateTime"
-  isExternal: true
   name: "DateTime"
   nameWithType: "DateTime"
   fullName: "org.joda.time.DateTime"
@@ -229,12 +225,10 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.ratecards.AzureOfferTerm.setEffectiveDate"
   package: "com.microsoft.store.partnercenter.models.ratecards"
 - uid: "com.microsoft.store.partnercenter.models.ResourceBase"
-  isExternal: true
   name: "ResourceBase"
   nameWithType: "ResourceBase"
   fullName: "com.microsoft.store.partnercenter.models.ResourceBase"
 - uid: "java.lang.Iterable"
-  isExternal: true
   name: "Iterable"
   nameWithType: "Iterable"
   fullName: "java.lang.Iterable"

@@ -34,7 +34,6 @@ items:
       description: "The current agreement metadata."
 references:
 - uid: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.agreements.AgreementMetaData>"
-  isExternal: true
   name: "ResourceCollection<AgreementMetaData>"
   nameWithType: "ResourceCollection<AgreementMetaData>"
   fullName: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.agreements.AgreementMetaData>"
@@ -44,12 +43,10 @@ references:
   fullName: "com.microsoft.store.partnercenter.agreements.IAgreementDetailsCollection.get"
   package: "com.microsoft.store.partnercenter.agreements"
 - uid: "com.microsoft.store.partnercenter.models.agreements.AgreementMetaData"
-  isExternal: true
   name: "AgreementMetaData"
   nameWithType: "AgreementMetaData"
   fullName: "com.microsoft.store.partnercenter.models.agreements.AgreementMetaData"
 - uid: "com.microsoft.store.partnercenter.models.ResourceCollection"
-  isExternal: true
   name: "ResourceCollection"
   nameWithType: "ResourceCollection"
   fullName: "com.microsoft.store.partnercenter.models.ResourceCollection"

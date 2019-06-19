@@ -60,12 +60,10 @@ items:
       description: "The subscription conversions."
 references:
 - uid: "com.microsoft.store.partnercenter.models.subscriptions.Conversion"
-  isExternal: true
   name: "Conversion"
   nameWithType: "Conversion"
   fullName: "com.microsoft.store.partnercenter.models.subscriptions.Conversion"
 - uid: "com.microsoft.store.partnercenter.models.subscriptions.ConversionResult"
-  isExternal: true
   name: "ConversionResult"
   nameWithType: "ConversionResult"
   fullName: "com.microsoft.store.partnercenter.models.subscriptions.ConversionResult"
@@ -75,7 +73,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.subscriptions.ISubscriptionConversionCollection.create"
   package: "com.microsoft.store.partnercenter.subscriptions"
 - uid: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.subscriptions.Conversion>"
-  isExternal: true
   name: "ResourceCollection<Conversion>"
   nameWithType: "ResourceCollection<Conversion>"
   fullName: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.subscriptions.Conversion>"
@@ -85,57 +82,46 @@ references:
   fullName: "com.microsoft.store.partnercenter.subscriptions.ISubscriptionConversionCollection.get"
   package: "com.microsoft.store.partnercenter.subscriptions"
 - uid: "com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>"
-  isExternal: true
   name: "IPartnerComponent<Tuple<String,String>>"
   nameWithType: "IPartnerComponent<Tuple<String,String>>"
   fullName: "com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations<com.microsoft.store.partnercenter.models.subscriptions.Conversion,com.microsoft.store.partnercenter.models.subscriptions.ConversionResult>"
-  isExternal: true
   name: "IEntityCreateOperations<Conversion,ConversionResult>"
   nameWithType: "IEntityCreateOperations<Conversion,ConversionResult>"
   fullName: "com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations<com.microsoft.store.partnercenter.models.subscriptions.Conversion,com.microsoft.store.partnercenter.models.subscriptions.ConversionResult>"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations<com.microsoft.store.partnercenter.models.subscriptions.Conversion,com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.subscriptions.Conversion>>"
-  isExternal: true
   name: "IEntireEntityCollectionRetrievalOperations<Conversion,ResourceCollection<Conversion>>"
   nameWithType: "IEntireEntityCollectionRetrievalOperations<Conversion,ResourceCollection<Conversion>>"
   fullName: "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations<com.microsoft.store.partnercenter.models.subscriptions.Conversion,com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.subscriptions.Conversion>>"
 - uid: "com.microsoft.store.partnercenter.models.ResourceCollection"
-  isExternal: true
   name: "ResourceCollection"
   nameWithType: "ResourceCollection"
   fullName: "com.microsoft.store.partnercenter.models.ResourceCollection"
 - uid: "com.microsoft.store.partnercenter.IPartnerComponent"
-  isExternal: true
   name: "IPartnerComponent"
   nameWithType: "IPartnerComponent"
   fullName: "com.microsoft.store.partnercenter.IPartnerComponent"
 - uid: "com.microsoft.store.partnercenter.models.utils.Tuple"
-  isExternal: true
   name: "Tuple"
   nameWithType: "Tuple"
   fullName: "com.microsoft.store.partnercenter.models.utils.Tuple"
 - uid: "java.lang.String,java.lang.String"
-  isExternal: true
   name: "String,String"
   nameWithType: "String,String"
   fullName: "java.lang.String,java.lang.String"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations"
-  isExternal: true
   name: "IEntityCreateOperations"
   nameWithType: "IEntityCreateOperations"
   fullName: "com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations"
 - uid: "com.microsoft.store.partnercenter.models.subscriptions.Conversion,com.microsoft.store.partnercenter.models.subscriptions.ConversionResult"
-  isExternal: true
   name: "Conversion,ConversionResult"
   nameWithType: "Conversion,ConversionResult"
   fullName: "com.microsoft.store.partnercenter.models.subscriptions.Conversion,com.microsoft.store.partnercenter.models.subscriptions.ConversionResult"
 - uid: "com.microsoft.store.partnercenter.models.subscriptions.Conversion,com.microsoft.store.partnercenter.models.ResourceCollection"
-  isExternal: true
   name: "Conversion,ResourceCollection"
   nameWithType: "Conversion,ResourceCollection"
   fullName: "com.microsoft.store.partnercenter.models.subscriptions.Conversion,com.microsoft.store.partnercenter.models.ResourceCollection"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations"
-  isExternal: true
   name: "IEntireEntityCollectionRetrievalOperations"
   nameWithType: "IEntireEntityCollectionRetrievalOperations"
   fullName: "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations"

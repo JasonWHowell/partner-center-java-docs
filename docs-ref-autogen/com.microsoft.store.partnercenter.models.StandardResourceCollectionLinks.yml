@@ -103,7 +103,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.StandardResourceCollectionLinks.StandardResourceCollectionLinks"
   package: "com.microsoft.store.partnercenter.models"
 - uid: "com.microsoft.store.partnercenter.models.Link"
-  isExternal: true
   name: "Link"
   nameWithType: "Link"
   fullName: "com.microsoft.store.partnercenter.models.Link"
@@ -128,7 +127,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.StandardResourceCollectionLinks.setPrevious"
   package: "com.microsoft.store.partnercenter.models"
 - uid: "com.microsoft.store.partnercenter.models.StandardResourceLinks"
-  isExternal: true
   name: "StandardResourceLinks"
   nameWithType: "StandardResourceLinks"
   fullName: "com.microsoft.store.partnercenter.models.StandardResourceLinks"

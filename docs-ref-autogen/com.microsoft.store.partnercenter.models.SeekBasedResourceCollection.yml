@@ -113,7 +113,6 @@ items:
       type: "java.lang.String"
 references:
 - uid: "java.util.List<T>"
-  isExternal: true
   name: "List<T>"
   nameWithType: "List<T>"
   fullName: "java.util.List<T>"
@@ -123,12 +122,10 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.SeekBasedResourceCollection<T>.SeekBasedResourceCollection"
   package: "com.microsoft.store.partnercenter.models"
 - uid: "com.microsoft.store.partnercenter.models.ResourceCollection<T>"
-  isExternal: true
   name: "ResourceCollection<T>"
   nameWithType: "ResourceCollection<T>"
   fullName: "com.microsoft.store.partnercenter.models.ResourceCollection<T>"
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"
@@ -147,12 +144,10 @@ references:
   nameWithType: "T"
   fullName: "T"
 - uid: "java.util.List"
-  isExternal: true
   name: "List"
   nameWithType: "List"
   fullName: "java.util.List"
 - uid: "com.microsoft.store.partnercenter.models.ResourceCollection"
-  isExternal: true
   name: "ResourceCollection"
   nameWithType: "ResourceCollection"
   fullName: "com.microsoft.store.partnercenter.models.ResourceCollection"

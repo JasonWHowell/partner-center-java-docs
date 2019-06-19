@@ -40,12 +40,10 @@ items:
       description: "The inventory check results."
 references:
 - uid: "com.microsoft.store.partnercenter.models.products.InventoryCheckRequest"
-  isExternal: true
   name: "InventoryCheckRequest"
   nameWithType: "InventoryCheckRequest"
   fullName: "com.microsoft.store.partnercenter.models.products.InventoryCheckRequest"
 - uid: "java.util.List<com.microsoft.store.partnercenter.models.products.InventoryItem>"
-  isExternal: true
   name: "List<InventoryItem>"
   nameWithType: "List<InventoryItem>"
   fullName: "java.util.List<com.microsoft.store.partnercenter.models.products.InventoryItem>"
@@ -55,17 +53,14 @@ references:
   fullName: "com.microsoft.store.partnercenter.extensions.products.IProductExtensionsByCountry.checkInventory"
   package: "com.microsoft.store.partnercenter.extensions.products"
 - uid: "com.microsoft.store.partnercenter.IPartnerComponentString"
-  isExternal: true
   name: "IPartnerComponentString"
   nameWithType: "IPartnerComponentString"
   fullName: "com.microsoft.store.partnercenter.IPartnerComponentString"
 - uid: "java.util.List"
-  isExternal: true
   name: "List"
   nameWithType: "List"
   fullName: "java.util.List"
 - uid: "com.microsoft.store.partnercenter.models.products.InventoryItem"
-  isExternal: true
   name: "InventoryItem"
   nameWithType: "InventoryItem"
   fullName: "com.microsoft.store.partnercenter.models.products.InventoryItem"

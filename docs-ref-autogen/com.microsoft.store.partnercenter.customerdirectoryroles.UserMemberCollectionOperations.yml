@@ -129,12 +129,10 @@ items:
       description: "The  directory role user memberships."
 references:
 - uid: "com.microsoft.store.partnercenter.IPartner"
-  isExternal: true
   name: "IPartner"
   nameWithType: "IPartner"
   fullName: "com.microsoft.store.partnercenter.IPartner"
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"
@@ -144,7 +142,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.customerdirectoryroles.UserMemberCollectionOperations.UserMemberCollectionOperations"
   package: "com.microsoft.store.partnercenter.customerdirectoryroles"
 - uid: "com.microsoft.store.partnercenter.customerdirectoryroles.IUserMember"
-  isExternal: true
   name: "IUserMember"
   nameWithType: "IUserMember"
   fullName: "com.microsoft.store.partnercenter.customerdirectoryroles.IUserMember"
@@ -154,7 +151,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.customerdirectoryroles.UserMemberCollectionOperations.byId"
   package: "com.microsoft.store.partnercenter.customerdirectoryroles"
 - uid: "com.microsoft.store.partnercenter.models.roles.UserMember"
-  isExternal: true
   name: "UserMember"
   nameWithType: "UserMember"
   fullName: "com.microsoft.store.partnercenter.models.roles.UserMember"
@@ -164,7 +160,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.customerdirectoryroles.UserMemberCollectionOperations.create"
   package: "com.microsoft.store.partnercenter.customerdirectoryroles"
 - uid: "com.microsoft.store.partnercenter.models.SeekBasedResourceCollection<com.microsoft.store.partnercenter.models.roles.UserMember>"
-  isExternal: true
   name: "SeekBasedResourceCollection<UserMember>"
   nameWithType: "SeekBasedResourceCollection<UserMember>"
   fullName: "com.microsoft.store.partnercenter.models.SeekBasedResourceCollection<com.microsoft.store.partnercenter.models.roles.UserMember>"
@@ -174,7 +169,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.customerdirectoryroles.UserMemberCollectionOperations.get"
   package: "com.microsoft.store.partnercenter.customerdirectoryroles"
 - uid: "com.microsoft.store.partnercenter.models.query.IQuery"
-  isExternal: true
   name: "IQuery"
   nameWithType: "IQuery"
   fullName: "com.microsoft.store.partnercenter.models.query.IQuery"
@@ -184,32 +178,26 @@ references:
   fullName: "com.microsoft.store.partnercenter.customerdirectoryroles.UserMemberCollectionOperations.query"
   package: "com.microsoft.store.partnercenter.customerdirectoryroles"
 - uid: "com.microsoft.store.partnercenter.BasePartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>"
-  isExternal: true
   name: "BasePartnerComponent<Tuple<String,String>>"
   nameWithType: "BasePartnerComponent<Tuple<String,String>>"
   fullName: "com.microsoft.store.partnercenter.BasePartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>"
 - uid: "com.microsoft.store.partnercenter.customerdirectoryroles.IUserMemberCollection"
-  isExternal: true
   name: "IUserMemberCollection"
   nameWithType: "IUserMemberCollection"
   fullName: "com.microsoft.store.partnercenter.customerdirectoryroles.IUserMemberCollection"
 - uid: "com.microsoft.store.partnercenter.models.SeekBasedResourceCollection"
-  isExternal: true
   name: "SeekBasedResourceCollection"
   nameWithType: "SeekBasedResourceCollection"
   fullName: "com.microsoft.store.partnercenter.models.SeekBasedResourceCollection"
 - uid: "com.microsoft.store.partnercenter.models.utils.Tuple"
-  isExternal: true
   name: "Tuple"
   nameWithType: "Tuple"
   fullName: "com.microsoft.store.partnercenter.models.utils.Tuple"
 - uid: "com.microsoft.store.partnercenter.BasePartnerComponent"
-  isExternal: true
   name: "BasePartnerComponent"
   nameWithType: "BasePartnerComponent"
   fullName: "com.microsoft.store.partnercenter.BasePartnerComponent"
 - uid: "java.lang.String,java.lang.String"
-  isExternal: true
   name: "String,String"
   nameWithType: "String,String"
   fullName: "java.lang.String,java.lang.String"

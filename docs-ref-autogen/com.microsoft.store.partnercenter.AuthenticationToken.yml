@@ -123,12 +123,10 @@ items:
       description: "true if token has expired; otherwise false."
 references:
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"
 - uid: "org.joda.time.DateTime"
-  isExternal: true
   name: "DateTime"
   nameWithType: "DateTime"
   fullName: "org.joda.time.DateTime"
@@ -148,7 +146,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.AuthenticationToken.getExpiryTime"
   package: "com.microsoft.store.partnercenter"
 - uid: "org.joda.time.Duration"
-  isExternal: true
   name: "Duration"
   nameWithType: "Duration"
   fullName: "org.joda.time.Duration"
@@ -163,7 +160,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.AuthenticationToken.setExpiryBuffer"
   package: "com.microsoft.store.partnercenter"
 - uid: "boolean"
-  isExternal: true
   name: "boolean"
   nameWithType: "boolean"
   fullName: "boolean"

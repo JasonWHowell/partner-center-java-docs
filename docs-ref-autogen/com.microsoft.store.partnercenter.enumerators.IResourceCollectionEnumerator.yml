@@ -158,7 +158,6 @@ items:
       description: "An optional request context. If not provided, the context associated with the partner operations\n            will be used."
 references:
 - uid: "boolean"
-  isExternal: true
   name: "boolean"
   nameWithType: "boolean"
   fullName: "boolean"
@@ -178,7 +177,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumerator<T>.hasValue"
   package: "com.microsoft.store.partnercenter.enumerators"
 - uid: "T"
-  isExternal: true
   name: "T"
   nameWithType: "T"
   fullName: "T"
@@ -193,7 +191,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumerator<T>.next"
   package: "com.microsoft.store.partnercenter.enumerators"
 - uid: "com.microsoft.store.partnercenter.requestcontext.IRequestContext"
-  isExternal: true
   name: "IRequestContext"
   nameWithType: "IRequestContext"
   fullName: "com.microsoft.store.partnercenter.requestcontext.IRequestContext"

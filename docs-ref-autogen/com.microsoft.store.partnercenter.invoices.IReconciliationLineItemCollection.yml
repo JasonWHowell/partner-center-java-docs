@@ -18,37 +18,30 @@ items:
   - "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations<com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem,com.microsoft.store.partnercenter.models.SeekBasedResourceCollection<com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem>>"
 references:
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations<com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem,com.microsoft.store.partnercenter.models.SeekBasedResourceCollection<com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem>>"
-  isExternal: true
   name: "IEntireEntityCollectionRetrievalOperations<InvoiceLineItem,SeekBasedResourceCollection<InvoiceLineItem>>"
   nameWithType: "IEntireEntityCollectionRetrievalOperations<InvoiceLineItem,SeekBasedResourceCollection<InvoiceLineItem>>"
   fullName: "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations<com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem,com.microsoft.store.partnercenter.models.SeekBasedResourceCollection<com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem>>"
 - uid: "com.microsoft.store.partnercenter.IPartnerComponent<java.lang.String>"
-  isExternal: true
   name: "IPartnerComponent<String>"
   nameWithType: "IPartnerComponent<String>"
   fullName: "com.microsoft.store.partnercenter.IPartnerComponent<java.lang.String>"
 - uid: "com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem"
-  isExternal: true
   name: "InvoiceLineItem"
   nameWithType: "InvoiceLineItem"
   fullName: "com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem"
 - uid: "com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem,com.microsoft.store.partnercenter.models.SeekBasedResourceCollection"
-  isExternal: true
   name: "InvoiceLineItem,SeekBasedResourceCollection"
   nameWithType: "InvoiceLineItem,SeekBasedResourceCollection"
   fullName: "com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem,com.microsoft.store.partnercenter.models.SeekBasedResourceCollection"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations"
-  isExternal: true
   name: "IEntireEntityCollectionRetrievalOperations"
   nameWithType: "IEntireEntityCollectionRetrievalOperations"
   fullName: "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations"
 - uid: "com.microsoft.store.partnercenter.IPartnerComponent"
-  isExternal: true
   name: "IPartnerComponent"
   nameWithType: "IPartnerComponent"
   fullName: "com.microsoft.store.partnercenter.IPartnerComponent"
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"

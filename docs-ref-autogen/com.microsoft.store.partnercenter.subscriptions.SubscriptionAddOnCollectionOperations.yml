@@ -63,12 +63,10 @@ items:
       description: "Collection of add-on subscriptions."
 references:
 - uid: "com.microsoft.store.partnercenter.IPartner"
-  isExternal: true
   name: "IPartner"
   nameWithType: "IPartner"
   fullName: "com.microsoft.store.partnercenter.IPartner"
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"
@@ -78,7 +76,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.subscriptions.SubscriptionAddOnCollectionOperations.SubscriptionAddOnCollectionOperations"
   package: "com.microsoft.store.partnercenter.subscriptions"
 - uid: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.subscriptions.Subscription>"
-  isExternal: true
   name: "ResourceCollection<Subscription>"
   nameWithType: "ResourceCollection<Subscription>"
   fullName: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.subscriptions.Subscription>"
@@ -88,37 +85,30 @@ references:
   fullName: "com.microsoft.store.partnercenter.subscriptions.SubscriptionAddOnCollectionOperations.get"
   package: "com.microsoft.store.partnercenter.subscriptions"
 - uid: "com.microsoft.store.partnercenter.BasePartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>"
-  isExternal: true
   name: "BasePartnerComponent<Tuple<String,String>>"
   nameWithType: "BasePartnerComponent<Tuple<String,String>>"
   fullName: "com.microsoft.store.partnercenter.BasePartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>"
 - uid: "com.microsoft.store.partnercenter.subscriptions.ISubscriptionAddOnCollection"
-  isExternal: true
   name: "ISubscriptionAddOnCollection"
   nameWithType: "ISubscriptionAddOnCollection"
   fullName: "com.microsoft.store.partnercenter.subscriptions.ISubscriptionAddOnCollection"
 - uid: "com.microsoft.store.partnercenter.models.subscriptions.Subscription"
-  isExternal: true
   name: "Subscription"
   nameWithType: "Subscription"
   fullName: "com.microsoft.store.partnercenter.models.subscriptions.Subscription"
 - uid: "com.microsoft.store.partnercenter.models.ResourceCollection"
-  isExternal: true
   name: "ResourceCollection"
   nameWithType: "ResourceCollection"
   fullName: "com.microsoft.store.partnercenter.models.ResourceCollection"
 - uid: "com.microsoft.store.partnercenter.models.utils.Tuple"
-  isExternal: true
   name: "Tuple"
   nameWithType: "Tuple"
   fullName: "com.microsoft.store.partnercenter.models.utils.Tuple"
 - uid: "com.microsoft.store.partnercenter.BasePartnerComponent"
-  isExternal: true
   name: "BasePartnerComponent"
   nameWithType: "BasePartnerComponent"
   fullName: "com.microsoft.store.partnercenter.BasePartnerComponent"
 - uid: "java.lang.String,java.lang.String"
-  isExternal: true
   name: "String,String"
   nameWithType: "String,String"
   fullName: "java.lang.String,java.lang.String"

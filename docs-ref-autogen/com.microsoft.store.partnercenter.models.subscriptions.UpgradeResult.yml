@@ -202,7 +202,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.subscriptions.UpgradeResult.UpgradeResult"
   package: "com.microsoft.store.partnercenter.models.subscriptions"
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"
@@ -227,7 +226,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.subscriptions.UpgradeResult.setTargetSubscriptionId"
   package: "com.microsoft.store.partnercenter.models.subscriptions"
 - uid: "com.microsoft.store.partnercenter.models.subscriptions.UpgradeType"
-  isExternal: true
   name: "UpgradeType"
   nameWithType: "UpgradeType"
   fullName: "com.microsoft.store.partnercenter.models.subscriptions.UpgradeType"
@@ -242,7 +240,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.subscriptions.UpgradeResult.setUpgradeType"
   package: "com.microsoft.store.partnercenter.models.subscriptions"
 - uid: "java.lang.Iterable<com.microsoft.store.partnercenter.models.subscriptions.UpgradeError>"
-  isExternal: true
   name: "Iterable<UpgradeError>"
   nameWithType: "Iterable<UpgradeError>"
   fullName: "java.lang.Iterable<com.microsoft.store.partnercenter.models.subscriptions.UpgradeError>"
@@ -257,7 +254,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.subscriptions.UpgradeResult.setUpgradeErrors"
   package: "com.microsoft.store.partnercenter.models.subscriptions"
 - uid: "java.lang.Iterable<com.microsoft.store.partnercenter.models.subscriptions.UserLicenseError>"
-  isExternal: true
   name: "Iterable<UserLicenseError>"
   nameWithType: "Iterable<UserLicenseError>"
   fullName: "java.lang.Iterable<com.microsoft.store.partnercenter.models.subscriptions.UserLicenseError>"
@@ -272,22 +268,18 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.subscriptions.UpgradeResult.setLicenseErrors"
   package: "com.microsoft.store.partnercenter.models.subscriptions"
 - uid: "com.microsoft.store.partnercenter.models.ResourceBase"
-  isExternal: true
   name: "ResourceBase"
   nameWithType: "ResourceBase"
   fullName: "com.microsoft.store.partnercenter.models.ResourceBase"
 - uid: "com.microsoft.store.partnercenter.models.subscriptions.UpgradeError"
-  isExternal: true
   name: "UpgradeError"
   nameWithType: "UpgradeError"
   fullName: "com.microsoft.store.partnercenter.models.subscriptions.UpgradeError"
 - uid: "java.lang.Iterable"
-  isExternal: true
   name: "Iterable"
   nameWithType: "Iterable"
   fullName: "java.lang.Iterable"
 - uid: "com.microsoft.store.partnercenter.models.subscriptions.UserLicenseError"
-  isExternal: true
   name: "UserLicenseError"
   nameWithType: "UserLicenseError"
   fullName: "com.microsoft.store.partnercenter.models.subscriptions.UserLicenseError"

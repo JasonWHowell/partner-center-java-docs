@@ -60,7 +60,6 @@ items:
       description: "The updated organization profile."
 references:
 - uid: "com.microsoft.store.partnercenter.models.partners.OrganizationProfile"
-  isExternal: true
   name: "OrganizationProfile"
   nameWithType: "OrganizationProfile"
   fullName: "com.microsoft.store.partnercenter.models.partners.OrganizationProfile"
@@ -75,27 +74,22 @@ references:
   fullName: "com.microsoft.store.partnercenter.profiles.IOrganizationProfile.update"
   package: "com.microsoft.store.partnercenter.profiles"
 - uid: "com.microsoft.store.partnercenter.IPartnerComponentString"
-  isExternal: true
   name: "IPartnerComponentString"
   nameWithType: "IPartnerComponentString"
   fullName: "com.microsoft.store.partnercenter.IPartnerComponentString"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations<com.microsoft.store.partnercenter.models.partners.OrganizationProfile>"
-  isExternal: true
   name: "IEntityGetOperations<OrganizationProfile>"
   nameWithType: "IEntityGetOperations<OrganizationProfile>"
   fullName: "com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations<com.microsoft.store.partnercenter.models.partners.OrganizationProfile>"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntityUpdateOperations<com.microsoft.store.partnercenter.models.partners.OrganizationProfile>"
-  isExternal: true
   name: "IEntityUpdateOperations<OrganizationProfile>"
   nameWithType: "IEntityUpdateOperations<OrganizationProfile>"
   fullName: "com.microsoft.store.partnercenter.genericoperations.IEntityUpdateOperations<com.microsoft.store.partnercenter.models.partners.OrganizationProfile>"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations"
-  isExternal: true
   name: "IEntityGetOperations"
   nameWithType: "IEntityGetOperations"
   fullName: "com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntityUpdateOperations"
-  isExternal: true
   name: "IEntityUpdateOperations"
   nameWithType: "IEntityUpdateOperations"
   fullName: "com.microsoft.store.partnercenter.genericoperations.IEntityUpdateOperations"

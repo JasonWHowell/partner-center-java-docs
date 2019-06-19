@@ -86,12 +86,10 @@ items:
       description: "The customer information that was just created."
 references:
 - uid: "com.microsoft.store.partnercenter.IPartner"
-  isExternal: true
   name: "IPartner"
   nameWithType: "IPartner"
   fullName: "com.microsoft.store.partnercenter.IPartner"
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"
@@ -101,7 +99,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.carts.CartCollectionOperations.CartCollectionOperations"
   package: "com.microsoft.store.partnercenter.carts"
 - uid: "com.microsoft.store.partnercenter.carts.ICart"
-  isExternal: true
   name: "ICart"
   nameWithType: "ICart"
   fullName: "com.microsoft.store.partnercenter.carts.ICart"
@@ -111,7 +108,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.carts.CartCollectionOperations.byId"
   package: "com.microsoft.store.partnercenter.carts"
 - uid: "com.microsoft.store.partnercenter.models.carts.Cart"
-  isExternal: true
   name: "Cart"
   nameWithType: "Cart"
   fullName: "com.microsoft.store.partnercenter.models.carts.Cart"
@@ -121,12 +117,10 @@ references:
   fullName: "com.microsoft.store.partnercenter.carts.CartCollectionOperations.create"
   package: "com.microsoft.store.partnercenter.carts"
 - uid: "com.microsoft.store.partnercenter.BasePartnerComponentString"
-  isExternal: true
   name: "BasePartnerComponentString"
   nameWithType: "BasePartnerComponentString"
   fullName: "com.microsoft.store.partnercenter.BasePartnerComponentString"
 - uid: "com.microsoft.store.partnercenter.carts.ICartCollection"
-  isExternal: true
   name: "ICartCollection"
   nameWithType: "ICartCollection"
   fullName: "com.microsoft.store.partnercenter.carts.ICartCollection"

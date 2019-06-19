@@ -66,17 +66,14 @@ items:
       description: "The available customer order line item activation link operations."
 references:
 - uid: "com.microsoft.store.partnercenter.IPartner"
-  isExternal: true
   name: "IPartner"
   nameWithType: "IPartner"
   fullName: "com.microsoft.store.partnercenter.IPartner"
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"
 - uid: "int"
-  isExternal: true
   name: "int"
   nameWithType: "int"
   fullName: "int"
@@ -86,7 +83,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.orders.OrderLineItemOperations.OrderLineItemOperations"
   package: "com.microsoft.store.partnercenter.orders"
 - uid: "com.microsoft.store.partnercenter.orders.IOrderLineItemActivationLink"
-  isExternal: true
   name: "IOrderLineItemActivationLink"
   nameWithType: "IOrderLineItemActivationLink"
   fullName: "com.microsoft.store.partnercenter.orders.IOrderLineItemActivationLink"
@@ -96,27 +92,22 @@ references:
   fullName: "com.microsoft.store.partnercenter.orders.OrderLineItemOperations.getActivationLink"
   package: "com.microsoft.store.partnercenter.orders"
 - uid: "com.microsoft.store.partnercenter.BasePartnerComponent<com.microsoft.store.partnercenter.models.utils.TripletTuple<java.lang.String,java.lang.String,java.lang.Integer>>"
-  isExternal: true
   name: "BasePartnerComponent<TripletTuple<String,String,Integer>>"
   nameWithType: "BasePartnerComponent<TripletTuple<String,String,Integer>>"
   fullName: "com.microsoft.store.partnercenter.BasePartnerComponent<com.microsoft.store.partnercenter.models.utils.TripletTuple<java.lang.String,java.lang.String,java.lang.Integer>>"
 - uid: "com.microsoft.store.partnercenter.orders.IOrderLineItem"
-  isExternal: true
   name: "IOrderLineItem"
   nameWithType: "IOrderLineItem"
   fullName: "com.microsoft.store.partnercenter.orders.IOrderLineItem"
 - uid: "com.microsoft.store.partnercenter.BasePartnerComponent"
-  isExternal: true
   name: "BasePartnerComponent"
   nameWithType: "BasePartnerComponent"
   fullName: "com.microsoft.store.partnercenter.BasePartnerComponent"
 - uid: "com.microsoft.store.partnercenter.models.utils.TripletTuple"
-  isExternal: true
   name: "TripletTuple"
   nameWithType: "TripletTuple"
   fullName: "com.microsoft.store.partnercenter.models.utils.TripletTuple"
 - uid: "java.lang.String,java.lang.String,java.lang.Integer"
-  isExternal: true
   name: "String,String,Integer"
   nameWithType: "String,String,Integer"
   fullName: "java.lang.String,java.lang.String,java.lang.Integer"

@@ -153,12 +153,10 @@ items:
       description: "The customer user's license updates collection operations."
 references:
 - uid: "com.microsoft.store.partnercenter.IPartner"
-  isExternal: true
   name: "IPartner"
   nameWithType: "IPartner"
   fullName: "com.microsoft.store.partnercenter.IPartner"
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"
@@ -168,7 +166,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.customerusers.CustomerUserOperations.CustomerUserOperations"
   package: "com.microsoft.store.partnercenter.customerusers"
 - uid: "com.microsoft.store.partnercenter.models.users.CustomerUser"
-  isExternal: true
   name: "CustomerUser"
   nameWithType: "CustomerUser"
   fullName: "com.microsoft.store.partnercenter.models.users.CustomerUser"
@@ -188,7 +185,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.customerusers.CustomerUserOperations.patch"
   package: "com.microsoft.store.partnercenter.customerusers"
 - uid: "com.microsoft.store.partnercenter.customerusers.ICustomerUserRoleCollection"
-  isExternal: true
   name: "ICustomerUserRoleCollection"
   nameWithType: "ICustomerUserRoleCollection"
   fullName: "com.microsoft.store.partnercenter.customerusers.ICustomerUserRoleCollection"
@@ -198,7 +194,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.customerusers.CustomerUserOperations.getDirectoryRoles"
   package: "com.microsoft.store.partnercenter.customerusers"
 - uid: "com.microsoft.store.partnercenter.customerusers.ICustomerUserLicenseCollection"
-  isExternal: true
   name: "ICustomerUserLicenseCollection"
   nameWithType: "ICustomerUserLicenseCollection"
   fullName: "com.microsoft.store.partnercenter.customerusers.ICustomerUserLicenseCollection"
@@ -208,7 +203,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.customerusers.CustomerUserOperations.getLicenses"
   package: "com.microsoft.store.partnercenter.customerusers"
 - uid: "com.microsoft.store.partnercenter.customerusers.ICustomerUserLicenseUpdates"
-  isExternal: true
   name: "ICustomerUserLicenseUpdates"
   nameWithType: "ICustomerUserLicenseUpdates"
   fullName: "com.microsoft.store.partnercenter.customerusers.ICustomerUserLicenseUpdates"
@@ -218,27 +212,22 @@ references:
   fullName: "com.microsoft.store.partnercenter.customerusers.CustomerUserOperations.getLicenseUpdates"
   package: "com.microsoft.store.partnercenter.customerusers"
 - uid: "com.microsoft.store.partnercenter.BasePartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>"
-  isExternal: true
   name: "BasePartnerComponent<Tuple<String,String>>"
   nameWithType: "BasePartnerComponent<Tuple<String,String>>"
   fullName: "com.microsoft.store.partnercenter.BasePartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>"
 - uid: "com.microsoft.store.partnercenter.customerusers.ICustomerUser"
-  isExternal: true
   name: "ICustomerUser"
   nameWithType: "ICustomerUser"
   fullName: "com.microsoft.store.partnercenter.customerusers.ICustomerUser"
 - uid: "com.microsoft.store.partnercenter.models.utils.Tuple"
-  isExternal: true
   name: "Tuple"
   nameWithType: "Tuple"
   fullName: "com.microsoft.store.partnercenter.models.utils.Tuple"
 - uid: "com.microsoft.store.partnercenter.BasePartnerComponent"
-  isExternal: true
   name: "BasePartnerComponent"
   nameWithType: "BasePartnerComponent"
   fullName: "com.microsoft.store.partnercenter.BasePartnerComponent"
 - uid: "java.lang.String,java.lang.String"
-  isExternal: true
   name: "String,String"
   nameWithType: "String,String"
   fullName: "java.lang.String,java.lang.String"

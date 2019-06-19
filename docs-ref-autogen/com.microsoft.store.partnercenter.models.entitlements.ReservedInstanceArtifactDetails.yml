@@ -111,7 +111,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.entitlements.ReservedInstanceArtifactDetails.ReservedInstanceArtifactDetails"
   package: "com.microsoft.store.partnercenter.models.entitlements"
 - uid: "java.util.Iterator<com.microsoft.store.partnercenter.models.entitlements.Reservation>"
-  isExternal: true
   name: "Iterator<Reservation>"
   nameWithType: "Iterator<Reservation>"
   fullName: "java.util.Iterator<com.microsoft.store.partnercenter.models.entitlements.Reservation>"
@@ -126,7 +125,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.entitlements.ReservedInstanceArtifactDetails.setReservations"
   package: "com.microsoft.store.partnercenter.models.entitlements"
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"
@@ -141,27 +139,22 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.entitlements.ReservedInstanceArtifactDetails.setType"
   package: "com.microsoft.store.partnercenter.models.entitlements"
 - uid: "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks<com.microsoft.store.partnercenter.models.StandardResourceLinks>"
-  isExternal: true
   name: "ResourceBaseWithLinks<StandardResourceLinks>"
   nameWithType: "ResourceBaseWithLinks<StandardResourceLinks>"
   fullName: "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks<com.microsoft.store.partnercenter.models.StandardResourceLinks>"
 - uid: "com.microsoft.store.partnercenter.models.entitlements.Reservation"
-  isExternal: true
   name: "Reservation"
   nameWithType: "Reservation"
   fullName: "com.microsoft.store.partnercenter.models.entitlements.Reservation"
 - uid: "java.util.Iterator"
-  isExternal: true
   name: "Iterator"
   nameWithType: "Iterator"
   fullName: "java.util.Iterator"
 - uid: "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks"
-  isExternal: true
   name: "ResourceBaseWithLinks"
   nameWithType: "ResourceBaseWithLinks"
   fullName: "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks"
 - uid: "com.microsoft.store.partnercenter.models.StandardResourceLinks"
-  isExternal: true
   name: "StandardResourceLinks"
   nameWithType: "StandardResourceLinks"
   fullName: "com.microsoft.store.partnercenter.models.StandardResourceLinks"

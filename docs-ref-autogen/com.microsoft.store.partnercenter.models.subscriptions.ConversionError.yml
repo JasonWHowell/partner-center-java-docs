@@ -111,7 +111,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.subscriptions.ConversionError.ConversionError"
   package: "com.microsoft.store.partnercenter.models.subscriptions"
 - uid: "com.microsoft.store.partnercenter.models.subscriptions.ConversionErrorCode"
-  isExternal: true
   name: "ConversionErrorCode"
   nameWithType: "ConversionErrorCode"
   fullName: "com.microsoft.store.partnercenter.models.subscriptions.ConversionErrorCode"
@@ -126,7 +125,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.subscriptions.ConversionError.setCode"
   package: "com.microsoft.store.partnercenter.models.subscriptions"
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"
@@ -141,7 +139,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.subscriptions.ConversionError.setDescription"
   package: "com.microsoft.store.partnercenter.models.subscriptions"
 - uid: "com.microsoft.store.partnercenter.models.ResourceBase"
-  isExternal: true
   name: "ResourceBase"
   nameWithType: "ResourceBase"
   fullName: "com.microsoft.store.partnercenter.models.ResourceBase"

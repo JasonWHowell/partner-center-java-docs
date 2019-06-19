@@ -214,7 +214,6 @@ items:
       type: "com.microsoft.store.partnercenter.models.partners.VettingSubStatus"
 references:
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"
@@ -239,12 +238,10 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.partners.VettingSubStatus.toString"
   package: "com.microsoft.store.partnercenter.models.partners"
 - uid: "java.lang.Enum<com.microsoft.store.partnercenter.models.partners.VettingSubStatus>"
-  isExternal: true
   name: "Enum<VettingSubStatus>"
   nameWithType: "Enum<VettingSubStatus>"
   fullName: "java.lang.Enum<com.microsoft.store.partnercenter.models.partners.VettingSubStatus>"
 - uid: "java.lang.Enum"
-  isExternal: true
   name: "Enum"
   nameWithType: "Enum"
   fullName: "java.lang.Enum"

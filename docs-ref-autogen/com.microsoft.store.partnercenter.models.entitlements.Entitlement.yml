@@ -407,7 +407,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.entitlements.Entitlement.Entitlement"
   package: "com.microsoft.store.partnercenter.models.entitlements"
 - uid: "java.lang.Iterable<com.microsoft.store.partnercenter.models.entitlements.Artifact>"
-  isExternal: true
   name: "Iterable<Artifact>"
   nameWithType: "Iterable<Artifact>"
   fullName: "java.lang.Iterable<com.microsoft.store.partnercenter.models.entitlements.Artifact>"
@@ -422,7 +421,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.entitlements.Entitlement.setEntitledArtifacts"
   package: "com.microsoft.store.partnercenter.models.entitlements"
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"
@@ -437,7 +435,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.entitlements.Entitlement.setEntitlementType"
   package: "com.microsoft.store.partnercenter.models.entitlements"
 - uid: "org.joda.time.DateTime"
-  isExternal: true
   name: "DateTime"
   nameWithType: "DateTime"
   fullName: "org.joda.time.DateTime"
@@ -462,7 +459,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.entitlements.Entitlement.setFulfillmentState"
   package: "com.microsoft.store.partnercenter.models.entitlements"
 - uid: "java.lang.Iterable<com.microsoft.store.partnercenter.models.entitlements.Entitlement>"
-  isExternal: true
   name: "Iterable<Entitlement>"
   nameWithType: "Iterable<Entitlement>"
   fullName: "java.lang.Iterable<com.microsoft.store.partnercenter.models.entitlements.Entitlement>"
@@ -487,7 +483,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.entitlements.Entitlement.setProductId"
   package: "com.microsoft.store.partnercenter.models.entitlements"
 - uid: "java.lang.Integer"
-  isExternal: true
   name: "Integer"
   nameWithType: "Integer"
   fullName: "java.lang.Integer"
@@ -502,7 +497,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.entitlements.Entitlement.setQuantity"
   package: "com.microsoft.store.partnercenter.models.entitlements"
 - uid: "java.lang.Iterable<com.microsoft.store.partnercenter.models.entitlements.QuantityDetail>"
-  isExternal: true
   name: "Iterable<QuantityDetail>"
   nameWithType: "Iterable<QuantityDetail>"
   fullName: "java.lang.Iterable<com.microsoft.store.partnercenter.models.entitlements.QuantityDetail>"
@@ -517,7 +511,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.entitlements.Entitlement.setQuantityDetails"
   package: "com.microsoft.store.partnercenter.models.entitlements"
 - uid: "com.microsoft.store.partnercenter.models.entitlements.ReferenceOrder"
-  isExternal: true
   name: "ReferenceOrder"
   nameWithType: "ReferenceOrder"
   fullName: "com.microsoft.store.partnercenter.models.entitlements.ReferenceOrder"
@@ -542,32 +535,26 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.entitlements.Entitlement.setSkuId"
   package: "com.microsoft.store.partnercenter.models.entitlements"
 - uid: "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks<com.microsoft.store.partnercenter.models.StandardResourceLinks>"
-  isExternal: true
   name: "ResourceBaseWithLinks<StandardResourceLinks>"
   nameWithType: "ResourceBaseWithLinks<StandardResourceLinks>"
   fullName: "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks<com.microsoft.store.partnercenter.models.StandardResourceLinks>"
 - uid: "com.microsoft.store.partnercenter.models.entitlements.Artifact"
-  isExternal: true
   name: "Artifact"
   nameWithType: "Artifact"
   fullName: "com.microsoft.store.partnercenter.models.entitlements.Artifact"
 - uid: "java.lang.Iterable"
-  isExternal: true
   name: "Iterable"
   nameWithType: "Iterable"
   fullName: "java.lang.Iterable"
 - uid: "com.microsoft.store.partnercenter.models.entitlements.QuantityDetail"
-  isExternal: true
   name: "QuantityDetail"
   nameWithType: "QuantityDetail"
   fullName: "com.microsoft.store.partnercenter.models.entitlements.QuantityDetail"
 - uid: "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks"
-  isExternal: true
   name: "ResourceBaseWithLinks"
   nameWithType: "ResourceBaseWithLinks"
   fullName: "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks"
 - uid: "com.microsoft.store.partnercenter.models.StandardResourceLinks"
-  isExternal: true
   name: "StandardResourceLinks"
   nameWithType: "StandardResourceLinks"
   fullName: "com.microsoft.store.partnercenter.models.StandardResourceLinks"

@@ -119,7 +119,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.licenses.LicenseUpdate.LicenseUpdate"
   package: "com.microsoft.store.partnercenter.models.licenses"
 - uid: "java.lang.Iterable<com.microsoft.store.partnercenter.models.licenses.LicenseAssignment>"
-  isExternal: true
   name: "Iterable<LicenseAssignment>"
   nameWithType: "Iterable<LicenseAssignment>"
   fullName: "java.lang.Iterable<com.microsoft.store.partnercenter.models.licenses.LicenseAssignment>"
@@ -134,7 +133,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.licenses.LicenseUpdate.setLicensesToAssign"
   package: "com.microsoft.store.partnercenter.models.licenses"
 - uid: "java.lang.Iterable<java.lang.String>"
-  isExternal: true
   name: "Iterable<String>"
   nameWithType: "Iterable<String>"
   fullName: "java.lang.Iterable<java.lang.String>"
@@ -149,7 +147,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.licenses.LicenseUpdate.setLicensesToRemove"
   package: "com.microsoft.store.partnercenter.models.licenses"
 - uid: "java.lang.Iterable<com.microsoft.store.partnercenter.models.licenses.LicenseWarning>"
-  isExternal: true
   name: "Iterable<LicenseWarning>"
   nameWithType: "Iterable<LicenseWarning>"
   fullName: "java.lang.Iterable<com.microsoft.store.partnercenter.models.licenses.LicenseWarning>"
@@ -159,27 +156,22 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.licenses.LicenseUpdate.getLicenseWarnings"
   package: "com.microsoft.store.partnercenter.models.licenses"
 - uid: "com.microsoft.store.partnercenter.models.ResourceBase"
-  isExternal: true
   name: "ResourceBase"
   nameWithType: "ResourceBase"
   fullName: "com.microsoft.store.partnercenter.models.ResourceBase"
 - uid: "com.microsoft.store.partnercenter.models.licenses.LicenseAssignment"
-  isExternal: true
   name: "LicenseAssignment"
   nameWithType: "LicenseAssignment"
   fullName: "com.microsoft.store.partnercenter.models.licenses.LicenseAssignment"
 - uid: "java.lang.Iterable"
-  isExternal: true
   name: "Iterable"
   nameWithType: "Iterable"
   fullName: "java.lang.Iterable"
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"
 - uid: "com.microsoft.store.partnercenter.models.licenses.LicenseWarning"
-  isExternal: true
   name: "LicenseWarning"
   nameWithType: "LicenseWarning"
   fullName: "com.microsoft.store.partnercenter.models.licenses.LicenseWarning"

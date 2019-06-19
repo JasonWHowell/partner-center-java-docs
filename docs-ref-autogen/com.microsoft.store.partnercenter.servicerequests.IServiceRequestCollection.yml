@@ -82,12 +82,10 @@ items:
       description: "The requested service requests."
 references:
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"
 - uid: "com.microsoft.store.partnercenter.servicerequests.IServiceRequest"
-  isExternal: true
   name: "IServiceRequest"
   nameWithType: "IServiceRequest"
   fullName: "com.microsoft.store.partnercenter.servicerequests.IServiceRequest"
@@ -97,7 +95,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.servicerequests.IServiceRequestCollection.byId"
   package: "com.microsoft.store.partnercenter.servicerequests"
 - uid: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.servicerequests.ServiceRequest>"
-  isExternal: true
   name: "ResourceCollection<ServiceRequest>"
   nameWithType: "ResourceCollection<ServiceRequest>"
   fullName: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.servicerequests.ServiceRequest>"
@@ -107,7 +104,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.servicerequests.IServiceRequestCollection.get"
   package: "com.microsoft.store.partnercenter.servicerequests"
 - uid: "com.microsoft.store.partnercenter.models.query.IQuery"
-  isExternal: true
   name: "IQuery"
   nameWithType: "IQuery"
   fullName: "com.microsoft.store.partnercenter.models.query.IQuery"
@@ -117,47 +113,38 @@ references:
   fullName: "com.microsoft.store.partnercenter.servicerequests.IServiceRequestCollection.query"
   package: "com.microsoft.store.partnercenter.servicerequests"
 - uid: "com.microsoft.store.partnercenter.IPartnerComponentString"
-  isExternal: true
   name: "IPartnerComponentString"
   nameWithType: "IPartnerComponentString"
   fullName: "com.microsoft.store.partnercenter.IPartnerComponentString"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntitySelector<java.lang.String,com.microsoft.store.partnercenter.servicerequests.IServiceRequest>"
-  isExternal: true
   name: "IEntitySelector<String,IServiceRequest>"
   nameWithType: "IEntitySelector<String,IServiceRequest>"
   fullName: "com.microsoft.store.partnercenter.genericoperations.IEntitySelector<java.lang.String,com.microsoft.store.partnercenter.servicerequests.IServiceRequest>"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations<com.microsoft.store.partnercenter.models.servicerequests.ServiceRequest,com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.servicerequests.ServiceRequest>>"
-  isExternal: true
   name: "IEntireEntityCollectionRetrievalOperations<ServiceRequest,ResourceCollection<ServiceRequest>>"
   nameWithType: "IEntireEntityCollectionRetrievalOperations<ServiceRequest,ResourceCollection<ServiceRequest>>"
   fullName: "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations<com.microsoft.store.partnercenter.models.servicerequests.ServiceRequest,com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.servicerequests.ServiceRequest>>"
 - uid: "com.microsoft.store.partnercenter.models.ResourceCollection"
-  isExternal: true
   name: "ResourceCollection"
   nameWithType: "ResourceCollection"
   fullName: "com.microsoft.store.partnercenter.models.ResourceCollection"
 - uid: "com.microsoft.store.partnercenter.models.servicerequests.ServiceRequest"
-  isExternal: true
   name: "ServiceRequest"
   nameWithType: "ServiceRequest"
   fullName: "com.microsoft.store.partnercenter.models.servicerequests.ServiceRequest"
 - uid: "java.lang.String,com.microsoft.store.partnercenter.servicerequests.IServiceRequest"
-  isExternal: true
   name: "String,IServiceRequest"
   nameWithType: "String,IServiceRequest"
   fullName: "java.lang.String,com.microsoft.store.partnercenter.servicerequests.IServiceRequest"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntitySelector"
-  isExternal: true
   name: "IEntitySelector"
   nameWithType: "IEntitySelector"
   fullName: "com.microsoft.store.partnercenter.genericoperations.IEntitySelector"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations"
-  isExternal: true
   name: "IEntireEntityCollectionRetrievalOperations"
   nameWithType: "IEntireEntityCollectionRetrievalOperations"
   fullName: "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations"
 - uid: "com.microsoft.store.partnercenter.models.servicerequests.ServiceRequest,com.microsoft.store.partnercenter.models.ResourceCollection"
-  isExternal: true
   name: "ServiceRequest,ResourceCollection"
   nameWithType: "ServiceRequest,ResourceCollection"
   fullName: "com.microsoft.store.partnercenter.models.servicerequests.ServiceRequest,com.microsoft.store.partnercenter.models.ResourceCollection"

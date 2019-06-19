@@ -235,7 +235,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.devicesdeployment.DeviceUploadDetails.DeviceUploadDetails"
   package: "com.microsoft.store.partnercenter.models.devicesdeployment"
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"
@@ -270,7 +269,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.devicesdeployment.DeviceUploadDetails.setProductKey"
   package: "com.microsoft.store.partnercenter.models.devicesdeployment"
 - uid: "com.microsoft.store.partnercenter.models.devicesdeployment.DeviceUploadStatusType"
-  isExternal: true
   name: "DeviceUploadStatusType"
   nameWithType: "DeviceUploadStatusType"
   fullName: "com.microsoft.store.partnercenter.models.devicesdeployment.DeviceUploadStatusType"
@@ -305,7 +303,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.devicesdeployment.DeviceUploadDetails.setErrorDescription"
   package: "com.microsoft.store.partnercenter.models.devicesdeployment"
 - uid: "com.microsoft.store.partnercenter.models.ResourceBase"
-  isExternal: true
   name: "ResourceBase"
   nameWithType: "ResourceBase"
   fullName: "com.microsoft.store.partnercenter.models.ResourceBase"

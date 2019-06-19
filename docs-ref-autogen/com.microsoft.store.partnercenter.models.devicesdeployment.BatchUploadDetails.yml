@@ -202,7 +202,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.devicesdeployment.BatchUploadDetails.BatchUploadDetails"
   package: "com.microsoft.store.partnercenter.models.devicesdeployment"
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"
@@ -217,7 +216,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.devicesdeployment.BatchUploadDetails.setBatchTrackingId"
   package: "com.microsoft.store.partnercenter.models.devicesdeployment"
 - uid: "com.microsoft.store.partnercenter.models.devicesdeployment.DeviceUploadStatusType"
-  isExternal: true
   name: "DeviceUploadStatusType"
   nameWithType: "DeviceUploadStatusType"
   fullName: "com.microsoft.store.partnercenter.models.devicesdeployment.DeviceUploadStatusType"
@@ -232,7 +230,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.devicesdeployment.BatchUploadDetails.setStatus"
   package: "com.microsoft.store.partnercenter.models.devicesdeployment"
 - uid: "org.joda.time.DateTime"
-  isExternal: true
   name: "DateTime"
   nameWithType: "DateTime"
   fullName: "org.joda.time.DateTime"
@@ -257,7 +254,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.devicesdeployment.BatchUploadDetails.setCompletedTime"
   package: "com.microsoft.store.partnercenter.models.devicesdeployment"
 - uid: "java.util.Iterator<com.microsoft.store.partnercenter.models.devicesdeployment.DeviceUploadDetails>"
-  isExternal: true
   name: "Iterator<DeviceUploadDetails>"
   nameWithType: "Iterator<DeviceUploadDetails>"
   fullName: "java.util.Iterator<com.microsoft.store.partnercenter.models.devicesdeployment.DeviceUploadDetails>"
@@ -272,17 +268,14 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.devicesdeployment.BatchUploadDetails.setDevicesStatus"
   package: "com.microsoft.store.partnercenter.models.devicesdeployment"
 - uid: "com.microsoft.store.partnercenter.models.ResourceBase"
-  isExternal: true
   name: "ResourceBase"
   nameWithType: "ResourceBase"
   fullName: "com.microsoft.store.partnercenter.models.ResourceBase"
 - uid: "java.util.Iterator"
-  isExternal: true
   name: "Iterator"
   nameWithType: "Iterator"
   fullName: "java.util.Iterator"
 - uid: "com.microsoft.store.partnercenter.models.devicesdeployment.DeviceUploadDetails"
-  isExternal: true
   name: "DeviceUploadDetails"
   nameWithType: "DeviceUploadDetails"
   fullName: "com.microsoft.store.partnercenter.models.devicesdeployment.DeviceUploadDetails"

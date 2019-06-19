@@ -286,7 +286,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.invoices.DailyUsageLineItem.DailyUsageLineItem"
   package: "com.microsoft.store.partnercenter.models.invoices"
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"
@@ -301,7 +300,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.invoices.DailyUsageLineItem.setCustomerBillableAccount"
   package: "com.microsoft.store.partnercenter.models.invoices"
 - uid: "org.joda.time.DateTime"
-  isExternal: true
   name: "DateTime"
   nameWithType: "DateTime"
   fullName: "org.joda.time.DateTime"
@@ -366,7 +364,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.invoices.DailyUsageLineItem.setServiceInfo"
   package: "com.microsoft.store.partnercenter.models.invoices"
 - uid: "com.microsoft.store.partnercenter.models.invoices.InvoiceLineItemType"
-  isExternal: true
   name: "InvoiceLineItemType"
   nameWithType: "InvoiceLineItemType"
   fullName: "com.microsoft.store.partnercenter.models.invoices.InvoiceLineItemType"
@@ -376,7 +373,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.invoices.DailyUsageLineItem.getInvoiceLineItemType"
   package: "com.microsoft.store.partnercenter.models.invoices"
 - uid: "com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem"
-  isExternal: true
   name: "BaseUsageBasedLineItem"
   nameWithType: "BaseUsageBasedLineItem"
   fullName: "com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem"

@@ -70,7 +70,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.products.ProductLinks.ProductLinks"
   package: "com.microsoft.store.partnercenter.models.products"
 - uid: "com.microsoft.store.partnercenter.models.Link"
-  isExternal: true
   name: "Link"
   nameWithType: "Link"
   fullName: "com.microsoft.store.partnercenter.models.Link"
@@ -85,7 +84,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.products.ProductLinks.setSkus"
   package: "com.microsoft.store.partnercenter.models.products"
 - uid: "com.microsoft.store.partnercenter.models.StandardResourceLinks"
-  isExternal: true
   name: "StandardResourceLinks"
   nameWithType: "StandardResourceLinks"
   fullName: "com.microsoft.store.partnercenter.models.StandardResourceLinks"

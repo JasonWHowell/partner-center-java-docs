@@ -258,7 +258,6 @@ items:
       description: "The updated subscription."
 references:
 - uid: "com.microsoft.store.partnercenter.subscriptions.ISubscriptionActivationLinks"
-  isExternal: true
   name: "ISubscriptionActivationLinks"
   nameWithType: "ISubscriptionActivationLinks"
   fullName: "com.microsoft.store.partnercenter.subscriptions.ISubscriptionActivationLinks"
@@ -268,7 +267,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.subscriptions.ISubscription.getActivationLinks"
   package: "com.microsoft.store.partnercenter.subscriptions"
 - uid: "com.microsoft.store.partnercenter.subscriptions.ISubscriptionAddOnCollection"
-  isExternal: true
   name: "ISubscriptionAddOnCollection"
   nameWithType: "ISubscriptionAddOnCollection"
   fullName: "com.microsoft.store.partnercenter.subscriptions.ISubscriptionAddOnCollection"
@@ -278,7 +276,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.subscriptions.ISubscription.getAddOns"
   package: "com.microsoft.store.partnercenter.subscriptions"
 - uid: "com.microsoft.store.partnercenter.subscriptions.ISubscriptionUpgradeCollection"
-  isExternal: true
   name: "ISubscriptionUpgradeCollection"
   nameWithType: "ISubscriptionUpgradeCollection"
   fullName: "com.microsoft.store.partnercenter.subscriptions.ISubscriptionUpgradeCollection"
@@ -288,7 +285,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.subscriptions.ISubscription.getUpgrades"
   package: "com.microsoft.store.partnercenter.subscriptions"
 - uid: "com.microsoft.store.partnercenter.usage.ISubscriptionUsageRecordCollection"
-  isExternal: true
   name: "ISubscriptionUsageRecordCollection"
   nameWithType: "ISubscriptionUsageRecordCollection"
   fullName: "com.microsoft.store.partnercenter.usage.ISubscriptionUsageRecordCollection"
@@ -298,7 +294,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.subscriptions.ISubscription.getUsageRecords"
   package: "com.microsoft.store.partnercenter.subscriptions"
 - uid: "com.microsoft.store.partnercenter.usage.ISubscriptionUsageSummary"
-  isExternal: true
   name: "ISubscriptionUsageSummary"
   nameWithType: "ISubscriptionUsageSummary"
   fullName: "com.microsoft.store.partnercenter.usage.ISubscriptionUsageSummary"
@@ -308,7 +303,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.subscriptions.ISubscription.getUsageSummary"
   package: "com.microsoft.store.partnercenter.subscriptions"
 - uid: "com.microsoft.store.partnercenter.utilization.IUtilizationCollection"
-  isExternal: true
   name: "IUtilizationCollection"
   nameWithType: "IUtilizationCollection"
   fullName: "com.microsoft.store.partnercenter.utilization.IUtilizationCollection"
@@ -318,7 +312,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.subscriptions.ISubscription.getUtilization"
   package: "com.microsoft.store.partnercenter.subscriptions"
 - uid: "com.microsoft.store.partnercenter.subscriptions.ISubscriptionProvisioningStatus"
-  isExternal: true
   name: "ISubscriptionProvisioningStatus"
   nameWithType: "ISubscriptionProvisioningStatus"
   fullName: "com.microsoft.store.partnercenter.subscriptions.ISubscriptionProvisioningStatus"
@@ -328,7 +321,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.subscriptions.ISubscription.getProvisioningStatus"
   package: "com.microsoft.store.partnercenter.subscriptions"
 - uid: "com.microsoft.store.partnercenter.subscriptions.ISubscriptionSupportContact"
-  isExternal: true
   name: "ISubscriptionSupportContact"
   nameWithType: "ISubscriptionSupportContact"
   fullName: "com.microsoft.store.partnercenter.subscriptions.ISubscriptionSupportContact"
@@ -338,7 +330,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.subscriptions.ISubscription.getSupportContact"
   package: "com.microsoft.store.partnercenter.subscriptions"
 - uid: "com.microsoft.store.partnercenter.subscriptions.ISubscriptionRegistration"
-  isExternal: true
   name: "ISubscriptionRegistration"
   nameWithType: "ISubscriptionRegistration"
   fullName: "com.microsoft.store.partnercenter.subscriptions.ISubscriptionRegistration"
@@ -348,7 +339,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.subscriptions.ISubscription.getRegistration"
   package: "com.microsoft.store.partnercenter.subscriptions"
 - uid: "com.microsoft.store.partnercenter.subscriptions.ISubscriptionRegistrationStatus"
-  isExternal: true
   name: "ISubscriptionRegistrationStatus"
   nameWithType: "ISubscriptionRegistrationStatus"
   fullName: "com.microsoft.store.partnercenter.subscriptions.ISubscriptionRegistrationStatus"
@@ -358,7 +348,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.subscriptions.ISubscription.getRegistrationStatus"
   package: "com.microsoft.store.partnercenter.subscriptions"
 - uid: "com.microsoft.store.partnercenter.subscriptions.ISubscriptionConversionCollection"
-  isExternal: true
   name: "ISubscriptionConversionCollection"
   nameWithType: "ISubscriptionConversionCollection"
   fullName: "com.microsoft.store.partnercenter.subscriptions.ISubscriptionConversionCollection"
@@ -368,7 +357,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.subscriptions.ISubscription.getConversions"
   package: "com.microsoft.store.partnercenter.subscriptions"
 - uid: "com.microsoft.store.partnercenter.models.subscriptions.Subscription"
-  isExternal: true
   name: "Subscription"
   nameWithType: "Subscription"
   fullName: "com.microsoft.store.partnercenter.models.subscriptions.Subscription"
@@ -383,42 +371,34 @@ references:
   fullName: "com.microsoft.store.partnercenter.subscriptions.ISubscription.patch"
   package: "com.microsoft.store.partnercenter.subscriptions"
 - uid: "com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>"
-  isExternal: true
   name: "IPartnerComponent<Tuple<String,String>>"
   nameWithType: "IPartnerComponent<Tuple<String,String>>"
   fullName: "com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations<com.microsoft.store.partnercenter.models.subscriptions.Subscription>"
-  isExternal: true
   name: "IEntityGetOperations<Subscription>"
   nameWithType: "IEntityGetOperations<Subscription>"
   fullName: "com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations<com.microsoft.store.partnercenter.models.subscriptions.Subscription>"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntityPatchOperations<com.microsoft.store.partnercenter.models.subscriptions.Subscription>"
-  isExternal: true
   name: "IEntityPatchOperations<Subscription>"
   nameWithType: "IEntityPatchOperations<Subscription>"
   fullName: "com.microsoft.store.partnercenter.genericoperations.IEntityPatchOperations<com.microsoft.store.partnercenter.models.subscriptions.Subscription>"
 - uid: "com.microsoft.store.partnercenter.IPartnerComponent"
-  isExternal: true
   name: "IPartnerComponent"
   nameWithType: "IPartnerComponent"
   fullName: "com.microsoft.store.partnercenter.IPartnerComponent"
 - uid: "com.microsoft.store.partnercenter.models.utils.Tuple"
-  isExternal: true
   name: "Tuple"
   nameWithType: "Tuple"
   fullName: "com.microsoft.store.partnercenter.models.utils.Tuple"
 - uid: "java.lang.String,java.lang.String"
-  isExternal: true
   name: "String,String"
   nameWithType: "String,String"
   fullName: "java.lang.String,java.lang.String"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations"
-  isExternal: true
   name: "IEntityGetOperations"
   nameWithType: "IEntityGetOperations"
   fullName: "com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntityPatchOperations"
-  isExternal: true
   name: "IEntityPatchOperations"
   nameWithType: "IEntityPatchOperations"
   fullName: "com.microsoft.store.partnercenter.genericoperations.IEntityPatchOperations"

@@ -65,12 +65,10 @@ items:
       description: "The collection of orders including pricing details (based on access permissions) when requested."
 references:
 - uid: "com.microsoft.store.partnercenter.models.offers.BillingCycleType"
-  isExternal: true
   name: "BillingCycleType"
   nameWithType: "BillingCycleType"
   fullName: "com.microsoft.store.partnercenter.models.offers.BillingCycleType"
 - uid: "com.microsoft.store.partnercenter.orders.IOrderCollectionByBillingCycleType"
-  isExternal: true
   name: "IOrderCollectionByBillingCycleType"
   nameWithType: "IOrderCollectionByBillingCycleType"
   fullName: "com.microsoft.store.partnercenter.orders.IOrderCollectionByBillingCycleType"
@@ -80,12 +78,10 @@ references:
   fullName: "com.microsoft.store.partnercenter.orders.IOrderCollection.byBillingCycleType"
   package: "com.microsoft.store.partnercenter.orders"
 - uid: "java.lang.Boolean"
-  isExternal: true
   name: "Boolean"
   nameWithType: "Boolean"
   fullName: "java.lang.Boolean"
 - uid: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.orders.Order>"
-  isExternal: true
   name: "ResourceCollection<Order>"
   nameWithType: "ResourceCollection<Order>"
   fullName: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.orders.Order>"
@@ -95,62 +91,50 @@ references:
   fullName: "com.microsoft.store.partnercenter.orders.IOrderCollection.get"
   package: "com.microsoft.store.partnercenter.orders"
 - uid: "com.microsoft.store.partnercenter.IPartnerComponentString"
-  isExternal: true
   name: "IPartnerComponentString"
   nameWithType: "IPartnerComponentString"
   fullName: "com.microsoft.store.partnercenter.IPartnerComponentString"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntitySelector<java.lang.String,com.microsoft.store.partnercenter.orders.IOrder>"
-  isExternal: true
   name: "IEntitySelector<String,IOrder>"
   nameWithType: "IEntitySelector<String,IOrder>"
   fullName: "com.microsoft.store.partnercenter.genericoperations.IEntitySelector<java.lang.String,com.microsoft.store.partnercenter.orders.IOrder>"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations<com.microsoft.store.partnercenter.models.orders.Order,com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.orders.Order>>"
-  isExternal: true
   name: "IEntireEntityCollectionRetrievalOperations<Order,ResourceCollection<Order>>"
   nameWithType: "IEntireEntityCollectionRetrievalOperations<Order,ResourceCollection<Order>>"
   fullName: "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations<com.microsoft.store.partnercenter.models.orders.Order,com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.orders.Order>>"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations<com.microsoft.store.partnercenter.models.orders.Order,com.microsoft.store.partnercenter.models.orders.Order>"
-  isExternal: true
   name: "IEntityCreateOperations<Order,Order>"
   nameWithType: "IEntityCreateOperations<Order,Order>"
   fullName: "com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations<com.microsoft.store.partnercenter.models.orders.Order,com.microsoft.store.partnercenter.models.orders.Order>"
 - uid: "com.microsoft.store.partnercenter.models.orders.Order"
-  isExternal: true
   name: "Order"
   nameWithType: "Order"
   fullName: "com.microsoft.store.partnercenter.models.orders.Order"
 - uid: "com.microsoft.store.partnercenter.models.ResourceCollection"
-  isExternal: true
   name: "ResourceCollection"
   nameWithType: "ResourceCollection"
   fullName: "com.microsoft.store.partnercenter.models.ResourceCollection"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntitySelector"
-  isExternal: true
   name: "IEntitySelector"
   nameWithType: "IEntitySelector"
   fullName: "com.microsoft.store.partnercenter.genericoperations.IEntitySelector"
 - uid: "java.lang.String,com.microsoft.store.partnercenter.orders.IOrder"
-  isExternal: true
   name: "String,IOrder"
   nameWithType: "String,IOrder"
   fullName: "java.lang.String,com.microsoft.store.partnercenter.orders.IOrder"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations"
-  isExternal: true
   name: "IEntireEntityCollectionRetrievalOperations"
   nameWithType: "IEntireEntityCollectionRetrievalOperations"
   fullName: "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations"
 - uid: "com.microsoft.store.partnercenter.models.orders.Order,com.microsoft.store.partnercenter.models.ResourceCollection"
-  isExternal: true
   name: "Order,ResourceCollection"
   nameWithType: "Order,ResourceCollection"
   fullName: "com.microsoft.store.partnercenter.models.orders.Order,com.microsoft.store.partnercenter.models.ResourceCollection"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations"
-  isExternal: true
   name: "IEntityCreateOperations"
   nameWithType: "IEntityCreateOperations"
   fullName: "com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations"
 - uid: "com.microsoft.store.partnercenter.models.orders.Order,com.microsoft.store.partnercenter.models.orders.Order"
-  isExternal: true
   name: "Order,Order"
   nameWithType: "Order,Order"
   fullName: "com.microsoft.store.partnercenter.models.orders.Order,com.microsoft.store.partnercenter.models.orders.Order"

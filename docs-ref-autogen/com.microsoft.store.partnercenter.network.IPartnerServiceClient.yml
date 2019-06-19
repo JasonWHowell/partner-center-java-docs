@@ -344,22 +344,18 @@ items:
       description: "The relative address fo the request."
 references:
 - uid: "com.microsoft.store.partnercenter.IPartner"
-  isExternal: true
   name: "IPartner"
   nameWithType: "IPartner"
   fullName: "com.microsoft.store.partnercenter.IPartner"
 - uid: "com.fasterxml.jackson.core.type.TypeReference<T>"
-  isExternal: true
   name: "TypeReference<T>"
   nameWithType: "TypeReference<T>"
   fullName: "com.fasterxml.jackson.core.type.TypeReference<T>"
 - uid: "com.microsoft.store.partnercenter.models.Link"
-  isExternal: true
   name: "Link"
   nameWithType: "Link"
   fullName: "com.microsoft.store.partnercenter.models.Link"
 - uid: "T"
-  isExternal: true
   name: "T"
   nameWithType: "T"
   fullName: "T"
@@ -369,22 +365,18 @@ references:
   fullName: "com.microsoft.store.partnercenter.network.IPartnerServiceClient.<T>get"
   package: "com.microsoft.store.partnercenter.network"
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"
 - uid: "java.util.Map<java.lang.String,java.lang.String>"
-  isExternal: true
   name: "Map<String,String>"
   nameWithType: "Map<String,String>"
   fullName: "java.util.Map<java.lang.String,java.lang.String>"
 - uid: "java.util.Collection<com.microsoft.store.partnercenter.models.utils.KeyValuePair<java.lang.String,java.lang.String>>"
-  isExternal: true
   name: "Collection<KeyValuePair<String,String>>"
   nameWithType: "Collection<KeyValuePair<String,String>>"
   fullName: "java.util.Collection<com.microsoft.store.partnercenter.models.utils.KeyValuePair<java.lang.String,java.lang.String>>"
 - uid: "java.io.InputStream"
-  isExternal: true
   name: "InputStream"
   nameWithType: "InputStream"
   fullName: "java.io.InputStream"
@@ -399,12 +391,10 @@ references:
   fullName: "com.microsoft.store.partnercenter.network.IPartnerServiceClient.<T>head"
   package: "com.microsoft.store.partnercenter.network"
 - uid: "com.fasterxml.jackson.core.type.TypeReference<U>"
-  isExternal: true
   name: "TypeReference<U>"
   nameWithType: "TypeReference<U>"
   fullName: "com.fasterxml.jackson.core.type.TypeReference<U>"
 - uid: "U"
-  isExternal: true
   name: "U"
   nameWithType: "U"
   fullName: "U"
@@ -429,27 +419,22 @@ references:
   fullName: "com.microsoft.store.partnercenter.network.IPartnerServiceClient.<T>delete"
   package: "com.microsoft.store.partnercenter.network"
 - uid: "com.fasterxml.jackson.core.type.TypeReference"
-  isExternal: true
   name: "TypeReference"
   nameWithType: "TypeReference"
   fullName: "com.fasterxml.jackson.core.type.TypeReference"
 - uid: "java.util.Map"
-  isExternal: true
   name: "Map"
   nameWithType: "Map"
   fullName: "java.util.Map"
 - uid: "java.lang.String,java.lang.String"
-  isExternal: true
   name: "String,String"
   nameWithType: "String,String"
   fullName: "java.lang.String,java.lang.String"
 - uid: "java.util.Collection"
-  isExternal: true
   name: "Collection"
   nameWithType: "Collection"
   fullName: "java.util.Collection"
 - uid: "com.microsoft.store.partnercenter.models.utils.KeyValuePair"
-  isExternal: true
   name: "KeyValuePair"
   nameWithType: "KeyValuePair"
   fullName: "com.microsoft.store.partnercenter.models.utils.KeyValuePair"

@@ -44,12 +44,10 @@ items:
       description: "The requested entities subset."
 references:
 - uid: "int"
-  isExternal: true
   name: "int"
   nameWithType: "int"
   fullName: "int"
 - uid: "TResourceCollection"
-  isExternal: true
   name: "TResourceCollection"
   nameWithType: "TResourceCollection"
   fullName: "TResourceCollection"

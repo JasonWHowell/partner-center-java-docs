@@ -139,7 +139,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.query.QueryType.values"
   package: "com.microsoft.store.partnercenter.models.query"
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"
@@ -149,12 +148,10 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.query.QueryType.valueOf"
   package: "com.microsoft.store.partnercenter.models.query"
 - uid: "java.lang.Enum<com.microsoft.store.partnercenter.models.query.QueryType>"
-  isExternal: true
   name: "Enum<QueryType>"
   nameWithType: "Enum<QueryType>"
   fullName: "java.lang.Enum<com.microsoft.store.partnercenter.models.query.QueryType>"
 - uid: "java.lang.Enum"
-  isExternal: true
   name: "Enum"
   nameWithType: "Enum"
   fullName: "java.lang.Enum"

@@ -929,7 +929,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.offers.Offer.Offer"
   package: "com.microsoft.store.partnercenter.models.offers"
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"
@@ -964,7 +963,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.offers.Offer.setDescription"
   package: "com.microsoft.store.partnercenter.models.offers"
 - uid: "int"
-  isExternal: true
   name: "int"
   nameWithType: "int"
   fullName: "int"
@@ -999,7 +997,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.offers.Offer.setRank"
   package: "com.microsoft.store.partnercenter.models.offers"
 - uid: "java.net.URI"
-  isExternal: true
   name: "URI"
   nameWithType: "URI"
   fullName: "java.net.URI"
@@ -1034,7 +1031,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.offers.Offer.setCountry"
   package: "com.microsoft.store.partnercenter.models.offers"
 - uid: "com.microsoft.store.partnercenter.models.offers.OfferCategory"
-  isExternal: true
   name: "OfferCategory"
   nameWithType: "OfferCategory"
   fullName: "com.microsoft.store.partnercenter.models.offers.OfferCategory"
@@ -1049,7 +1045,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.offers.Offer.setCategory"
   package: "com.microsoft.store.partnercenter.models.offers"
 - uid: "java.util.List<java.lang.String>"
-  isExternal: true
   name: "List<String>"
   nameWithType: "List<String>"
   fullName: "java.util.List<java.lang.String>"
@@ -1064,7 +1059,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.offers.Offer.setPrerequisiteOffers"
   package: "com.microsoft.store.partnercenter.models.offers"
 - uid: "java.lang.Boolean"
-  isExternal: true
   name: "Boolean"
   nameWithType: "Boolean"
   fullName: "java.lang.Boolean"
@@ -1089,7 +1083,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.offers.Offer.setIsAvailableForPurchase"
   package: "com.microsoft.store.partnercenter.models.offers"
 - uid: "com.microsoft.store.partnercenter.models.invoices.BillingType"
-  isExternal: true
   name: "BillingType"
   nameWithType: "BillingType"
   fullName: "com.microsoft.store.partnercenter.models.invoices.BillingType"
@@ -1124,7 +1117,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.offers.Offer.setUpgradeTargetOffers"
   package: "com.microsoft.store.partnercenter.models.offers"
 - uid: "com.microsoft.store.partnercenter.models.offers.Product"
-  isExternal: true
   name: "Product"
   nameWithType: "Product"
   fullName: "com.microsoft.store.partnercenter.models.offers.Product"
@@ -1149,7 +1141,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.offers.Offer.setUnitType"
   package: "com.microsoft.store.partnercenter.models.offers"
 - uid: "com.microsoft.store.partnercenter.models.offers.OfferLinks"
-  isExternal: true
   name: "OfferLinks"
   nameWithType: "OfferLinks"
   fullName: "com.microsoft.store.partnercenter.models.offers.OfferLinks"
@@ -1214,7 +1205,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.offers.Offer.setLimitUnitOfMeasure"
   package: "com.microsoft.store.partnercenter.models.offers"
 - uid: "java.util.List<com.microsoft.store.partnercenter.models.offers.BillingCycleType>"
-  isExternal: true
   name: "List<BillingCycleType>"
   nameWithType: "List<BillingCycleType>"
   fullName: "java.util.List<com.microsoft.store.partnercenter.models.offers.BillingCycleType>"
@@ -1249,17 +1239,14 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.offers.Offer.setReselleeQualifications"
   package: "com.microsoft.store.partnercenter.models.offers"
 - uid: "com.microsoft.store.partnercenter.models.ResourceBase"
-  isExternal: true
   name: "ResourceBase"
   nameWithType: "ResourceBase"
   fullName: "com.microsoft.store.partnercenter.models.ResourceBase"
 - uid: "java.util.List"
-  isExternal: true
   name: "List"
   nameWithType: "List"
   fullName: "java.util.List"
 - uid: "com.microsoft.store.partnercenter.models.offers.BillingCycleType"
-  isExternal: true
   name: "BillingCycleType"
   nameWithType: "BillingCycleType"
   fullName: "com.microsoft.store.partnercenter.models.offers.BillingCycleType"

@@ -59,7 +59,6 @@ items:
       description: "The customer orders."
 references:
 - uid: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.orders.Order>"
-  isExternal: true
   name: "ResourceCollection<Order>"
   nameWithType: "ResourceCollection<Order>"
   fullName: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.orders.Order>"
@@ -69,52 +68,42 @@ references:
   fullName: "com.microsoft.store.partnercenter.orders.IOrderCollectionByBillingCycleType.get"
   package: "com.microsoft.store.partnercenter.orders"
 - uid: "boolean"
-  isExternal: true
   name: "boolean"
   nameWithType: "boolean"
   fullName: "boolean"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations<com.microsoft.store.partnercenter.models.orders.Order,com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.orders.Order>>"
-  isExternal: true
   name: "IEntireEntityCollectionRetrievalOperations<Order,ResourceCollection<Order>>"
   nameWithType: "IEntireEntityCollectionRetrievalOperations<Order,ResourceCollection<Order>>"
   fullName: "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations<com.microsoft.store.partnercenter.models.orders.Order,com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.orders.Order>>"
 - uid: "com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,com.microsoft.store.partnercenter.models.offers.BillingCycleType>>"
-  isExternal: true
   name: "IPartnerComponent<Tuple<String,BillingCycleType>>"
   nameWithType: "IPartnerComponent<Tuple<String,BillingCycleType>>"
   fullName: "com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,com.microsoft.store.partnercenter.models.offers.BillingCycleType>>"
 - uid: "com.microsoft.store.partnercenter.models.orders.Order"
-  isExternal: true
   name: "Order"
   nameWithType: "Order"
   fullName: "com.microsoft.store.partnercenter.models.orders.Order"
 - uid: "com.microsoft.store.partnercenter.models.ResourceCollection"
-  isExternal: true
   name: "ResourceCollection"
   nameWithType: "ResourceCollection"
   fullName: "com.microsoft.store.partnercenter.models.ResourceCollection"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations"
-  isExternal: true
   name: "IEntireEntityCollectionRetrievalOperations"
   nameWithType: "IEntireEntityCollectionRetrievalOperations"
   fullName: "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations"
 - uid: "com.microsoft.store.partnercenter.models.orders.Order,com.microsoft.store.partnercenter.models.ResourceCollection"
-  isExternal: true
   name: "Order,ResourceCollection"
   nameWithType: "Order,ResourceCollection"
   fullName: "com.microsoft.store.partnercenter.models.orders.Order,com.microsoft.store.partnercenter.models.ResourceCollection"
 - uid: "com.microsoft.store.partnercenter.IPartnerComponent"
-  isExternal: true
   name: "IPartnerComponent"
   nameWithType: "IPartnerComponent"
   fullName: "com.microsoft.store.partnercenter.IPartnerComponent"
 - uid: "com.microsoft.store.partnercenter.models.utils.Tuple"
-  isExternal: true
   name: "Tuple"
   nameWithType: "Tuple"
   fullName: "com.microsoft.store.partnercenter.models.utils.Tuple"
 - uid: "java.lang.String,com.microsoft.store.partnercenter.models.offers.BillingCycleType"
-  isExternal: true
   name: "String,BillingCycleType"
   nameWithType: "String,BillingCycleType"
   fullName: "java.lang.String,com.microsoft.store.partnercenter.models.offers.BillingCycleType"

@@ -104,12 +104,10 @@ items:
       description: "All of the device batches."
 references:
 - uid: "com.microsoft.store.partnercenter.IPartner"
-  isExternal: true
   name: "IPartner"
   nameWithType: "IPartner"
   fullName: "com.microsoft.store.partnercenter.IPartner"
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"
@@ -119,7 +117,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.devicesdeployment.DevicesBatchCollectionOperations.DevicesBatchCollectionOperations"
   package: "com.microsoft.store.partnercenter.devicesdeployment"
 - uid: "com.microsoft.store.partnercenter.devicesdeployment.IDevicesBatch"
-  isExternal: true
   name: "IDevicesBatch"
   nameWithType: "IDevicesBatch"
   fullName: "com.microsoft.store.partnercenter.devicesdeployment.IDevicesBatch"
@@ -129,7 +126,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.devicesdeployment.DevicesBatchCollectionOperations.byId"
   package: "com.microsoft.store.partnercenter.devicesdeployment"
 - uid: "com.microsoft.store.partnercenter.models.devicesdeployment.DeviceBatchCreationRequest"
-  isExternal: true
   name: "DeviceBatchCreationRequest"
   nameWithType: "DeviceBatchCreationRequest"
   fullName: "com.microsoft.store.partnercenter.models.devicesdeployment.DeviceBatchCreationRequest"
@@ -139,7 +135,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.devicesdeployment.DevicesBatchCollectionOperations.create"
   package: "com.microsoft.store.partnercenter.devicesdeployment"
 - uid: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.devicesdeployment.DeviceBatch>"
-  isExternal: true
   name: "ResourceCollection<DeviceBatch>"
   nameWithType: "ResourceCollection<DeviceBatch>"
   fullName: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.devicesdeployment.DeviceBatch>"
@@ -149,22 +144,18 @@ references:
   fullName: "com.microsoft.store.partnercenter.devicesdeployment.DevicesBatchCollectionOperations.get"
   package: "com.microsoft.store.partnercenter.devicesdeployment"
 - uid: "com.microsoft.store.partnercenter.BasePartnerComponentString"
-  isExternal: true
   name: "BasePartnerComponentString"
   nameWithType: "BasePartnerComponentString"
   fullName: "com.microsoft.store.partnercenter.BasePartnerComponentString"
 - uid: "com.microsoft.store.partnercenter.devicesdeployment.IDevicesBatchCollection"
-  isExternal: true
   name: "IDevicesBatchCollection"
   nameWithType: "IDevicesBatchCollection"
   fullName: "com.microsoft.store.partnercenter.devicesdeployment.IDevicesBatchCollection"
 - uid: "com.microsoft.store.partnercenter.models.ResourceCollection"
-  isExternal: true
   name: "ResourceCollection"
   nameWithType: "ResourceCollection"
   fullName: "com.microsoft.store.partnercenter.models.ResourceCollection"
 - uid: "com.microsoft.store.partnercenter.models.devicesdeployment.DeviceBatch"
-  isExternal: true
   name: "DeviceBatch"
   nameWithType: "DeviceBatch"
   fullName: "com.microsoft.store.partnercenter.models.devicesdeployment.DeviceBatch"

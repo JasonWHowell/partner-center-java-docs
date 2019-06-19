@@ -125,7 +125,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.query.filters.FieldFilter.FieldFilter"
   package: "com.microsoft.store.partnercenter.models.query.filters"
 - uid: "com.microsoft.store.partnercenter.models.query.filters.FieldFilterOperation"
-  isExternal: true
   name: "FieldFilterOperation"
   nameWithType: "FieldFilterOperation"
   fullName: "com.microsoft.store.partnercenter.models.query.filters.FieldFilterOperation"
@@ -140,7 +139,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.query.filters.FieldFilter.setOperator"
   package: "com.microsoft.store.partnercenter.models.query.filters"
 - uid: "com.microsoft.store.partnercenter.models.query.filters.FieldType"
-  isExternal: true
   name: "FieldType"
   nameWithType: "FieldType"
   fullName: "com.microsoft.store.partnercenter.models.query.filters.FieldType"
@@ -155,12 +153,10 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.query.filters.FieldFilter.setFieldType"
   package: "com.microsoft.store.partnercenter.models.query.filters"
 - uid: "com.microsoft.store.partnercenter.models.query.filters.IFilterExpressionGenerator"
-  isExternal: true
   name: "IFilterExpressionGenerator"
   nameWithType: "IFilterExpressionGenerator"
   fullName: "com.microsoft.store.partnercenter.models.query.filters.IFilterExpressionGenerator"
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"

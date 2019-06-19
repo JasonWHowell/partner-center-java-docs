@@ -130,7 +130,6 @@ items:
       description: "The updated user."
 references:
 - uid: "com.microsoft.store.partnercenter.customerusers.ICustomerUserRoleCollection"
-  isExternal: true
   name: "ICustomerUserRoleCollection"
   nameWithType: "ICustomerUserRoleCollection"
   fullName: "com.microsoft.store.partnercenter.customerusers.ICustomerUserRoleCollection"
@@ -140,7 +139,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.customerusers.ICustomerUser.getDirectoryRoles"
   package: "com.microsoft.store.partnercenter.customerusers"
 - uid: "com.microsoft.store.partnercenter.customerusers.ICustomerUserLicenseCollection"
-  isExternal: true
   name: "ICustomerUserLicenseCollection"
   nameWithType: "ICustomerUserLicenseCollection"
   fullName: "com.microsoft.store.partnercenter.customerusers.ICustomerUserLicenseCollection"
@@ -150,7 +148,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.customerusers.ICustomerUser.getLicenses"
   package: "com.microsoft.store.partnercenter.customerusers"
 - uid: "com.microsoft.store.partnercenter.customerusers.ICustomerUserLicenseUpdates"
-  isExternal: true
   name: "ICustomerUserLicenseUpdates"
   nameWithType: "ICustomerUserLicenseUpdates"
   fullName: "com.microsoft.store.partnercenter.customerusers.ICustomerUserLicenseUpdates"
@@ -160,7 +157,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.customerusers.ICustomerUser.getLicenseUpdates"
   package: "com.microsoft.store.partnercenter.customerusers"
 - uid: "com.microsoft.store.partnercenter.models.users.CustomerUser"
-  isExternal: true
   name: "CustomerUser"
   nameWithType: "CustomerUser"
   fullName: "com.microsoft.store.partnercenter.models.users.CustomerUser"
@@ -180,52 +176,42 @@ references:
   fullName: "com.microsoft.store.partnercenter.customerusers.ICustomerUser.patch"
   package: "com.microsoft.store.partnercenter.customerusers"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntityPatchOperations<com.microsoft.store.partnercenter.models.users.CustomerUser>"
-  isExternal: true
   name: "IEntityPatchOperations<CustomerUser>"
   nameWithType: "IEntityPatchOperations<CustomerUser>"
   fullName: "com.microsoft.store.partnercenter.genericoperations.IEntityPatchOperations<com.microsoft.store.partnercenter.models.users.CustomerUser>"
 - uid: "com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>"
-  isExternal: true
   name: "IPartnerComponent<Tuple<String,String>>"
   nameWithType: "IPartnerComponent<Tuple<String,String>>"
   fullName: "com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations<com.microsoft.store.partnercenter.models.users.CustomerUser>"
-  isExternal: true
   name: "IEntityGetOperations<CustomerUser>"
   nameWithType: "IEntityGetOperations<CustomerUser>"
   fullName: "com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations<com.microsoft.store.partnercenter.models.users.CustomerUser>"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntityDeleteOperations<com.microsoft.store.partnercenter.models.users.CustomerUser>"
-  isExternal: true
   name: "IEntityDeleteOperations<CustomerUser>"
   nameWithType: "IEntityDeleteOperations<CustomerUser>"
   fullName: "com.microsoft.store.partnercenter.genericoperations.IEntityDeleteOperations<com.microsoft.store.partnercenter.models.users.CustomerUser>"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntityPatchOperations"
-  isExternal: true
   name: "IEntityPatchOperations"
   nameWithType: "IEntityPatchOperations"
   fullName: "com.microsoft.store.partnercenter.genericoperations.IEntityPatchOperations"
 - uid: "com.microsoft.store.partnercenter.IPartnerComponent"
-  isExternal: true
   name: "IPartnerComponent"
   nameWithType: "IPartnerComponent"
   fullName: "com.microsoft.store.partnercenter.IPartnerComponent"
 - uid: "com.microsoft.store.partnercenter.models.utils.Tuple"
-  isExternal: true
   name: "Tuple"
   nameWithType: "Tuple"
   fullName: "com.microsoft.store.partnercenter.models.utils.Tuple"
 - uid: "java.lang.String,java.lang.String"
-  isExternal: true
   name: "String,String"
   nameWithType: "String,String"
   fullName: "java.lang.String,java.lang.String"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations"
-  isExternal: true
   name: "IEntityGetOperations"
   nameWithType: "IEntityGetOperations"
   fullName: "com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntityDeleteOperations"
-  isExternal: true
   name: "IEntityDeleteOperations"
   nameWithType: "IEntityDeleteOperations"
   fullName: "com.microsoft.store.partnercenter.genericoperations.IEntityDeleteOperations"

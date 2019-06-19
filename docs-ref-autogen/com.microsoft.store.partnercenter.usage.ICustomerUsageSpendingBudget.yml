@@ -60,7 +60,6 @@ items:
       description: "The updated customer's usage spending budget."
 references:
 - uid: "com.microsoft.store.partnercenter.models.usage.SpendingBudget"
-  isExternal: true
   name: "SpendingBudget"
   nameWithType: "SpendingBudget"
   fullName: "com.microsoft.store.partnercenter.models.usage.SpendingBudget"
@@ -75,27 +74,22 @@ references:
   fullName: "com.microsoft.store.partnercenter.usage.ICustomerUsageSpendingBudget.patch"
   package: "com.microsoft.store.partnercenter.usage"
 - uid: "com.microsoft.store.partnercenter.IPartnerComponentString"
-  isExternal: true
   name: "IPartnerComponentString"
   nameWithType: "IPartnerComponentString"
   fullName: "com.microsoft.store.partnercenter.IPartnerComponentString"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations<com.microsoft.store.partnercenter.models.usage.SpendingBudget>"
-  isExternal: true
   name: "IEntityGetOperations<SpendingBudget>"
   nameWithType: "IEntityGetOperations<SpendingBudget>"
   fullName: "com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations<com.microsoft.store.partnercenter.models.usage.SpendingBudget>"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntityPatchOperations<com.microsoft.store.partnercenter.models.usage.SpendingBudget>"
-  isExternal: true
   name: "IEntityPatchOperations<SpendingBudget>"
   nameWithType: "IEntityPatchOperations<SpendingBudget>"
   fullName: "com.microsoft.store.partnercenter.genericoperations.IEntityPatchOperations<com.microsoft.store.partnercenter.models.usage.SpendingBudget>"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations"
-  isExternal: true
   name: "IEntityGetOperations"
   nameWithType: "IEntityGetOperations"
   fullName: "com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntityPatchOperations"
-  isExternal: true
   name: "IEntityPatchOperations"
   nameWithType: "IEntityPatchOperations"
   fullName: "com.microsoft.store.partnercenter.genericoperations.IEntityPatchOperations"

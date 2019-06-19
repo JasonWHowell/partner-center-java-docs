@@ -169,7 +169,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.Contact.Contact"
   package: "com.microsoft.store.partnercenter.models"
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"

@@ -103,7 +103,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.licenses.License.License"
   package: "com.microsoft.store.partnercenter.models.licenses"
 - uid: "java.lang.Iterable<com.microsoft.store.partnercenter.models.licenses.ServicePlan>"
-  isExternal: true
   name: "Iterable<ServicePlan>"
   nameWithType: "Iterable<ServicePlan>"
   fullName: "java.lang.Iterable<com.microsoft.store.partnercenter.models.licenses.ServicePlan>"
@@ -118,7 +117,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.licenses.License.setServicePlans"
   package: "com.microsoft.store.partnercenter.models.licenses"
 - uid: "com.microsoft.store.partnercenter.models.licenses.ProductSku"
-  isExternal: true
   name: "ProductSku"
   nameWithType: "ProductSku"
   fullName: "com.microsoft.store.partnercenter.models.licenses.ProductSku"
@@ -133,17 +131,14 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.licenses.License.setProductSku"
   package: "com.microsoft.store.partnercenter.models.licenses"
 - uid: "com.microsoft.store.partnercenter.models.ResourceBase"
-  isExternal: true
   name: "ResourceBase"
   nameWithType: "ResourceBase"
   fullName: "com.microsoft.store.partnercenter.models.ResourceBase"
 - uid: "com.microsoft.store.partnercenter.models.licenses.ServicePlan"
-  isExternal: true
   name: "ServicePlan"
   nameWithType: "ServicePlan"
   fullName: "com.microsoft.store.partnercenter.models.licenses.ServicePlan"
 - uid: "java.lang.Iterable"
-  isExternal: true
   name: "Iterable"
   nameWithType: "Iterable"
   fullName: "java.lang.Iterable"

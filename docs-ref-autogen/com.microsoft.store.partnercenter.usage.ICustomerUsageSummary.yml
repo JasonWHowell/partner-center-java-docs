@@ -37,7 +37,6 @@ items:
       description: "The customer usage summary."
 references:
 - uid: "com.microsoft.store.partnercenter.models.usage.CustomerUsageSummary"
-  isExternal: true
   name: "CustomerUsageSummary"
   nameWithType: "CustomerUsageSummary"
   fullName: "com.microsoft.store.partnercenter.models.usage.CustomerUsageSummary"
@@ -47,17 +46,14 @@ references:
   fullName: "com.microsoft.store.partnercenter.usage.ICustomerUsageSummary.get"
   package: "com.microsoft.store.partnercenter.usage"
 - uid: "com.microsoft.store.partnercenter.IPartnerComponentString"
-  isExternal: true
   name: "IPartnerComponentString"
   nameWithType: "IPartnerComponentString"
   fullName: "com.microsoft.store.partnercenter.IPartnerComponentString"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations<com.microsoft.store.partnercenter.models.usage.CustomerUsageSummary>"
-  isExternal: true
   name: "IEntityGetOperations<CustomerUsageSummary>"
   nameWithType: "IEntityGetOperations<CustomerUsageSummary>"
   fullName: "com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations<com.microsoft.store.partnercenter.models.usage.CustomerUsageSummary>"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations"
-  isExternal: true
   name: "IEntityGetOperations"
   nameWithType: "IEntityGetOperations"
   fullName: "com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations"

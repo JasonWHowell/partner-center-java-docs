@@ -60,7 +60,6 @@ items:
       description: "The domain operations."
 references:
 - uid: "com.microsoft.store.partnercenter.IPartner"
-  isExternal: true
   name: "IPartner"
   nameWithType: "IPartner"
   fullName: "com.microsoft.store.partnercenter.IPartner"
@@ -70,12 +69,10 @@ references:
   fullName: "com.microsoft.store.partnercenter.domains.DomainCollectionOperations.DomainCollectionOperations"
   package: "com.microsoft.store.partnercenter.domains"
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"
 - uid: "com.microsoft.store.partnercenter.domains.IDomain"
-  isExternal: true
   name: "IDomain"
   nameWithType: "IDomain"
   fullName: "com.microsoft.store.partnercenter.domains.IDomain"
@@ -85,12 +82,10 @@ references:
   fullName: "com.microsoft.store.partnercenter.domains.DomainCollectionOperations.byDomain"
   package: "com.microsoft.store.partnercenter.domains"
 - uid: "com.microsoft.store.partnercenter.BasePartnerComponentString"
-  isExternal: true
   name: "BasePartnerComponentString"
   nameWithType: "BasePartnerComponentString"
   fullName: "com.microsoft.store.partnercenter.BasePartnerComponentString"
 - uid: "com.microsoft.store.partnercenter.domains.IDomainCollection"
-  isExternal: true
   name: "IDomainCollection"
   nameWithType: "IDomainCollection"
   fullName: "com.microsoft.store.partnercenter.domains.IDomainCollection"

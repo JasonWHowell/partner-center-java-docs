@@ -85,12 +85,10 @@ items:
       description: "The subscription conversions."
 references:
 - uid: "com.microsoft.store.partnercenter.IPartner"
-  isExternal: true
   name: "IPartner"
   nameWithType: "IPartner"
   fullName: "com.microsoft.store.partnercenter.IPartner"
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"
@@ -100,12 +98,10 @@ references:
   fullName: "com.microsoft.store.partnercenter.subscriptions.SubscriptionConversionCollectionOperations.SubscriptionConversionCollectionOperations"
   package: "com.microsoft.store.partnercenter.subscriptions"
 - uid: "com.microsoft.store.partnercenter.models.subscriptions.Conversion"
-  isExternal: true
   name: "Conversion"
   nameWithType: "Conversion"
   fullName: "com.microsoft.store.partnercenter.models.subscriptions.Conversion"
 - uid: "com.microsoft.store.partnercenter.models.subscriptions.ConversionResult"
-  isExternal: true
   name: "ConversionResult"
   nameWithType: "ConversionResult"
   fullName: "com.microsoft.store.partnercenter.models.subscriptions.ConversionResult"
@@ -115,7 +111,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.subscriptions.SubscriptionConversionCollectionOperations.create"
   package: "com.microsoft.store.partnercenter.subscriptions"
 - uid: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.subscriptions.Conversion>"
-  isExternal: true
   name: "ResourceCollection<Conversion>"
   nameWithType: "ResourceCollection<Conversion>"
   fullName: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.subscriptions.Conversion>"
@@ -125,32 +120,26 @@ references:
   fullName: "com.microsoft.store.partnercenter.subscriptions.SubscriptionConversionCollectionOperations.get"
   package: "com.microsoft.store.partnercenter.subscriptions"
 - uid: "com.microsoft.store.partnercenter.BasePartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>"
-  isExternal: true
   name: "BasePartnerComponent<Tuple<String,String>>"
   nameWithType: "BasePartnerComponent<Tuple<String,String>>"
   fullName: "com.microsoft.store.partnercenter.BasePartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>"
 - uid: "com.microsoft.store.partnercenter.subscriptions.ISubscriptionConversionCollection"
-  isExternal: true
   name: "ISubscriptionConversionCollection"
   nameWithType: "ISubscriptionConversionCollection"
   fullName: "com.microsoft.store.partnercenter.subscriptions.ISubscriptionConversionCollection"
 - uid: "com.microsoft.store.partnercenter.models.ResourceCollection"
-  isExternal: true
   name: "ResourceCollection"
   nameWithType: "ResourceCollection"
   fullName: "com.microsoft.store.partnercenter.models.ResourceCollection"
 - uid: "com.microsoft.store.partnercenter.models.utils.Tuple"
-  isExternal: true
   name: "Tuple"
   nameWithType: "Tuple"
   fullName: "com.microsoft.store.partnercenter.models.utils.Tuple"
 - uid: "com.microsoft.store.partnercenter.BasePartnerComponent"
-  isExternal: true
   name: "BasePartnerComponent"
   nameWithType: "BasePartnerComponent"
   fullName: "com.microsoft.store.partnercenter.BasePartnerComponent"
 - uid: "java.lang.String,java.lang.String"
-  isExternal: true
   name: "String,String"
   nameWithType: "String,String"
   fullName: "java.lang.String,java.lang.String"

@@ -180,7 +180,6 @@ items:
       description: "The subset of invoices."
 references:
 - uid: "com.microsoft.store.partnercenter.IPartner"
-  isExternal: true
   name: "IPartner"
   nameWithType: "IPartner"
   fullName: "com.microsoft.store.partnercenter.IPartner"
@@ -190,12 +189,10 @@ references:
   fullName: "com.microsoft.store.partnercenter.invoices.InvoiceCollection.InvoiceCollection"
   package: "com.microsoft.store.partnercenter.invoices"
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"
 - uid: "com.microsoft.store.partnercenter.invoices.IInvoice"
-  isExternal: true
   name: "IInvoice"
   nameWithType: "IInvoice"
   fullName: "com.microsoft.store.partnercenter.invoices.IInvoice"
@@ -205,7 +202,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.invoices.InvoiceCollection.byId"
   package: "com.microsoft.store.partnercenter.invoices"
 - uid: "com.microsoft.store.partnercenter.invoices.IEstimateCollection"
-  isExternal: true
   name: "IEstimateCollection"
   nameWithType: "IEstimateCollection"
   fullName: "com.microsoft.store.partnercenter.invoices.IEstimateCollection"
@@ -215,7 +211,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.invoices.InvoiceCollection.getEstimates"
   package: "com.microsoft.store.partnercenter.invoices"
 - uid: "com.microsoft.store.partnercenter.invoices.IInvoiceSummary"
-  isExternal: true
   name: "IInvoiceSummary"
   nameWithType: "IInvoiceSummary"
   fullName: "com.microsoft.store.partnercenter.invoices.IInvoiceSummary"
@@ -225,7 +220,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.invoices.InvoiceCollection.getSummary"
   package: "com.microsoft.store.partnercenter.invoices"
 - uid: "com.microsoft.store.partnercenter.invoices.IInvoiceSummaryCollection"
-  isExternal: true
   name: "IInvoiceSummaryCollection"
   nameWithType: "IInvoiceSummaryCollection"
   fullName: "com.microsoft.store.partnercenter.invoices.IInvoiceSummaryCollection"
@@ -235,7 +229,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.invoices.InvoiceCollection.getSummaries"
   package: "com.microsoft.store.partnercenter.invoices"
 - uid: "com.microsoft.store.partnercenter.models.SeekBasedResourceCollection<com.microsoft.store.partnercenter.models.invoices.Invoice>"
-  isExternal: true
   name: "SeekBasedResourceCollection<Invoice>"
   nameWithType: "SeekBasedResourceCollection<Invoice>"
   fullName: "com.microsoft.store.partnercenter.models.SeekBasedResourceCollection<com.microsoft.store.partnercenter.models.invoices.Invoice>"
@@ -245,17 +238,14 @@ references:
   fullName: "com.microsoft.store.partnercenter.invoices.InvoiceCollection.get"
   package: "com.microsoft.store.partnercenter.invoices"
 - uid: "int"
-  isExternal: true
   name: "int"
   nameWithType: "int"
   fullName: "int"
 - uid: "com.microsoft.store.partnercenter.models.query.IQuery"
-  isExternal: true
   name: "IQuery"
   nameWithType: "IQuery"
   fullName: "com.microsoft.store.partnercenter.models.query.IQuery"
 - uid: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.invoices.Invoice>"
-  isExternal: true
   name: "ResourceCollection<Invoice>"
   nameWithType: "ResourceCollection<Invoice>"
   fullName: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.invoices.Invoice>"
@@ -265,27 +255,22 @@ references:
   fullName: "com.microsoft.store.partnercenter.invoices.InvoiceCollection.query"
   package: "com.microsoft.store.partnercenter.invoices"
 - uid: "com.microsoft.store.partnercenter.BasePartnerComponentString"
-  isExternal: true
   name: "BasePartnerComponentString"
   nameWithType: "BasePartnerComponentString"
   fullName: "com.microsoft.store.partnercenter.BasePartnerComponentString"
 - uid: "com.microsoft.store.partnercenter.invoices.IInvoiceCollection"
-  isExternal: true
   name: "IInvoiceCollection"
   nameWithType: "IInvoiceCollection"
   fullName: "com.microsoft.store.partnercenter.invoices.IInvoiceCollection"
 - uid: "com.microsoft.store.partnercenter.models.SeekBasedResourceCollection"
-  isExternal: true
   name: "SeekBasedResourceCollection"
   nameWithType: "SeekBasedResourceCollection"
   fullName: "com.microsoft.store.partnercenter.models.SeekBasedResourceCollection"
 - uid: "com.microsoft.store.partnercenter.models.invoices.Invoice"
-  isExternal: true
   name: "Invoice"
   nameWithType: "Invoice"
   fullName: "com.microsoft.store.partnercenter.models.invoices.Invoice"
 - uid: "com.microsoft.store.partnercenter.models.ResourceCollection"
-  isExternal: true
   name: "ResourceCollection"
   nameWithType: "ResourceCollection"
   fullName: "com.microsoft.store.partnercenter.models.ResourceCollection"

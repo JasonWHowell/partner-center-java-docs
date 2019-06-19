@@ -85,12 +85,10 @@ items:
       description: "The products in the given country, catalog view and target segment."
 references:
 - uid: "com.microsoft.store.partnercenter.IPartner"
-  isExternal: true
   name: "IPartner"
   nameWithType: "IPartner"
   fullName: "com.microsoft.store.partnercenter.IPartner"
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"
@@ -100,7 +98,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.products.ProductCollectionByCountryByTargetViewOperations.ProductCollectionByCountryByTargetViewOperations"
   package: "com.microsoft.store.partnercenter.products"
 - uid: "com.microsoft.store.partnercenter.products.IProductCollectionByCountryByTargetViewByTargetSegment"
-  isExternal: true
   name: "IProductCollectionByCountryByTargetViewByTargetSegment"
   nameWithType: "IProductCollectionByCountryByTargetViewByTargetSegment"
   fullName: "com.microsoft.store.partnercenter.products.IProductCollectionByCountryByTargetViewByTargetSegment"
@@ -110,7 +107,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.products.ProductCollectionByCountryByTargetViewOperations.byTargetSegment"
   package: "com.microsoft.store.partnercenter.products"
 - uid: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.products.Product>"
-  isExternal: true
   name: "ResourceCollection<Product>"
   nameWithType: "ResourceCollection<Product>"
   fullName: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.products.Product>"
@@ -120,37 +116,30 @@ references:
   fullName: "com.microsoft.store.partnercenter.products.ProductCollectionByCountryByTargetViewOperations.get"
   package: "com.microsoft.store.partnercenter.products"
 - uid: "com.microsoft.store.partnercenter.BasePartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>"
-  isExternal: true
   name: "BasePartnerComponent<Tuple<String,String>>"
   nameWithType: "BasePartnerComponent<Tuple<String,String>>"
   fullName: "com.microsoft.store.partnercenter.BasePartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>"
 - uid: "com.microsoft.store.partnercenter.products.IProductCollectionByCountryByTargetView"
-  isExternal: true
   name: "IProductCollectionByCountryByTargetView"
   nameWithType: "IProductCollectionByCountryByTargetView"
   fullName: "com.microsoft.store.partnercenter.products.IProductCollectionByCountryByTargetView"
 - uid: "com.microsoft.store.partnercenter.models.ResourceCollection"
-  isExternal: true
   name: "ResourceCollection"
   nameWithType: "ResourceCollection"
   fullName: "com.microsoft.store.partnercenter.models.ResourceCollection"
 - uid: "com.microsoft.store.partnercenter.models.products.Product"
-  isExternal: true
   name: "Product"
   nameWithType: "Product"
   fullName: "com.microsoft.store.partnercenter.models.products.Product"
 - uid: "com.microsoft.store.partnercenter.models.utils.Tuple"
-  isExternal: true
   name: "Tuple"
   nameWithType: "Tuple"
   fullName: "com.microsoft.store.partnercenter.models.utils.Tuple"
 - uid: "com.microsoft.store.partnercenter.BasePartnerComponent"
-  isExternal: true
   name: "BasePartnerComponent"
   nameWithType: "BasePartnerComponent"
   fullName: "com.microsoft.store.partnercenter.BasePartnerComponent"
 - uid: "java.lang.String,java.lang.String"
-  isExternal: true
   name: "String,String"
   nameWithType: "String,String"
   fullName: "java.lang.String,java.lang.String"

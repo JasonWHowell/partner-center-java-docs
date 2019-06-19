@@ -367,7 +367,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.ratecards.AzureMeter.AzureMeter"
   package: "com.microsoft.store.partnercenter.models.ratecards"
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"
@@ -392,7 +391,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.ratecards.AzureMeter.setName"
   package: "com.microsoft.store.partnercenter.models.ratecards"
 - uid: "java.util.Map<java.lang.Double,java.lang.Double>"
-  isExternal: true
   name: "Map<Double,Double>"
   nameWithType: "Map<Double,Double>"
   fullName: "java.util.Map<java.lang.Double,java.lang.Double>"
@@ -407,7 +405,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.ratecards.AzureMeter.setRates"
   package: "com.microsoft.store.partnercenter.models.ratecards"
 - uid: "java.lang.Iterable<java.lang.String>"
-  isExternal: true
   name: "Iterable<String>"
   nameWithType: "Iterable<String>"
   fullName: "java.lang.Iterable<java.lang.String>"
@@ -462,7 +459,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.ratecards.AzureMeter.setUnit"
   package: "com.microsoft.store.partnercenter.models.ratecards"
 - uid: "double"
-  isExternal: true
   name: "double"
   nameWithType: "double"
   fullName: "double"
@@ -477,7 +473,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.ratecards.AzureMeter.setIncludedQuantity"
   package: "com.microsoft.store.partnercenter.models.ratecards"
 - uid: "org.joda.time.DateTime"
-  isExternal: true
   name: "DateTime"
   nameWithType: "DateTime"
   fullName: "org.joda.time.DateTime"
@@ -492,22 +487,18 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.ratecards.AzureMeter.setEffectiveDate"
   package: "com.microsoft.store.partnercenter.models.ratecards"
 - uid: "com.microsoft.store.partnercenter.models.ResourceBase"
-  isExternal: true
   name: "ResourceBase"
   nameWithType: "ResourceBase"
   fullName: "com.microsoft.store.partnercenter.models.ResourceBase"
 - uid: "java.util.Map"
-  isExternal: true
   name: "Map"
   nameWithType: "Map"
   fullName: "java.util.Map"
 - uid: "java.lang.Double,java.lang.Double"
-  isExternal: true
   name: "Double,Double"
   nameWithType: "Double,Double"
   fullName: "java.lang.Double,java.lang.Double"
 - uid: "java.lang.Iterable"
-  isExternal: true
   name: "Iterable"
   nameWithType: "Iterable"
   fullName: "java.lang.Iterable"

@@ -134,7 +134,6 @@ items:
       type: "com.microsoft.store.partnercenter.models.invoices.BillingType"
 references:
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"
@@ -159,12 +158,10 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.invoices.BillingType.toString"
   package: "com.microsoft.store.partnercenter.models.invoices"
 - uid: "java.lang.Enum<com.microsoft.store.partnercenter.models.invoices.BillingType>"
-  isExternal: true
   name: "Enum<BillingType>"
   nameWithType: "Enum<BillingType>"
   fullName: "java.lang.Enum<com.microsoft.store.partnercenter.models.invoices.BillingType>"
 - uid: "java.lang.Enum"
-  isExternal: true
   name: "Enum"
   nameWithType: "Enum"
   fullName: "java.lang.Enum"

@@ -54,7 +54,6 @@ items:
       description: "The customer's company profile operations."
 references:
 - uid: "com.microsoft.store.partnercenter.customers.profiles.ICustomerProfile<com.microsoft.store.partnercenter.models.customers.CustomerBillingProfile>"
-  isExternal: true
   name: "ICustomerProfile<CustomerBillingProfile>"
   nameWithType: "ICustomerProfile<CustomerBillingProfile>"
   fullName: "com.microsoft.store.partnercenter.customers.profiles.ICustomerProfile<com.microsoft.store.partnercenter.models.customers.CustomerBillingProfile>"
@@ -64,7 +63,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.customers.profiles.ICustomerProfileCollection.getBilling"
   package: "com.microsoft.store.partnercenter.customers.profiles"
 - uid: "com.microsoft.store.partnercenter.customers.profiles.ICustomerReadonlyProfile<com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile>"
-  isExternal: true
   name: "ICustomerReadonlyProfile<CustomerCompanyProfile>"
   nameWithType: "ICustomerReadonlyProfile<CustomerCompanyProfile>"
   fullName: "com.microsoft.store.partnercenter.customers.profiles.ICustomerReadonlyProfile<com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile>"
@@ -74,27 +72,22 @@ references:
   fullName: "com.microsoft.store.partnercenter.customers.profiles.ICustomerProfileCollection.getCompany"
   package: "com.microsoft.store.partnercenter.customers.profiles"
 - uid: "com.microsoft.store.partnercenter.IPartnerComponentString"
-  isExternal: true
   name: "IPartnerComponentString"
   nameWithType: "IPartnerComponentString"
   fullName: "com.microsoft.store.partnercenter.IPartnerComponentString"
 - uid: "com.microsoft.store.partnercenter.models.customers.CustomerBillingProfile"
-  isExternal: true
   name: "CustomerBillingProfile"
   nameWithType: "CustomerBillingProfile"
   fullName: "com.microsoft.store.partnercenter.models.customers.CustomerBillingProfile"
 - uid: "com.microsoft.store.partnercenter.customers.profiles.ICustomerProfile"
-  isExternal: true
   name: "ICustomerProfile"
   nameWithType: "ICustomerProfile"
   fullName: "com.microsoft.store.partnercenter.customers.profiles.ICustomerProfile"
 - uid: "com.microsoft.store.partnercenter.customers.profiles.ICustomerReadonlyProfile"
-  isExternal: true
   name: "ICustomerReadonlyProfile"
   nameWithType: "ICustomerReadonlyProfile"
   fullName: "com.microsoft.store.partnercenter.customers.profiles.ICustomerReadonlyProfile"
 - uid: "com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile"
-  isExternal: true
   name: "CustomerCompanyProfile"
   nameWithType: "CustomerCompanyProfile"
   fullName: "com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile"

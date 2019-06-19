@@ -152,7 +152,6 @@ items:
       description: "A string representation of the query."
 references:
 - uid: "java.lang.Object"
-  isExternal: true
   name: "Object"
   nameWithType: "Object"
   fullName: "java.lang.Object"
@@ -162,7 +161,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.query.IndexedQuery.IndexedQuery"
   package: "com.microsoft.store.partnercenter.models.query"
 - uid: "com.microsoft.store.partnercenter.models.query.QueryType"
-  isExternal: true
   name: "QueryType"
   nameWithType: "QueryType"
   fullName: "com.microsoft.store.partnercenter.models.query.QueryType"
@@ -172,7 +170,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.query.IndexedQuery.getType"
   package: "com.microsoft.store.partnercenter.models.query"
 - uid: "int"
-  isExternal: true
   name: "int"
   nameWithType: "int"
   fullName: "int"
@@ -197,7 +194,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.query.IndexedQuery.setPageSize"
   package: "com.microsoft.store.partnercenter.models.query"
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"
@@ -207,7 +203,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.query.IndexedQuery.toString"
   package: "com.microsoft.store.partnercenter.models.query"
 - uid: "com.microsoft.store.partnercenter.models.query.SimpleQuery"
-  isExternal: true
   name: "SimpleQuery"
   nameWithType: "SimpleQuery"
   fullName: "com.microsoft.store.partnercenter.models.query.SimpleQuery"

@@ -78,7 +78,6 @@ items:
       description: "The order information including pricing details (based on access permissions) when requested."
 references:
 - uid: "com.microsoft.store.partnercenter.orders.IOrderLineItemCollection"
-  isExternal: true
   name: "IOrderLineItemCollection"
   nameWithType: "IOrderLineItemCollection"
   fullName: "com.microsoft.store.partnercenter.orders.IOrderLineItemCollection"
@@ -88,7 +87,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.orders.IOrder.getOrderLineItems"
   package: "com.microsoft.store.partnercenter.orders"
 - uid: "com.microsoft.store.partnercenter.orders.IOrderProvisioningStatus"
-  isExternal: true
   name: "IOrderProvisioningStatus"
   nameWithType: "IOrderProvisioningStatus"
   fullName: "com.microsoft.store.partnercenter.orders.IOrderProvisioningStatus"
@@ -98,12 +96,10 @@ references:
   fullName: "com.microsoft.store.partnercenter.orders.IOrder.getProvisioningStatus"
   package: "com.microsoft.store.partnercenter.orders"
 - uid: "java.lang.Boolean"
-  isExternal: true
   name: "Boolean"
   nameWithType: "Boolean"
   fullName: "java.lang.Boolean"
 - uid: "com.microsoft.store.partnercenter.models.orders.Order"
-  isExternal: true
   name: "Order"
   nameWithType: "Order"
   fullName: "com.microsoft.store.partnercenter.models.orders.Order"
@@ -113,42 +109,34 @@ references:
   fullName: "com.microsoft.store.partnercenter.orders.IOrder.get"
   package: "com.microsoft.store.partnercenter.orders"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntityPatchOperations<com.microsoft.store.partnercenter.models.orders.Order>"
-  isExternal: true
   name: "IEntityPatchOperations<Order>"
   nameWithType: "IEntityPatchOperations<Order>"
   fullName: "com.microsoft.store.partnercenter.genericoperations.IEntityPatchOperations<com.microsoft.store.partnercenter.models.orders.Order>"
 - uid: "com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>"
-  isExternal: true
   name: "IPartnerComponent<Tuple<String,String>>"
   nameWithType: "IPartnerComponent<Tuple<String,String>>"
   fullName: "com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations<com.microsoft.store.partnercenter.models.orders.Order>"
-  isExternal: true
   name: "IEntityGetOperations<Order>"
   nameWithType: "IEntityGetOperations<Order>"
   fullName: "com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations<com.microsoft.store.partnercenter.models.orders.Order>"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntityPatchOperations"
-  isExternal: true
   name: "IEntityPatchOperations"
   nameWithType: "IEntityPatchOperations"
   fullName: "com.microsoft.store.partnercenter.genericoperations.IEntityPatchOperations"
 - uid: "com.microsoft.store.partnercenter.IPartnerComponent"
-  isExternal: true
   name: "IPartnerComponent"
   nameWithType: "IPartnerComponent"
   fullName: "com.microsoft.store.partnercenter.IPartnerComponent"
 - uid: "com.microsoft.store.partnercenter.models.utils.Tuple"
-  isExternal: true
   name: "Tuple"
   nameWithType: "Tuple"
   fullName: "com.microsoft.store.partnercenter.models.utils.Tuple"
 - uid: "java.lang.String,java.lang.String"
-  isExternal: true
   name: "String,String"
   nameWithType: "String,String"
   fullName: "java.lang.String,java.lang.String"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations"
-  isExternal: true
   name: "IEntityGetOperations"
   nameWithType: "IEntityGetOperations"
   fullName: "com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations"

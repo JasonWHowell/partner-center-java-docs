@@ -36,7 +36,6 @@ items:
       description: "A factory that creates Azure utilization record collection enumerators."
 references:
 - uid: "com.microsoft.store.partnercenter.factory.IResourceCollectionEnumeratorFactory<com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationRecord>>"
-  isExternal: true
   name: "IResourceCollectionEnumeratorFactory<ResourceCollection<AzureUtilizationRecord>>"
   nameWithType: "IResourceCollectionEnumeratorFactory<ResourceCollection<AzureUtilizationRecord>>"
   fullName: "com.microsoft.store.partnercenter.factory.IResourceCollectionEnumeratorFactory<com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationRecord>>"
@@ -46,22 +45,18 @@ references:
   fullName: "com.microsoft.store.partnercenter.enumerators.IUtilizationCollectionEnumeratorContainer.getAzure"
   package: "com.microsoft.store.partnercenter.enumerators"
 - uid: "com.microsoft.store.partnercenter.IPartnerComponentString"
-  isExternal: true
   name: "IPartnerComponentString"
   nameWithType: "IPartnerComponentString"
   fullName: "com.microsoft.store.partnercenter.IPartnerComponentString"
 - uid: "com.microsoft.store.partnercenter.models.ResourceCollection"
-  isExternal: true
   name: "ResourceCollection"
   nameWithType: "ResourceCollection"
   fullName: "com.microsoft.store.partnercenter.models.ResourceCollection"
 - uid: "com.microsoft.store.partnercenter.factory.IResourceCollectionEnumeratorFactory"
-  isExternal: true
   name: "IResourceCollectionEnumeratorFactory"
   nameWithType: "IResourceCollectionEnumeratorFactory"
   fullName: "com.microsoft.store.partnercenter.factory.IResourceCollectionEnumeratorFactory"
 - uid: "com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationRecord"
-  isExternal: true
   name: "AzureUtilizationRecord"
   nameWithType: "AzureUtilizationRecord"
   fullName: "com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationRecord"

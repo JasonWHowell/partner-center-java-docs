@@ -202,7 +202,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.subscriptions.Upgrade.Upgrade"
   package: "com.microsoft.store.partnercenter.models.subscriptions"
 - uid: "com.microsoft.store.partnercenter.models.offers.Offer"
-  isExternal: true
   name: "Offer"
   nameWithType: "Offer"
   fullName: "com.microsoft.store.partnercenter.models.offers.Offer"
@@ -217,7 +216,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.subscriptions.Upgrade.setTargetOffer"
   package: "com.microsoft.store.partnercenter.models.subscriptions"
 - uid: "com.microsoft.store.partnercenter.models.subscriptions.UpgradeType"
-  isExternal: true
   name: "UpgradeType"
   nameWithType: "UpgradeType"
   fullName: "com.microsoft.store.partnercenter.models.subscriptions.UpgradeType"
@@ -232,7 +230,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.subscriptions.Upgrade.setUpgradeType"
   package: "com.microsoft.store.partnercenter.models.subscriptions"
 - uid: "java.lang.Boolean"
-  isExternal: true
   name: "Boolean"
   nameWithType: "Boolean"
   fullName: "java.lang.Boolean"
@@ -247,7 +244,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.subscriptions.Upgrade.setIsEligible"
   package: "com.microsoft.store.partnercenter.models.subscriptions"
 - uid: "int"
-  isExternal: true
   name: "int"
   nameWithType: "int"
   fullName: "int"
@@ -262,7 +258,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.subscriptions.Upgrade.setQuantity"
   package: "com.microsoft.store.partnercenter.models.subscriptions"
 - uid: "java.lang.Iterable<com.microsoft.store.partnercenter.models.subscriptions.UpgradeError>"
-  isExternal: true
   name: "Iterable<UpgradeError>"
   nameWithType: "Iterable<UpgradeError>"
   fullName: "java.lang.Iterable<com.microsoft.store.partnercenter.models.subscriptions.UpgradeError>"
@@ -277,17 +272,14 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.subscriptions.Upgrade.setUpgradeErrors"
   package: "com.microsoft.store.partnercenter.models.subscriptions"
 - uid: "com.microsoft.store.partnercenter.models.ResourceBase"
-  isExternal: true
   name: "ResourceBase"
   nameWithType: "ResourceBase"
   fullName: "com.microsoft.store.partnercenter.models.ResourceBase"
 - uid: "com.microsoft.store.partnercenter.models.subscriptions.UpgradeError"
-  isExternal: true
   name: "UpgradeError"
   nameWithType: "UpgradeError"
   fullName: "com.microsoft.store.partnercenter.models.subscriptions.UpgradeError"
 - uid: "java.lang.Iterable"
-  isExternal: true
   name: "Iterable"
   nameWithType: "Iterable"
   fullName: "java.lang.Iterable"

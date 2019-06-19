@@ -391,7 +391,6 @@ items:
       type: "com.microsoft.store.partnercenter.models.auditing.ResourceType"
 references:
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"
@@ -416,12 +415,10 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.auditing.ResourceType.toString"
   package: "com.microsoft.store.partnercenter.models.auditing"
 - uid: "java.lang.Enum<com.microsoft.store.partnercenter.models.auditing.ResourceType>"
-  isExternal: true
   name: "Enum<ResourceType>"
   nameWithType: "Enum<ResourceType>"
   fullName: "java.lang.Enum<com.microsoft.store.partnercenter.models.auditing.ResourceType>"
 - uid: "java.lang.Enum"
-  isExternal: true
   name: "Enum"
   nameWithType: "Enum"
   fullName: "java.lang.Enum"

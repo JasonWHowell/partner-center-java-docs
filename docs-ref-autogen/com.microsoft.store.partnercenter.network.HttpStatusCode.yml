@@ -141,7 +141,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.network.HttpStatusCode.HttpStatusCode"
   package: "com.microsoft.store.partnercenter.network"
 - uid: "int"
-  isExternal: true
   name: "int"
   nameWithType: "int"
   fullName: "int"

@@ -36,7 +36,6 @@ items:
       description: "The customer's licenses analytics collection."
 references:
 - uid: "com.microsoft.store.partnercenter.analytics.ICustomerLicensesAnalyticsCollection"
-  isExternal: true
   name: "ICustomerLicensesAnalyticsCollection"
   nameWithType: "ICustomerLicensesAnalyticsCollection"
   fullName: "com.microsoft.store.partnercenter.analytics.ICustomerLicensesAnalyticsCollection"
@@ -46,7 +45,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.analytics.ICustomerAnalyticsCollection.getLicenses"
   package: "com.microsoft.store.partnercenter.analytics"
 - uid: "com.microsoft.store.partnercenter.IPartnerComponentString"
-  isExternal: true
   name: "IPartnerComponentString"
   nameWithType: "IPartnerComponentString"
   fullName: "com.microsoft.store.partnercenter.IPartnerComponentString"

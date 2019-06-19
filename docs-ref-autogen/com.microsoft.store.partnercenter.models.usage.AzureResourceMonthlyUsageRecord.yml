@@ -235,7 +235,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.usage.AzureResourceMonthlyUsageRecord.AzureResourceMonthlyUsageRecord"
   package: "com.microsoft.store.partnercenter.models.usage"
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"
@@ -280,7 +279,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.usage.AzureResourceMonthlyUsageRecord.setSubcategory"
   package: "com.microsoft.store.partnercenter.models.usage"
 - uid: "double"
-  isExternal: true
   name: "double"
   nameWithType: "double"
   fullName: "double"
@@ -305,7 +303,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.usage.AzureResourceMonthlyUsageRecord.setUnit"
   package: "com.microsoft.store.partnercenter.models.usage"
 - uid: "com.microsoft.store.partnercenter.models.usage.UsageRecordBase"
-  isExternal: true
   name: "UsageRecordBase"
   nameWithType: "UsageRecordBase"
   fullName: "com.microsoft.store.partnercenter.models.usage.UsageRecordBase"

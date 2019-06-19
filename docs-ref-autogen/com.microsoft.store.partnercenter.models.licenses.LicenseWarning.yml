@@ -136,7 +136,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.licenses.LicenseWarning.LicenseWarning"
   package: "com.microsoft.store.partnercenter.models.licenses"
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"
@@ -161,7 +160,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.licenses.LicenseWarning.setMessage"
   package: "com.microsoft.store.partnercenter.models.licenses"
 - uid: "java.lang.Iterable<java.lang.String>"
-  isExternal: true
   name: "Iterable<String>"
   nameWithType: "Iterable<String>"
   fullName: "java.lang.Iterable<java.lang.String>"
@@ -176,7 +174,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.licenses.LicenseWarning.setServicePlans"
   package: "com.microsoft.store.partnercenter.models.licenses"
 - uid: "java.lang.Iterable"
-  isExternal: true
   name: "Iterable"
   nameWithType: "Iterable"
   fullName: "java.lang.Iterable"

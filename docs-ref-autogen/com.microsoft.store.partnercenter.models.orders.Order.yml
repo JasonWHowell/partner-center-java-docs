@@ -444,7 +444,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.orders.Order.Order"
   package: "com.microsoft.store.partnercenter.models.orders"
 - uid: "com.microsoft.store.partnercenter.models.offers.BillingCycleType"
-  isExternal: true
   name: "BillingCycleType"
   nameWithType: "BillingCycleType"
   fullName: "com.microsoft.store.partnercenter.models.offers.BillingCycleType"
@@ -459,7 +458,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.orders.Order.setBillingCycle"
   package: "com.microsoft.store.partnercenter.models.orders"
 - uid: "org.joda.time.DateTime"
-  isExternal: true
   name: "DateTime"
   nameWithType: "DateTime"
   fullName: "org.joda.time.DateTime"
@@ -474,7 +472,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.orders.Order.setCreationDate"
   package: "com.microsoft.store.partnercenter.models.orders"
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"
@@ -509,7 +506,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.orders.Order.setId"
   package: "com.microsoft.store.partnercenter.models.orders"
 - uid: "java.lang.Iterable<com.microsoft.store.partnercenter.models.orders.OrderLineItem>"
-  isExternal: true
   name: "Iterable<OrderLineItem>"
   nameWithType: "Iterable<OrderLineItem>"
   fullName: "java.lang.Iterable<com.microsoft.store.partnercenter.models.orders.OrderLineItem>"
@@ -524,7 +520,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.orders.Order.setLineItems"
   package: "com.microsoft.store.partnercenter.models.orders"
 - uid: "com.microsoft.store.partnercenter.models.orders.OrderLinks"
-  isExternal: true
   name: "OrderLinks"
   nameWithType: "OrderLinks"
   fullName: "com.microsoft.store.partnercenter.models.orders.OrderLinks"
@@ -559,7 +554,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.orders.Order.setStatus"
   package: "com.microsoft.store.partnercenter.models.orders"
 - uid: "double"
-  isExternal: true
   name: "double"
   nameWithType: "double"
   fullName: "double"
@@ -584,27 +578,22 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.orders.Order.setsTransactionType"
   package: "com.microsoft.store.partnercenter.models.orders"
 - uid: "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks<com.microsoft.store.partnercenter.models.StandardResourceLinks>"
-  isExternal: true
   name: "ResourceBaseWithLinks<StandardResourceLinks>"
   nameWithType: "ResourceBaseWithLinks<StandardResourceLinks>"
   fullName: "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks<com.microsoft.store.partnercenter.models.StandardResourceLinks>"
 - uid: "com.microsoft.store.partnercenter.models.orders.OrderLineItem"
-  isExternal: true
   name: "OrderLineItem"
   nameWithType: "OrderLineItem"
   fullName: "com.microsoft.store.partnercenter.models.orders.OrderLineItem"
 - uid: "java.lang.Iterable"
-  isExternal: true
   name: "Iterable"
   nameWithType: "Iterable"
   fullName: "java.lang.Iterable"
 - uid: "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks"
-  isExternal: true
   name: "ResourceBaseWithLinks"
   nameWithType: "ResourceBaseWithLinks"
   fullName: "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks"
 - uid: "com.microsoft.store.partnercenter.models.StandardResourceLinks"
-  isExternal: true
   name: "StandardResourceLinks"
   nameWithType: "StandardResourceLinks"
   fullName: "com.microsoft.store.partnercenter.models.StandardResourceLinks"

@@ -168,17 +168,14 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.ResourceCollectionWithLinks<TResource,TLinks>.ResourceCollectionWithLinks"
   package: "com.microsoft.store.partnercenter.models"
 - uid: "java.util.List<TResource>"
-  isExternal: true
   name: "List<TResource>"
   nameWithType: "List<TResource>"
   fullName: "java.util.List<TResource>"
 - uid: "com.microsoft.store.partnercenter.models.ResourceCollectionWithLinks<TResource,TLinks>"
-  isExternal: true
   name: "ResourceCollectionWithLinks<TResource,TLinks>"
   nameWithType: "ResourceCollectionWithLinks<TResource,TLinks>"
   fullName: "com.microsoft.store.partnercenter.models.ResourceCollectionWithLinks<TResource,TLinks>"
 - uid: "int"
-  isExternal: true
   name: "int"
   nameWithType: "int"
   fullName: "int"
@@ -193,7 +190,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.ResourceCollectionWithLinks<TResource,TLinks>.setTotalCount"
   package: "com.microsoft.store.partnercenter.models"
 - uid: "java.lang.Iterable<TResource>"
-  isExternal: true
   name: "Iterable<TResource>"
   nameWithType: "Iterable<TResource>"
   fullName: "java.lang.Iterable<TResource>"
@@ -208,7 +204,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.ResourceCollectionWithLinks<TResource,TLinks>.setItems"
   package: "com.microsoft.store.partnercenter.models"
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"
@@ -226,27 +221,22 @@ references:
   nameWithType: "TLinks"
   fullName: "TLinks"
 - uid: "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks<TLinks>"
-  isExternal: true
   name: "ResourceBaseWithLinks<TLinks>"
   nameWithType: "ResourceBaseWithLinks<TLinks>"
   fullName: "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks<TLinks>"
 - uid: "java.util.List"
-  isExternal: true
   name: "List"
   nameWithType: "List"
   fullName: "java.util.List"
 - uid: "TResource,TLinks"
-  isExternal: true
   name: "TResource,TLinks"
   nameWithType: "TResource,TLinks"
   fullName: "TResource,TLinks"
 - uid: "java.lang.Iterable"
-  isExternal: true
   name: "Iterable"
   nameWithType: "Iterable"
   fullName: "java.lang.Iterable"
 - uid: "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks"
-  isExternal: true
   name: "ResourceBaseWithLinks"
   nameWithType: "ResourceBaseWithLinks"
   fullName: "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks"

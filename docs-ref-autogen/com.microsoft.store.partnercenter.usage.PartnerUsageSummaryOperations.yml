@@ -57,7 +57,6 @@ items:
       description: "The partner's usage summary."
 references:
 - uid: "com.microsoft.store.partnercenter.IPartner"
-  isExternal: true
   name: "IPartner"
   nameWithType: "IPartner"
   fullName: "com.microsoft.store.partnercenter.IPartner"
@@ -67,7 +66,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.usage.PartnerUsageSummaryOperations.PartnerUsageSummaryOperations"
   package: "com.microsoft.store.partnercenter.usage"
 - uid: "com.microsoft.store.partnercenter.models.usage.PartnerUsageSummary"
-  isExternal: true
   name: "PartnerUsageSummary"
   nameWithType: "PartnerUsageSummary"
   fullName: "com.microsoft.store.partnercenter.models.usage.PartnerUsageSummary"
@@ -77,12 +75,10 @@ references:
   fullName: "com.microsoft.store.partnercenter.usage.PartnerUsageSummaryOperations.get"
   package: "com.microsoft.store.partnercenter.usage"
 - uid: "com.microsoft.store.partnercenter.BasePartnerComponentString"
-  isExternal: true
   name: "BasePartnerComponentString"
   nameWithType: "BasePartnerComponentString"
   fullName: "com.microsoft.store.partnercenter.BasePartnerComponentString"
 - uid: "com.microsoft.store.partnercenter.usage.IPartnerUsageSummary"
-  isExternal: true
   name: "IPartnerUsageSummary"
   nameWithType: "IPartnerUsageSummary"
   fullName: "com.microsoft.store.partnercenter.usage.IPartnerUsageSummary"

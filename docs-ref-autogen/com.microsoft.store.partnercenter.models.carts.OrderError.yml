@@ -136,7 +136,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.carts.OrderError.OrderError"
   package: "com.microsoft.store.partnercenter.models.carts"
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"
@@ -151,7 +150,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.carts.OrderError.setOrderGroupId"
   package: "com.microsoft.store.partnercenter.models.carts"
 - uid: "int"
-  isExternal: true
   name: "int"
   nameWithType: "int"
   fullName: "int"
@@ -176,7 +174,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.carts.OrderError.setDescription"
   package: "com.microsoft.store.partnercenter.models.carts"
 - uid: "com.microsoft.store.partnercenter.models.ResourceBase"
-  isExternal: true
   name: "ResourceBase"
   nameWithType: "ResourceBase"
   fullName: "com.microsoft.store.partnercenter.models.ResourceBase"

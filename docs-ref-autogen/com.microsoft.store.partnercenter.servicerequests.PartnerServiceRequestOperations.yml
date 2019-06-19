@@ -82,12 +82,10 @@ items:
       description: "Updated Service Request"
 references:
 - uid: "com.microsoft.store.partnercenter.IPartner"
-  isExternal: true
   name: "IPartner"
   nameWithType: "IPartner"
   fullName: "com.microsoft.store.partnercenter.IPartner"
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"
@@ -97,7 +95,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.servicerequests.PartnerServiceRequestOperations.PartnerServiceRequestOperations"
   package: "com.microsoft.store.partnercenter.servicerequests"
 - uid: "com.microsoft.store.partnercenter.models.servicerequests.ServiceRequest"
-  isExternal: true
   name: "ServiceRequest"
   nameWithType: "ServiceRequest"
   fullName: "com.microsoft.store.partnercenter.models.servicerequests.ServiceRequest"
@@ -112,27 +109,22 @@ references:
   fullName: "com.microsoft.store.partnercenter.servicerequests.PartnerServiceRequestOperations.patch"
   package: "com.microsoft.store.partnercenter.servicerequests"
 - uid: "com.microsoft.store.partnercenter.BasePartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>"
-  isExternal: true
   name: "BasePartnerComponent<Tuple<String,String>>"
   nameWithType: "BasePartnerComponent<Tuple<String,String>>"
   fullName: "com.microsoft.store.partnercenter.BasePartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>"
 - uid: "com.microsoft.store.partnercenter.servicerequests.IServiceRequest"
-  isExternal: true
   name: "IServiceRequest"
   nameWithType: "IServiceRequest"
   fullName: "com.microsoft.store.partnercenter.servicerequests.IServiceRequest"
 - uid: "com.microsoft.store.partnercenter.models.utils.Tuple"
-  isExternal: true
   name: "Tuple"
   nameWithType: "Tuple"
   fullName: "com.microsoft.store.partnercenter.models.utils.Tuple"
 - uid: "com.microsoft.store.partnercenter.BasePartnerComponent"
-  isExternal: true
   name: "BasePartnerComponent"
   nameWithType: "BasePartnerComponent"
   fullName: "com.microsoft.store.partnercenter.BasePartnerComponent"
 - uid: "java.lang.String,java.lang.String"
-  isExternal: true
   name: "String,String"
   nameWithType: "String,String"
   fullName: "java.lang.String,java.lang.String"

@@ -119,7 +119,6 @@ items:
       type: "com.microsoft.store.partnercenter.models.carts.ParticipantType"
 references:
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"
@@ -144,12 +143,10 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.carts.ParticipantType.toString"
   package: "com.microsoft.store.partnercenter.models.carts"
 - uid: "java.lang.Enum<com.microsoft.store.partnercenter.models.carts.ParticipantType>"
-  isExternal: true
   name: "Enum<ParticipantType>"
   nameWithType: "Enum<ParticipantType>"
   fullName: "java.lang.Enum<com.microsoft.store.partnercenter.models.carts.ParticipantType>"
 - uid: "java.lang.Enum"
-  isExternal: true
   name: "Enum"
   nameWithType: "Enum"
   fullName: "java.lang.Enum"

@@ -333,7 +333,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.entitlements.Reservation.Reservation"
   package: "com.microsoft.store.partnercenter.models.entitlements"
 - uid: "java.util.Iterator<java.lang.String>"
-  isExternal: true
   name: "Iterator<String>"
   nameWithType: "Iterator<String>"
   fullName: "java.util.Iterator<java.lang.String>"
@@ -348,7 +347,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.entitlements.Reservation.setAppliedScopes"
   package: "com.microsoft.store.partnercenter.models.entitlements"
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"
@@ -363,7 +361,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.entitlements.Reservation.setDisplayName"
   package: "com.microsoft.store.partnercenter.models.entitlements"
 - uid: "org.joda.time.DateTime"
-  isExternal: true
   name: "DateTime"
   nameWithType: "DateTime"
   fullName: "org.joda.time.DateTime"
@@ -398,7 +395,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.entitlements.Reservation.setProvisioningState"
   package: "com.microsoft.store.partnercenter.models.entitlements"
 - uid: "java.lang.Integer"
-  isExternal: true
   name: "Integer"
   nameWithType: "Integer"
   fullName: "java.lang.Integer"
@@ -433,22 +429,18 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.entitlements.Reservation.setScopeType"
   package: "com.microsoft.store.partnercenter.models.entitlements"
 - uid: "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks<com.microsoft.store.partnercenter.models.StandardResourceLinks>"
-  isExternal: true
   name: "ResourceBaseWithLinks<StandardResourceLinks>"
   nameWithType: "ResourceBaseWithLinks<StandardResourceLinks>"
   fullName: "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks<com.microsoft.store.partnercenter.models.StandardResourceLinks>"
 - uid: "java.util.Iterator"
-  isExternal: true
   name: "Iterator"
   nameWithType: "Iterator"
   fullName: "java.util.Iterator"
 - uid: "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks"
-  isExternal: true
   name: "ResourceBaseWithLinks"
   nameWithType: "ResourceBaseWithLinks"
   fullName: "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks"
 - uid: "com.microsoft.store.partnercenter.models.StandardResourceLinks"
-  isExternal: true
   name: "StandardResourceLinks"
   nameWithType: "StandardResourceLinks"
   fullName: "com.microsoft.store.partnercenter.models.StandardResourceLinks"

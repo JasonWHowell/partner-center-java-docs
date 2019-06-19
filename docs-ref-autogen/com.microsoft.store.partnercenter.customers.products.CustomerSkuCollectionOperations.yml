@@ -107,12 +107,10 @@ items:
       description: "The SKUs for the provided product."
 references:
 - uid: "com.microsoft.store.partnercenter.IPartner"
-  isExternal: true
   name: "IPartner"
   nameWithType: "IPartner"
   fullName: "com.microsoft.store.partnercenter.IPartner"
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"
@@ -122,7 +120,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.customers.products.CustomerSkuCollectionOperations.CustomerSkuCollectionOperations"
   package: "com.microsoft.store.partnercenter.customers.products"
 - uid: "com.microsoft.store.partnercenter.products.ISku"
-  isExternal: true
   name: "ISku"
   nameWithType: "ISku"
   fullName: "com.microsoft.store.partnercenter.products.ISku"
@@ -132,7 +129,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.customers.products.CustomerSkuCollectionOperations.byId"
   package: "com.microsoft.store.partnercenter.customers.products"
 - uid: "com.microsoft.store.partnercenter.products.ISkuCollectionByTargetSegment"
-  isExternal: true
   name: "ISkuCollectionByTargetSegment"
   nameWithType: "ISkuCollectionByTargetSegment"
   fullName: "com.microsoft.store.partnercenter.products.ISkuCollectionByTargetSegment"
@@ -142,7 +138,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.customers.products.CustomerSkuCollectionOperations.byTargetSegment"
   package: "com.microsoft.store.partnercenter.customers.products"
 - uid: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.products.Sku>"
-  isExternal: true
   name: "ResourceCollection<Sku>"
   nameWithType: "ResourceCollection<Sku>"
   fullName: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.products.Sku>"
@@ -152,37 +147,30 @@ references:
   fullName: "com.microsoft.store.partnercenter.customers.products.CustomerSkuCollectionOperations.get"
   package: "com.microsoft.store.partnercenter.customers.products"
 - uid: "com.microsoft.store.partnercenter.BasePartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>"
-  isExternal: true
   name: "BasePartnerComponent<Tuple<String,String>>"
   nameWithType: "BasePartnerComponent<Tuple<String,String>>"
   fullName: "com.microsoft.store.partnercenter.BasePartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>"
 - uid: "com.microsoft.store.partnercenter.products.ISkuCollection"
-  isExternal: true
   name: "ISkuCollection"
   nameWithType: "ISkuCollection"
   fullName: "com.microsoft.store.partnercenter.products.ISkuCollection"
 - uid: "com.microsoft.store.partnercenter.models.ResourceCollection"
-  isExternal: true
   name: "ResourceCollection"
   nameWithType: "ResourceCollection"
   fullName: "com.microsoft.store.partnercenter.models.ResourceCollection"
 - uid: "com.microsoft.store.partnercenter.models.products.Sku"
-  isExternal: true
   name: "Sku"
   nameWithType: "Sku"
   fullName: "com.microsoft.store.partnercenter.models.products.Sku"
 - uid: "com.microsoft.store.partnercenter.models.utils.Tuple"
-  isExternal: true
   name: "Tuple"
   nameWithType: "Tuple"
   fullName: "com.microsoft.store.partnercenter.models.utils.Tuple"
 - uid: "com.microsoft.store.partnercenter.BasePartnerComponent"
-  isExternal: true
   name: "BasePartnerComponent"
   nameWithType: "BasePartnerComponent"
   fullName: "com.microsoft.store.partnercenter.BasePartnerComponent"
 - uid: "java.lang.String,java.lang.String"
-  isExternal: true
   name: "String,String"
   nameWithType: "String,String"
   fullName: "java.lang.String,java.lang.String"

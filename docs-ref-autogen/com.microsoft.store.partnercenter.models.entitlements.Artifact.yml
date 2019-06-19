@@ -111,7 +111,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.entitlements.Artifact.Artifact"
   package: "com.microsoft.store.partnercenter.models.entitlements"
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"
@@ -126,7 +125,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.entitlements.Artifact.setArtifactType"
   package: "com.microsoft.store.partnercenter.models.entitlements"
 - uid: "java.util.Map<java.lang.String,java.lang.Object>"
-  isExternal: true
   name: "Map<String,Object>"
   nameWithType: "Map<String,Object>"
   fullName: "java.util.Map<java.lang.String,java.lang.Object>"
@@ -141,27 +139,22 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.entitlements.Artifact.setDynamicAttributes"
   package: "com.microsoft.store.partnercenter.models.entitlements"
 - uid: "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks<com.microsoft.store.partnercenter.models.StandardResourceLinks>"
-  isExternal: true
   name: "ResourceBaseWithLinks<StandardResourceLinks>"
   nameWithType: "ResourceBaseWithLinks<StandardResourceLinks>"
   fullName: "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks<com.microsoft.store.partnercenter.models.StandardResourceLinks>"
 - uid: "java.lang.String,java.lang.Object"
-  isExternal: true
   name: "String,Object"
   nameWithType: "String,Object"
   fullName: "java.lang.String,java.lang.Object"
 - uid: "java.util.Map"
-  isExternal: true
   name: "Map"
   nameWithType: "Map"
   fullName: "java.util.Map"
 - uid: "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks"
-  isExternal: true
   name: "ResourceBaseWithLinks"
   nameWithType: "ResourceBaseWithLinks"
   fullName: "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks"
 - uid: "com.microsoft.store.partnercenter.models.StandardResourceLinks"
-  isExternal: true
   name: "StandardResourceLinks"
   nameWithType: "StandardResourceLinks"
   fullName: "com.microsoft.store.partnercenter.models.StandardResourceLinks"

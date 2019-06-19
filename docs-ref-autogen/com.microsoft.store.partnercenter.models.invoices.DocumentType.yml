@@ -151,7 +151,6 @@ items:
       type: "com.microsoft.store.partnercenter.models.invoices.DocumentType"
 references:
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"
@@ -176,12 +175,10 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.invoices.DocumentType.toString"
   package: "com.microsoft.store.partnercenter.models.invoices"
 - uid: "java.lang.Enum<com.microsoft.store.partnercenter.models.invoices.DocumentType>"
-  isExternal: true
   name: "Enum<DocumentType>"
   nameWithType: "Enum<DocumentType>"
   fullName: "java.lang.Enum<com.microsoft.store.partnercenter.models.invoices.DocumentType>"
 - uid: "java.lang.Enum"
-  isExternal: true
   name: "Enum"
   nameWithType: "Enum"
   fullName: "java.lang.Enum"

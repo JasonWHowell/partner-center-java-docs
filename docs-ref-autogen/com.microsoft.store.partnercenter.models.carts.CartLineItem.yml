@@ -481,7 +481,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.carts.CartLineItem.CartLineItem"
   package: "com.microsoft.store.partnercenter.models.carts"
 - uid: "java.util.List<com.microsoft.store.partnercenter.models.carts.CartLineItem>"
-  isExternal: true
   name: "List<CartLineItem>"
   nameWithType: "List<CartLineItem>"
   fullName: "java.util.List<com.microsoft.store.partnercenter.models.carts.CartLineItem>"
@@ -496,7 +495,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.carts.CartLineItem.setAddOnItems"
   package: "com.microsoft.store.partnercenter.models.carts"
 - uid: "com.microsoft.store.partnercenter.models.products.BillingCycleType"
-  isExternal: true
   name: "BillingCycleType"
   nameWithType: "BillingCycleType"
   fullName: "com.microsoft.store.partnercenter.models.products.BillingCycleType"
@@ -511,7 +509,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.carts.CartLineItem.setBillingCycle"
   package: "com.microsoft.store.partnercenter.models.carts"
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"
@@ -536,7 +533,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.carts.CartLineItem.setCurrencyCode"
   package: "com.microsoft.store.partnercenter.models.carts"
 - uid: "com.microsoft.store.partnercenter.models.carts.CartError"
-  isExternal: true
   name: "CartError"
   nameWithType: "CartError"
   fullName: "com.microsoft.store.partnercenter.models.carts.CartError"
@@ -561,7 +557,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.carts.CartLineItem.setFriendlyName"
   package: "com.microsoft.store.partnercenter.models.carts"
 - uid: "int"
-  isExternal: true
   name: "int"
   nameWithType: "int"
   fullName: "int"
@@ -586,7 +581,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.carts.CartLineItem.setOrderGroup"
   package: "com.microsoft.store.partnercenter.models.carts"
 - uid: "java.util.Collection<com.microsoft.store.partnercenter.models.utils.KeyValuePair<com.microsoft.store.partnercenter.models.carts.ParticipantType,java.lang.String>>"
-  isExternal: true
   name: "Collection<KeyValuePair<ParticipantType,String>>"
   nameWithType: "Collection<KeyValuePair<ParticipantType,String>>"
   fullName: "java.util.Collection<com.microsoft.store.partnercenter.models.utils.KeyValuePair<com.microsoft.store.partnercenter.models.carts.ParticipantType,java.lang.String>>"
@@ -601,7 +595,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.carts.CartLineItem.setParticipants"
   package: "com.microsoft.store.partnercenter.models.carts"
 - uid: "java.util.Map<java.lang.String,java.lang.String>"
-  isExternal: true
   name: "Map<String,String>"
   nameWithType: "Map<String,String>"
   fullName: "java.util.Map<java.lang.String,java.lang.String>"
@@ -636,32 +629,26 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.carts.CartLineItem.setTermDuration"
   package: "com.microsoft.store.partnercenter.models.carts"
 - uid: "java.util.List"
-  isExternal: true
   name: "List"
   nameWithType: "List"
   fullName: "java.util.List"
 - uid: "java.util.Collection"
-  isExternal: true
   name: "Collection"
   nameWithType: "Collection"
   fullName: "java.util.Collection"
 - uid: "com.microsoft.store.partnercenter.models.carts.ParticipantType,java.lang.String"
-  isExternal: true
   name: "ParticipantType,String"
   nameWithType: "ParticipantType,String"
   fullName: "com.microsoft.store.partnercenter.models.carts.ParticipantType,java.lang.String"
 - uid: "com.microsoft.store.partnercenter.models.utils.KeyValuePair"
-  isExternal: true
   name: "KeyValuePair"
   nameWithType: "KeyValuePair"
   fullName: "com.microsoft.store.partnercenter.models.utils.KeyValuePair"
 - uid: "java.util.Map"
-  isExternal: true
   name: "Map"
   nameWithType: "Map"
   fullName: "java.util.Map"
 - uid: "java.lang.String,java.lang.String"
-  isExternal: true
   name: "String,String"
   nameWithType: "String,String"
   fullName: "java.lang.String,java.lang.String"

@@ -58,7 +58,6 @@ items:
       type: "com.microsoft.store.partnercenter.offers.IOfferCategoryCollection"
 references:
 - uid: "com.microsoft.store.partnercenter.IPartner"
-  isExternal: true
   name: "IPartner"
   nameWithType: "IPartner"
   fullName: "com.microsoft.store.partnercenter.IPartner"
@@ -68,12 +67,10 @@ references:
   fullName: "com.microsoft.store.partnercenter.offers.OfferCategoryCountrySelector.OfferCategoryCountrySelector"
   package: "com.microsoft.store.partnercenter.offers"
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"
 - uid: "com.microsoft.store.partnercenter.offers.IOfferCategoryCollection"
-  isExternal: true
   name: "IOfferCategoryCollection"
   nameWithType: "IOfferCategoryCollection"
   fullName: "com.microsoft.store.partnercenter.offers.IOfferCategoryCollection"
@@ -83,17 +80,14 @@ references:
   fullName: "com.microsoft.store.partnercenter.offers.OfferCategoryCountrySelector.byCountry"
   package: "com.microsoft.store.partnercenter.offers"
 - uid: "com.microsoft.store.partnercenter.BasePartnerComponentString"
-  isExternal: true
   name: "BasePartnerComponentString"
   nameWithType: "BasePartnerComponentString"
   fullName: "com.microsoft.store.partnercenter.BasePartnerComponentString"
 - uid: "com.microsoft.store.partnercenter.genericoperations.ICountrySelector<com.microsoft.store.partnercenter.offers.IOfferCategoryCollection>"
-  isExternal: true
   name: "ICountrySelector<IOfferCategoryCollection>"
   nameWithType: "ICountrySelector<IOfferCategoryCollection>"
   fullName: "com.microsoft.store.partnercenter.genericoperations.ICountrySelector<com.microsoft.store.partnercenter.offers.IOfferCategoryCollection>"
 - uid: "com.microsoft.store.partnercenter.genericoperations.ICountrySelector"
-  isExternal: true
   name: "ICountrySelector"
   nameWithType: "ICountrySelector"
   fullName: "com.microsoft.store.partnercenter.genericoperations.ICountrySelector"

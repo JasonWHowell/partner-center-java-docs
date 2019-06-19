@@ -124,12 +124,10 @@ items:
       description: "The sort details."
 references:
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"
 - uid: "com.microsoft.store.partnercenter.models.query.sort.SortDirection"
-  isExternal: true
   name: "SortDirection"
   nameWithType: "SortDirection"
   fullName: "com.microsoft.store.partnercenter.models.query.sort.SortDirection"

@@ -167,7 +167,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.ApiFault.ApiFault"
   package: "com.microsoft.store.partnercenter.models"
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"
@@ -192,7 +191,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.ApiFault.setErrorMessage"
   package: "com.microsoft.store.partnercenter.models"
 - uid: "java.lang.Iterable<java.lang.Object>"
-  isExternal: true
   name: "Iterable<Object>"
   nameWithType: "Iterable<Object>"
   fullName: "java.lang.Iterable<java.lang.Object>"
@@ -212,17 +210,14 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.ApiFault.toString"
   package: "com.microsoft.store.partnercenter.models"
 - uid: "com.microsoft.store.partnercenter.models.ResourceBase"
-  isExternal: true
   name: "ResourceBase"
   nameWithType: "ResourceBase"
   fullName: "com.microsoft.store.partnercenter.models.ResourceBase"
 - uid: "java.lang.Object"
-  isExternal: true
   name: "Object"
   nameWithType: "Object"
   fullName: "java.lang.Object"
 - uid: "java.lang.Iterable"
-  isExternal: true
   name: "Iterable"
   nameWithType: "Iterable"
   fullName: "java.lang.Iterable"

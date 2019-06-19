@@ -36,7 +36,6 @@ items:
       description: "The available customer order line item activation link operations."
 references:
 - uid: "com.microsoft.store.partnercenter.orders.IOrderLineItemActivationLink"
-  isExternal: true
   name: "IOrderLineItemActivationLink"
   nameWithType: "IOrderLineItemActivationLink"
   fullName: "com.microsoft.store.partnercenter.orders.IOrderLineItemActivationLink"
@@ -46,22 +45,18 @@ references:
   fullName: "com.microsoft.store.partnercenter.orders.IOrderLineItem.getActivationLink"
   package: "com.microsoft.store.partnercenter.orders"
 - uid: "com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.TripletTuple<java.lang.String,java.lang.String,java.lang.Integer>>"
-  isExternal: true
   name: "IPartnerComponent<TripletTuple<String,String,Integer>>"
   nameWithType: "IPartnerComponent<TripletTuple<String,String,Integer>>"
   fullName: "com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.TripletTuple<java.lang.String,java.lang.String,java.lang.Integer>>"
 - uid: "com.microsoft.store.partnercenter.IPartnerComponent"
-  isExternal: true
   name: "IPartnerComponent"
   nameWithType: "IPartnerComponent"
   fullName: "com.microsoft.store.partnercenter.IPartnerComponent"
 - uid: "com.microsoft.store.partnercenter.models.utils.TripletTuple"
-  isExternal: true
   name: "TripletTuple"
   nameWithType: "TripletTuple"
   fullName: "com.microsoft.store.partnercenter.models.utils.TripletTuple"
 - uid: "java.lang.String,java.lang.String,java.lang.Integer"
-  isExternal: true
   name: "String,String,Integer"
   nameWithType: "String,String,Integer"
   fullName: "java.lang.String,java.lang.String,java.lang.Integer"

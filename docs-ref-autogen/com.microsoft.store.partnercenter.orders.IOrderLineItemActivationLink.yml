@@ -18,42 +18,34 @@ items:
   - "com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations<com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.orders.OrderLineItemActivationLink>>"
 references:
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations<com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.orders.OrderLineItemActivationLink>>"
-  isExternal: true
   name: "IEntityGetOperations<ResourceCollection<OrderLineItemActivationLink>>"
   nameWithType: "IEntityGetOperations<ResourceCollection<OrderLineItemActivationLink>>"
   fullName: "com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations<com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.orders.OrderLineItemActivationLink>>"
 - uid: "com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.TripletTuple<java.lang.String,java.lang.String,java.lang.Integer>>"
-  isExternal: true
   name: "IPartnerComponent<TripletTuple<String,String,Integer>>"
   nameWithType: "IPartnerComponent<TripletTuple<String,String,Integer>>"
   fullName: "com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.TripletTuple<java.lang.String,java.lang.String,java.lang.Integer>>"
 - uid: "com.microsoft.store.partnercenter.models.orders.OrderLineItemActivationLink"
-  isExternal: true
   name: "OrderLineItemActivationLink"
   nameWithType: "OrderLineItemActivationLink"
   fullName: "com.microsoft.store.partnercenter.models.orders.OrderLineItemActivationLink"
 - uid: "com.microsoft.store.partnercenter.models.ResourceCollection"
-  isExternal: true
   name: "ResourceCollection"
   nameWithType: "ResourceCollection"
   fullName: "com.microsoft.store.partnercenter.models.ResourceCollection"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations"
-  isExternal: true
   name: "IEntityGetOperations"
   nameWithType: "IEntityGetOperations"
   fullName: "com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations"
 - uid: "com.microsoft.store.partnercenter.IPartnerComponent"
-  isExternal: true
   name: "IPartnerComponent"
   nameWithType: "IPartnerComponent"
   fullName: "com.microsoft.store.partnercenter.IPartnerComponent"
 - uid: "com.microsoft.store.partnercenter.models.utils.TripletTuple"
-  isExternal: true
   name: "TripletTuple"
   nameWithType: "TripletTuple"
   fullName: "com.microsoft.store.partnercenter.models.utils.TripletTuple"
 - uid: "java.lang.String,java.lang.String,java.lang.Integer"
-  isExternal: true
   name: "String,String,Integer"
   nameWithType: "String,String,Integer"
   fullName: "java.lang.String,java.lang.String,java.lang.Integer"

@@ -136,7 +136,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestOrganization.ServiceRequestOrganization"
   package: "com.microsoft.store.partnercenter.models.servicerequests"
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"

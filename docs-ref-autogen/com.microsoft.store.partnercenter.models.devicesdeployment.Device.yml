@@ -334,7 +334,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.devicesdeployment.Device.Device"
   package: "com.microsoft.store.partnercenter.models.devicesdeployment"
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"
@@ -399,7 +398,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.devicesdeployment.Device.setOemManufacturerName"
   package: "com.microsoft.store.partnercenter.models.devicesdeployment"
 - uid: "java.util.Collection<com.microsoft.store.partnercenter.models.utils.KeyValuePair<com.microsoft.store.partnercenter.models.devicesdeployment.PolicyCategory,java.lang.String>>"
-  isExternal: true
   name: "Collection<KeyValuePair<PolicyCategory,String>>"
   nameWithType: "Collection<KeyValuePair<PolicyCategory,String>>"
   fullName: "java.util.Collection<com.microsoft.store.partnercenter.models.utils.KeyValuePair<com.microsoft.store.partnercenter.models.devicesdeployment.PolicyCategory,java.lang.String>>"
@@ -414,7 +412,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.devicesdeployment.Device.setPolicies"
   package: "com.microsoft.store.partnercenter.models.devicesdeployment"
 - uid: "org.joda.time.DateTime"
-  isExternal: true
   name: "DateTime"
   nameWithType: "DateTime"
   fullName: "org.joda.time.DateTime"
@@ -429,7 +426,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.devicesdeployment.Device.setUploadedDate"
   package: "com.microsoft.store.partnercenter.models.devicesdeployment"
 - uid: "java.util.Iterator<java.lang.String>"
-  isExternal: true
   name: "Iterator<String>"
   nameWithType: "Iterator<String>"
   fullName: "java.util.Iterator<java.lang.String>"
@@ -444,27 +440,22 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.devicesdeployment.Device.setAllowedOperations"
   package: "com.microsoft.store.partnercenter.models.devicesdeployment"
 - uid: "com.microsoft.store.partnercenter.models.ResourceBase"
-  isExternal: true
   name: "ResourceBase"
   nameWithType: "ResourceBase"
   fullName: "com.microsoft.store.partnercenter.models.ResourceBase"
 - uid: "java.util.Collection"
-  isExternal: true
   name: "Collection"
   nameWithType: "Collection"
   fullName: "java.util.Collection"
 - uid: "com.microsoft.store.partnercenter.models.devicesdeployment.PolicyCategory,java.lang.String"
-  isExternal: true
   name: "PolicyCategory,String"
   nameWithType: "PolicyCategory,String"
   fullName: "com.microsoft.store.partnercenter.models.devicesdeployment.PolicyCategory,java.lang.String"
 - uid: "com.microsoft.store.partnercenter.models.utils.KeyValuePair"
-  isExternal: true
   name: "KeyValuePair"
   nameWithType: "KeyValuePair"
   fullName: "com.microsoft.store.partnercenter.models.utils.KeyValuePair"
 - uid: "java.util.Iterator"
-  isExternal: true
   name: "Iterator"
   nameWithType: "Iterator"
   fullName: "java.util.Iterator"

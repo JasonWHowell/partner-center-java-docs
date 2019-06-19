@@ -79,7 +79,6 @@ items:
       description: "Updated SupportProfile"
 references:
 - uid: "com.microsoft.store.partnercenter.IPartner"
-  isExternal: true
   name: "IPartner"
   nameWithType: "IPartner"
   fullName: "com.microsoft.store.partnercenter.IPartner"
@@ -89,7 +88,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.profiles.SupportProfileOperations.SupportProfileOperations"
   package: "com.microsoft.store.partnercenter.profiles"
 - uid: "com.microsoft.store.partnercenter.models.partners.SupportProfile"
-  isExternal: true
   name: "SupportProfile"
   nameWithType: "SupportProfile"
   fullName: "com.microsoft.store.partnercenter.models.partners.SupportProfile"
@@ -104,12 +102,10 @@ references:
   fullName: "com.microsoft.store.partnercenter.profiles.SupportProfileOperations.update"
   package: "com.microsoft.store.partnercenter.profiles"
 - uid: "com.microsoft.store.partnercenter.BasePartnerComponentString"
-  isExternal: true
   name: "BasePartnerComponentString"
   nameWithType: "BasePartnerComponentString"
   fullName: "com.microsoft.store.partnercenter.BasePartnerComponentString"
 - uid: "com.microsoft.store.partnercenter.profiles.ISupportProfile"
-  isExternal: true
   name: "ISupportProfile"
   nameWithType: "ISupportProfile"
   fullName: "com.microsoft.store.partnercenter.profiles.ISupportProfile"

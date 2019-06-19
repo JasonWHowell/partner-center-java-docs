@@ -68,12 +68,10 @@ items:
       description: "The Azure rate card for the partner."
 references:
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"
 - uid: "com.microsoft.store.partnercenter.models.ratecards.AzureRateCard"
-  isExternal: true
   name: "AzureRateCard"
   nameWithType: "AzureRateCard"
   fullName: "com.microsoft.store.partnercenter.models.ratecards.AzureRateCard"
@@ -88,7 +86,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.ratecards.IAzureRateCard.getShared"
   package: "com.microsoft.store.partnercenter.ratecards"
 - uid: "com.microsoft.store.partnercenter.IPartnerComponentString"
-  isExternal: true
   name: "IPartnerComponentString"
   nameWithType: "IPartnerComponentString"
   fullName: "com.microsoft.store.partnercenter.IPartnerComponentString"

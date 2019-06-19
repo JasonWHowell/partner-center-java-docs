@@ -70,7 +70,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.StandardResourceLinks.StandardResourceLinks"
   package: "com.microsoft.store.partnercenter.models"
 - uid: "com.microsoft.store.partnercenter.models.Link"
-  isExternal: true
   name: "Link"
   nameWithType: "Link"
   fullName: "com.microsoft.store.partnercenter.models.Link"

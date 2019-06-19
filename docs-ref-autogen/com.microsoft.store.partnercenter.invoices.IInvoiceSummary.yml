@@ -36,7 +36,6 @@ items:
       description: "The invoice summary."
 references:
 - uid: "com.microsoft.store.partnercenter.models.invoices.InvoiceSummary"
-  isExternal: true
   name: "InvoiceSummary"
   nameWithType: "InvoiceSummary"
   fullName: "com.microsoft.store.partnercenter.models.invoices.InvoiceSummary"
@@ -46,17 +45,14 @@ references:
   fullName: "com.microsoft.store.partnercenter.invoices.IInvoiceSummary.get"
   package: "com.microsoft.store.partnercenter.invoices"
 - uid: "com.microsoft.store.partnercenter.IPartnerComponentString"
-  isExternal: true
   name: "IPartnerComponentString"
   nameWithType: "IPartnerComponentString"
   fullName: "com.microsoft.store.partnercenter.IPartnerComponentString"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations<com.microsoft.store.partnercenter.models.invoices.InvoiceSummary>"
-  isExternal: true
   name: "IEntityGetOperations<InvoiceSummary>"
   nameWithType: "IEntityGetOperations<InvoiceSummary>"
   fullName: "com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations<com.microsoft.store.partnercenter.models.invoices.InvoiceSummary>"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations"
-  isExternal: true
   name: "IEntityGetOperations"
   nameWithType: "IEntityGetOperations"
   fullName: "com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations"

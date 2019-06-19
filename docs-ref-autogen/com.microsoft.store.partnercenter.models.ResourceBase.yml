@@ -75,12 +75,10 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.ResourceBase.ResourceBase"
   package: "com.microsoft.store.partnercenter.models"
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"
 - uid: "com.microsoft.store.partnercenter.models.ResourceAttributes"
-  isExternal: true
   name: "ResourceAttributes"
   nameWithType: "ResourceAttributes"
   fullName: "com.microsoft.store.partnercenter.models.ResourceAttributes"

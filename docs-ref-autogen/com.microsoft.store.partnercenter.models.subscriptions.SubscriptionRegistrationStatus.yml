@@ -103,7 +103,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.subscriptions.SubscriptionRegistrationStatus.SubscriptionRegistrationStatus"
   package: "com.microsoft.store.partnercenter.models.subscriptions"
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"
@@ -128,7 +127,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.subscriptions.SubscriptionRegistrationStatus.setStatus"
   package: "com.microsoft.store.partnercenter.models.subscriptions"
 - uid: "com.microsoft.store.partnercenter.models.ResourceBase"
-  isExternal: true
   name: "ResourceBase"
   nameWithType: "ResourceBase"
   fullName: "com.microsoft.store.partnercenter.models.ResourceBase"

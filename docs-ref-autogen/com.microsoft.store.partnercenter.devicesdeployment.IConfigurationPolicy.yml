@@ -76,7 +76,6 @@ items:
     content: "public abstract void delete()"
 references:
 - uid: "com.microsoft.store.partnercenter.models.devicesdeployment.ConfigurationPolicy"
-  isExternal: true
   name: "ConfigurationPolicy"
   nameWithType: "ConfigurationPolicy"
   fullName: "com.microsoft.store.partnercenter.models.devicesdeployment.ConfigurationPolicy"
@@ -96,52 +95,42 @@ references:
   fullName: "com.microsoft.store.partnercenter.devicesdeployment.IConfigurationPolicy.delete"
   package: "com.microsoft.store.partnercenter.devicesdeployment"
 - uid: "com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>"
-  isExternal: true
   name: "IPartnerComponent<Tuple<String,String>>"
   nameWithType: "IPartnerComponent<Tuple<String,String>>"
   fullName: "com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntityDeleteOperations<com.microsoft.store.partnercenter.models.devicesdeployment.ConfigurationPolicy>"
-  isExternal: true
   name: "IEntityDeleteOperations<ConfigurationPolicy>"
   nameWithType: "IEntityDeleteOperations<ConfigurationPolicy>"
   fullName: "com.microsoft.store.partnercenter.genericoperations.IEntityDeleteOperations<com.microsoft.store.partnercenter.models.devicesdeployment.ConfigurationPolicy>"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntityPatchOperations<com.microsoft.store.partnercenter.models.devicesdeployment.ConfigurationPolicy>"
-  isExternal: true
   name: "IEntityPatchOperations<ConfigurationPolicy>"
   nameWithType: "IEntityPatchOperations<ConfigurationPolicy>"
   fullName: "com.microsoft.store.partnercenter.genericoperations.IEntityPatchOperations<com.microsoft.store.partnercenter.models.devicesdeployment.ConfigurationPolicy>"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations<com.microsoft.store.partnercenter.models.devicesdeployment.ConfigurationPolicy>"
-  isExternal: true
   name: "IEntityGetOperations<ConfigurationPolicy>"
   nameWithType: "IEntityGetOperations<ConfigurationPolicy>"
   fullName: "com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations<com.microsoft.store.partnercenter.models.devicesdeployment.ConfigurationPolicy>"
 - uid: "com.microsoft.store.partnercenter.IPartnerComponent"
-  isExternal: true
   name: "IPartnerComponent"
   nameWithType: "IPartnerComponent"
   fullName: "com.microsoft.store.partnercenter.IPartnerComponent"
 - uid: "com.microsoft.store.partnercenter.models.utils.Tuple"
-  isExternal: true
   name: "Tuple"
   nameWithType: "Tuple"
   fullName: "com.microsoft.store.partnercenter.models.utils.Tuple"
 - uid: "java.lang.String,java.lang.String"
-  isExternal: true
   name: "String,String"
   nameWithType: "String,String"
   fullName: "java.lang.String,java.lang.String"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntityDeleteOperations"
-  isExternal: true
   name: "IEntityDeleteOperations"
   nameWithType: "IEntityDeleteOperations"
   fullName: "com.microsoft.store.partnercenter.genericoperations.IEntityDeleteOperations"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntityPatchOperations"
-  isExternal: true
   name: "IEntityPatchOperations"
   nameWithType: "IEntityPatchOperations"
   fullName: "com.microsoft.store.partnercenter.genericoperations.IEntityPatchOperations"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations"
-  isExternal: true
   name: "IEntityGetOperations"
   nameWithType: "IEntityGetOperations"
   fullName: "com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations"

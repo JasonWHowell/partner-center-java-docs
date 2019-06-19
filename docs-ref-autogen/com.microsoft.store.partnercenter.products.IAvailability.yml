@@ -37,7 +37,6 @@ items:
       description: "The availability information."
 references:
 - uid: "com.microsoft.store.partnercenter.models.products.Availability"
-  isExternal: true
   name: "Availability"
   nameWithType: "Availability"
   fullName: "com.microsoft.store.partnercenter.models.products.Availability"
@@ -47,32 +46,26 @@ references:
   fullName: "com.microsoft.store.partnercenter.products.IAvailability.get"
   package: "com.microsoft.store.partnercenter.products"
 - uid: "com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.QuadrupleTuple<java.lang.String,java.lang.String,java.lang.String,java.lang.String>>"
-  isExternal: true
   name: "IPartnerComponent<QuadrupleTuple<String,String,String,String>>"
   nameWithType: "IPartnerComponent<QuadrupleTuple<String,String,String,String>>"
   fullName: "com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.QuadrupleTuple<java.lang.String,java.lang.String,java.lang.String,java.lang.String>>"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations<com.microsoft.store.partnercenter.models.products.Availability>"
-  isExternal: true
   name: "IEntityGetOperations<Availability>"
   nameWithType: "IEntityGetOperations<Availability>"
   fullName: "com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations<com.microsoft.store.partnercenter.models.products.Availability>"
 - uid: "java.lang.String,java.lang.String,java.lang.String,java.lang.String"
-  isExternal: true
   name: "String,String,String,String"
   nameWithType: "String,String,String,String"
   fullName: "java.lang.String,java.lang.String,java.lang.String,java.lang.String"
 - uid: "com.microsoft.store.partnercenter.IPartnerComponent"
-  isExternal: true
   name: "IPartnerComponent"
   nameWithType: "IPartnerComponent"
   fullName: "com.microsoft.store.partnercenter.IPartnerComponent"
 - uid: "com.microsoft.store.partnercenter.models.utils.QuadrupleTuple"
-  isExternal: true
   name: "QuadrupleTuple"
   nameWithType: "QuadrupleTuple"
   fullName: "com.microsoft.store.partnercenter.models.utils.QuadrupleTuple"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations"
-  isExternal: true
   name: "IEntityGetOperations"
   nameWithType: "IEntityGetOperations"
   fullName: "com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations"

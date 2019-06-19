@@ -57,7 +57,6 @@ items:
       description: "A list of agreement details."
 references:
 - uid: "com.microsoft.store.partnercenter.IPartner"
-  isExternal: true
   name: "IPartner"
   nameWithType: "IPartner"
   fullName: "com.microsoft.store.partnercenter.IPartner"
@@ -67,7 +66,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.agreements.AgreementDetailsCollectionOperations.AgreementDetailsCollectionOperations"
   package: "com.microsoft.store.partnercenter.agreements"
 - uid: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.agreements.AgreementMetaData>"
-  isExternal: true
   name: "ResourceCollection<AgreementMetaData>"
   nameWithType: "ResourceCollection<AgreementMetaData>"
   fullName: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.agreements.AgreementMetaData>"
@@ -77,22 +75,18 @@ references:
   fullName: "com.microsoft.store.partnercenter.agreements.AgreementDetailsCollectionOperations.get"
   package: "com.microsoft.store.partnercenter.agreements"
 - uid: "com.microsoft.store.partnercenter.BasePartnerComponentString"
-  isExternal: true
   name: "BasePartnerComponentString"
   nameWithType: "BasePartnerComponentString"
   fullName: "com.microsoft.store.partnercenter.BasePartnerComponentString"
 - uid: "com.microsoft.store.partnercenter.agreements.IAgreementDetailsCollection"
-  isExternal: true
   name: "IAgreementDetailsCollection"
   nameWithType: "IAgreementDetailsCollection"
   fullName: "com.microsoft.store.partnercenter.agreements.IAgreementDetailsCollection"
 - uid: "com.microsoft.store.partnercenter.models.agreements.AgreementMetaData"
-  isExternal: true
   name: "AgreementMetaData"
   nameWithType: "AgreementMetaData"
   fullName: "com.microsoft.store.partnercenter.models.agreements.AgreementMetaData"
 - uid: "com.microsoft.store.partnercenter.models.ResourceCollection"
-  isExternal: true
   name: "ResourceCollection"
   nameWithType: "ResourceCollection"
   fullName: "com.microsoft.store.partnercenter.models.ResourceCollection"

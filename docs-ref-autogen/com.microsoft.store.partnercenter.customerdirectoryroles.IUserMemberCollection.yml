@@ -105,12 +105,10 @@ items:
       description: "The directory role user memberships."
 references:
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"
 - uid: "com.microsoft.store.partnercenter.customerdirectoryroles.IUserMember"
-  isExternal: true
   name: "IUserMember"
   nameWithType: "IUserMember"
   fullName: "com.microsoft.store.partnercenter.customerdirectoryroles.IUserMember"
@@ -120,7 +118,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.customerdirectoryroles.IUserMemberCollection.byId"
   package: "com.microsoft.store.partnercenter.customerdirectoryroles"
 - uid: "com.microsoft.store.partnercenter.models.roles.UserMember"
-  isExternal: true
   name: "UserMember"
   nameWithType: "UserMember"
   fullName: "com.microsoft.store.partnercenter.models.roles.UserMember"
@@ -130,12 +127,10 @@ references:
   fullName: "com.microsoft.store.partnercenter.customerdirectoryroles.IUserMemberCollection.create"
   package: "com.microsoft.store.partnercenter.customerdirectoryroles"
 - uid: "com.microsoft.store.partnercenter.models.query.IQuery"
-  isExternal: true
   name: "IQuery"
   nameWithType: "IQuery"
   fullName: "com.microsoft.store.partnercenter.models.query.IQuery"
 - uid: "com.microsoft.store.partnercenter.models.SeekBasedResourceCollection<com.microsoft.store.partnercenter.models.roles.UserMember>"
-  isExternal: true
   name: "SeekBasedResourceCollection<UserMember>"
   nameWithType: "SeekBasedResourceCollection<UserMember>"
   fullName: "com.microsoft.store.partnercenter.models.SeekBasedResourceCollection<com.microsoft.store.partnercenter.models.roles.UserMember>"
@@ -150,72 +145,58 @@ references:
   fullName: "com.microsoft.store.partnercenter.customerdirectoryroles.IUserMemberCollection.get"
   package: "com.microsoft.store.partnercenter.customerdirectoryroles"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations<com.microsoft.store.partnercenter.models.roles.UserMember,com.microsoft.store.partnercenter.models.SeekBasedResourceCollection<com.microsoft.store.partnercenter.models.roles.UserMember>>"
-  isExternal: true
   name: "IEntireEntityCollectionRetrievalOperations<UserMember,SeekBasedResourceCollection<UserMember>>"
   nameWithType: "IEntireEntityCollectionRetrievalOperations<UserMember,SeekBasedResourceCollection<UserMember>>"
   fullName: "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations<com.microsoft.store.partnercenter.models.roles.UserMember,com.microsoft.store.partnercenter.models.SeekBasedResourceCollection<com.microsoft.store.partnercenter.models.roles.UserMember>>"
 - uid: "com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>"
-  isExternal: true
   name: "IPartnerComponent<Tuple<String,String>>"
   nameWithType: "IPartnerComponent<Tuple<String,String>>"
   fullName: "com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations<com.microsoft.store.partnercenter.models.roles.UserMember,com.microsoft.store.partnercenter.models.roles.UserMember>"
-  isExternal: true
   name: "IEntityCreateOperations<UserMember,UserMember>"
   nameWithType: "IEntityCreateOperations<UserMember,UserMember>"
   fullName: "com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations<com.microsoft.store.partnercenter.models.roles.UserMember,com.microsoft.store.partnercenter.models.roles.UserMember>"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntitySelector<java.lang.String,com.microsoft.store.partnercenter.customerdirectoryroles.IUserMember>"
-  isExternal: true
   name: "IEntitySelector<String,IUserMember>"
   nameWithType: "IEntitySelector<String,IUserMember>"
   fullName: "com.microsoft.store.partnercenter.genericoperations.IEntitySelector<java.lang.String,com.microsoft.store.partnercenter.customerdirectoryroles.IUserMember>"
 - uid: "com.microsoft.store.partnercenter.models.SeekBasedResourceCollection"
-  isExternal: true
   name: "SeekBasedResourceCollection"
   nameWithType: "SeekBasedResourceCollection"
   fullName: "com.microsoft.store.partnercenter.models.SeekBasedResourceCollection"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations"
-  isExternal: true
   name: "IEntireEntityCollectionRetrievalOperations"
   nameWithType: "IEntireEntityCollectionRetrievalOperations"
   fullName: "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations"
 - uid: "com.microsoft.store.partnercenter.models.roles.UserMember,com.microsoft.store.partnercenter.models.SeekBasedResourceCollection"
-  isExternal: true
   name: "UserMember,SeekBasedResourceCollection"
   nameWithType: "UserMember,SeekBasedResourceCollection"
   fullName: "com.microsoft.store.partnercenter.models.roles.UserMember,com.microsoft.store.partnercenter.models.SeekBasedResourceCollection"
 - uid: "com.microsoft.store.partnercenter.IPartnerComponent"
-  isExternal: true
   name: "IPartnerComponent"
   nameWithType: "IPartnerComponent"
   fullName: "com.microsoft.store.partnercenter.IPartnerComponent"
 - uid: "com.microsoft.store.partnercenter.models.utils.Tuple"
-  isExternal: true
   name: "Tuple"
   nameWithType: "Tuple"
   fullName: "com.microsoft.store.partnercenter.models.utils.Tuple"
 - uid: "java.lang.String,java.lang.String"
-  isExternal: true
   name: "String,String"
   nameWithType: "String,String"
   fullName: "java.lang.String,java.lang.String"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations"
-  isExternal: true
   name: "IEntityCreateOperations"
   nameWithType: "IEntityCreateOperations"
   fullName: "com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations"
 - uid: "com.microsoft.store.partnercenter.models.roles.UserMember,com.microsoft.store.partnercenter.models.roles.UserMember"
-  isExternal: true
   name: "UserMember,UserMember"
   nameWithType: "UserMember,UserMember"
   fullName: "com.microsoft.store.partnercenter.models.roles.UserMember,com.microsoft.store.partnercenter.models.roles.UserMember"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntitySelector"
-  isExternal: true
   name: "IEntitySelector"
   nameWithType: "IEntitySelector"
   fullName: "com.microsoft.store.partnercenter.genericoperations.IEntitySelector"
 - uid: "java.lang.String,com.microsoft.store.partnercenter.customerdirectoryroles.IUserMember"
-  isExternal: true
   name: "String,IUserMember"
   nameWithType: "String,IUserMember"
   fullName: "java.lang.String,com.microsoft.store.partnercenter.customerdirectoryroles.IUserMember"

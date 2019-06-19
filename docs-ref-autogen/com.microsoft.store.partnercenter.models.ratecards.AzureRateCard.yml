@@ -202,7 +202,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.ratecards.AzureRateCard.AzureRateCard"
   package: "com.microsoft.store.partnercenter.models.ratecards"
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"
@@ -227,7 +226,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.ratecards.AzureRateCard.setCurrency"
   package: "com.microsoft.store.partnercenter.models.ratecards"
 - uid: "boolean"
-  isExternal: true
   name: "boolean"
   nameWithType: "boolean"
   fullName: "boolean"
@@ -242,7 +240,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.ratecards.AzureRateCard.setIsTaxIncluded"
   package: "com.microsoft.store.partnercenter.models.ratecards"
 - uid: "java.lang.Iterable<com.microsoft.store.partnercenter.models.ratecards.AzureMeter>"
-  isExternal: true
   name: "Iterable<AzureMeter>"
   nameWithType: "Iterable<AzureMeter>"
   fullName: "java.lang.Iterable<com.microsoft.store.partnercenter.models.ratecards.AzureMeter>"
@@ -257,7 +254,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.ratecards.AzureRateCard.setMeters"
   package: "com.microsoft.store.partnercenter.models.ratecards"
 - uid: "java.lang.Iterable<com.microsoft.store.partnercenter.models.ratecards.AzureOfferTerm>"
-  isExternal: true
   name: "Iterable<AzureOfferTerm>"
   nameWithType: "Iterable<AzureOfferTerm>"
   fullName: "java.lang.Iterable<com.microsoft.store.partnercenter.models.ratecards.AzureOfferTerm>"
@@ -272,22 +268,18 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.ratecards.AzureRateCard.setOfferTerms"
   package: "com.microsoft.store.partnercenter.models.ratecards"
 - uid: "com.microsoft.store.partnercenter.models.ResourceBase"
-  isExternal: true
   name: "ResourceBase"
   nameWithType: "ResourceBase"
   fullName: "com.microsoft.store.partnercenter.models.ResourceBase"
 - uid: "java.lang.Iterable"
-  isExternal: true
   name: "Iterable"
   nameWithType: "Iterable"
   fullName: "java.lang.Iterable"
 - uid: "com.microsoft.store.partnercenter.models.ratecards.AzureMeter"
-  isExternal: true
   name: "AzureMeter"
   nameWithType: "AzureMeter"
   fullName: "com.microsoft.store.partnercenter.models.ratecards.AzureMeter"
 - uid: "com.microsoft.store.partnercenter.models.ratecards.AzureOfferTerm"
-  isExternal: true
   name: "AzureOfferTerm"
   nameWithType: "AzureOfferTerm"
   fullName: "com.microsoft.store.partnercenter.models.ratecards.AzureOfferTerm"

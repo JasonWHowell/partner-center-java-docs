@@ -127,7 +127,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.orders.Pricing.Pricing"
   package: "com.microsoft.store.partnercenter.models.orders"
 - uid: "java.lang.Double"
-  isExternal: true
   name: "Double"
   nameWithType: "Double"
   fullName: "java.lang.Double"

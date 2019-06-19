@@ -40,12 +40,10 @@ items:
       description: "The service cost operations."
 references:
 - uid: "com.microsoft.store.partnercenter.models.servicecosts.ServiceCostsBillingPeriod"
-  isExternal: true
   name: "ServiceCostsBillingPeriod"
   nameWithType: "ServiceCostsBillingPeriod"
   fullName: "com.microsoft.store.partnercenter.models.servicecosts.ServiceCostsBillingPeriod"
 - uid: "com.microsoft.store.partnercenter.customers.servicecosts.IServiceCostsCollection"
-  isExternal: true
   name: "IServiceCostsCollection"
   nameWithType: "IServiceCostsCollection"
   fullName: "com.microsoft.store.partnercenter.customers.servicecosts.IServiceCostsCollection"
@@ -55,7 +53,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.customers.servicecosts.ICustomerServiceCostsCollection.byBillingPeriod"
   package: "com.microsoft.store.partnercenter.customers.servicecosts"
 - uid: "com.microsoft.store.partnercenter.IPartnerComponentString"
-  isExternal: true
   name: "IPartnerComponentString"
   nameWithType: "IPartnerComponentString"
   fullName: "com.microsoft.store.partnercenter.IPartnerComponentString"

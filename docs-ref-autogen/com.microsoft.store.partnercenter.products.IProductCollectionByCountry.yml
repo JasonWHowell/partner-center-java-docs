@@ -63,12 +63,10 @@ items:
       description: "The product collection operations by country and by target view."
 references:
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"
 - uid: "com.microsoft.store.partnercenter.products.IProduct"
-  isExternal: true
   name: "IProduct"
   nameWithType: "IProduct"
   fullName: "com.microsoft.store.partnercenter.products.IProduct"
@@ -78,7 +76,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.products.IProductCollectionByCountry.byId"
   package: "com.microsoft.store.partnercenter.products"
 - uid: "com.microsoft.store.partnercenter.products.IProductCollectionByCountryByTargetView"
-  isExternal: true
   name: "IProductCollectionByCountryByTargetView"
   nameWithType: "IProductCollectionByCountryByTargetView"
   fullName: "com.microsoft.store.partnercenter.products.IProductCollectionByCountryByTargetView"
@@ -88,22 +85,18 @@ references:
   fullName: "com.microsoft.store.partnercenter.products.IProductCollectionByCountry.byTargetView"
   package: "com.microsoft.store.partnercenter.products"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntitySelector<java.lang.String,com.microsoft.store.partnercenter.products.IProduct>"
-  isExternal: true
   name: "IEntitySelector<String,IProduct>"
   nameWithType: "IEntitySelector<String,IProduct>"
   fullName: "com.microsoft.store.partnercenter.genericoperations.IEntitySelector<java.lang.String,com.microsoft.store.partnercenter.products.IProduct>"
 - uid: "com.microsoft.store.partnercenter.IPartnerComponentString"
-  isExternal: true
   name: "IPartnerComponentString"
   nameWithType: "IPartnerComponentString"
   fullName: "com.microsoft.store.partnercenter.IPartnerComponentString"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntitySelector"
-  isExternal: true
   name: "IEntitySelector"
   nameWithType: "IEntitySelector"
   fullName: "com.microsoft.store.partnercenter.genericoperations.IEntitySelector"
 - uid: "java.lang.String,com.microsoft.store.partnercenter.products.IProduct"
-  isExternal: true
   name: "String,IProduct"
   nameWithType: "String,IProduct"
   fullName: "java.lang.String,com.microsoft.store.partnercenter.products.IProduct"

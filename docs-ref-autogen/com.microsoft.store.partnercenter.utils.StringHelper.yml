@@ -133,12 +133,10 @@ references:
   fullName: "com.microsoft.store.partnercenter.utils.StringHelper.StringHelper"
   package: "com.microsoft.store.partnercenter.utils"
 - uid: "java.io.InputStream"
-  isExternal: true
   name: "InputStream"
   nameWithType: "InputStream"
   fullName: "java.io.InputStream"
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"
@@ -148,7 +146,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.utils.StringHelper.fromInputStream"
   package: "com.microsoft.store.partnercenter.utils"
 - uid: "boolean"
-  isExternal: true
   name: "boolean"
   nameWithType: "boolean"
   fullName: "boolean"

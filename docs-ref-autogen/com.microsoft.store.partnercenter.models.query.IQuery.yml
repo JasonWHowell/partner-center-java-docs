@@ -256,7 +256,6 @@ items:
       description: "The seek operation that needs to be performed."
 references:
 - uid: "com.microsoft.store.partnercenter.models.query.QueryType"
-  isExternal: true
   name: "QueryType"
   nameWithType: "QueryType"
   fullName: "com.microsoft.store.partnercenter.models.query.QueryType"
@@ -266,7 +265,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.query.IQuery.getType"
   package: "com.microsoft.store.partnercenter.models.query"
 - uid: "com.microsoft.store.partnercenter.models.query.filters.FieldFilter"
-  isExternal: true
   name: "FieldFilter"
   nameWithType: "FieldFilter"
   fullName: "com.microsoft.store.partnercenter.models.query.filters.FieldFilter"
@@ -281,7 +279,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.query.IQuery.setFilter"
   package: "com.microsoft.store.partnercenter.models.query"
 - uid: "com.microsoft.store.partnercenter.models.query.sort.Sort"
-  isExternal: true
   name: "Sort"
   nameWithType: "Sort"
   fullName: "com.microsoft.store.partnercenter.models.query.sort.Sort"
@@ -296,7 +293,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.query.IQuery.setSort"
   package: "com.microsoft.store.partnercenter.models.query"
 - uid: "int"
-  isExternal: true
   name: "int"
   nameWithType: "int"
   fullName: "int"
@@ -321,7 +317,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.query.IQuery.setPageSize"
   package: "com.microsoft.store.partnercenter.models.query"
 - uid: "java.lang.Object"
-  isExternal: true
   name: "Object"
   nameWithType: "Object"
   fullName: "java.lang.Object"
@@ -336,7 +331,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.query.IQuery.setToken"
   package: "com.microsoft.store.partnercenter.models.query"
 - uid: "com.microsoft.store.partnercenter.models.query.SeekOperation"
-  isExternal: true
   name: "SeekOperation"
   nameWithType: "SeekOperation"
   fullName: "com.microsoft.store.partnercenter.models.query.SeekOperation"

@@ -57,7 +57,6 @@ items:
       description: "Collection of Support Topic Info."
 references:
 - uid: "com.microsoft.store.partnercenter.IPartner"
-  isExternal: true
   name: "IPartner"
   nameWithType: "IPartner"
   fullName: "com.microsoft.store.partnercenter.IPartner"
@@ -67,7 +66,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.servicerequests.SupportTopicsCollectionOperations.SupportTopicsCollectionOperations"
   package: "com.microsoft.store.partnercenter.servicerequests"
 - uid: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.servicerequests.SupportTopic>"
-  isExternal: true
   name: "ResourceCollection<SupportTopic>"
   nameWithType: "ResourceCollection<SupportTopic>"
   fullName: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.servicerequests.SupportTopic>"
@@ -77,22 +75,18 @@ references:
   fullName: "com.microsoft.store.partnercenter.servicerequests.SupportTopicsCollectionOperations.get"
   package: "com.microsoft.store.partnercenter.servicerequests"
 - uid: "com.microsoft.store.partnercenter.BasePartnerComponentString"
-  isExternal: true
   name: "BasePartnerComponentString"
   nameWithType: "BasePartnerComponentString"
   fullName: "com.microsoft.store.partnercenter.BasePartnerComponentString"
 - uid: "com.microsoft.store.partnercenter.servicerequests.ISupportTopicsCollection"
-  isExternal: true
   name: "ISupportTopicsCollection"
   nameWithType: "ISupportTopicsCollection"
   fullName: "com.microsoft.store.partnercenter.servicerequests.ISupportTopicsCollection"
 - uid: "com.microsoft.store.partnercenter.models.ResourceCollection"
-  isExternal: true
   name: "ResourceCollection"
   nameWithType: "ResourceCollection"
   fullName: "com.microsoft.store.partnercenter.models.ResourceCollection"
 - uid: "com.microsoft.store.partnercenter.models.servicerequests.SupportTopic"
-  isExternal: true
   name: "SupportTopic"
   nameWithType: "SupportTopic"
   fullName: "com.microsoft.store.partnercenter.models.servicerequests.SupportTopic"

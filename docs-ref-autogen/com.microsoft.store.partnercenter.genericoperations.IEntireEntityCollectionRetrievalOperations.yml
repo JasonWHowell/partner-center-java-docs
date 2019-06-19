@@ -37,7 +37,6 @@ items:
       description: "The entities."
 references:
 - uid: "TResourceCollection"
-  isExternal: true
   name: "TResourceCollection"
   nameWithType: "TResourceCollection"
   fullName: "TResourceCollection"

@@ -631,7 +631,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.servicerequests.ServiceRequest.ServiceRequest"
   package: "com.microsoft.store.partnercenter.models.servicerequests"
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"
@@ -666,7 +665,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.servicerequests.ServiceRequest.setDescription"
   package: "com.microsoft.store.partnercenter.models.servicerequests"
 - uid: "com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestSeverity"
-  isExternal: true
   name: "ServiceRequestSeverity"
   nameWithType: "ServiceRequestSeverity"
   fullName: "com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestSeverity"
@@ -701,7 +699,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.servicerequests.ServiceRequest.setSupportTopicName"
   package: "com.microsoft.store.partnercenter.models.servicerequests"
 - uid: "com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestStatus"
-  isExternal: true
   name: "ServiceRequestStatus"
   nameWithType: "ServiceRequestStatus"
   fullName: "com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestStatus"
@@ -716,7 +713,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.servicerequests.ServiceRequest.setStatus"
   package: "com.microsoft.store.partnercenter.models.servicerequests"
 - uid: "com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestOrganization"
-  isExternal: true
   name: "ServiceRequestOrganization"
   nameWithType: "ServiceRequestOrganization"
   fullName: "com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestOrganization"
@@ -731,7 +727,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.servicerequests.ServiceRequest.setOrganization"
   package: "com.microsoft.store.partnercenter.models.servicerequests"
 - uid: "com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestContact"
-  isExternal: true
   name: "ServiceRequestContact"
   nameWithType: "ServiceRequestContact"
   fullName: "com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestContact"
@@ -776,7 +771,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.servicerequests.ServiceRequest.setProductId"
   package: "com.microsoft.store.partnercenter.models.servicerequests"
 - uid: "org.joda.time.DateTime"
-  isExternal: true
   name: "DateTime"
   nameWithType: "DateTime"
   fullName: "org.joda.time.DateTime"
@@ -811,7 +805,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.servicerequests.ServiceRequest.setLastClosedDate"
   package: "com.microsoft.store.partnercenter.models.servicerequests"
 - uid: "com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestNote"
-  isExternal: true
   name: "ServiceRequestNote"
   nameWithType: "ServiceRequestNote"
   fullName: "com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestNote"
@@ -826,7 +819,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.servicerequests.ServiceRequest.setNewNote"
   package: "com.microsoft.store.partnercenter.models.servicerequests"
 - uid: "java.util.Collection<com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestNote>"
-  isExternal: true
   name: "Collection<ServiceRequestNote>"
   nameWithType: "Collection<ServiceRequestNote>"
   fullName: "java.util.Collection<com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestNote>"
@@ -851,12 +843,10 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.servicerequests.ServiceRequest.setCountryCode"
   package: "com.microsoft.store.partnercenter.models.servicerequests"
 - uid: "com.microsoft.store.partnercenter.models.ResourceBase"
-  isExternal: true
   name: "ResourceBase"
   nameWithType: "ResourceBase"
   fullName: "com.microsoft.store.partnercenter.models.ResourceBase"
 - uid: "java.util.Collection"
-  isExternal: true
   name: "Collection"
   nameWithType: "Collection"
   fullName: "java.util.Collection"

@@ -177,7 +177,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidents.ServiceIncidents"
   package: "com.microsoft.store.partnercenter.models.serviceincidents"
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"
@@ -192,7 +191,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidents.setWorkload"
   package: "com.microsoft.store.partnercenter.models.serviceincidents"
 - uid: "java.lang.Iterable<com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidentDetail>"
-  isExternal: true
   name: "Iterable<ServiceIncidentDetail>"
   nameWithType: "Iterable<ServiceIncidentDetail>"
   fullName: "java.lang.Iterable<com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidentDetail>"
@@ -207,7 +205,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidents.setIncidents"
   package: "com.microsoft.store.partnercenter.models.serviceincidents"
 - uid: "com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidentStatus"
-  isExternal: true
   name: "ServiceIncidentStatus"
   nameWithType: "ServiceIncidentStatus"
   fullName: "com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidentStatus"
@@ -232,12 +229,10 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidents.setMessageCenterMessages"
   package: "com.microsoft.store.partnercenter.models.serviceincidents"
 - uid: "com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidentDetail"
-  isExternal: true
   name: "ServiceIncidentDetail"
   nameWithType: "ServiceIncidentDetail"
   fullName: "com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidentDetail"
 - uid: "java.lang.Iterable"
-  isExternal: true
   name: "Iterable"
   nameWithType: "Iterable"
   fullName: "java.lang.Iterable"

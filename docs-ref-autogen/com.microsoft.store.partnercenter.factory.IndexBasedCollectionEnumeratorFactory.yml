@@ -67,12 +67,10 @@ items:
       description: "A customer collection enumerator capable of traversing customers."
 references:
 - uid: "com.microsoft.store.partnercenter.IPartner"
-  isExternal: true
   name: "IPartner"
   nameWithType: "IPartner"
   fullName: "com.microsoft.store.partnercenter.IPartner"
 - uid: "com.fasterxml.jackson.core.type.TypeReference<TResourceCollection>"
-  isExternal: true
   name: "TypeReference<TResourceCollection>"
   nameWithType: "TypeReference<TResourceCollection>"
   fullName: "com.fasterxml.jackson.core.type.TypeReference<TResourceCollection>"
@@ -82,12 +80,10 @@ references:
   fullName: "com.microsoft.store.partnercenter.factory.IndexBasedCollectionEnumeratorFactory<T,TResourceCollection>.IndexBasedCollectionEnumeratorFactory"
   package: "com.microsoft.store.partnercenter.factory"
 - uid: "TResourceCollection"
-  isExternal: true
   name: "TResourceCollection"
   nameWithType: "TResourceCollection"
   fullName: "TResourceCollection"
 - uid: "com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumerator<TResourceCollection>"
-  isExternal: true
   name: "IResourceCollectionEnumerator<TResourceCollection>"
   nameWithType: "IResourceCollectionEnumerator<TResourceCollection>"
   fullName: "com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumerator<TResourceCollection>"
@@ -101,27 +97,22 @@ references:
   nameWithType: "T"
   fullName: "T"
 - uid: "com.microsoft.store.partnercenter.BasePartnerComponentString"
-  isExternal: true
   name: "BasePartnerComponentString"
   nameWithType: "BasePartnerComponentString"
   fullName: "com.microsoft.store.partnercenter.BasePartnerComponentString"
 - uid: "com.microsoft.store.partnercenter.factory.IResourceCollectionEnumeratorFactory<TResourceCollection>"
-  isExternal: true
   name: "IResourceCollectionEnumeratorFactory<TResourceCollection>"
   nameWithType: "IResourceCollectionEnumeratorFactory<TResourceCollection>"
   fullName: "com.microsoft.store.partnercenter.factory.IResourceCollectionEnumeratorFactory<TResourceCollection>"
 - uid: "com.fasterxml.jackson.core.type.TypeReference"
-  isExternal: true
   name: "TypeReference"
   nameWithType: "TypeReference"
   fullName: "com.fasterxml.jackson.core.type.TypeReference"
 - uid: "com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumerator"
-  isExternal: true
   name: "IResourceCollectionEnumerator"
   nameWithType: "IResourceCollectionEnumerator"
   fullName: "com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumerator"
 - uid: "com.microsoft.store.partnercenter.factory.IResourceCollectionEnumeratorFactory"
-  isExternal: true
   name: "IResourceCollectionEnumeratorFactory"
   nameWithType: "IResourceCollectionEnumeratorFactory"
   fullName: "com.microsoft.store.partnercenter.factory.IResourceCollectionEnumeratorFactory"

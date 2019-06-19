@@ -103,7 +103,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.devicesdeployment.DeviceBatchCreationRequest.DeviceBatchCreationRequest"
   package: "com.microsoft.store.partnercenter.models.devicesdeployment"
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"
@@ -118,7 +117,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.devicesdeployment.DeviceBatchCreationRequest.setBatchId"
   package: "com.microsoft.store.partnercenter.models.devicesdeployment"
 - uid: "java.util.List<com.microsoft.store.partnercenter.models.devicesdeployment.Device>"
-  isExternal: true
   name: "List<Device>"
   nameWithType: "List<Device>"
   fullName: "java.util.List<com.microsoft.store.partnercenter.models.devicesdeployment.Device>"
@@ -133,17 +131,14 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.devicesdeployment.DeviceBatchCreationRequest.setDevices"
   package: "com.microsoft.store.partnercenter.models.devicesdeployment"
 - uid: "com.microsoft.store.partnercenter.models.ResourceBase"
-  isExternal: true
   name: "ResourceBase"
   nameWithType: "ResourceBase"
   fullName: "com.microsoft.store.partnercenter.models.ResourceBase"
 - uid: "java.util.List"
-  isExternal: true
   name: "List"
   nameWithType: "List"
   fullName: "java.util.List"
 - uid: "com.microsoft.store.partnercenter.models.devicesdeployment.Device"
-  isExternal: true
   name: "Device"
   nameWithType: "Device"
   fullName: "com.microsoft.store.partnercenter.models.devicesdeployment.Device"

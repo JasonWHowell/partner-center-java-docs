@@ -63,12 +63,10 @@ items:
       description: "The collection of entitlements for the customer."
 references:
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations<com.microsoft.store.partnercenter.models.entitlements.Entitlement,com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.entitlements.Entitlement>>"
-  isExternal: true
   name: "IEntireEntityCollectionRetrievalOperations<Entitlement,ResourceCollection<Entitlement>>"
   nameWithType: "IEntireEntityCollectionRetrievalOperations<Entitlement,ResourceCollection<Entitlement>>"
   fullName: "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations<com.microsoft.store.partnercenter.models.entitlements.Entitlement,com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.entitlements.Entitlement>>"
@@ -78,12 +76,10 @@ references:
   fullName: "com.microsoft.store.partnercenter.entitlements.IEntitlementCollection.byEntitlementType"
   package: "com.microsoft.store.partnercenter.entitlements"
 - uid: "java.lang.Boolean"
-  isExternal: true
   name: "Boolean"
   nameWithType: "Boolean"
   fullName: "java.lang.Boolean"
 - uid: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.entitlements.Entitlement>"
-  isExternal: true
   name: "ResourceCollection<Entitlement>"
   nameWithType: "ResourceCollection<Entitlement>"
   fullName: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.entitlements.Entitlement>"
@@ -93,27 +89,22 @@ references:
   fullName: "com.microsoft.store.partnercenter.entitlements.IEntitlementCollection.get"
   package: "com.microsoft.store.partnercenter.entitlements"
 - uid: "com.microsoft.store.partnercenter.IPartnerComponentString"
-  isExternal: true
   name: "IPartnerComponentString"
   nameWithType: "IPartnerComponentString"
   fullName: "com.microsoft.store.partnercenter.IPartnerComponentString"
 - uid: "com.microsoft.store.partnercenter.models.entitlements.Entitlement,com.microsoft.store.partnercenter.models.ResourceCollection"
-  isExternal: true
   name: "Entitlement,ResourceCollection"
   nameWithType: "Entitlement,ResourceCollection"
   fullName: "com.microsoft.store.partnercenter.models.entitlements.Entitlement,com.microsoft.store.partnercenter.models.ResourceCollection"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations"
-  isExternal: true
   name: "IEntireEntityCollectionRetrievalOperations"
   nameWithType: "IEntireEntityCollectionRetrievalOperations"
   fullName: "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations"
 - uid: "com.microsoft.store.partnercenter.models.entitlements.Entitlement"
-  isExternal: true
   name: "Entitlement"
   nameWithType: "Entitlement"
   fullName: "com.microsoft.store.partnercenter.models.entitlements.Entitlement"
 - uid: "com.microsoft.store.partnercenter.models.ResourceCollection"
-  isExternal: true
   name: "ResourceCollection"
   nameWithType: "ResourceCollection"
   fullName: "com.microsoft.store.partnercenter.models.ResourceCollection"

@@ -279,12 +279,10 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.query.BaseQuery.BaseQuery"
   package: "com.microsoft.store.partnercenter.models.query"
 - uid: "java.lang.Object"
-  isExternal: true
   name: "Object"
   nameWithType: "Object"
   fullName: "java.lang.Object"
 - uid: "com.microsoft.store.partnercenter.models.query.QueryType"
-  isExternal: true
   name: "QueryType"
   nameWithType: "QueryType"
   fullName: "com.microsoft.store.partnercenter.models.query.QueryType"
@@ -294,7 +292,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.query.BaseQuery.getType"
   package: "com.microsoft.store.partnercenter.models.query"
 - uid: "com.microsoft.store.partnercenter.models.query.filters.FieldFilter"
-  isExternal: true
   name: "FieldFilter"
   nameWithType: "FieldFilter"
   fullName: "com.microsoft.store.partnercenter.models.query.filters.FieldFilter"
@@ -309,7 +306,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.query.BaseQuery.setFilter"
   package: "com.microsoft.store.partnercenter.models.query"
 - uid: "com.microsoft.store.partnercenter.models.query.sort.Sort"
-  isExternal: true
   name: "Sort"
   nameWithType: "Sort"
   fullName: "com.microsoft.store.partnercenter.models.query.sort.Sort"
@@ -324,7 +320,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.query.BaseQuery.setSort"
   package: "com.microsoft.store.partnercenter.models.query"
 - uid: "int"
-  isExternal: true
   name: "int"
   nameWithType: "int"
   fullName: "int"
@@ -359,7 +354,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.query.BaseQuery.setToken"
   package: "com.microsoft.store.partnercenter.models.query"
 - uid: "com.microsoft.store.partnercenter.models.query.SeekOperation"
-  isExternal: true
   name: "SeekOperation"
   nameWithType: "SeekOperation"
   fullName: "com.microsoft.store.partnercenter.models.query.SeekOperation"
@@ -374,7 +368,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.query.BaseQuery.setSeekOperation"
   package: "com.microsoft.store.partnercenter.models.query"
 - uid: "com.microsoft.store.partnercenter.models.query.IQuery"
-  isExternal: true
   name: "IQuery"
   nameWithType: "IQuery"
   fullName: "com.microsoft.store.partnercenter.models.query.IQuery"

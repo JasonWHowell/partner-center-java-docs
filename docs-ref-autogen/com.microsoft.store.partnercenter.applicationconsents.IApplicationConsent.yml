@@ -39,37 +39,30 @@ references:
   fullName: "com.microsoft.store.partnercenter.applicationconsents.IApplicationConsent.delete"
   package: "com.microsoft.store.partnercenter.applicationconsents"
 - uid: "com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>"
-  isExternal: true
   name: "IPartnerComponent<Tuple<String,String>>"
   nameWithType: "IPartnerComponent<Tuple<String,String>>"
   fullName: "com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntityDeleteOperations<com.microsoft.store.partnercenter.models.applicationconsents.ApplicationConsent>"
-  isExternal: true
   name: "IEntityDeleteOperations<ApplicationConsent>"
   nameWithType: "IEntityDeleteOperations<ApplicationConsent>"
   fullName: "com.microsoft.store.partnercenter.genericoperations.IEntityDeleteOperations<com.microsoft.store.partnercenter.models.applicationconsents.ApplicationConsent>"
 - uid: "com.microsoft.store.partnercenter.IPartnerComponent"
-  isExternal: true
   name: "IPartnerComponent"
   nameWithType: "IPartnerComponent"
   fullName: "com.microsoft.store.partnercenter.IPartnerComponent"
 - uid: "com.microsoft.store.partnercenter.models.utils.Tuple"
-  isExternal: true
   name: "Tuple"
   nameWithType: "Tuple"
   fullName: "com.microsoft.store.partnercenter.models.utils.Tuple"
 - uid: "java.lang.String,java.lang.String"
-  isExternal: true
   name: "String,String"
   nameWithType: "String,String"
   fullName: "java.lang.String,java.lang.String"
 - uid: "com.microsoft.store.partnercenter.models.applicationconsents.ApplicationConsent"
-  isExternal: true
   name: "ApplicationConsent"
   nameWithType: "ApplicationConsent"
   fullName: "com.microsoft.store.partnercenter.models.applicationconsents.ApplicationConsent"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntityDeleteOperations"
-  isExternal: true
   name: "IEntityDeleteOperations"
   nameWithType: "IEntityDeleteOperations"
   fullName: "com.microsoft.store.partnercenter.genericoperations.IEntityDeleteOperations"

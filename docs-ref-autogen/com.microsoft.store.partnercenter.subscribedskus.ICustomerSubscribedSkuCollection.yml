@@ -59,7 +59,6 @@ items:
       description: "All the customer subscribed products."
 references:
 - uid: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.licenses.SubscribedSku>"
-  isExternal: true
   name: "ResourceCollection<SubscribedSku>"
   nameWithType: "ResourceCollection<SubscribedSku>"
   fullName: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.licenses.SubscribedSku>"
@@ -69,47 +68,38 @@ references:
   fullName: "com.microsoft.store.partnercenter.subscribedskus.ICustomerSubscribedSkuCollection.get"
   package: "com.microsoft.store.partnercenter.subscribedskus"
 - uid: "java.util.List<com.microsoft.store.partnercenter.models.licenses.LicenseGroupId>"
-  isExternal: true
   name: "List<LicenseGroupId>"
   nameWithType: "List<LicenseGroupId>"
   fullName: "java.util.List<com.microsoft.store.partnercenter.models.licenses.LicenseGroupId>"
 - uid: "com.microsoft.store.partnercenter.IPartnerComponentString"
-  isExternal: true
   name: "IPartnerComponentString"
   nameWithType: "IPartnerComponentString"
   fullName: "com.microsoft.store.partnercenter.IPartnerComponentString"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations<com.microsoft.store.partnercenter.models.licenses.SubscribedSku,com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.licenses.SubscribedSku>>"
-  isExternal: true
   name: "IEntireEntityCollectionRetrievalOperations<SubscribedSku,ResourceCollection<SubscribedSku>>"
   nameWithType: "IEntireEntityCollectionRetrievalOperations<SubscribedSku,ResourceCollection<SubscribedSku>>"
   fullName: "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations<com.microsoft.store.partnercenter.models.licenses.SubscribedSku,com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.licenses.SubscribedSku>>"
 - uid: "com.microsoft.store.partnercenter.models.ResourceCollection"
-  isExternal: true
   name: "ResourceCollection"
   nameWithType: "ResourceCollection"
   fullName: "com.microsoft.store.partnercenter.models.ResourceCollection"
 - uid: "com.microsoft.store.partnercenter.models.licenses.SubscribedSku"
-  isExternal: true
   name: "SubscribedSku"
   nameWithType: "SubscribedSku"
   fullName: "com.microsoft.store.partnercenter.models.licenses.SubscribedSku"
 - uid: "java.util.List"
-  isExternal: true
   name: "List"
   nameWithType: "List"
   fullName: "java.util.List"
 - uid: "com.microsoft.store.partnercenter.models.licenses.LicenseGroupId"
-  isExternal: true
   name: "LicenseGroupId"
   nameWithType: "LicenseGroupId"
   fullName: "com.microsoft.store.partnercenter.models.licenses.LicenseGroupId"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations"
-  isExternal: true
   name: "IEntireEntityCollectionRetrievalOperations"
   nameWithType: "IEntireEntityCollectionRetrievalOperations"
   fullName: "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations"
 - uid: "com.microsoft.store.partnercenter.models.licenses.SubscribedSku,com.microsoft.store.partnercenter.models.ResourceCollection"
-  isExternal: true
   name: "SubscribedSku,ResourceCollection"
   nameWithType: "SubscribedSku,ResourceCollection"
   fullName: "com.microsoft.store.partnercenter.models.licenses.SubscribedSku,com.microsoft.store.partnercenter.models.ResourceCollection"

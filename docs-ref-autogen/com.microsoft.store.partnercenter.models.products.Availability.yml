@@ -379,7 +379,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.products.Availability.Availability"
   package: "com.microsoft.store.partnercenter.models.products"
 - uid: "boolean"
-  isExternal: true
   name: "boolean"
   nameWithType: "boolean"
   fullName: "boolean"
@@ -404,7 +403,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.products.Availability.setIsRenewable"
   package: "com.microsoft.store.partnercenter.models.products"
 - uid: "java.lang.Iterable<com.microsoft.store.partnercenter.models.products.AvailabilityTerm>"
-  isExternal: true
   name: "Iterable<AvailabilityTerm>"
   nameWithType: "Iterable<AvailabilityTerm>"
   fullName: "java.lang.Iterable<com.microsoft.store.partnercenter.models.products.AvailabilityTerm>"
@@ -419,7 +417,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.products.Availability.setTerms"
   package: "com.microsoft.store.partnercenter.models.products"
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"
@@ -464,7 +461,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.products.Availability.setCatalogItemId"
   package: "com.microsoft.store.partnercenter.models.products"
 - uid: "com.microsoft.store.partnercenter.models.products.CurrencyInfo"
-  isExternal: true
   name: "CurrencyInfo"
   nameWithType: "CurrencyInfo"
   fullName: "com.microsoft.store.partnercenter.models.products.CurrencyInfo"
@@ -499,27 +495,22 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.products.Availability.setCountry"
   package: "com.microsoft.store.partnercenter.models.products"
 - uid: "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks<com.microsoft.store.partnercenter.models.StandardResourceLinks>"
-  isExternal: true
   name: "ResourceBaseWithLinks<StandardResourceLinks>"
   nameWithType: "ResourceBaseWithLinks<StandardResourceLinks>"
   fullName: "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks<com.microsoft.store.partnercenter.models.StandardResourceLinks>"
 - uid: "com.microsoft.store.partnercenter.models.products.AvailabilityTerm"
-  isExternal: true
   name: "AvailabilityTerm"
   nameWithType: "AvailabilityTerm"
   fullName: "com.microsoft.store.partnercenter.models.products.AvailabilityTerm"
 - uid: "java.lang.Iterable"
-  isExternal: true
   name: "Iterable"
   nameWithType: "Iterable"
   fullName: "java.lang.Iterable"
 - uid: "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks"
-  isExternal: true
   name: "ResourceBaseWithLinks"
   nameWithType: "ResourceBaseWithLinks"
   fullName: "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks"
 - uid: "com.microsoft.store.partnercenter.models.StandardResourceLinks"
-  isExternal: true
   name: "StandardResourceLinks"
   nameWithType: "StandardResourceLinks"
   fullName: "com.microsoft.store.partnercenter.models.StandardResourceLinks"

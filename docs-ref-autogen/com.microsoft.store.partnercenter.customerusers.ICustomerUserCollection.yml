@@ -104,12 +104,10 @@ items:
       description: "All the customer users."
 references:
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"
 - uid: "com.microsoft.store.partnercenter.customerusers.ICustomerUser"
-  isExternal: true
   name: "ICustomerUser"
   nameWithType: "ICustomerUser"
   fullName: "com.microsoft.store.partnercenter.customerusers.ICustomerUser"
@@ -119,12 +117,10 @@ references:
   fullName: "com.microsoft.store.partnercenter.customerusers.ICustomerUserCollection.byId"
   package: "com.microsoft.store.partnercenter.customerusers"
 - uid: "com.microsoft.store.partnercenter.models.query.IQuery"
-  isExternal: true
   name: "IQuery"
   nameWithType: "IQuery"
   fullName: "com.microsoft.store.partnercenter.models.query.IQuery"
 - uid: "com.microsoft.store.partnercenter.models.SeekBasedResourceCollection<com.microsoft.store.partnercenter.models.users.CustomerUser>"
-  isExternal: true
   name: "SeekBasedResourceCollection<CustomerUser>"
   nameWithType: "SeekBasedResourceCollection<CustomerUser>"
   fullName: "com.microsoft.store.partnercenter.models.SeekBasedResourceCollection<com.microsoft.store.partnercenter.models.users.CustomerUser>"
@@ -134,7 +130,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.customerusers.ICustomerUserCollection.query"
   package: "com.microsoft.store.partnercenter.customerusers"
 - uid: "com.microsoft.store.partnercenter.models.users.CustomerUser"
-  isExternal: true
   name: "CustomerUser"
   nameWithType: "CustomerUser"
   fullName: "com.microsoft.store.partnercenter.models.users.CustomerUser"
@@ -149,42 +144,34 @@ references:
   fullName: "com.microsoft.store.partnercenter.customerusers.ICustomerUserCollection.get"
   package: "com.microsoft.store.partnercenter.customerusers"
 - uid: "com.microsoft.store.partnercenter.IPartnerComponentString"
-  isExternal: true
   name: "IPartnerComponentString"
   nameWithType: "IPartnerComponentString"
   fullName: "com.microsoft.store.partnercenter.IPartnerComponentString"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations<com.microsoft.store.partnercenter.models.users.CustomerUser,com.microsoft.store.partnercenter.models.SeekBasedResourceCollection<com.microsoft.store.partnercenter.models.users.CustomerUser>>"
-  isExternal: true
   name: "IEntireEntityCollectionRetrievalOperations<CustomerUser,SeekBasedResourceCollection<CustomerUser>>"
   nameWithType: "IEntireEntityCollectionRetrievalOperations<CustomerUser,SeekBasedResourceCollection<CustomerUser>>"
   fullName: "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations<com.microsoft.store.partnercenter.models.users.CustomerUser,com.microsoft.store.partnercenter.models.SeekBasedResourceCollection<com.microsoft.store.partnercenter.models.users.CustomerUser>>"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations<com.microsoft.store.partnercenter.models.users.CustomerUser,com.microsoft.store.partnercenter.models.users.CustomerUser>"
-  isExternal: true
   name: "IEntityCreateOperations<CustomerUser,CustomerUser>"
   nameWithType: "IEntityCreateOperations<CustomerUser,CustomerUser>"
   fullName: "com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations<com.microsoft.store.partnercenter.models.users.CustomerUser,com.microsoft.store.partnercenter.models.users.CustomerUser>"
 - uid: "com.microsoft.store.partnercenter.models.SeekBasedResourceCollection"
-  isExternal: true
   name: "SeekBasedResourceCollection"
   nameWithType: "SeekBasedResourceCollection"
   fullName: "com.microsoft.store.partnercenter.models.SeekBasedResourceCollection"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations"
-  isExternal: true
   name: "IEntireEntityCollectionRetrievalOperations"
   nameWithType: "IEntireEntityCollectionRetrievalOperations"
   fullName: "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations"
 - uid: "com.microsoft.store.partnercenter.models.users.CustomerUser,com.microsoft.store.partnercenter.models.SeekBasedResourceCollection"
-  isExternal: true
   name: "CustomerUser,SeekBasedResourceCollection"
   nameWithType: "CustomerUser,SeekBasedResourceCollection"
   fullName: "com.microsoft.store.partnercenter.models.users.CustomerUser,com.microsoft.store.partnercenter.models.SeekBasedResourceCollection"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations"
-  isExternal: true
   name: "IEntityCreateOperations"
   nameWithType: "IEntityCreateOperations"
   fullName: "com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations"
 - uid: "com.microsoft.store.partnercenter.models.users.CustomerUser,com.microsoft.store.partnercenter.models.users.CustomerUser"
-  isExternal: true
   name: "CustomerUser,CustomerUser"
   nameWithType: "CustomerUser,CustomerUser"
   fullName: "com.microsoft.store.partnercenter.models.users.CustomerUser,com.microsoft.store.partnercenter.models.users.CustomerUser"

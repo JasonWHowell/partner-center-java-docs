@@ -58,7 +58,6 @@ items:
       description: "true if the address is valid, false otherwise."
 references:
 - uid: "java.util.List<com.microsoft.store.partnercenter.models.validationcodes.ValidationCode>"
-  isExternal: true
   name: "List<ValidationCode>"
   nameWithType: "List<ValidationCode>"
   fullName: "java.util.List<com.microsoft.store.partnercenter.models.validationcodes.ValidationCode>"
@@ -68,12 +67,10 @@ references:
   fullName: "com.microsoft.store.partnercenter.validations.IValidationOperations.getValidationCodes"
   package: "com.microsoft.store.partnercenter.validations"
 - uid: "com.microsoft.store.partnercenter.models.Address"
-  isExternal: true
   name: "Address"
   nameWithType: "Address"
   fullName: "com.microsoft.store.partnercenter.models.Address"
 - uid: "java.lang.Boolean"
-  isExternal: true
   name: "Boolean"
   nameWithType: "Boolean"
   fullName: "java.lang.Boolean"
@@ -83,17 +80,14 @@ references:
   fullName: "com.microsoft.store.partnercenter.validations.IValidationOperations.isAddressValid"
   package: "com.microsoft.store.partnercenter.validations"
 - uid: "com.microsoft.store.partnercenter.IPartnerComponentString"
-  isExternal: true
   name: "IPartnerComponentString"
   nameWithType: "IPartnerComponentString"
   fullName: "com.microsoft.store.partnercenter.IPartnerComponentString"
 - uid: "java.util.List"
-  isExternal: true
   name: "List"
   nameWithType: "List"
   fullName: "java.util.List"
 - uid: "com.microsoft.store.partnercenter.models.validationcodes.ValidationCode"
-  isExternal: true
   name: "ValidationCode"
   nameWithType: "ValidationCode"
   fullName: "com.microsoft.store.partnercenter.models.validationcodes.ValidationCode"

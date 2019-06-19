@@ -730,7 +730,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.validations.CountryInformation.CountryInformation"
   package: "com.microsoft.store.partnercenter.models.validations"
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"
@@ -775,7 +774,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.validations.CountryInformation.setDefaultCulture"
   package: "com.microsoft.store.partnercenter.models.validations"
 - uid: "java.lang.Boolean"
-  isExternal: true
   name: "Boolean"
   nameWithType: "Boolean"
   fullName: "java.lang.Boolean"
@@ -790,7 +788,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.validations.CountryInformation.setIsStateRequired"
   package: "com.microsoft.store.partnercenter.models.validations"
 - uid: "java.lang.Iterable<java.lang.String>"
-  isExternal: true
   name: "Iterable<String>"
   nameWithType: "Iterable<String>"
   fullName: "java.lang.Iterable<java.lang.String>"
@@ -955,12 +952,10 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.validations.CountryInformation.setCountryCallingCodesList"
   package: "com.microsoft.store.partnercenter.models.validations"
 - uid: "com.microsoft.store.partnercenter.models.ResourceBase"
-  isExternal: true
   name: "ResourceBase"
   nameWithType: "ResourceBase"
   fullName: "com.microsoft.store.partnercenter.models.ResourceBase"
 - uid: "java.lang.Iterable"
-  isExternal: true
   name: "Iterable"
   nameWithType: "Iterable"
   fullName: "java.lang.Iterable"

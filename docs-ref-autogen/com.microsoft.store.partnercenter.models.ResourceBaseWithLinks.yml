@@ -91,7 +91,6 @@ items:
       description: "The links."
 references:
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"
@@ -101,7 +100,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks<TLinks>.ResourceBaseWithLinks"
   package: "com.microsoft.store.partnercenter.models"
 - uid: "TLinks"
-  isExternal: true
   name: "TLinks"
   nameWithType: "TLinks"
   fullName: "TLinks"
@@ -116,7 +114,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks<TLinks>.setLinks"
   package: "com.microsoft.store.partnercenter.models"
 - uid: "com.microsoft.store.partnercenter.models.ResourceBase"
-  isExternal: true
   name: "ResourceBase"
   nameWithType: "ResourceBase"
   fullName: "com.microsoft.store.partnercenter.models.ResourceBase"

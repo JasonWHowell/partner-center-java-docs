@@ -61,7 +61,6 @@ items:
       description: "The product collection operations by country."
 references:
 - uid: "com.microsoft.store.partnercenter.IPartner"
-  isExternal: true
   name: "IPartner"
   nameWithType: "IPartner"
   fullName: "com.microsoft.store.partnercenter.IPartner"
@@ -71,12 +70,10 @@ references:
   fullName: "com.microsoft.store.partnercenter.products.ProductCollectionOperations.ProductCollectionOperations"
   package: "com.microsoft.store.partnercenter.products"
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"
 - uid: "com.microsoft.store.partnercenter.products.IProductCollectionByCountry"
-  isExternal: true
   name: "IProductCollectionByCountry"
   nameWithType: "IProductCollectionByCountry"
   fullName: "com.microsoft.store.partnercenter.products.IProductCollectionByCountry"
@@ -86,12 +83,10 @@ references:
   fullName: "com.microsoft.store.partnercenter.products.ProductCollectionOperations.byCountry"
   package: "com.microsoft.store.partnercenter.products"
 - uid: "com.microsoft.store.partnercenter.BasePartnerComponentString"
-  isExternal: true
   name: "BasePartnerComponentString"
   nameWithType: "BasePartnerComponentString"
   fullName: "com.microsoft.store.partnercenter.BasePartnerComponentString"
 - uid: "com.microsoft.store.partnercenter.products.IProductCollection"
-  isExternal: true
   name: "IProductCollection"
   nameWithType: "IProductCollection"
   fullName: "com.microsoft.store.partnercenter.products.IProductCollection"

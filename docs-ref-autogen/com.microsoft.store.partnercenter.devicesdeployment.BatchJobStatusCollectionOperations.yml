@@ -64,12 +64,10 @@ items:
       description: "The customer's devices batch upload status operations."
 references:
 - uid: "com.microsoft.store.partnercenter.IPartner"
-  isExternal: true
   name: "IPartner"
   nameWithType: "IPartner"
   fullName: "com.microsoft.store.partnercenter.IPartner"
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"
@@ -79,7 +77,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.devicesdeployment.BatchJobStatusCollectionOperations.BatchJobStatusCollectionOperations"
   package: "com.microsoft.store.partnercenter.devicesdeployment"
 - uid: "com.microsoft.store.partnercenter.devicesdeployment.IBatchJobStatus"
-  isExternal: true
   name: "IBatchJobStatus"
   nameWithType: "IBatchJobStatus"
   fullName: "com.microsoft.store.partnercenter.devicesdeployment.IBatchJobStatus"
@@ -89,12 +86,10 @@ references:
   fullName: "com.microsoft.store.partnercenter.devicesdeployment.BatchJobStatusCollectionOperations.byId"
   package: "com.microsoft.store.partnercenter.devicesdeployment"
 - uid: "com.microsoft.store.partnercenter.BasePartnerComponentString"
-  isExternal: true
   name: "BasePartnerComponentString"
   nameWithType: "BasePartnerComponentString"
   fullName: "com.microsoft.store.partnercenter.BasePartnerComponentString"
 - uid: "com.microsoft.store.partnercenter.devicesdeployment.IBatchJobStatusCollection"
-  isExternal: true
   name: "IBatchJobStatusCollection"
   nameWithType: "IBatchJobStatusCollection"
   fullName: "com.microsoft.store.partnercenter.devicesdeployment.IBatchJobStatusCollection"

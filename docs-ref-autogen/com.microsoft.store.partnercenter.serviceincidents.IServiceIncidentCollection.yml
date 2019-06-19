@@ -40,12 +40,10 @@ items:
       description: "The list of service incidents."
 references:
 - uid: "com.microsoft.store.partnercenter.models.query.IQuery"
-  isExternal: true
   name: "IQuery"
   nameWithType: "IQuery"
   fullName: "com.microsoft.store.partnercenter.models.query.IQuery"
 - uid: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidents>"
-  isExternal: true
   name: "ResourceCollection<ServiceIncidents>"
   nameWithType: "ResourceCollection<ServiceIncidents>"
   fullName: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidents>"
@@ -55,32 +53,26 @@ references:
   fullName: "com.microsoft.store.partnercenter.serviceincidents.IServiceIncidentCollection.get"
   package: "com.microsoft.store.partnercenter.serviceincidents"
 - uid: "com.microsoft.store.partnercenter.IPartnerComponentString"
-  isExternal: true
   name: "IPartnerComponentString"
   nameWithType: "IPartnerComponentString"
   fullName: "com.microsoft.store.partnercenter.IPartnerComponentString"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations<com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidents,com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidents>>"
-  isExternal: true
   name: "IEntireEntityCollectionRetrievalOperations<ServiceIncidents,ResourceCollection<ServiceIncidents>>"
   nameWithType: "IEntireEntityCollectionRetrievalOperations<ServiceIncidents,ResourceCollection<ServiceIncidents>>"
   fullName: "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations<com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidents,com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidents>>"
 - uid: "com.microsoft.store.partnercenter.models.ResourceCollection"
-  isExternal: true
   name: "ResourceCollection"
   nameWithType: "ResourceCollection"
   fullName: "com.microsoft.store.partnercenter.models.ResourceCollection"
 - uid: "com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidents"
-  isExternal: true
   name: "ServiceIncidents"
   nameWithType: "ServiceIncidents"
   fullName: "com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidents"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations"
-  isExternal: true
   name: "IEntireEntityCollectionRetrievalOperations"
   nameWithType: "IEntireEntityCollectionRetrievalOperations"
   fullName: "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations"
 - uid: "com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidents,com.microsoft.store.partnercenter.models.ResourceCollection"
-  isExternal: true
   name: "ServiceIncidents,ResourceCollection"
   nameWithType: "ServiceIncidents,ResourceCollection"
   fullName: "com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidents,com.microsoft.store.partnercenter.models.ResourceCollection"

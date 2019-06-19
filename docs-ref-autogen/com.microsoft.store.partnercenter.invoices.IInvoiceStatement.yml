@@ -36,7 +36,6 @@ items:
       description: "The invoice statement."
 references:
 - uid: "java.io.InputStream"
-  isExternal: true
   name: "InputStream"
   nameWithType: "InputStream"
   fullName: "java.io.InputStream"
@@ -46,7 +45,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.invoices.IInvoiceStatement.get"
   package: "com.microsoft.store.partnercenter.invoices"
 - uid: "com.microsoft.store.partnercenter.IPartnerComponentString"
-  isExternal: true
   name: "IPartnerComponentString"
   nameWithType: "IPartnerComponentString"
   fullName: "com.microsoft.store.partnercenter.IPartnerComponentString"

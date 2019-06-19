@@ -85,12 +85,10 @@ items:
       description: "The updated support contact."
 references:
 - uid: "com.microsoft.store.partnercenter.IPartner"
-  isExternal: true
   name: "IPartner"
   nameWithType: "IPartner"
   fullName: "com.microsoft.store.partnercenter.IPartner"
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"
@@ -100,7 +98,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.subscriptions.SubscriptionSupportContactOperations.SubscriptionSupportContactOperations"
   package: "com.microsoft.store.partnercenter.subscriptions"
 - uid: "com.microsoft.store.partnercenter.models.subscriptions.SupportContact"
-  isExternal: true
   name: "SupportContact"
   nameWithType: "SupportContact"
   fullName: "com.microsoft.store.partnercenter.models.subscriptions.SupportContact"
@@ -115,27 +112,22 @@ references:
   fullName: "com.microsoft.store.partnercenter.subscriptions.SubscriptionSupportContactOperations.update"
   package: "com.microsoft.store.partnercenter.subscriptions"
 - uid: "com.microsoft.store.partnercenter.BasePartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>"
-  isExternal: true
   name: "BasePartnerComponent<Tuple<String,String>>"
   nameWithType: "BasePartnerComponent<Tuple<String,String>>"
   fullName: "com.microsoft.store.partnercenter.BasePartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>"
 - uid: "com.microsoft.store.partnercenter.subscriptions.ISubscriptionSupportContact"
-  isExternal: true
   name: "ISubscriptionSupportContact"
   nameWithType: "ISubscriptionSupportContact"
   fullName: "com.microsoft.store.partnercenter.subscriptions.ISubscriptionSupportContact"
 - uid: "com.microsoft.store.partnercenter.models.utils.Tuple"
-  isExternal: true
   name: "Tuple"
   nameWithType: "Tuple"
   fullName: "com.microsoft.store.partnercenter.models.utils.Tuple"
 - uid: "com.microsoft.store.partnercenter.BasePartnerComponent"
-  isExternal: true
   name: "BasePartnerComponent"
   nameWithType: "BasePartnerComponent"
   fullName: "com.microsoft.store.partnercenter.BasePartnerComponent"
 - uid: "java.lang.String,java.lang.String"
-  isExternal: true
   name: "String,String"
   nameWithType: "String,String"
   fullName: "java.lang.String,java.lang.String"

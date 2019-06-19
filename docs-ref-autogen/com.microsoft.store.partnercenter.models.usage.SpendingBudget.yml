@@ -70,7 +70,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.usage.SpendingBudget.SpendingBudget"
   package: "com.microsoft.store.partnercenter.models.usage"
 - uid: "java.lang.Double"
-  isExternal: true
   name: "Double"
   nameWithType: "Double"
   fullName: "java.lang.Double"
@@ -85,7 +84,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.usage.SpendingBudget.setAmount"
   package: "com.microsoft.store.partnercenter.models.usage"
 - uid: "com.microsoft.store.partnercenter.models.ResourceBase"
-  isExternal: true
   name: "ResourceBase"
   nameWithType: "ResourceBase"
   fullName: "com.microsoft.store.partnercenter.models.ResourceBase"

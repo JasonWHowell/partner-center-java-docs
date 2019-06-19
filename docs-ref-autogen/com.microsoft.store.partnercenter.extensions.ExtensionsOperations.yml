@@ -57,7 +57,6 @@ items:
       description: "The product extensions operations."
 references:
 - uid: "com.microsoft.store.partnercenter.IPartner"
-  isExternal: true
   name: "IPartner"
   nameWithType: "IPartner"
   fullName: "com.microsoft.store.partnercenter.IPartner"
@@ -67,7 +66,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.extensions.ExtensionsOperations.ExtensionsOperations"
   package: "com.microsoft.store.partnercenter.extensions"
 - uid: "com.microsoft.store.partnercenter.extensions.products.IProductExtensions"
-  isExternal: true
   name: "IProductExtensions"
   nameWithType: "IProductExtensions"
   fullName: "com.microsoft.store.partnercenter.extensions.products.IProductExtensions"
@@ -77,12 +75,10 @@ references:
   fullName: "com.microsoft.store.partnercenter.extensions.ExtensionsOperations.getProduct"
   package: "com.microsoft.store.partnercenter.extensions"
 - uid: "com.microsoft.store.partnercenter.BasePartnerComponentString"
-  isExternal: true
   name: "BasePartnerComponentString"
   nameWithType: "BasePartnerComponentString"
   fullName: "com.microsoft.store.partnercenter.BasePartnerComponentString"
 - uid: "com.microsoft.store.partnercenter.extensions.IExtensions"
-  isExternal: true
   name: "IExtensions"
   nameWithType: "IExtensions"
   fullName: "com.microsoft.store.partnercenter.extensions.IExtensions"

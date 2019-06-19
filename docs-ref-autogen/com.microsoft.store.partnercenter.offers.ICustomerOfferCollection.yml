@@ -61,7 +61,6 @@ items:
       description: "The requested segment of the offers for the provided customer."
 references:
 - uid: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.offers.Offer>"
-  isExternal: true
   name: "ResourceCollection<Offer>"
   nameWithType: "ResourceCollection<Offer>"
   fullName: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.offers.Offer>"
@@ -71,37 +70,30 @@ references:
   fullName: "com.microsoft.store.partnercenter.offers.ICustomerOfferCollection.get"
   package: "com.microsoft.store.partnercenter.offers"
 - uid: "int"
-  isExternal: true
   name: "int"
   nameWithType: "int"
   fullName: "int"
 - uid: "com.microsoft.store.partnercenter.IPartnerComponentString"
-  isExternal: true
   name: "IPartnerComponentString"
   nameWithType: "IPartnerComponentString"
   fullName: "com.microsoft.store.partnercenter.IPartnerComponentString"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations<com.microsoft.store.partnercenter.models.offers.Offer,com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.offers.Offer>>"
-  isExternal: true
   name: "IEntireEntityCollectionRetrievalOperations<Offer,ResourceCollection<Offer>>"
   nameWithType: "IEntireEntityCollectionRetrievalOperations<Offer,ResourceCollection<Offer>>"
   fullName: "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations<com.microsoft.store.partnercenter.models.offers.Offer,com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.offers.Offer>>"
 - uid: "com.microsoft.store.partnercenter.models.ResourceCollection"
-  isExternal: true
   name: "ResourceCollection"
   nameWithType: "ResourceCollection"
   fullName: "com.microsoft.store.partnercenter.models.ResourceCollection"
 - uid: "com.microsoft.store.partnercenter.models.offers.Offer"
-  isExternal: true
   name: "Offer"
   nameWithType: "Offer"
   fullName: "com.microsoft.store.partnercenter.models.offers.Offer"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations"
-  isExternal: true
   name: "IEntireEntityCollectionRetrievalOperations"
   nameWithType: "IEntireEntityCollectionRetrievalOperations"
   fullName: "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations"
 - uid: "com.microsoft.store.partnercenter.models.offers.Offer,com.microsoft.store.partnercenter.models.ResourceCollection"
-  isExternal: true
   name: "Offer,ResourceCollection"
   nameWithType: "Offer,ResourceCollection"
   fullName: "com.microsoft.store.partnercenter.models.offers.Offer,com.microsoft.store.partnercenter.models.ResourceCollection"

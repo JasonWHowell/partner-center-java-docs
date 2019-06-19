@@ -59,12 +59,10 @@ items:
       type: "com.microsoft.store.partnercenter.models.countryvalidationrules.CountryValidationRules"
 references:
 - uid: "com.microsoft.store.partnercenter.IPartner"
-  isExternal: true
   name: "IPartner"
   nameWithType: "IPartner"
   fullName: "com.microsoft.store.partnercenter.IPartner"
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"
@@ -74,7 +72,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.countryvalidationrules.CountryValidationRulesOperations.CountryValidationRulesOperations"
   package: "com.microsoft.store.partnercenter.countryvalidationrules"
 - uid: "com.microsoft.store.partnercenter.models.countryvalidationrules.CountryValidationRules"
-  isExternal: true
   name: "CountryValidationRules"
   nameWithType: "CountryValidationRules"
   fullName: "com.microsoft.store.partnercenter.models.countryvalidationrules.CountryValidationRules"
@@ -84,12 +81,10 @@ references:
   fullName: "com.microsoft.store.partnercenter.countryvalidationrules.CountryValidationRulesOperations.get"
   package: "com.microsoft.store.partnercenter.countryvalidationrules"
 - uid: "com.microsoft.store.partnercenter.BasePartnerComponentString"
-  isExternal: true
   name: "BasePartnerComponentString"
   nameWithType: "BasePartnerComponentString"
   fullName: "com.microsoft.store.partnercenter.BasePartnerComponentString"
 - uid: "com.microsoft.store.partnercenter.countryvalidationrules.ICountryValidationRules"
-  isExternal: true
   name: "ICountryValidationRules"
   nameWithType: "ICountryValidationRules"
   fullName: "com.microsoft.store.partnercenter.countryvalidationrules.ICountryValidationRules"

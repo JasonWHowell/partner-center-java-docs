@@ -908,7 +908,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.subscriptions.Subscription.Subscription"
   package: "com.microsoft.store.partnercenter.models.subscriptions"
 - uid: "java.lang.Iterable<java.lang.String>"
-  isExternal: true
   name: "Iterable<String>"
   nameWithType: "Iterable<String>"
   fullName: "java.lang.Iterable<java.lang.String>"
@@ -918,7 +917,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.subscriptions.Subscription.getActions"
   package: "com.microsoft.store.partnercenter.models.subscriptions"
 - uid: "org.joda.time.DateTime"
-  isExternal: true
   name: "DateTime"
   nameWithType: "DateTime"
   fullName: "org.joda.time.DateTime"
@@ -933,7 +931,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.subscriptions.Subscription.setCreationDate"
   package: "com.microsoft.store.partnercenter.models.subscriptions"
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"
@@ -948,7 +945,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.subscriptions.Subscription.setFriendlyName"
   package: "com.microsoft.store.partnercenter.models.subscriptions"
 - uid: "java.lang.Boolean"
-  isExternal: true
   name: "Boolean"
   nameWithType: "Boolean"
   fullName: "java.lang.Boolean"
@@ -968,7 +964,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.subscriptions.Subscription.setId"
   package: "com.microsoft.store.partnercenter.models.subscriptions"
 - uid: "boolean"
-  isExternal: true
   name: "boolean"
   nameWithType: "boolean"
   fullName: "boolean"
@@ -1038,7 +1033,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.subscriptions.Subscription.setEntitlementId"
   package: "com.microsoft.store.partnercenter.models.subscriptions"
 - uid: "com.microsoft.store.partnercenter.models.offers.BillingCycleType"
-  isExternal: true
   name: "BillingCycleType"
   nameWithType: "BillingCycleType"
   fullName: "com.microsoft.store.partnercenter.models.offers.BillingCycleType"
@@ -1053,7 +1047,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.subscriptions.Subscription.setBillingCycle"
   package: "com.microsoft.store.partnercenter.models.subscriptions"
 - uid: "int"
-  isExternal: true
   name: "int"
   nameWithType: "int"
   fullName: "int"
@@ -1108,7 +1101,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.subscriptions.Subscription.setCommitmentEndDate"
   package: "com.microsoft.store.partnercenter.models.subscriptions"
 - uid: "com.microsoft.store.partnercenter.models.subscriptions.SubscriptionStatus"
-  isExternal: true
   name: "SubscriptionStatus"
   nameWithType: "SubscriptionStatus"
   fullName: "com.microsoft.store.partnercenter.models.subscriptions.SubscriptionStatus"
@@ -1133,7 +1125,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.subscriptions.Subscription.setAutoRenewEnabled"
   package: "com.microsoft.store.partnercenter.models.subscriptions"
 - uid: "com.microsoft.store.partnercenter.models.invoices.BillingType"
-  isExternal: true
   name: "BillingType"
   nameWithType: "BillingType"
   fullName: "com.microsoft.store.partnercenter.models.invoices.BillingType"
@@ -1158,7 +1149,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.subscriptions.Subscription.setPartnerId"
   package: "com.microsoft.store.partnercenter.models.subscriptions"
 - uid: "com.microsoft.store.partnercenter.models.ContractType"
-  isExternal: true
   name: "ContractType"
   nameWithType: "ContractType"
   fullName: "com.microsoft.store.partnercenter.models.ContractType"
@@ -1173,7 +1163,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.subscriptions.Subscription.setContractType"
   package: "com.microsoft.store.partnercenter.models.subscriptions"
 - uid: "com.microsoft.store.partnercenter.models.subscriptions.SubscriptionLinks"
-  isExternal: true
   name: "SubscriptionLinks"
   nameWithType: "SubscriptionLinks"
   fullName: "com.microsoft.store.partnercenter.models.subscriptions.SubscriptionLinks"
@@ -1198,7 +1187,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.subscriptions.Subscription.setSuspensionReasons"
   package: "com.microsoft.store.partnercenter.models.subscriptions"
 - uid: "java.lang.Iterable<com.microsoft.store.partnercenter.models.subscriptions.RefundOption>"
-  isExternal: true
   name: "Iterable<RefundOption>"
   nameWithType: "Iterable<RefundOption>"
   fullName: "java.lang.Iterable<com.microsoft.store.partnercenter.models.subscriptions.RefundOption>"
@@ -1213,17 +1201,14 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.subscriptions.Subscription.setRefundOptions"
   package: "com.microsoft.store.partnercenter.models.subscriptions"
 - uid: "com.microsoft.store.partnercenter.models.Contract"
-  isExternal: true
   name: "Contract"
   nameWithType: "Contract"
   fullName: "com.microsoft.store.partnercenter.models.Contract"
 - uid: "java.lang.Iterable"
-  isExternal: true
   name: "Iterable"
   nameWithType: "Iterable"
   fullName: "java.lang.Iterable"
 - uid: "com.microsoft.store.partnercenter.models.subscriptions.RefundOption"
-  isExternal: true
   name: "RefundOption"
   nameWithType: "RefundOption"
   fullName: "com.microsoft.store.partnercenter.models.subscriptions.RefundOption"

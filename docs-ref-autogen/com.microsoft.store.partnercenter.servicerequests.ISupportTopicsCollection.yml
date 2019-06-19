@@ -37,7 +37,6 @@ items:
       description: "The support topics."
 references:
 - uid: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.servicerequests.SupportTopic>"
-  isExternal: true
   name: "ResourceCollection<SupportTopic>"
   nameWithType: "ResourceCollection<SupportTopic>"
   fullName: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.servicerequests.SupportTopic>"
@@ -47,32 +46,26 @@ references:
   fullName: "com.microsoft.store.partnercenter.servicerequests.ISupportTopicsCollection.get"
   package: "com.microsoft.store.partnercenter.servicerequests"
 - uid: "com.microsoft.store.partnercenter.IPartnerComponentString"
-  isExternal: true
   name: "IPartnerComponentString"
   nameWithType: "IPartnerComponentString"
   fullName: "com.microsoft.store.partnercenter.IPartnerComponentString"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations<com.microsoft.store.partnercenter.models.servicerequests.SupportTopic,com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.servicerequests.SupportTopic>>"
-  isExternal: true
   name: "IEntireEntityCollectionRetrievalOperations<SupportTopic,ResourceCollection<SupportTopic>>"
   nameWithType: "IEntireEntityCollectionRetrievalOperations<SupportTopic,ResourceCollection<SupportTopic>>"
   fullName: "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations<com.microsoft.store.partnercenter.models.servicerequests.SupportTopic,com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.servicerequests.SupportTopic>>"
 - uid: "com.microsoft.store.partnercenter.models.ResourceCollection"
-  isExternal: true
   name: "ResourceCollection"
   nameWithType: "ResourceCollection"
   fullName: "com.microsoft.store.partnercenter.models.ResourceCollection"
 - uid: "com.microsoft.store.partnercenter.models.servicerequests.SupportTopic"
-  isExternal: true
   name: "SupportTopic"
   nameWithType: "SupportTopic"
   fullName: "com.microsoft.store.partnercenter.models.servicerequests.SupportTopic"
 - uid: "com.microsoft.store.partnercenter.models.servicerequests.SupportTopic,com.microsoft.store.partnercenter.models.ResourceCollection"
-  isExternal: true
   name: "SupportTopic,ResourceCollection"
   nameWithType: "SupportTopic,ResourceCollection"
   fullName: "com.microsoft.store.partnercenter.models.servicerequests.SupportTopic,com.microsoft.store.partnercenter.models.ResourceCollection"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations"
-  isExternal: true
   name: "IEntireEntityCollectionRetrievalOperations"
   nameWithType: "IEntireEntityCollectionRetrievalOperations"
   fullName: "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations"

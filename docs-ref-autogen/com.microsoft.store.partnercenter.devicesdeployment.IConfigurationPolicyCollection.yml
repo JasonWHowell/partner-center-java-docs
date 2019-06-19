@@ -61,12 +61,10 @@ items:
       description: "The collection of configuration policies."
 references:
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"
 - uid: "com.microsoft.store.partnercenter.devicesdeployment.IConfigurationPolicy"
-  isExternal: true
   name: "IConfigurationPolicy"
   nameWithType: "IConfigurationPolicy"
   fullName: "com.microsoft.store.partnercenter.devicesdeployment.IConfigurationPolicy"
@@ -76,7 +74,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.devicesdeployment.IConfigurationPolicyCollection.byId"
   package: "com.microsoft.store.partnercenter.devicesdeployment"
 - uid: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.devicesdeployment.ConfigurationPolicy>"
-  isExternal: true
   name: "ResourceCollection<ConfigurationPolicy>"
   nameWithType: "ResourceCollection<ConfigurationPolicy>"
   fullName: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.devicesdeployment.ConfigurationPolicy>"
@@ -86,62 +83,50 @@ references:
   fullName: "com.microsoft.store.partnercenter.devicesdeployment.IConfigurationPolicyCollection.get"
   package: "com.microsoft.store.partnercenter.devicesdeployment"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntitySelector<java.lang.String,com.microsoft.store.partnercenter.devicesdeployment.IConfigurationPolicy>"
-  isExternal: true
   name: "IEntitySelector<String,IConfigurationPolicy>"
   nameWithType: "IEntitySelector<String,IConfigurationPolicy>"
   fullName: "com.microsoft.store.partnercenter.genericoperations.IEntitySelector<java.lang.String,com.microsoft.store.partnercenter.devicesdeployment.IConfigurationPolicy>"
 - uid: "com.microsoft.store.partnercenter.IPartnerComponentString"
-  isExternal: true
   name: "IPartnerComponentString"
   nameWithType: "IPartnerComponentString"
   fullName: "com.microsoft.store.partnercenter.IPartnerComponentString"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations<com.microsoft.store.partnercenter.models.devicesdeployment.ConfigurationPolicy,com.microsoft.store.partnercenter.models.devicesdeployment.ConfigurationPolicy>"
-  isExternal: true
   name: "IEntityCreateOperations<ConfigurationPolicy,ConfigurationPolicy>"
   nameWithType: "IEntityCreateOperations<ConfigurationPolicy,ConfigurationPolicy>"
   fullName: "com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations<com.microsoft.store.partnercenter.models.devicesdeployment.ConfigurationPolicy,com.microsoft.store.partnercenter.models.devicesdeployment.ConfigurationPolicy>"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations<com.microsoft.store.partnercenter.models.devicesdeployment.ConfigurationPolicy,com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.devicesdeployment.ConfigurationPolicy>>"
-  isExternal: true
   name: "IEntireEntityCollectionRetrievalOperations<ConfigurationPolicy,ResourceCollection<ConfigurationPolicy>>"
   nameWithType: "IEntireEntityCollectionRetrievalOperations<ConfigurationPolicy,ResourceCollection<ConfigurationPolicy>>"
   fullName: "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations<com.microsoft.store.partnercenter.models.devicesdeployment.ConfigurationPolicy,com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.devicesdeployment.ConfigurationPolicy>>"
 - uid: "com.microsoft.store.partnercenter.models.ResourceCollection"
-  isExternal: true
   name: "ResourceCollection"
   nameWithType: "ResourceCollection"
   fullName: "com.microsoft.store.partnercenter.models.ResourceCollection"
 - uid: "com.microsoft.store.partnercenter.models.devicesdeployment.ConfigurationPolicy"
-  isExternal: true
   name: "ConfigurationPolicy"
   nameWithType: "ConfigurationPolicy"
   fullName: "com.microsoft.store.partnercenter.models.devicesdeployment.ConfigurationPolicy"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntitySelector"
-  isExternal: true
   name: "IEntitySelector"
   nameWithType: "IEntitySelector"
   fullName: "com.microsoft.store.partnercenter.genericoperations.IEntitySelector"
 - uid: "java.lang.String,com.microsoft.store.partnercenter.devicesdeployment.IConfigurationPolicy"
-  isExternal: true
   name: "String,IConfigurationPolicy"
   nameWithType: "String,IConfigurationPolicy"
   fullName: "java.lang.String,com.microsoft.store.partnercenter.devicesdeployment.IConfigurationPolicy"
 - uid: "com.microsoft.store.partnercenter.models.devicesdeployment.ConfigurationPolicy,com.microsoft.store.partnercenter.models.devicesdeployment.ConfigurationPolicy"
-  isExternal: true
   name: "ConfigurationPolicy,ConfigurationPolicy"
   nameWithType: "ConfigurationPolicy,ConfigurationPolicy"
   fullName: "com.microsoft.store.partnercenter.models.devicesdeployment.ConfigurationPolicy,com.microsoft.store.partnercenter.models.devicesdeployment.ConfigurationPolicy"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations"
-  isExternal: true
   name: "IEntityCreateOperations"
   nameWithType: "IEntityCreateOperations"
   fullName: "com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations"
 - uid: "com.microsoft.store.partnercenter.models.devicesdeployment.ConfigurationPolicy,com.microsoft.store.partnercenter.models.ResourceCollection"
-  isExternal: true
   name: "ConfigurationPolicy,ResourceCollection"
   nameWithType: "ConfigurationPolicy,ResourceCollection"
   fullName: "com.microsoft.store.partnercenter.models.devicesdeployment.ConfigurationPolicy,com.microsoft.store.partnercenter.models.ResourceCollection"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations"
-  isExternal: true
   name: "IEntireEntityCollectionRetrievalOperations"
   nameWithType: "IEntireEntityCollectionRetrievalOperations"
   fullName: "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations"

@@ -82,12 +82,10 @@ items:
       description: "The updated customer billing profile."
 references:
 - uid: "com.microsoft.store.partnercenter.IPartner"
-  isExternal: true
   name: "IPartner"
   nameWithType: "IPartner"
   fullName: "com.microsoft.store.partnercenter.IPartner"
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"
@@ -97,7 +95,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.customers.profiles.CustomerBillingProfileOperations.CustomerBillingProfileOperations"
   package: "com.microsoft.store.partnercenter.customers.profiles"
 - uid: "com.microsoft.store.partnercenter.models.customers.CustomerBillingProfile"
-  isExternal: true
   name: "CustomerBillingProfile"
   nameWithType: "CustomerBillingProfile"
   fullName: "com.microsoft.store.partnercenter.models.customers.CustomerBillingProfile"
@@ -112,17 +109,14 @@ references:
   fullName: "com.microsoft.store.partnercenter.customers.profiles.CustomerBillingProfileOperations.update"
   package: "com.microsoft.store.partnercenter.customers.profiles"
 - uid: "com.microsoft.store.partnercenter.BasePartnerComponentString"
-  isExternal: true
   name: "BasePartnerComponentString"
   nameWithType: "BasePartnerComponentString"
   fullName: "com.microsoft.store.partnercenter.BasePartnerComponentString"
 - uid: "com.microsoft.store.partnercenter.customers.profiles.ICustomerProfile<com.microsoft.store.partnercenter.models.customers.CustomerBillingProfile>"
-  isExternal: true
   name: "ICustomerProfile<CustomerBillingProfile>"
   nameWithType: "ICustomerProfile<CustomerBillingProfile>"
   fullName: "com.microsoft.store.partnercenter.customers.profiles.ICustomerProfile<com.microsoft.store.partnercenter.models.customers.CustomerBillingProfile>"
 - uid: "com.microsoft.store.partnercenter.customers.profiles.ICustomerProfile"
-  isExternal: true
   name: "ICustomerProfile"
   nameWithType: "ICustomerProfile"
   fullName: "com.microsoft.store.partnercenter.customers.profiles.ICustomerProfile"

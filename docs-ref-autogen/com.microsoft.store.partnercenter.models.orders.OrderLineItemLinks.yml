@@ -259,7 +259,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.orders.OrderLineItemLinks.OrderLineItemLinks"
   package: "com.microsoft.store.partnercenter.models.orders"
 - uid: "com.microsoft.store.partnercenter.models.Link"
-  isExternal: true
   name: "Link"
   nameWithType: "Link"
   fullName: "com.microsoft.store.partnercenter.models.Link"

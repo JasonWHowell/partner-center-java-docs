@@ -79,7 +79,6 @@ items:
       description: "Updated Legal Business Profile."
 references:
 - uid: "com.microsoft.store.partnercenter.IPartner"
-  isExternal: true
   name: "IPartner"
   nameWithType: "IPartner"
   fullName: "com.microsoft.store.partnercenter.IPartner"
@@ -89,7 +88,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.profiles.LegalBusinessProfileOperations.LegalBusinessProfileOperations"
   package: "com.microsoft.store.partnercenter.profiles"
 - uid: "com.microsoft.store.partnercenter.models.partners.LegalBusinessProfile"
-  isExternal: true
   name: "LegalBusinessProfile"
   nameWithType: "LegalBusinessProfile"
   fullName: "com.microsoft.store.partnercenter.models.partners.LegalBusinessProfile"
@@ -104,12 +102,10 @@ references:
   fullName: "com.microsoft.store.partnercenter.profiles.LegalBusinessProfileOperations.update"
   package: "com.microsoft.store.partnercenter.profiles"
 - uid: "com.microsoft.store.partnercenter.BasePartnerComponentString"
-  isExternal: true
   name: "BasePartnerComponentString"
   nameWithType: "BasePartnerComponentString"
   fullName: "com.microsoft.store.partnercenter.BasePartnerComponentString"
 - uid: "com.microsoft.store.partnercenter.profiles.ILegalBusinessProfile"
-  isExternal: true
   name: "ILegalBusinessProfile"
   nameWithType: "ILegalBusinessProfile"
   fullName: "com.microsoft.store.partnercenter.profiles.ILegalBusinessProfile"

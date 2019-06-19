@@ -54,7 +54,6 @@ items:
       description: "The partner's licenses' usage analytics."
 references:
 - uid: "com.microsoft.store.partnercenter.analytics.IPartnerLicensesDeploymentInsightsCollection"
-  isExternal: true
   name: "IPartnerLicensesDeploymentInsightsCollection"
   nameWithType: "IPartnerLicensesDeploymentInsightsCollection"
   fullName: "com.microsoft.store.partnercenter.analytics.IPartnerLicensesDeploymentInsightsCollection"
@@ -64,7 +63,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.analytics.IPartnerLicensesAnalyticsCollection.getDeployment"
   package: "com.microsoft.store.partnercenter.analytics"
 - uid: "com.microsoft.store.partnercenter.analytics.IPartnerLicensesUsageInsightsCollection"
-  isExternal: true
   name: "IPartnerLicensesUsageInsightsCollection"
   nameWithType: "IPartnerLicensesUsageInsightsCollection"
   fullName: "com.microsoft.store.partnercenter.analytics.IPartnerLicensesUsageInsightsCollection"
@@ -74,7 +72,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.analytics.IPartnerLicensesAnalyticsCollection.getUsage"
   package: "com.microsoft.store.partnercenter.analytics"
 - uid: "com.microsoft.store.partnercenter.IPartnerComponentString"
-  isExternal: true
   name: "IPartnerComponentString"
   nameWithType: "IPartnerComponentString"
   fullName: "com.microsoft.store.partnercenter.IPartnerComponentString"

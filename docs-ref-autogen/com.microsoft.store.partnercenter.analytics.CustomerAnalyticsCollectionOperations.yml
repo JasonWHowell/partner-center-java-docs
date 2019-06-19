@@ -60,12 +60,10 @@ items:
       description: "The customer's licenses analytics collection."
 references:
 - uid: "com.microsoft.store.partnercenter.IPartner"
-  isExternal: true
   name: "IPartner"
   nameWithType: "IPartner"
   fullName: "com.microsoft.store.partnercenter.IPartner"
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"
@@ -75,7 +73,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.analytics.CustomerAnalyticsCollectionOperations.CustomerAnalyticsCollectionOperations"
   package: "com.microsoft.store.partnercenter.analytics"
 - uid: "com.microsoft.store.partnercenter.analytics.ICustomerLicensesAnalyticsCollection"
-  isExternal: true
   name: "ICustomerLicensesAnalyticsCollection"
   nameWithType: "ICustomerLicensesAnalyticsCollection"
   fullName: "com.microsoft.store.partnercenter.analytics.ICustomerLicensesAnalyticsCollection"
@@ -85,12 +82,10 @@ references:
   fullName: "com.microsoft.store.partnercenter.analytics.CustomerAnalyticsCollectionOperations.getLicenses"
   package: "com.microsoft.store.partnercenter.analytics"
 - uid: "com.microsoft.store.partnercenter.BasePartnerComponentString"
-  isExternal: true
   name: "BasePartnerComponentString"
   nameWithType: "BasePartnerComponentString"
   fullName: "com.microsoft.store.partnercenter.BasePartnerComponentString"
 - uid: "com.microsoft.store.partnercenter.analytics.ICustomerAnalyticsCollection"
-  isExternal: true
   name: "ICustomerAnalyticsCollection"
   nameWithType: "ICustomerAnalyticsCollection"
   fullName: "com.microsoft.store.partnercenter.analytics.ICustomerAnalyticsCollection"

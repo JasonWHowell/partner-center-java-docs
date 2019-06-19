@@ -199,7 +199,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.requestcontext.RequestContextFactory.getInstance"
   package: "com.microsoft.store.partnercenter.requestcontext"
 - uid: "com.microsoft.store.partnercenter.requestcontext.IRequestContext"
-  isExternal: true
   name: "IRequestContext"
   nameWithType: "IRequestContext"
   fullName: "com.microsoft.store.partnercenter.requestcontext.IRequestContext"
@@ -209,12 +208,10 @@ references:
   fullName: "com.microsoft.store.partnercenter.requestcontext.RequestContextFactory.create"
   package: "com.microsoft.store.partnercenter.requestcontext"
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"
 - uid: "java.util.UUID"
-  isExternal: true
   name: "UUID"
   nameWithType: "UUID"
   fullName: "java.util.UUID"

@@ -136,7 +136,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.analytics.CustomerLicensesDeploymentInsights.CustomerLicensesDeploymentInsights"
   package: "com.microsoft.store.partnercenter.models.analytics"
 - uid: "long"
-  isExternal: true
   name: "long"
   nameWithType: "long"
   fullName: "long"
@@ -161,7 +160,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.analytics.CustomerLicensesDeploymentInsights.setLicensesSold"
   package: "com.microsoft.store.partnercenter.models.analytics"
 - uid: "double"
-  isExternal: true
   name: "double"
   nameWithType: "double"
   fullName: "double"
@@ -176,7 +174,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.analytics.CustomerLicensesDeploymentInsights.setDeploymentPercent"
   package: "com.microsoft.store.partnercenter.models.analytics"
 - uid: "com.microsoft.store.partnercenter.models.analytics.CustomerLicensesInsightsBase"
-  isExternal: true
   name: "CustomerLicensesInsightsBase"
   nameWithType: "CustomerLicensesInsightsBase"
   fullName: "com.microsoft.store.partnercenter.models.analytics.CustomerLicensesInsightsBase"

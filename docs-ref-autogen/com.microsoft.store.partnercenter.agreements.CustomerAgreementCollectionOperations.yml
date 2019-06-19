@@ -82,12 +82,10 @@ items:
       description: "A collection of all agreements."
 references:
 - uid: "com.microsoft.store.partnercenter.IPartner"
-  isExternal: true
   name: "IPartner"
   nameWithType: "IPartner"
   fullName: "com.microsoft.store.partnercenter.IPartner"
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"
@@ -97,7 +95,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.agreements.CustomerAgreementCollectionOperations.CustomerAgreementCollectionOperations"
   package: "com.microsoft.store.partnercenter.agreements"
 - uid: "com.microsoft.store.partnercenter.models.agreements.Agreement"
-  isExternal: true
   name: "Agreement"
   nameWithType: "Agreement"
   fullName: "com.microsoft.store.partnercenter.models.agreements.Agreement"
@@ -107,7 +104,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.agreements.CustomerAgreementCollectionOperations.create"
   package: "com.microsoft.store.partnercenter.agreements"
 - uid: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.agreements.Agreement>"
-  isExternal: true
   name: "ResourceCollection<Agreement>"
   nameWithType: "ResourceCollection<Agreement>"
   fullName: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.agreements.Agreement>"
@@ -117,17 +113,14 @@ references:
   fullName: "com.microsoft.store.partnercenter.agreements.CustomerAgreementCollectionOperations.get"
   package: "com.microsoft.store.partnercenter.agreements"
 - uid: "com.microsoft.store.partnercenter.BasePartnerComponentString"
-  isExternal: true
   name: "BasePartnerComponentString"
   nameWithType: "BasePartnerComponentString"
   fullName: "com.microsoft.store.partnercenter.BasePartnerComponentString"
 - uid: "com.microsoft.store.partnercenter.agreements.ICustomerAgreementCollection"
-  isExternal: true
   name: "ICustomerAgreementCollection"
   nameWithType: "ICustomerAgreementCollection"
   fullName: "com.microsoft.store.partnercenter.agreements.ICustomerAgreementCollection"
 - uid: "com.microsoft.store.partnercenter.models.ResourceCollection"
-  isExternal: true
   name: "ResourceCollection"
   nameWithType: "ResourceCollection"
   fullName: "com.microsoft.store.partnercenter.models.ResourceCollection"

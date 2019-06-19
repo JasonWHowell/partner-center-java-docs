@@ -61,7 +61,6 @@ items:
       description: "The ServiceRequest information that was just created."
 references:
 - uid: "com.microsoft.store.partnercenter.servicerequests.ISupportTopicsCollection"
-  isExternal: true
   name: "ISupportTopicsCollection"
   nameWithType: "ISupportTopicsCollection"
   fullName: "com.microsoft.store.partnercenter.servicerequests.ISupportTopicsCollection"
@@ -71,12 +70,10 @@ references:
   fullName: "com.microsoft.store.partnercenter.servicerequests.IPartnerServiceRequestCollection.getSupportTopics"
   package: "com.microsoft.store.partnercenter.servicerequests"
 - uid: "com.microsoft.store.partnercenter.models.servicerequests.ServiceRequest"
-  isExternal: true
   name: "ServiceRequest"
   nameWithType: "ServiceRequest"
   fullName: "com.microsoft.store.partnercenter.models.servicerequests.ServiceRequest"
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"
@@ -86,7 +83,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.servicerequests.IPartnerServiceRequestCollection.create"
   package: "com.microsoft.store.partnercenter.servicerequests"
 - uid: "com.microsoft.store.partnercenter.servicerequests.IServiceRequestCollection"
-  isExternal: true
   name: "IServiceRequestCollection"
   nameWithType: "IServiceRequestCollection"
   fullName: "com.microsoft.store.partnercenter.servicerequests.IServiceRequestCollection"

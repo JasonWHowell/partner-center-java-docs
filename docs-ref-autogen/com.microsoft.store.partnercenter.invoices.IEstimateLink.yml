@@ -38,12 +38,10 @@ items:
       description: "The operations that can be performed on estimate link collection that belong to a given currency."
 references:
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"
 - uid: "com.microsoft.store.partnercenter.invoices.IEstimateLinkCollectionByCurrency"
-  isExternal: true
   name: "IEstimateLinkCollectionByCurrency"
   nameWithType: "IEstimateLinkCollectionByCurrency"
   fullName: "com.microsoft.store.partnercenter.invoices.IEstimateLinkCollectionByCurrency"

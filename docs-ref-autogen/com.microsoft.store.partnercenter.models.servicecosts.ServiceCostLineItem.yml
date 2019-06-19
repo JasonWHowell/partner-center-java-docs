@@ -1001,7 +1001,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.ServiceCostLineItem"
   package: "com.microsoft.store.partnercenter.models.servicecosts"
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"
@@ -1106,7 +1105,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.setTermAndBillingCycle"
   package: "com.microsoft.store.partnercenter.models.servicecosts"
 - uid: "org.joda.time.DateTime"
-  isExternal: true
   name: "DateTime"
   nameWithType: "DateTime"
   fullName: "org.joda.time.DateTime"
@@ -1201,7 +1199,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.setChargeType"
   package: "com.microsoft.store.partnercenter.models.servicecosts"
 - uid: "java.lang.Double"
-  isExternal: true
   name: "Double"
   nameWithType: "Double"
   fullName: "java.lang.Double"
@@ -1296,7 +1293,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.setCustomerName"
   package: "com.microsoft.store.partnercenter.models.servicecosts"
 - uid: "com.microsoft.store.partnercenter.models.ResourceBase"
-  isExternal: true
   name: "ResourceBase"
   nameWithType: "ResourceBase"
   fullName: "com.microsoft.store.partnercenter.models.ResourceBase"

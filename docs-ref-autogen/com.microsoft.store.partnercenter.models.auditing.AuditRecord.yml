@@ -533,7 +533,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.auditing.AuditRecord.AuditRecord"
   package: "com.microsoft.store.partnercenter.models.auditing"
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"
@@ -548,7 +547,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.auditing.AuditRecord.setApplicationId"
   package: "com.microsoft.store.partnercenter.models.auditing"
 - uid: "java.lang.Iterable<com.microsoft.store.partnercenter.models.utils.KeyValuePair<java.lang.String,java.lang.String>>"
-  isExternal: true
   name: "Iterable<KeyValuePair<String,String>>"
   nameWithType: "Iterable<KeyValuePair<String,String>>"
   fullName: "java.lang.Iterable<com.microsoft.store.partnercenter.models.utils.KeyValuePair<java.lang.String,java.lang.String>>"
@@ -593,7 +591,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.auditing.AuditRecord.setId"
   package: "com.microsoft.store.partnercenter.models.auditing"
 - uid: "org.joda.time.DateTime"
-  isExternal: true
   name: "DateTime"
   nameWithType: "DateTime"
   fullName: "org.joda.time.DateTime"
@@ -608,7 +605,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.auditing.AuditRecord.setOperationDate"
   package: "com.microsoft.store.partnercenter.models.auditing"
 - uid: "com.microsoft.store.partnercenter.models.auditing.OperationStatus"
-  isExternal: true
   name: "OperationStatus"
   nameWithType: "OperationStatus"
   fullName: "com.microsoft.store.partnercenter.models.auditing.OperationStatus"
@@ -623,7 +619,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.auditing.AuditRecord.setOperationStatus"
   package: "com.microsoft.store.partnercenter.models.auditing"
 - uid: "com.microsoft.store.partnercenter.models.auditing.OperationType"
-  isExternal: true
   name: "OperationType"
   nameWithType: "OperationType"
   fullName: "com.microsoft.store.partnercenter.models.auditing.OperationType"
@@ -668,7 +663,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.auditing.AuditRecord.setResourceOldValue"
   package: "com.microsoft.store.partnercenter.models.auditing"
 - uid: "com.microsoft.store.partnercenter.models.auditing.ResourceType"
-  isExternal: true
   name: "ResourceType"
   nameWithType: "ResourceType"
   fullName: "com.microsoft.store.partnercenter.models.auditing.ResourceType"
@@ -693,22 +687,18 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.auditing.AuditRecord.setUserPrincipalName"
   package: "com.microsoft.store.partnercenter.models.auditing"
 - uid: "com.microsoft.store.partnercenter.models.ResourceBase"
-  isExternal: true
   name: "ResourceBase"
   nameWithType: "ResourceBase"
   fullName: "com.microsoft.store.partnercenter.models.ResourceBase"
 - uid: "java.lang.Iterable"
-  isExternal: true
   name: "Iterable"
   nameWithType: "Iterable"
   fullName: "java.lang.Iterable"
 - uid: "com.microsoft.store.partnercenter.models.utils.KeyValuePair"
-  isExternal: true
   name: "KeyValuePair"
   nameWithType: "KeyValuePair"
   fullName: "com.microsoft.store.partnercenter.models.utils.KeyValuePair"
 - uid: "java.lang.String,java.lang.String"
-  isExternal: true
   name: "String,String"
   nameWithType: "String,String"
   fullName: "java.lang.String,java.lang.String"

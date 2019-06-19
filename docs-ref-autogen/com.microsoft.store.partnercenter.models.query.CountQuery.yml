@@ -117,7 +117,6 @@ items:
       description: "A string representation of the query."
 references:
 - uid: "java.lang.Object"
-  isExternal: true
   name: "Object"
   nameWithType: "Object"
   fullName: "java.lang.Object"
@@ -127,7 +126,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.query.CountQuery.CountQuery"
   package: "com.microsoft.store.partnercenter.models.query"
 - uid: "com.microsoft.store.partnercenter.models.query.QueryType"
-  isExternal: true
   name: "QueryType"
   nameWithType: "QueryType"
   fullName: "com.microsoft.store.partnercenter.models.query.QueryType"
@@ -137,7 +135,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.query.CountQuery.getType"
   package: "com.microsoft.store.partnercenter.models.query"
 - uid: "com.microsoft.store.partnercenter.models.query.filters.FieldFilter"
-  isExternal: true
   name: "FieldFilter"
   nameWithType: "FieldFilter"
   fullName: "com.microsoft.store.partnercenter.models.query.filters.FieldFilter"
@@ -152,7 +149,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.query.CountQuery.setFilter"
   package: "com.microsoft.store.partnercenter.models.query"
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"
@@ -162,7 +158,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.query.CountQuery.toString"
   package: "com.microsoft.store.partnercenter.models.query"
 - uid: "com.microsoft.store.partnercenter.models.query.BaseQuery"
-  isExternal: true
   name: "BaseQuery"
   nameWithType: "BaseQuery"
   fullName: "com.microsoft.store.partnercenter.models.query.BaseQuery"

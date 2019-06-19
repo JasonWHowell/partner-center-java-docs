@@ -81,12 +81,10 @@ items:
       description: "The product information."
 references:
 - uid: "com.microsoft.store.partnercenter.IPartner"
-  isExternal: true
   name: "IPartner"
   nameWithType: "IPartner"
   fullName: "com.microsoft.store.partnercenter.IPartner"
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"
@@ -96,7 +94,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.products.ProductOperations.ProductOperations"
   package: "com.microsoft.store.partnercenter.products"
 - uid: "com.microsoft.store.partnercenter.products.ISkuCollection"
-  isExternal: true
   name: "ISkuCollection"
   nameWithType: "ISkuCollection"
   fullName: "com.microsoft.store.partnercenter.products.ISkuCollection"
@@ -106,7 +103,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.products.ProductOperations.getSkus"
   package: "com.microsoft.store.partnercenter.products"
 - uid: "com.microsoft.store.partnercenter.models.products.Product"
-  isExternal: true
   name: "Product"
   nameWithType: "Product"
   fullName: "com.microsoft.store.partnercenter.models.products.Product"
@@ -116,27 +112,22 @@ references:
   fullName: "com.microsoft.store.partnercenter.products.ProductOperations.get"
   package: "com.microsoft.store.partnercenter.products"
 - uid: "com.microsoft.store.partnercenter.BasePartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>"
-  isExternal: true
   name: "BasePartnerComponent<Tuple<String,String>>"
   nameWithType: "BasePartnerComponent<Tuple<String,String>>"
   fullName: "com.microsoft.store.partnercenter.BasePartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>"
 - uid: "com.microsoft.store.partnercenter.products.IProduct"
-  isExternal: true
   name: "IProduct"
   nameWithType: "IProduct"
   fullName: "com.microsoft.store.partnercenter.products.IProduct"
 - uid: "com.microsoft.store.partnercenter.models.utils.Tuple"
-  isExternal: true
   name: "Tuple"
   nameWithType: "Tuple"
   fullName: "com.microsoft.store.partnercenter.models.utils.Tuple"
 - uid: "com.microsoft.store.partnercenter.BasePartnerComponent"
-  isExternal: true
   name: "BasePartnerComponent"
   nameWithType: "BasePartnerComponent"
   fullName: "com.microsoft.store.partnercenter.BasePartnerComponent"
 - uid: "java.lang.String,java.lang.String"
-  isExternal: true
   name: "String,String"
   nameWithType: "String,String"
   fullName: "java.lang.String,java.lang.String"

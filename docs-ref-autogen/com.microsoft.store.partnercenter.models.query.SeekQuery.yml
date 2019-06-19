@@ -99,7 +99,6 @@ items:
       type: "com.microsoft.store.partnercenter.models.query.SeekOperation"
 references:
 - uid: "java.lang.Object"
-  isExternal: true
   name: "Object"
   nameWithType: "Object"
   fullName: "java.lang.Object"
@@ -109,7 +108,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.query.SeekQuery.SeekQuery"
   package: "com.microsoft.store.partnercenter.models.query"
 - uid: "com.microsoft.store.partnercenter.models.query.QueryType"
-  isExternal: true
   name: "QueryType"
   nameWithType: "QueryType"
   fullName: "com.microsoft.store.partnercenter.models.query.QueryType"
@@ -119,7 +117,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.query.SeekQuery.getType"
   package: "com.microsoft.store.partnercenter.models.query"
 - uid: "com.microsoft.store.partnercenter.models.query.SeekOperation"
-  isExternal: true
   name: "SeekOperation"
   nameWithType: "SeekOperation"
   fullName: "com.microsoft.store.partnercenter.models.query.SeekOperation"
@@ -134,7 +131,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.query.SeekQuery.setSeekOperation"
   package: "com.microsoft.store.partnercenter.models.query"
 - uid: "com.microsoft.store.partnercenter.models.query.IndexedQuery"
-  isExternal: true
   name: "IndexedQuery"
   nameWithType: "IndexedQuery"
   fullName: "com.microsoft.store.partnercenter.models.query.IndexedQuery"

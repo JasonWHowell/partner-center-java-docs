@@ -177,22 +177,18 @@ items:
       type: "T4"
 references:
 - uid: "T1"
-  isExternal: true
   name: "T1"
   nameWithType: "T1"
   fullName: "T1"
 - uid: "T2"
-  isExternal: true
   name: "T2"
   nameWithType: "T2"
   fullName: "T2"
 - uid: "T3"
-  isExternal: true
   name: "T3"
   nameWithType: "T3"
   fullName: "T3"
 - uid: "T4"
-  isExternal: true
   name: "T4"
   nameWithType: "T4"
   fullName: "T4"

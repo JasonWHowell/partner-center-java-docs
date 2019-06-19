@@ -135,7 +135,6 @@ items:
       type: "com.microsoft.store.partnercenter.models.licenses.LicenseGroupId"
 references:
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"
@@ -160,12 +159,10 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.licenses.LicenseGroupId.toString"
   package: "com.microsoft.store.partnercenter.models.licenses"
 - uid: "java.lang.Enum<com.microsoft.store.partnercenter.models.licenses.LicenseGroupId>"
-  isExternal: true
   name: "Enum<LicenseGroupId>"
   nameWithType: "Enum<LicenseGroupId>"
   fullName: "java.lang.Enum<com.microsoft.store.partnercenter.models.licenses.LicenseGroupId>"
 - uid: "java.lang.Enum"
-  isExternal: true
   name: "Enum"
   nameWithType: "Enum"
   fullName: "java.lang.Enum"

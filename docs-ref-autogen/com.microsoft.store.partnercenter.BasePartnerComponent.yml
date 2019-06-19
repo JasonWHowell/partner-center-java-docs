@@ -76,12 +76,10 @@ items:
       type: "TContext"
 references:
 - uid: "com.microsoft.store.partnercenter.IPartner"
-  isExternal: true
   name: "IPartner"
   nameWithType: "IPartner"
   fullName: "com.microsoft.store.partnercenter.IPartner"
 - uid: "TContext"
-  isExternal: true
   name: "TContext"
   nameWithType: "TContext"
   fullName: "TContext"
@@ -101,12 +99,10 @@ references:
   fullName: "com.microsoft.store.partnercenter.BasePartnerComponent<TContext>.getContext"
   package: "com.microsoft.store.partnercenter"
 - uid: "com.microsoft.store.partnercenter.IPartnerComponent<TContext>"
-  isExternal: true
   name: "IPartnerComponent<TContext>"
   nameWithType: "IPartnerComponent<TContext>"
   fullName: "com.microsoft.store.partnercenter.IPartnerComponent<TContext>"
 - uid: "com.microsoft.store.partnercenter.IPartnerComponent"
-  isExternal: true
   name: "IPartnerComponent"
   nameWithType: "IPartnerComponent"
   fullName: "com.microsoft.store.partnercenter.IPartnerComponent"

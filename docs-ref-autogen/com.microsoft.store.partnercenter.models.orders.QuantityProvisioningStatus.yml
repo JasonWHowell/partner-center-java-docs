@@ -111,7 +111,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.orders.QuantityProvisioningStatus.QuantityProvisioningStatus"
   package: "com.microsoft.store.partnercenter.models.orders"
 - uid: "int"
-  isExternal: true
   name: "int"
   nameWithType: "int"
   fullName: "int"
@@ -126,7 +125,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.orders.QuantityProvisioningStatus.setQuantity"
   package: "com.microsoft.store.partnercenter.models.orders"
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"
@@ -141,7 +139,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.orders.QuantityProvisioningStatus.setStatus"
   package: "com.microsoft.store.partnercenter.models.orders"
 - uid: "com.microsoft.store.partnercenter.models.ResourceBase"
-  isExternal: true
   name: "ResourceBase"
   nameWithType: "ResourceBase"
   fullName: "com.microsoft.store.partnercenter.models.ResourceBase"

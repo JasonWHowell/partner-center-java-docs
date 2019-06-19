@@ -65,12 +65,10 @@ items:
       description: "TThe partner relationships that match the given query."
 references:
 - uid: "com.microsoft.store.partnercenter.models.relationships.PartnerRelationshipType"
-  isExternal: true
   name: "PartnerRelationshipType"
   nameWithType: "PartnerRelationshipType"
   fullName: "com.microsoft.store.partnercenter.models.relationships.PartnerRelationshipType"
 - uid: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.relationships.PartnerRelationship>"
-  isExternal: true
   name: "ResourceCollection<PartnerRelationship>"
   nameWithType: "ResourceCollection<PartnerRelationship>"
   fullName: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.relationships.PartnerRelationship>"
@@ -80,7 +78,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.relationships.IRelationshipCollection.get"
   package: "com.microsoft.store.partnercenter.relationships"
 - uid: "com.microsoft.store.partnercenter.models.query.IQuery"
-  isExternal: true
   name: "IQuery"
   nameWithType: "IQuery"
   fullName: "com.microsoft.store.partnercenter.models.query.IQuery"
@@ -90,17 +87,14 @@ references:
   fullName: "com.microsoft.store.partnercenter.relationships.IRelationshipCollection.Query"
   package: "com.microsoft.store.partnercenter.relationships"
 - uid: "com.microsoft.store.partnercenter.IPartnerComponentString"
-  isExternal: true
   name: "IPartnerComponentString"
   nameWithType: "IPartnerComponentString"
   fullName: "com.microsoft.store.partnercenter.IPartnerComponentString"
 - uid: "com.microsoft.store.partnercenter.models.ResourceCollection"
-  isExternal: true
   name: "ResourceCollection"
   nameWithType: "ResourceCollection"
   fullName: "com.microsoft.store.partnercenter.models.ResourceCollection"
 - uid: "com.microsoft.store.partnercenter.models.relationships.PartnerRelationship"
-  isExternal: true
   name: "PartnerRelationship"
   nameWithType: "PartnerRelationship"
   fullName: "com.microsoft.store.partnercenter.models.relationships.PartnerRelationship"

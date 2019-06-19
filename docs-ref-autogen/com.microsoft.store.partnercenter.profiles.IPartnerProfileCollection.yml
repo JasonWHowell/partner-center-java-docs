@@ -108,7 +108,6 @@ items:
       description: "The operations available for the partner billing profile."
 references:
 - uid: "com.microsoft.store.partnercenter.profiles.ILegalBusinessProfile"
-  isExternal: true
   name: "ILegalBusinessProfile"
   nameWithType: "ILegalBusinessProfile"
   fullName: "com.microsoft.store.partnercenter.profiles.ILegalBusinessProfile"
@@ -118,7 +117,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.profiles.IPartnerProfileCollection.getLegalBusinessProfile"
   package: "com.microsoft.store.partnercenter.profiles"
 - uid: "com.microsoft.store.partnercenter.profiles.IMpnProfile"
-  isExternal: true
   name: "IMpnProfile"
   nameWithType: "IMpnProfile"
   fullName: "com.microsoft.store.partnercenter.profiles.IMpnProfile"
@@ -128,7 +126,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.profiles.IPartnerProfileCollection.getMpnProfile"
   package: "com.microsoft.store.partnercenter.profiles"
 - uid: "com.microsoft.store.partnercenter.profiles.ISupportProfile"
-  isExternal: true
   name: "ISupportProfile"
   nameWithType: "ISupportProfile"
   fullName: "com.microsoft.store.partnercenter.profiles.ISupportProfile"
@@ -138,7 +135,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.profiles.IPartnerProfileCollection.getSupportProfile"
   package: "com.microsoft.store.partnercenter.profiles"
 - uid: "com.microsoft.store.partnercenter.profiles.IOrganizationProfile"
-  isExternal: true
   name: "IOrganizationProfile"
   nameWithType: "IOrganizationProfile"
   fullName: "com.microsoft.store.partnercenter.profiles.IOrganizationProfile"
@@ -148,7 +144,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.profiles.IPartnerProfileCollection.getOrganizationProfile"
   package: "com.microsoft.store.partnercenter.profiles"
 - uid: "com.microsoft.store.partnercenter.profiles.IBillingProfile"
-  isExternal: true
   name: "IBillingProfile"
   nameWithType: "IBillingProfile"
   fullName: "com.microsoft.store.partnercenter.profiles.IBillingProfile"
@@ -158,7 +153,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.profiles.IPartnerProfileCollection.getBillingProfile"
   package: "com.microsoft.store.partnercenter.profiles"
 - uid: "com.microsoft.store.partnercenter.IPartnerComponentString"
-  isExternal: true
   name: "IPartnerComponentString"
   nameWithType: "IPartnerComponentString"
   fullName: "com.microsoft.store.partnercenter.IPartnerComponentString"

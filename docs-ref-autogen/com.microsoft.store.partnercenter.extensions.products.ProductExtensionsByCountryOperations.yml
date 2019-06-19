@@ -64,12 +64,10 @@ items:
       description: "The inventory check results."
 references:
 - uid: "com.microsoft.store.partnercenter.IPartner"
-  isExternal: true
   name: "IPartner"
   nameWithType: "IPartner"
   fullName: "com.microsoft.store.partnercenter.IPartner"
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"
@@ -79,12 +77,10 @@ references:
   fullName: "com.microsoft.store.partnercenter.extensions.products.ProductExtensionsByCountryOperations.ProductExtensionsByCountryOperations"
   package: "com.microsoft.store.partnercenter.extensions.products"
 - uid: "com.microsoft.store.partnercenter.models.products.InventoryCheckRequest"
-  isExternal: true
   name: "InventoryCheckRequest"
   nameWithType: "InventoryCheckRequest"
   fullName: "com.microsoft.store.partnercenter.models.products.InventoryCheckRequest"
 - uid: "java.util.List<com.microsoft.store.partnercenter.models.products.InventoryItem>"
-  isExternal: true
   name: "List<InventoryItem>"
   nameWithType: "List<InventoryItem>"
   fullName: "java.util.List<com.microsoft.store.partnercenter.models.products.InventoryItem>"
@@ -94,22 +90,18 @@ references:
   fullName: "com.microsoft.store.partnercenter.extensions.products.ProductExtensionsByCountryOperations.checkInventory"
   package: "com.microsoft.store.partnercenter.extensions.products"
 - uid: "com.microsoft.store.partnercenter.BasePartnerComponentString"
-  isExternal: true
   name: "BasePartnerComponentString"
   nameWithType: "BasePartnerComponentString"
   fullName: "com.microsoft.store.partnercenter.BasePartnerComponentString"
 - uid: "com.microsoft.store.partnercenter.extensions.products.IProductExtensionsByCountry"
-  isExternal: true
   name: "IProductExtensionsByCountry"
   nameWithType: "IProductExtensionsByCountry"
   fullName: "com.microsoft.store.partnercenter.extensions.products.IProductExtensionsByCountry"
 - uid: "java.util.List"
-  isExternal: true
   name: "List"
   nameWithType: "List"
   fullName: "java.util.List"
 - uid: "com.microsoft.store.partnercenter.models.products.InventoryItem"
-  isExternal: true
   name: "InventoryItem"
   nameWithType: "InventoryItem"
   fullName: "com.microsoft.store.partnercenter.models.products.InventoryItem"

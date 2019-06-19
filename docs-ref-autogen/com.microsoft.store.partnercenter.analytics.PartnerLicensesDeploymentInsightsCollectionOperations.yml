@@ -57,7 +57,6 @@ items:
       description: "Collection of partner's licenses' deployment insights."
 references:
 - uid: "com.microsoft.store.partnercenter.IPartner"
-  isExternal: true
   name: "IPartner"
   nameWithType: "IPartner"
   fullName: "com.microsoft.store.partnercenter.IPartner"
@@ -67,7 +66,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.analytics.PartnerLicensesDeploymentInsightsCollectionOperations.PartnerLicensesDeploymentInsightsCollectionOperations"
   package: "com.microsoft.store.partnercenter.analytics"
 - uid: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.analytics.PartnerLicensesDeploymentInsights>"
-  isExternal: true
   name: "ResourceCollection<PartnerLicensesDeploymentInsights>"
   nameWithType: "ResourceCollection<PartnerLicensesDeploymentInsights>"
   fullName: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.analytics.PartnerLicensesDeploymentInsights>"
@@ -77,22 +75,18 @@ references:
   fullName: "com.microsoft.store.partnercenter.analytics.PartnerLicensesDeploymentInsightsCollectionOperations.get"
   package: "com.microsoft.store.partnercenter.analytics"
 - uid: "com.microsoft.store.partnercenter.BasePartnerComponentString"
-  isExternal: true
   name: "BasePartnerComponentString"
   nameWithType: "BasePartnerComponentString"
   fullName: "com.microsoft.store.partnercenter.BasePartnerComponentString"
 - uid: "com.microsoft.store.partnercenter.analytics.IPartnerLicensesDeploymentInsightsCollection"
-  isExternal: true
   name: "IPartnerLicensesDeploymentInsightsCollection"
   nameWithType: "IPartnerLicensesDeploymentInsightsCollection"
   fullName: "com.microsoft.store.partnercenter.analytics.IPartnerLicensesDeploymentInsightsCollection"
 - uid: "com.microsoft.store.partnercenter.models.analytics.PartnerLicensesDeploymentInsights"
-  isExternal: true
   name: "PartnerLicensesDeploymentInsights"
   nameWithType: "PartnerLicensesDeploymentInsights"
   fullName: "com.microsoft.store.partnercenter.models.analytics.PartnerLicensesDeploymentInsights"
 - uid: "com.microsoft.store.partnercenter.models.ResourceCollection"
-  isExternal: true
   name: "ResourceCollection"
   nameWithType: "ResourceCollection"
   fullName: "com.microsoft.store.partnercenter.models.ResourceCollection"

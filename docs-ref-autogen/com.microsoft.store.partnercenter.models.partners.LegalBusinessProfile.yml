@@ -269,7 +269,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.partners.LegalBusinessProfile.LegalBusinessProfile"
   package: "com.microsoft.store.partnercenter.models.partners"
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"
@@ -284,7 +283,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.partners.LegalBusinessProfile.setCompanyName"
   package: "com.microsoft.store.partnercenter.models.partners"
 - uid: "com.microsoft.store.partnercenter.models.Address"
-  isExternal: true
   name: "Address"
   nameWithType: "Address"
   fullName: "com.microsoft.store.partnercenter.models.Address"
@@ -299,7 +297,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.partners.LegalBusinessProfile.setAddress"
   package: "com.microsoft.store.partnercenter.models.partners"
 - uid: "com.microsoft.store.partnercenter.models.Contact"
-  isExternal: true
   name: "Contact"
   nameWithType: "Contact"
   fullName: "com.microsoft.store.partnercenter.models.Contact"
@@ -334,7 +331,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.partners.LegalBusinessProfile.setCompanyApproverEmail"
   package: "com.microsoft.store.partnercenter.models.partners"
 - uid: "com.microsoft.store.partnercenter.models.partners.VettingStatus"
-  isExternal: true
   name: "VettingStatus"
   nameWithType: "VettingStatus"
   fullName: "com.microsoft.store.partnercenter.models.partners.VettingStatus"
@@ -349,7 +345,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.partners.LegalBusinessProfile.setVettingStatus"
   package: "com.microsoft.store.partnercenter.models.partners"
 - uid: "com.microsoft.store.partnercenter.models.partners.VettingSubStatus"
-  isExternal: true
   name: "VettingSubStatus"
   nameWithType: "VettingSubStatus"
   fullName: "com.microsoft.store.partnercenter.models.partners.VettingSubStatus"
@@ -364,17 +359,14 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.partners.LegalBusinessProfile.setVettingSubStatus"
   package: "com.microsoft.store.partnercenter.models.partners"
 - uid: "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks<com.microsoft.store.partnercenter.models.StandardResourceLinks>"
-  isExternal: true
   name: "ResourceBaseWithLinks<StandardResourceLinks>"
   nameWithType: "ResourceBaseWithLinks<StandardResourceLinks>"
   fullName: "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks<com.microsoft.store.partnercenter.models.StandardResourceLinks>"
 - uid: "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks"
-  isExternal: true
   name: "ResourceBaseWithLinks"
   nameWithType: "ResourceBaseWithLinks"
   fullName: "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks"
 - uid: "com.microsoft.store.partnercenter.models.StandardResourceLinks"
-  isExternal: true
   name: "StandardResourceLinks"
   nameWithType: "StandardResourceLinks"
   fullName: "com.microsoft.store.partnercenter.models.StandardResourceLinks"

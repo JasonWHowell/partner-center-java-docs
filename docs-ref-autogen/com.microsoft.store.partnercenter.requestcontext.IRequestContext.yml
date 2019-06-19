@@ -70,7 +70,6 @@ items:
       description: "The locale."
 references:
 - uid: "java.util.UUID"
-  isExternal: true
   name: "UUID"
   nameWithType: "UUID"
   fullName: "java.util.UUID"
@@ -85,7 +84,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.requestcontext.IRequestContext.getCorrelationId"
   package: "com.microsoft.store.partnercenter.requestcontext"
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"

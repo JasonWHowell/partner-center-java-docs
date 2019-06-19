@@ -320,7 +320,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.PartnerService.getInstance"
   package: "com.microsoft.store.partnercenter"
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"
@@ -345,7 +344,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.PartnerService.getApplicationName"
   package: "com.microsoft.store.partnercenter"
 - uid: "com.microsoft.store.partnercenter.configuration.Configuration"
-  isExternal: true
   name: "Configuration"
   nameWithType: "Configuration"
   fullName: "com.microsoft.store.partnercenter.configuration.Configuration"
@@ -355,7 +353,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.PartnerService.getConfiguration"
   package: "com.microsoft.store.partnercenter"
 - uid: "com.microsoft.store.partnercenter.factory.IPartnerFactory"
-  isExternal: true
   name: "IPartnerFactory"
   nameWithType: "IPartnerFactory"
   fullName: "com.microsoft.store.partnercenter.factory.IPartnerFactory"
@@ -370,7 +367,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.PartnerService.setFactory"
   package: "com.microsoft.store.partnercenter"
 - uid: "com.microsoft.store.partnercenter.IPartnerCredentials"
-  isExternal: true
   name: "IPartnerCredentials"
   nameWithType: "IPartnerCredentials"
   fullName: "com.microsoft.store.partnercenter.IPartnerCredentials"
@@ -390,7 +386,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.PartnerService.getProxyHostName"
   package: "com.microsoft.store.partnercenter"
 - uid: "java.lang.Integer"
-  isExternal: true
   name: "Integer"
   nameWithType: "Integer"
   fullName: "java.lang.Integer"
@@ -415,7 +410,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.PartnerService.clearProxyOptions"
   package: "com.microsoft.store.partnercenter"
 - uid: "com.microsoft.store.partnercenter.IAggregatePartner"
-  isExternal: true
   name: "IAggregatePartner"
   nameWithType: "IAggregatePartner"
   fullName: "com.microsoft.store.partnercenter.IAggregatePartner"

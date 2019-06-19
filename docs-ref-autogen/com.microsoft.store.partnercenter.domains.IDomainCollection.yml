@@ -39,12 +39,10 @@ items:
       description: "The domain operations."
 references:
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"
 - uid: "com.microsoft.store.partnercenter.domains.IDomain"
-  isExternal: true
   name: "IDomain"
   nameWithType: "IDomain"
   fullName: "com.microsoft.store.partnercenter.domains.IDomain"
@@ -54,7 +52,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.domains.IDomainCollection.byDomain"
   package: "com.microsoft.store.partnercenter.domains"
 - uid: "com.microsoft.store.partnercenter.IPartnerComponentString"
-  isExternal: true
   name: "IPartnerComponentString"
   nameWithType: "IPartnerComponentString"
   fullName: "com.microsoft.store.partnercenter.IPartnerComponentString"

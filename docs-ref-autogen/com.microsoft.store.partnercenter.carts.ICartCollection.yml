@@ -42,12 +42,10 @@ items:
       description: "The available cart operations."
 references:
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"
 - uid: "com.microsoft.store.partnercenter.carts.ICart"
-  isExternal: true
   name: "ICart"
   nameWithType: "ICart"
   fullName: "com.microsoft.store.partnercenter.carts.ICart"
@@ -57,37 +55,30 @@ references:
   fullName: "com.microsoft.store.partnercenter.carts.ICartCollection.byId"
   package: "com.microsoft.store.partnercenter.carts"
 - uid: "com.microsoft.store.partnercenter.IPartnerComponentString"
-  isExternal: true
   name: "IPartnerComponentString"
   nameWithType: "IPartnerComponentString"
   fullName: "com.microsoft.store.partnercenter.IPartnerComponentString"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntitySelector<java.lang.String,com.microsoft.store.partnercenter.carts.ICart>"
-  isExternal: true
   name: "IEntitySelector<String,ICart>"
   nameWithType: "IEntitySelector<String,ICart>"
   fullName: "com.microsoft.store.partnercenter.genericoperations.IEntitySelector<java.lang.String,com.microsoft.store.partnercenter.carts.ICart>"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations<com.microsoft.store.partnercenter.models.carts.Cart,com.microsoft.store.partnercenter.models.carts.Cart>"
-  isExternal: true
   name: "IEntityCreateOperations<Cart,Cart>"
   nameWithType: "IEntityCreateOperations<Cart,Cart>"
   fullName: "com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations<com.microsoft.store.partnercenter.models.carts.Cart,com.microsoft.store.partnercenter.models.carts.Cart>"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntitySelector"
-  isExternal: true
   name: "IEntitySelector"
   nameWithType: "IEntitySelector"
   fullName: "com.microsoft.store.partnercenter.genericoperations.IEntitySelector"
 - uid: "java.lang.String,com.microsoft.store.partnercenter.carts.ICart"
-  isExternal: true
   name: "String,ICart"
   nameWithType: "String,ICart"
   fullName: "java.lang.String,com.microsoft.store.partnercenter.carts.ICart"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations"
-  isExternal: true
   name: "IEntityCreateOperations"
   nameWithType: "IEntityCreateOperations"
   fullName: "com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations"
 - uid: "com.microsoft.store.partnercenter.models.carts.Cart,com.microsoft.store.partnercenter.models.carts.Cart"
-  isExternal: true
   name: "Cart,Cart"
   nameWithType: "Cart,Cart"
   fullName: "com.microsoft.store.partnercenter.models.carts.Cart,com.microsoft.store.partnercenter.models.carts.Cart"

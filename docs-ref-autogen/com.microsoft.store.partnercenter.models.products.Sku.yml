@@ -433,7 +433,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.products.Sku.Sku"
   package: "com.microsoft.store.partnercenter.models.products"
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"
@@ -478,7 +477,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.products.Sku.setDescription"
   package: "com.microsoft.store.partnercenter.models.products"
 - uid: "int"
-  isExternal: true
   name: "int"
   nameWithType: "int"
   fullName: "int"
@@ -503,7 +501,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.products.Sku.setMaximumQuantity"
   package: "com.microsoft.store.partnercenter.models.products"
 - uid: "java.lang.Boolean"
-  isExternal: true
   name: "Boolean"
   nameWithType: "Boolean"
   fullName: "java.lang.Boolean"
@@ -518,7 +515,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.products.Sku.setIsTrial"
   package: "com.microsoft.store.partnercenter.models.products"
 - uid: "java.util.List<com.microsoft.store.partnercenter.models.products.BillingCycleType>"
-  isExternal: true
   name: "List<BillingCycleType>"
   nameWithType: "List<BillingCycleType>"
   fullName: "java.util.List<com.microsoft.store.partnercenter.models.products.BillingCycleType>"
@@ -533,7 +529,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.products.Sku.setSupportedBillingCycles"
   package: "com.microsoft.store.partnercenter.models.products"
 - uid: "java.util.List<java.lang.String>"
-  isExternal: true
   name: "List<String>"
   nameWithType: "List<String>"
   fullName: "java.util.List<java.lang.String>"
@@ -568,7 +563,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.products.Sku.setProvisioningVariables"
   package: "com.microsoft.store.partnercenter.models.products"
 - uid: "java.util.Map<java.lang.String,java.lang.String>"
-  isExternal: true
   name: "Map<String,String>"
   nameWithType: "Map<String,String>"
   fullName: "java.util.Map<java.lang.String,java.lang.String>"
@@ -583,37 +577,30 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.products.Sku.setDynamicAttributes"
   package: "com.microsoft.store.partnercenter.models.products"
 - uid: "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks<com.microsoft.store.partnercenter.models.StandardResourceLinks>"
-  isExternal: true
   name: "ResourceBaseWithLinks<StandardResourceLinks>"
   nameWithType: "ResourceBaseWithLinks<StandardResourceLinks>"
   fullName: "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks<com.microsoft.store.partnercenter.models.StandardResourceLinks>"
 - uid: "java.util.List"
-  isExternal: true
   name: "List"
   nameWithType: "List"
   fullName: "java.util.List"
 - uid: "com.microsoft.store.partnercenter.models.products.BillingCycleType"
-  isExternal: true
   name: "BillingCycleType"
   nameWithType: "BillingCycleType"
   fullName: "com.microsoft.store.partnercenter.models.products.BillingCycleType"
 - uid: "java.util.Map"
-  isExternal: true
   name: "Map"
   nameWithType: "Map"
   fullName: "java.util.Map"
 - uid: "java.lang.String,java.lang.String"
-  isExternal: true
   name: "String,String"
   nameWithType: "String,String"
   fullName: "java.lang.String,java.lang.String"
 - uid: "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks"
-  isExternal: true
   name: "ResourceBaseWithLinks"
   nameWithType: "ResourceBaseWithLinks"
   fullName: "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks"
 - uid: "com.microsoft.store.partnercenter.models.StandardResourceLinks"
-  isExternal: true
   name: "StandardResourceLinks"
   nameWithType: "StandardResourceLinks"
   fullName: "com.microsoft.store.partnercenter.models.StandardResourceLinks"

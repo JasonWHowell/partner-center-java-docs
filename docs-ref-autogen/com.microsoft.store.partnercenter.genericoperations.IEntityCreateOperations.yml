@@ -41,12 +41,10 @@ items:
       description: "The entity information that was just created."
 references:
 - uid: "T"
-  isExternal: true
   name: "T"
   nameWithType: "T"
   fullName: "T"
 - uid: "T1"
-  isExternal: true
   name: "T1"
   nameWithType: "T1"
   fullName: "T1"

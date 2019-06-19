@@ -139,7 +139,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.configuration.Configuration.Api.Api"
   package: "com.microsoft.store.partnercenter.configuration"
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"
@@ -154,7 +153,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.configuration.Configuration.Api.setPath"
   package: "com.microsoft.store.partnercenter.configuration"
 - uid: "java.util.Map<java.lang.String,java.lang.String>"
-  isExternal: true
   name: "Map<String,String>"
   nameWithType: "Map<String,String>"
   fullName: "java.util.Map<java.lang.String,java.lang.String>"
@@ -179,12 +177,10 @@ references:
   fullName: "com.microsoft.store.partnercenter.configuration.Configuration.Api.setAdditionalHeaders"
   package: "com.microsoft.store.partnercenter.configuration"
 - uid: "java.util.Map"
-  isExternal: true
   name: "Map"
   nameWithType: "Map"
   fullName: "java.util.Map"
 - uid: "java.lang.String,java.lang.String"
-  isExternal: true
   name: "String,String"
   nameWithType: "String,String"
   fullName: "java.lang.String,java.lang.String"

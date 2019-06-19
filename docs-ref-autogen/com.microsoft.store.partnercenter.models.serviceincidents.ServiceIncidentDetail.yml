@@ -562,7 +562,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidentDetail.ServiceIncidentDetail"
   package: "com.microsoft.store.partnercenter.models.serviceincidents"
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"
@@ -577,7 +576,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidentDetail.setId"
   package: "com.microsoft.store.partnercenter.models.serviceincidents"
 - uid: "com.microsoft.store.partnercenter.models.serviceincidents.MessageType"
-  isExternal: true
   name: "MessageType"
   nameWithType: "MessageType"
   fullName: "com.microsoft.store.partnercenter.models.serviceincidents.MessageType"
@@ -592,7 +590,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidentDetail.setMessageType"
   package: "com.microsoft.store.partnercenter.models.serviceincidents"
 - uid: "org.joda.time.DateTime"
-  isExternal: true
   name: "DateTime"
   nameWithType: "DateTime"
   fullName: "org.joda.time.DateTime"
@@ -617,7 +614,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidentDetail.setEndTime"
   package: "com.microsoft.store.partnercenter.models.serviceincidents"
 - uid: "com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidentStatus"
-  isExternal: true
   name: "ServiceIncidentStatus"
   nameWithType: "ServiceIncidentStatus"
   fullName: "com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidentStatus"
@@ -632,7 +628,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidentDetail.setStatus"
   package: "com.microsoft.store.partnercenter.models.serviceincidents"
 - uid: "java.lang.Iterable<com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidentHistory>"
-  isExternal: true
   name: "Iterable<ServiceIncidentHistory>"
   nameWithType: "Iterable<ServiceIncidentHistory>"
   fullName: "java.lang.Iterable<com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidentHistory>"
@@ -657,7 +652,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidentDetail.setWorkload"
   package: "com.microsoft.store.partnercenter.models.serviceincidents"
 - uid: "java.lang.Iterable<java.lang.String>"
-  isExternal: true
   name: "Iterable<String>"
   nameWithType: "Iterable<String>"
   fullName: "java.lang.Iterable<java.lang.String>"
@@ -682,7 +676,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidentDetail.setImpactedArea"
   package: "com.microsoft.store.partnercenter.models.serviceincidents"
 - uid: "boolean"
-  isExternal: true
   name: "boolean"
   nameWithType: "boolean"
   fullName: "boolean"
@@ -697,7 +690,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidentDetail.setResolved"
   package: "com.microsoft.store.partnercenter.models.serviceincidents"
 - uid: "int"
-  isExternal: true
   name: "int"
   nameWithType: "int"
   fullName: "int"
@@ -752,12 +744,10 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidentDetail.setSeverity"
   package: "com.microsoft.store.partnercenter.models.serviceincidents"
 - uid: "com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidentHistory"
-  isExternal: true
   name: "ServiceIncidentHistory"
   nameWithType: "ServiceIncidentHistory"
   fullName: "com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidentHistory"
 - uid: "java.lang.Iterable"
-  isExternal: true
   name: "Iterable"
   nameWithType: "Iterable"
   fullName: "java.lang.Iterable"

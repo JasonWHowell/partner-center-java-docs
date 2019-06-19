@@ -111,7 +111,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.products.AvailabilityTerm.AvailabilityTerm"
   package: "com.microsoft.store.partnercenter.models.products"
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"

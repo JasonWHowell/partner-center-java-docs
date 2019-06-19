@@ -60,27 +60,22 @@ references:
   fullName: "com.microsoft.store.partnercenter.utils.UriDeserializer.UriDeserializer"
   package: "com.microsoft.store.partnercenter.utils"
 - uid: "java.io.IOException"
-  isExternal: true
   name: "IOException"
   nameWithType: "IOException"
   fullName: "java.io.IOException"
 - uid: "com.fasterxml.jackson.core.JsonProcessingException"
-  isExternal: true
   name: "JsonProcessingException"
   nameWithType: "JsonProcessingException"
   fullName: "com.fasterxml.jackson.core.JsonProcessingException"
 - uid: "com.fasterxml.jackson.core.JsonParser"
-  isExternal: true
   name: "JsonParser"
   nameWithType: "JsonParser"
   fullName: "com.fasterxml.jackson.core.JsonParser"
 - uid: "com.fasterxml.jackson.databind.DeserializationContext"
-  isExternal: true
   name: "DeserializationContext"
   nameWithType: "DeserializationContext"
   fullName: "com.fasterxml.jackson.databind.DeserializationContext"
 - uid: "java.net.URI"
-  isExternal: true
   name: "URI"
   nameWithType: "URI"
   fullName: "java.net.URI"
@@ -90,12 +85,10 @@ references:
   fullName: "com.microsoft.store.partnercenter.utils.UriDeserializer.deserialize"
   package: "com.microsoft.store.partnercenter.utils"
 - uid: "com.fasterxml.jackson.databind.JsonDeserializer<java.net.URI>"
-  isExternal: true
   name: "JsonDeserializer<URI>"
   nameWithType: "JsonDeserializer<URI>"
   fullName: "com.fasterxml.jackson.databind.JsonDeserializer<java.net.URI>"
 - uid: "com.fasterxml.jackson.databind.JsonDeserializer"
-  isExternal: true
   name: "JsonDeserializer"
   nameWithType: "JsonDeserializer"
   fullName: "com.fasterxml.jackson.databind.JsonDeserializer"

@@ -202,7 +202,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.devicesdeployment.DeviceBatch.DeviceBatch"
   package: "com.microsoft.store.partnercenter.models.devicesdeployment"
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"
@@ -227,7 +226,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.devicesdeployment.DeviceBatch.setCreatedBy"
   package: "com.microsoft.store.partnercenter.models.devicesdeployment"
 - uid: "org.joda.time.DateTime"
-  isExternal: true
   name: "DateTime"
   nameWithType: "DateTime"
   fullName: "org.joda.time.DateTime"
@@ -242,7 +240,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.devicesdeployment.DeviceBatch.setCreationDate"
   package: "com.microsoft.store.partnercenter.models.devicesdeployment"
 - uid: "java.lang.Integer"
-  isExternal: true
   name: "Integer"
   nameWithType: "Integer"
   fullName: "java.lang.Integer"
@@ -257,7 +254,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.devicesdeployment.DeviceBatch.setDevicesCount"
   package: "com.microsoft.store.partnercenter.models.devicesdeployment"
 - uid: "com.microsoft.store.partnercenter.models.Link"
-  isExternal: true
   name: "Link"
   nameWithType: "Link"
   fullName: "com.microsoft.store.partnercenter.models.Link"
@@ -272,7 +268,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.devicesdeployment.DeviceBatch.setDevicesLink"
   package: "com.microsoft.store.partnercenter.models.devicesdeployment"
 - uid: "com.microsoft.store.partnercenter.models.StandardResourceLinks"
-  isExternal: true
   name: "StandardResourceLinks"
   nameWithType: "StandardResourceLinks"
   fullName: "com.microsoft.store.partnercenter.models.StandardResourceLinks"

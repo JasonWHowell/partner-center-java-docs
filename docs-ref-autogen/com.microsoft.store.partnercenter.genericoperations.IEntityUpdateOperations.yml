@@ -40,7 +40,6 @@ items:
       description: "The updated entity."
 references:
 - uid: "T"
-  isExternal: true
   name: "T"
   nameWithType: "T"
   fullName: "T"

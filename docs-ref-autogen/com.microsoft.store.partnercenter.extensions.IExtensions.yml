@@ -36,7 +36,6 @@ items:
       description: "The product extensions operations."
 references:
 - uid: "com.microsoft.store.partnercenter.extensions.products.IProductExtensions"
-  isExternal: true
   name: "IProductExtensions"
   nameWithType: "IProductExtensions"
   fullName: "com.microsoft.store.partnercenter.extensions.products.IProductExtensions"
@@ -46,7 +45,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.extensions.IExtensions.getProduct"
   package: "com.microsoft.store.partnercenter.extensions"
 - uid: "com.microsoft.store.partnercenter.IPartnerComponentString"
-  isExternal: true
   name: "IPartnerComponentString"
   nameWithType: "IPartnerComponentString"
   fullName: "com.microsoft.store.partnercenter.IPartnerComponentString"

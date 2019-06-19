@@ -69,7 +69,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.SecureString.SecureString"
   package: "com.microsoft.store.partnercenter.models"
 - uid: "int"
-  isExternal: true
   name: "int"
   nameWithType: "int"
   fullName: "int"

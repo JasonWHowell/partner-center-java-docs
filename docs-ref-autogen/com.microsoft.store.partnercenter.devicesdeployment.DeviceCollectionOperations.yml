@@ -107,12 +107,10 @@ items:
       description: "All of the devices."
 references:
 - uid: "com.microsoft.store.partnercenter.IPartner"
-  isExternal: true
   name: "IPartner"
   nameWithType: "IPartner"
   fullName: "com.microsoft.store.partnercenter.IPartner"
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"
@@ -122,7 +120,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.devicesdeployment.DeviceCollectionOperations.DeviceCollectionOperations"
   package: "com.microsoft.store.partnercenter.devicesdeployment"
 - uid: "com.microsoft.store.partnercenter.devicesdeployment.IDevice"
-  isExternal: true
   name: "IDevice"
   nameWithType: "IDevice"
   fullName: "com.microsoft.store.partnercenter.devicesdeployment.IDevice"
@@ -132,7 +129,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.devicesdeployment.DeviceCollectionOperations.byId"
   package: "com.microsoft.store.partnercenter.devicesdeployment"
 - uid: "java.util.List<com.microsoft.store.partnercenter.models.devicesdeployment.Device>"
-  isExternal: true
   name: "List<Device>"
   nameWithType: "List<Device>"
   fullName: "java.util.List<com.microsoft.store.partnercenter.models.devicesdeployment.Device>"
@@ -142,7 +138,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.devicesdeployment.DeviceCollectionOperations.create"
   package: "com.microsoft.store.partnercenter.devicesdeployment"
 - uid: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.devicesdeployment.Device>"
-  isExternal: true
   name: "ResourceCollection<Device>"
   nameWithType: "ResourceCollection<Device>"
   fullName: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.devicesdeployment.Device>"
@@ -152,42 +147,34 @@ references:
   fullName: "com.microsoft.store.partnercenter.devicesdeployment.DeviceCollectionOperations.get"
   package: "com.microsoft.store.partnercenter.devicesdeployment"
 - uid: "com.microsoft.store.partnercenter.BasePartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>"
-  isExternal: true
   name: "BasePartnerComponent<Tuple<String,String>>"
   nameWithType: "BasePartnerComponent<Tuple<String,String>>"
   fullName: "com.microsoft.store.partnercenter.BasePartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>"
 - uid: "com.microsoft.store.partnercenter.devicesdeployment.IDeviceCollection"
-  isExternal: true
   name: "IDeviceCollection"
   nameWithType: "IDeviceCollection"
   fullName: "com.microsoft.store.partnercenter.devicesdeployment.IDeviceCollection"
 - uid: "java.util.List"
-  isExternal: true
   name: "List"
   nameWithType: "List"
   fullName: "java.util.List"
 - uid: "com.microsoft.store.partnercenter.models.devicesdeployment.Device"
-  isExternal: true
   name: "Device"
   nameWithType: "Device"
   fullName: "com.microsoft.store.partnercenter.models.devicesdeployment.Device"
 - uid: "com.microsoft.store.partnercenter.models.ResourceCollection"
-  isExternal: true
   name: "ResourceCollection"
   nameWithType: "ResourceCollection"
   fullName: "com.microsoft.store.partnercenter.models.ResourceCollection"
 - uid: "com.microsoft.store.partnercenter.models.utils.Tuple"
-  isExternal: true
   name: "Tuple"
   nameWithType: "Tuple"
   fullName: "com.microsoft.store.partnercenter.models.utils.Tuple"
 - uid: "com.microsoft.store.partnercenter.BasePartnerComponent"
-  isExternal: true
   name: "BasePartnerComponent"
   nameWithType: "BasePartnerComponent"
   fullName: "com.microsoft.store.partnercenter.BasePartnerComponent"
 - uid: "java.lang.String,java.lang.String"
-  isExternal: true
   name: "String,String"
   nameWithType: "String,String"
   fullName: "java.lang.String,java.lang.String"

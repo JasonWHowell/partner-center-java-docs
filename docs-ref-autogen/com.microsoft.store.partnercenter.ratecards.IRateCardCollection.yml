@@ -36,7 +36,6 @@ items:
       description: "The Azure rate card operations."
 references:
 - uid: "com.microsoft.store.partnercenter.ratecards.IAzureRateCard"
-  isExternal: true
   name: "IAzureRateCard"
   nameWithType: "IAzureRateCard"
   fullName: "com.microsoft.store.partnercenter.ratecards.IAzureRateCard"
@@ -46,7 +45,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.ratecards.IRateCardCollection.getAzure"
   package: "com.microsoft.store.partnercenter.ratecards"
 - uid: "com.microsoft.store.partnercenter.IPartnerComponentString"
-  isExternal: true
   name: "IPartnerComponentString"
   nameWithType: "IPartnerComponentString"
   fullName: "com.microsoft.store.partnercenter.IPartnerComponentString"

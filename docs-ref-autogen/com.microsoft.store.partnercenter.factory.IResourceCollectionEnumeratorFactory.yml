@@ -40,12 +40,10 @@ items:
       description: "A customer collection enumerator capable of traversing customers."
 references:
 - uid: "T"
-  isExternal: true
   name: "T"
   nameWithType: "T"
   fullName: "T"
 - uid: "com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumerator<T>"
-  isExternal: true
   name: "IResourceCollectionEnumerator<T>"
   nameWithType: "IResourceCollectionEnumerator<T>"
   fullName: "com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumerator<T>"
@@ -55,7 +53,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.factory.IResourceCollectionEnumeratorFactory<T>.create"
   package: "com.microsoft.store.partnercenter.factory"
 - uid: "com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumerator"
-  isExternal: true
   name: "IResourceCollectionEnumerator"
   nameWithType: "IResourceCollectionEnumerator"
   fullName: "com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumerator"

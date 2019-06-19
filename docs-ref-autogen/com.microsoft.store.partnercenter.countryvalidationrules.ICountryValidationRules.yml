@@ -37,7 +37,6 @@ items:
       description: "The validation rules for the country."
 references:
 - uid: "com.microsoft.store.partnercenter.models.countryvalidationrules.CountryValidationRules"
-  isExternal: true
   name: "CountryValidationRules"
   nameWithType: "CountryValidationRules"
   fullName: "com.microsoft.store.partnercenter.models.countryvalidationrules.CountryValidationRules"
@@ -47,17 +46,14 @@ references:
   fullName: "com.microsoft.store.partnercenter.countryvalidationrules.ICountryValidationRules.get"
   package: "com.microsoft.store.partnercenter.countryvalidationrules"
 - uid: "com.microsoft.store.partnercenter.IPartnerComponentString"
-  isExternal: true
   name: "IPartnerComponentString"
   nameWithType: "IPartnerComponentString"
   fullName: "com.microsoft.store.partnercenter.IPartnerComponentString"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations<com.microsoft.store.partnercenter.models.countryvalidationrules.CountryValidationRules>"
-  isExternal: true
   name: "IEntityGetOperations<CountryValidationRules>"
   nameWithType: "IEntityGetOperations<CountryValidationRules>"
   fullName: "com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations<com.microsoft.store.partnercenter.models.countryvalidationrules.CountryValidationRules>"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations"
-  isExternal: true
   name: "IEntityGetOperations"
   nameWithType: "IEntityGetOperations"
   fullName: "com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations"

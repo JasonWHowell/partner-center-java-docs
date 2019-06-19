@@ -103,7 +103,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.entitlements.QuantityDetail.QuantityDetail"
   package: "com.microsoft.store.partnercenter.models.entitlements"
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"

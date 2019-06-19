@@ -169,7 +169,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.subscriptions.SubscriptionProvisioningStatus.SubscriptionProvisioningStatus"
   package: "com.microsoft.store.partnercenter.models.subscriptions"
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"
@@ -184,7 +183,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.subscriptions.SubscriptionProvisioningStatus.setSkuId"
   package: "com.microsoft.store.partnercenter.models.subscriptions"
 - uid: "com.microsoft.store.partnercenter.models.subscriptions.ProvisioningStatus"
-  isExternal: true
   name: "ProvisioningStatus"
   nameWithType: "ProvisioningStatus"
   fullName: "com.microsoft.store.partnercenter.models.subscriptions.ProvisioningStatus"
@@ -199,7 +197,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.subscriptions.SubscriptionProvisioningStatus.setStatus"
   package: "com.microsoft.store.partnercenter.models.subscriptions"
 - uid: "int"
-  isExternal: true
   name: "int"
   nameWithType: "int"
   fullName: "int"
@@ -214,7 +211,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.subscriptions.SubscriptionProvisioningStatus.setQuantity"
   package: "com.microsoft.store.partnercenter.models.subscriptions"
 - uid: "org.joda.time.DateTime"
-  isExternal: true
   name: "DateTime"
   nameWithType: "DateTime"
   fullName: "org.joda.time.DateTime"
@@ -229,7 +225,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.subscriptions.SubscriptionProvisioningStatus.setEndDate"
   package: "com.microsoft.store.partnercenter.models.subscriptions"
 - uid: "com.microsoft.store.partnercenter.models.ResourceBase"
-  isExternal: true
   name: "ResourceBase"
   nameWithType: "ResourceBase"
   fullName: "com.microsoft.store.partnercenter.models.ResourceBase"

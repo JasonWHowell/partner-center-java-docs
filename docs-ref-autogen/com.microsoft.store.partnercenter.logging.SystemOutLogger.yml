@@ -96,7 +96,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.logging.SystemOutLogger.SystemOutLogger"
   package: "com.microsoft.store.partnercenter.logging"
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"
@@ -116,7 +115,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.logging.SystemOutLogger.logError"
   package: "com.microsoft.store.partnercenter.logging"
 - uid: "com.microsoft.store.partnercenter.logging.ILogger"
-  isExternal: true
   name: "ILogger"
   nameWithType: "ILogger"
   fullName: "com.microsoft.store.partnercenter.logging.ILogger"

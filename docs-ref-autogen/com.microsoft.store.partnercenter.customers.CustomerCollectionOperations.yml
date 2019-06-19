@@ -159,7 +159,6 @@ items:
       description: "The requested customers."
 references:
 - uid: "com.microsoft.store.partnercenter.IPartner"
-  isExternal: true
   name: "IPartner"
   nameWithType: "IPartner"
   fullName: "com.microsoft.store.partnercenter.IPartner"
@@ -169,7 +168,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.customers.CustomerCollectionOperations.CustomerCollectionOperations"
   package: "com.microsoft.store.partnercenter.customers"
 - uid: "com.microsoft.store.partnercenter.usage.ICustomerUsageRecordCollection"
-  isExternal: true
   name: "ICustomerUsageRecordCollection"
   nameWithType: "ICustomerUsageRecordCollection"
   fullName: "com.microsoft.store.partnercenter.usage.ICustomerUsageRecordCollection"
@@ -179,7 +177,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.customers.CustomerCollectionOperations.getUsageRecords"
   package: "com.microsoft.store.partnercenter.customers"
 - uid: "com.microsoft.store.partnercenter.relationshiprequests.ICustomerRelationshipRequest"
-  isExternal: true
   name: "ICustomerRelationshipRequest"
   nameWithType: "ICustomerRelationshipRequest"
   fullName: "com.microsoft.store.partnercenter.relationshiprequests.ICustomerRelationshipRequest"
@@ -189,12 +186,10 @@ references:
   fullName: "com.microsoft.store.partnercenter.customers.CustomerCollectionOperations.getRelationshipRequests"
   package: "com.microsoft.store.partnercenter.customers"
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"
 - uid: "com.microsoft.store.partnercenter.customers.ICustomer"
-  isExternal: true
   name: "ICustomer"
   nameWithType: "ICustomer"
   fullName: "com.microsoft.store.partnercenter.customers.ICustomer"
@@ -204,7 +199,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.customers.CustomerCollectionOperations.byId"
   package: "com.microsoft.store.partnercenter.customers"
 - uid: "com.microsoft.store.partnercenter.models.customers.Customer"
-  isExternal: true
   name: "Customer"
   nameWithType: "Customer"
   fullName: "com.microsoft.store.partnercenter.models.customers.Customer"
@@ -214,7 +208,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.customers.CustomerCollectionOperations.create"
   package: "com.microsoft.store.partnercenter.customers"
 - uid: "com.microsoft.store.partnercenter.models.SeekBasedResourceCollection<com.microsoft.store.partnercenter.models.customers.Customer>"
-  isExternal: true
   name: "SeekBasedResourceCollection<Customer>"
   nameWithType: "SeekBasedResourceCollection<Customer>"
   fullName: "com.microsoft.store.partnercenter.models.SeekBasedResourceCollection<com.microsoft.store.partnercenter.models.customers.Customer>"
@@ -224,7 +217,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.customers.CustomerCollectionOperations.get"
   package: "com.microsoft.store.partnercenter.customers"
 - uid: "com.microsoft.store.partnercenter.models.query.IQuery"
-  isExternal: true
   name: "IQuery"
   nameWithType: "IQuery"
   fullName: "com.microsoft.store.partnercenter.models.query.IQuery"
@@ -234,17 +226,14 @@ references:
   fullName: "com.microsoft.store.partnercenter.customers.CustomerCollectionOperations.query"
   package: "com.microsoft.store.partnercenter.customers"
 - uid: "com.microsoft.store.partnercenter.BasePartnerComponentString"
-  isExternal: true
   name: "BasePartnerComponentString"
   nameWithType: "BasePartnerComponentString"
   fullName: "com.microsoft.store.partnercenter.BasePartnerComponentString"
 - uid: "com.microsoft.store.partnercenter.customers.ICustomerCollection"
-  isExternal: true
   name: "ICustomerCollection"
   nameWithType: "ICustomerCollection"
   fullName: "com.microsoft.store.partnercenter.customers.ICustomerCollection"
 - uid: "com.microsoft.store.partnercenter.models.SeekBasedResourceCollection"
-  isExternal: true
   name: "SeekBasedResourceCollection"
   nameWithType: "SeekBasedResourceCollection"
   fullName: "com.microsoft.store.partnercenter.models.SeekBasedResourceCollection"

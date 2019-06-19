@@ -90,12 +90,10 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.utils.KeyValuePair<K,V>.KeyValuePair"
   package: "com.microsoft.store.partnercenter.models.utils"
 - uid: "K"
-  isExternal: true
   name: "K"
   nameWithType: "K"
   fullName: "K"
 - uid: "V"
-  isExternal: true
   name: "V"
   nameWithType: "V"
   fullName: "V"

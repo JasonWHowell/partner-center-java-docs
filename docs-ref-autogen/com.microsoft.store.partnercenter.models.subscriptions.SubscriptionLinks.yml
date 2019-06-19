@@ -103,7 +103,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.subscriptions.SubscriptionLinks.SubscriptionLinks"
   package: "com.microsoft.store.partnercenter.models.subscriptions"
 - uid: "com.microsoft.store.partnercenter.models.Link"
-  isExternal: true
   name: "Link"
   nameWithType: "Link"
   fullName: "com.microsoft.store.partnercenter.models.Link"
@@ -128,7 +127,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.subscriptions.SubscriptionLinks.setParentSubscription"
   package: "com.microsoft.store.partnercenter.models.subscriptions"
 - uid: "com.microsoft.store.partnercenter.models.StandardResourceLinks"
-  isExternal: true
   name: "StandardResourceLinks"
   nameWithType: "StandardResourceLinks"
   fullName: "com.microsoft.store.partnercenter.models.StandardResourceLinks"

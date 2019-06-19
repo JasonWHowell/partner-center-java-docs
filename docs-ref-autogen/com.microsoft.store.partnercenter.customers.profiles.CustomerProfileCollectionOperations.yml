@@ -76,12 +76,10 @@ items:
       type: "com.microsoft.store.partnercenter.customers.profiles.ICustomerReadonlyProfile<com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile>"
 references:
 - uid: "com.microsoft.store.partnercenter.IPartner"
-  isExternal: true
   name: "IPartner"
   nameWithType: "IPartner"
   fullName: "com.microsoft.store.partnercenter.IPartner"
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"
@@ -91,7 +89,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.customers.profiles.CustomerProfileCollectionOperations.CustomerProfileCollectionOperations"
   package: "com.microsoft.store.partnercenter.customers.profiles"
 - uid: "com.microsoft.store.partnercenter.customers.profiles.ICustomerProfile<com.microsoft.store.partnercenter.models.customers.CustomerBillingProfile>"
-  isExternal: true
   name: "ICustomerProfile<CustomerBillingProfile>"
   nameWithType: "ICustomerProfile<CustomerBillingProfile>"
   fullName: "com.microsoft.store.partnercenter.customers.profiles.ICustomerProfile<com.microsoft.store.partnercenter.models.customers.CustomerBillingProfile>"
@@ -101,7 +98,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.customers.profiles.CustomerProfileCollectionOperations.getBilling"
   package: "com.microsoft.store.partnercenter.customers.profiles"
 - uid: "com.microsoft.store.partnercenter.customers.profiles.ICustomerReadonlyProfile<com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile>"
-  isExternal: true
   name: "ICustomerReadonlyProfile<CustomerCompanyProfile>"
   nameWithType: "ICustomerReadonlyProfile<CustomerCompanyProfile>"
   fullName: "com.microsoft.store.partnercenter.customers.profiles.ICustomerReadonlyProfile<com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile>"
@@ -111,32 +107,26 @@ references:
   fullName: "com.microsoft.store.partnercenter.customers.profiles.CustomerProfileCollectionOperations.getCompany"
   package: "com.microsoft.store.partnercenter.customers.profiles"
 - uid: "com.microsoft.store.partnercenter.BasePartnerComponentString"
-  isExternal: true
   name: "BasePartnerComponentString"
   nameWithType: "BasePartnerComponentString"
   fullName: "com.microsoft.store.partnercenter.BasePartnerComponentString"
 - uid: "com.microsoft.store.partnercenter.customers.profiles.ICustomerProfileCollection"
-  isExternal: true
   name: "ICustomerProfileCollection"
   nameWithType: "ICustomerProfileCollection"
   fullName: "com.microsoft.store.partnercenter.customers.profiles.ICustomerProfileCollection"
 - uid: "com.microsoft.store.partnercenter.models.customers.CustomerBillingProfile"
-  isExternal: true
   name: "CustomerBillingProfile"
   nameWithType: "CustomerBillingProfile"
   fullName: "com.microsoft.store.partnercenter.models.customers.CustomerBillingProfile"
 - uid: "com.microsoft.store.partnercenter.customers.profiles.ICustomerProfile"
-  isExternal: true
   name: "ICustomerProfile"
   nameWithType: "ICustomerProfile"
   fullName: "com.microsoft.store.partnercenter.customers.profiles.ICustomerProfile"
 - uid: "com.microsoft.store.partnercenter.customers.profiles.ICustomerReadonlyProfile"
-  isExternal: true
   name: "ICustomerReadonlyProfile"
   nameWithType: "ICustomerReadonlyProfile"
   fullName: "com.microsoft.store.partnercenter.customers.profiles.ICustomerReadonlyProfile"
 - uid: "com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile"
-  isExternal: true
   name: "CustomerCompanyProfile"
   nameWithType: "CustomerCompanyProfile"
   fullName: "com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile"

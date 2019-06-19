@@ -61,7 +61,6 @@ items:
       description: "The operations that can be performed on estimate link collection that belong to a given currency."
 references:
 - uid: "com.microsoft.store.partnercenter.IPartner"
-  isExternal: true
   name: "IPartner"
   nameWithType: "IPartner"
   fullName: "com.microsoft.store.partnercenter.IPartner"
@@ -71,12 +70,10 @@ references:
   fullName: "com.microsoft.store.partnercenter.invoices.EstimateLinkOperations.EstimateLinkOperations"
   package: "com.microsoft.store.partnercenter.invoices"
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"
 - uid: "com.microsoft.store.partnercenter.invoices.IEstimateLinkCollectionByCurrency"
-  isExternal: true
   name: "IEstimateLinkCollectionByCurrency"
   nameWithType: "IEstimateLinkCollectionByCurrency"
   fullName: "com.microsoft.store.partnercenter.invoices.IEstimateLinkCollectionByCurrency"
@@ -86,12 +83,10 @@ references:
   fullName: "com.microsoft.store.partnercenter.invoices.EstimateLinkOperations.byCurrency"
   package: "com.microsoft.store.partnercenter.invoices"
 - uid: "com.microsoft.store.partnercenter.BasePartnerComponentString"
-  isExternal: true
   name: "BasePartnerComponentString"
   nameWithType: "BasePartnerComponentString"
   fullName: "com.microsoft.store.partnercenter.BasePartnerComponentString"
 - uid: "com.microsoft.store.partnercenter.invoices.IEstimateLink"
-  isExternal: true
   name: "IEstimateLink"
   nameWithType: "IEstimateLink"
   fullName: "com.microsoft.store.partnercenter.invoices.IEstimateLink"

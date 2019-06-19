@@ -69,7 +69,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.users.CustomerUser.CustomerUser"
   package: "com.microsoft.store.partnercenter.models.users"
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"
@@ -84,7 +83,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.users.CustomerUser.setUsageLocation"
   package: "com.microsoft.store.partnercenter.models.users"
 - uid: "com.microsoft.store.partnercenter.models.users.User"
-  isExternal: true
   name: "User"
   nameWithType: "User"
   fullName: "com.microsoft.store.partnercenter.models.users.User"

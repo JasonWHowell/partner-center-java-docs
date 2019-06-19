@@ -39,7 +39,6 @@ items:
       description: "The customer profile."
 references:
 - uid: "T"
-  isExternal: true
   name: "T"
   nameWithType: "T"
   fullName: "T"
@@ -49,17 +48,14 @@ references:
   fullName: "com.microsoft.store.partnercenter.customers.profiles.ICustomerReadonlyProfile<T>.get"
   package: "com.microsoft.store.partnercenter.customers.profiles"
 - uid: "com.microsoft.store.partnercenter.IPartnerComponentString"
-  isExternal: true
   name: "IPartnerComponentString"
   nameWithType: "IPartnerComponentString"
   fullName: "com.microsoft.store.partnercenter.IPartnerComponentString"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations<T>"
-  isExternal: true
   name: "IEntityGetOperations<T>"
   nameWithType: "IEntityGetOperations<T>"
   fullName: "com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations<T>"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations"
-  isExternal: true
   name: "IEntityGetOperations"
   nameWithType: "IEntityGetOperations"
   fullName: "com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations"

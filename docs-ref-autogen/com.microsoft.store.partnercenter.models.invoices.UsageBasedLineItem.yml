@@ -517,7 +517,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.invoices.UsageBasedLineItem.UsageBasedLineItem"
   package: "com.microsoft.store.partnercenter.models.invoices"
 - uid: "int"
-  isExternal: true
   name: "int"
   nameWithType: "int"
   fullName: "int"
@@ -532,7 +531,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.invoices.UsageBasedLineItem.setDetailLineItemId"
   package: "com.microsoft.store.partnercenter.models.invoices"
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"
@@ -547,7 +545,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.invoices.UsageBasedLineItem.setSku"
   package: "com.microsoft.store.partnercenter.models.invoices"
 - uid: "double"
-  isExternal: true
   name: "double"
   nameWithType: "double"
   fullName: "double"
@@ -672,7 +669,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.invoices.UsageBasedLineItem.setChargeType"
   package: "com.microsoft.store.partnercenter.models.invoices"
 - uid: "com.microsoft.store.partnercenter.models.invoices.InvoiceLineItemType"
-  isExternal: true
   name: "InvoiceLineItemType"
   nameWithType: "InvoiceLineItemType"
   fullName: "com.microsoft.store.partnercenter.models.invoices.InvoiceLineItemType"
@@ -682,7 +678,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.invoices.UsageBasedLineItem.getInvoiceLineItemType"
   package: "com.microsoft.store.partnercenter.models.invoices"
 - uid: "com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem"
-  isExternal: true
   name: "BaseUsageBasedLineItem"
   nameWithType: "BaseUsageBasedLineItem"
   fullName: "com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem"

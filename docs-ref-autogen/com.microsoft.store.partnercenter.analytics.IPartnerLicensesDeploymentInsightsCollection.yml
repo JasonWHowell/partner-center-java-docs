@@ -18,27 +18,22 @@ items:
   - "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations<com.microsoft.store.partnercenter.models.analytics.PartnerLicensesDeploymentInsights,com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.analytics.PartnerLicensesDeploymentInsights>>"
 references:
 - uid: "com.microsoft.store.partnercenter.IPartnerComponentString"
-  isExternal: true
   name: "IPartnerComponentString"
   nameWithType: "IPartnerComponentString"
   fullName: "com.microsoft.store.partnercenter.IPartnerComponentString"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations<com.microsoft.store.partnercenter.models.analytics.PartnerLicensesDeploymentInsights,com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.analytics.PartnerLicensesDeploymentInsights>>"
-  isExternal: true
   name: "IEntireEntityCollectionRetrievalOperations<PartnerLicensesDeploymentInsights,ResourceCollection<PartnerLicensesDeploymentInsights>>"
   nameWithType: "IEntireEntityCollectionRetrievalOperations<PartnerLicensesDeploymentInsights,ResourceCollection<PartnerLicensesDeploymentInsights>>"
   fullName: "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations<com.microsoft.store.partnercenter.models.analytics.PartnerLicensesDeploymentInsights,com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.analytics.PartnerLicensesDeploymentInsights>>"
 - uid: "com.microsoft.store.partnercenter.models.analytics.PartnerLicensesDeploymentInsights"
-  isExternal: true
   name: "PartnerLicensesDeploymentInsights"
   nameWithType: "PartnerLicensesDeploymentInsights"
   fullName: "com.microsoft.store.partnercenter.models.analytics.PartnerLicensesDeploymentInsights"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations"
-  isExternal: true
   name: "IEntireEntityCollectionRetrievalOperations"
   nameWithType: "IEntireEntityCollectionRetrievalOperations"
   fullName: "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations"
 - uid: "com.microsoft.store.partnercenter.models.analytics.PartnerLicensesDeploymentInsights,com.microsoft.store.partnercenter.models.ResourceCollection"
-  isExternal: true
   name: "PartnerLicensesDeploymentInsights,ResourceCollection"
   nameWithType: "PartnerLicensesDeploymentInsights,ResourceCollection"
   fullName: "com.microsoft.store.partnercenter.models.analytics.PartnerLicensesDeploymentInsights,com.microsoft.store.partnercenter.models.ResourceCollection"

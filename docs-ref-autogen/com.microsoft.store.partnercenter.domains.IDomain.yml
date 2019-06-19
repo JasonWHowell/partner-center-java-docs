@@ -36,7 +36,6 @@ items:
       description: "true if the domain exists, false otherwise."
 references:
 - uid: "boolean"
-  isExternal: true
   name: "boolean"
   nameWithType: "boolean"
   fullName: "boolean"
@@ -46,12 +45,10 @@ references:
   fullName: "com.microsoft.store.partnercenter.domains.IDomain.exists"
   package: "com.microsoft.store.partnercenter.domains"
 - uid: "com.microsoft.store.partnercenter.IPartnerComponentString"
-  isExternal: true
   name: "IPartnerComponentString"
   nameWithType: "IPartnerComponentString"
   fullName: "com.microsoft.store.partnercenter.IPartnerComponentString"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntityExistsOperations"
-  isExternal: true
   name: "IEntityExistsOperations"
   nameWithType: "IEntityExistsOperations"
   fullName: "com.microsoft.store.partnercenter.genericoperations.IEntityExistsOperations"

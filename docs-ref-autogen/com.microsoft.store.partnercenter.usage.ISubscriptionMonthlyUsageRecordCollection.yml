@@ -37,7 +37,6 @@ items:
       description: "The customer's subscription usage records."
 references:
 - uid: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.usage.SubscriptionMonthlyUsageRecord>"
-  isExternal: true
   name: "ResourceCollection<SubscriptionMonthlyUsageRecord>"
   nameWithType: "ResourceCollection<SubscriptionMonthlyUsageRecord>"
   fullName: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.usage.SubscriptionMonthlyUsageRecord>"
@@ -47,32 +46,26 @@ references:
   fullName: "com.microsoft.store.partnercenter.usage.ISubscriptionMonthlyUsageRecordCollection.get"
   package: "com.microsoft.store.partnercenter.usage"
 - uid: "com.microsoft.store.partnercenter.IPartnerComponentString"
-  isExternal: true
   name: "IPartnerComponentString"
   nameWithType: "IPartnerComponentString"
   fullName: "com.microsoft.store.partnercenter.IPartnerComponentString"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations<com.microsoft.store.partnercenter.models.usage.SubscriptionMonthlyUsageRecord,com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.usage.SubscriptionMonthlyUsageRecord>>"
-  isExternal: true
   name: "IEntireEntityCollectionRetrievalOperations<SubscriptionMonthlyUsageRecord,ResourceCollection<SubscriptionMonthlyUsageRecord>>"
   nameWithType: "IEntireEntityCollectionRetrievalOperations<SubscriptionMonthlyUsageRecord,ResourceCollection<SubscriptionMonthlyUsageRecord>>"
   fullName: "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations<com.microsoft.store.partnercenter.models.usage.SubscriptionMonthlyUsageRecord,com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.usage.SubscriptionMonthlyUsageRecord>>"
 - uid: "com.microsoft.store.partnercenter.models.usage.SubscriptionMonthlyUsageRecord"
-  isExternal: true
   name: "SubscriptionMonthlyUsageRecord"
   nameWithType: "SubscriptionMonthlyUsageRecord"
   fullName: "com.microsoft.store.partnercenter.models.usage.SubscriptionMonthlyUsageRecord"
 - uid: "com.microsoft.store.partnercenter.models.ResourceCollection"
-  isExternal: true
   name: "ResourceCollection"
   nameWithType: "ResourceCollection"
   fullName: "com.microsoft.store.partnercenter.models.ResourceCollection"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations"
-  isExternal: true
   name: "IEntireEntityCollectionRetrievalOperations"
   nameWithType: "IEntireEntityCollectionRetrievalOperations"
   fullName: "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations"
 - uid: "com.microsoft.store.partnercenter.models.usage.SubscriptionMonthlyUsageRecord,com.microsoft.store.partnercenter.models.ResourceCollection"
-  isExternal: true
   name: "SubscriptionMonthlyUsageRecord,ResourceCollection"
   nameWithType: "SubscriptionMonthlyUsageRecord,ResourceCollection"
   fullName: "com.microsoft.store.partnercenter.models.usage.SubscriptionMonthlyUsageRecord,com.microsoft.store.partnercenter.models.ResourceCollection"

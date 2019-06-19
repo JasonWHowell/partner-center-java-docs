@@ -82,12 +82,10 @@ items:
       description: "The SKUs for the provided product."
 references:
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"
 - uid: "com.microsoft.store.partnercenter.products.ISku"
-  isExternal: true
   name: "ISku"
   nameWithType: "ISku"
   fullName: "com.microsoft.store.partnercenter.products.ISku"
@@ -97,7 +95,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.products.ISkuCollection.byId"
   package: "com.microsoft.store.partnercenter.products"
 - uid: "com.microsoft.store.partnercenter.products.ISkuCollectionByTargetSegment"
-  isExternal: true
   name: "ISkuCollectionByTargetSegment"
   nameWithType: "ISkuCollectionByTargetSegment"
   fullName: "com.microsoft.store.partnercenter.products.ISkuCollectionByTargetSegment"
@@ -107,7 +104,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.products.ISkuCollection.byTargetSegment"
   package: "com.microsoft.store.partnercenter.products"
 - uid: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.products.Sku>"
-  isExternal: true
   name: "ResourceCollection<Sku>"
   nameWithType: "ResourceCollection<Sku>"
   fullName: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.products.Sku>"
@@ -117,62 +113,50 @@ references:
   fullName: "com.microsoft.store.partnercenter.products.ISkuCollection.get"
   package: "com.microsoft.store.partnercenter.products"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations<com.microsoft.store.partnercenter.models.products.Sku,com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.products.Sku>>"
-  isExternal: true
   name: "IEntireEntityCollectionRetrievalOperations<Sku,ResourceCollection<Sku>>"
   nameWithType: "IEntireEntityCollectionRetrievalOperations<Sku,ResourceCollection<Sku>>"
   fullName: "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations<com.microsoft.store.partnercenter.models.products.Sku,com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.products.Sku>>"
 - uid: "com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>"
-  isExternal: true
   name: "IPartnerComponent<Tuple<String,String>>"
   nameWithType: "IPartnerComponent<Tuple<String,String>>"
   fullName: "com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntitySelector<java.lang.String,com.microsoft.store.partnercenter.products.ISku>"
-  isExternal: true
   name: "IEntitySelector<String,ISku>"
   nameWithType: "IEntitySelector<String,ISku>"
   fullName: "com.microsoft.store.partnercenter.genericoperations.IEntitySelector<java.lang.String,com.microsoft.store.partnercenter.products.ISku>"
 - uid: "com.microsoft.store.partnercenter.models.ResourceCollection"
-  isExternal: true
   name: "ResourceCollection"
   nameWithType: "ResourceCollection"
   fullName: "com.microsoft.store.partnercenter.models.ResourceCollection"
 - uid: "com.microsoft.store.partnercenter.models.products.Sku"
-  isExternal: true
   name: "Sku"
   nameWithType: "Sku"
   fullName: "com.microsoft.store.partnercenter.models.products.Sku"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations"
-  isExternal: true
   name: "IEntireEntityCollectionRetrievalOperations"
   nameWithType: "IEntireEntityCollectionRetrievalOperations"
   fullName: "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations"
 - uid: "com.microsoft.store.partnercenter.models.products.Sku,com.microsoft.store.partnercenter.models.ResourceCollection"
-  isExternal: true
   name: "Sku,ResourceCollection"
   nameWithType: "Sku,ResourceCollection"
   fullName: "com.microsoft.store.partnercenter.models.products.Sku,com.microsoft.store.partnercenter.models.ResourceCollection"
 - uid: "com.microsoft.store.partnercenter.IPartnerComponent"
-  isExternal: true
   name: "IPartnerComponent"
   nameWithType: "IPartnerComponent"
   fullName: "com.microsoft.store.partnercenter.IPartnerComponent"
 - uid: "com.microsoft.store.partnercenter.models.utils.Tuple"
-  isExternal: true
   name: "Tuple"
   nameWithType: "Tuple"
   fullName: "com.microsoft.store.partnercenter.models.utils.Tuple"
 - uid: "java.lang.String,java.lang.String"
-  isExternal: true
   name: "String,String"
   nameWithType: "String,String"
   fullName: "java.lang.String,java.lang.String"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntitySelector"
-  isExternal: true
   name: "IEntitySelector"
   nameWithType: "IEntitySelector"
   fullName: "com.microsoft.store.partnercenter.genericoperations.IEntitySelector"
 - uid: "java.lang.String,com.microsoft.store.partnercenter.products.ISku"
-  isExternal: true
   name: "String,ISku"
   nameWithType: "String,ISku"
   fullName: "java.lang.String,com.microsoft.store.partnercenter.products.ISku"

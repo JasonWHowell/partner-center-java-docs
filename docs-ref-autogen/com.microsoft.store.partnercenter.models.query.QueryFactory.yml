@@ -535,22 +535,18 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.query.QueryFactory.getInstance"
   package: "com.microsoft.store.partnercenter.models.query"
 - uid: "com.microsoft.store.partnercenter.models.query.filters.FieldFilter"
-  isExternal: true
   name: "FieldFilter"
   nameWithType: "FieldFilter"
   fullName: "com.microsoft.store.partnercenter.models.query.filters.FieldFilter"
 - uid: "com.microsoft.store.partnercenter.models.query.sort.Sort"
-  isExternal: true
   name: "Sort"
   nameWithType: "Sort"
   fullName: "com.microsoft.store.partnercenter.models.query.sort.Sort"
 - uid: "java.lang.Object"
-  isExternal: true
   name: "Object"
   nameWithType: "Object"
   fullName: "java.lang.Object"
 - uid: "com.microsoft.store.partnercenter.models.query.IQuery"
-  isExternal: true
   name: "IQuery"
   nameWithType: "IQuery"
   fullName: "com.microsoft.store.partnercenter.models.query.IQuery"
@@ -560,7 +556,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.query.QueryFactory.buildSimpleQuery"
   package: "com.microsoft.store.partnercenter.models.query"
 - uid: "int"
-  isExternal: true
   name: "int"
   nameWithType: "int"
   fullName: "int"
@@ -575,7 +570,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.query.QueryFactory.buildCountQuery"
   package: "com.microsoft.store.partnercenter.models.query"
 - uid: "com.microsoft.store.partnercenter.models.query.SeekOperation"
-  isExternal: true
   name: "SeekOperation"
   nameWithType: "SeekOperation"
   fullName: "com.microsoft.store.partnercenter.models.query.SeekOperation"

@@ -103,12 +103,10 @@ items:
       description: "The next page of utilization records."
 references:
 - uid: "com.microsoft.store.partnercenter.IPartner"
-  isExternal: true
   name: "IPartner"
   nameWithType: "IPartner"
   fullName: "com.microsoft.store.partnercenter.IPartner"
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"
@@ -118,27 +116,22 @@ references:
   fullName: "com.microsoft.store.partnercenter.utilization.AzureUtilizationCollectionOperations.AzureUtilizationCollectionOperations"
   package: "com.microsoft.store.partnercenter.utilization"
 - uid: "org.joda.time.DateTime"
-  isExternal: true
   name: "DateTime"
   nameWithType: "DateTime"
   fullName: "org.joda.time.DateTime"
 - uid: "com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationGranularity"
-  isExternal: true
   name: "AzureUtilizationGranularity"
   nameWithType: "AzureUtilizationGranularity"
   fullName: "com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationGranularity"
 - uid: "boolean"
-  isExternal: true
   name: "boolean"
   nameWithType: "boolean"
   fullName: "boolean"
 - uid: "int"
-  isExternal: true
   name: "int"
   nameWithType: "int"
   fullName: "int"
 - uid: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationRecord>"
-  isExternal: true
   name: "ResourceCollection<AzureUtilizationRecord>"
   nameWithType: "ResourceCollection<AzureUtilizationRecord>"
   fullName: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationRecord>"
@@ -148,7 +141,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.utilization.AzureUtilizationCollectionOperations.query"
   package: "com.microsoft.store.partnercenter.utilization"
 - uid: "com.microsoft.store.partnercenter.models.query.SeekOperation"
-  isExternal: true
   name: "SeekOperation"
   nameWithType: "SeekOperation"
   fullName: "com.microsoft.store.partnercenter.models.query.SeekOperation"
@@ -158,37 +150,30 @@ references:
   fullName: "com.microsoft.store.partnercenter.utilization.AzureUtilizationCollectionOperations.seek"
   package: "com.microsoft.store.partnercenter.utilization"
 - uid: "com.microsoft.store.partnercenter.BasePartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>"
-  isExternal: true
   name: "BasePartnerComponent<Tuple<String,String>>"
   nameWithType: "BasePartnerComponent<Tuple<String,String>>"
   fullName: "com.microsoft.store.partnercenter.BasePartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>"
 - uid: "com.microsoft.store.partnercenter.utilization.IAzureUtilizationCollection"
-  isExternal: true
   name: "IAzureUtilizationCollection"
   nameWithType: "IAzureUtilizationCollection"
   fullName: "com.microsoft.store.partnercenter.utilization.IAzureUtilizationCollection"
 - uid: "com.microsoft.store.partnercenter.models.ResourceCollection"
-  isExternal: true
   name: "ResourceCollection"
   nameWithType: "ResourceCollection"
   fullName: "com.microsoft.store.partnercenter.models.ResourceCollection"
 - uid: "com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationRecord"
-  isExternal: true
   name: "AzureUtilizationRecord"
   nameWithType: "AzureUtilizationRecord"
   fullName: "com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationRecord"
 - uid: "com.microsoft.store.partnercenter.models.utils.Tuple"
-  isExternal: true
   name: "Tuple"
   nameWithType: "Tuple"
   fullName: "com.microsoft.store.partnercenter.models.utils.Tuple"
 - uid: "com.microsoft.store.partnercenter.BasePartnerComponent"
-  isExternal: true
   name: "BasePartnerComponent"
   nameWithType: "BasePartnerComponent"
   fullName: "com.microsoft.store.partnercenter.BasePartnerComponent"
 - uid: "java.lang.String,java.lang.String"
-  isExternal: true
   name: "String,String"
   nameWithType: "String,String"
   fullName: "java.lang.String,java.lang.String"

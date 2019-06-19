@@ -57,7 +57,6 @@ items:
       description: "The estimate links of the recon line items."
 references:
 - uid: "com.microsoft.store.partnercenter.IPartner"
-  isExternal: true
   name: "IPartner"
   nameWithType: "IPartner"
   fullName: "com.microsoft.store.partnercenter.IPartner"
@@ -67,7 +66,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.invoices.EstimateCollectionOperations.EstimateCollectionOperations"
   package: "com.microsoft.store.partnercenter.invoices"
 - uid: "com.microsoft.store.partnercenter.invoices.IEstimateLink"
-  isExternal: true
   name: "IEstimateLink"
   nameWithType: "IEstimateLink"
   fullName: "com.microsoft.store.partnercenter.invoices.IEstimateLink"
@@ -77,12 +75,10 @@ references:
   fullName: "com.microsoft.store.partnercenter.invoices.EstimateCollectionOperations.getLinks"
   package: "com.microsoft.store.partnercenter.invoices"
 - uid: "com.microsoft.store.partnercenter.BasePartnerComponentString"
-  isExternal: true
   name: "BasePartnerComponentString"
   nameWithType: "BasePartnerComponentString"
   fullName: "com.microsoft.store.partnercenter.BasePartnerComponentString"
 - uid: "com.microsoft.store.partnercenter.invoices.IEstimateCollection"
-  isExternal: true
   name: "IEstimateCollection"
   nameWithType: "IEstimateCollection"
   fullName: "com.microsoft.store.partnercenter.invoices.IEstimateCollection"

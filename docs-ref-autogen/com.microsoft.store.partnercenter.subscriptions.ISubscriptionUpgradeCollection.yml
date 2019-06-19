@@ -60,12 +60,10 @@ items:
       description: "The subscription upgrades."
 references:
 - uid: "com.microsoft.store.partnercenter.models.subscriptions.Upgrade"
-  isExternal: true
   name: "Upgrade"
   nameWithType: "Upgrade"
   fullName: "com.microsoft.store.partnercenter.models.subscriptions.Upgrade"
 - uid: "com.microsoft.store.partnercenter.models.subscriptions.UpgradeResult"
-  isExternal: true
   name: "UpgradeResult"
   nameWithType: "UpgradeResult"
   fullName: "com.microsoft.store.partnercenter.models.subscriptions.UpgradeResult"
@@ -75,7 +73,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.subscriptions.ISubscriptionUpgradeCollection.create"
   package: "com.microsoft.store.partnercenter.subscriptions"
 - uid: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.subscriptions.Upgrade>"
-  isExternal: true
   name: "ResourceCollection<Upgrade>"
   nameWithType: "ResourceCollection<Upgrade>"
   fullName: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.subscriptions.Upgrade>"
@@ -85,57 +82,46 @@ references:
   fullName: "com.microsoft.store.partnercenter.subscriptions.ISubscriptionUpgradeCollection.get"
   package: "com.microsoft.store.partnercenter.subscriptions"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations<com.microsoft.store.partnercenter.models.subscriptions.Upgrade,com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.subscriptions.Upgrade>>"
-  isExternal: true
   name: "IEntireEntityCollectionRetrievalOperations<Upgrade,ResourceCollection<Upgrade>>"
   nameWithType: "IEntireEntityCollectionRetrievalOperations<Upgrade,ResourceCollection<Upgrade>>"
   fullName: "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations<com.microsoft.store.partnercenter.models.subscriptions.Upgrade,com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.subscriptions.Upgrade>>"
 - uid: "com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>"
-  isExternal: true
   name: "IPartnerComponent<Tuple<String,String>>"
   nameWithType: "IPartnerComponent<Tuple<String,String>>"
   fullName: "com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations<com.microsoft.store.partnercenter.models.subscriptions.Upgrade,com.microsoft.store.partnercenter.models.subscriptions.UpgradeResult>"
-  isExternal: true
   name: "IEntityCreateOperations<Upgrade,UpgradeResult>"
   nameWithType: "IEntityCreateOperations<Upgrade,UpgradeResult>"
   fullName: "com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations<com.microsoft.store.partnercenter.models.subscriptions.Upgrade,com.microsoft.store.partnercenter.models.subscriptions.UpgradeResult>"
 - uid: "com.microsoft.store.partnercenter.models.ResourceCollection"
-  isExternal: true
   name: "ResourceCollection"
   nameWithType: "ResourceCollection"
   fullName: "com.microsoft.store.partnercenter.models.ResourceCollection"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations"
-  isExternal: true
   name: "IEntireEntityCollectionRetrievalOperations"
   nameWithType: "IEntireEntityCollectionRetrievalOperations"
   fullName: "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations"
 - uid: "com.microsoft.store.partnercenter.models.subscriptions.Upgrade,com.microsoft.store.partnercenter.models.ResourceCollection"
-  isExternal: true
   name: "Upgrade,ResourceCollection"
   nameWithType: "Upgrade,ResourceCollection"
   fullName: "com.microsoft.store.partnercenter.models.subscriptions.Upgrade,com.microsoft.store.partnercenter.models.ResourceCollection"
 - uid: "com.microsoft.store.partnercenter.IPartnerComponent"
-  isExternal: true
   name: "IPartnerComponent"
   nameWithType: "IPartnerComponent"
   fullName: "com.microsoft.store.partnercenter.IPartnerComponent"
 - uid: "com.microsoft.store.partnercenter.models.utils.Tuple"
-  isExternal: true
   name: "Tuple"
   nameWithType: "Tuple"
   fullName: "com.microsoft.store.partnercenter.models.utils.Tuple"
 - uid: "java.lang.String,java.lang.String"
-  isExternal: true
   name: "String,String"
   nameWithType: "String,String"
   fullName: "java.lang.String,java.lang.String"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations"
-  isExternal: true
   name: "IEntityCreateOperations"
   nameWithType: "IEntityCreateOperations"
   fullName: "com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations"
 - uid: "com.microsoft.store.partnercenter.models.subscriptions.Upgrade,com.microsoft.store.partnercenter.models.subscriptions.UpgradeResult"
-  isExternal: true
   name: "Upgrade,UpgradeResult"
   nameWithType: "Upgrade,UpgradeResult"
   fullName: "com.microsoft.store.partnercenter.models.subscriptions.Upgrade,com.microsoft.store.partnercenter.models.subscriptions.UpgradeResult"

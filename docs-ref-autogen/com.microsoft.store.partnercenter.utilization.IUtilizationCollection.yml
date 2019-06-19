@@ -35,7 +35,6 @@ items:
       description: "The Azure subscription utilization behavior."
 references:
 - uid: "com.microsoft.store.partnercenter.utilization.IAzureUtilizationCollection"
-  isExternal: true
   name: "IAzureUtilizationCollection"
   nameWithType: "IAzureUtilizationCollection"
   fullName: "com.microsoft.store.partnercenter.utilization.IAzureUtilizationCollection"
@@ -45,22 +44,18 @@ references:
   fullName: "com.microsoft.store.partnercenter.utilization.IUtilizationCollection.getAzure"
   package: "com.microsoft.store.partnercenter.utilization"
 - uid: "com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>"
-  isExternal: true
   name: "IPartnerComponent<Tuple<String,String>>"
   nameWithType: "IPartnerComponent<Tuple<String,String>>"
   fullName: "com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>"
 - uid: "com.microsoft.store.partnercenter.IPartnerComponent"
-  isExternal: true
   name: "IPartnerComponent"
   nameWithType: "IPartnerComponent"
   fullName: "com.microsoft.store.partnercenter.IPartnerComponent"
 - uid: "com.microsoft.store.partnercenter.models.utils.Tuple"
-  isExternal: true
   name: "Tuple"
   nameWithType: "Tuple"
   fullName: "com.microsoft.store.partnercenter.models.utils.Tuple"
 - uid: "java.lang.String,java.lang.String"
-  isExternal: true
   name: "String,String"
   nameWithType: "String,String"
   fullName: "java.lang.String,java.lang.String"

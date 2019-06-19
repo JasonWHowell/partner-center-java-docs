@@ -148,12 +148,10 @@ items:
       description: "The collection of orders including pricing details (based on access permissions) when requested."
 references:
 - uid: "com.microsoft.store.partnercenter.IPartner"
-  isExternal: true
   name: "IPartner"
   nameWithType: "IPartner"
   fullName: "com.microsoft.store.partnercenter.IPartner"
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"
@@ -163,12 +161,10 @@ references:
   fullName: "com.microsoft.store.partnercenter.orders.OrderCollectionOperations.OrderCollectionOperations"
   package: "com.microsoft.store.partnercenter.orders"
 - uid: "com.microsoft.store.partnercenter.models.offers.BillingCycleType"
-  isExternal: true
   name: "BillingCycleType"
   nameWithType: "BillingCycleType"
   fullName: "com.microsoft.store.partnercenter.models.offers.BillingCycleType"
 - uid: "com.microsoft.store.partnercenter.orders.IOrderCollectionByBillingCycleType"
-  isExternal: true
   name: "IOrderCollectionByBillingCycleType"
   nameWithType: "IOrderCollectionByBillingCycleType"
   fullName: "com.microsoft.store.partnercenter.orders.IOrderCollectionByBillingCycleType"
@@ -178,7 +174,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.orders.OrderCollectionOperations.byBillingCycleType"
   package: "com.microsoft.store.partnercenter.orders"
 - uid: "com.microsoft.store.partnercenter.orders.IOrder"
-  isExternal: true
   name: "IOrder"
   nameWithType: "IOrder"
   fullName: "com.microsoft.store.partnercenter.orders.IOrder"
@@ -188,7 +183,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.orders.OrderCollectionOperations.byId"
   package: "com.microsoft.store.partnercenter.orders"
 - uid: "com.microsoft.store.partnercenter.models.orders.Order"
-  isExternal: true
   name: "Order"
   nameWithType: "Order"
   fullName: "com.microsoft.store.partnercenter.models.orders.Order"
@@ -198,7 +192,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.orders.OrderCollectionOperations.create"
   package: "com.microsoft.store.partnercenter.orders"
 - uid: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.orders.Order>"
-  isExternal: true
   name: "ResourceCollection<Order>"
   nameWithType: "ResourceCollection<Order>"
   fullName: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.orders.Order>"
@@ -208,22 +201,18 @@ references:
   fullName: "com.microsoft.store.partnercenter.orders.OrderCollectionOperations.get"
   package: "com.microsoft.store.partnercenter.orders"
 - uid: "java.lang.Boolean"
-  isExternal: true
   name: "Boolean"
   nameWithType: "Boolean"
   fullName: "java.lang.Boolean"
 - uid: "com.microsoft.store.partnercenter.BasePartnerComponentString"
-  isExternal: true
   name: "BasePartnerComponentString"
   nameWithType: "BasePartnerComponentString"
   fullName: "com.microsoft.store.partnercenter.BasePartnerComponentString"
 - uid: "com.microsoft.store.partnercenter.orders.IOrderCollection"
-  isExternal: true
   name: "IOrderCollection"
   nameWithType: "IOrderCollection"
   fullName: "com.microsoft.store.partnercenter.orders.IOrderCollection"
 - uid: "com.microsoft.store.partnercenter.models.ResourceCollection"
-  isExternal: true
   name: "ResourceCollection"
   nameWithType: "ResourceCollection"
   fullName: "com.microsoft.store.partnercenter.models.ResourceCollection"

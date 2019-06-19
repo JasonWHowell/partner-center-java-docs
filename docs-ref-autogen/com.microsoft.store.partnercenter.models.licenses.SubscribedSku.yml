@@ -334,7 +334,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.licenses.SubscribedSku.SubscribedSku"
   package: "com.microsoft.store.partnercenter.models.licenses"
 - uid: "int"
-  isExternal: true
   name: "int"
   nameWithType: "int"
   fullName: "int"
@@ -399,7 +398,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.licenses.SubscribedSku.setWarningUnits"
   package: "com.microsoft.store.partnercenter.models.licenses"
 - uid: "com.microsoft.store.partnercenter.models.licenses.ProductSku"
-  isExternal: true
   name: "ProductSku"
   nameWithType: "ProductSku"
   fullName: "com.microsoft.store.partnercenter.models.licenses.ProductSku"
@@ -414,7 +412,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.licenses.SubscribedSku.setProductSku"
   package: "com.microsoft.store.partnercenter.models.licenses"
 - uid: "java.util.List<com.microsoft.store.partnercenter.models.licenses.ServicePlan>"
-  isExternal: true
   name: "List<ServicePlan>"
   nameWithType: "List<ServicePlan>"
   fullName: "java.util.List<com.microsoft.store.partnercenter.models.licenses.ServicePlan>"
@@ -429,7 +426,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.licenses.SubscribedSku.setServicePlans"
   package: "com.microsoft.store.partnercenter.models.licenses"
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"
@@ -444,17 +440,14 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.licenses.SubscribedSku.setCapabilityStatus"
   package: "com.microsoft.store.partnercenter.models.licenses"
 - uid: "com.microsoft.store.partnercenter.models.ResourceBase"
-  isExternal: true
   name: "ResourceBase"
   nameWithType: "ResourceBase"
   fullName: "com.microsoft.store.partnercenter.models.ResourceBase"
 - uid: "java.util.List"
-  isExternal: true
   name: "List"
   nameWithType: "List"
   fullName: "java.util.List"
 - uid: "com.microsoft.store.partnercenter.models.licenses.ServicePlan"
-  isExternal: true
   name: "ServicePlan"
   nameWithType: "ServicePlan"
   fullName: "com.microsoft.store.partnercenter.models.licenses.ServicePlan"

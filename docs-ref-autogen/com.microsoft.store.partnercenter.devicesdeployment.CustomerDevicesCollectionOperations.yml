@@ -64,12 +64,10 @@ items:
       description: "The location of the status to track the update."
 references:
 - uid: "com.microsoft.store.partnercenter.IPartner"
-  isExternal: true
   name: "IPartner"
   nameWithType: "IPartner"
   fullName: "com.microsoft.store.partnercenter.IPartner"
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"
@@ -79,7 +77,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.devicesdeployment.CustomerDevicesCollectionOperations.CustomerDevicesCollectionOperations"
   package: "com.microsoft.store.partnercenter.devicesdeployment"
 - uid: "com.microsoft.store.partnercenter.models.devicesdeployment.DevicePolicyUpdateRequest"
-  isExternal: true
   name: "DevicePolicyUpdateRequest"
   nameWithType: "DevicePolicyUpdateRequest"
   fullName: "com.microsoft.store.partnercenter.models.devicesdeployment.DevicePolicyUpdateRequest"
@@ -89,12 +86,10 @@ references:
   fullName: "com.microsoft.store.partnercenter.devicesdeployment.CustomerDevicesCollectionOperations.update"
   package: "com.microsoft.store.partnercenter.devicesdeployment"
 - uid: "com.microsoft.store.partnercenter.BasePartnerComponentString"
-  isExternal: true
   name: "BasePartnerComponentString"
   nameWithType: "BasePartnerComponentString"
   fullName: "com.microsoft.store.partnercenter.BasePartnerComponentString"
 - uid: "com.microsoft.store.partnercenter.devicesdeployment.ICustomerDeviceCollection"
-  isExternal: true
   name: "ICustomerDeviceCollection"
   nameWithType: "ICustomerDeviceCollection"
   fullName: "com.microsoft.store.partnercenter.devicesdeployment.ICustomerDeviceCollection"

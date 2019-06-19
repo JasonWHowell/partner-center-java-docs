@@ -64,12 +64,10 @@ items:
       description: "The service cost operations."
 references:
 - uid: "com.microsoft.store.partnercenter.IPartner"
-  isExternal: true
   name: "IPartner"
   nameWithType: "IPartner"
   fullName: "com.microsoft.store.partnercenter.IPartner"
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"
@@ -79,12 +77,10 @@ references:
   fullName: "com.microsoft.store.partnercenter.customers.servicecosts.CustomerServiceCostsCollectionOperations.CustomerServiceCostsCollectionOperations"
   package: "com.microsoft.store.partnercenter.customers.servicecosts"
 - uid: "com.microsoft.store.partnercenter.models.servicecosts.ServiceCostsBillingPeriod"
-  isExternal: true
   name: "ServiceCostsBillingPeriod"
   nameWithType: "ServiceCostsBillingPeriod"
   fullName: "com.microsoft.store.partnercenter.models.servicecosts.ServiceCostsBillingPeriod"
 - uid: "com.microsoft.store.partnercenter.customers.servicecosts.IServiceCostsCollection"
-  isExternal: true
   name: "IServiceCostsCollection"
   nameWithType: "IServiceCostsCollection"
   fullName: "com.microsoft.store.partnercenter.customers.servicecosts.IServiceCostsCollection"
@@ -94,12 +90,10 @@ references:
   fullName: "com.microsoft.store.partnercenter.customers.servicecosts.CustomerServiceCostsCollectionOperations.byBillingPeriod"
   package: "com.microsoft.store.partnercenter.customers.servicecosts"
 - uid: "com.microsoft.store.partnercenter.BasePartnerComponentString"
-  isExternal: true
   name: "BasePartnerComponentString"
   nameWithType: "BasePartnerComponentString"
   fullName: "com.microsoft.store.partnercenter.BasePartnerComponentString"
 - uid: "com.microsoft.store.partnercenter.customers.servicecosts.ICustomerServiceCostsCollection"
-  isExternal: true
   name: "ICustomerServiceCostsCollection"
   nameWithType: "ICustomerServiceCostsCollection"
   fullName: "com.microsoft.store.partnercenter.customers.servicecosts.ICustomerServiceCostsCollection"

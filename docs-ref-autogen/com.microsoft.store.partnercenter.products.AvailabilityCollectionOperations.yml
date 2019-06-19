@@ -110,12 +110,10 @@ items:
       description: "The availabilities for the provided SKU."
 references:
 - uid: "com.microsoft.store.partnercenter.IPartner"
-  isExternal: true
   name: "IPartner"
   nameWithType: "IPartner"
   fullName: "com.microsoft.store.partnercenter.IPartner"
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"
@@ -125,7 +123,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.products.AvailabilityCollectionOperations.AvailabilityCollectionOperations"
   package: "com.microsoft.store.partnercenter.products"
 - uid: "com.microsoft.store.partnercenter.products.IAvailability"
-  isExternal: true
   name: "IAvailability"
   nameWithType: "IAvailability"
   fullName: "com.microsoft.store.partnercenter.products.IAvailability"
@@ -135,7 +132,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.products.AvailabilityCollectionOperations.byId"
   package: "com.microsoft.store.partnercenter.products"
 - uid: "com.microsoft.store.partnercenter.products.IAvailabilityCollectionByTargetSegment"
-  isExternal: true
   name: "IAvailabilityCollectionByTargetSegment"
   nameWithType: "IAvailabilityCollectionByTargetSegment"
   fullName: "com.microsoft.store.partnercenter.products.IAvailabilityCollectionByTargetSegment"
@@ -145,7 +141,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.products.AvailabilityCollectionOperations.byTargetSegment"
   package: "com.microsoft.store.partnercenter.products"
 - uid: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.products.Availability>"
-  isExternal: true
   name: "ResourceCollection<Availability>"
   nameWithType: "ResourceCollection<Availability>"
   fullName: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.products.Availability>"
@@ -155,37 +150,30 @@ references:
   fullName: "com.microsoft.store.partnercenter.products.AvailabilityCollectionOperations.get"
   package: "com.microsoft.store.partnercenter.products"
 - uid: "com.microsoft.store.partnercenter.BasePartnerComponent<com.microsoft.store.partnercenter.models.utils.TripletTuple<java.lang.String,java.lang.String,java.lang.String>>"
-  isExternal: true
   name: "BasePartnerComponent<TripletTuple<String,String,String>>"
   nameWithType: "BasePartnerComponent<TripletTuple<String,String,String>>"
   fullName: "com.microsoft.store.partnercenter.BasePartnerComponent<com.microsoft.store.partnercenter.models.utils.TripletTuple<java.lang.String,java.lang.String,java.lang.String>>"
 - uid: "com.microsoft.store.partnercenter.products.IAvailabilityCollection"
-  isExternal: true
   name: "IAvailabilityCollection"
   nameWithType: "IAvailabilityCollection"
   fullName: "com.microsoft.store.partnercenter.products.IAvailabilityCollection"
 - uid: "com.microsoft.store.partnercenter.models.products.Availability"
-  isExternal: true
   name: "Availability"
   nameWithType: "Availability"
   fullName: "com.microsoft.store.partnercenter.models.products.Availability"
 - uid: "com.microsoft.store.partnercenter.models.ResourceCollection"
-  isExternal: true
   name: "ResourceCollection"
   nameWithType: "ResourceCollection"
   fullName: "com.microsoft.store.partnercenter.models.ResourceCollection"
 - uid: "java.lang.String,java.lang.String,java.lang.String"
-  isExternal: true
   name: "String,String,String"
   nameWithType: "String,String,String"
   fullName: "java.lang.String,java.lang.String,java.lang.String"
 - uid: "com.microsoft.store.partnercenter.BasePartnerComponent"
-  isExternal: true
   name: "BasePartnerComponent"
   nameWithType: "BasePartnerComponent"
   fullName: "com.microsoft.store.partnercenter.BasePartnerComponent"
 - uid: "com.microsoft.store.partnercenter.models.utils.TripletTuple"
-  isExternal: true
   name: "TripletTuple"
   nameWithType: "TripletTuple"
   fullName: "com.microsoft.store.partnercenter.models.utils.TripletTuple"

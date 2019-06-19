@@ -36,7 +36,6 @@ items:
       type: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.invoices.InvoiceSummary>"
 references:
 - uid: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.invoices.InvoiceSummary>"
-  isExternal: true
   name: "ResourceCollection<InvoiceSummary>"
   nameWithType: "ResourceCollection<InvoiceSummary>"
   fullName: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.invoices.InvoiceSummary>"
@@ -46,27 +45,22 @@ references:
   fullName: "com.microsoft.store.partnercenter.invoices.IInvoiceSummaryCollection.get"
   package: "com.microsoft.store.partnercenter.invoices"
 - uid: "com.microsoft.store.partnercenter.IPartnerComponentString"
-  isExternal: true
   name: "IPartnerComponentString"
   nameWithType: "IPartnerComponentString"
   fullName: "com.microsoft.store.partnercenter.IPartnerComponentString"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations<com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.invoices.InvoiceSummary>>"
-  isExternal: true
   name: "IEntityGetOperations<ResourceCollection<InvoiceSummary>>"
   nameWithType: "IEntityGetOperations<ResourceCollection<InvoiceSummary>>"
   fullName: "com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations<com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.invoices.InvoiceSummary>>"
 - uid: "com.microsoft.store.partnercenter.models.ResourceCollection"
-  isExternal: true
   name: "ResourceCollection"
   nameWithType: "ResourceCollection"
   fullName: "com.microsoft.store.partnercenter.models.ResourceCollection"
 - uid: "com.microsoft.store.partnercenter.models.invoices.InvoiceSummary"
-  isExternal: true
   name: "InvoiceSummary"
   nameWithType: "InvoiceSummary"
   fullName: "com.microsoft.store.partnercenter.models.invoices.InvoiceSummary"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations"
-  isExternal: true
   name: "IEntityGetOperations"
   nameWithType: "IEntityGetOperations"
   fullName: "com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations"

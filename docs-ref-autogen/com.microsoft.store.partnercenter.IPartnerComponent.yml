@@ -54,7 +54,6 @@ items:
       description: "The component context object."
 references:
 - uid: "com.microsoft.store.partnercenter.IPartner"
-  isExternal: true
   name: "IPartner"
   nameWithType: "IPartner"
   fullName: "com.microsoft.store.partnercenter.IPartner"
@@ -64,7 +63,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.IPartnerComponent<TContext>.getPartner"
   package: "com.microsoft.store.partnercenter"
 - uid: "TContext"
-  isExternal: true
   name: "TContext"
   nameWithType: "TContext"
   fullName: "TContext"

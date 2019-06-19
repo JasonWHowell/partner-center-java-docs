@@ -268,7 +268,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.carts.Cart.Cart"
   package: "com.microsoft.store.partnercenter.models.carts"
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"
@@ -283,7 +282,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.carts.Cart.setId"
   package: "com.microsoft.store.partnercenter.models.carts"
 - uid: "org.joda.time.DateTime"
-  isExternal: true
   name: "DateTime"
   nameWithType: "DateTime"
   fullName: "org.joda.time.DateTime"
@@ -338,7 +336,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.carts.Cart.setStatus"
   package: "com.microsoft.store.partnercenter.models.carts"
 - uid: "java.util.List<com.microsoft.store.partnercenter.models.carts.CartLineItem>"
-  isExternal: true
   name: "List<CartLineItem>"
   nameWithType: "List<CartLineItem>"
   fullName: "java.util.List<com.microsoft.store.partnercenter.models.carts.CartLineItem>"
@@ -353,27 +350,22 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.carts.Cart.setLineItems"
   package: "com.microsoft.store.partnercenter.models.carts"
 - uid: "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks<com.microsoft.store.partnercenter.models.StandardResourceLinks>"
-  isExternal: true
   name: "ResourceBaseWithLinks<StandardResourceLinks>"
   nameWithType: "ResourceBaseWithLinks<StandardResourceLinks>"
   fullName: "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks<com.microsoft.store.partnercenter.models.StandardResourceLinks>"
 - uid: "java.util.List"
-  isExternal: true
   name: "List"
   nameWithType: "List"
   fullName: "java.util.List"
 - uid: "com.microsoft.store.partnercenter.models.carts.CartLineItem"
-  isExternal: true
   name: "CartLineItem"
   nameWithType: "CartLineItem"
   fullName: "com.microsoft.store.partnercenter.models.carts.CartLineItem"
 - uid: "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks"
-  isExternal: true
   name: "ResourceBaseWithLinks"
   nameWithType: "ResourceBaseWithLinks"
   fullName: "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks"
 - uid: "com.microsoft.store.partnercenter.models.StandardResourceLinks"
-  isExternal: true
   name: "StandardResourceLinks"
   nameWithType: "StandardResourceLinks"
   fullName: "com.microsoft.store.partnercenter.models.StandardResourceLinks"

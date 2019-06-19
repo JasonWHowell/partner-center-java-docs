@@ -190,22 +190,18 @@ items:
       description: "The request context."
 references:
 - uid: "com.microsoft.store.partnercenter.IPartner"
-  isExternal: true
   name: "IPartner"
   nameWithType: "IPartner"
   fullName: "com.microsoft.store.partnercenter.IPartner"
 - uid: "T"
-  isExternal: true
   name: "T"
   nameWithType: "T"
   fullName: "T"
 - uid: "com.fasterxml.jackson.databind.ObjectMapper"
-  isExternal: true
   name: "ObjectMapper"
   nameWithType: "ObjectMapper"
   fullName: "com.fasterxml.jackson.databind.ObjectMapper"
 - uid: "com.fasterxml.jackson.core.type.TypeReference<T>"
-  isExternal: true
   name: "TypeReference<T>"
   nameWithType: "TypeReference<T>"
   fullName: "com.fasterxml.jackson.core.type.TypeReference<T>"
@@ -215,7 +211,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.enumerators.BaseResourceCollectionEnumerator<T>.BaseResourceCollectionEnumerator"
   package: "com.microsoft.store.partnercenter.enumerators"
 - uid: "boolean"
-  isExternal: true
   name: "boolean"
   nameWithType: "boolean"
   fullName: "boolean"
@@ -245,7 +240,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.enumerators.BaseResourceCollectionEnumerator<T>.next"
   package: "com.microsoft.store.partnercenter.enumerators"
 - uid: "com.microsoft.store.partnercenter.requestcontext.IRequestContext"
-  isExternal: true
   name: "IRequestContext"
   nameWithType: "IRequestContext"
   fullName: "com.microsoft.store.partnercenter.requestcontext.IRequestContext"
@@ -255,22 +249,18 @@ references:
   fullName: "com.microsoft.store.partnercenter.enumerators.BaseResourceCollectionEnumerator<T>.previous"
   package: "com.microsoft.store.partnercenter.enumerators"
 - uid: "com.microsoft.store.partnercenter.BasePartnerComponentString"
-  isExternal: true
   name: "BasePartnerComponentString"
   nameWithType: "BasePartnerComponentString"
   fullName: "com.microsoft.store.partnercenter.BasePartnerComponentString"
 - uid: "com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumerator<T>"
-  isExternal: true
   name: "IResourceCollectionEnumerator<T>"
   nameWithType: "IResourceCollectionEnumerator<T>"
   fullName: "com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumerator<T>"
 - uid: "com.fasterxml.jackson.core.type.TypeReference"
-  isExternal: true
   name: "TypeReference"
   nameWithType: "TypeReference"
   fullName: "com.fasterxml.jackson.core.type.TypeReference"
 - uid: "com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumerator"
-  isExternal: true
   name: "IResourceCollectionEnumerator"
   nameWithType: "IResourceCollectionEnumerator"
   fullName: "com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumerator"

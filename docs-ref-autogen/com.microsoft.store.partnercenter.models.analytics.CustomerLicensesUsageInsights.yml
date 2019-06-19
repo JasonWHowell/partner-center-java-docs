@@ -202,7 +202,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.analytics.CustomerLicensesUsageInsights.CustomerLicensesUsageInsights"
   package: "com.microsoft.store.partnercenter.models.analytics"
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"
@@ -227,7 +226,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.analytics.CustomerLicensesUsageInsights.setWorkloadName"
   package: "com.microsoft.store.partnercenter.models.analytics"
 - uid: "long"
-  isExternal: true
   name: "long"
   nameWithType: "long"
   fullName: "long"

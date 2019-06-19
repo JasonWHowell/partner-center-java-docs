@@ -370,7 +370,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.customers.Customer.Customer"
   package: "com.microsoft.store.partnercenter.models.customers"
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"
@@ -395,7 +394,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.customers.Customer.setCommerceId"
   package: "com.microsoft.store.partnercenter.models.customers"
 - uid: "com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile"
-  isExternal: true
   name: "CustomerCompanyProfile"
   nameWithType: "CustomerCompanyProfile"
   fullName: "com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile"
@@ -410,7 +408,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.customers.Customer.setCompanyProfile"
   package: "com.microsoft.store.partnercenter.models.customers"
 - uid: "com.microsoft.store.partnercenter.models.customers.CustomerBillingProfile"
-  isExternal: true
   name: "CustomerBillingProfile"
   nameWithType: "CustomerBillingProfile"
   fullName: "com.microsoft.store.partnercenter.models.customers.CustomerBillingProfile"
@@ -425,7 +422,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.customers.Customer.setBillingProfile"
   package: "com.microsoft.store.partnercenter.models.customers"
 - uid: "com.microsoft.store.partnercenter.models.customers.CustomerPartnerRelationship"
-  isExternal: true
   name: "CustomerPartnerRelationship"
   nameWithType: "CustomerPartnerRelationship"
   fullName: "com.microsoft.store.partnercenter.models.customers.CustomerPartnerRelationship"
@@ -440,7 +436,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.customers.Customer.setRelationshipToPartner"
   package: "com.microsoft.store.partnercenter.models.customers"
 - uid: "java.lang.Boolean"
-  isExternal: true
   name: "Boolean"
   nameWithType: "Boolean"
   fullName: "java.lang.Boolean"
@@ -455,7 +450,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.customers.Customer.setAllowDelegatedAccess"
   package: "com.microsoft.store.partnercenter.models.customers"
 - uid: "com.microsoft.store.partnercenter.models.UserCredentials"
-  isExternal: true
   name: "UserCredentials"
   nameWithType: "UserCredentials"
   fullName: "com.microsoft.store.partnercenter.models.UserCredentials"
@@ -470,7 +464,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.customers.Customer.setUserCredentials"
   package: "com.microsoft.store.partnercenter.models.customers"
 - uid: "java.util.List<java.lang.String>"
-  isExternal: true
   name: "List<String>"
   nameWithType: "List<String>"
   fullName: "java.util.List<java.lang.String>"
@@ -495,22 +488,18 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.customers.Customer.setAssociatedPartnerId"
   package: "com.microsoft.store.partnercenter.models.customers"
 - uid: "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks<com.microsoft.store.partnercenter.models.StandardResourceLinks>"
-  isExternal: true
   name: "ResourceBaseWithLinks<StandardResourceLinks>"
   nameWithType: "ResourceBaseWithLinks<StandardResourceLinks>"
   fullName: "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks<com.microsoft.store.partnercenter.models.StandardResourceLinks>"
 - uid: "java.util.List"
-  isExternal: true
   name: "List"
   nameWithType: "List"
   fullName: "java.util.List"
 - uid: "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks"
-  isExternal: true
   name: "ResourceBaseWithLinks"
   nameWithType: "ResourceBaseWithLinks"
   fullName: "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks"
 - uid: "com.microsoft.store.partnercenter.models.StandardResourceLinks"
-  isExternal: true
   name: "StandardResourceLinks"
   nameWithType: "StandardResourceLinks"
   fullName: "com.microsoft.store.partnercenter.models.StandardResourceLinks"

@@ -43,7 +43,6 @@ items:
       description: "The updated customer profile."
 references:
 - uid: "T"
-  isExternal: true
   name: "T"
   nameWithType: "T"
   fullName: "T"
@@ -53,22 +52,18 @@ references:
   fullName: "com.microsoft.store.partnercenter.customers.profiles.ICustomerProfile<T>.update"
   package: "com.microsoft.store.partnercenter.customers.profiles"
 - uid: "com.microsoft.store.partnercenter.customers.profiles.ICustomerReadonlyProfile<T>"
-  isExternal: true
   name: "ICustomerReadonlyProfile<T>"
   nameWithType: "ICustomerReadonlyProfile<T>"
   fullName: "com.microsoft.store.partnercenter.customers.profiles.ICustomerReadonlyProfile<T>"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntityUpdateOperations<T>"
-  isExternal: true
   name: "IEntityUpdateOperations<T>"
   nameWithType: "IEntityUpdateOperations<T>"
   fullName: "com.microsoft.store.partnercenter.genericoperations.IEntityUpdateOperations<T>"
 - uid: "com.microsoft.store.partnercenter.customers.profiles.ICustomerReadonlyProfile"
-  isExternal: true
   name: "ICustomerReadonlyProfile"
   nameWithType: "ICustomerReadonlyProfile"
   fullName: "com.microsoft.store.partnercenter.customers.profiles.ICustomerReadonlyProfile"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntityUpdateOperations"
-  isExternal: true
   name: "IEntityUpdateOperations"
   nameWithType: "IEntityUpdateOperations"
   fullName: "com.microsoft.store.partnercenter.genericoperations.IEntityUpdateOperations"

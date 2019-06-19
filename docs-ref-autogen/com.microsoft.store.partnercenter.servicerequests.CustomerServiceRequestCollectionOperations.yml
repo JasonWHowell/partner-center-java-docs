@@ -104,12 +104,10 @@ items:
       description: "A collection of service requests"
 references:
 - uid: "com.microsoft.store.partnercenter.IPartner"
-  isExternal: true
   name: "IPartner"
   nameWithType: "IPartner"
   fullName: "com.microsoft.store.partnercenter.IPartner"
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"
@@ -119,7 +117,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.servicerequests.CustomerServiceRequestCollectionOperations.CustomerServiceRequestCollectionOperations"
   package: "com.microsoft.store.partnercenter.servicerequests"
 - uid: "com.microsoft.store.partnercenter.servicerequests.IServiceRequest"
-  isExternal: true
   name: "IServiceRequest"
   nameWithType: "IServiceRequest"
   fullName: "com.microsoft.store.partnercenter.servicerequests.IServiceRequest"
@@ -129,12 +126,10 @@ references:
   fullName: "com.microsoft.store.partnercenter.servicerequests.CustomerServiceRequestCollectionOperations.byId"
   package: "com.microsoft.store.partnercenter.servicerequests"
 - uid: "com.microsoft.store.partnercenter.models.query.IQuery"
-  isExternal: true
   name: "IQuery"
   nameWithType: "IQuery"
   fullName: "com.microsoft.store.partnercenter.models.query.IQuery"
 - uid: "com.microsoft.store.partnercenter.models.SeekBasedResourceCollection<com.microsoft.store.partnercenter.models.servicerequests.ServiceRequest>"
-  isExternal: true
   name: "SeekBasedResourceCollection<ServiceRequest>"
   nameWithType: "SeekBasedResourceCollection<ServiceRequest>"
   fullName: "com.microsoft.store.partnercenter.models.SeekBasedResourceCollection<com.microsoft.store.partnercenter.models.servicerequests.ServiceRequest>"
@@ -144,7 +139,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.servicerequests.CustomerServiceRequestCollectionOperations.query"
   package: "com.microsoft.store.partnercenter.servicerequests"
 - uid: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.servicerequests.ServiceRequest>"
-  isExternal: true
   name: "ResourceCollection<ServiceRequest>"
   nameWithType: "ResourceCollection<ServiceRequest>"
   fullName: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.servicerequests.ServiceRequest>"
@@ -154,27 +148,22 @@ references:
   fullName: "com.microsoft.store.partnercenter.servicerequests.CustomerServiceRequestCollectionOperations.get"
   package: "com.microsoft.store.partnercenter.servicerequests"
 - uid: "com.microsoft.store.partnercenter.BasePartnerComponentString"
-  isExternal: true
   name: "BasePartnerComponentString"
   nameWithType: "BasePartnerComponentString"
   fullName: "com.microsoft.store.partnercenter.BasePartnerComponentString"
 - uid: "com.microsoft.store.partnercenter.servicerequests.IServiceRequestCollection"
-  isExternal: true
   name: "IServiceRequestCollection"
   nameWithType: "IServiceRequestCollection"
   fullName: "com.microsoft.store.partnercenter.servicerequests.IServiceRequestCollection"
 - uid: "com.microsoft.store.partnercenter.models.SeekBasedResourceCollection"
-  isExternal: true
   name: "SeekBasedResourceCollection"
   nameWithType: "SeekBasedResourceCollection"
   fullName: "com.microsoft.store.partnercenter.models.SeekBasedResourceCollection"
 - uid: "com.microsoft.store.partnercenter.models.servicerequests.ServiceRequest"
-  isExternal: true
   name: "ServiceRequest"
   nameWithType: "ServiceRequest"
   fullName: "com.microsoft.store.partnercenter.models.servicerequests.ServiceRequest"
 - uid: "com.microsoft.store.partnercenter.models.ResourceCollection"
-  isExternal: true
   name: "ResourceCollection"
   nameWithType: "ResourceCollection"
   fullName: "com.microsoft.store.partnercenter.models.ResourceCollection"

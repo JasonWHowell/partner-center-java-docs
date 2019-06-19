@@ -180,7 +180,6 @@ items:
       description: "A factory that creates product collection enumerators."
 references:
 - uid: "com.microsoft.store.partnercenter.factory.IResourceCollectionEnumeratorFactory<com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.offers.Offer>>"
-  isExternal: true
   name: "IResourceCollectionEnumeratorFactory<ResourceCollection<Offer>>"
   nameWithType: "IResourceCollectionEnumeratorFactory<ResourceCollection<Offer>>"
   fullName: "com.microsoft.store.partnercenter.factory.IResourceCollectionEnumeratorFactory<com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.offers.Offer>>"
@@ -190,7 +189,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumeratorContainer.getOffers"
   package: "com.microsoft.store.partnercenter.enumerators"
 - uid: "com.microsoft.store.partnercenter.factory.IResourceCollectionEnumeratorFactory<com.microsoft.store.partnercenter.models.SeekBasedResourceCollection<com.microsoft.store.partnercenter.models.customers.Customer>>"
-  isExternal: true
   name: "IResourceCollectionEnumeratorFactory<SeekBasedResourceCollection<Customer>>"
   nameWithType: "IResourceCollectionEnumeratorFactory<SeekBasedResourceCollection<Customer>>"
   fullName: "com.microsoft.store.partnercenter.factory.IResourceCollectionEnumeratorFactory<com.microsoft.store.partnercenter.models.SeekBasedResourceCollection<com.microsoft.store.partnercenter.models.customers.Customer>>"
@@ -200,7 +198,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumeratorContainer.getCustomers"
   package: "com.microsoft.store.partnercenter.enumerators"
 - uid: "com.microsoft.store.partnercenter.factory.IResourceCollectionEnumeratorFactory<com.microsoft.store.partnercenter.models.SeekBasedResourceCollection<com.microsoft.store.partnercenter.models.users.CustomerUser>>"
-  isExternal: true
   name: "IResourceCollectionEnumeratorFactory<SeekBasedResourceCollection<CustomerUser>>"
   nameWithType: "IResourceCollectionEnumeratorFactory<SeekBasedResourceCollection<CustomerUser>>"
   fullName: "com.microsoft.store.partnercenter.factory.IResourceCollectionEnumeratorFactory<com.microsoft.store.partnercenter.models.SeekBasedResourceCollection<com.microsoft.store.partnercenter.models.users.CustomerUser>>"
@@ -210,7 +207,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumeratorContainer.getCustomerUsers"
   package: "com.microsoft.store.partnercenter.enumerators"
 - uid: "com.microsoft.store.partnercenter.factory.IResourceCollectionEnumeratorFactory<com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.invoices.Invoice>>"
-  isExternal: true
   name: "IResourceCollectionEnumeratorFactory<ResourceCollection<Invoice>>"
   nameWithType: "IResourceCollectionEnumeratorFactory<ResourceCollection<Invoice>>"
   fullName: "com.microsoft.store.partnercenter.factory.IResourceCollectionEnumeratorFactory<com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.invoices.Invoice>>"
@@ -220,7 +216,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumeratorContainer.getInvoices"
   package: "com.microsoft.store.partnercenter.enumerators"
 - uid: "com.microsoft.store.partnercenter.factory.IResourceCollectionEnumeratorFactory<com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.servicerequests.ServiceRequest>>"
-  isExternal: true
   name: "IResourceCollectionEnumeratorFactory<ResourceCollection<ServiceRequest>>"
   nameWithType: "IResourceCollectionEnumeratorFactory<ResourceCollection<ServiceRequest>>"
   fullName: "com.microsoft.store.partnercenter.factory.IResourceCollectionEnumeratorFactory<com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.servicerequests.ServiceRequest>>"
@@ -230,7 +225,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumeratorContainer.getServiceRequests"
   package: "com.microsoft.store.partnercenter.enumerators"
 - uid: "com.microsoft.store.partnercenter.factory.IResourceCollectionEnumeratorFactory<com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem>>"
-  isExternal: true
   name: "IResourceCollectionEnumeratorFactory<ResourceCollection<InvoiceLineItem>>"
   nameWithType: "IResourceCollectionEnumeratorFactory<ResourceCollection<InvoiceLineItem>>"
   fullName: "com.microsoft.store.partnercenter.factory.IResourceCollectionEnumeratorFactory<com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem>>"
@@ -240,7 +234,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumeratorContainer.getInvoiceLineItems"
   package: "com.microsoft.store.partnercenter.enumerators"
 - uid: "com.microsoft.store.partnercenter.factory.IResourceCollectionEnumeratorFactory<com.microsoft.store.partnercenter.models.SeekBasedResourceCollection<com.microsoft.store.partnercenter.models.auditing.AuditRecord>>"
-  isExternal: true
   name: "IResourceCollectionEnumeratorFactory<SeekBasedResourceCollection<AuditRecord>>"
   nameWithType: "IResourceCollectionEnumeratorFactory<SeekBasedResourceCollection<AuditRecord>>"
   fullName: "com.microsoft.store.partnercenter.factory.IResourceCollectionEnumeratorFactory<com.microsoft.store.partnercenter.models.SeekBasedResourceCollection<com.microsoft.store.partnercenter.models.auditing.AuditRecord>>"
@@ -250,7 +243,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumeratorContainer.getAuditRecords"
   package: "com.microsoft.store.partnercenter.enumerators"
 - uid: "com.microsoft.store.partnercenter.enumerators.IUtilizationCollectionEnumeratorContainer"
-  isExternal: true
   name: "IUtilizationCollectionEnumeratorContainer"
   nameWithType: "IUtilizationCollectionEnumeratorContainer"
   fullName: "com.microsoft.store.partnercenter.enumerators.IUtilizationCollectionEnumeratorContainer"
@@ -260,7 +252,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumeratorContainer.getUtilization"
   package: "com.microsoft.store.partnercenter.enumerators"
 - uid: "com.microsoft.store.partnercenter.factory.IResourceCollectionEnumeratorFactory<com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.products.Product>>"
-  isExternal: true
   name: "IResourceCollectionEnumeratorFactory<ResourceCollection<Product>>"
   nameWithType: "IResourceCollectionEnumeratorFactory<ResourceCollection<Product>>"
   fullName: "com.microsoft.store.partnercenter.factory.IResourceCollectionEnumeratorFactory<com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.products.Product>>"
@@ -270,62 +261,50 @@ references:
   fullName: "com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumeratorContainer.getProducts"
   package: "com.microsoft.store.partnercenter.enumerators"
 - uid: "com.microsoft.store.partnercenter.IPartnerComponentString"
-  isExternal: true
   name: "IPartnerComponentString"
   nameWithType: "IPartnerComponentString"
   fullName: "com.microsoft.store.partnercenter.IPartnerComponentString"
 - uid: "com.microsoft.store.partnercenter.models.ResourceCollection"
-  isExternal: true
   name: "ResourceCollection"
   nameWithType: "ResourceCollection"
   fullName: "com.microsoft.store.partnercenter.models.ResourceCollection"
 - uid: "com.microsoft.store.partnercenter.factory.IResourceCollectionEnumeratorFactory"
-  isExternal: true
   name: "IResourceCollectionEnumeratorFactory"
   nameWithType: "IResourceCollectionEnumeratorFactory"
   fullName: "com.microsoft.store.partnercenter.factory.IResourceCollectionEnumeratorFactory"
 - uid: "com.microsoft.store.partnercenter.models.offers.Offer"
-  isExternal: true
   name: "Offer"
   nameWithType: "Offer"
   fullName: "com.microsoft.store.partnercenter.models.offers.Offer"
 - uid: "com.microsoft.store.partnercenter.models.SeekBasedResourceCollection"
-  isExternal: true
   name: "SeekBasedResourceCollection"
   nameWithType: "SeekBasedResourceCollection"
   fullName: "com.microsoft.store.partnercenter.models.SeekBasedResourceCollection"
 - uid: "com.microsoft.store.partnercenter.models.customers.Customer"
-  isExternal: true
   name: "Customer"
   nameWithType: "Customer"
   fullName: "com.microsoft.store.partnercenter.models.customers.Customer"
 - uid: "com.microsoft.store.partnercenter.models.users.CustomerUser"
-  isExternal: true
   name: "CustomerUser"
   nameWithType: "CustomerUser"
   fullName: "com.microsoft.store.partnercenter.models.users.CustomerUser"
 - uid: "com.microsoft.store.partnercenter.models.invoices.Invoice"
-  isExternal: true
   name: "Invoice"
   nameWithType: "Invoice"
   fullName: "com.microsoft.store.partnercenter.models.invoices.Invoice"
 - uid: "com.microsoft.store.partnercenter.models.servicerequests.ServiceRequest"
-  isExternal: true
   name: "ServiceRequest"
   nameWithType: "ServiceRequest"
   fullName: "com.microsoft.store.partnercenter.models.servicerequests.ServiceRequest"
 - uid: "com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem"
-  isExternal: true
   name: "InvoiceLineItem"
   nameWithType: "InvoiceLineItem"
   fullName: "com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem"
 - uid: "com.microsoft.store.partnercenter.models.auditing.AuditRecord"
-  isExternal: true
   name: "AuditRecord"
   nameWithType: "AuditRecord"
   fullName: "com.microsoft.store.partnercenter.models.auditing.AuditRecord"
 - uid: "com.microsoft.store.partnercenter.models.products.Product"
-  isExternal: true
   name: "Product"
   nameWithType: "Product"
   fullName: "com.microsoft.store.partnercenter.models.products.Product"

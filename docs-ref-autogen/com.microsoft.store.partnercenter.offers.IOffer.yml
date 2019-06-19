@@ -54,7 +54,6 @@ items:
       description: "The requested offer for the given country and identifier."
 references:
 - uid: "com.microsoft.store.partnercenter.offers.IOfferAddOns"
-  isExternal: true
   name: "IOfferAddOns"
   nameWithType: "IOfferAddOns"
   fullName: "com.microsoft.store.partnercenter.offers.IOfferAddOns"
@@ -64,7 +63,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.offers.IOffer.getAddOns"
   package: "com.microsoft.store.partnercenter.offers"
 - uid: "com.microsoft.store.partnercenter.models.offers.Offer"
-  isExternal: true
   name: "Offer"
   nameWithType: "Offer"
   fullName: "com.microsoft.store.partnercenter.models.offers.Offer"
@@ -74,22 +72,18 @@ references:
   fullName: "com.microsoft.store.partnercenter.offers.IOffer.get"
   package: "com.microsoft.store.partnercenter.offers"
 - uid: "com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>"
-  isExternal: true
   name: "IPartnerComponent<Tuple<String,String>>"
   nameWithType: "IPartnerComponent<Tuple<String,String>>"
   fullName: "com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>"
 - uid: "com.microsoft.store.partnercenter.IPartnerComponent"
-  isExternal: true
   name: "IPartnerComponent"
   nameWithType: "IPartnerComponent"
   fullName: "com.microsoft.store.partnercenter.IPartnerComponent"
 - uid: "com.microsoft.store.partnercenter.models.utils.Tuple"
-  isExternal: true
   name: "Tuple"
   nameWithType: "Tuple"
   fullName: "com.microsoft.store.partnercenter.models.utils.Tuple"
 - uid: "java.lang.String,java.lang.String"
-  isExternal: true
   name: "String,String"
   nameWithType: "String,String"
   fullName: "java.lang.String,java.lang.String"

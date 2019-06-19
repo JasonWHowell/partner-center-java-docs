@@ -118,7 +118,6 @@ items:
       type: "java.lang.String"
 references:
 - uid: "java.lang.Class<?>"
-  isExternal: true
   name: "Class<?>"
   nameWithType: "Class<?>"
   fullName: "java.lang.Class<?>"
@@ -128,7 +127,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.ResourceAttributes.ResourceAttributes"
   package: "com.microsoft.store.partnercenter.models"
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"
@@ -153,12 +151,10 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.ResourceAttributes.setObjectType"
   package: "com.microsoft.store.partnercenter.models"
 - uid: "java.lang.Class"
-  isExternal: true
   name: "Class"
   nameWithType: "Class"
   fullName: "java.lang.Class"
 - uid: "?"
-  isExternal: true
   name: "?"
   nameWithType: "?"
   fullName: "?"

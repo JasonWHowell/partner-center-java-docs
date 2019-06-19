@@ -136,7 +136,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.products.InventoryRestriction.InventoryRestriction"
   package: "com.microsoft.store.partnercenter.models.products"
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"
@@ -161,7 +160,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.products.InventoryRestriction.setDescription"
   package: "com.microsoft.store.partnercenter.models.products"
 - uid: "java.util.Map<java.lang.String,java.lang.String>"
-  isExternal: true
   name: "Map<String,String>"
   nameWithType: "Map<String,String>"
   fullName: "java.util.Map<java.lang.String,java.lang.String>"
@@ -176,12 +174,10 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.products.InventoryRestriction.setProperties"
   package: "com.microsoft.store.partnercenter.models.products"
 - uid: "java.util.Map"
-  isExternal: true
   name: "Map"
   nameWithType: "Map"
   fullName: "java.util.Map"
 - uid: "java.lang.String,java.lang.String"
-  isExternal: true
   name: "String,String"
   nameWithType: "String,String"
   fullName: "java.lang.String,java.lang.String"

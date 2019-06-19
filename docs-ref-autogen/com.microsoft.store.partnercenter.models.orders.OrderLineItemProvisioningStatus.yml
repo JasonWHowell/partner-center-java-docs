@@ -148,7 +148,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.orders.OrderLineItemProvisioningStatus.OrderLineItemProvisioningStatus"
   package: "com.microsoft.store.partnercenter.models.orders"
 - uid: "int"
-  isExternal: true
   name: "int"
   nameWithType: "int"
   fullName: "int"
@@ -163,7 +162,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.orders.OrderLineItemProvisioningStatus.setLineItemNumber"
   package: "com.microsoft.store.partnercenter.models.orders"
 - uid: "java.lang.Iterable<com.microsoft.store.partnercenter.models.orders.QuantityProvisioningStatus>"
-  isExternal: true
   name: "Iterable<QuantityProvisioningStatus>"
   nameWithType: "Iterable<QuantityProvisioningStatus>"
   fullName: "java.lang.Iterable<com.microsoft.store.partnercenter.models.orders.QuantityProvisioningStatus>"
@@ -178,7 +176,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.orders.OrderLineItemProvisioningStatus.setQuantityProvisioningInformation"
   package: "com.microsoft.store.partnercenter.models.orders"
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"
@@ -193,17 +190,14 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.orders.OrderLineItemProvisioningStatus.setStatus"
   package: "com.microsoft.store.partnercenter.models.orders"
 - uid: "com.microsoft.store.partnercenter.models.ResourceBase"
-  isExternal: true
   name: "ResourceBase"
   nameWithType: "ResourceBase"
   fullName: "com.microsoft.store.partnercenter.models.ResourceBase"
 - uid: "com.microsoft.store.partnercenter.models.orders.QuantityProvisioningStatus"
-  isExternal: true
   name: "QuantityProvisioningStatus"
   nameWithType: "QuantityProvisioningStatus"
   fullName: "com.microsoft.store.partnercenter.models.orders.QuantityProvisioningStatus"
 - uid: "java.lang.Iterable"
-  isExternal: true
   name: "Iterable"
   nameWithType: "Iterable"
   fullName: "java.lang.Iterable"

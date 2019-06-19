@@ -18,22 +18,18 @@ items:
   - "com.microsoft.store.partnercenter.genericoperations.IEntitySelector<java.lang.String,com.microsoft.store.partnercenter.invoices.IReceipt>"
 references:
 - uid: "com.microsoft.store.partnercenter.IPartnerComponentString"
-  isExternal: true
   name: "IPartnerComponentString"
   nameWithType: "IPartnerComponentString"
   fullName: "com.microsoft.store.partnercenter.IPartnerComponentString"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntitySelector<java.lang.String,com.microsoft.store.partnercenter.invoices.IReceipt>"
-  isExternal: true
   name: "IEntitySelector<String,IReceipt>"
   nameWithType: "IEntitySelector<String,IReceipt>"
   fullName: "com.microsoft.store.partnercenter.genericoperations.IEntitySelector<java.lang.String,com.microsoft.store.partnercenter.invoices.IReceipt>"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntitySelector"
-  isExternal: true
   name: "IEntitySelector"
   nameWithType: "IEntitySelector"
   fullName: "com.microsoft.store.partnercenter.genericoperations.IEntitySelector"
 - uid: "java.lang.String,com.microsoft.store.partnercenter.invoices.IReceipt"
-  isExternal: true
   name: "String,IReceipt"
   nameWithType: "String,IReceipt"
   fullName: "java.lang.String,com.microsoft.store.partnercenter.invoices.IReceipt"

@@ -223,7 +223,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile.CustomerCompanyProfile"
   package: "com.microsoft.store.partnercenter.models.customers"
 - uid: "com.microsoft.store.partnercenter.models.Address"
-  isExternal: true
   name: "Address"
   nameWithType: "Address"
   fullName: "com.microsoft.store.partnercenter.models.Address"
@@ -238,7 +237,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile.setAddress"
   package: "com.microsoft.store.partnercenter.models.customers"
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"
@@ -283,17 +281,14 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile.setTenantId"
   package: "com.microsoft.store.partnercenter.models.customers"
 - uid: "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks<com.microsoft.store.partnercenter.models.StandardResourceLinks>"
-  isExternal: true
   name: "ResourceBaseWithLinks<StandardResourceLinks>"
   nameWithType: "ResourceBaseWithLinks<StandardResourceLinks>"
   fullName: "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks<com.microsoft.store.partnercenter.models.StandardResourceLinks>"
 - uid: "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks"
-  isExternal: true
   name: "ResourceBaseWithLinks"
   nameWithType: "ResourceBaseWithLinks"
   fullName: "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks"
 - uid: "com.microsoft.store.partnercenter.models.StandardResourceLinks"
-  isExternal: true
   name: "StandardResourceLinks"
   nameWithType: "StandardResourceLinks"
   fullName: "com.microsoft.store.partnercenter.models.StandardResourceLinks"

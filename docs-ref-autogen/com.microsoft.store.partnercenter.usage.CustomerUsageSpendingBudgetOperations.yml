@@ -82,12 +82,10 @@ items:
       description: "The updated customer usage spending budget."
 references:
 - uid: "com.microsoft.store.partnercenter.IPartner"
-  isExternal: true
   name: "IPartner"
   nameWithType: "IPartner"
   fullName: "com.microsoft.store.partnercenter.IPartner"
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"
@@ -97,7 +95,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.usage.CustomerUsageSpendingBudgetOperations.CustomerUsageSpendingBudgetOperations"
   package: "com.microsoft.store.partnercenter.usage"
 - uid: "com.microsoft.store.partnercenter.models.usage.SpendingBudget"
-  isExternal: true
   name: "SpendingBudget"
   nameWithType: "SpendingBudget"
   fullName: "com.microsoft.store.partnercenter.models.usage.SpendingBudget"
@@ -112,12 +109,10 @@ references:
   fullName: "com.microsoft.store.partnercenter.usage.CustomerUsageSpendingBudgetOperations.patch"
   package: "com.microsoft.store.partnercenter.usage"
 - uid: "com.microsoft.store.partnercenter.BasePartnerComponentString"
-  isExternal: true
   name: "BasePartnerComponentString"
   nameWithType: "BasePartnerComponentString"
   fullName: "com.microsoft.store.partnercenter.BasePartnerComponentString"
 - uid: "com.microsoft.store.partnercenter.usage.ICustomerUsageSpendingBudget"
-  isExternal: true
   name: "ICustomerUsageSpendingBudget"
   nameWithType: "ICustomerUsageSpendingBudget"
   fullName: "com.microsoft.store.partnercenter.usage.ICustomerUsageSpendingBudget"

@@ -268,7 +268,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.usage.UsageSummaryBase.UsageSummaryBase"
   package: "com.microsoft.store.partnercenter.models.usage"
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"
@@ -293,7 +292,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.usage.UsageSummaryBase.setResourceName"
   package: "com.microsoft.store.partnercenter.models.usage"
 - uid: "org.joda.time.DateTime"
-  isExternal: true
   name: "DateTime"
   nameWithType: "DateTime"
   fullName: "org.joda.time.DateTime"
@@ -318,7 +316,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.usage.UsageSummaryBase.setBillingEndDate"
   package: "com.microsoft.store.partnercenter.models.usage"
 - uid: "double"
-  isExternal: true
   name: "double"
   nameWithType: "double"
   fullName: "double"
@@ -333,7 +330,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.usage.UsageSummaryBase.setTotalCost"
   package: "com.microsoft.store.partnercenter.models.usage"
 - uid: "java.util.Locale"
-  isExternal: true
   name: "Locale"
   nameWithType: "Locale"
   fullName: "java.util.Locale"
@@ -358,17 +354,14 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.usage.UsageSummaryBase.setLastModifiedDate"
   package: "com.microsoft.store.partnercenter.models.usage"
 - uid: "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks<com.microsoft.store.partnercenter.models.StandardResourceLinks>"
-  isExternal: true
   name: "ResourceBaseWithLinks<StandardResourceLinks>"
   nameWithType: "ResourceBaseWithLinks<StandardResourceLinks>"
   fullName: "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks<com.microsoft.store.partnercenter.models.StandardResourceLinks>"
 - uid: "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks"
-  isExternal: true
   name: "ResourceBaseWithLinks"
   nameWithType: "ResourceBaseWithLinks"
   fullName: "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks"
 - uid: "com.microsoft.store.partnercenter.models.StandardResourceLinks"
-  isExternal: true
   name: "StandardResourceLinks"
   nameWithType: "StandardResourceLinks"
   fullName: "com.microsoft.store.partnercenter.models.StandardResourceLinks"

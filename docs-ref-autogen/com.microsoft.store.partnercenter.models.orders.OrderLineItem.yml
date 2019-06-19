@@ -444,7 +444,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.orders.OrderLineItem.OrderLineItem"
   package: "com.microsoft.store.partnercenter.models.orders"
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"
@@ -459,7 +458,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.orders.OrderLineItem.setFriendlyName"
   package: "com.microsoft.store.partnercenter.models.orders"
 - uid: "int"
-  isExternal: true
   name: "int"
   nameWithType: "int"
   fullName: "int"
@@ -499,7 +497,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.orders.OrderLineItem.getParentSubscriptionId"
   package: "com.microsoft.store.partnercenter.models.orders"
 - uid: "com.microsoft.store.partnercenter.models.orders.Pricing"
-  isExternal: true
   name: "Pricing"
   nameWithType: "Pricing"
   fullName: "com.microsoft.store.partnercenter.models.orders.Pricing"
@@ -514,7 +511,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.orders.OrderLineItem.setPricing"
   package: "com.microsoft.store.partnercenter.models.orders"
 - uid: "java.util.Map<java.lang.String,java.lang.String>"
-  isExternal: true
   name: "Map<String,String>"
   nameWithType: "Map<String,String>"
   fullName: "java.util.Map<java.lang.String,java.lang.String>"
@@ -574,27 +570,22 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.orders.OrderLineItem.setTransactionType"
   package: "com.microsoft.store.partnercenter.models.orders"
 - uid: "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks<com.microsoft.store.partnercenter.models.orders.OrderLineItemLinks>"
-  isExternal: true
   name: "ResourceBaseWithLinks<OrderLineItemLinks>"
   nameWithType: "ResourceBaseWithLinks<OrderLineItemLinks>"
   fullName: "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks<com.microsoft.store.partnercenter.models.orders.OrderLineItemLinks>"
 - uid: "java.util.Map"
-  isExternal: true
   name: "Map"
   nameWithType: "Map"
   fullName: "java.util.Map"
 - uid: "java.lang.String,java.lang.String"
-  isExternal: true
   name: "String,String"
   nameWithType: "String,String"
   fullName: "java.lang.String,java.lang.String"
 - uid: "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks"
-  isExternal: true
   name: "ResourceBaseWithLinks"
   nameWithType: "ResourceBaseWithLinks"
   fullName: "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks"
 - uid: "com.microsoft.store.partnercenter.models.orders.OrderLineItemLinks"
-  isExternal: true
   name: "OrderLineItemLinks"
   nameWithType: "OrderLineItemLinks"
   fullName: "com.microsoft.store.partnercenter.models.orders.OrderLineItemLinks"

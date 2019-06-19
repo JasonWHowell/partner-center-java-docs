@@ -315,27 +315,22 @@ references:
   fullName: "com.microsoft.store.partnercenter.exception.PartnerException.PartnerException"
   package: "com.microsoft.store.partnercenter.exception"
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"
 - uid: "java.lang.Exception"
-  isExternal: true
   name: "Exception"
   nameWithType: "Exception"
   fullName: "java.lang.Exception"
 - uid: "com.microsoft.store.partnercenter.requestcontext.IRequestContext"
-  isExternal: true
   name: "IRequestContext"
   nameWithType: "IRequestContext"
   fullName: "com.microsoft.store.partnercenter.requestcontext.IRequestContext"
 - uid: "com.microsoft.store.partnercenter.exception.PartnerErrorCategory"
-  isExternal: true
   name: "PartnerErrorCategory"
   nameWithType: "PartnerErrorCategory"
   fullName: "com.microsoft.store.partnercenter.exception.PartnerErrorCategory"
 - uid: "com.microsoft.store.partnercenter.models.ApiFault"
-  isExternal: true
   name: "ApiFault"
   nameWithType: "ApiFault"
   fullName: "com.microsoft.store.partnercenter.models.ApiFault"
@@ -375,7 +370,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.exception.PartnerException.toString"
   package: "com.microsoft.store.partnercenter.exception"
 - uid: "java.lang.RuntimeException"
-  isExternal: true
   name: "RuntimeException"
   nameWithType: "RuntimeException"
   fullName: "java.lang.RuntimeException"

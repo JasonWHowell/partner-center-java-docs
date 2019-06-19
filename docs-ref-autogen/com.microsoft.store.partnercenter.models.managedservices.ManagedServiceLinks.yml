@@ -136,7 +136,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.managedservices.ManagedServiceLinks.ManagedServiceLinks"
   package: "com.microsoft.store.partnercenter.models.managedservices"
 - uid: "com.microsoft.store.partnercenter.models.Link"
-  isExternal: true
   name: "Link"
   nameWithType: "Link"
   fullName: "com.microsoft.store.partnercenter.models.Link"

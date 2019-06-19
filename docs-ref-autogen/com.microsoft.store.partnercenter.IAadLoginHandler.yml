@@ -32,7 +32,6 @@ items:
       type: "com.microsoft.store.partnercenter.AuthenticationToken"
 references:
 - uid: "com.microsoft.store.partnercenter.AuthenticationToken"
-  isExternal: true
   name: "AuthenticationToken"
   nameWithType: "AuthenticationToken"
   fullName: "com.microsoft.store.partnercenter.AuthenticationToken"

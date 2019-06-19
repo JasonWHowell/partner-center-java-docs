@@ -78,7 +78,6 @@ items:
       description: "The list of service incidents."
 references:
 - uid: "com.microsoft.store.partnercenter.IPartner"
-  isExternal: true
   name: "IPartner"
   nameWithType: "IPartner"
   fullName: "com.microsoft.store.partnercenter.IPartner"
@@ -88,7 +87,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.serviceincidents.ServiceIncidentCollectionOperations.ServiceIncidentCollectionOperations"
   package: "com.microsoft.store.partnercenter.serviceincidents"
 - uid: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidents>"
-  isExternal: true
   name: "ResourceCollection<ServiceIncidents>"
   nameWithType: "ResourceCollection<ServiceIncidents>"
   fullName: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidents>"
@@ -98,27 +96,22 @@ references:
   fullName: "com.microsoft.store.partnercenter.serviceincidents.ServiceIncidentCollectionOperations.get"
   package: "com.microsoft.store.partnercenter.serviceincidents"
 - uid: "com.microsoft.store.partnercenter.models.query.IQuery"
-  isExternal: true
   name: "IQuery"
   nameWithType: "IQuery"
   fullName: "com.microsoft.store.partnercenter.models.query.IQuery"
 - uid: "com.microsoft.store.partnercenter.BasePartnerComponentString"
-  isExternal: true
   name: "BasePartnerComponentString"
   nameWithType: "BasePartnerComponentString"
   fullName: "com.microsoft.store.partnercenter.BasePartnerComponentString"
 - uid: "com.microsoft.store.partnercenter.serviceincidents.IServiceIncidentCollection"
-  isExternal: true
   name: "IServiceIncidentCollection"
   nameWithType: "IServiceIncidentCollection"
   fullName: "com.microsoft.store.partnercenter.serviceincidents.IServiceIncidentCollection"
 - uid: "com.microsoft.store.partnercenter.models.ResourceCollection"
-  isExternal: true
   name: "ResourceCollection"
   nameWithType: "ResourceCollection"
   fullName: "com.microsoft.store.partnercenter.models.ResourceCollection"
 - uid: "com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidents"
-  isExternal: true
   name: "ServiceIncidents"
   nameWithType: "ServiceIncidents"
   fullName: "com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidents"

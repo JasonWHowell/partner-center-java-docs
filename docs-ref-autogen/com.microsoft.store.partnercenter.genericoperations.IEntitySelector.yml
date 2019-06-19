@@ -40,12 +40,10 @@ items:
       description: "The entity's behavior."
 references:
 - uid: "TTYpe"
-  isExternal: true
   name: "TTYpe"
   nameWithType: "TTYpe"
   fullName: "TTYpe"
 - uid: "TEntity"
-  isExternal: true
   name: "TEntity"
   nameWithType: "TEntity"
   fullName: "TEntity"

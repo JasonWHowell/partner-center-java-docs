@@ -598,7 +598,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.countryvalidationrules.CountryValidationRules.CountryValidationRules"
   package: "com.microsoft.store.partnercenter.models.countryvalidationrules"
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"
@@ -623,7 +622,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.countryvalidationrules.CountryValidationRules.setDefaultCulture"
   package: "com.microsoft.store.partnercenter.models.countryvalidationrules"
 - uid: "boolean"
-  isExternal: true
   name: "boolean"
   nameWithType: "boolean"
   fullName: "boolean"
@@ -638,7 +636,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.countryvalidationrules.CountryValidationRules.setIsStateRequired"
   package: "com.microsoft.store.partnercenter.models.countryvalidationrules"
 - uid: "java.lang.Iterable<java.lang.String>"
-  isExternal: true
   name: "Iterable<String>"
   nameWithType: "Iterable<String>"
   fullName: "java.lang.Iterable<java.lang.String>"
@@ -783,12 +780,10 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.countryvalidationrules.CountryValidationRules.setCountryCallingCodesList"
   package: "com.microsoft.store.partnercenter.models.countryvalidationrules"
 - uid: "com.microsoft.store.partnercenter.models.ResourceBase"
-  isExternal: true
   name: "ResourceBase"
   nameWithType: "ResourceBase"
   fullName: "com.microsoft.store.partnercenter.models.ResourceBase"
 - uid: "java.lang.Iterable"
-  isExternal: true
   name: "Iterable"
   nameWithType: "Iterable"
   fullName: "java.lang.Iterable"

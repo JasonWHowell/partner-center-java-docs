@@ -57,7 +57,6 @@ items:
     content: "public abstract void delete()"
 references:
 - uid: "com.microsoft.store.partnercenter.models.devicesdeployment.Device"
-  isExternal: true
   name: "Device"
   nameWithType: "Device"
   fullName: "com.microsoft.store.partnercenter.models.devicesdeployment.Device"
@@ -72,42 +71,34 @@ references:
   fullName: "com.microsoft.store.partnercenter.devicesdeployment.IDevice.delete"
   package: "com.microsoft.store.partnercenter.devicesdeployment"
 - uid: "com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.TripletTuple<java.lang.String,java.lang.String,java.lang.String>>"
-  isExternal: true
   name: "IPartnerComponent<TripletTuple<String,String,String>>"
   nameWithType: "IPartnerComponent<TripletTuple<String,String,String>>"
   fullName: "com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.TripletTuple<java.lang.String,java.lang.String,java.lang.String>>"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntityDeleteOperations<com.microsoft.store.partnercenter.models.devicesdeployment.Device>"
-  isExternal: true
   name: "IEntityDeleteOperations<Device>"
   nameWithType: "IEntityDeleteOperations<Device>"
   fullName: "com.microsoft.store.partnercenter.genericoperations.IEntityDeleteOperations<com.microsoft.store.partnercenter.models.devicesdeployment.Device>"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntityPatchOperations<com.microsoft.store.partnercenter.models.devicesdeployment.Device>"
-  isExternal: true
   name: "IEntityPatchOperations<Device>"
   nameWithType: "IEntityPatchOperations<Device>"
   fullName: "com.microsoft.store.partnercenter.genericoperations.IEntityPatchOperations<com.microsoft.store.partnercenter.models.devicesdeployment.Device>"
 - uid: "com.microsoft.store.partnercenter.IPartnerComponent"
-  isExternal: true
   name: "IPartnerComponent"
   nameWithType: "IPartnerComponent"
   fullName: "com.microsoft.store.partnercenter.IPartnerComponent"
 - uid: "java.lang.String,java.lang.String,java.lang.String"
-  isExternal: true
   name: "String,String,String"
   nameWithType: "String,String,String"
   fullName: "java.lang.String,java.lang.String,java.lang.String"
 - uid: "com.microsoft.store.partnercenter.models.utils.TripletTuple"
-  isExternal: true
   name: "TripletTuple"
   nameWithType: "TripletTuple"
   fullName: "com.microsoft.store.partnercenter.models.utils.TripletTuple"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntityDeleteOperations"
-  isExternal: true
   name: "IEntityDeleteOperations"
   nameWithType: "IEntityDeleteOperations"
   fullName: "com.microsoft.store.partnercenter.genericoperations.IEntityDeleteOperations"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntityPatchOperations"
-  isExternal: true
   name: "IEntityPatchOperations"
   nameWithType: "IEntityPatchOperations"
   fullName: "com.microsoft.store.partnercenter.genericoperations.IEntityPatchOperations"

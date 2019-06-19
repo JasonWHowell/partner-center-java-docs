@@ -37,7 +37,6 @@ items:
       description: "The partner relationships."
 references:
 - uid: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.relationships.PartnerRelationship>"
-  isExternal: true
   name: "ResourceCollection<PartnerRelationship>"
   nameWithType: "ResourceCollection<PartnerRelationship>"
   fullName: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.relationships.PartnerRelationship>"
@@ -47,32 +46,26 @@ references:
   fullName: "com.microsoft.store.partnercenter.relationships.ICustomerRelationshipCollection.get"
   package: "com.microsoft.store.partnercenter.relationships"
 - uid: "com.microsoft.store.partnercenter.IPartnerComponentString"
-  isExternal: true
   name: "IPartnerComponentString"
   nameWithType: "IPartnerComponentString"
   fullName: "com.microsoft.store.partnercenter.IPartnerComponentString"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations<com.microsoft.store.partnercenter.models.relationships.PartnerRelationship,com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.relationships.PartnerRelationship>>"
-  isExternal: true
   name: "IEntireEntityCollectionRetrievalOperations<PartnerRelationship,ResourceCollection<PartnerRelationship>>"
   nameWithType: "IEntireEntityCollectionRetrievalOperations<PartnerRelationship,ResourceCollection<PartnerRelationship>>"
   fullName: "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations<com.microsoft.store.partnercenter.models.relationships.PartnerRelationship,com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.relationships.PartnerRelationship>>"
 - uid: "com.microsoft.store.partnercenter.models.ResourceCollection"
-  isExternal: true
   name: "ResourceCollection"
   nameWithType: "ResourceCollection"
   fullName: "com.microsoft.store.partnercenter.models.ResourceCollection"
 - uid: "com.microsoft.store.partnercenter.models.relationships.PartnerRelationship"
-  isExternal: true
   name: "PartnerRelationship"
   nameWithType: "PartnerRelationship"
   fullName: "com.microsoft.store.partnercenter.models.relationships.PartnerRelationship"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations"
-  isExternal: true
   name: "IEntireEntityCollectionRetrievalOperations"
   nameWithType: "IEntireEntityCollectionRetrievalOperations"
   fullName: "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations"
 - uid: "com.microsoft.store.partnercenter.models.relationships.PartnerRelationship,com.microsoft.store.partnercenter.models.ResourceCollection"
-  isExternal: true
   name: "PartnerRelationship,ResourceCollection"
   nameWithType: "PartnerRelationship,ResourceCollection"
   fullName: "com.microsoft.store.partnercenter.models.relationships.PartnerRelationship,com.microsoft.store.partnercenter.models.ResourceCollection"

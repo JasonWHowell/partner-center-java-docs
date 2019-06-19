@@ -222,7 +222,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.subscriptions.Conversion.Conversion"
   package: "com.microsoft.store.partnercenter.models.subscriptions"
 - uid: "com.microsoft.store.partnercenter.models.offers.BillingCycleType"
-  isExternal: true
   name: "BillingCycleType"
   nameWithType: "BillingCycleType"
   fullName: "com.microsoft.store.partnercenter.models.offers.BillingCycleType"
@@ -237,7 +236,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.subscriptions.Conversion.setBillingCycle"
   package: "com.microsoft.store.partnercenter.models.subscriptions"
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"
@@ -262,7 +260,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.subscriptions.Conversion.setOrderId"
   package: "com.microsoft.store.partnercenter.models.subscriptions"
 - uid: "int"
-  isExternal: true
   name: "int"
   nameWithType: "int"
   fullName: "int"
@@ -287,7 +284,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.subscriptions.Conversion.setTargetOfferId"
   package: "com.microsoft.store.partnercenter.models.subscriptions"
 - uid: "com.microsoft.store.partnercenter.models.ResourceBase"
-  isExternal: true
   name: "ResourceBase"
   nameWithType: "ResourceBase"
   fullName: "com.microsoft.store.partnercenter.models.ResourceBase"

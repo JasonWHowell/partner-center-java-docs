@@ -103,7 +103,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.analytics.PartnerLicensesUsageInsights.PartnerLicensesUsageInsights"
   package: "com.microsoft.store.partnercenter.models.analytics"
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"
@@ -118,7 +117,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.analytics.PartnerLicensesUsageInsights.setWorkloadName"
   package: "com.microsoft.store.partnercenter.models.analytics"
 - uid: "double"
-  isExternal: true
   name: "double"
   nameWithType: "double"
   fullName: "double"
@@ -133,7 +131,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.analytics.PartnerLicensesUsageInsights.setProratedLicensesUsagePercent"
   package: "com.microsoft.store.partnercenter.models.analytics"
 - uid: "com.microsoft.store.partnercenter.models.analytics.LicensesInsightsBase"
-  isExternal: true
   name: "LicensesInsightsBase"
   nameWithType: "LicensesInsightsBase"
   fullName: "com.microsoft.store.partnercenter.models.analytics.LicensesInsightsBase"

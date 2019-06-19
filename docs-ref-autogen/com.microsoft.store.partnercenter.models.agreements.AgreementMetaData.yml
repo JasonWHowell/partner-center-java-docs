@@ -169,7 +169,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.agreements.AgreementMetaData.AgreementMetaData"
   package: "com.microsoft.store.partnercenter.models.agreements"
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"
@@ -184,7 +183,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.agreements.AgreementMetaData.setTemplateId"
   package: "com.microsoft.store.partnercenter.models.agreements"
 - uid: "com.microsoft.store.partnercenter.models.agreements.AgreementType"
-  isExternal: true
   name: "AgreementType"
   nameWithType: "AgreementType"
   fullName: "com.microsoft.store.partnercenter.models.agreements.AgreementType"
@@ -209,7 +207,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.agreements.AgreementMetaData.setAgreementLink"
   package: "com.microsoft.store.partnercenter.models.agreements"
 - uid: "int"
-  isExternal: true
   name: "int"
   nameWithType: "int"
   fullName: "int"

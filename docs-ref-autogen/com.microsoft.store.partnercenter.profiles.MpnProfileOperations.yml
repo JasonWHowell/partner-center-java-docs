@@ -79,7 +79,6 @@ items:
       description: "The partner network profile."
 references:
 - uid: "com.microsoft.store.partnercenter.IPartner"
-  isExternal: true
   name: "IPartner"
   nameWithType: "IPartner"
   fullName: "com.microsoft.store.partnercenter.IPartner"
@@ -89,7 +88,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.profiles.MpnProfileOperations.MpnProfileOperations"
   package: "com.microsoft.store.partnercenter.profiles"
 - uid: "com.microsoft.store.partnercenter.models.partners.MpnProfile"
-  isExternal: true
   name: "MpnProfile"
   nameWithType: "MpnProfile"
   fullName: "com.microsoft.store.partnercenter.models.partners.MpnProfile"
@@ -99,17 +97,14 @@ references:
   fullName: "com.microsoft.store.partnercenter.profiles.MpnProfileOperations.get"
   package: "com.microsoft.store.partnercenter.profiles"
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"
 - uid: "com.microsoft.store.partnercenter.BasePartnerComponentString"
-  isExternal: true
   name: "BasePartnerComponentString"
   nameWithType: "BasePartnerComponentString"
   fullName: "com.microsoft.store.partnercenter.BasePartnerComponentString"
 - uid: "com.microsoft.store.partnercenter.profiles.IMpnProfile"
-  isExternal: true
   name: "IMpnProfile"
   nameWithType: "IMpnProfile"
   fullName: "com.microsoft.store.partnercenter.profiles.IMpnProfile"

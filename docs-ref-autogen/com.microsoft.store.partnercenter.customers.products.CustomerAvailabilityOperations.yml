@@ -69,12 +69,10 @@ items:
       description: "The availability information."
 references:
 - uid: "com.microsoft.store.partnercenter.IPartner"
-  isExternal: true
   name: "IPartner"
   nameWithType: "IPartner"
   fullName: "com.microsoft.store.partnercenter.IPartner"
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"
@@ -84,7 +82,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.customers.products.CustomerAvailabilityOperations.CustomerAvailabilityOperations"
   package: "com.microsoft.store.partnercenter.customers.products"
 - uid: "com.microsoft.store.partnercenter.models.products.Availability"
-  isExternal: true
   name: "Availability"
   nameWithType: "Availability"
   fullName: "com.microsoft.store.partnercenter.models.products.Availability"
@@ -94,27 +91,22 @@ references:
   fullName: "com.microsoft.store.partnercenter.customers.products.CustomerAvailabilityOperations.get"
   package: "com.microsoft.store.partnercenter.customers.products"
 - uid: "com.microsoft.store.partnercenter.BasePartnerComponent<com.microsoft.store.partnercenter.models.utils.QuadrupleTuple<java.lang.String,java.lang.String,java.lang.String,java.lang.String>>"
-  isExternal: true
   name: "BasePartnerComponent<QuadrupleTuple<String,String,String,String>>"
   nameWithType: "BasePartnerComponent<QuadrupleTuple<String,String,String,String>>"
   fullName: "com.microsoft.store.partnercenter.BasePartnerComponent<com.microsoft.store.partnercenter.models.utils.QuadrupleTuple<java.lang.String,java.lang.String,java.lang.String,java.lang.String>>"
 - uid: "com.microsoft.store.partnercenter.products.IAvailability"
-  isExternal: true
   name: "IAvailability"
   nameWithType: "IAvailability"
   fullName: "com.microsoft.store.partnercenter.products.IAvailability"
 - uid: "java.lang.String,java.lang.String,java.lang.String,java.lang.String"
-  isExternal: true
   name: "String,String,String,String"
   nameWithType: "String,String,String,String"
   fullName: "java.lang.String,java.lang.String,java.lang.String,java.lang.String"
 - uid: "com.microsoft.store.partnercenter.models.utils.QuadrupleTuple"
-  isExternal: true
   name: "QuadrupleTuple"
   nameWithType: "QuadrupleTuple"
   fullName: "com.microsoft.store.partnercenter.models.utils.QuadrupleTuple"
 - uid: "com.microsoft.store.partnercenter.BasePartnerComponent"
-  isExternal: true
   name: "BasePartnerComponent"
   nameWithType: "BasePartnerComponent"
   fullName: "com.microsoft.store.partnercenter.BasePartnerComponent"

@@ -105,12 +105,10 @@ items:
       description: "The category offers operations."
 references:
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"
 - uid: "com.microsoft.store.partnercenter.offers.IOffer"
-  isExternal: true
   name: "IOffer"
   nameWithType: "IOffer"
   fullName: "com.microsoft.store.partnercenter.offers.IOffer"
@@ -120,7 +118,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.offers.IOfferCollection.byId"
   package: "com.microsoft.store.partnercenter.offers"
 - uid: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.offers.Offer>"
-  isExternal: true
   name: "ResourceCollection<Offer>"
   nameWithType: "ResourceCollection<Offer>"
   fullName: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.offers.Offer>"
@@ -130,12 +127,10 @@ references:
   fullName: "com.microsoft.store.partnercenter.offers.IOfferCollection.get"
   package: "com.microsoft.store.partnercenter.offers"
 - uid: "int"
-  isExternal: true
   name: "int"
   nameWithType: "int"
   fullName: "int"
 - uid: "com.microsoft.store.partnercenter.offers.ICategoryOffersCollection"
-  isExternal: true
   name: "ICategoryOffersCollection"
   nameWithType: "ICategoryOffersCollection"
   fullName: "com.microsoft.store.partnercenter.offers.ICategoryOffersCollection"
@@ -145,17 +140,14 @@ references:
   fullName: "com.microsoft.store.partnercenter.offers.IOfferCollection.byCategory"
   package: "com.microsoft.store.partnercenter.offers"
 - uid: "com.microsoft.store.partnercenter.IPartnerComponentString"
-  isExternal: true
   name: "IPartnerComponentString"
   nameWithType: "IPartnerComponentString"
   fullName: "com.microsoft.store.partnercenter.IPartnerComponentString"
 - uid: "com.microsoft.store.partnercenter.models.ResourceCollection"
-  isExternal: true
   name: "ResourceCollection"
   nameWithType: "ResourceCollection"
   fullName: "com.microsoft.store.partnercenter.models.ResourceCollection"
 - uid: "com.microsoft.store.partnercenter.models.offers.Offer"
-  isExternal: true
   name: "Offer"
   nameWithType: "Offer"
   fullName: "com.microsoft.store.partnercenter.models.offers.Offer"

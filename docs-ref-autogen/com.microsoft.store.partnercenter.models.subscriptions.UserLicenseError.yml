@@ -169,7 +169,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.subscriptions.UserLicenseError.UserLicenseError"
   package: "com.microsoft.store.partnercenter.models.subscriptions"
 - uid: "java.util.UUID"
-  isExternal: true
   name: "UUID"
   nameWithType: "UUID"
   fullName: "java.util.UUID"
@@ -184,7 +183,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.subscriptions.UserLicenseError.setUserObjectId"
   package: "com.microsoft.store.partnercenter.models.subscriptions"
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"
@@ -209,7 +207,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.subscriptions.UserLicenseError.setEmail"
   package: "com.microsoft.store.partnercenter.models.subscriptions"
 - uid: "java.lang.Iterable<com.microsoft.store.partnercenter.models.ApiFault>"
-  isExternal: true
   name: "Iterable<ApiFault>"
   nameWithType: "Iterable<ApiFault>"
   fullName: "java.lang.Iterable<com.microsoft.store.partnercenter.models.ApiFault>"
@@ -224,17 +221,14 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.subscriptions.UserLicenseError.setErrors"
   package: "com.microsoft.store.partnercenter.models.subscriptions"
 - uid: "com.microsoft.store.partnercenter.models.ResourceBase"
-  isExternal: true
   name: "ResourceBase"
   nameWithType: "ResourceBase"
   fullName: "com.microsoft.store.partnercenter.models.ResourceBase"
 - uid: "com.microsoft.store.partnercenter.models.ApiFault"
-  isExternal: true
   name: "ApiFault"
   nameWithType: "ApiFault"
   fullName: "com.microsoft.store.partnercenter.models.ApiFault"
 - uid: "java.lang.Iterable"
-  isExternal: true
   name: "Iterable"
   nameWithType: "Iterable"
   fullName: "java.lang.Iterable"

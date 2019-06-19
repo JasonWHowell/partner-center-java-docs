@@ -61,12 +61,10 @@ references:
   fullName: "com.microsoft.store.partnercenter.factory.StandardPartnerFactory.StandardPartnerFactory"
   package: "com.microsoft.store.partnercenter.factory"
 - uid: "com.microsoft.store.partnercenter.IPartnerCredentials"
-  isExternal: true
   name: "IPartnerCredentials"
   nameWithType: "IPartnerCredentials"
   fullName: "com.microsoft.store.partnercenter.IPartnerCredentials"
 - uid: "com.microsoft.store.partnercenter.IAggregatePartner"
-  isExternal: true
   name: "IAggregatePartner"
   nameWithType: "IAggregatePartner"
   fullName: "com.microsoft.store.partnercenter.IAggregatePartner"
@@ -76,7 +74,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.factory.StandardPartnerFactory.build"
   package: "com.microsoft.store.partnercenter.factory"
 - uid: "com.microsoft.store.partnercenter.factory.IPartnerFactory"
-  isExternal: true
   name: "IPartnerFactory"
   nameWithType: "IPartnerFactory"
   fullName: "com.microsoft.store.partnercenter.factory.IPartnerFactory"

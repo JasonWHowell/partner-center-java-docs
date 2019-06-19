@@ -57,7 +57,6 @@ items:
       description: "The collection of customer monthly usage records."
 references:
 - uid: "com.microsoft.store.partnercenter.IPartner"
-  isExternal: true
   name: "IPartner"
   nameWithType: "IPartner"
   fullName: "com.microsoft.store.partnercenter.IPartner"
@@ -67,7 +66,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.usage.CustomerUsageRecordCollectionOperations.CustomerUsageRecordCollectionOperations"
   package: "com.microsoft.store.partnercenter.usage"
 - uid: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.usage.CustomerMonthlyUsageRecord>"
-  isExternal: true
   name: "ResourceCollection<CustomerMonthlyUsageRecord>"
   nameWithType: "ResourceCollection<CustomerMonthlyUsageRecord>"
   fullName: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.usage.CustomerMonthlyUsageRecord>"
@@ -77,22 +75,18 @@ references:
   fullName: "com.microsoft.store.partnercenter.usage.CustomerUsageRecordCollectionOperations.get"
   package: "com.microsoft.store.partnercenter.usage"
 - uid: "com.microsoft.store.partnercenter.BasePartnerComponentString"
-  isExternal: true
   name: "BasePartnerComponentString"
   nameWithType: "BasePartnerComponentString"
   fullName: "com.microsoft.store.partnercenter.BasePartnerComponentString"
 - uid: "com.microsoft.store.partnercenter.usage.ICustomerUsageRecordCollection"
-  isExternal: true
   name: "ICustomerUsageRecordCollection"
   nameWithType: "ICustomerUsageRecordCollection"
   fullName: "com.microsoft.store.partnercenter.usage.ICustomerUsageRecordCollection"
 - uid: "com.microsoft.store.partnercenter.models.ResourceCollection"
-  isExternal: true
   name: "ResourceCollection"
   nameWithType: "ResourceCollection"
   fullName: "com.microsoft.store.partnercenter.models.ResourceCollection"
 - uid: "com.microsoft.store.partnercenter.models.usage.CustomerMonthlyUsageRecord"
-  isExternal: true
   name: "CustomerMonthlyUsageRecord"
   nameWithType: "CustomerMonthlyUsageRecord"
   fullName: "com.microsoft.store.partnercenter.models.usage.CustomerMonthlyUsageRecord"

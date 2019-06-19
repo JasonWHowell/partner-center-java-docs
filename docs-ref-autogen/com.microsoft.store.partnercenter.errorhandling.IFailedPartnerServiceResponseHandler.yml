@@ -63,12 +63,10 @@ items:
       description: "The exception to throw."
 references:
 - uid: "okhttp3.Response"
-  isExternal: true
   name: "Response"
   nameWithType: "Response"
   fullName: "okhttp3.Response"
 - uid: "com.microsoft.store.partnercenter.exception.PartnerException"
-  isExternal: true
   name: "PartnerException"
   nameWithType: "PartnerException"
   fullName: "com.microsoft.store.partnercenter.exception.PartnerException"
@@ -78,7 +76,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.errorhandling.IFailedPartnerServiceResponseHandler.handleFailedResponse"
   package: "com.microsoft.store.partnercenter.errorhandling"
 - uid: "com.microsoft.store.partnercenter.requestcontext.IRequestContext"
-  isExternal: true
   name: "IRequestContext"
   nameWithType: "IRequestContext"
   fullName: "com.microsoft.store.partnercenter.requestcontext.IRequestContext"

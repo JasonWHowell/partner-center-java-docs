@@ -59,7 +59,6 @@ items:
       description: "The agreements."
 references:
 - uid: "com.microsoft.store.partnercenter.models.agreements.Agreement"
-  isExternal: true
   name: "Agreement"
   nameWithType: "Agreement"
   fullName: "com.microsoft.store.partnercenter.models.agreements.Agreement"
@@ -69,7 +68,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.agreements.ICustomerAgreementCollection.create"
   package: "com.microsoft.store.partnercenter.agreements"
 - uid: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.agreements.Agreement>"
-  isExternal: true
   name: "ResourceCollection<Agreement>"
   nameWithType: "ResourceCollection<Agreement>"
   fullName: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.agreements.Agreement>"
@@ -79,27 +77,22 @@ references:
   fullName: "com.microsoft.store.partnercenter.agreements.ICustomerAgreementCollection.get"
   package: "com.microsoft.store.partnercenter.agreements"
 - uid: "com.microsoft.store.partnercenter.IPartnerComponentString"
-  isExternal: true
   name: "IPartnerComponentString"
   nameWithType: "IPartnerComponentString"
   fullName: "com.microsoft.store.partnercenter.IPartnerComponentString"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations<com.microsoft.store.partnercenter.models.agreements.Agreement,com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.agreements.Agreement>>"
-  isExternal: true
   name: "IEntireEntityCollectionRetrievalOperations<Agreement,ResourceCollection<Agreement>>"
   nameWithType: "IEntireEntityCollectionRetrievalOperations<Agreement,ResourceCollection<Agreement>>"
   fullName: "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations<com.microsoft.store.partnercenter.models.agreements.Agreement,com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.agreements.Agreement>>"
 - uid: "com.microsoft.store.partnercenter.models.ResourceCollection"
-  isExternal: true
   name: "ResourceCollection"
   nameWithType: "ResourceCollection"
   fullName: "com.microsoft.store.partnercenter.models.ResourceCollection"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations"
-  isExternal: true
   name: "IEntireEntityCollectionRetrievalOperations"
   nameWithType: "IEntireEntityCollectionRetrievalOperations"
   fullName: "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations"
 - uid: "com.microsoft.store.partnercenter.models.agreements.Agreement,com.microsoft.store.partnercenter.models.ResourceCollection"
-  isExternal: true
   name: "Agreement,ResourceCollection"
   nameWithType: "Agreement,ResourceCollection"
   fullName: "com.microsoft.store.partnercenter.models.agreements.Agreement,com.microsoft.store.partnercenter.models.ResourceCollection"

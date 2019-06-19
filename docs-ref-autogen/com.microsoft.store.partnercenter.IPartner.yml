@@ -412,7 +412,6 @@ items:
       description: "The partner service client."
 references:
 - uid: "com.microsoft.store.partnercenter.IPartnerCredentials"
-  isExternal: true
   name: "IPartnerCredentials"
   nameWithType: "IPartnerCredentials"
   fullName: "com.microsoft.store.partnercenter.IPartnerCredentials"
@@ -422,7 +421,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.IPartner.getCredentials"
   package: "com.microsoft.store.partnercenter"
 - uid: "com.microsoft.store.partnercenter.requestcontext.IRequestContext"
-  isExternal: true
   name: "IRequestContext"
   nameWithType: "IRequestContext"
   fullName: "com.microsoft.store.partnercenter.requestcontext.IRequestContext"
@@ -432,7 +430,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.IPartner.getRequestContext"
   package: "com.microsoft.store.partnercenter"
 - uid: "com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumeratorContainer"
-  isExternal: true
   name: "IResourceCollectionEnumeratorContainer"
   nameWithType: "IResourceCollectionEnumeratorContainer"
   fullName: "com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumeratorContainer"
@@ -442,7 +439,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.IPartner.getEnumerators"
   package: "com.microsoft.store.partnercenter"
 - uid: "com.microsoft.store.partnercenter.genericoperations.ICountrySelector<com.microsoft.store.partnercenter.offers.IOfferCategoryCollection>"
-  isExternal: true
   name: "ICountrySelector<IOfferCategoryCollection>"
   nameWithType: "ICountrySelector<IOfferCategoryCollection>"
   fullName: "com.microsoft.store.partnercenter.genericoperations.ICountrySelector<com.microsoft.store.partnercenter.offers.IOfferCategoryCollection>"
@@ -452,7 +448,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.IPartner.getOfferCategories"
   package: "com.microsoft.store.partnercenter"
 - uid: "com.microsoft.store.partnercenter.genericoperations.ICountrySelector<com.microsoft.store.partnercenter.offers.IOfferCollection>"
-  isExternal: true
   name: "ICountrySelector<IOfferCollection>"
   nameWithType: "ICountrySelector<IOfferCollection>"
   fullName: "com.microsoft.store.partnercenter.genericoperations.ICountrySelector<com.microsoft.store.partnercenter.offers.IOfferCollection>"
@@ -462,7 +457,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.IPartner.getOffers"
   package: "com.microsoft.store.partnercenter"
 - uid: "com.microsoft.store.partnercenter.profiles.IPartnerProfileCollection"
-  isExternal: true
   name: "IPartnerProfileCollection"
   nameWithType: "IPartnerProfileCollection"
   fullName: "com.microsoft.store.partnercenter.profiles.IPartnerProfileCollection"
@@ -472,7 +466,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.IPartner.getProfiles"
   package: "com.microsoft.store.partnercenter"
 - uid: "com.microsoft.store.partnercenter.customers.ICustomerCollection"
-  isExternal: true
   name: "ICustomerCollection"
   nameWithType: "ICustomerCollection"
   fullName: "com.microsoft.store.partnercenter.customers.ICustomerCollection"
@@ -482,7 +475,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.IPartner.getCustomers"
   package: "com.microsoft.store.partnercenter"
 - uid: "com.microsoft.store.partnercenter.invoices.IInvoiceCollection"
-  isExternal: true
   name: "IInvoiceCollection"
   nameWithType: "IInvoiceCollection"
   fullName: "com.microsoft.store.partnercenter.invoices.IInvoiceCollection"
@@ -492,7 +484,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.IPartner.getInvoices"
   package: "com.microsoft.store.partnercenter"
 - uid: "com.microsoft.store.partnercenter.servicerequests.IPartnerServiceRequestCollection"
-  isExternal: true
   name: "IPartnerServiceRequestCollection"
   nameWithType: "IPartnerServiceRequestCollection"
   fullName: "com.microsoft.store.partnercenter.servicerequests.IPartnerServiceRequestCollection"
@@ -502,7 +493,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.IPartner.getServiceRequests"
   package: "com.microsoft.store.partnercenter"
 - uid: "com.microsoft.store.partnercenter.serviceincidents.IServiceIncidentCollection"
-  isExternal: true
   name: "IServiceIncidentCollection"
   nameWithType: "IServiceIncidentCollection"
   fullName: "com.microsoft.store.partnercenter.serviceincidents.IServiceIncidentCollection"
@@ -512,7 +502,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.IPartner.getServiceIncidents"
   package: "com.microsoft.store.partnercenter"
 - uid: "com.microsoft.store.partnercenter.countryvalidationrules.ICountryValidationRulesCollection"
-  isExternal: true
   name: "ICountryValidationRulesCollection"
   nameWithType: "ICountryValidationRulesCollection"
   fullName: "com.microsoft.store.partnercenter.countryvalidationrules.ICountryValidationRulesCollection"
@@ -522,7 +511,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.IPartner.getCountryValidationRules"
   package: "com.microsoft.store.partnercenter"
 - uid: "com.microsoft.store.partnercenter.usage.IPartnerUsageSummary"
-  isExternal: true
   name: "IPartnerUsageSummary"
   nameWithType: "IPartnerUsageSummary"
   fullName: "com.microsoft.store.partnercenter.usage.IPartnerUsageSummary"
@@ -532,7 +520,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.IPartner.getUsageSummary"
   package: "com.microsoft.store.partnercenter"
 - uid: "com.microsoft.store.partnercenter.domains.IDomainCollection"
-  isExternal: true
   name: "IDomainCollection"
   nameWithType: "IDomainCollection"
   fullName: "com.microsoft.store.partnercenter.domains.IDomainCollection"
@@ -542,7 +529,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.IPartner.getDomains"
   package: "com.microsoft.store.partnercenter"
 - uid: "com.microsoft.store.partnercenter.auditrecords.IAuditRecordsCollection"
-  isExternal: true
   name: "IAuditRecordsCollection"
   nameWithType: "IAuditRecordsCollection"
   fullName: "com.microsoft.store.partnercenter.auditrecords.IAuditRecordsCollection"
@@ -552,7 +538,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.IPartner.getAuditRecords"
   package: "com.microsoft.store.partnercenter"
 - uid: "com.microsoft.store.partnercenter.ratecards.IRateCardCollection"
-  isExternal: true
   name: "IRateCardCollection"
   nameWithType: "IRateCardCollection"
   fullName: "com.microsoft.store.partnercenter.ratecards.IRateCardCollection"
@@ -562,7 +547,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.IPartner.getRateCards"
   package: "com.microsoft.store.partnercenter"
 - uid: "com.microsoft.store.partnercenter.analytics.IPartnerAnalyticsCollection"
-  isExternal: true
   name: "IPartnerAnalyticsCollection"
   nameWithType: "IPartnerAnalyticsCollection"
   fullName: "com.microsoft.store.partnercenter.analytics.IPartnerAnalyticsCollection"
@@ -572,7 +556,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.IPartner.getAnalytics"
   package: "com.microsoft.store.partnercenter"
 - uid: "com.microsoft.store.partnercenter.extensions.IExtensions"
-  isExternal: true
   name: "IExtensions"
   nameWithType: "IExtensions"
   fullName: "com.microsoft.store.partnercenter.extensions.IExtensions"
@@ -582,7 +565,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.IPartner.getExtensions"
   package: "com.microsoft.store.partnercenter"
 - uid: "com.microsoft.store.partnercenter.products.IProductCollection"
-  isExternal: true
   name: "IProductCollection"
   nameWithType: "IProductCollection"
   fullName: "com.microsoft.store.partnercenter.products.IProductCollection"
@@ -592,7 +574,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.IPartner.getProducts"
   package: "com.microsoft.store.partnercenter"
 - uid: "com.microsoft.store.partnercenter.relationships.IRelationshipCollection"
-  isExternal: true
   name: "IRelationshipCollection"
   nameWithType: "IRelationshipCollection"
   fullName: "com.microsoft.store.partnercenter.relationships.IRelationshipCollection"
@@ -602,7 +583,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.IPartner.getRelationships"
   package: "com.microsoft.store.partnercenter"
 - uid: "com.microsoft.store.partnercenter.validations.IValidationOperations"
-  isExternal: true
   name: "IValidationOperations"
   nameWithType: "IValidationOperations"
   fullName: "com.microsoft.store.partnercenter.validations.IValidationOperations"
@@ -612,7 +592,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.IPartner.getValidations"
   package: "com.microsoft.store.partnercenter"
 - uid: "com.microsoft.store.partnercenter.agreements.IAgreementDetailsCollection"
-  isExternal: true
   name: "IAgreementDetailsCollection"
   nameWithType: "IAgreementDetailsCollection"
   fullName: "com.microsoft.store.partnercenter.agreements.IAgreementDetailsCollection"
@@ -622,7 +601,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.IPartner.getAgreementDetails"
   package: "com.microsoft.store.partnercenter"
 - uid: "com.microsoft.store.partnercenter.network.IPartnerServiceClient"
-  isExternal: true
   name: "IPartnerServiceClient"
   nameWithType: "IPartnerServiceClient"
   fullName: "com.microsoft.store.partnercenter.network.IPartnerServiceClient"
@@ -632,17 +610,14 @@ references:
   fullName: "com.microsoft.store.partnercenter.IPartner.getServiceClient"
   package: "com.microsoft.store.partnercenter"
 - uid: "com.microsoft.store.partnercenter.genericoperations.ICountrySelector"
-  isExternal: true
   name: "ICountrySelector"
   nameWithType: "ICountrySelector"
   fullName: "com.microsoft.store.partnercenter.genericoperations.ICountrySelector"
 - uid: "com.microsoft.store.partnercenter.offers.IOfferCategoryCollection"
-  isExternal: true
   name: "IOfferCategoryCollection"
   nameWithType: "IOfferCategoryCollection"
   fullName: "com.microsoft.store.partnercenter.offers.IOfferCategoryCollection"
 - uid: "com.microsoft.store.partnercenter.offers.IOfferCollection"
-  isExternal: true
   name: "IOfferCollection"
   nameWithType: "IOfferCollection"
   fullName: "com.microsoft.store.partnercenter.offers.IOfferCollection"

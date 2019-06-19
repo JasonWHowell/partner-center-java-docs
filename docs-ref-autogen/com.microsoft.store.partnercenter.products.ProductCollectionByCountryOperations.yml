@@ -86,12 +86,10 @@ items:
       description: "The product collection operations by country and by target view."
 references:
 - uid: "com.microsoft.store.partnercenter.IPartner"
-  isExternal: true
   name: "IPartner"
   nameWithType: "IPartner"
   fullName: "com.microsoft.store.partnercenter.IPartner"
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"
@@ -101,7 +99,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.products.ProductCollectionByCountryOperations.ProductCollectionByCountryOperations"
   package: "com.microsoft.store.partnercenter.products"
 - uid: "com.microsoft.store.partnercenter.products.IProduct"
-  isExternal: true
   name: "IProduct"
   nameWithType: "IProduct"
   fullName: "com.microsoft.store.partnercenter.products.IProduct"
@@ -111,7 +108,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.products.ProductCollectionByCountryOperations.byId"
   package: "com.microsoft.store.partnercenter.products"
 - uid: "com.microsoft.store.partnercenter.products.IProductCollectionByCountryByTargetView"
-  isExternal: true
   name: "IProductCollectionByCountryByTargetView"
   nameWithType: "IProductCollectionByCountryByTargetView"
   fullName: "com.microsoft.store.partnercenter.products.IProductCollectionByCountryByTargetView"
@@ -121,12 +117,10 @@ references:
   fullName: "com.microsoft.store.partnercenter.products.ProductCollectionByCountryOperations.byTargetView"
   package: "com.microsoft.store.partnercenter.products"
 - uid: "com.microsoft.store.partnercenter.BasePartnerComponentString"
-  isExternal: true
   name: "BasePartnerComponentString"
   nameWithType: "BasePartnerComponentString"
   fullName: "com.microsoft.store.partnercenter.BasePartnerComponentString"
 - uid: "com.microsoft.store.partnercenter.products.IProductCollectionByCountry"
-  isExternal: true
   name: "IProductCollectionByCountry"
   nameWithType: "IProductCollectionByCountry"
   fullName: "com.microsoft.store.partnercenter.products.IProductCollectionByCountry"

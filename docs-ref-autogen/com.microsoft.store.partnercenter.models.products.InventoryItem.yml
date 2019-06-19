@@ -169,7 +169,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.products.InventoryItem.InventoryItem"
   package: "com.microsoft.store.partnercenter.models.products"
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"
@@ -204,7 +203,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.products.InventoryItem.setIsRestricted"
   package: "com.microsoft.store.partnercenter.models.products"
 - uid: "java.util.List<com.microsoft.store.partnercenter.models.products.InventoryRestriction>"
-  isExternal: true
   name: "List<InventoryRestriction>"
   nameWithType: "List<InventoryRestriction>"
   fullName: "java.util.List<com.microsoft.store.partnercenter.models.products.InventoryRestriction>"
@@ -219,12 +217,10 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.products.InventoryItem.setRestrictions"
   package: "com.microsoft.store.partnercenter.models.products"
 - uid: "java.util.List"
-  isExternal: true
   name: "List"
   nameWithType: "List"
   fullName: "java.util.List"
 - uid: "com.microsoft.store.partnercenter.models.products.InventoryRestriction"
-  isExternal: true
   name: "InventoryRestriction"
   nameWithType: "InventoryRestriction"
   fullName: "com.microsoft.store.partnercenter.models.products.InventoryRestriction"

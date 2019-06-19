@@ -235,7 +235,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.agreements.Agreement.Agreement"
   package: "com.microsoft.store.partnercenter.models.agreements"
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"
@@ -250,7 +249,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.agreements.Agreement.setUserId"
   package: "com.microsoft.store.partnercenter.models.agreements"
 - uid: "com.microsoft.store.partnercenter.models.Contact"
-  isExternal: true
   name: "Contact"
   nameWithType: "Contact"
   fullName: "com.microsoft.store.partnercenter.models.Contact"
@@ -275,7 +273,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.agreements.Agreement.setTemplateId"
   package: "com.microsoft.store.partnercenter.models.agreements"
 - uid: "org.joda.time.DateTime"
-  isExternal: true
   name: "DateTime"
   nameWithType: "DateTime"
   fullName: "org.joda.time.DateTime"
@@ -290,7 +287,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.agreements.Agreement.setDateAgreed"
   package: "com.microsoft.store.partnercenter.models.agreements"
 - uid: "com.microsoft.store.partnercenter.models.agreements.AgreementType"
-  isExternal: true
   name: "AgreementType"
   nameWithType: "AgreementType"
   fullName: "com.microsoft.store.partnercenter.models.agreements.AgreementType"
@@ -315,7 +311,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.agreements.Agreement.setAgreementLink"
   package: "com.microsoft.store.partnercenter.models.agreements"
 - uid: "com.microsoft.store.partnercenter.models.ResourceBase"
-  isExternal: true
   name: "ResourceBase"
   nameWithType: "ResourceBase"
   fullName: "com.microsoft.store.partnercenter.models.ResourceBase"

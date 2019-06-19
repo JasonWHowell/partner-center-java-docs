@@ -55,7 +55,6 @@ items:
       description: "The SKUs information."
 references:
 - uid: "com.microsoft.store.partnercenter.products.IAvailabilityCollection"
-  isExternal: true
   name: "IAvailabilityCollection"
   nameWithType: "IAvailabilityCollection"
   fullName: "com.microsoft.store.partnercenter.products.IAvailabilityCollection"
@@ -65,7 +64,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.products.ISku.getAvailabilities"
   package: "com.microsoft.store.partnercenter.products"
 - uid: "com.microsoft.store.partnercenter.models.products.Sku"
-  isExternal: true
   name: "Sku"
   nameWithType: "Sku"
   fullName: "com.microsoft.store.partnercenter.models.products.Sku"
@@ -75,32 +73,26 @@ references:
   fullName: "com.microsoft.store.partnercenter.products.ISku.get"
   package: "com.microsoft.store.partnercenter.products"
 - uid: "com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.TripletTuple<java.lang.String,java.lang.String,java.lang.String>>"
-  isExternal: true
   name: "IPartnerComponent<TripletTuple<String,String,String>>"
   nameWithType: "IPartnerComponent<TripletTuple<String,String,String>>"
   fullName: "com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.TripletTuple<java.lang.String,java.lang.String,java.lang.String>>"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations<com.microsoft.store.partnercenter.models.products.Sku>"
-  isExternal: true
   name: "IEntityGetOperations<Sku>"
   nameWithType: "IEntityGetOperations<Sku>"
   fullName: "com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations<com.microsoft.store.partnercenter.models.products.Sku>"
 - uid: "com.microsoft.store.partnercenter.IPartnerComponent"
-  isExternal: true
   name: "IPartnerComponent"
   nameWithType: "IPartnerComponent"
   fullName: "com.microsoft.store.partnercenter.IPartnerComponent"
 - uid: "java.lang.String,java.lang.String,java.lang.String"
-  isExternal: true
   name: "String,String,String"
   nameWithType: "String,String,String"
   fullName: "java.lang.String,java.lang.String,java.lang.String"
 - uid: "com.microsoft.store.partnercenter.models.utils.TripletTuple"
-  isExternal: true
   name: "TripletTuple"
   nameWithType: "TripletTuple"
   fullName: "com.microsoft.store.partnercenter.models.utils.TripletTuple"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations"
-  isExternal: true
   name: "IEntityGetOperations"
   nameWithType: "IEntityGetOperations"
   fullName: "com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations"

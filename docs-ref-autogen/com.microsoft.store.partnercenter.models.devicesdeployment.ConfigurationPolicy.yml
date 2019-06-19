@@ -301,7 +301,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.devicesdeployment.ConfigurationPolicy.ConfigurationPolicy"
   package: "com.microsoft.store.partnercenter.models.devicesdeployment"
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"
@@ -326,7 +325,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.devicesdeployment.ConfigurationPolicy.setName"
   package: "com.microsoft.store.partnercenter.models.devicesdeployment"
 - uid: "com.microsoft.store.partnercenter.models.devicesdeployment.PolicyCategory"
-  isExternal: true
   name: "PolicyCategory"
   nameWithType: "PolicyCategory"
   fullName: "com.microsoft.store.partnercenter.models.devicesdeployment.PolicyCategory"
@@ -351,7 +349,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.devicesdeployment.ConfigurationPolicy.setDescription"
   package: "com.microsoft.store.partnercenter.models.devicesdeployment"
 - uid: "java.lang.Integer"
-  isExternal: true
   name: "Integer"
   nameWithType: "Integer"
   fullName: "java.lang.Integer"
@@ -366,7 +363,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.devicesdeployment.ConfigurationPolicy.setDevicesAssignedCount"
   package: "com.microsoft.store.partnercenter.models.devicesdeployment"
 - uid: "java.util.List<com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType>"
-  isExternal: true
   name: "List<PolicySettingsType>"
   nameWithType: "List<PolicySettingsType>"
   fullName: "java.util.List<com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType>"
@@ -381,7 +377,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.devicesdeployment.ConfigurationPolicy.setPolicySettings"
   package: "com.microsoft.store.partnercenter.models.devicesdeployment"
 - uid: "org.joda.time.DateTime"
-  isExternal: true
   name: "DateTime"
   nameWithType: "DateTime"
   fullName: "org.joda.time.DateTime"
@@ -406,17 +401,14 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.devicesdeployment.ConfigurationPolicy.setLastModifiedDate"
   package: "com.microsoft.store.partnercenter.models.devicesdeployment"
 - uid: "com.microsoft.store.partnercenter.models.ResourceBase"
-  isExternal: true
   name: "ResourceBase"
   nameWithType: "ResourceBase"
   fullName: "com.microsoft.store.partnercenter.models.ResourceBase"
 - uid: "java.util.List"
-  isExternal: true
   name: "List"
   nameWithType: "List"
   fullName: "java.util.List"
 - uid: "com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType"
-  isExternal: true
   name: "PolicySettingsType"
   nameWithType: "PolicySettingsType"
   fullName: "com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType"

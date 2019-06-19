@@ -41,12 +41,10 @@ items:
       description: "The country validation rules operations."
 references:
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"
 - uid: "com.microsoft.store.partnercenter.countryvalidationrules.ICountryValidationRules"
-  isExternal: true
   name: "ICountryValidationRules"
   nameWithType: "ICountryValidationRules"
   fullName: "com.microsoft.store.partnercenter.countryvalidationrules.ICountryValidationRules"
@@ -56,17 +54,14 @@ references:
   fullName: "com.microsoft.store.partnercenter.countryvalidationrules.ICountryValidationRulesCollection.byCountry"
   package: "com.microsoft.store.partnercenter.countryvalidationrules"
 - uid: "com.microsoft.store.partnercenter.IPartnerComponentString"
-  isExternal: true
   name: "IPartnerComponentString"
   nameWithType: "IPartnerComponentString"
   fullName: "com.microsoft.store.partnercenter.IPartnerComponentString"
 - uid: "com.microsoft.store.partnercenter.genericoperations.ICountrySelector<com.microsoft.store.partnercenter.countryvalidationrules.ICountryValidationRules>"
-  isExternal: true
   name: "ICountrySelector<ICountryValidationRules>"
   nameWithType: "ICountrySelector<ICountryValidationRules>"
   fullName: "com.microsoft.store.partnercenter.genericoperations.ICountrySelector<com.microsoft.store.partnercenter.countryvalidationrules.ICountryValidationRules>"
 - uid: "com.microsoft.store.partnercenter.genericoperations.ICountrySelector"
-  isExternal: true
   name: "ICountrySelector"
   nameWithType: "ICountrySelector"
   fullName: "com.microsoft.store.partnercenter.genericoperations.ICountrySelector"

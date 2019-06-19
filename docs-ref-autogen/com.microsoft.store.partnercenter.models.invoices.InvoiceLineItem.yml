@@ -73,7 +73,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem.InvoiceLineItem"
   package: "com.microsoft.store.partnercenter.models.invoices"
 - uid: "com.microsoft.store.partnercenter.models.invoices.InvoiceLineItemType"
-  isExternal: true
   name: "InvoiceLineItemType"
   nameWithType: "InvoiceLineItemType"
   fullName: "com.microsoft.store.partnercenter.models.invoices.InvoiceLineItemType"
@@ -83,7 +82,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem.getInvoiceLineItemType"
   package: "com.microsoft.store.partnercenter.models.invoices"
 - uid: "com.microsoft.store.partnercenter.models.invoices.BillingProvider"
-  isExternal: true
   name: "BillingProvider"
   nameWithType: "BillingProvider"
   fullName: "com.microsoft.store.partnercenter.models.invoices.BillingProvider"
@@ -93,7 +91,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem.getBillingProvider"
   package: "com.microsoft.store.partnercenter.models.invoices"
 - uid: "com.microsoft.store.partnercenter.models.ResourceBase"
-  isExternal: true
   name: "ResourceBase"
   nameWithType: "ResourceBase"
   fullName: "com.microsoft.store.partnercenter.models.ResourceBase"

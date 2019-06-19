@@ -111,7 +111,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.subscriptions.RefundOption.RefundOption"
   package: "com.microsoft.store.partnercenter.models.subscriptions"
 - uid: "org.joda.time.DateTime"
-  isExternal: true
   name: "DateTime"
   nameWithType: "DateTime"
   fullName: "org.joda.time.DateTime"
@@ -126,7 +125,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.subscriptions.RefundOption.setExpiresAt"
   package: "com.microsoft.store.partnercenter.models.subscriptions"
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"

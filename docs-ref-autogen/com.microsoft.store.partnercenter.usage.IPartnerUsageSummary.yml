@@ -37,7 +37,6 @@ items:
       description: "The partner's usage summary."
 references:
 - uid: "com.microsoft.store.partnercenter.models.usage.PartnerUsageSummary"
-  isExternal: true
   name: "PartnerUsageSummary"
   nameWithType: "PartnerUsageSummary"
   fullName: "com.microsoft.store.partnercenter.models.usage.PartnerUsageSummary"
@@ -47,17 +46,14 @@ references:
   fullName: "com.microsoft.store.partnercenter.usage.IPartnerUsageSummary.get"
   package: "com.microsoft.store.partnercenter.usage"
 - uid: "com.microsoft.store.partnercenter.IPartnerComponentString"
-  isExternal: true
   name: "IPartnerComponentString"
   nameWithType: "IPartnerComponentString"
   fullName: "com.microsoft.store.partnercenter.IPartnerComponentString"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations<com.microsoft.store.partnercenter.models.usage.PartnerUsageSummary>"
-  isExternal: true
   name: "IEntityGetOperations<PartnerUsageSummary>"
   nameWithType: "IEntityGetOperations<PartnerUsageSummary>"
   fullName: "com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations<com.microsoft.store.partnercenter.models.usage.PartnerUsageSummary>"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations"
-  isExternal: true
   name: "IEntityGetOperations"
   nameWithType: "IEntityGetOperations"
   fullName: "com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations"

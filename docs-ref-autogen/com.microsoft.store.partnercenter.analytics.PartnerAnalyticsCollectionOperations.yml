@@ -57,7 +57,6 @@ items:
       description: "The operations on partner's licenses' analytics collection."
 references:
 - uid: "com.microsoft.store.partnercenter.IPartner"
-  isExternal: true
   name: "IPartner"
   nameWithType: "IPartner"
   fullName: "com.microsoft.store.partnercenter.IPartner"
@@ -67,7 +66,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.analytics.PartnerAnalyticsCollectionOperations.PartnerAnalyticsCollectionOperations"
   package: "com.microsoft.store.partnercenter.analytics"
 - uid: "com.microsoft.store.partnercenter.analytics.IPartnerLicensesAnalyticsCollection"
-  isExternal: true
   name: "IPartnerLicensesAnalyticsCollection"
   nameWithType: "IPartnerLicensesAnalyticsCollection"
   fullName: "com.microsoft.store.partnercenter.analytics.IPartnerLicensesAnalyticsCollection"
@@ -77,12 +75,10 @@ references:
   fullName: "com.microsoft.store.partnercenter.analytics.PartnerAnalyticsCollectionOperations.getLicenses"
   package: "com.microsoft.store.partnercenter.analytics"
 - uid: "com.microsoft.store.partnercenter.BasePartnerComponentString"
-  isExternal: true
   name: "BasePartnerComponentString"
   nameWithType: "BasePartnerComponentString"
   fullName: "com.microsoft.store.partnercenter.BasePartnerComponentString"
 - uid: "com.microsoft.store.partnercenter.analytics.IPartnerAnalyticsCollection"
-  isExternal: true
   name: "IPartnerAnalyticsCollection"
   nameWithType: "IPartnerAnalyticsCollection"
   fullName: "com.microsoft.store.partnercenter.analytics.IPartnerAnalyticsCollection"

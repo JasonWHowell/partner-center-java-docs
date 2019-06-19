@@ -103,7 +103,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.invoices.InvoiceSummaryDetail.InvoiceSummaryDetail"
   package: "com.microsoft.store.partnercenter.models.invoices"
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"
@@ -118,7 +117,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.invoices.InvoiceSummaryDetail.setInvoiceType"
   package: "com.microsoft.store.partnercenter.models.invoices"
 - uid: "com.microsoft.store.partnercenter.models.invoices.InvoiceSummary"
-  isExternal: true
   name: "InvoiceSummary"
   nameWithType: "InvoiceSummary"
   fullName: "com.microsoft.store.partnercenter.models.invoices.InvoiceSummary"

@@ -79,7 +79,6 @@ items:
       description: "Updated Organization Profile"
 references:
 - uid: "com.microsoft.store.partnercenter.IPartner"
-  isExternal: true
   name: "IPartner"
   nameWithType: "IPartner"
   fullName: "com.microsoft.store.partnercenter.IPartner"
@@ -89,7 +88,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.profiles.OrganizationProfileOperations.OrganizationProfileOperations"
   package: "com.microsoft.store.partnercenter.profiles"
 - uid: "com.microsoft.store.partnercenter.models.partners.OrganizationProfile"
-  isExternal: true
   name: "OrganizationProfile"
   nameWithType: "OrganizationProfile"
   fullName: "com.microsoft.store.partnercenter.models.partners.OrganizationProfile"
@@ -104,12 +102,10 @@ references:
   fullName: "com.microsoft.store.partnercenter.profiles.OrganizationProfileOperations.update"
   package: "com.microsoft.store.partnercenter.profiles"
 - uid: "com.microsoft.store.partnercenter.BasePartnerComponentString"
-  isExternal: true
   name: "BasePartnerComponentString"
   nameWithType: "BasePartnerComponentString"
   fullName: "com.microsoft.store.partnercenter.BasePartnerComponentString"
 - uid: "com.microsoft.store.partnercenter.profiles.IOrganizationProfile"
-  isExternal: true
   name: "IOrganizationProfile"
   nameWithType: "IOrganizationProfile"
   fullName: "com.microsoft.store.partnercenter.profiles.IOrganizationProfile"

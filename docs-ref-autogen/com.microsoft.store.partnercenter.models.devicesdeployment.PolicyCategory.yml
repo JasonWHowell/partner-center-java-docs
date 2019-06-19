@@ -119,7 +119,6 @@ items:
       type: "com.microsoft.store.partnercenter.models.devicesdeployment.PolicyCategory"
 references:
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"
@@ -144,12 +143,10 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.devicesdeployment.PolicyCategory.toString"
   package: "com.microsoft.store.partnercenter.models.devicesdeployment"
 - uid: "java.lang.Enum<com.microsoft.store.partnercenter.models.devicesdeployment.PolicyCategory>"
-  isExternal: true
   name: "Enum<PolicyCategory>"
   nameWithType: "Enum<PolicyCategory>"
   fullName: "java.lang.Enum<com.microsoft.store.partnercenter.models.devicesdeployment.PolicyCategory>"
 - uid: "java.lang.Enum"
-  isExternal: true
   name: "Enum"
   nameWithType: "Enum"
   fullName: "java.lang.Enum"

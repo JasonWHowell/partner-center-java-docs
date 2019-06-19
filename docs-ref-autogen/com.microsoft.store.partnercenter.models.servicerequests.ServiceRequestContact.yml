@@ -235,7 +235,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestContact.ServiceRequestContact"
   package: "com.microsoft.store.partnercenter.models.servicerequests"
 - uid: "com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestOrganization"
-  isExternal: true
   name: "ServiceRequestOrganization"
   nameWithType: "ServiceRequestOrganization"
   fullName: "com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestOrganization"
@@ -250,7 +249,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestContact.setOrganization"
   package: "com.microsoft.store.partnercenter.models.servicerequests"
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"

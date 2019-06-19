@@ -338,7 +338,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.servicecosts.ServiceCostsSummary.ServiceCostsSummary"
   package: "com.microsoft.store.partnercenter.models.servicecosts"
 - uid: "java.util.List<com.microsoft.store.partnercenter.models.servicecosts.ServiceCostsSummary>"
-  isExternal: true
   name: "List<ServiceCostsSummary>"
   nameWithType: "List<ServiceCostsSummary>"
   fullName: "java.util.List<com.microsoft.store.partnercenter.models.servicecosts.ServiceCostsSummary>"
@@ -353,7 +352,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.servicecosts.ServiceCostsSummary.setDetails"
   package: "com.microsoft.store.partnercenter.models.servicecosts"
 - uid: "org.joda.time.DateTime"
-  isExternal: true
   name: "DateTime"
   nameWithType: "DateTime"
   fullName: "org.joda.time.DateTime"
@@ -378,7 +376,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.servicecosts.ServiceCostsSummary.setBillingEnd"
   package: "com.microsoft.store.partnercenter.models.servicecosts"
 - uid: "java.lang.Double"
-  isExternal: true
   name: "Double"
   nameWithType: "Double"
   fullName: "java.lang.Double"
@@ -413,7 +410,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.servicecosts.ServiceCostsSummary.setAfterTaxTotal"
   package: "com.microsoft.store.partnercenter.models.servicecosts"
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"
@@ -448,22 +444,18 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.servicecosts.ServiceCostsSummary.setCustomerId"
   package: "com.microsoft.store.partnercenter.models.servicecosts"
 - uid: "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks<com.microsoft.store.partnercenter.models.servicecosts.ServiceCostsSummaryLinks>"
-  isExternal: true
   name: "ResourceBaseWithLinks<ServiceCostsSummaryLinks>"
   nameWithType: "ResourceBaseWithLinks<ServiceCostsSummaryLinks>"
   fullName: "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks<com.microsoft.store.partnercenter.models.servicecosts.ServiceCostsSummaryLinks>"
 - uid: "java.util.List"
-  isExternal: true
   name: "List"
   nameWithType: "List"
   fullName: "java.util.List"
 - uid: "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks"
-  isExternal: true
   name: "ResourceBaseWithLinks"
   nameWithType: "ResourceBaseWithLinks"
   fullName: "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks"
 - uid: "com.microsoft.store.partnercenter.models.servicecosts.ServiceCostsSummaryLinks"
-  isExternal: true
   name: "ServiceCostsSummaryLinks"
   nameWithType: "ServiceCostsSummaryLinks"
   fullName: "com.microsoft.store.partnercenter.models.servicecosts.ServiceCostsSummaryLinks"

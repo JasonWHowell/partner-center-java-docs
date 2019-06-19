@@ -59,7 +59,6 @@ items:
       description: "A component context object to work with."
 references:
 - uid: "com.microsoft.store.partnercenter.IPartner"
-  isExternal: true
   name: "IPartner"
   nameWithType: "IPartner"
   fullName: "com.microsoft.store.partnercenter.IPartner"
@@ -69,17 +68,14 @@ references:
   fullName: "com.microsoft.store.partnercenter.BasePartnerComponentString.BasePartnerComponentString"
   package: "com.microsoft.store.partnercenter"
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"
 - uid: "com.microsoft.store.partnercenter.BasePartnerComponent<java.lang.String>"
-  isExternal: true
   name: "BasePartnerComponent<String>"
   nameWithType: "BasePartnerComponent<String>"
   fullName: "com.microsoft.store.partnercenter.BasePartnerComponent<java.lang.String>"
 - uid: "com.microsoft.store.partnercenter.BasePartnerComponent"
-  isExternal: true
   name: "BasePartnerComponent"
   nameWithType: "BasePartnerComponent"
   fullName: "com.microsoft.store.partnercenter.BasePartnerComponent"

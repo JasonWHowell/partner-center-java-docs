@@ -35,7 +35,6 @@ items:
       description: "An invoice statement operations."
 references:
 - uid: "com.microsoft.store.partnercenter.invoices.IInvoiceStatement"
-  isExternal: true
   name: "IInvoiceStatement"
   nameWithType: "IInvoiceStatement"
   fullName: "com.microsoft.store.partnercenter.invoices.IInvoiceStatement"
@@ -45,7 +44,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.invoices.IInvoiceDocuments.getStatement"
   package: "com.microsoft.store.partnercenter.invoices"
 - uid: "com.microsoft.store.partnercenter.IPartnerComponentString"
-  isExternal: true
   name: "IPartnerComponentString"
   nameWithType: "IPartnerComponentString"
   fullName: "com.microsoft.store.partnercenter.IPartnerComponentString"

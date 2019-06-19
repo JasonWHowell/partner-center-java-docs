@@ -40,12 +40,10 @@ items:
       description: "An operations interface customized for the provided country."
 references:
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"
 - uid: "TOperations"
-  isExternal: true
   name: "TOperations"
   nameWithType: "TOperations"
   fullName: "TOperations"

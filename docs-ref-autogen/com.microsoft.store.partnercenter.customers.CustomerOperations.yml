@@ -515,12 +515,10 @@ items:
     content: "public void delete()"
 references:
 - uid: "com.microsoft.store.partnercenter.IPartner"
-  isExternal: true
   name: "IPartner"
   nameWithType: "IPartner"
   fullName: "com.microsoft.store.partnercenter.IPartner"
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"
@@ -530,7 +528,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.customers.CustomerOperations.CustomerOperations"
   package: "com.microsoft.store.partnercenter.customers"
 - uid: "com.microsoft.store.partnercenter.agreements.ICustomerAgreementCollection"
-  isExternal: true
   name: "ICustomerAgreementCollection"
   nameWithType: "ICustomerAgreementCollection"
   fullName: "com.microsoft.store.partnercenter.agreements.ICustomerAgreementCollection"
@@ -540,7 +537,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.customers.CustomerOperations.getAgreements"
   package: "com.microsoft.store.partnercenter.customers"
 - uid: "com.microsoft.store.partnercenter.applicationconsents.ICustomerApplicationConsentCollection"
-  isExternal: true
   name: "ICustomerApplicationConsentCollection"
   nameWithType: "ICustomerApplicationConsentCollection"
   fullName: "com.microsoft.store.partnercenter.applicationconsents.ICustomerApplicationConsentCollection"
@@ -550,7 +546,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.customers.CustomerOperations.getApplicationConsents"
   package: "com.microsoft.store.partnercenter.customers"
 - uid: "com.microsoft.store.partnercenter.orders.IOrderCollection"
-  isExternal: true
   name: "IOrderCollection"
   nameWithType: "IOrderCollection"
   fullName: "com.microsoft.store.partnercenter.orders.IOrderCollection"
@@ -560,7 +555,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.customers.CustomerOperations.getOrders"
   package: "com.microsoft.store.partnercenter.customers"
 - uid: "com.microsoft.store.partnercenter.customers.profiles.ICustomerProfileCollection"
-  isExternal: true
   name: "ICustomerProfileCollection"
   nameWithType: "ICustomerProfileCollection"
   fullName: "com.microsoft.store.partnercenter.customers.profiles.ICustomerProfileCollection"
@@ -570,7 +564,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.customers.CustomerOperations.getProfiles"
   package: "com.microsoft.store.partnercenter.customers"
 - uid: "com.microsoft.store.partnercenter.subscriptions.ISubscriptionCollection"
-  isExternal: true
   name: "ISubscriptionCollection"
   nameWithType: "ISubscriptionCollection"
   fullName: "com.microsoft.store.partnercenter.subscriptions.ISubscriptionCollection"
@@ -580,7 +573,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.customers.CustomerOperations.getSubscriptions"
   package: "com.microsoft.store.partnercenter.customers"
 - uid: "com.microsoft.store.partnercenter.servicerequests.IServiceRequestCollection"
-  isExternal: true
   name: "IServiceRequestCollection"
   nameWithType: "IServiceRequestCollection"
   fullName: "com.microsoft.store.partnercenter.servicerequests.IServiceRequestCollection"
@@ -590,7 +582,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.customers.CustomerOperations.getServiceRequests"
   package: "com.microsoft.store.partnercenter.customers"
 - uid: "com.microsoft.store.partnercenter.managedservices.IManagedServiceCollection"
-  isExternal: true
   name: "IManagedServiceCollection"
   nameWithType: "IManagedServiceCollection"
   fullName: "com.microsoft.store.partnercenter.managedservices.IManagedServiceCollection"
@@ -600,7 +591,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.customers.CustomerOperations.getManagedServices"
   package: "com.microsoft.store.partnercenter.customers"
 - uid: "com.microsoft.store.partnercenter.offers.ICustomerOfferCategoryCollection"
-  isExternal: true
   name: "ICustomerOfferCategoryCollection"
   nameWithType: "ICustomerOfferCategoryCollection"
   fullName: "com.microsoft.store.partnercenter.offers.ICustomerOfferCategoryCollection"
@@ -610,7 +600,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.customers.CustomerOperations.getOfferCategories"
   package: "com.microsoft.store.partnercenter.customers"
 - uid: "com.microsoft.store.partnercenter.offers.ICustomerOfferCollection"
-  isExternal: true
   name: "ICustomerOfferCollection"
   nameWithType: "ICustomerOfferCollection"
   fullName: "com.microsoft.store.partnercenter.offers.ICustomerOfferCollection"
@@ -620,7 +609,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.customers.CustomerOperations.getOffers"
   package: "com.microsoft.store.partnercenter.customers"
 - uid: "com.microsoft.store.partnercenter.usage.ICustomerUsageSummary"
-  isExternal: true
   name: "ICustomerUsageSummary"
   nameWithType: "ICustomerUsageSummary"
   fullName: "com.microsoft.store.partnercenter.usage.ICustomerUsageSummary"
@@ -630,7 +618,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.customers.CustomerOperations.getUsageSummary"
   package: "com.microsoft.store.partnercenter.customers"
 - uid: "com.microsoft.store.partnercenter.usage.ICustomerUsageSpendingBudget"
-  isExternal: true
   name: "ICustomerUsageSpendingBudget"
   nameWithType: "ICustomerUsageSpendingBudget"
   fullName: "com.microsoft.store.partnercenter.usage.ICustomerUsageSpendingBudget"
@@ -640,7 +627,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.customers.CustomerOperations.getUsageBudget"
   package: "com.microsoft.store.partnercenter.customers"
 - uid: "com.microsoft.store.partnercenter.qualification.ICustomerQualification"
-  isExternal: true
   name: "ICustomerQualification"
   nameWithType: "ICustomerQualification"
   fullName: "com.microsoft.store.partnercenter.qualification.ICustomerQualification"
@@ -650,7 +636,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.customers.CustomerOperations.getQualification"
   package: "com.microsoft.store.partnercenter.customers"
 - uid: "com.microsoft.store.partnercenter.customerusers.ICustomerUserCollection"
-  isExternal: true
   name: "ICustomerUserCollection"
   nameWithType: "ICustomerUserCollection"
   fullName: "com.microsoft.store.partnercenter.customerusers.ICustomerUserCollection"
@@ -660,7 +645,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.customers.CustomerOperations.getUsers"
   package: "com.microsoft.store.partnercenter.customers"
 - uid: "com.microsoft.store.partnercenter.customerdirectoryroles.IDirectoryRoleCollection"
-  isExternal: true
   name: "IDirectoryRoleCollection"
   nameWithType: "IDirectoryRoleCollection"
   fullName: "com.microsoft.store.partnercenter.customerdirectoryroles.IDirectoryRoleCollection"
@@ -670,7 +654,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.customers.CustomerOperations.getDirectoryRoles"
   package: "com.microsoft.store.partnercenter.customers"
 - uid: "com.microsoft.store.partnercenter.subscribedskus.ICustomerSubscribedSkuCollection"
-  isExternal: true
   name: "ICustomerSubscribedSkuCollection"
   nameWithType: "ICustomerSubscribedSkuCollection"
   fullName: "com.microsoft.store.partnercenter.subscribedskus.ICustomerSubscribedSkuCollection"
@@ -680,7 +663,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.customers.CustomerOperations.getSubscribedSkus"
   package: "com.microsoft.store.partnercenter.customers"
 - uid: "com.microsoft.store.partnercenter.carts.ICartCollection"
-  isExternal: true
   name: "ICartCollection"
   nameWithType: "ICartCollection"
   fullName: "com.microsoft.store.partnercenter.carts.ICartCollection"
@@ -690,7 +672,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.customers.CustomerOperations.getCarts"
   package: "com.microsoft.store.partnercenter.customers"
 - uid: "com.microsoft.store.partnercenter.customers.products.ICustomerProductCollection"
-  isExternal: true
   name: "ICustomerProductCollection"
   nameWithType: "ICustomerProductCollection"
   fullName: "com.microsoft.store.partnercenter.customers.products.ICustomerProductCollection"
@@ -700,7 +681,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.customers.CustomerOperations.getProducts"
   package: "com.microsoft.store.partnercenter.customers"
 - uid: "com.microsoft.store.partnercenter.customers.servicecosts.ICustomerServiceCostsCollection"
-  isExternal: true
   name: "ICustomerServiceCostsCollection"
   nameWithType: "ICustomerServiceCostsCollection"
   fullName: "com.microsoft.store.partnercenter.customers.servicecosts.ICustomerServiceCostsCollection"
@@ -710,7 +690,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.customers.CustomerOperations.getServiceCosts"
   package: "com.microsoft.store.partnercenter.customers"
 - uid: "com.microsoft.store.partnercenter.devicesdeployment.IDevicesBatchCollection"
-  isExternal: true
   name: "IDevicesBatchCollection"
   nameWithType: "IDevicesBatchCollection"
   fullName: "com.microsoft.store.partnercenter.devicesdeployment.IDevicesBatchCollection"
@@ -720,7 +699,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.customers.CustomerOperations.getDeviceBatches"
   package: "com.microsoft.store.partnercenter.customers"
 - uid: "com.microsoft.store.partnercenter.devicesdeployment.ICustomerDeviceCollection"
-  isExternal: true
   name: "ICustomerDeviceCollection"
   nameWithType: "ICustomerDeviceCollection"
   fullName: "com.microsoft.store.partnercenter.devicesdeployment.ICustomerDeviceCollection"
@@ -730,7 +708,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.customers.CustomerOperations.getDevicePolicy"
   package: "com.microsoft.store.partnercenter.customers"
 - uid: "com.microsoft.store.partnercenter.devicesdeployment.IBatchJobStatusCollection"
-  isExternal: true
   name: "IBatchJobStatusCollection"
   nameWithType: "IBatchJobStatusCollection"
   fullName: "com.microsoft.store.partnercenter.devicesdeployment.IBatchJobStatusCollection"
@@ -740,7 +717,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.customers.CustomerOperations.getBatchUploadStatus"
   package: "com.microsoft.store.partnercenter.customers"
 - uid: "com.microsoft.store.partnercenter.relationships.ICustomerRelationshipCollection"
-  isExternal: true
   name: "ICustomerRelationshipCollection"
   nameWithType: "ICustomerRelationshipCollection"
   fullName: "com.microsoft.store.partnercenter.relationships.ICustomerRelationshipCollection"
@@ -750,7 +726,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.customers.CustomerOperations.getRelationships"
   package: "com.microsoft.store.partnercenter.customers"
 - uid: "com.microsoft.store.partnercenter.analytics.ICustomerAnalyticsCollection"
-  isExternal: true
   name: "ICustomerAnalyticsCollection"
   nameWithType: "ICustomerAnalyticsCollection"
   fullName: "com.microsoft.store.partnercenter.analytics.ICustomerAnalyticsCollection"
@@ -760,7 +735,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.customers.CustomerOperations.getAnalytics"
   package: "com.microsoft.store.partnercenter.customers"
 - uid: "com.microsoft.store.partnercenter.entitlements.IEntitlementCollection"
-  isExternal: true
   name: "IEntitlementCollection"
   nameWithType: "IEntitlementCollection"
   fullName: "com.microsoft.store.partnercenter.entitlements.IEntitlementCollection"
@@ -770,7 +744,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.customers.CustomerOperations.getEntitlements"
   package: "com.microsoft.store.partnercenter.customers"
 - uid: "com.microsoft.store.partnercenter.devicesdeployment.IConfigurationPolicyCollection"
-  isExternal: true
   name: "IConfigurationPolicyCollection"
   nameWithType: "IConfigurationPolicyCollection"
   fullName: "com.microsoft.store.partnercenter.devicesdeployment.IConfigurationPolicyCollection"
@@ -780,7 +753,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.customers.CustomerOperations.getConfigurationPolicies"
   package: "com.microsoft.store.partnercenter.customers"
 - uid: "com.microsoft.store.partnercenter.models.customers.Customer"
-  isExternal: true
   name: "Customer"
   nameWithType: "Customer"
   fullName: "com.microsoft.store.partnercenter.models.customers.Customer"
@@ -795,12 +767,10 @@ references:
   fullName: "com.microsoft.store.partnercenter.customers.CustomerOperations.delete"
   package: "com.microsoft.store.partnercenter.customers"
 - uid: "com.microsoft.store.partnercenter.BasePartnerComponentString"
-  isExternal: true
   name: "BasePartnerComponentString"
   nameWithType: "BasePartnerComponentString"
   fullName: "com.microsoft.store.partnercenter.BasePartnerComponentString"
 - uid: "com.microsoft.store.partnercenter.customers.ICustomer"
-  isExternal: true
   name: "ICustomer"
   nameWithType: "ICustomer"
   fullName: "com.microsoft.store.partnercenter.customers.ICustomer"

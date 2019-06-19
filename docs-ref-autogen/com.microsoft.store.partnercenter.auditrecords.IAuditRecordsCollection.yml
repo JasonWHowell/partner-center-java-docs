@@ -46,17 +46,14 @@ items:
       description: "The audit records that match the given query."
 references:
 - uid: "org.joda.time.DateTime"
-  isExternal: true
   name: "DateTime"
   nameWithType: "DateTime"
   fullName: "org.joda.time.DateTime"
 - uid: "com.microsoft.store.partnercenter.models.query.IQuery"
-  isExternal: true
   name: "IQuery"
   nameWithType: "IQuery"
   fullName: "com.microsoft.store.partnercenter.models.query.IQuery"
 - uid: "com.microsoft.store.partnercenter.models.SeekBasedResourceCollection<com.microsoft.store.partnercenter.models.auditing.AuditRecord>"
-  isExternal: true
   name: "SeekBasedResourceCollection<AuditRecord>"
   nameWithType: "SeekBasedResourceCollection<AuditRecord>"
   fullName: "com.microsoft.store.partnercenter.models.SeekBasedResourceCollection<com.microsoft.store.partnercenter.models.auditing.AuditRecord>"
@@ -66,17 +63,14 @@ references:
   fullName: "com.microsoft.store.partnercenter.auditrecords.IAuditRecordsCollection.query"
   package: "com.microsoft.store.partnercenter.auditrecords"
 - uid: "com.microsoft.store.partnercenter.IPartnerComponentString"
-  isExternal: true
   name: "IPartnerComponentString"
   nameWithType: "IPartnerComponentString"
   fullName: "com.microsoft.store.partnercenter.IPartnerComponentString"
 - uid: "com.microsoft.store.partnercenter.models.SeekBasedResourceCollection"
-  isExternal: true
   name: "SeekBasedResourceCollection"
   nameWithType: "SeekBasedResourceCollection"
   fullName: "com.microsoft.store.partnercenter.models.SeekBasedResourceCollection"
 - uid: "com.microsoft.store.partnercenter.models.auditing.AuditRecord"
-  isExternal: true
   name: "AuditRecord"
   nameWithType: "AuditRecord"
   fullName: "com.microsoft.store.partnercenter.models.auditing.AuditRecord"

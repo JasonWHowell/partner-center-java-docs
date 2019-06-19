@@ -60,12 +60,10 @@ items:
       description: "The customer's company profile."
 references:
 - uid: "com.microsoft.store.partnercenter.IPartner"
-  isExternal: true
   name: "IPartner"
   nameWithType: "IPartner"
   fullName: "com.microsoft.store.partnercenter.IPartner"
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"
@@ -75,7 +73,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.customers.profiles.CustomerCompanyProfileOperations.CustomerCompanyProfileOperations"
   package: "com.microsoft.store.partnercenter.customers.profiles"
 - uid: "com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile"
-  isExternal: true
   name: "CustomerCompanyProfile"
   nameWithType: "CustomerCompanyProfile"
   fullName: "com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile"
@@ -85,17 +82,14 @@ references:
   fullName: "com.microsoft.store.partnercenter.customers.profiles.CustomerCompanyProfileOperations.get"
   package: "com.microsoft.store.partnercenter.customers.profiles"
 - uid: "com.microsoft.store.partnercenter.BasePartnerComponentString"
-  isExternal: true
   name: "BasePartnerComponentString"
   nameWithType: "BasePartnerComponentString"
   fullName: "com.microsoft.store.partnercenter.BasePartnerComponentString"
 - uid: "com.microsoft.store.partnercenter.customers.profiles.ICustomerReadonlyProfile<com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile>"
-  isExternal: true
   name: "ICustomerReadonlyProfile<CustomerCompanyProfile>"
   nameWithType: "ICustomerReadonlyProfile<CustomerCompanyProfile>"
   fullName: "com.microsoft.store.partnercenter.customers.profiles.ICustomerReadonlyProfile<com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile>"
 - uid: "com.microsoft.store.partnercenter.customers.profiles.ICustomerReadonlyProfile"
-  isExternal: true
   name: "ICustomerReadonlyProfile"
   nameWithType: "ICustomerReadonlyProfile"
   fullName: "com.microsoft.store.partnercenter.customers.profiles.ICustomerReadonlyProfile"

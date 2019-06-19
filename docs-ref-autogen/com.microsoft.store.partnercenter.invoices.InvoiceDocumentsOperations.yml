@@ -58,12 +58,10 @@ items:
       type: "com.microsoft.store.partnercenter.invoices.IInvoiceStatement"
 references:
 - uid: "com.microsoft.store.partnercenter.IPartner"
-  isExternal: true
   name: "IPartner"
   nameWithType: "IPartner"
   fullName: "com.microsoft.store.partnercenter.IPartner"
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"
@@ -73,7 +71,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.invoices.InvoiceDocumentsOperations.InvoiceDocumentsOperations"
   package: "com.microsoft.store.partnercenter.invoices"
 - uid: "com.microsoft.store.partnercenter.invoices.IInvoiceStatement"
-  isExternal: true
   name: "IInvoiceStatement"
   nameWithType: "IInvoiceStatement"
   fullName: "com.microsoft.store.partnercenter.invoices.IInvoiceStatement"
@@ -83,12 +80,10 @@ references:
   fullName: "com.microsoft.store.partnercenter.invoices.InvoiceDocumentsOperations.getStatement"
   package: "com.microsoft.store.partnercenter.invoices"
 - uid: "com.microsoft.store.partnercenter.BasePartnerComponentString"
-  isExternal: true
   name: "BasePartnerComponentString"
   nameWithType: "BasePartnerComponentString"
   fullName: "com.microsoft.store.partnercenter.BasePartnerComponentString"
 - uid: "com.microsoft.store.partnercenter.invoices.IInvoiceDocuments"
-  isExternal: true
   name: "IInvoiceDocuments"
   nameWithType: "IInvoiceDocuments"
   fullName: "com.microsoft.store.partnercenter.invoices.IInvoiceDocuments"

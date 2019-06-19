@@ -136,7 +136,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.analytics.LicensesInsightsBase.LicensesInsightsBase"
   package: "com.microsoft.store.partnercenter.models.analytics"
 - uid: "org.joda.time.DateTime"
-  isExternal: true
   name: "DateTime"
   nameWithType: "DateTime"
   fullName: "org.joda.time.DateTime"
@@ -151,7 +150,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.analytics.LicensesInsightsBase.setProcessedDateTime"
   package: "com.microsoft.store.partnercenter.models.analytics"
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"
@@ -176,7 +174,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.analytics.LicensesInsightsBase.setChannel"
   package: "com.microsoft.store.partnercenter.models.analytics"
 - uid: "com.microsoft.store.partnercenter.models.ResourceBase"
-  isExternal: true
   name: "ResourceBase"
   nameWithType: "ResourceBase"
   fullName: "com.microsoft.store.partnercenter.models.ResourceBase"

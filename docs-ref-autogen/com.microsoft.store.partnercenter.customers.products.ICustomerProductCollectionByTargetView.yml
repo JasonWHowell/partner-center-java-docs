@@ -59,7 +59,6 @@ items:
       description: "The product collection operations by customer, by target view and by target segment."
 references:
 - uid: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.products.Product>"
-  isExternal: true
   name: "ResourceCollection<Product>"
   nameWithType: "ResourceCollection<Product>"
   fullName: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.products.Product>"
@@ -69,12 +68,10 @@ references:
   fullName: "com.microsoft.store.partnercenter.customers.products.ICustomerProductCollectionByTargetView.get"
   package: "com.microsoft.store.partnercenter.customers.products"
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"
 - uid: "com.microsoft.store.partnercenter.customers.products.ICustomerProductCollectionByTargetViewByTargetSegment"
-  isExternal: true
   name: "ICustomerProductCollectionByTargetViewByTargetSegment"
   nameWithType: "ICustomerProductCollectionByTargetViewByTargetSegment"
   fullName: "com.microsoft.store.partnercenter.customers.products.ICustomerProductCollectionByTargetViewByTargetSegment"
@@ -84,47 +81,38 @@ references:
   fullName: "com.microsoft.store.partnercenter.customers.products.ICustomerProductCollectionByTargetView.byTargetSegment"
   package: "com.microsoft.store.partnercenter.customers.products"
 - uid: "com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>"
-  isExternal: true
   name: "IPartnerComponent<Tuple<String,String>>"
   nameWithType: "IPartnerComponent<Tuple<String,String>>"
   fullName: "com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations<com.microsoft.store.partnercenter.models.products.Product,com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.products.Product>>"
-  isExternal: true
   name: "IEntireEntityCollectionRetrievalOperations<Product,ResourceCollection<Product>>"
   nameWithType: "IEntireEntityCollectionRetrievalOperations<Product,ResourceCollection<Product>>"
   fullName: "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations<com.microsoft.store.partnercenter.models.products.Product,com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.products.Product>>"
 - uid: "com.microsoft.store.partnercenter.models.ResourceCollection"
-  isExternal: true
   name: "ResourceCollection"
   nameWithType: "ResourceCollection"
   fullName: "com.microsoft.store.partnercenter.models.ResourceCollection"
 - uid: "com.microsoft.store.partnercenter.models.products.Product"
-  isExternal: true
   name: "Product"
   nameWithType: "Product"
   fullName: "com.microsoft.store.partnercenter.models.products.Product"
 - uid: "com.microsoft.store.partnercenter.IPartnerComponent"
-  isExternal: true
   name: "IPartnerComponent"
   nameWithType: "IPartnerComponent"
   fullName: "com.microsoft.store.partnercenter.IPartnerComponent"
 - uid: "com.microsoft.store.partnercenter.models.utils.Tuple"
-  isExternal: true
   name: "Tuple"
   nameWithType: "Tuple"
   fullName: "com.microsoft.store.partnercenter.models.utils.Tuple"
 - uid: "java.lang.String,java.lang.String"
-  isExternal: true
   name: "String,String"
   nameWithType: "String,String"
   fullName: "java.lang.String,java.lang.String"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations"
-  isExternal: true
   name: "IEntireEntityCollectionRetrievalOperations"
   nameWithType: "IEntireEntityCollectionRetrievalOperations"
   fullName: "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations"
 - uid: "com.microsoft.store.partnercenter.models.products.Product,com.microsoft.store.partnercenter.models.ResourceCollection"
-  isExternal: true
   name: "Product,ResourceCollection"
   nameWithType: "Product,ResourceCollection"
   fullName: "com.microsoft.store.partnercenter.models.products.Product,com.microsoft.store.partnercenter.models.ResourceCollection"

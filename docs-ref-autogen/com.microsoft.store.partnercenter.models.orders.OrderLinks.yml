@@ -111,7 +111,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.orders.OrderLinks.OrderLinks"
   package: "com.microsoft.store.partnercenter.models.orders"
 - uid: "com.microsoft.store.partnercenter.models.Link"
-  isExternal: true
   name: "Link"
   nameWithType: "Link"
   fullName: "com.microsoft.store.partnercenter.models.Link"
@@ -136,7 +135,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.orders.OrderLinks.setProvisioningStatus"
   package: "com.microsoft.store.partnercenter.models.orders"
 - uid: "com.microsoft.store.partnercenter.models.StandardResourceLinks"
-  isExternal: true
   name: "StandardResourceLinks"
   nameWithType: "StandardResourceLinks"
   fullName: "com.microsoft.store.partnercenter.models.StandardResourceLinks"

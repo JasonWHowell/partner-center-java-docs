@@ -41,12 +41,10 @@ items:
       description: "The customer's devices batch upload status operations."
 references:
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"
 - uid: "com.microsoft.store.partnercenter.devicesdeployment.IBatchJobStatus"
-  isExternal: true
   name: "IBatchJobStatus"
   nameWithType: "IBatchJobStatus"
   fullName: "com.microsoft.store.partnercenter.devicesdeployment.IBatchJobStatus"
@@ -56,22 +54,18 @@ references:
   fullName: "com.microsoft.store.partnercenter.devicesdeployment.IBatchJobStatusCollection.byId"
   package: "com.microsoft.store.partnercenter.devicesdeployment"
 - uid: "com.microsoft.store.partnercenter.IPartnerComponentString"
-  isExternal: true
   name: "IPartnerComponentString"
   nameWithType: "IPartnerComponentString"
   fullName: "com.microsoft.store.partnercenter.IPartnerComponentString"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntitySelector<java.lang.String,com.microsoft.store.partnercenter.devicesdeployment.IBatchJobStatus>"
-  isExternal: true
   name: "IEntitySelector<String,IBatchJobStatus>"
   nameWithType: "IEntitySelector<String,IBatchJobStatus>"
   fullName: "com.microsoft.store.partnercenter.genericoperations.IEntitySelector<java.lang.String,com.microsoft.store.partnercenter.devicesdeployment.IBatchJobStatus>"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntitySelector"
-  isExternal: true
   name: "IEntitySelector"
   nameWithType: "IEntitySelector"
   fullName: "com.microsoft.store.partnercenter.genericoperations.IEntitySelector"
 - uid: "java.lang.String,com.microsoft.store.partnercenter.devicesdeployment.IBatchJobStatus"
-  isExternal: true
   name: "String,IBatchJobStatus"
   nameWithType: "String,IBatchJobStatus"
   fullName: "java.lang.String,com.microsoft.store.partnercenter.devicesdeployment.IBatchJobStatus"

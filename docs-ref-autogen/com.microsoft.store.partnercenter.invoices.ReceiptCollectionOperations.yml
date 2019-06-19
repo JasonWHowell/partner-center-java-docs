@@ -63,12 +63,10 @@ items:
       description: "The available receipt operations"
 references:
 - uid: "com.microsoft.store.partnercenter.IPartner"
-  isExternal: true
   name: "IPartner"
   nameWithType: "IPartner"
   fullName: "com.microsoft.store.partnercenter.IPartner"
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"
@@ -78,7 +76,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.invoices.ReceiptCollectionOperations.ReceiptCollectionOperations"
   package: "com.microsoft.store.partnercenter.invoices"
 - uid: "com.microsoft.store.partnercenter.invoices.IReceipt"
-  isExternal: true
   name: "IReceipt"
   nameWithType: "IReceipt"
   fullName: "com.microsoft.store.partnercenter.invoices.IReceipt"
@@ -88,12 +85,10 @@ references:
   fullName: "com.microsoft.store.partnercenter.invoices.ReceiptCollectionOperations.byId"
   package: "com.microsoft.store.partnercenter.invoices"
 - uid: "com.microsoft.store.partnercenter.BasePartnerComponentString"
-  isExternal: true
   name: "BasePartnerComponentString"
   nameWithType: "BasePartnerComponentString"
   fullName: "com.microsoft.store.partnercenter.BasePartnerComponentString"
 - uid: "com.microsoft.store.partnercenter.invoices.IReceiptCollection"
-  isExternal: true
   name: "IReceiptCollection"
   nameWithType: "IReceiptCollection"
   fullName: "com.microsoft.store.partnercenter.invoices.IReceiptCollection"

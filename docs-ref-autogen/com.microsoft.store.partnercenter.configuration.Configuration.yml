@@ -277,7 +277,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.configuration.Configuration.Configuration"
   package: "com.microsoft.store.partnercenter.configuration"
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"
@@ -307,7 +306,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.configuration.Configuration.setPartnerServiceApiVersion"
   package: "com.microsoft.store.partnercenter.configuration"
 - uid: "int"
-  isExternal: true
   name: "int"
   nameWithType: "int"
   fullName: "int"
@@ -342,7 +340,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.configuration.Configuration.setDefaultLocale"
   package: "com.microsoft.store.partnercenter.configuration"
 - uid: "java.util.Map<java.lang.String,com.microsoft.store.partnercenter.configuration.Configuration.Api>"
-  isExternal: true
   name: "Map<String,Configuration.Api>"
   nameWithType: "Map<String,Configuration.Api>"
   fullName: "java.util.Map<java.lang.String,com.microsoft.store.partnercenter.configuration.Configuration.Api>"
@@ -361,12 +358,10 @@ references:
   nameWithType: "Configuration.Api"
   fullName: "com.microsoft.store.partnercenter.configuration.Configuration.Api"
 - uid: "java.util.Map"
-  isExternal: true
   name: "Map"
   nameWithType: "Map"
   fullName: "java.util.Map"
 - uid: "java.lang.String,com.microsoft.store.partnercenter.configuration.Configuration.Api"
-  isExternal: true
   name: "String,Configuration.Api"
   nameWithType: "String,Configuration.Api"
   fullName: "java.lang.String,com.microsoft.store.partnercenter.configuration.Configuration.Api"

@@ -259,7 +259,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.validationcodes.ValidationCode.ValidationCode"
   package: "com.microsoft.store.partnercenter.models.validationcodes"
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"
@@ -274,7 +273,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.validationcodes.ValidationCode.setETag"
   package: "com.microsoft.store.partnercenter.models.validationcodes"
 - uid: "int"
-  isExternal: true
   name: "int"
   nameWithType: "int"
   fullName: "int"

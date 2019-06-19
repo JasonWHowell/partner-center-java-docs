@@ -18,37 +18,30 @@ items:
   - "com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations<com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.invoices.EstimateLink>>"
 references:
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations<com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.invoices.EstimateLink>>"
-  isExternal: true
   name: "IEntityGetOperations<ResourceCollection<EstimateLink>>"
   nameWithType: "IEntityGetOperations<ResourceCollection<EstimateLink>>"
   fullName: "com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations<com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.invoices.EstimateLink>>"
 - uid: "com.microsoft.store.partnercenter.IPartnerComponent<java.lang.String>"
-  isExternal: true
   name: "IPartnerComponent<String>"
   nameWithType: "IPartnerComponent<String>"
   fullName: "com.microsoft.store.partnercenter.IPartnerComponent<java.lang.String>"
 - uid: "com.microsoft.store.partnercenter.models.invoices.EstimateLink"
-  isExternal: true
   name: "EstimateLink"
   nameWithType: "EstimateLink"
   fullName: "com.microsoft.store.partnercenter.models.invoices.EstimateLink"
 - uid: "com.microsoft.store.partnercenter.models.ResourceCollection"
-  isExternal: true
   name: "ResourceCollection"
   nameWithType: "ResourceCollection"
   fullName: "com.microsoft.store.partnercenter.models.ResourceCollection"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations"
-  isExternal: true
   name: "IEntityGetOperations"
   nameWithType: "IEntityGetOperations"
   fullName: "com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations"
 - uid: "com.microsoft.store.partnercenter.IPartnerComponent"
-  isExternal: true
   name: "IPartnerComponent"
   nameWithType: "IPartnerComponent"
   fullName: "com.microsoft.store.partnercenter.IPartnerComponent"
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"

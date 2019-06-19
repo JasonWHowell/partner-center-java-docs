@@ -103,7 +103,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.carts.CartError.CartError"
   package: "com.microsoft.store.partnercenter.models.carts"
 - uid: "com.microsoft.store.partnercenter.models.carts.CartErrorCode"
-  isExternal: true
   name: "CartErrorCode"
   nameWithType: "CartErrorCode"
   fullName: "com.microsoft.store.partnercenter.models.carts.CartErrorCode"
@@ -118,7 +117,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.carts.CartError.setErrorCode"
   package: "com.microsoft.store.partnercenter.models.carts"
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"
@@ -133,7 +131,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.carts.CartError.setErrorDescription"
   package: "com.microsoft.store.partnercenter.models.carts"
 - uid: "com.microsoft.store.partnercenter.models.ResourceBase"
-  isExternal: true
   name: "ResourceBase"
   nameWithType: "ResourceBase"
   fullName: "com.microsoft.store.partnercenter.models.ResourceBase"

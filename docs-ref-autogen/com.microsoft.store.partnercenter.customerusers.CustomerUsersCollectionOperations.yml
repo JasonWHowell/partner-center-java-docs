@@ -125,12 +125,10 @@ items:
       description: "Customer user collection."
 references:
 - uid: "com.microsoft.store.partnercenter.IPartner"
-  isExternal: true
   name: "IPartner"
   nameWithType: "IPartner"
   fullName: "com.microsoft.store.partnercenter.IPartner"
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"
@@ -140,7 +138,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.customerusers.CustomerUsersCollectionOperations.CustomerUsersCollectionOperations"
   package: "com.microsoft.store.partnercenter.customerusers"
 - uid: "com.microsoft.store.partnercenter.models.users.CustomerUser"
-  isExternal: true
   name: "CustomerUser"
   nameWithType: "CustomerUser"
   fullName: "com.microsoft.store.partnercenter.models.users.CustomerUser"
@@ -150,7 +147,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.customerusers.CustomerUsersCollectionOperations.create"
   package: "com.microsoft.store.partnercenter.customerusers"
 - uid: "com.microsoft.store.partnercenter.models.SeekBasedResourceCollection<com.microsoft.store.partnercenter.models.users.CustomerUser>"
-  isExternal: true
   name: "SeekBasedResourceCollection<CustomerUser>"
   nameWithType: "SeekBasedResourceCollection<CustomerUser>"
   fullName: "com.microsoft.store.partnercenter.models.SeekBasedResourceCollection<com.microsoft.store.partnercenter.models.users.CustomerUser>"
@@ -160,7 +156,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.customerusers.CustomerUsersCollectionOperations.get"
   package: "com.microsoft.store.partnercenter.customerusers"
 - uid: "com.microsoft.store.partnercenter.customerusers.ICustomerUser"
-  isExternal: true
   name: "ICustomerUser"
   nameWithType: "ICustomerUser"
   fullName: "com.microsoft.store.partnercenter.customerusers.ICustomerUser"
@@ -170,7 +165,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.customerusers.CustomerUsersCollectionOperations.byId"
   package: "com.microsoft.store.partnercenter.customerusers"
 - uid: "com.microsoft.store.partnercenter.models.query.IQuery"
-  isExternal: true
   name: "IQuery"
   nameWithType: "IQuery"
   fullName: "com.microsoft.store.partnercenter.models.query.IQuery"
@@ -180,22 +174,18 @@ references:
   fullName: "com.microsoft.store.partnercenter.customerusers.CustomerUsersCollectionOperations.query"
   package: "com.microsoft.store.partnercenter.customerusers"
 - uid: "com.microsoft.store.partnercenter.BasePartnerComponent<java.lang.String>"
-  isExternal: true
   name: "BasePartnerComponent<String>"
   nameWithType: "BasePartnerComponent<String>"
   fullName: "com.microsoft.store.partnercenter.BasePartnerComponent<java.lang.String>"
 - uid: "com.microsoft.store.partnercenter.customerusers.ICustomerUserCollection"
-  isExternal: true
   name: "ICustomerUserCollection"
   nameWithType: "ICustomerUserCollection"
   fullName: "com.microsoft.store.partnercenter.customerusers.ICustomerUserCollection"
 - uid: "com.microsoft.store.partnercenter.models.SeekBasedResourceCollection"
-  isExternal: true
   name: "SeekBasedResourceCollection"
   nameWithType: "SeekBasedResourceCollection"
   fullName: "com.microsoft.store.partnercenter.models.SeekBasedResourceCollection"
 - uid: "com.microsoft.store.partnercenter.BasePartnerComponent"
-  isExternal: true
   name: "BasePartnerComponent"
   nameWithType: "BasePartnerComponent"
   fullName: "com.microsoft.store.partnercenter.BasePartnerComponent"

@@ -61,7 +61,6 @@ items:
       description: "The subset of invoice line items."
 references:
 - uid: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem>"
-  isExternal: true
   name: "ResourceCollection<InvoiceLineItem>"
   nameWithType: "ResourceCollection<InvoiceLineItem>"
   fullName: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem>"
@@ -71,37 +70,30 @@ references:
   fullName: "com.microsoft.store.partnercenter.invoices.IInvoiceLineItemCollection.get"
   package: "com.microsoft.store.partnercenter.invoices"
 - uid: "int"
-  isExternal: true
   name: "int"
   nameWithType: "int"
   fullName: "int"
 - uid: "com.microsoft.store.partnercenter.IPartnerComponentString"
-  isExternal: true
   name: "IPartnerComponentString"
   nameWithType: "IPartnerComponentString"
   fullName: "com.microsoft.store.partnercenter.IPartnerComponentString"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntityCollectionRetrievalOperations<com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem,com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem>>"
-  isExternal: true
   name: "IEntityCollectionRetrievalOperations<InvoiceLineItem,ResourceCollection<InvoiceLineItem>>"
   nameWithType: "IEntityCollectionRetrievalOperations<InvoiceLineItem,ResourceCollection<InvoiceLineItem>>"
   fullName: "com.microsoft.store.partnercenter.genericoperations.IEntityCollectionRetrievalOperations<com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem,com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem>>"
 - uid: "com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem"
-  isExternal: true
   name: "InvoiceLineItem"
   nameWithType: "InvoiceLineItem"
   fullName: "com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem"
 - uid: "com.microsoft.store.partnercenter.models.ResourceCollection"
-  isExternal: true
   name: "ResourceCollection"
   nameWithType: "ResourceCollection"
   fullName: "com.microsoft.store.partnercenter.models.ResourceCollection"
 - uid: "com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem,com.microsoft.store.partnercenter.models.ResourceCollection"
-  isExternal: true
   name: "InvoiceLineItem,ResourceCollection"
   nameWithType: "InvoiceLineItem,ResourceCollection"
   fullName: "com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem,com.microsoft.store.partnercenter.models.ResourceCollection"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntityCollectionRetrievalOperations"
-  isExternal: true
   name: "IEntityCollectionRetrievalOperations"
   nameWithType: "IEntityCollectionRetrievalOperations"
   fullName: "com.microsoft.store.partnercenter.genericoperations.IEntityCollectionRetrievalOperations"

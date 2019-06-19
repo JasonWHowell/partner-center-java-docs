@@ -59,7 +59,6 @@ items:
       description: "The customer user's directory roles."
 references:
 - uid: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.licenses.License>"
-  isExternal: true
   name: "ResourceCollection<License>"
   nameWithType: "ResourceCollection<License>"
   fullName: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.licenses.License>"
@@ -69,62 +68,50 @@ references:
   fullName: "com.microsoft.store.partnercenter.customerusers.ICustomerUserLicenseCollection.get"
   package: "com.microsoft.store.partnercenter.customerusers"
 - uid: "java.util.List<com.microsoft.store.partnercenter.models.licenses.LicenseGroupId>"
-  isExternal: true
   name: "List<LicenseGroupId>"
   nameWithType: "List<LicenseGroupId>"
   fullName: "java.util.List<com.microsoft.store.partnercenter.models.licenses.LicenseGroupId>"
 - uid: "com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>"
-  isExternal: true
   name: "IPartnerComponent<Tuple<String,String>>"
   nameWithType: "IPartnerComponent<Tuple<String,String>>"
   fullName: "com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations<com.microsoft.store.partnercenter.models.licenses.License,com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.licenses.License>>"
-  isExternal: true
   name: "IEntireEntityCollectionRetrievalOperations<License,ResourceCollection<License>>"
   nameWithType: "IEntireEntityCollectionRetrievalOperations<License,ResourceCollection<License>>"
   fullName: "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations<com.microsoft.store.partnercenter.models.licenses.License,com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.licenses.License>>"
 - uid: "com.microsoft.store.partnercenter.models.licenses.License"
-  isExternal: true
   name: "License"
   nameWithType: "License"
   fullName: "com.microsoft.store.partnercenter.models.licenses.License"
 - uid: "com.microsoft.store.partnercenter.models.ResourceCollection"
-  isExternal: true
   name: "ResourceCollection"
   nameWithType: "ResourceCollection"
   fullName: "com.microsoft.store.partnercenter.models.ResourceCollection"
 - uid: "java.util.List"
-  isExternal: true
   name: "List"
   nameWithType: "List"
   fullName: "java.util.List"
 - uid: "com.microsoft.store.partnercenter.models.licenses.LicenseGroupId"
-  isExternal: true
   name: "LicenseGroupId"
   nameWithType: "LicenseGroupId"
   fullName: "com.microsoft.store.partnercenter.models.licenses.LicenseGroupId"
 - uid: "com.microsoft.store.partnercenter.IPartnerComponent"
-  isExternal: true
   name: "IPartnerComponent"
   nameWithType: "IPartnerComponent"
   fullName: "com.microsoft.store.partnercenter.IPartnerComponent"
 - uid: "com.microsoft.store.partnercenter.models.utils.Tuple"
-  isExternal: true
   name: "Tuple"
   nameWithType: "Tuple"
   fullName: "com.microsoft.store.partnercenter.models.utils.Tuple"
 - uid: "java.lang.String,java.lang.String"
-  isExternal: true
   name: "String,String"
   nameWithType: "String,String"
   fullName: "java.lang.String,java.lang.String"
 - uid: "com.microsoft.store.partnercenter.models.licenses.License,com.microsoft.store.partnercenter.models.ResourceCollection"
-  isExternal: true
   name: "License,ResourceCollection"
   nameWithType: "License,ResourceCollection"
   fullName: "com.microsoft.store.partnercenter.models.licenses.License,com.microsoft.store.partnercenter.models.ResourceCollection"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations"
-  isExternal: true
   name: "IEntireEntityCollectionRetrievalOperations"
   nameWithType: "IEntireEntityCollectionRetrievalOperations"
   fullName: "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations"

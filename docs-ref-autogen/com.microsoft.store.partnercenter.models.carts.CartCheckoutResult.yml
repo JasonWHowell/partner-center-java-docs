@@ -111,7 +111,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.carts.CartCheckoutResult.CartCheckoutResult"
   package: "com.microsoft.store.partnercenter.models.carts"
 - uid: "java.util.List<com.microsoft.store.partnercenter.models.orders.Order>"
-  isExternal: true
   name: "List<Order>"
   nameWithType: "List<Order>"
   fullName: "java.util.List<com.microsoft.store.partnercenter.models.orders.Order>"
@@ -126,7 +125,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.carts.CartCheckoutResult.setOrders"
   package: "com.microsoft.store.partnercenter.models.carts"
 - uid: "java.util.List<com.microsoft.store.partnercenter.models.carts.OrderError>"
-  isExternal: true
   name: "List<OrderError>"
   nameWithType: "List<OrderError>"
   fullName: "java.util.List<com.microsoft.store.partnercenter.models.carts.OrderError>"
@@ -141,22 +139,18 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.carts.CartCheckoutResult.setOrderErrors"
   package: "com.microsoft.store.partnercenter.models.carts"
 - uid: "com.microsoft.store.partnercenter.models.ResourceBase"
-  isExternal: true
   name: "ResourceBase"
   nameWithType: "ResourceBase"
   fullName: "com.microsoft.store.partnercenter.models.ResourceBase"
 - uid: "java.util.List"
-  isExternal: true
   name: "List"
   nameWithType: "List"
   fullName: "java.util.List"
 - uid: "com.microsoft.store.partnercenter.models.orders.Order"
-  isExternal: true
   name: "Order"
   nameWithType: "Order"
   fullName: "com.microsoft.store.partnercenter.models.orders.Order"
 - uid: "com.microsoft.store.partnercenter.models.carts.OrderError"
-  isExternal: true
   name: "OrderError"
   nameWithType: "OrderError"
   fullName: "com.microsoft.store.partnercenter.models.carts.OrderError"

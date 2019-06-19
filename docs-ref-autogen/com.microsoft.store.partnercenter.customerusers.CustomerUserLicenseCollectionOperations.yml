@@ -84,12 +84,10 @@ items:
       description: "The customer user's directory roles."
 references:
 - uid: "com.microsoft.store.partnercenter.IPartner"
-  isExternal: true
   name: "IPartner"
   nameWithType: "IPartner"
   fullName: "com.microsoft.store.partnercenter.IPartner"
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"
@@ -99,7 +97,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.customerusers.CustomerUserLicenseCollectionOperations.CustomerUserLicenseCollectionOperations"
   package: "com.microsoft.store.partnercenter.customerusers"
 - uid: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.licenses.License>"
-  isExternal: true
   name: "ResourceCollection<License>"
   nameWithType: "ResourceCollection<License>"
   fullName: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.licenses.License>"
@@ -109,52 +106,42 @@ references:
   fullName: "com.microsoft.store.partnercenter.customerusers.CustomerUserLicenseCollectionOperations.get"
   package: "com.microsoft.store.partnercenter.customerusers"
 - uid: "java.util.List<com.microsoft.store.partnercenter.models.licenses.LicenseGroupId>"
-  isExternal: true
   name: "List<LicenseGroupId>"
   nameWithType: "List<LicenseGroupId>"
   fullName: "java.util.List<com.microsoft.store.partnercenter.models.licenses.LicenseGroupId>"
 - uid: "com.microsoft.store.partnercenter.BasePartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>"
-  isExternal: true
   name: "BasePartnerComponent<Tuple<String,String>>"
   nameWithType: "BasePartnerComponent<Tuple<String,String>>"
   fullName: "com.microsoft.store.partnercenter.BasePartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>"
 - uid: "com.microsoft.store.partnercenter.customerusers.ICustomerUserLicenseCollection"
-  isExternal: true
   name: "ICustomerUserLicenseCollection"
   nameWithType: "ICustomerUserLicenseCollection"
   fullName: "com.microsoft.store.partnercenter.customerusers.ICustomerUserLicenseCollection"
 - uid: "com.microsoft.store.partnercenter.models.licenses.License"
-  isExternal: true
   name: "License"
   nameWithType: "License"
   fullName: "com.microsoft.store.partnercenter.models.licenses.License"
 - uid: "com.microsoft.store.partnercenter.models.ResourceCollection"
-  isExternal: true
   name: "ResourceCollection"
   nameWithType: "ResourceCollection"
   fullName: "com.microsoft.store.partnercenter.models.ResourceCollection"
 - uid: "java.util.List"
-  isExternal: true
   name: "List"
   nameWithType: "List"
   fullName: "java.util.List"
 - uid: "com.microsoft.store.partnercenter.models.licenses.LicenseGroupId"
-  isExternal: true
   name: "LicenseGroupId"
   nameWithType: "LicenseGroupId"
   fullName: "com.microsoft.store.partnercenter.models.licenses.LicenseGroupId"
 - uid: "com.microsoft.store.partnercenter.models.utils.Tuple"
-  isExternal: true
   name: "Tuple"
   nameWithType: "Tuple"
   fullName: "com.microsoft.store.partnercenter.models.utils.Tuple"
 - uid: "com.microsoft.store.partnercenter.BasePartnerComponent"
-  isExternal: true
   name: "BasePartnerComponent"
   nameWithType: "BasePartnerComponent"
   fullName: "com.microsoft.store.partnercenter.BasePartnerComponent"
 - uid: "java.lang.String,java.lang.String"
-  isExternal: true
   name: "String,String"
   nameWithType: "String,String"
   fullName: "java.lang.String,java.lang.String"

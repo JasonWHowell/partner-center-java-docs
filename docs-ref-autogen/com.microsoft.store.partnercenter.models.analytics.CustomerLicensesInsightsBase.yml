@@ -169,7 +169,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.analytics.CustomerLicensesInsightsBase.CustomerLicensesInsightsBase"
   package: "com.microsoft.store.partnercenter.models.analytics"
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"

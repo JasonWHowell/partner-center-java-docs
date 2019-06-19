@@ -85,12 +85,10 @@ items:
       description: "The subscription upgrade result."
 references:
 - uid: "com.microsoft.store.partnercenter.IPartner"
-  isExternal: true
   name: "IPartner"
   nameWithType: "IPartner"
   fullName: "com.microsoft.store.partnercenter.IPartner"
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"
@@ -100,7 +98,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.subscriptions.SubscriptionUpgradeCollectionOperations.SubscriptionUpgradeCollectionOperations"
   package: "com.microsoft.store.partnercenter.subscriptions"
 - uid: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.subscriptions.Upgrade>"
-  isExternal: true
   name: "ResourceCollection<Upgrade>"
   nameWithType: "ResourceCollection<Upgrade>"
   fullName: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.subscriptions.Upgrade>"
@@ -110,12 +107,10 @@ references:
   fullName: "com.microsoft.store.partnercenter.subscriptions.SubscriptionUpgradeCollectionOperations.get"
   package: "com.microsoft.store.partnercenter.subscriptions"
 - uid: "com.microsoft.store.partnercenter.models.subscriptions.Upgrade"
-  isExternal: true
   name: "Upgrade"
   nameWithType: "Upgrade"
   fullName: "com.microsoft.store.partnercenter.models.subscriptions.Upgrade"
 - uid: "com.microsoft.store.partnercenter.models.subscriptions.UpgradeResult"
-  isExternal: true
   name: "UpgradeResult"
   nameWithType: "UpgradeResult"
   fullName: "com.microsoft.store.partnercenter.models.subscriptions.UpgradeResult"
@@ -125,32 +120,26 @@ references:
   fullName: "com.microsoft.store.partnercenter.subscriptions.SubscriptionUpgradeCollectionOperations.create"
   package: "com.microsoft.store.partnercenter.subscriptions"
 - uid: "com.microsoft.store.partnercenter.BasePartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>"
-  isExternal: true
   name: "BasePartnerComponent<Tuple<String,String>>"
   nameWithType: "BasePartnerComponent<Tuple<String,String>>"
   fullName: "com.microsoft.store.partnercenter.BasePartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>"
 - uid: "com.microsoft.store.partnercenter.subscriptions.ISubscriptionUpgradeCollection"
-  isExternal: true
   name: "ISubscriptionUpgradeCollection"
   nameWithType: "ISubscriptionUpgradeCollection"
   fullName: "com.microsoft.store.partnercenter.subscriptions.ISubscriptionUpgradeCollection"
 - uid: "com.microsoft.store.partnercenter.models.ResourceCollection"
-  isExternal: true
   name: "ResourceCollection"
   nameWithType: "ResourceCollection"
   fullName: "com.microsoft.store.partnercenter.models.ResourceCollection"
 - uid: "com.microsoft.store.partnercenter.models.utils.Tuple"
-  isExternal: true
   name: "Tuple"
   nameWithType: "Tuple"
   fullName: "com.microsoft.store.partnercenter.models.utils.Tuple"
 - uid: "com.microsoft.store.partnercenter.BasePartnerComponent"
-  isExternal: true
   name: "BasePartnerComponent"
   nameWithType: "BasePartnerComponent"
   fullName: "com.microsoft.store.partnercenter.BasePartnerComponent"
 - uid: "java.lang.String,java.lang.String"
-  isExternal: true
   name: "String,String"
   nameWithType: "String,String"
   fullName: "java.lang.String,java.lang.String"

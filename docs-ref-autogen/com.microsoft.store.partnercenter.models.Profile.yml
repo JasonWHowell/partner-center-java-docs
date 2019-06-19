@@ -204,7 +204,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.Profile<T>.Profile"
   package: "com.microsoft.store.partnercenter.models"
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"
@@ -263,7 +262,6 @@ references:
   nameWithType: "T"
   fullName: "T"
 - uid: "com.microsoft.store.partnercenter.models.ResourceBase"
-  isExternal: true
   name: "ResourceBase"
   nameWithType: "ResourceBase"
   fullName: "com.microsoft.store.partnercenter.models.ResourceBase"

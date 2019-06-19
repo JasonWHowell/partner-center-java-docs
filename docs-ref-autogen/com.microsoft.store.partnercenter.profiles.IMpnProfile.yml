@@ -59,7 +59,6 @@ items:
       description: "The partner's MPN profile."
 references:
 - uid: "com.microsoft.store.partnercenter.models.partners.MpnProfile"
-  isExternal: true
   name: "MpnProfile"
   nameWithType: "MpnProfile"
   fullName: "com.microsoft.store.partnercenter.models.partners.MpnProfile"
@@ -69,22 +68,18 @@ references:
   fullName: "com.microsoft.store.partnercenter.profiles.IMpnProfile.get"
   package: "com.microsoft.store.partnercenter.profiles"
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"
 - uid: "com.microsoft.store.partnercenter.IPartnerComponentString"
-  isExternal: true
   name: "IPartnerComponentString"
   nameWithType: "IPartnerComponentString"
   fullName: "com.microsoft.store.partnercenter.IPartnerComponentString"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations<com.microsoft.store.partnercenter.models.partners.MpnProfile>"
-  isExternal: true
   name: "IEntityGetOperations<MpnProfile>"
   nameWithType: "IEntityGetOperations<MpnProfile>"
   fullName: "com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations<com.microsoft.store.partnercenter.models.partners.MpnProfile>"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations"
-  isExternal: true
   name: "IEntityGetOperations"
   nameWithType: "IEntityGetOperations"
   fullName: "com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations"

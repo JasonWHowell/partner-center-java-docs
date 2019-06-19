@@ -480,7 +480,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.users.User.User"
   package: "com.microsoft.store.partnercenter.models.users"
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"
@@ -525,7 +524,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.users.User.setImmutableId"
   package: "com.microsoft.store.partnercenter.models.users"
 - uid: "org.joda.time.DateTime"
-  isExternal: true
   name: "DateTime"
   nameWithType: "DateTime"
   fullName: "org.joda.time.DateTime"
@@ -550,7 +548,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.users.User.setLastName"
   package: "com.microsoft.store.partnercenter.models.users"
 - uid: "com.microsoft.store.partnercenter.models.users.PasswordProfile"
-  isExternal: true
   name: "PasswordProfile"
   nameWithType: "PasswordProfile"
   fullName: "com.microsoft.store.partnercenter.models.users.PasswordProfile"
@@ -585,7 +582,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.users.User.setSoftDeletionTime"
   package: "com.microsoft.store.partnercenter.models.users"
 - uid: "com.microsoft.store.partnercenter.models.users.UserState"
-  isExternal: true
   name: "UserState"
   nameWithType: "UserState"
   fullName: "com.microsoft.store.partnercenter.models.users.UserState"
@@ -600,7 +596,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.users.User.setState"
   package: "com.microsoft.store.partnercenter.models.users"
 - uid: "com.microsoft.store.partnercenter.models.users.UserDomainType"
-  isExternal: true
   name: "UserDomainType"
   nameWithType: "UserDomainType"
   fullName: "com.microsoft.store.partnercenter.models.users.UserDomainType"
@@ -625,17 +620,14 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.users.User.setUserPrincipalName"
   package: "com.microsoft.store.partnercenter.models.users"
 - uid: "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks<com.microsoft.store.partnercenter.models.StandardResourceLinks>"
-  isExternal: true
   name: "ResourceBaseWithLinks<StandardResourceLinks>"
   nameWithType: "ResourceBaseWithLinks<StandardResourceLinks>"
   fullName: "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks<com.microsoft.store.partnercenter.models.StandardResourceLinks>"
 - uid: "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks"
-  isExternal: true
   name: "ResourceBaseWithLinks"
   nameWithType: "ResourceBaseWithLinks"
   fullName: "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks"
 - uid: "com.microsoft.store.partnercenter.models.StandardResourceLinks"
-  isExternal: true
   name: "StandardResourceLinks"
   nameWithType: "StandardResourceLinks"
   fullName: "com.microsoft.store.partnercenter.models.StandardResourceLinks"

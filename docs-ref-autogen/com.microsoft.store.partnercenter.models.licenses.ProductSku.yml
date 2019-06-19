@@ -202,7 +202,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.licenses.ProductSku.ProductSku"
   package: "com.microsoft.store.partnercenter.models.licenses"
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"
@@ -247,7 +246,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.licenses.ProductSku.setTargetType"
   package: "com.microsoft.store.partnercenter.models.licenses"
 - uid: "com.microsoft.store.partnercenter.models.licenses.LicenseGroupId"
-  isExternal: true
   name: "LicenseGroupId"
   nameWithType: "LicenseGroupId"
   fullName: "com.microsoft.store.partnercenter.models.licenses.LicenseGroupId"

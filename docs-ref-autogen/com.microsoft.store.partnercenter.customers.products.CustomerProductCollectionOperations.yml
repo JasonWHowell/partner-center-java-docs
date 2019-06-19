@@ -85,12 +85,10 @@ items:
       description: "The catalog view operations by target view"
 references:
 - uid: "com.microsoft.store.partnercenter.IPartner"
-  isExternal: true
   name: "IPartner"
   nameWithType: "IPartner"
   fullName: "com.microsoft.store.partnercenter.IPartner"
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"
@@ -100,7 +98,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.customers.products.CustomerProductCollectionOperations.CustomerProductCollectionOperations"
   package: "com.microsoft.store.partnercenter.customers.products"
 - uid: "com.microsoft.store.partnercenter.products.IProduct"
-  isExternal: true
   name: "IProduct"
   nameWithType: "IProduct"
   fullName: "com.microsoft.store.partnercenter.products.IProduct"
@@ -110,7 +107,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.customers.products.CustomerProductCollectionOperations.byId"
   package: "com.microsoft.store.partnercenter.customers.products"
 - uid: "com.microsoft.store.partnercenter.customers.products.ICustomerProductCollectionByTargetView"
-  isExternal: true
   name: "ICustomerProductCollectionByTargetView"
   nameWithType: "ICustomerProductCollectionByTargetView"
   fullName: "com.microsoft.store.partnercenter.customers.products.ICustomerProductCollectionByTargetView"
@@ -120,12 +116,10 @@ references:
   fullName: "com.microsoft.store.partnercenter.customers.products.CustomerProductCollectionOperations.byTargetView"
   package: "com.microsoft.store.partnercenter.customers.products"
 - uid: "com.microsoft.store.partnercenter.BasePartnerComponentString"
-  isExternal: true
   name: "BasePartnerComponentString"
   nameWithType: "BasePartnerComponentString"
   fullName: "com.microsoft.store.partnercenter.BasePartnerComponentString"
 - uid: "com.microsoft.store.partnercenter.customers.products.ICustomerProductCollection"
-  isExternal: true
   name: "ICustomerProductCollection"
   nameWithType: "ICustomerProductCollection"
   fullName: "com.microsoft.store.partnercenter.customers.products.ICustomerProductCollection"

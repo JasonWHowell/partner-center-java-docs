@@ -60,12 +60,10 @@ items:
       description: "The estimate link resource collection"
 references:
 - uid: "com.microsoft.store.partnercenter.IPartner"
-  isExternal: true
   name: "IPartner"
   nameWithType: "IPartner"
   fullName: "com.microsoft.store.partnercenter.IPartner"
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"
@@ -75,7 +73,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.invoices.EstimateLinkCollectionByCurrencyOperations.EstimateLinkCollectionByCurrencyOperations"
   package: "com.microsoft.store.partnercenter.invoices"
 - uid: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.invoices.EstimateLink>"
-  isExternal: true
   name: "ResourceCollection<EstimateLink>"
   nameWithType: "ResourceCollection<EstimateLink>"
   fullName: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.invoices.EstimateLink>"
@@ -85,22 +82,18 @@ references:
   fullName: "com.microsoft.store.partnercenter.invoices.EstimateLinkCollectionByCurrencyOperations.get"
   package: "com.microsoft.store.partnercenter.invoices"
 - uid: "com.microsoft.store.partnercenter.BasePartnerComponentString"
-  isExternal: true
   name: "BasePartnerComponentString"
   nameWithType: "BasePartnerComponentString"
   fullName: "com.microsoft.store.partnercenter.BasePartnerComponentString"
 - uid: "com.microsoft.store.partnercenter.invoices.IEstimateLinkCollectionByCurrency"
-  isExternal: true
   name: "IEstimateLinkCollectionByCurrency"
   nameWithType: "IEstimateLinkCollectionByCurrency"
   fullName: "com.microsoft.store.partnercenter.invoices.IEstimateLinkCollectionByCurrency"
 - uid: "com.microsoft.store.partnercenter.models.invoices.EstimateLink"
-  isExternal: true
   name: "EstimateLink"
   nameWithType: "EstimateLink"
   fullName: "com.microsoft.store.partnercenter.models.invoices.EstimateLink"
 - uid: "com.microsoft.store.partnercenter.models.ResourceCollection"
-  isExternal: true
   name: "ResourceCollection"
   nameWithType: "ResourceCollection"
   fullName: "com.microsoft.store.partnercenter.models.ResourceCollection"

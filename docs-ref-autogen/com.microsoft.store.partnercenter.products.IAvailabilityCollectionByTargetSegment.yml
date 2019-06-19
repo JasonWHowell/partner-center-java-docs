@@ -37,7 +37,6 @@ items:
       description: "The availability for the provided SKU on a specific target segment."
 references:
 - uid: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.products.Availability>"
-  isExternal: true
   name: "ResourceCollection<Availability>"
   nameWithType: "ResourceCollection<Availability>"
   fullName: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.products.Availability>"
@@ -47,47 +46,38 @@ references:
   fullName: "com.microsoft.store.partnercenter.products.IAvailabilityCollectionByTargetSegment.get"
   package: "com.microsoft.store.partnercenter.products"
 - uid: "com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.QuadrupleTuple<java.lang.String,java.lang.String,java.lang.String,java.lang.String>>"
-  isExternal: true
   name: "IPartnerComponent<QuadrupleTuple<String,String,String,String>>"
   nameWithType: "IPartnerComponent<QuadrupleTuple<String,String,String,String>>"
   fullName: "com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.QuadrupleTuple<java.lang.String,java.lang.String,java.lang.String,java.lang.String>>"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations<com.microsoft.store.partnercenter.models.products.Availability,com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.products.Availability>>"
-  isExternal: true
   name: "IEntireEntityCollectionRetrievalOperations<Availability,ResourceCollection<Availability>>"
   nameWithType: "IEntireEntityCollectionRetrievalOperations<Availability,ResourceCollection<Availability>>"
   fullName: "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations<com.microsoft.store.partnercenter.models.products.Availability,com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.products.Availability>>"
 - uid: "com.microsoft.store.partnercenter.models.products.Availability"
-  isExternal: true
   name: "Availability"
   nameWithType: "Availability"
   fullName: "com.microsoft.store.partnercenter.models.products.Availability"
 - uid: "com.microsoft.store.partnercenter.models.ResourceCollection"
-  isExternal: true
   name: "ResourceCollection"
   nameWithType: "ResourceCollection"
   fullName: "com.microsoft.store.partnercenter.models.ResourceCollection"
 - uid: "java.lang.String,java.lang.String,java.lang.String,java.lang.String"
-  isExternal: true
   name: "String,String,String,String"
   nameWithType: "String,String,String,String"
   fullName: "java.lang.String,java.lang.String,java.lang.String,java.lang.String"
 - uid: "com.microsoft.store.partnercenter.IPartnerComponent"
-  isExternal: true
   name: "IPartnerComponent"
   nameWithType: "IPartnerComponent"
   fullName: "com.microsoft.store.partnercenter.IPartnerComponent"
 - uid: "com.microsoft.store.partnercenter.models.utils.QuadrupleTuple"
-  isExternal: true
   name: "QuadrupleTuple"
   nameWithType: "QuadrupleTuple"
   fullName: "com.microsoft.store.partnercenter.models.utils.QuadrupleTuple"
 - uid: "com.microsoft.store.partnercenter.models.products.Availability,com.microsoft.store.partnercenter.models.ResourceCollection"
-  isExternal: true
   name: "Availability,ResourceCollection"
   nameWithType: "Availability,ResourceCollection"
   fullName: "com.microsoft.store.partnercenter.models.products.Availability,com.microsoft.store.partnercenter.models.ResourceCollection"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations"
-  isExternal: true
   name: "IEntireEntityCollectionRetrievalOperations"
   nameWithType: "IEntireEntityCollectionRetrievalOperations"
   fullName: "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations"

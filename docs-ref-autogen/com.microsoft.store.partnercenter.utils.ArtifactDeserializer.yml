@@ -77,32 +77,26 @@ references:
   fullName: "com.microsoft.store.partnercenter.utils.ArtifactDeserializer.ArtifactDeserializer"
   package: "com.microsoft.store.partnercenter.utils"
 - uid: "java.lang.Class<?>"
-  isExternal: true
   name: "Class<?>"
   nameWithType: "Class<?>"
   fullName: "java.lang.Class<?>"
 - uid: "java.io.IOException"
-  isExternal: true
   name: "IOException"
   nameWithType: "IOException"
   fullName: "java.io.IOException"
 - uid: "com.fasterxml.jackson.core.JsonProcessingException"
-  isExternal: true
   name: "JsonProcessingException"
   nameWithType: "JsonProcessingException"
   fullName: "com.fasterxml.jackson.core.JsonProcessingException"
 - uid: "com.fasterxml.jackson.core.JsonParser"
-  isExternal: true
   name: "JsonParser"
   nameWithType: "JsonParser"
   fullName: "com.fasterxml.jackson.core.JsonParser"
 - uid: "com.fasterxml.jackson.databind.DeserializationContext"
-  isExternal: true
   name: "DeserializationContext"
   nameWithType: "DeserializationContext"
   fullName: "com.fasterxml.jackson.databind.DeserializationContext"
 - uid: "com.microsoft.store.partnercenter.models.entitlements.Artifact"
-  isExternal: true
   name: "Artifact"
   nameWithType: "Artifact"
   fullName: "com.microsoft.store.partnercenter.models.entitlements.Artifact"
@@ -112,22 +106,18 @@ references:
   fullName: "com.microsoft.store.partnercenter.utils.ArtifactDeserializer.deserialize"
   package: "com.microsoft.store.partnercenter.utils"
 - uid: "com.fasterxml.jackson.databind.deser.std.StdDeserializer<com.microsoft.store.partnercenter.models.entitlements.Artifact>"
-  isExternal: true
   name: "StdDeserializer<Artifact>"
   nameWithType: "StdDeserializer<Artifact>"
   fullName: "com.fasterxml.jackson.databind.deser.std.StdDeserializer<com.microsoft.store.partnercenter.models.entitlements.Artifact>"
 - uid: "java.lang.Class"
-  isExternal: true
   name: "Class"
   nameWithType: "Class"
   fullName: "java.lang.Class"
 - uid: "?"
-  isExternal: true
   name: "?"
   nameWithType: "?"
   fullName: "?"
 - uid: "com.fasterxml.jackson.databind.deser.std.StdDeserializer"
-  isExternal: true
   name: "StdDeserializer"
   nameWithType: "StdDeserializer"
   fullName: "com.fasterxml.jackson.databind.deser.std.StdDeserializer"

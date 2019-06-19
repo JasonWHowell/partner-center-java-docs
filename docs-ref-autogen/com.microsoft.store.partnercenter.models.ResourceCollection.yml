@@ -58,7 +58,6 @@ items:
       description: "The resource collection."
 references:
 - uid: "java.util.List<TResource>"
-  isExternal: true
   name: "List<TResource>"
   nameWithType: "List<TResource>"
   fullName: "java.util.List<TResource>"
@@ -68,7 +67,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.ResourceCollection<TResource>.ResourceCollection"
   package: "com.microsoft.store.partnercenter.models"
 - uid: "com.microsoft.store.partnercenter.models.ResourceCollection<TResource>"
-  isExternal: true
   name: "ResourceCollection<TResource>"
   nameWithType: "ResourceCollection<TResource>"
   fullName: "com.microsoft.store.partnercenter.models.ResourceCollection<TResource>"
@@ -77,22 +75,18 @@ references:
   nameWithType: "TResource"
   fullName: "TResource"
 - uid: "com.microsoft.store.partnercenter.models.ResourceCollectionWithLinks<TResource,com.microsoft.store.partnercenter.models.StandardResourceCollectionLinks>"
-  isExternal: true
   name: "ResourceCollectionWithLinks<TResource,StandardResourceCollectionLinks>"
   nameWithType: "ResourceCollectionWithLinks<TResource,StandardResourceCollectionLinks>"
   fullName: "com.microsoft.store.partnercenter.models.ResourceCollectionWithLinks<TResource,com.microsoft.store.partnercenter.models.StandardResourceCollectionLinks>"
 - uid: "java.util.List"
-  isExternal: true
   name: "List"
   nameWithType: "List"
   fullName: "java.util.List"
 - uid: "TResource,com.microsoft.store.partnercenter.models.StandardResourceCollectionLinks"
-  isExternal: true
   name: "TResource,StandardResourceCollectionLinks"
   nameWithType: "TResource,StandardResourceCollectionLinks"
   fullName: "TResource,com.microsoft.store.partnercenter.models.StandardResourceCollectionLinks"
 - uid: "com.microsoft.store.partnercenter.models.ResourceCollectionWithLinks"
-  isExternal: true
   name: "ResourceCollectionWithLinks"
   nameWithType: "ResourceCollectionWithLinks"
   fullName: "com.microsoft.store.partnercenter.models.ResourceCollectionWithLinks"

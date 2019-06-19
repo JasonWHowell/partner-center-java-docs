@@ -60,12 +60,10 @@ items:
       description: "All the customer directory roles."
 references:
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"
 - uid: "com.microsoft.store.partnercenter.customerdirectoryroles.IDirectoryRole"
-  isExternal: true
   name: "IDirectoryRole"
   nameWithType: "IDirectoryRole"
   fullName: "com.microsoft.store.partnercenter.customerdirectoryroles.IDirectoryRole"
@@ -75,7 +73,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.customerdirectoryroles.IDirectoryRoleCollection.byId"
   package: "com.microsoft.store.partnercenter.customerdirectoryroles"
 - uid: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.roles.DirectoryRole>"
-  isExternal: true
   name: "ResourceCollection<DirectoryRole>"
   nameWithType: "ResourceCollection<DirectoryRole>"
   fullName: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.roles.DirectoryRole>"
@@ -85,47 +82,38 @@ references:
   fullName: "com.microsoft.store.partnercenter.customerdirectoryroles.IDirectoryRoleCollection.get"
   package: "com.microsoft.store.partnercenter.customerdirectoryroles"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntitySelector<java.lang.String,com.microsoft.store.partnercenter.customerdirectoryroles.IDirectoryRole>"
-  isExternal: true
   name: "IEntitySelector<String,IDirectoryRole>"
   nameWithType: "IEntitySelector<String,IDirectoryRole>"
   fullName: "com.microsoft.store.partnercenter.genericoperations.IEntitySelector<java.lang.String,com.microsoft.store.partnercenter.customerdirectoryroles.IDirectoryRole>"
 - uid: "com.microsoft.store.partnercenter.IPartnerComponentString"
-  isExternal: true
   name: "IPartnerComponentString"
   nameWithType: "IPartnerComponentString"
   fullName: "com.microsoft.store.partnercenter.IPartnerComponentString"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations<com.microsoft.store.partnercenter.models.roles.DirectoryRole,com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.roles.DirectoryRole>>"
-  isExternal: true
   name: "IEntireEntityCollectionRetrievalOperations<DirectoryRole,ResourceCollection<DirectoryRole>>"
   nameWithType: "IEntireEntityCollectionRetrievalOperations<DirectoryRole,ResourceCollection<DirectoryRole>>"
   fullName: "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations<com.microsoft.store.partnercenter.models.roles.DirectoryRole,com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.roles.DirectoryRole>>"
 - uid: "com.microsoft.store.partnercenter.models.roles.DirectoryRole"
-  isExternal: true
   name: "DirectoryRole"
   nameWithType: "DirectoryRole"
   fullName: "com.microsoft.store.partnercenter.models.roles.DirectoryRole"
 - uid: "com.microsoft.store.partnercenter.models.ResourceCollection"
-  isExternal: true
   name: "ResourceCollection"
   nameWithType: "ResourceCollection"
   fullName: "com.microsoft.store.partnercenter.models.ResourceCollection"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntitySelector"
-  isExternal: true
   name: "IEntitySelector"
   nameWithType: "IEntitySelector"
   fullName: "com.microsoft.store.partnercenter.genericoperations.IEntitySelector"
 - uid: "java.lang.String,com.microsoft.store.partnercenter.customerdirectoryroles.IDirectoryRole"
-  isExternal: true
   name: "String,IDirectoryRole"
   nameWithType: "String,IDirectoryRole"
   fullName: "java.lang.String,com.microsoft.store.partnercenter.customerdirectoryroles.IDirectoryRole"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations"
-  isExternal: true
   name: "IEntireEntityCollectionRetrievalOperations"
   nameWithType: "IEntireEntityCollectionRetrievalOperations"
   fullName: "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations"
 - uid: "com.microsoft.store.partnercenter.models.roles.DirectoryRole,com.microsoft.store.partnercenter.models.ResourceCollection"
-  isExternal: true
   name: "DirectoryRole,ResourceCollection"
   nameWithType: "DirectoryRole,ResourceCollection"
   fullName: "com.microsoft.store.partnercenter.models.roles.DirectoryRole,com.microsoft.store.partnercenter.models.ResourceCollection"

@@ -49,22 +49,18 @@ items:
       description: "The type of resource collection."
 references:
 - uid: "com.microsoft.store.partnercenter.IPartner"
-  isExternal: true
   name: "IPartner"
   nameWithType: "IPartner"
   fullName: "com.microsoft.store.partnercenter.IPartner"
 - uid: "TResourceCollection"
-  isExternal: true
   name: "TResourceCollection"
   nameWithType: "TResourceCollection"
   fullName: "TResourceCollection"
 - uid: "com.fasterxml.jackson.databind.ObjectMapper"
-  isExternal: true
   name: "ObjectMapper"
   nameWithType: "ObjectMapper"
   fullName: "com.fasterxml.jackson.databind.ObjectMapper"
 - uid: "com.fasterxml.jackson.core.type.TypeReference<TResourceCollection>"
-  isExternal: true
   name: "TypeReference<TResourceCollection>"
   nameWithType: "TypeReference<TResourceCollection>"
   fullName: "com.fasterxml.jackson.core.type.TypeReference<TResourceCollection>"
@@ -78,17 +74,14 @@ references:
   nameWithType: "T"
   fullName: "T"
 - uid: "com.microsoft.store.partnercenter.enumerators.BaseResourceCollectionEnumerator<TResourceCollection>"
-  isExternal: true
   name: "BaseResourceCollectionEnumerator<TResourceCollection>"
   nameWithType: "BaseResourceCollectionEnumerator<TResourceCollection>"
   fullName: "com.microsoft.store.partnercenter.enumerators.BaseResourceCollectionEnumerator<TResourceCollection>"
 - uid: "com.fasterxml.jackson.core.type.TypeReference"
-  isExternal: true
   name: "TypeReference"
   nameWithType: "TypeReference"
   fullName: "com.fasterxml.jackson.core.type.TypeReference"
 - uid: "com.microsoft.store.partnercenter.enumerators.BaseResourceCollectionEnumerator"
-  isExternal: true
   name: "BaseResourceCollectionEnumerator"
   nameWithType: "BaseResourceCollectionEnumerator"
   fullName: "com.microsoft.store.partnercenter.enumerators.BaseResourceCollectionEnumerator"

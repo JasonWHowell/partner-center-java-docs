@@ -169,7 +169,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.usage.SubscriptionDailyUsageRecord.SubscriptionDailyUsageRecord"
   package: "com.microsoft.store.partnercenter.models.usage"
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"
@@ -194,7 +193,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.usage.SubscriptionDailyUsageRecord.setResourceName"
   package: "com.microsoft.store.partnercenter.models.usage"
 - uid: "double"
-  isExternal: true
   name: "double"
   nameWithType: "double"
   fullName: "double"
@@ -209,7 +207,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.usage.SubscriptionDailyUsageRecord.setTotalCost"
   package: "com.microsoft.store.partnercenter.models.usage"
 - uid: "org.joda.time.DateTime"
-  isExternal: true
   name: "DateTime"
   nameWithType: "DateTime"
   fullName: "org.joda.time.DateTime"
@@ -224,7 +221,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.usage.SubscriptionDailyUsageRecord.setDateUsed"
   package: "com.microsoft.store.partnercenter.models.usage"
 - uid: "com.microsoft.store.partnercenter.models.usage.UsageRecordBase"
-  isExternal: true
   name: "UsageRecordBase"
   nameWithType: "UsageRecordBase"
   fullName: "com.microsoft.store.partnercenter.models.usage.UsageRecordBase"

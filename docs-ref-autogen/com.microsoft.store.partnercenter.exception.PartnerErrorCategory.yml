@@ -267,7 +267,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.exception.PartnerErrorCategory.values"
   package: "com.microsoft.store.partnercenter.exception"
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"
@@ -277,12 +276,10 @@ references:
   fullName: "com.microsoft.store.partnercenter.exception.PartnerErrorCategory.valueOf"
   package: "com.microsoft.store.partnercenter.exception"
 - uid: "java.lang.Enum<com.microsoft.store.partnercenter.exception.PartnerErrorCategory>"
-  isExternal: true
   name: "Enum<PartnerErrorCategory>"
   nameWithType: "Enum<PartnerErrorCategory>"
   fullName: "java.lang.Enum<com.microsoft.store.partnercenter.exception.PartnerErrorCategory>"
 - uid: "java.lang.Enum"
-  isExternal: true
   name: "Enum"
   nameWithType: "Enum"
   fullName: "java.lang.Enum"

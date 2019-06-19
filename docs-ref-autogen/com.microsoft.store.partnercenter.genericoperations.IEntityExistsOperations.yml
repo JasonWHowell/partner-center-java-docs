@@ -33,7 +33,6 @@ items:
       description: "A value indicating whether the entity exists or not."
 references:
 - uid: "boolean"
-  isExternal: true
   name: "boolean"
   nameWithType: "boolean"
   fullName: "boolean"

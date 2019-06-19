@@ -37,7 +37,6 @@ items:
       description: "The managed services."
 references:
 - uid: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.managedservices.ManagedService>"
-  isExternal: true
   name: "ResourceCollection<ManagedService>"
   nameWithType: "ResourceCollection<ManagedService>"
   fullName: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.managedservices.ManagedService>"
@@ -47,32 +46,26 @@ references:
   fullName: "com.microsoft.store.partnercenter.managedservices.IManagedServiceCollection.get"
   package: "com.microsoft.store.partnercenter.managedservices"
 - uid: "com.microsoft.store.partnercenter.IPartnerComponentString"
-  isExternal: true
   name: "IPartnerComponentString"
   nameWithType: "IPartnerComponentString"
   fullName: "com.microsoft.store.partnercenter.IPartnerComponentString"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations<com.microsoft.store.partnercenter.models.managedservices.ManagedService,com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.managedservices.ManagedService>>"
-  isExternal: true
   name: "IEntireEntityCollectionRetrievalOperations<ManagedService,ResourceCollection<ManagedService>>"
   nameWithType: "IEntireEntityCollectionRetrievalOperations<ManagedService,ResourceCollection<ManagedService>>"
   fullName: "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations<com.microsoft.store.partnercenter.models.managedservices.ManagedService,com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.managedservices.ManagedService>>"
 - uid: "com.microsoft.store.partnercenter.models.managedservices.ManagedService"
-  isExternal: true
   name: "ManagedService"
   nameWithType: "ManagedService"
   fullName: "com.microsoft.store.partnercenter.models.managedservices.ManagedService"
 - uid: "com.microsoft.store.partnercenter.models.ResourceCollection"
-  isExternal: true
   name: "ResourceCollection"
   nameWithType: "ResourceCollection"
   fullName: "com.microsoft.store.partnercenter.models.ResourceCollection"
 - uid: "com.microsoft.store.partnercenter.models.managedservices.ManagedService,com.microsoft.store.partnercenter.models.ResourceCollection"
-  isExternal: true
   name: "ManagedService,ResourceCollection"
   nameWithType: "ManagedService,ResourceCollection"
   fullName: "com.microsoft.store.partnercenter.models.managedservices.ManagedService,com.microsoft.store.partnercenter.models.ResourceCollection"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations"
-  isExternal: true
   name: "IEntireEntityCollectionRetrievalOperations"
   nameWithType: "IEntireEntityCollectionRetrievalOperations"
   fullName: "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations"

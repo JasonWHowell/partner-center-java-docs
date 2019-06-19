@@ -56,7 +56,6 @@ items:
       type: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.invoices.InvoiceSummary>"
 references:
 - uid: "com.microsoft.store.partnercenter.IPartner"
-  isExternal: true
   name: "IPartner"
   nameWithType: "IPartner"
   fullName: "com.microsoft.store.partnercenter.IPartner"
@@ -66,7 +65,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.invoices.InvoiceSummaryCollectionOperations.InvoiceSummaryCollectionOperations"
   package: "com.microsoft.store.partnercenter.invoices"
 - uid: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.invoices.InvoiceSummary>"
-  isExternal: true
   name: "ResourceCollection<InvoiceSummary>"
   nameWithType: "ResourceCollection<InvoiceSummary>"
   fullName: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.invoices.InvoiceSummary>"
@@ -76,22 +74,18 @@ references:
   fullName: "com.microsoft.store.partnercenter.invoices.InvoiceSummaryCollectionOperations.get"
   package: "com.microsoft.store.partnercenter.invoices"
 - uid: "com.microsoft.store.partnercenter.BasePartnerComponentString"
-  isExternal: true
   name: "BasePartnerComponentString"
   nameWithType: "BasePartnerComponentString"
   fullName: "com.microsoft.store.partnercenter.BasePartnerComponentString"
 - uid: "com.microsoft.store.partnercenter.invoices.IInvoiceSummaryCollection"
-  isExternal: true
   name: "IInvoiceSummaryCollection"
   nameWithType: "IInvoiceSummaryCollection"
   fullName: "com.microsoft.store.partnercenter.invoices.IInvoiceSummaryCollection"
 - uid: "com.microsoft.store.partnercenter.models.ResourceCollection"
-  isExternal: true
   name: "ResourceCollection"
   nameWithType: "ResourceCollection"
   fullName: "com.microsoft.store.partnercenter.models.ResourceCollection"
 - uid: "com.microsoft.store.partnercenter.models.invoices.InvoiceSummary"
-  isExternal: true
   name: "InvoiceSummary"
   nameWithType: "InvoiceSummary"
   fullName: "com.microsoft.store.partnercenter.models.invoices.InvoiceSummary"

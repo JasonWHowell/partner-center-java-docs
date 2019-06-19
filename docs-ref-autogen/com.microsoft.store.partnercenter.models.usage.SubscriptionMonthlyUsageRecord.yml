@@ -222,7 +222,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.usage.SubscriptionMonthlyUsageRecord.SubscriptionMonthlyUsageRecord"
   package: "com.microsoft.store.partnercenter.models.usage"
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"
@@ -247,7 +246,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.usage.SubscriptionMonthlyUsageRecord.setResourceName"
   package: "com.microsoft.store.partnercenter.models.usage"
 - uid: "com.microsoft.store.partnercenter.models.subscriptions.SubscriptionStatus"
-  isExternal: true
   name: "SubscriptionStatus"
   nameWithType: "SubscriptionStatus"
   fullName: "com.microsoft.store.partnercenter.models.subscriptions.SubscriptionStatus"
@@ -282,7 +280,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.usage.SubscriptionMonthlyUsageRecord.setOfferId"
   package: "com.microsoft.store.partnercenter.models.usage"
 - uid: "com.microsoft.store.partnercenter.models.usage.UsageRecordBase"
-  isExternal: true
   name: "UsageRecordBase"
   nameWithType: "UsageRecordBase"
   fullName: "com.microsoft.store.partnercenter.models.usage.UsageRecordBase"

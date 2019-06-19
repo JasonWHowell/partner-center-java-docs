@@ -222,17 +222,14 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.query.filters.SimpleFieldFilter.SimpleFieldFilter"
   package: "com.microsoft.store.partnercenter.models.query.filters"
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"
 - uid: "com.microsoft.store.partnercenter.models.query.filters.FieldFilterOperation"
-  isExternal: true
   name: "FieldFilterOperation"
   nameWithType: "FieldFilterOperation"
   fullName: "com.microsoft.store.partnercenter.models.query.filters.FieldFilterOperation"
 - uid: "com.microsoft.store.partnercenter.models.query.filters.FieldType"
-  isExternal: true
   name: "FieldType"
   nameWithType: "FieldType"
   fullName: "com.microsoft.store.partnercenter.models.query.filters.FieldType"
@@ -257,7 +254,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.query.filters.SimpleFieldFilter.setValue"
   package: "com.microsoft.store.partnercenter.models.query.filters"
 - uid: "com.microsoft.store.partnercenter.models.query.filters.IFilterExpressionGenerator"
-  isExternal: true
   name: "IFilterExpressionGenerator"
   nameWithType: "IFilterExpressionGenerator"
   fullName: "com.microsoft.store.partnercenter.models.query.filters.IFilterExpressionGenerator"
@@ -272,7 +268,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.query.filters.SimpleFieldFilter.toString"
   package: "com.microsoft.store.partnercenter.models.query.filters"
 - uid: "com.microsoft.store.partnercenter.models.query.filters.FieldFilter"
-  isExternal: true
   name: "FieldFilter"
   nameWithType: "FieldFilter"
   fullName: "com.microsoft.store.partnercenter.models.query.filters.FieldFilter"

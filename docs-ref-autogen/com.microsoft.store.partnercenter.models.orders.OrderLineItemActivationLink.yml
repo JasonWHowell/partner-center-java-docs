@@ -111,7 +111,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.orders.OrderLineItemActivationLink.OrderLineItemActivationLink"
   package: "com.microsoft.store.partnercenter.models.orders"
 - uid: "int"
-  isExternal: true
   name: "int"
   nameWithType: "int"
   fullName: "int"
@@ -126,7 +125,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.orders.OrderLineItemActivationLink.setLineItemNumber"
   package: "com.microsoft.store.partnercenter.models.orders"
 - uid: "com.microsoft.store.partnercenter.models.Link"
-  isExternal: true
   name: "Link"
   nameWithType: "Link"
   fullName: "com.microsoft.store.partnercenter.models.Link"

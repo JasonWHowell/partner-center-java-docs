@@ -29,27 +29,22 @@ references:
   nameWithType: "TResourceCollection"
   fullName: "TResourceCollection"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IPagedEntityCollectionRetrievalOperations<T,TResourceCollection>"
-  isExternal: true
   name: "IPagedEntityCollectionRetrievalOperations<T,TResourceCollection>"
   nameWithType: "IPagedEntityCollectionRetrievalOperations<T,TResourceCollection>"
   fullName: "com.microsoft.store.partnercenter.genericoperations.IPagedEntityCollectionRetrievalOperations<T,TResourceCollection>"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations<T,TResourceCollection>"
-  isExternal: true
   name: "IEntireEntityCollectionRetrievalOperations<T,TResourceCollection>"
   nameWithType: "IEntireEntityCollectionRetrievalOperations<T,TResourceCollection>"
   fullName: "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations<T,TResourceCollection>"
 - uid: "T,TResourceCollection"
-  isExternal: true
   name: "T,TResourceCollection"
   nameWithType: "T,TResourceCollection"
   fullName: "T,TResourceCollection"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IPagedEntityCollectionRetrievalOperations"
-  isExternal: true
   name: "IPagedEntityCollectionRetrievalOperations"
   nameWithType: "IPagedEntityCollectionRetrievalOperations"
   fullName: "com.microsoft.store.partnercenter.genericoperations.IPagedEntityCollectionRetrievalOperations"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations"
-  isExternal: true
   name: "IEntireEntityCollectionRetrievalOperations"
   nameWithType: "IEntireEntityCollectionRetrievalOperations"
   fullName: "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations"

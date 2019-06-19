@@ -121,7 +121,6 @@ items:
       description: "The partner subscriptions operations."
 references:
 - uid: "com.microsoft.store.partnercenter.usage.ISubscriptionMonthlyUsageRecordCollection"
-  isExternal: true
   name: "ISubscriptionMonthlyUsageRecordCollection"
   nameWithType: "ISubscriptionMonthlyUsageRecordCollection"
   fullName: "com.microsoft.store.partnercenter.usage.ISubscriptionMonthlyUsageRecordCollection"
@@ -131,12 +130,10 @@ references:
   fullName: "com.microsoft.store.partnercenter.subscriptions.ISubscriptionCollection.getUsageRecords"
   package: "com.microsoft.store.partnercenter.subscriptions"
 - uid: "java.lang.String"
-  isExternal: true
   name: "String"
   nameWithType: "String"
   fullName: "java.lang.String"
 - uid: "com.microsoft.store.partnercenter.subscriptions.ISubscription"
-  isExternal: true
   name: "ISubscription"
   nameWithType: "ISubscription"
   fullName: "com.microsoft.store.partnercenter.subscriptions.ISubscription"
@@ -146,7 +143,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.subscriptions.ISubscriptionCollection.byId"
   package: "com.microsoft.store.partnercenter.subscriptions"
 - uid: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.subscriptions.Subscription>"
-  isExternal: true
   name: "ResourceCollection<Subscription>"
   nameWithType: "ResourceCollection<Subscription>"
   fullName: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.subscriptions.Subscription>"
@@ -156,7 +152,6 @@ references:
   fullName: "com.microsoft.store.partnercenter.subscriptions.ISubscriptionCollection.get"
   package: "com.microsoft.store.partnercenter.subscriptions"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations<com.microsoft.store.partnercenter.models.subscriptions.Subscription,com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.subscriptions.Subscription>>"
-  isExternal: true
   name: "IEntireEntityCollectionRetrievalOperations<Subscription,ResourceCollection<Subscription>>"
   nameWithType: "IEntireEntityCollectionRetrievalOperations<Subscription,ResourceCollection<Subscription>>"
   fullName: "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations<com.microsoft.store.partnercenter.models.subscriptions.Subscription,com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.subscriptions.Subscription>>"
@@ -171,27 +166,22 @@ references:
   fullName: "com.microsoft.store.partnercenter.subscriptions.ISubscriptionCollection.byPartner"
   package: "com.microsoft.store.partnercenter.subscriptions"
 - uid: "com.microsoft.store.partnercenter.IPartnerComponentString"
-  isExternal: true
   name: "IPartnerComponentString"
   nameWithType: "IPartnerComponentString"
   fullName: "com.microsoft.store.partnercenter.IPartnerComponentString"
 - uid: "com.microsoft.store.partnercenter.models.subscriptions.Subscription"
-  isExternal: true
   name: "Subscription"
   nameWithType: "Subscription"
   fullName: "com.microsoft.store.partnercenter.models.subscriptions.Subscription"
 - uid: "com.microsoft.store.partnercenter.models.ResourceCollection"
-  isExternal: true
   name: "ResourceCollection"
   nameWithType: "ResourceCollection"
   fullName: "com.microsoft.store.partnercenter.models.ResourceCollection"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations"
-  isExternal: true
   name: "IEntireEntityCollectionRetrievalOperations"
   nameWithType: "IEntireEntityCollectionRetrievalOperations"
   fullName: "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations"
 - uid: "com.microsoft.store.partnercenter.models.subscriptions.Subscription,com.microsoft.store.partnercenter.models.ResourceCollection"
-  isExternal: true
   name: "Subscription,ResourceCollection"
   nameWithType: "Subscription,ResourceCollection"
   fullName: "com.microsoft.store.partnercenter.models.subscriptions.Subscription,com.microsoft.store.partnercenter.models.ResourceCollection"
