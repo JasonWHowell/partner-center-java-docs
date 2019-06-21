@@ -4,8 +4,8 @@ items:
   id: "IProduct"
   parent: "com.microsoft.store.partnercenter.products"
   children:
-  - "com.microsoft.store.partnercenter.products.IProduct.getSkus()"
   - "com.microsoft.store.partnercenter.products.IProduct.get()"
+  - "com.microsoft.store.partnercenter.products.IProduct.getSkus()"
   langs:
   - "java"
   name: "IProduct"
@@ -19,23 +19,6 @@ items:
   implements:
   - "com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>"
   - "com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations<com.microsoft.store.partnercenter.models.products.Product>"
-- uid: "com.microsoft.store.partnercenter.products.IProduct.getSkus()"
-  id: "getSkus()"
-  parent: "com.microsoft.store.partnercenter.products.IProduct"
-  langs:
-  - "java"
-  name: "getSkus()"
-  nameWithType: "IProduct.getSkus()"
-  fullName: "com.microsoft.store.partnercenter.products.IProduct.getSkus()"
-  overload: "com.microsoft.store.partnercenter.products.IProduct.getSkus*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.products"
-  summary: "Retrieves the SKUs for the product."
-  syntax:
-    content: "public abstract ISkuCollection getSkus()"
-    return:
-      type: "com.microsoft.store.partnercenter.products.ISkuCollection"
-      description: "The SKUs for the product."
 - uid: "com.microsoft.store.partnercenter.products.IProduct.get()"
   id: "get()"
   parent: "com.microsoft.store.partnercenter.products.IProduct"
@@ -53,6 +36,23 @@ items:
     return:
       type: "com.microsoft.store.partnercenter.models.products.Product"
       description: "The product information."
+- uid: "com.microsoft.store.partnercenter.products.IProduct.getSkus()"
+  id: "getSkus()"
+  parent: "com.microsoft.store.partnercenter.products.IProduct"
+  langs:
+  - "java"
+  name: "getSkus()"
+  nameWithType: "IProduct.getSkus()"
+  fullName: "com.microsoft.store.partnercenter.products.IProduct.getSkus()"
+  overload: "com.microsoft.store.partnercenter.products.IProduct.getSkus*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.products"
+  summary: "Retrieves the SKUs for the product."
+  syntax:
+    content: "public abstract ISkuCollection getSkus()"
+    return:
+      type: "com.microsoft.store.partnercenter.products.ISkuCollection"
+      description: "The SKUs for the product."
 references:
 - uid: "com.microsoft.store.partnercenter.products.ISkuCollection"
   name: "ISkuCollection"

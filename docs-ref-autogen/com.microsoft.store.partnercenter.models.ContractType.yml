@@ -4,12 +4,12 @@ items:
   id: "ContractType"
   parent: "com.microsoft.store.partnercenter.models"
   children:
-  - "com.microsoft.store.partnercenter.models.ContractType.values()"
-  - "com.microsoft.store.partnercenter.models.ContractType.valueOf(java.lang.String)"
-  - "com.microsoft.store.partnercenter.models.ContractType.toString()"
-  - "com.microsoft.store.partnercenter.models.ContractType.SUBSCRIPTION"
   - "com.microsoft.store.partnercenter.models.ContractType.PRODUCTKEY"
   - "com.microsoft.store.partnercenter.models.ContractType.REDEMPTIONCODE"
+  - "com.microsoft.store.partnercenter.models.ContractType.SUBSCRIPTION"
+  - "com.microsoft.store.partnercenter.models.ContractType.toString()"
+  - "com.microsoft.store.partnercenter.models.ContractType.valueOf(java.lang.String)"
+  - "com.microsoft.store.partnercenter.models.ContractType.values()"
   langs:
   - "java"
   name: "ContractType"
@@ -37,71 +37,6 @@ items:
     parameters:
     - id: "value"
       type: "java.lang.String"
-- uid: "com.microsoft.store.partnercenter.models.ContractType.values()"
-  id: "values()"
-  parent: "com.microsoft.store.partnercenter.models.ContractType"
-  langs:
-  - "java"
-  name: "values()"
-  nameWithType: "ContractType.values()"
-  fullName: "com.microsoft.store.partnercenter.models.ContractType.values()"
-  overload: "com.microsoft.store.partnercenter.models.ContractType.values*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models"
-  syntax:
-    content: "public static ContractType[] values()"
-    return:
-      type: "com.microsoft.store.partnercenter.models.ContractType[]"
-- uid: "com.microsoft.store.partnercenter.models.ContractType.valueOf(java.lang.String)"
-  id: "valueOf(java.lang.String)"
-  parent: "com.microsoft.store.partnercenter.models.ContractType"
-  langs:
-  - "java"
-  name: "valueOf(String name)"
-  nameWithType: "ContractType.valueOf(String name)"
-  fullName: "com.microsoft.store.partnercenter.models.ContractType.valueOf(String name)"
-  overload: "com.microsoft.store.partnercenter.models.ContractType.valueOf*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models"
-  syntax:
-    content: "public static ContractType valueOf(String name)"
-    parameters:
-    - id: "name"
-      type: "java.lang.String"
-    return:
-      type: "com.microsoft.store.partnercenter.models.ContractType"
-- uid: "com.microsoft.store.partnercenter.models.ContractType.toString()"
-  id: "toString()"
-  parent: "com.microsoft.store.partnercenter.models.ContractType"
-  langs:
-  - "java"
-  name: "toString()"
-  nameWithType: "ContractType.toString()"
-  fullName: "com.microsoft.store.partnercenter.models.ContractType.toString()"
-  overload: "com.microsoft.store.partnercenter.models.ContractType.toString*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models"
-  summary: "Converts the object to a string."
-  syntax:
-    content: "public String toString()"
-    return:
-      type: "java.lang.String"
-      description: "A string that represents this object."
-- uid: "com.microsoft.store.partnercenter.models.ContractType.SUBSCRIPTION"
-  id: "SUBSCRIPTION"
-  parent: "com.microsoft.store.partnercenter.models.ContractType"
-  langs:
-  - "java"
-  name: "SUBSCRIPTION"
-  nameWithType: "ContractType.SUBSCRIPTION"
-  fullName: "com.microsoft.store.partnercenter.models.ContractType.SUBSCRIPTION"
-  type: "Field"
-  package: "com.microsoft.store.partnercenter.models"
-  summary: "Describes the type of contract Refers to a contract which provides subscription for the order item placed"
-  syntax:
-    content: "public static final ContractType SUBSCRIPTION"
-    return:
-      type: "com.microsoft.store.partnercenter.models.ContractType"
 - uid: "com.microsoft.store.partnercenter.models.ContractType.PRODUCTKEY"
   id: "PRODUCTKEY"
   parent: "com.microsoft.store.partnercenter.models.ContractType"
@@ -132,6 +67,71 @@ items:
     content: "public static final ContractType REDEMPTIONCODE"
     return:
       type: "com.microsoft.store.partnercenter.models.ContractType"
+- uid: "com.microsoft.store.partnercenter.models.ContractType.SUBSCRIPTION"
+  id: "SUBSCRIPTION"
+  parent: "com.microsoft.store.partnercenter.models.ContractType"
+  langs:
+  - "java"
+  name: "SUBSCRIPTION"
+  nameWithType: "ContractType.SUBSCRIPTION"
+  fullName: "com.microsoft.store.partnercenter.models.ContractType.SUBSCRIPTION"
+  type: "Field"
+  package: "com.microsoft.store.partnercenter.models"
+  summary: "Describes the type of contract Refers to a contract which provides subscription for the order item placed"
+  syntax:
+    content: "public static final ContractType SUBSCRIPTION"
+    return:
+      type: "com.microsoft.store.partnercenter.models.ContractType"
+- uid: "com.microsoft.store.partnercenter.models.ContractType.toString()"
+  id: "toString()"
+  parent: "com.microsoft.store.partnercenter.models.ContractType"
+  langs:
+  - "java"
+  name: "toString()"
+  nameWithType: "ContractType.toString()"
+  fullName: "com.microsoft.store.partnercenter.models.ContractType.toString()"
+  overload: "com.microsoft.store.partnercenter.models.ContractType.toString*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models"
+  summary: "Converts the object to a string."
+  syntax:
+    content: "public String toString()"
+    return:
+      type: "java.lang.String"
+      description: "A string that represents this object."
+- uid: "com.microsoft.store.partnercenter.models.ContractType.valueOf(java.lang.String)"
+  id: "valueOf(java.lang.String)"
+  parent: "com.microsoft.store.partnercenter.models.ContractType"
+  langs:
+  - "java"
+  name: "valueOf(String name)"
+  nameWithType: "ContractType.valueOf(String name)"
+  fullName: "com.microsoft.store.partnercenter.models.ContractType.valueOf(String name)"
+  overload: "com.microsoft.store.partnercenter.models.ContractType.valueOf*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models"
+  syntax:
+    content: "public static ContractType valueOf(String name)"
+    parameters:
+    - id: "name"
+      type: "java.lang.String"
+    return:
+      type: "com.microsoft.store.partnercenter.models.ContractType"
+- uid: "com.microsoft.store.partnercenter.models.ContractType.values()"
+  id: "values()"
+  parent: "com.microsoft.store.partnercenter.models.ContractType"
+  langs:
+  - "java"
+  name: "values()"
+  nameWithType: "ContractType.values()"
+  fullName: "com.microsoft.store.partnercenter.models.ContractType.values()"
+  overload: "com.microsoft.store.partnercenter.models.ContractType.values*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models"
+  syntax:
+    content: "public static ContractType[] values()"
+    return:
+      type: "com.microsoft.store.partnercenter.models.ContractType[]"
 references:
 - uid: "java.lang.String"
   name: "String"

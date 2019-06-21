@@ -5,11 +5,11 @@ items:
   parent: "com.microsoft.store.partnercenter.models.products"
   children:
   - "com.microsoft.store.partnercenter.models.products.ItemType.ItemType()"
-  - "com.microsoft.store.partnercenter.models.products.ItemType.getId()"
-  - "com.microsoft.store.partnercenter.models.products.ItemType.setId(java.lang.String)"
   - "com.microsoft.store.partnercenter.models.products.ItemType.getDisplayName()"
-  - "com.microsoft.store.partnercenter.models.products.ItemType.setDisplayName(java.lang.String)"
+  - "com.microsoft.store.partnercenter.models.products.ItemType.getId()"
   - "com.microsoft.store.partnercenter.models.products.ItemType.getSubType()"
+  - "com.microsoft.store.partnercenter.models.products.ItemType.setDisplayName(java.lang.String)"
+  - "com.microsoft.store.partnercenter.models.products.ItemType.setId(java.lang.String)"
   - "com.microsoft.store.partnercenter.models.products.ItemType.setSubType(com.microsoft.store.partnercenter.models.products.ItemType)"
   langs:
   - "java"
@@ -36,6 +36,21 @@ items:
   package: "com.microsoft.store.partnercenter.models.products"
   syntax:
     content: "public ItemType()"
+- uid: "com.microsoft.store.partnercenter.models.products.ItemType.getDisplayName()"
+  id: "getDisplayName()"
+  parent: "com.microsoft.store.partnercenter.models.products.ItemType"
+  langs:
+  - "java"
+  name: "getDisplayName()"
+  nameWithType: "ItemType.getDisplayName()"
+  fullName: "com.microsoft.store.partnercenter.models.products.ItemType.getDisplayName()"
+  overload: "com.microsoft.store.partnercenter.models.products.ItemType.getDisplayName*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.products"
+  syntax:
+    content: "public String getDisplayName()"
+    return:
+      type: "java.lang.String"
 - uid: "com.microsoft.store.partnercenter.models.products.ItemType.getId()"
   id: "getId()"
   parent: "com.microsoft.store.partnercenter.models.products.ItemType"
@@ -50,6 +65,37 @@ items:
   syntax:
     content: "public String getId()"
     return:
+      type: "java.lang.String"
+- uid: "com.microsoft.store.partnercenter.models.products.ItemType.getSubType()"
+  id: "getSubType()"
+  parent: "com.microsoft.store.partnercenter.models.products.ItemType"
+  langs:
+  - "java"
+  name: "getSubType()"
+  nameWithType: "ItemType.getSubType()"
+  fullName: "com.microsoft.store.partnercenter.models.products.ItemType.getSubType()"
+  overload: "com.microsoft.store.partnercenter.models.products.ItemType.getSubType*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.products"
+  syntax:
+    content: "public ItemType getSubType()"
+    return:
+      type: "com.microsoft.store.partnercenter.models.products.ItemType"
+- uid: "com.microsoft.store.partnercenter.models.products.ItemType.setDisplayName(java.lang.String)"
+  id: "setDisplayName(java.lang.String)"
+  parent: "com.microsoft.store.partnercenter.models.products.ItemType"
+  langs:
+  - "java"
+  name: "setDisplayName(String value)"
+  nameWithType: "ItemType.setDisplayName(String value)"
+  fullName: "com.microsoft.store.partnercenter.models.products.ItemType.setDisplayName(String value)"
+  overload: "com.microsoft.store.partnercenter.models.products.ItemType.setDisplayName*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.products"
+  syntax:
+    content: "public void setDisplayName(String value)"
+    parameters:
+    - id: "value"
       type: "java.lang.String"
 - uid: "com.microsoft.store.partnercenter.models.products.ItemType.setId(java.lang.String)"
   id: "setId(java.lang.String)"
@@ -67,52 +113,6 @@ items:
     parameters:
     - id: "value"
       type: "java.lang.String"
-- uid: "com.microsoft.store.partnercenter.models.products.ItemType.getDisplayName()"
-  id: "getDisplayName()"
-  parent: "com.microsoft.store.partnercenter.models.products.ItemType"
-  langs:
-  - "java"
-  name: "getDisplayName()"
-  nameWithType: "ItemType.getDisplayName()"
-  fullName: "com.microsoft.store.partnercenter.models.products.ItemType.getDisplayName()"
-  overload: "com.microsoft.store.partnercenter.models.products.ItemType.getDisplayName*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.products"
-  syntax:
-    content: "public String getDisplayName()"
-    return:
-      type: "java.lang.String"
-- uid: "com.microsoft.store.partnercenter.models.products.ItemType.setDisplayName(java.lang.String)"
-  id: "setDisplayName(java.lang.String)"
-  parent: "com.microsoft.store.partnercenter.models.products.ItemType"
-  langs:
-  - "java"
-  name: "setDisplayName(String value)"
-  nameWithType: "ItemType.setDisplayName(String value)"
-  fullName: "com.microsoft.store.partnercenter.models.products.ItemType.setDisplayName(String value)"
-  overload: "com.microsoft.store.partnercenter.models.products.ItemType.setDisplayName*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.products"
-  syntax:
-    content: "public void setDisplayName(String value)"
-    parameters:
-    - id: "value"
-      type: "java.lang.String"
-- uid: "com.microsoft.store.partnercenter.models.products.ItemType.getSubType()"
-  id: "getSubType()"
-  parent: "com.microsoft.store.partnercenter.models.products.ItemType"
-  langs:
-  - "java"
-  name: "getSubType()"
-  nameWithType: "ItemType.getSubType()"
-  fullName: "com.microsoft.store.partnercenter.models.products.ItemType.getSubType()"
-  overload: "com.microsoft.store.partnercenter.models.products.ItemType.getSubType*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.products"
-  syntax:
-    content: "public ItemType getSubType()"
-    return:
-      type: "com.microsoft.store.partnercenter.models.products.ItemType"
 - uid: "com.microsoft.store.partnercenter.models.products.ItemType.setSubType(com.microsoft.store.partnercenter.models.products.ItemType)"
   id: "setSubType(com.microsoft.store.partnercenter.models.products.ItemType)"
   parent: "com.microsoft.store.partnercenter.models.products.ItemType"

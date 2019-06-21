@@ -6,15 +6,15 @@ items:
   children:
   - "com.microsoft.store.partnercenter.models.devicesdeployment.BatchUploadDetails.BatchUploadDetails()"
   - "com.microsoft.store.partnercenter.models.devicesdeployment.BatchUploadDetails.getBatchTrackingId()"
-  - "com.microsoft.store.partnercenter.models.devicesdeployment.BatchUploadDetails.setBatchTrackingId(java.lang.String)"
-  - "com.microsoft.store.partnercenter.models.devicesdeployment.BatchUploadDetails.getStatus()"
-  - "com.microsoft.store.partnercenter.models.devicesdeployment.BatchUploadDetails.setStatus(com.microsoft.store.partnercenter.models.devicesdeployment.DeviceUploadStatusType)"
-  - "com.microsoft.store.partnercenter.models.devicesdeployment.BatchUploadDetails.getStartedTime()"
-  - "com.microsoft.store.partnercenter.models.devicesdeployment.BatchUploadDetails.setStartedTime(org.joda.time.DateTime)"
   - "com.microsoft.store.partnercenter.models.devicesdeployment.BatchUploadDetails.getCompletedTime()"
-  - "com.microsoft.store.partnercenter.models.devicesdeployment.BatchUploadDetails.setCompletedTime(org.joda.time.DateTime)"
   - "com.microsoft.store.partnercenter.models.devicesdeployment.BatchUploadDetails.getDevicesStatus()"
+  - "com.microsoft.store.partnercenter.models.devicesdeployment.BatchUploadDetails.getStartedTime()"
+  - "com.microsoft.store.partnercenter.models.devicesdeployment.BatchUploadDetails.getStatus()"
+  - "com.microsoft.store.partnercenter.models.devicesdeployment.BatchUploadDetails.setBatchTrackingId(java.lang.String)"
+  - "com.microsoft.store.partnercenter.models.devicesdeployment.BatchUploadDetails.setCompletedTime(org.joda.time.DateTime)"
   - "com.microsoft.store.partnercenter.models.devicesdeployment.BatchUploadDetails.setDevicesStatus(java.util.Iterator<com.microsoft.store.partnercenter.models.devicesdeployment.DeviceUploadDetails>)"
+  - "com.microsoft.store.partnercenter.models.devicesdeployment.BatchUploadDetails.setStartedTime(org.joda.time.DateTime)"
+  - "com.microsoft.store.partnercenter.models.devicesdeployment.BatchUploadDetails.setStatus(com.microsoft.store.partnercenter.models.devicesdeployment.DeviceUploadStatusType)"
   langs:
   - "java"
   name: "BatchUploadDetails"
@@ -55,84 +55,6 @@ items:
     content: "public String getBatchTrackingId()"
     return:
       type: "java.lang.String"
-- uid: "com.microsoft.store.partnercenter.models.devicesdeployment.BatchUploadDetails.setBatchTrackingId(java.lang.String)"
-  id: "setBatchTrackingId(java.lang.String)"
-  parent: "com.microsoft.store.partnercenter.models.devicesdeployment.BatchUploadDetails"
-  langs:
-  - "java"
-  name: "setBatchTrackingId(String value)"
-  nameWithType: "BatchUploadDetails.setBatchTrackingId(String value)"
-  fullName: "com.microsoft.store.partnercenter.models.devicesdeployment.BatchUploadDetails.setBatchTrackingId(String value)"
-  overload: "com.microsoft.store.partnercenter.models.devicesdeployment.BatchUploadDetails.setBatchTrackingId*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.devicesdeployment"
-  syntax:
-    content: "public void setBatchTrackingId(String value)"
-    parameters:
-    - id: "value"
-      type: "java.lang.String"
-- uid: "com.microsoft.store.partnercenter.models.devicesdeployment.BatchUploadDetails.getStatus()"
-  id: "getStatus()"
-  parent: "com.microsoft.store.partnercenter.models.devicesdeployment.BatchUploadDetails"
-  langs:
-  - "java"
-  name: "getStatus()"
-  nameWithType: "BatchUploadDetails.getStatus()"
-  fullName: "com.microsoft.store.partnercenter.models.devicesdeployment.BatchUploadDetails.getStatus()"
-  overload: "com.microsoft.store.partnercenter.models.devicesdeployment.BatchUploadDetails.getStatus*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.devicesdeployment"
-  syntax:
-    content: "public DeviceUploadStatusType getStatus()"
-    return:
-      type: "com.microsoft.store.partnercenter.models.devicesdeployment.DeviceUploadStatusType"
-- uid: "com.microsoft.store.partnercenter.models.devicesdeployment.BatchUploadDetails.setStatus(com.microsoft.store.partnercenter.models.devicesdeployment.DeviceUploadStatusType)"
-  id: "setStatus(com.microsoft.store.partnercenter.models.devicesdeployment.DeviceUploadStatusType)"
-  parent: "com.microsoft.store.partnercenter.models.devicesdeployment.BatchUploadDetails"
-  langs:
-  - "java"
-  name: "setStatus(DeviceUploadStatusType value)"
-  nameWithType: "BatchUploadDetails.setStatus(DeviceUploadStatusType value)"
-  fullName: "com.microsoft.store.partnercenter.models.devicesdeployment.BatchUploadDetails.setStatus(DeviceUploadStatusType value)"
-  overload: "com.microsoft.store.partnercenter.models.devicesdeployment.BatchUploadDetails.setStatus*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.devicesdeployment"
-  syntax:
-    content: "public void setStatus(DeviceUploadStatusType value)"
-    parameters:
-    - id: "value"
-      type: "com.microsoft.store.partnercenter.models.devicesdeployment.DeviceUploadStatusType"
-- uid: "com.microsoft.store.partnercenter.models.devicesdeployment.BatchUploadDetails.getStartedTime()"
-  id: "getStartedTime()"
-  parent: "com.microsoft.store.partnercenter.models.devicesdeployment.BatchUploadDetails"
-  langs:
-  - "java"
-  name: "getStartedTime()"
-  nameWithType: "BatchUploadDetails.getStartedTime()"
-  fullName: "com.microsoft.store.partnercenter.models.devicesdeployment.BatchUploadDetails.getStartedTime()"
-  overload: "com.microsoft.store.partnercenter.models.devicesdeployment.BatchUploadDetails.getStartedTime*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.devicesdeployment"
-  syntax:
-    content: "public DateTime getStartedTime()"
-    return:
-      type: "org.joda.time.DateTime"
-- uid: "com.microsoft.store.partnercenter.models.devicesdeployment.BatchUploadDetails.setStartedTime(org.joda.time.DateTime)"
-  id: "setStartedTime(org.joda.time.DateTime)"
-  parent: "com.microsoft.store.partnercenter.models.devicesdeployment.BatchUploadDetails"
-  langs:
-  - "java"
-  name: "setStartedTime(DateTime value)"
-  nameWithType: "BatchUploadDetails.setStartedTime(DateTime value)"
-  fullName: "com.microsoft.store.partnercenter.models.devicesdeployment.BatchUploadDetails.setStartedTime(DateTime value)"
-  overload: "com.microsoft.store.partnercenter.models.devicesdeployment.BatchUploadDetails.setStartedTime*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.devicesdeployment"
-  syntax:
-    content: "public void setStartedTime(DateTime value)"
-    parameters:
-    - id: "value"
-      type: "org.joda.time.DateTime"
 - uid: "com.microsoft.store.partnercenter.models.devicesdeployment.BatchUploadDetails.getCompletedTime()"
   id: "getCompletedTime()"
   parent: "com.microsoft.store.partnercenter.models.devicesdeployment.BatchUploadDetails"
@@ -147,22 +69,6 @@ items:
   syntax:
     content: "public DateTime getCompletedTime()"
     return:
-      type: "org.joda.time.DateTime"
-- uid: "com.microsoft.store.partnercenter.models.devicesdeployment.BatchUploadDetails.setCompletedTime(org.joda.time.DateTime)"
-  id: "setCompletedTime(org.joda.time.DateTime)"
-  parent: "com.microsoft.store.partnercenter.models.devicesdeployment.BatchUploadDetails"
-  langs:
-  - "java"
-  name: "setCompletedTime(DateTime value)"
-  nameWithType: "BatchUploadDetails.setCompletedTime(DateTime value)"
-  fullName: "com.microsoft.store.partnercenter.models.devicesdeployment.BatchUploadDetails.setCompletedTime(DateTime value)"
-  overload: "com.microsoft.store.partnercenter.models.devicesdeployment.BatchUploadDetails.setCompletedTime*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.devicesdeployment"
-  syntax:
-    content: "public void setCompletedTime(DateTime value)"
-    parameters:
-    - id: "value"
       type: "org.joda.time.DateTime"
 - uid: "com.microsoft.store.partnercenter.models.devicesdeployment.BatchUploadDetails.getDevicesStatus()"
   id: "getDevicesStatus()"
@@ -179,6 +85,68 @@ items:
     content: "public Iterator<DeviceUploadDetails> getDevicesStatus()"
     return:
       type: "java.util.Iterator<com.microsoft.store.partnercenter.models.devicesdeployment.DeviceUploadDetails>"
+- uid: "com.microsoft.store.partnercenter.models.devicesdeployment.BatchUploadDetails.getStartedTime()"
+  id: "getStartedTime()"
+  parent: "com.microsoft.store.partnercenter.models.devicesdeployment.BatchUploadDetails"
+  langs:
+  - "java"
+  name: "getStartedTime()"
+  nameWithType: "BatchUploadDetails.getStartedTime()"
+  fullName: "com.microsoft.store.partnercenter.models.devicesdeployment.BatchUploadDetails.getStartedTime()"
+  overload: "com.microsoft.store.partnercenter.models.devicesdeployment.BatchUploadDetails.getStartedTime*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.devicesdeployment"
+  syntax:
+    content: "public DateTime getStartedTime()"
+    return:
+      type: "org.joda.time.DateTime"
+- uid: "com.microsoft.store.partnercenter.models.devicesdeployment.BatchUploadDetails.getStatus()"
+  id: "getStatus()"
+  parent: "com.microsoft.store.partnercenter.models.devicesdeployment.BatchUploadDetails"
+  langs:
+  - "java"
+  name: "getStatus()"
+  nameWithType: "BatchUploadDetails.getStatus()"
+  fullName: "com.microsoft.store.partnercenter.models.devicesdeployment.BatchUploadDetails.getStatus()"
+  overload: "com.microsoft.store.partnercenter.models.devicesdeployment.BatchUploadDetails.getStatus*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.devicesdeployment"
+  syntax:
+    content: "public DeviceUploadStatusType getStatus()"
+    return:
+      type: "com.microsoft.store.partnercenter.models.devicesdeployment.DeviceUploadStatusType"
+- uid: "com.microsoft.store.partnercenter.models.devicesdeployment.BatchUploadDetails.setBatchTrackingId(java.lang.String)"
+  id: "setBatchTrackingId(java.lang.String)"
+  parent: "com.microsoft.store.partnercenter.models.devicesdeployment.BatchUploadDetails"
+  langs:
+  - "java"
+  name: "setBatchTrackingId(String value)"
+  nameWithType: "BatchUploadDetails.setBatchTrackingId(String value)"
+  fullName: "com.microsoft.store.partnercenter.models.devicesdeployment.BatchUploadDetails.setBatchTrackingId(String value)"
+  overload: "com.microsoft.store.partnercenter.models.devicesdeployment.BatchUploadDetails.setBatchTrackingId*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.devicesdeployment"
+  syntax:
+    content: "public void setBatchTrackingId(String value)"
+    parameters:
+    - id: "value"
+      type: "java.lang.String"
+- uid: "com.microsoft.store.partnercenter.models.devicesdeployment.BatchUploadDetails.setCompletedTime(org.joda.time.DateTime)"
+  id: "setCompletedTime(org.joda.time.DateTime)"
+  parent: "com.microsoft.store.partnercenter.models.devicesdeployment.BatchUploadDetails"
+  langs:
+  - "java"
+  name: "setCompletedTime(DateTime value)"
+  nameWithType: "BatchUploadDetails.setCompletedTime(DateTime value)"
+  fullName: "com.microsoft.store.partnercenter.models.devicesdeployment.BatchUploadDetails.setCompletedTime(DateTime value)"
+  overload: "com.microsoft.store.partnercenter.models.devicesdeployment.BatchUploadDetails.setCompletedTime*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.devicesdeployment"
+  syntax:
+    content: "public void setCompletedTime(DateTime value)"
+    parameters:
+    - id: "value"
+      type: "org.joda.time.DateTime"
 - uid: "com.microsoft.store.partnercenter.models.devicesdeployment.BatchUploadDetails.setDevicesStatus(java.util.Iterator<com.microsoft.store.partnercenter.models.devicesdeployment.DeviceUploadDetails>)"
   id: "setDevicesStatus(java.util.Iterator<com.microsoft.store.partnercenter.models.devicesdeployment.DeviceUploadDetails>)"
   parent: "com.microsoft.store.partnercenter.models.devicesdeployment.BatchUploadDetails"
@@ -195,6 +163,38 @@ items:
     parameters:
     - id: "value"
       type: "java.util.Iterator<com.microsoft.store.partnercenter.models.devicesdeployment.DeviceUploadDetails>"
+- uid: "com.microsoft.store.partnercenter.models.devicesdeployment.BatchUploadDetails.setStartedTime(org.joda.time.DateTime)"
+  id: "setStartedTime(org.joda.time.DateTime)"
+  parent: "com.microsoft.store.partnercenter.models.devicesdeployment.BatchUploadDetails"
+  langs:
+  - "java"
+  name: "setStartedTime(DateTime value)"
+  nameWithType: "BatchUploadDetails.setStartedTime(DateTime value)"
+  fullName: "com.microsoft.store.partnercenter.models.devicesdeployment.BatchUploadDetails.setStartedTime(DateTime value)"
+  overload: "com.microsoft.store.partnercenter.models.devicesdeployment.BatchUploadDetails.setStartedTime*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.devicesdeployment"
+  syntax:
+    content: "public void setStartedTime(DateTime value)"
+    parameters:
+    - id: "value"
+      type: "org.joda.time.DateTime"
+- uid: "com.microsoft.store.partnercenter.models.devicesdeployment.BatchUploadDetails.setStatus(com.microsoft.store.partnercenter.models.devicesdeployment.DeviceUploadStatusType)"
+  id: "setStatus(com.microsoft.store.partnercenter.models.devicesdeployment.DeviceUploadStatusType)"
+  parent: "com.microsoft.store.partnercenter.models.devicesdeployment.BatchUploadDetails"
+  langs:
+  - "java"
+  name: "setStatus(DeviceUploadStatusType value)"
+  nameWithType: "BatchUploadDetails.setStatus(DeviceUploadStatusType value)"
+  fullName: "com.microsoft.store.partnercenter.models.devicesdeployment.BatchUploadDetails.setStatus(DeviceUploadStatusType value)"
+  overload: "com.microsoft.store.partnercenter.models.devicesdeployment.BatchUploadDetails.setStatus*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.devicesdeployment"
+  syntax:
+    content: "public void setStatus(DeviceUploadStatusType value)"
+    parameters:
+    - id: "value"
+      type: "com.microsoft.store.partnercenter.models.devicesdeployment.DeviceUploadStatusType"
 references:
 - uid: "com.microsoft.store.partnercenter.models.devicesdeployment.BatchUploadDetails.BatchUploadDetails*"
   name: "BatchUploadDetails"
@@ -254,9 +254,17 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.devicesdeployment.BatchUploadDetails.setCompletedTime"
   package: "com.microsoft.store.partnercenter.models.devicesdeployment"
 - uid: "java.util.Iterator<com.microsoft.store.partnercenter.models.devicesdeployment.DeviceUploadDetails>"
-  name: "Iterator<DeviceUploadDetails>"
-  nameWithType: "Iterator<DeviceUploadDetails>"
-  fullName: "java.util.Iterator<com.microsoft.store.partnercenter.models.devicesdeployment.DeviceUploadDetails>"
+  spec.java:
+  - uid: "java.util.Iterator"
+    name: "java.util.Iterator"
+    fullName: "java.util.Iterator"
+  - name: "<"
+    fullName: "<"
+  - uid: "com.microsoft.store.partnercenter.models.devicesdeployment.DeviceUploadDetails"
+    name: "com.microsoft.store.partnercenter.models.devicesdeployment.DeviceUploadDetails"
+    fullName: "com.microsoft.store.partnercenter.models.devicesdeployment.DeviceUploadDetails"
+  - name: ">"
+    fullName: ">"
 - uid: "com.microsoft.store.partnercenter.models.devicesdeployment.BatchUploadDetails.getDevicesStatus*"
   name: "getDevicesStatus"
   nameWithType: "BatchUploadDetails.getDevicesStatus"

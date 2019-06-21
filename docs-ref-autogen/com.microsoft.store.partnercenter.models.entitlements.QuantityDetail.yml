@@ -6,8 +6,8 @@ items:
   children:
   - "com.microsoft.store.partnercenter.models.entitlements.QuantityDetail.QuantityDetail()"
   - "com.microsoft.store.partnercenter.models.entitlements.QuantityDetail.getQuantity()"
-  - "com.microsoft.store.partnercenter.models.entitlements.QuantityDetail.setQuantity(java.lang.String)"
   - "com.microsoft.store.partnercenter.models.entitlements.QuantityDetail.getStatus()"
+  - "com.microsoft.store.partnercenter.models.entitlements.QuantityDetail.setQuantity(java.lang.String)"
   - "com.microsoft.store.partnercenter.models.entitlements.QuantityDetail.setStatus(java.lang.String)"
   langs:
   - "java"
@@ -49,6 +49,21 @@ items:
     content: "public String getQuantity()"
     return:
       type: "java.lang.String"
+- uid: "com.microsoft.store.partnercenter.models.entitlements.QuantityDetail.getStatus()"
+  id: "getStatus()"
+  parent: "com.microsoft.store.partnercenter.models.entitlements.QuantityDetail"
+  langs:
+  - "java"
+  name: "getStatus()"
+  nameWithType: "QuantityDetail.getStatus()"
+  fullName: "com.microsoft.store.partnercenter.models.entitlements.QuantityDetail.getStatus()"
+  overload: "com.microsoft.store.partnercenter.models.entitlements.QuantityDetail.getStatus*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.entitlements"
+  syntax:
+    content: "public String getStatus()"
+    return:
+      type: "java.lang.String"
 - uid: "com.microsoft.store.partnercenter.models.entitlements.QuantityDetail.setQuantity(java.lang.String)"
   id: "setQuantity(java.lang.String)"
   parent: "com.microsoft.store.partnercenter.models.entitlements.QuantityDetail"
@@ -64,21 +79,6 @@ items:
     content: "public void setQuantity(String value)"
     parameters:
     - id: "value"
-      type: "java.lang.String"
-- uid: "com.microsoft.store.partnercenter.models.entitlements.QuantityDetail.getStatus()"
-  id: "getStatus()"
-  parent: "com.microsoft.store.partnercenter.models.entitlements.QuantityDetail"
-  langs:
-  - "java"
-  name: "getStatus()"
-  nameWithType: "QuantityDetail.getStatus()"
-  fullName: "com.microsoft.store.partnercenter.models.entitlements.QuantityDetail.getStatus()"
-  overload: "com.microsoft.store.partnercenter.models.entitlements.QuantityDetail.getStatus*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.entitlements"
-  syntax:
-    content: "public String getStatus()"
-    return:
       type: "java.lang.String"
 - uid: "com.microsoft.store.partnercenter.models.entitlements.QuantityDetail.setStatus(java.lang.String)"
   id: "setStatus(java.lang.String)"

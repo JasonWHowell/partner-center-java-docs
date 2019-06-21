@@ -6,8 +6,8 @@ items:
   children:
   - "com.microsoft.store.partnercenter.models.StandardResourceCollectionLinks.StandardResourceCollectionLinks()"
   - "com.microsoft.store.partnercenter.models.StandardResourceCollectionLinks.getNext()"
-  - "com.microsoft.store.partnercenter.models.StandardResourceCollectionLinks.setNext(com.microsoft.store.partnercenter.models.Link)"
   - "com.microsoft.store.partnercenter.models.StandardResourceCollectionLinks.getPrevious()"
+  - "com.microsoft.store.partnercenter.models.StandardResourceCollectionLinks.setNext(com.microsoft.store.partnercenter.models.Link)"
   - "com.microsoft.store.partnercenter.models.StandardResourceCollectionLinks.setPrevious(com.microsoft.store.partnercenter.models.Link)"
   langs:
   - "java"
@@ -49,6 +49,21 @@ items:
     content: "public Link getNext()"
     return:
       type: "com.microsoft.store.partnercenter.models.Link"
+- uid: "com.microsoft.store.partnercenter.models.StandardResourceCollectionLinks.getPrevious()"
+  id: "getPrevious()"
+  parent: "com.microsoft.store.partnercenter.models.StandardResourceCollectionLinks"
+  langs:
+  - "java"
+  name: "getPrevious()"
+  nameWithType: "StandardResourceCollectionLinks.getPrevious()"
+  fullName: "com.microsoft.store.partnercenter.models.StandardResourceCollectionLinks.getPrevious()"
+  overload: "com.microsoft.store.partnercenter.models.StandardResourceCollectionLinks.getPrevious*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models"
+  syntax:
+    content: "public Link getPrevious()"
+    return:
+      type: "com.microsoft.store.partnercenter.models.Link"
 - uid: "com.microsoft.store.partnercenter.models.StandardResourceCollectionLinks.setNext(com.microsoft.store.partnercenter.models.Link)"
   id: "setNext(com.microsoft.store.partnercenter.models.Link)"
   parent: "com.microsoft.store.partnercenter.models.StandardResourceCollectionLinks"
@@ -64,21 +79,6 @@ items:
     content: "public void setNext(Link value)"
     parameters:
     - id: "value"
-      type: "com.microsoft.store.partnercenter.models.Link"
-- uid: "com.microsoft.store.partnercenter.models.StandardResourceCollectionLinks.getPrevious()"
-  id: "getPrevious()"
-  parent: "com.microsoft.store.partnercenter.models.StandardResourceCollectionLinks"
-  langs:
-  - "java"
-  name: "getPrevious()"
-  nameWithType: "StandardResourceCollectionLinks.getPrevious()"
-  fullName: "com.microsoft.store.partnercenter.models.StandardResourceCollectionLinks.getPrevious()"
-  overload: "com.microsoft.store.partnercenter.models.StandardResourceCollectionLinks.getPrevious*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models"
-  syntax:
-    content: "public Link getPrevious()"
-    return:
       type: "com.microsoft.store.partnercenter.models.Link"
 - uid: "com.microsoft.store.partnercenter.models.StandardResourceCollectionLinks.setPrevious(com.microsoft.store.partnercenter.models.Link)"
   id: "setPrevious(com.microsoft.store.partnercenter.models.Link)"

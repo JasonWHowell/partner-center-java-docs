@@ -5,8 +5,8 @@ items:
   parent: "com.microsoft.store.partnercenter.models.invoices"
   children:
   - "com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem.InvoiceLineItem()"
-  - "com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem.getInvoiceLineItemType()"
   - "com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem.getBillingProvider()"
+  - "com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem.getInvoiceLineItemType()"
   langs:
   - "java"
   name: "InvoiceLineItem"
@@ -32,23 +32,6 @@ items:
   package: "com.microsoft.store.partnercenter.models.invoices"
   syntax:
     content: "public InvoiceLineItem()"
-- uid: "com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem.getInvoiceLineItemType()"
-  id: "getInvoiceLineItemType()"
-  parent: "com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem"
-  langs:
-  - "java"
-  name: "getInvoiceLineItemType()"
-  nameWithType: "InvoiceLineItem.getInvoiceLineItemType()"
-  fullName: "com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem.getInvoiceLineItemType()"
-  overload: "com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem.getInvoiceLineItemType*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.invoices"
-  summary: "Gets the type of invoice line item."
-  syntax:
-    content: "public abstract InvoiceLineItemType getInvoiceLineItemType()"
-    return:
-      type: "com.microsoft.store.partnercenter.models.invoices.InvoiceLineItemType"
-      description: "The type of invoice line item."
 - uid: "com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem.getBillingProvider()"
   id: "getBillingProvider()"
   parent: "com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem"
@@ -66,6 +49,23 @@ items:
     return:
       type: "com.microsoft.store.partnercenter.models.invoices.BillingProvider"
       description: "The billing provider."
+- uid: "com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem.getInvoiceLineItemType()"
+  id: "getInvoiceLineItemType()"
+  parent: "com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem"
+  langs:
+  - "java"
+  name: "getInvoiceLineItemType()"
+  nameWithType: "InvoiceLineItem.getInvoiceLineItemType()"
+  fullName: "com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem.getInvoiceLineItemType()"
+  overload: "com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem.getInvoiceLineItemType*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.invoices"
+  summary: "Gets the type of invoice line item."
+  syntax:
+    content: "public abstract InvoiceLineItemType getInvoiceLineItemType()"
+    return:
+      type: "com.microsoft.store.partnercenter.models.invoices.InvoiceLineItemType"
+      description: "The type of invoice line item."
 references:
 - uid: "com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem.InvoiceLineItem*"
   name: "InvoiceLineItem"

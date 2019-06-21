@@ -5,9 +5,9 @@ items:
   parent: "com.microsoft.store.partnercenter.logging"
   children:
   - "com.microsoft.store.partnercenter.logging.SystemOutLogger.SystemOutLogger()"
+  - "com.microsoft.store.partnercenter.logging.SystemOutLogger.logError(java.lang.String)"
   - "com.microsoft.store.partnercenter.logging.SystemOutLogger.logInformation(java.lang.String)"
   - "com.microsoft.store.partnercenter.logging.SystemOutLogger.logWarning(java.lang.String)"
-  - "com.microsoft.store.partnercenter.logging.SystemOutLogger.logError(java.lang.String)"
   langs:
   - "java"
   name: "SystemOutLogger"
@@ -35,6 +35,24 @@ items:
   package: "com.microsoft.store.partnercenter.logging"
   syntax:
     content: "public SystemOutLogger()"
+- uid: "com.microsoft.store.partnercenter.logging.SystemOutLogger.logError(java.lang.String)"
+  id: "logError(java.lang.String)"
+  parent: "com.microsoft.store.partnercenter.logging.SystemOutLogger"
+  langs:
+  - "java"
+  name: "logError(String message)"
+  nameWithType: "SystemOutLogger.logError(String message)"
+  fullName: "com.microsoft.store.partnercenter.logging.SystemOutLogger.logError(String message)"
+  overload: "com.microsoft.store.partnercenter.logging.SystemOutLogger.logError*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.logging"
+  summary: "Logs an error."
+  syntax:
+    content: "public void logError(String message)"
+    parameters:
+    - id: "message"
+      type: "java.lang.String"
+      description: "The error message."
 - uid: "com.microsoft.store.partnercenter.logging.SystemOutLogger.logInformation(java.lang.String)"
   id: "logInformation(java.lang.String)"
   parent: "com.microsoft.store.partnercenter.logging.SystemOutLogger"
@@ -71,24 +89,6 @@ items:
     - id: "message"
       type: "java.lang.String"
       description: "The warning message."
-- uid: "com.microsoft.store.partnercenter.logging.SystemOutLogger.logError(java.lang.String)"
-  id: "logError(java.lang.String)"
-  parent: "com.microsoft.store.partnercenter.logging.SystemOutLogger"
-  langs:
-  - "java"
-  name: "logError(String message)"
-  nameWithType: "SystemOutLogger.logError(String message)"
-  fullName: "com.microsoft.store.partnercenter.logging.SystemOutLogger.logError(String message)"
-  overload: "com.microsoft.store.partnercenter.logging.SystemOutLogger.logError*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.logging"
-  summary: "Logs an error."
-  syntax:
-    content: "public void logError(String message)"
-    parameters:
-    - id: "message"
-      type: "java.lang.String"
-      description: "The error message."
 references:
 - uid: "com.microsoft.store.partnercenter.logging.SystemOutLogger.SystemOutLogger*"
   name: "SystemOutLogger"

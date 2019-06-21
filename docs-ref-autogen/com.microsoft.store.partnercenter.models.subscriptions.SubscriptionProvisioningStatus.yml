@@ -5,14 +5,14 @@ items:
   parent: "com.microsoft.store.partnercenter.models.subscriptions"
   children:
   - "com.microsoft.store.partnercenter.models.subscriptions.SubscriptionProvisioningStatus.SubscriptionProvisioningStatus()"
-  - "com.microsoft.store.partnercenter.models.subscriptions.SubscriptionProvisioningStatus.getSkuId()"
-  - "com.microsoft.store.partnercenter.models.subscriptions.SubscriptionProvisioningStatus.setSkuId(java.lang.String)"
-  - "com.microsoft.store.partnercenter.models.subscriptions.SubscriptionProvisioningStatus.getStatus()"
-  - "com.microsoft.store.partnercenter.models.subscriptions.SubscriptionProvisioningStatus.setStatus(com.microsoft.store.partnercenter.models.subscriptions.ProvisioningStatus)"
-  - "com.microsoft.store.partnercenter.models.subscriptions.SubscriptionProvisioningStatus.getQuantity()"
-  - "com.microsoft.store.partnercenter.models.subscriptions.SubscriptionProvisioningStatus.setQuantity(int)"
   - "com.microsoft.store.partnercenter.models.subscriptions.SubscriptionProvisioningStatus.getEndDate()"
+  - "com.microsoft.store.partnercenter.models.subscriptions.SubscriptionProvisioningStatus.getQuantity()"
+  - "com.microsoft.store.partnercenter.models.subscriptions.SubscriptionProvisioningStatus.getSkuId()"
+  - "com.microsoft.store.partnercenter.models.subscriptions.SubscriptionProvisioningStatus.getStatus()"
   - "com.microsoft.store.partnercenter.models.subscriptions.SubscriptionProvisioningStatus.setEndDate(org.joda.time.DateTime)"
+  - "com.microsoft.store.partnercenter.models.subscriptions.SubscriptionProvisioningStatus.setQuantity(int)"
+  - "com.microsoft.store.partnercenter.models.subscriptions.SubscriptionProvisioningStatus.setSkuId(java.lang.String)"
+  - "com.microsoft.store.partnercenter.models.subscriptions.SubscriptionProvisioningStatus.setStatus(com.microsoft.store.partnercenter.models.subscriptions.ProvisioningStatus)"
   langs:
   - "java"
   name: "SubscriptionProvisioningStatus"
@@ -38,6 +38,36 @@ items:
   package: "com.microsoft.store.partnercenter.models.subscriptions"
   syntax:
     content: "public SubscriptionProvisioningStatus()"
+- uid: "com.microsoft.store.partnercenter.models.subscriptions.SubscriptionProvisioningStatus.getEndDate()"
+  id: "getEndDate()"
+  parent: "com.microsoft.store.partnercenter.models.subscriptions.SubscriptionProvisioningStatus"
+  langs:
+  - "java"
+  name: "getEndDate()"
+  nameWithType: "SubscriptionProvisioningStatus.getEndDate()"
+  fullName: "com.microsoft.store.partnercenter.models.subscriptions.SubscriptionProvisioningStatus.getEndDate()"
+  overload: "com.microsoft.store.partnercenter.models.subscriptions.SubscriptionProvisioningStatus.getEndDate*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.subscriptions"
+  syntax:
+    content: "public DateTime getEndDate()"
+    return:
+      type: "org.joda.time.DateTime"
+- uid: "com.microsoft.store.partnercenter.models.subscriptions.SubscriptionProvisioningStatus.getQuantity()"
+  id: "getQuantity()"
+  parent: "com.microsoft.store.partnercenter.models.subscriptions.SubscriptionProvisioningStatus"
+  langs:
+  - "java"
+  name: "getQuantity()"
+  nameWithType: "SubscriptionProvisioningStatus.getQuantity()"
+  fullName: "com.microsoft.store.partnercenter.models.subscriptions.SubscriptionProvisioningStatus.getQuantity()"
+  overload: "com.microsoft.store.partnercenter.models.subscriptions.SubscriptionProvisioningStatus.getQuantity*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.subscriptions"
+  syntax:
+    content: "public int getQuantity()"
+    return:
+      type: "int"
 - uid: "com.microsoft.store.partnercenter.models.subscriptions.SubscriptionProvisioningStatus.getSkuId()"
   id: "getSkuId()"
   parent: "com.microsoft.store.partnercenter.models.subscriptions.SubscriptionProvisioningStatus"
@@ -52,22 +82,6 @@ items:
   syntax:
     content: "public String getSkuId()"
     return:
-      type: "java.lang.String"
-- uid: "com.microsoft.store.partnercenter.models.subscriptions.SubscriptionProvisioningStatus.setSkuId(java.lang.String)"
-  id: "setSkuId(java.lang.String)"
-  parent: "com.microsoft.store.partnercenter.models.subscriptions.SubscriptionProvisioningStatus"
-  langs:
-  - "java"
-  name: "setSkuId(String value)"
-  nameWithType: "SubscriptionProvisioningStatus.setSkuId(String value)"
-  fullName: "com.microsoft.store.partnercenter.models.subscriptions.SubscriptionProvisioningStatus.setSkuId(String value)"
-  overload: "com.microsoft.store.partnercenter.models.subscriptions.SubscriptionProvisioningStatus.setSkuId*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.subscriptions"
-  syntax:
-    content: "public void setSkuId(String value)"
-    parameters:
-    - id: "value"
       type: "java.lang.String"
 - uid: "com.microsoft.store.partnercenter.models.subscriptions.SubscriptionProvisioningStatus.getStatus()"
   id: "getStatus()"
@@ -84,68 +98,6 @@ items:
     content: "public ProvisioningStatus getStatus()"
     return:
       type: "com.microsoft.store.partnercenter.models.subscriptions.ProvisioningStatus"
-- uid: "com.microsoft.store.partnercenter.models.subscriptions.SubscriptionProvisioningStatus.setStatus(com.microsoft.store.partnercenter.models.subscriptions.ProvisioningStatus)"
-  id: "setStatus(com.microsoft.store.partnercenter.models.subscriptions.ProvisioningStatus)"
-  parent: "com.microsoft.store.partnercenter.models.subscriptions.SubscriptionProvisioningStatus"
-  langs:
-  - "java"
-  name: "setStatus(ProvisioningStatus value)"
-  nameWithType: "SubscriptionProvisioningStatus.setStatus(ProvisioningStatus value)"
-  fullName: "com.microsoft.store.partnercenter.models.subscriptions.SubscriptionProvisioningStatus.setStatus(ProvisioningStatus value)"
-  overload: "com.microsoft.store.partnercenter.models.subscriptions.SubscriptionProvisioningStatus.setStatus*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.subscriptions"
-  syntax:
-    content: "public void setStatus(ProvisioningStatus value)"
-    parameters:
-    - id: "value"
-      type: "com.microsoft.store.partnercenter.models.subscriptions.ProvisioningStatus"
-- uid: "com.microsoft.store.partnercenter.models.subscriptions.SubscriptionProvisioningStatus.getQuantity()"
-  id: "getQuantity()"
-  parent: "com.microsoft.store.partnercenter.models.subscriptions.SubscriptionProvisioningStatus"
-  langs:
-  - "java"
-  name: "getQuantity()"
-  nameWithType: "SubscriptionProvisioningStatus.getQuantity()"
-  fullName: "com.microsoft.store.partnercenter.models.subscriptions.SubscriptionProvisioningStatus.getQuantity()"
-  overload: "com.microsoft.store.partnercenter.models.subscriptions.SubscriptionProvisioningStatus.getQuantity*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.subscriptions"
-  syntax:
-    content: "public int getQuantity()"
-    return:
-      type: "int"
-- uid: "com.microsoft.store.partnercenter.models.subscriptions.SubscriptionProvisioningStatus.setQuantity(int)"
-  id: "setQuantity(int)"
-  parent: "com.microsoft.store.partnercenter.models.subscriptions.SubscriptionProvisioningStatus"
-  langs:
-  - "java"
-  name: "setQuantity(int value)"
-  nameWithType: "SubscriptionProvisioningStatus.setQuantity(int value)"
-  fullName: "com.microsoft.store.partnercenter.models.subscriptions.SubscriptionProvisioningStatus.setQuantity(int value)"
-  overload: "com.microsoft.store.partnercenter.models.subscriptions.SubscriptionProvisioningStatus.setQuantity*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.subscriptions"
-  syntax:
-    content: "public void setQuantity(int value)"
-    parameters:
-    - id: "value"
-      type: "int"
-- uid: "com.microsoft.store.partnercenter.models.subscriptions.SubscriptionProvisioningStatus.getEndDate()"
-  id: "getEndDate()"
-  parent: "com.microsoft.store.partnercenter.models.subscriptions.SubscriptionProvisioningStatus"
-  langs:
-  - "java"
-  name: "getEndDate()"
-  nameWithType: "SubscriptionProvisioningStatus.getEndDate()"
-  fullName: "com.microsoft.store.partnercenter.models.subscriptions.SubscriptionProvisioningStatus.getEndDate()"
-  overload: "com.microsoft.store.partnercenter.models.subscriptions.SubscriptionProvisioningStatus.getEndDate*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.subscriptions"
-  syntax:
-    content: "public DateTime getEndDate()"
-    return:
-      type: "org.joda.time.DateTime"
 - uid: "com.microsoft.store.partnercenter.models.subscriptions.SubscriptionProvisioningStatus.setEndDate(org.joda.time.DateTime)"
   id: "setEndDate(org.joda.time.DateTime)"
   parent: "com.microsoft.store.partnercenter.models.subscriptions.SubscriptionProvisioningStatus"
@@ -162,6 +114,54 @@ items:
     parameters:
     - id: "value"
       type: "org.joda.time.DateTime"
+- uid: "com.microsoft.store.partnercenter.models.subscriptions.SubscriptionProvisioningStatus.setQuantity(int)"
+  id: "setQuantity(int)"
+  parent: "com.microsoft.store.partnercenter.models.subscriptions.SubscriptionProvisioningStatus"
+  langs:
+  - "java"
+  name: "setQuantity(int value)"
+  nameWithType: "SubscriptionProvisioningStatus.setQuantity(int value)"
+  fullName: "com.microsoft.store.partnercenter.models.subscriptions.SubscriptionProvisioningStatus.setQuantity(int value)"
+  overload: "com.microsoft.store.partnercenter.models.subscriptions.SubscriptionProvisioningStatus.setQuantity*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.subscriptions"
+  syntax:
+    content: "public void setQuantity(int value)"
+    parameters:
+    - id: "value"
+      type: "int"
+- uid: "com.microsoft.store.partnercenter.models.subscriptions.SubscriptionProvisioningStatus.setSkuId(java.lang.String)"
+  id: "setSkuId(java.lang.String)"
+  parent: "com.microsoft.store.partnercenter.models.subscriptions.SubscriptionProvisioningStatus"
+  langs:
+  - "java"
+  name: "setSkuId(String value)"
+  nameWithType: "SubscriptionProvisioningStatus.setSkuId(String value)"
+  fullName: "com.microsoft.store.partnercenter.models.subscriptions.SubscriptionProvisioningStatus.setSkuId(String value)"
+  overload: "com.microsoft.store.partnercenter.models.subscriptions.SubscriptionProvisioningStatus.setSkuId*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.subscriptions"
+  syntax:
+    content: "public void setSkuId(String value)"
+    parameters:
+    - id: "value"
+      type: "java.lang.String"
+- uid: "com.microsoft.store.partnercenter.models.subscriptions.SubscriptionProvisioningStatus.setStatus(com.microsoft.store.partnercenter.models.subscriptions.ProvisioningStatus)"
+  id: "setStatus(com.microsoft.store.partnercenter.models.subscriptions.ProvisioningStatus)"
+  parent: "com.microsoft.store.partnercenter.models.subscriptions.SubscriptionProvisioningStatus"
+  langs:
+  - "java"
+  name: "setStatus(ProvisioningStatus value)"
+  nameWithType: "SubscriptionProvisioningStatus.setStatus(ProvisioningStatus value)"
+  fullName: "com.microsoft.store.partnercenter.models.subscriptions.SubscriptionProvisioningStatus.setStatus(ProvisioningStatus value)"
+  overload: "com.microsoft.store.partnercenter.models.subscriptions.SubscriptionProvisioningStatus.setStatus*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.subscriptions"
+  syntax:
+    content: "public void setStatus(ProvisioningStatus value)"
+    parameters:
+    - id: "value"
+      type: "com.microsoft.store.partnercenter.models.subscriptions.ProvisioningStatus"
 references:
 - uid: "com.microsoft.store.partnercenter.models.subscriptions.SubscriptionProvisioningStatus.SubscriptionProvisioningStatus*"
   name: "SubscriptionProvisioningStatus"

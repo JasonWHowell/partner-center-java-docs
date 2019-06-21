@@ -5,9 +5,9 @@ items:
   parent: "com.microsoft.store.partnercenter.models"
   children:
   - "com.microsoft.store.partnercenter.models.Contract.Contract()"
+  - "com.microsoft.store.partnercenter.models.Contract.getContractType()"
   - "com.microsoft.store.partnercenter.models.Contract.getOrderId()"
   - "com.microsoft.store.partnercenter.models.Contract.setOrderId(java.lang.String)"
-  - "com.microsoft.store.partnercenter.models.Contract.getContractType()"
   langs:
   - "java"
   name: "Contract"
@@ -33,6 +33,23 @@ items:
   package: "com.microsoft.store.partnercenter.models"
   syntax:
     content: "protected Contract()"
+- uid: "com.microsoft.store.partnercenter.models.Contract.getContractType()"
+  id: "getContractType()"
+  parent: "com.microsoft.store.partnercenter.models.Contract"
+  langs:
+  - "java"
+  name: "getContractType()"
+  nameWithType: "Contract.getContractType()"
+  fullName: "com.microsoft.store.partnercenter.models.Contract.getContractType()"
+  overload: "com.microsoft.store.partnercenter.models.Contract.getContractType*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models"
+  summary: "Gets the contract type."
+  syntax:
+    content: "public abstract ContractType getContractType()"
+    return:
+      type: "com.microsoft.store.partnercenter.models.ContractType"
+      description: "The contract type."
 - uid: "com.microsoft.store.partnercenter.models.Contract.getOrderId()"
   id: "getOrderId()"
   parent: "com.microsoft.store.partnercenter.models.Contract"
@@ -68,23 +85,6 @@ items:
     - id: "value"
       type: "java.lang.String"
       description: "The order identifier."
-- uid: "com.microsoft.store.partnercenter.models.Contract.getContractType()"
-  id: "getContractType()"
-  parent: "com.microsoft.store.partnercenter.models.Contract"
-  langs:
-  - "java"
-  name: "getContractType()"
-  nameWithType: "Contract.getContractType()"
-  fullName: "com.microsoft.store.partnercenter.models.Contract.getContractType()"
-  overload: "com.microsoft.store.partnercenter.models.Contract.getContractType*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models"
-  summary: "Gets the contract type."
-  syntax:
-    content: "public abstract ContractType getContractType()"
-    return:
-      type: "com.microsoft.store.partnercenter.models.ContractType"
-      description: "The contract type."
 references:
 - uid: "com.microsoft.store.partnercenter.models.Contract.Contract*"
   name: "Contract"

@@ -6,12 +6,12 @@ items:
   children:
   - "com.microsoft.store.partnercenter.models.analytics.CustomerLicensesInsightsBase.CustomerLicensesInsightsBase()"
   - "com.microsoft.store.partnercenter.models.analytics.CustomerLicensesInsightsBase.getCustomerId()"
-  - "com.microsoft.store.partnercenter.models.analytics.CustomerLicensesInsightsBase.setCustomerId(java.lang.String)"
   - "com.microsoft.store.partnercenter.models.analytics.CustomerLicensesInsightsBase.getCustomerName()"
-  - "com.microsoft.store.partnercenter.models.analytics.CustomerLicensesInsightsBase.setCustomerName(java.lang.String)"
   - "com.microsoft.store.partnercenter.models.analytics.CustomerLicensesInsightsBase.getProductName()"
-  - "com.microsoft.store.partnercenter.models.analytics.CustomerLicensesInsightsBase.setProductName(java.lang.String)"
   - "com.microsoft.store.partnercenter.models.analytics.CustomerLicensesInsightsBase.getServiceCode()"
+  - "com.microsoft.store.partnercenter.models.analytics.CustomerLicensesInsightsBase.setCustomerId(java.lang.String)"
+  - "com.microsoft.store.partnercenter.models.analytics.CustomerLicensesInsightsBase.setCustomerName(java.lang.String)"
+  - "com.microsoft.store.partnercenter.models.analytics.CustomerLicensesInsightsBase.setProductName(java.lang.String)"
   - "com.microsoft.store.partnercenter.models.analytics.CustomerLicensesInsightsBase.setServiceCode(java.lang.String)"
   langs:
   - "java"
@@ -53,6 +53,51 @@ items:
     content: "public String getCustomerId()"
     return:
       type: "java.lang.String"
+- uid: "com.microsoft.store.partnercenter.models.analytics.CustomerLicensesInsightsBase.getCustomerName()"
+  id: "getCustomerName()"
+  parent: "com.microsoft.store.partnercenter.models.analytics.CustomerLicensesInsightsBase"
+  langs:
+  - "java"
+  name: "getCustomerName()"
+  nameWithType: "CustomerLicensesInsightsBase.getCustomerName()"
+  fullName: "com.microsoft.store.partnercenter.models.analytics.CustomerLicensesInsightsBase.getCustomerName()"
+  overload: "com.microsoft.store.partnercenter.models.analytics.CustomerLicensesInsightsBase.getCustomerName*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.analytics"
+  syntax:
+    content: "public String getCustomerName()"
+    return:
+      type: "java.lang.String"
+- uid: "com.microsoft.store.partnercenter.models.analytics.CustomerLicensesInsightsBase.getProductName()"
+  id: "getProductName()"
+  parent: "com.microsoft.store.partnercenter.models.analytics.CustomerLicensesInsightsBase"
+  langs:
+  - "java"
+  name: "getProductName()"
+  nameWithType: "CustomerLicensesInsightsBase.getProductName()"
+  fullName: "com.microsoft.store.partnercenter.models.analytics.CustomerLicensesInsightsBase.getProductName()"
+  overload: "com.microsoft.store.partnercenter.models.analytics.CustomerLicensesInsightsBase.getProductName*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.analytics"
+  syntax:
+    content: "public String getProductName()"
+    return:
+      type: "java.lang.String"
+- uid: "com.microsoft.store.partnercenter.models.analytics.CustomerLicensesInsightsBase.getServiceCode()"
+  id: "getServiceCode()"
+  parent: "com.microsoft.store.partnercenter.models.analytics.CustomerLicensesInsightsBase"
+  langs:
+  - "java"
+  name: "getServiceCode()"
+  nameWithType: "CustomerLicensesInsightsBase.getServiceCode()"
+  fullName: "com.microsoft.store.partnercenter.models.analytics.CustomerLicensesInsightsBase.getServiceCode()"
+  overload: "com.microsoft.store.partnercenter.models.analytics.CustomerLicensesInsightsBase.getServiceCode*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.analytics"
+  syntax:
+    content: "public String getServiceCode()"
+    return:
+      type: "java.lang.String"
 - uid: "com.microsoft.store.partnercenter.models.analytics.CustomerLicensesInsightsBase.setCustomerId(java.lang.String)"
   id: "setCustomerId(java.lang.String)"
   parent: "com.microsoft.store.partnercenter.models.analytics.CustomerLicensesInsightsBase"
@@ -68,21 +113,6 @@ items:
     content: "public void setCustomerId(String value)"
     parameters:
     - id: "value"
-      type: "java.lang.String"
-- uid: "com.microsoft.store.partnercenter.models.analytics.CustomerLicensesInsightsBase.getCustomerName()"
-  id: "getCustomerName()"
-  parent: "com.microsoft.store.partnercenter.models.analytics.CustomerLicensesInsightsBase"
-  langs:
-  - "java"
-  name: "getCustomerName()"
-  nameWithType: "CustomerLicensesInsightsBase.getCustomerName()"
-  fullName: "com.microsoft.store.partnercenter.models.analytics.CustomerLicensesInsightsBase.getCustomerName()"
-  overload: "com.microsoft.store.partnercenter.models.analytics.CustomerLicensesInsightsBase.getCustomerName*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.analytics"
-  syntax:
-    content: "public String getCustomerName()"
-    return:
       type: "java.lang.String"
 - uid: "com.microsoft.store.partnercenter.models.analytics.CustomerLicensesInsightsBase.setCustomerName(java.lang.String)"
   id: "setCustomerName(java.lang.String)"
@@ -100,21 +130,6 @@ items:
     parameters:
     - id: "value"
       type: "java.lang.String"
-- uid: "com.microsoft.store.partnercenter.models.analytics.CustomerLicensesInsightsBase.getProductName()"
-  id: "getProductName()"
-  parent: "com.microsoft.store.partnercenter.models.analytics.CustomerLicensesInsightsBase"
-  langs:
-  - "java"
-  name: "getProductName()"
-  nameWithType: "CustomerLicensesInsightsBase.getProductName()"
-  fullName: "com.microsoft.store.partnercenter.models.analytics.CustomerLicensesInsightsBase.getProductName()"
-  overload: "com.microsoft.store.partnercenter.models.analytics.CustomerLicensesInsightsBase.getProductName*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.analytics"
-  syntax:
-    content: "public String getProductName()"
-    return:
-      type: "java.lang.String"
 - uid: "com.microsoft.store.partnercenter.models.analytics.CustomerLicensesInsightsBase.setProductName(java.lang.String)"
   id: "setProductName(java.lang.String)"
   parent: "com.microsoft.store.partnercenter.models.analytics.CustomerLicensesInsightsBase"
@@ -130,21 +145,6 @@ items:
     content: "public void setProductName(String value)"
     parameters:
     - id: "value"
-      type: "java.lang.String"
-- uid: "com.microsoft.store.partnercenter.models.analytics.CustomerLicensesInsightsBase.getServiceCode()"
-  id: "getServiceCode()"
-  parent: "com.microsoft.store.partnercenter.models.analytics.CustomerLicensesInsightsBase"
-  langs:
-  - "java"
-  name: "getServiceCode()"
-  nameWithType: "CustomerLicensesInsightsBase.getServiceCode()"
-  fullName: "com.microsoft.store.partnercenter.models.analytics.CustomerLicensesInsightsBase.getServiceCode()"
-  overload: "com.microsoft.store.partnercenter.models.analytics.CustomerLicensesInsightsBase.getServiceCode*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.analytics"
-  syntax:
-    content: "public String getServiceCode()"
-    return:
       type: "java.lang.String"
 - uid: "com.microsoft.store.partnercenter.models.analytics.CustomerLicensesInsightsBase.setServiceCode(java.lang.String)"
   id: "setServiceCode(java.lang.String)"

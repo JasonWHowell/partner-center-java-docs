@@ -6,8 +6,8 @@ items:
   children:
   - "com.microsoft.store.partnercenter.models.entitlements.ReservedInstanceArtifact.ReservedInstanceArtifact()"
   - "com.microsoft.store.partnercenter.models.entitlements.ReservedInstanceArtifact.getLink()"
-  - "com.microsoft.store.partnercenter.models.entitlements.ReservedInstanceArtifact.setLink(com.microsoft.store.partnercenter.models.Link)"
   - "com.microsoft.store.partnercenter.models.entitlements.ReservedInstanceArtifact.getResourceId()"
+  - "com.microsoft.store.partnercenter.models.entitlements.ReservedInstanceArtifact.setLink(com.microsoft.store.partnercenter.models.Link)"
   - "com.microsoft.store.partnercenter.models.entitlements.ReservedInstanceArtifact.setResourceId(java.lang.String)"
   langs:
   - "java"
@@ -51,6 +51,23 @@ items:
     return:
       type: "com.microsoft.store.partnercenter.models.Link"
       description: "The link for the reserved instance artifact."
+- uid: "com.microsoft.store.partnercenter.models.entitlements.ReservedInstanceArtifact.getResourceId()"
+  id: "getResourceId()"
+  parent: "com.microsoft.store.partnercenter.models.entitlements.ReservedInstanceArtifact"
+  langs:
+  - "java"
+  name: "getResourceId()"
+  nameWithType: "ReservedInstanceArtifact.getResourceId()"
+  fullName: "com.microsoft.store.partnercenter.models.entitlements.ReservedInstanceArtifact.getResourceId()"
+  overload: "com.microsoft.store.partnercenter.models.entitlements.ReservedInstanceArtifact.getResourceId*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.entitlements"
+  summary: "Gets the resource identifier for the reserved instance artifact."
+  syntax:
+    content: "public String getResourceId()"
+    return:
+      type: "java.lang.String"
+      description: "The resource identifier for the reserved instance artifact."
 - uid: "com.microsoft.store.partnercenter.models.entitlements.ReservedInstanceArtifact.setLink(com.microsoft.store.partnercenter.models.Link)"
   id: "setLink(com.microsoft.store.partnercenter.models.Link)"
   parent: "com.microsoft.store.partnercenter.models.entitlements.ReservedInstanceArtifact"
@@ -69,23 +86,6 @@ items:
     - id: "value"
       type: "com.microsoft.store.partnercenter.models.Link"
       description: "The link for the reserved instance artifact."
-- uid: "com.microsoft.store.partnercenter.models.entitlements.ReservedInstanceArtifact.getResourceId()"
-  id: "getResourceId()"
-  parent: "com.microsoft.store.partnercenter.models.entitlements.ReservedInstanceArtifact"
-  langs:
-  - "java"
-  name: "getResourceId()"
-  nameWithType: "ReservedInstanceArtifact.getResourceId()"
-  fullName: "com.microsoft.store.partnercenter.models.entitlements.ReservedInstanceArtifact.getResourceId()"
-  overload: "com.microsoft.store.partnercenter.models.entitlements.ReservedInstanceArtifact.getResourceId*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.entitlements"
-  summary: "Gets the resource identifier for the reserved instance artifact."
-  syntax:
-    content: "public String getResourceId()"
-    return:
-      type: "java.lang.String"
-      description: "The resource identifier for the reserved instance artifact."
 - uid: "com.microsoft.store.partnercenter.models.entitlements.ReservedInstanceArtifact.setResourceId(java.lang.String)"
   id: "setResourceId(java.lang.String)"
   parent: "com.microsoft.store.partnercenter.models.entitlements.ReservedInstanceArtifact"

@@ -4,12 +4,12 @@ items:
   id: "LicenseGroupId"
   parent: "com.microsoft.store.partnercenter.models.licenses"
   children:
-  - "com.microsoft.store.partnercenter.models.licenses.LicenseGroupId.values()"
-  - "com.microsoft.store.partnercenter.models.licenses.LicenseGroupId.valueOf(java.lang.String)"
-  - "com.microsoft.store.partnercenter.models.licenses.LicenseGroupId.toString()"
-  - "com.microsoft.store.partnercenter.models.licenses.LicenseGroupId.NONE"
   - "com.microsoft.store.partnercenter.models.licenses.LicenseGroupId.GROUP1"
   - "com.microsoft.store.partnercenter.models.licenses.LicenseGroupId.GROUP2"
+  - "com.microsoft.store.partnercenter.models.licenses.LicenseGroupId.NONE"
+  - "com.microsoft.store.partnercenter.models.licenses.LicenseGroupId.toString()"
+  - "com.microsoft.store.partnercenter.models.licenses.LicenseGroupId.valueOf(java.lang.String)"
+  - "com.microsoft.store.partnercenter.models.licenses.LicenseGroupId.values()"
   langs:
   - "java"
   name: "LicenseGroupId"
@@ -22,87 +22,6 @@ items:
     content: "public enum LicenseGroupId extends Enum<LicenseGroupId>"
   inheritance:
   - "java.lang.Enum<com.microsoft.store.partnercenter.models.licenses.LicenseGroupId>"
-- uid: "com.microsoft.store.partnercenter.models.licenses.LicenseGroupId.LicenseGroupId(java.lang.String)"
-  id: "LicenseGroupId(java.lang.String)"
-  parent: "com.microsoft.store.partnercenter.models.licenses.LicenseGroupId"
-  langs:
-  - "java"
-  name: "LicenseGroupId(String value)"
-  nameWithType: "LicenseGroupId.LicenseGroupId(String value)"
-  fullName: "com.microsoft.store.partnercenter.models.licenses.LicenseGroupId.LicenseGroupId(String value)"
-  overload: "com.microsoft.store.partnercenter.models.licenses.LicenseGroupId.LicenseGroupId*"
-  type: "Constructor"
-  package: "com.microsoft.store.partnercenter.models.licenses"
-  syntax:
-    content: "private LicenseGroupId(String value)"
-    parameters:
-    - id: "value"
-      type: "java.lang.String"
-- uid: "com.microsoft.store.partnercenter.models.licenses.LicenseGroupId.values()"
-  id: "values()"
-  parent: "com.microsoft.store.partnercenter.models.licenses.LicenseGroupId"
-  langs:
-  - "java"
-  name: "values()"
-  nameWithType: "LicenseGroupId.values()"
-  fullName: "com.microsoft.store.partnercenter.models.licenses.LicenseGroupId.values()"
-  overload: "com.microsoft.store.partnercenter.models.licenses.LicenseGroupId.values*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.licenses"
-  syntax:
-    content: "public static LicenseGroupId[] values()"
-    return:
-      type: "com.microsoft.store.partnercenter.models.licenses.LicenseGroupId[]"
-- uid: "com.microsoft.store.partnercenter.models.licenses.LicenseGroupId.valueOf(java.lang.String)"
-  id: "valueOf(java.lang.String)"
-  parent: "com.microsoft.store.partnercenter.models.licenses.LicenseGroupId"
-  langs:
-  - "java"
-  name: "valueOf(String name)"
-  nameWithType: "LicenseGroupId.valueOf(String name)"
-  fullName: "com.microsoft.store.partnercenter.models.licenses.LicenseGroupId.valueOf(String name)"
-  overload: "com.microsoft.store.partnercenter.models.licenses.LicenseGroupId.valueOf*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.licenses"
-  syntax:
-    content: "public static LicenseGroupId valueOf(String name)"
-    parameters:
-    - id: "name"
-      type: "java.lang.String"
-    return:
-      type: "com.microsoft.store.partnercenter.models.licenses.LicenseGroupId"
-- uid: "com.microsoft.store.partnercenter.models.licenses.LicenseGroupId.toString()"
-  id: "toString()"
-  parent: "com.microsoft.store.partnercenter.models.licenses.LicenseGroupId"
-  langs:
-  - "java"
-  name: "toString()"
-  nameWithType: "LicenseGroupId.toString()"
-  fullName: "com.microsoft.store.partnercenter.models.licenses.LicenseGroupId.toString()"
-  overload: "com.microsoft.store.partnercenter.models.licenses.LicenseGroupId.toString*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.licenses"
-  summary: "Converts the object to a string."
-  syntax:
-    content: "public String toString()"
-    return:
-      type: "java.lang.String"
-      description: "A string that represents this object."
-- uid: "com.microsoft.store.partnercenter.models.licenses.LicenseGroupId.NONE"
-  id: "NONE"
-  parent: "com.microsoft.store.partnercenter.models.licenses.LicenseGroupId"
-  langs:
-  - "java"
-  name: "NONE"
-  nameWithType: "LicenseGroupId.NONE"
-  fullName: "com.microsoft.store.partnercenter.models.licenses.LicenseGroupId.NONE"
-  type: "Field"
-  package: "com.microsoft.store.partnercenter.models.licenses"
-  summary: "Indicates nothing - no type, used as an initializer. If any invalid value is passed, then it will be defaulted to this."
-  syntax:
-    content: "public static final LicenseGroupId NONE"
-    return:
-      type: "com.microsoft.store.partnercenter.models.licenses.LicenseGroupId"
 - uid: "com.microsoft.store.partnercenter.models.licenses.LicenseGroupId.GROUP1"
   id: "GROUP1"
   parent: "com.microsoft.store.partnercenter.models.licenses.LicenseGroupId"
@@ -133,6 +52,87 @@ items:
     content: "public static final LicenseGroupId GROUP2"
     return:
       type: "com.microsoft.store.partnercenter.models.licenses.LicenseGroupId"
+- uid: "com.microsoft.store.partnercenter.models.licenses.LicenseGroupId.LicenseGroupId(java.lang.String)"
+  id: "LicenseGroupId(java.lang.String)"
+  parent: "com.microsoft.store.partnercenter.models.licenses.LicenseGroupId"
+  langs:
+  - "java"
+  name: "LicenseGroupId(String value)"
+  nameWithType: "LicenseGroupId.LicenseGroupId(String value)"
+  fullName: "com.microsoft.store.partnercenter.models.licenses.LicenseGroupId.LicenseGroupId(String value)"
+  overload: "com.microsoft.store.partnercenter.models.licenses.LicenseGroupId.LicenseGroupId*"
+  type: "Constructor"
+  package: "com.microsoft.store.partnercenter.models.licenses"
+  syntax:
+    content: "private LicenseGroupId(String value)"
+    parameters:
+    - id: "value"
+      type: "java.lang.String"
+- uid: "com.microsoft.store.partnercenter.models.licenses.LicenseGroupId.NONE"
+  id: "NONE"
+  parent: "com.microsoft.store.partnercenter.models.licenses.LicenseGroupId"
+  langs:
+  - "java"
+  name: "NONE"
+  nameWithType: "LicenseGroupId.NONE"
+  fullName: "com.microsoft.store.partnercenter.models.licenses.LicenseGroupId.NONE"
+  type: "Field"
+  package: "com.microsoft.store.partnercenter.models.licenses"
+  summary: "Indicates nothing - no type, used as an initializer. If any invalid value is passed, then it will be defaulted to this."
+  syntax:
+    content: "public static final LicenseGroupId NONE"
+    return:
+      type: "com.microsoft.store.partnercenter.models.licenses.LicenseGroupId"
+- uid: "com.microsoft.store.partnercenter.models.licenses.LicenseGroupId.toString()"
+  id: "toString()"
+  parent: "com.microsoft.store.partnercenter.models.licenses.LicenseGroupId"
+  langs:
+  - "java"
+  name: "toString()"
+  nameWithType: "LicenseGroupId.toString()"
+  fullName: "com.microsoft.store.partnercenter.models.licenses.LicenseGroupId.toString()"
+  overload: "com.microsoft.store.partnercenter.models.licenses.LicenseGroupId.toString*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.licenses"
+  summary: "Converts the object to a string."
+  syntax:
+    content: "public String toString()"
+    return:
+      type: "java.lang.String"
+      description: "A string that represents this object."
+- uid: "com.microsoft.store.partnercenter.models.licenses.LicenseGroupId.valueOf(java.lang.String)"
+  id: "valueOf(java.lang.String)"
+  parent: "com.microsoft.store.partnercenter.models.licenses.LicenseGroupId"
+  langs:
+  - "java"
+  name: "valueOf(String name)"
+  nameWithType: "LicenseGroupId.valueOf(String name)"
+  fullName: "com.microsoft.store.partnercenter.models.licenses.LicenseGroupId.valueOf(String name)"
+  overload: "com.microsoft.store.partnercenter.models.licenses.LicenseGroupId.valueOf*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.licenses"
+  syntax:
+    content: "public static LicenseGroupId valueOf(String name)"
+    parameters:
+    - id: "name"
+      type: "java.lang.String"
+    return:
+      type: "com.microsoft.store.partnercenter.models.licenses.LicenseGroupId"
+- uid: "com.microsoft.store.partnercenter.models.licenses.LicenseGroupId.values()"
+  id: "values()"
+  parent: "com.microsoft.store.partnercenter.models.licenses.LicenseGroupId"
+  langs:
+  - "java"
+  name: "values()"
+  nameWithType: "LicenseGroupId.values()"
+  fullName: "com.microsoft.store.partnercenter.models.licenses.LicenseGroupId.values()"
+  overload: "com.microsoft.store.partnercenter.models.licenses.LicenseGroupId.values*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.licenses"
+  syntax:
+    content: "public static LicenseGroupId[] values()"
+    return:
+      type: "com.microsoft.store.partnercenter.models.licenses.LicenseGroupId[]"
 references:
 - uid: "java.lang.String"
   name: "String"

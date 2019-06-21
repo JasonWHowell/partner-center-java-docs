@@ -4,8 +4,8 @@ items:
   id: "IDevice"
   parent: "com.microsoft.store.partnercenter.devicesdeployment"
   children:
-  - "com.microsoft.store.partnercenter.devicesdeployment.IDevice.patch(com.microsoft.store.partnercenter.models.devicesdeployment.Device)"
   - "com.microsoft.store.partnercenter.devicesdeployment.IDevice.delete()"
+  - "com.microsoft.store.partnercenter.devicesdeployment.IDevice.patch(com.microsoft.store.partnercenter.models.devicesdeployment.Device)"
   langs:
   - "java"
   name: "IDevice"
@@ -20,6 +20,20 @@ items:
   - "com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.TripletTuple<java.lang.String,java.lang.String,java.lang.String>>"
   - "com.microsoft.store.partnercenter.genericoperations.IEntityDeleteOperations<com.microsoft.store.partnercenter.models.devicesdeployment.Device>"
   - "com.microsoft.store.partnercenter.genericoperations.IEntityPatchOperations<com.microsoft.store.partnercenter.models.devicesdeployment.Device>"
+- uid: "com.microsoft.store.partnercenter.devicesdeployment.IDevice.delete()"
+  id: "delete()"
+  parent: "com.microsoft.store.partnercenter.devicesdeployment.IDevice"
+  langs:
+  - "java"
+  name: "delete()"
+  nameWithType: "IDevice.delete()"
+  fullName: "com.microsoft.store.partnercenter.devicesdeployment.IDevice.delete()"
+  overload: "com.microsoft.store.partnercenter.devicesdeployment.IDevice.delete*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.devicesdeployment"
+  summary: "Deletes the device."
+  syntax:
+    content: "public abstract void delete()"
 - uid: "com.microsoft.store.partnercenter.devicesdeployment.IDevice.patch(com.microsoft.store.partnercenter.models.devicesdeployment.Device)"
   id: "patch(com.microsoft.store.partnercenter.models.devicesdeployment.Device)"
   parent: "com.microsoft.store.partnercenter.devicesdeployment.IDevice"
@@ -41,20 +55,6 @@ items:
     return:
       type: "com.microsoft.store.partnercenter.models.devicesdeployment.Device"
       description: "The device that was updated."
-- uid: "com.microsoft.store.partnercenter.devicesdeployment.IDevice.delete()"
-  id: "delete()"
-  parent: "com.microsoft.store.partnercenter.devicesdeployment.IDevice"
-  langs:
-  - "java"
-  name: "delete()"
-  nameWithType: "IDevice.delete()"
-  fullName: "com.microsoft.store.partnercenter.devicesdeployment.IDevice.delete()"
-  overload: "com.microsoft.store.partnercenter.devicesdeployment.IDevice.delete*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.devicesdeployment"
-  summary: "Deletes the device."
-  syntax:
-    content: "public abstract void delete()"
 references:
 - uid: "com.microsoft.store.partnercenter.models.devicesdeployment.Device"
   name: "Device"

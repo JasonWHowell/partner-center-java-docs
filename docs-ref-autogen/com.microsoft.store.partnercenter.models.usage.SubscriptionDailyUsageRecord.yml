@@ -5,14 +5,14 @@ items:
   parent: "com.microsoft.store.partnercenter.models.usage"
   children:
   - "com.microsoft.store.partnercenter.models.usage.SubscriptionDailyUsageRecord.SubscriptionDailyUsageRecord()"
-  - "com.microsoft.store.partnercenter.models.usage.SubscriptionDailyUsageRecord.getResourceId()"
-  - "com.microsoft.store.partnercenter.models.usage.SubscriptionDailyUsageRecord.setResourceId(java.lang.String)"
-  - "com.microsoft.store.partnercenter.models.usage.SubscriptionDailyUsageRecord.getResourceName()"
-  - "com.microsoft.store.partnercenter.models.usage.SubscriptionDailyUsageRecord.setResourceName(java.lang.String)"
-  - "com.microsoft.store.partnercenter.models.usage.SubscriptionDailyUsageRecord.getTotalCost()"
-  - "com.microsoft.store.partnercenter.models.usage.SubscriptionDailyUsageRecord.setTotalCost(double)"
   - "com.microsoft.store.partnercenter.models.usage.SubscriptionDailyUsageRecord.getDateUsed()"
+  - "com.microsoft.store.partnercenter.models.usage.SubscriptionDailyUsageRecord.getResourceId()"
+  - "com.microsoft.store.partnercenter.models.usage.SubscriptionDailyUsageRecord.getResourceName()"
+  - "com.microsoft.store.partnercenter.models.usage.SubscriptionDailyUsageRecord.getTotalCost()"
   - "com.microsoft.store.partnercenter.models.usage.SubscriptionDailyUsageRecord.setDateUsed(org.joda.time.DateTime)"
+  - "com.microsoft.store.partnercenter.models.usage.SubscriptionDailyUsageRecord.setResourceId(java.lang.String)"
+  - "com.microsoft.store.partnercenter.models.usage.SubscriptionDailyUsageRecord.setResourceName(java.lang.String)"
+  - "com.microsoft.store.partnercenter.models.usage.SubscriptionDailyUsageRecord.setTotalCost(double)"
   langs:
   - "java"
   name: "SubscriptionDailyUsageRecord"
@@ -38,6 +38,21 @@ items:
   package: "com.microsoft.store.partnercenter.models.usage"
   syntax:
     content: "public SubscriptionDailyUsageRecord()"
+- uid: "com.microsoft.store.partnercenter.models.usage.SubscriptionDailyUsageRecord.getDateUsed()"
+  id: "getDateUsed()"
+  parent: "com.microsoft.store.partnercenter.models.usage.SubscriptionDailyUsageRecord"
+  langs:
+  - "java"
+  name: "getDateUsed()"
+  nameWithType: "SubscriptionDailyUsageRecord.getDateUsed()"
+  fullName: "com.microsoft.store.partnercenter.models.usage.SubscriptionDailyUsageRecord.getDateUsed()"
+  overload: "com.microsoft.store.partnercenter.models.usage.SubscriptionDailyUsageRecord.getDateUsed*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.usage"
+  syntax:
+    content: "public DateTime getDateUsed()"
+    return:
+      type: "org.joda.time.DateTime"
 - uid: "com.microsoft.store.partnercenter.models.usage.SubscriptionDailyUsageRecord.getResourceId()"
   id: "getResourceId()"
   parent: "com.microsoft.store.partnercenter.models.usage.SubscriptionDailyUsageRecord"
@@ -53,6 +68,52 @@ items:
     content: "public String getResourceId()"
     return:
       type: "java.lang.String"
+- uid: "com.microsoft.store.partnercenter.models.usage.SubscriptionDailyUsageRecord.getResourceName()"
+  id: "getResourceName()"
+  parent: "com.microsoft.store.partnercenter.models.usage.SubscriptionDailyUsageRecord"
+  langs:
+  - "java"
+  name: "getResourceName()"
+  nameWithType: "SubscriptionDailyUsageRecord.getResourceName()"
+  fullName: "com.microsoft.store.partnercenter.models.usage.SubscriptionDailyUsageRecord.getResourceName()"
+  overload: "com.microsoft.store.partnercenter.models.usage.SubscriptionDailyUsageRecord.getResourceName*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.usage"
+  syntax:
+    content: "public String getResourceName()"
+    return:
+      type: "java.lang.String"
+- uid: "com.microsoft.store.partnercenter.models.usage.SubscriptionDailyUsageRecord.getTotalCost()"
+  id: "getTotalCost()"
+  parent: "com.microsoft.store.partnercenter.models.usage.SubscriptionDailyUsageRecord"
+  langs:
+  - "java"
+  name: "getTotalCost()"
+  nameWithType: "SubscriptionDailyUsageRecord.getTotalCost()"
+  fullName: "com.microsoft.store.partnercenter.models.usage.SubscriptionDailyUsageRecord.getTotalCost()"
+  overload: "com.microsoft.store.partnercenter.models.usage.SubscriptionDailyUsageRecord.getTotalCost*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.usage"
+  syntax:
+    content: "public double getTotalCost()"
+    return:
+      type: "double"
+- uid: "com.microsoft.store.partnercenter.models.usage.SubscriptionDailyUsageRecord.setDateUsed(org.joda.time.DateTime)"
+  id: "setDateUsed(org.joda.time.DateTime)"
+  parent: "com.microsoft.store.partnercenter.models.usage.SubscriptionDailyUsageRecord"
+  langs:
+  - "java"
+  name: "setDateUsed(DateTime value)"
+  nameWithType: "SubscriptionDailyUsageRecord.setDateUsed(DateTime value)"
+  fullName: "com.microsoft.store.partnercenter.models.usage.SubscriptionDailyUsageRecord.setDateUsed(DateTime value)"
+  overload: "com.microsoft.store.partnercenter.models.usage.SubscriptionDailyUsageRecord.setDateUsed*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.usage"
+  syntax:
+    content: "public void setDateUsed(DateTime value)"
+    parameters:
+    - id: "value"
+      type: "org.joda.time.DateTime"
 - uid: "com.microsoft.store.partnercenter.models.usage.SubscriptionDailyUsageRecord.setResourceId(java.lang.String)"
   id: "setResourceId(java.lang.String)"
   parent: "com.microsoft.store.partnercenter.models.usage.SubscriptionDailyUsageRecord"
@@ -68,21 +129,6 @@ items:
     content: "public void setResourceId(String value)"
     parameters:
     - id: "value"
-      type: "java.lang.String"
-- uid: "com.microsoft.store.partnercenter.models.usage.SubscriptionDailyUsageRecord.getResourceName()"
-  id: "getResourceName()"
-  parent: "com.microsoft.store.partnercenter.models.usage.SubscriptionDailyUsageRecord"
-  langs:
-  - "java"
-  name: "getResourceName()"
-  nameWithType: "SubscriptionDailyUsageRecord.getResourceName()"
-  fullName: "com.microsoft.store.partnercenter.models.usage.SubscriptionDailyUsageRecord.getResourceName()"
-  overload: "com.microsoft.store.partnercenter.models.usage.SubscriptionDailyUsageRecord.getResourceName*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.usage"
-  syntax:
-    content: "public String getResourceName()"
-    return:
       type: "java.lang.String"
 - uid: "com.microsoft.store.partnercenter.models.usage.SubscriptionDailyUsageRecord.setResourceName(java.lang.String)"
   id: "setResourceName(java.lang.String)"
@@ -100,21 +146,6 @@ items:
     parameters:
     - id: "value"
       type: "java.lang.String"
-- uid: "com.microsoft.store.partnercenter.models.usage.SubscriptionDailyUsageRecord.getTotalCost()"
-  id: "getTotalCost()"
-  parent: "com.microsoft.store.partnercenter.models.usage.SubscriptionDailyUsageRecord"
-  langs:
-  - "java"
-  name: "getTotalCost()"
-  nameWithType: "SubscriptionDailyUsageRecord.getTotalCost()"
-  fullName: "com.microsoft.store.partnercenter.models.usage.SubscriptionDailyUsageRecord.getTotalCost()"
-  overload: "com.microsoft.store.partnercenter.models.usage.SubscriptionDailyUsageRecord.getTotalCost*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.usage"
-  syntax:
-    content: "public double getTotalCost()"
-    return:
-      type: "double"
 - uid: "com.microsoft.store.partnercenter.models.usage.SubscriptionDailyUsageRecord.setTotalCost(double)"
   id: "setTotalCost(double)"
   parent: "com.microsoft.store.partnercenter.models.usage.SubscriptionDailyUsageRecord"
@@ -131,37 +162,6 @@ items:
     parameters:
     - id: "value"
       type: "double"
-- uid: "com.microsoft.store.partnercenter.models.usage.SubscriptionDailyUsageRecord.getDateUsed()"
-  id: "getDateUsed()"
-  parent: "com.microsoft.store.partnercenter.models.usage.SubscriptionDailyUsageRecord"
-  langs:
-  - "java"
-  name: "getDateUsed()"
-  nameWithType: "SubscriptionDailyUsageRecord.getDateUsed()"
-  fullName: "com.microsoft.store.partnercenter.models.usage.SubscriptionDailyUsageRecord.getDateUsed()"
-  overload: "com.microsoft.store.partnercenter.models.usage.SubscriptionDailyUsageRecord.getDateUsed*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.usage"
-  syntax:
-    content: "public DateTime getDateUsed()"
-    return:
-      type: "org.joda.time.DateTime"
-- uid: "com.microsoft.store.partnercenter.models.usage.SubscriptionDailyUsageRecord.setDateUsed(org.joda.time.DateTime)"
-  id: "setDateUsed(org.joda.time.DateTime)"
-  parent: "com.microsoft.store.partnercenter.models.usage.SubscriptionDailyUsageRecord"
-  langs:
-  - "java"
-  name: "setDateUsed(DateTime value)"
-  nameWithType: "SubscriptionDailyUsageRecord.setDateUsed(DateTime value)"
-  fullName: "com.microsoft.store.partnercenter.models.usage.SubscriptionDailyUsageRecord.setDateUsed(DateTime value)"
-  overload: "com.microsoft.store.partnercenter.models.usage.SubscriptionDailyUsageRecord.setDateUsed*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.usage"
-  syntax:
-    content: "public void setDateUsed(DateTime value)"
-    parameters:
-    - id: "value"
-      type: "org.joda.time.DateTime"
 references:
 - uid: "com.microsoft.store.partnercenter.models.usage.SubscriptionDailyUsageRecord.SubscriptionDailyUsageRecord*"
   name: "SubscriptionDailyUsageRecord"

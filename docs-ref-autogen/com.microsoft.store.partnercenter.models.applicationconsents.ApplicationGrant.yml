@@ -6,8 +6,8 @@ items:
   children:
   - "com.microsoft.store.partnercenter.models.applicationconsents.ApplicationGrant.ApplicationGrant()"
   - "com.microsoft.store.partnercenter.models.applicationconsents.ApplicationGrant.getEnterpriseApplicationId()"
-  - "com.microsoft.store.partnercenter.models.applicationconsents.ApplicationGrant.setEnterpriseApplicationId(java.lang.String)"
   - "com.microsoft.store.partnercenter.models.applicationconsents.ApplicationGrant.getScope()"
+  - "com.microsoft.store.partnercenter.models.applicationconsents.ApplicationGrant.setEnterpriseApplicationId(java.lang.String)"
   - "com.microsoft.store.partnercenter.models.applicationconsents.ApplicationGrant.setScope(java.lang.String)"
   langs:
   - "java"
@@ -49,6 +49,21 @@ items:
     content: "public String getEnterpriseApplicationId()"
     return:
       type: "java.lang.String"
+- uid: "com.microsoft.store.partnercenter.models.applicationconsents.ApplicationGrant.getScope()"
+  id: "getScope()"
+  parent: "com.microsoft.store.partnercenter.models.applicationconsents.ApplicationGrant"
+  langs:
+  - "java"
+  name: "getScope()"
+  nameWithType: "ApplicationGrant.getScope()"
+  fullName: "com.microsoft.store.partnercenter.models.applicationconsents.ApplicationGrant.getScope()"
+  overload: "com.microsoft.store.partnercenter.models.applicationconsents.ApplicationGrant.getScope*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.applicationconsents"
+  syntax:
+    content: "public String getScope()"
+    return:
+      type: "java.lang.String"
 - uid: "com.microsoft.store.partnercenter.models.applicationconsents.ApplicationGrant.setEnterpriseApplicationId(java.lang.String)"
   id: "setEnterpriseApplicationId(java.lang.String)"
   parent: "com.microsoft.store.partnercenter.models.applicationconsents.ApplicationGrant"
@@ -64,21 +79,6 @@ items:
     content: "public void setEnterpriseApplicationId(String value)"
     parameters:
     - id: "value"
-      type: "java.lang.String"
-- uid: "com.microsoft.store.partnercenter.models.applicationconsents.ApplicationGrant.getScope()"
-  id: "getScope()"
-  parent: "com.microsoft.store.partnercenter.models.applicationconsents.ApplicationGrant"
-  langs:
-  - "java"
-  name: "getScope()"
-  nameWithType: "ApplicationGrant.getScope()"
-  fullName: "com.microsoft.store.partnercenter.models.applicationconsents.ApplicationGrant.getScope()"
-  overload: "com.microsoft.store.partnercenter.models.applicationconsents.ApplicationGrant.getScope*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.applicationconsents"
-  syntax:
-    content: "public String getScope()"
-    return:
       type: "java.lang.String"
 - uid: "com.microsoft.store.partnercenter.models.applicationconsents.ApplicationGrant.setScope(java.lang.String)"
   id: "setScope(java.lang.String)"

@@ -6,8 +6,8 @@ items:
   children:
   - "com.microsoft.store.partnercenter.customerdirectoryroles.IUserMemberCollection.byId(java.lang.String)"
   - "com.microsoft.store.partnercenter.customerdirectoryroles.IUserMemberCollection.create(com.microsoft.store.partnercenter.models.roles.UserMember)"
-  - "com.microsoft.store.partnercenter.customerdirectoryroles.IUserMemberCollection.query(com.microsoft.store.partnercenter.models.query.IQuery)"
   - "com.microsoft.store.partnercenter.customerdirectoryroles.IUserMemberCollection.get()"
+  - "com.microsoft.store.partnercenter.customerdirectoryroles.IUserMemberCollection.query(com.microsoft.store.partnercenter.models.query.IQuery)"
   langs:
   - "java"
   name: "IUserMemberCollection"
@@ -65,6 +65,23 @@ items:
     return:
       type: "com.microsoft.store.partnercenter.models.roles.UserMember"
       description: "The customer directory role user member."
+- uid: "com.microsoft.store.partnercenter.customerdirectoryroles.IUserMemberCollection.get()"
+  id: "get()"
+  parent: "com.microsoft.store.partnercenter.customerdirectoryroles.IUserMemberCollection"
+  langs:
+  - "java"
+  name: "get()"
+  nameWithType: "IUserMemberCollection.get()"
+  fullName: "com.microsoft.store.partnercenter.customerdirectoryroles.IUserMemberCollection.get()"
+  overload: "com.microsoft.store.partnercenter.customerdirectoryroles.IUserMemberCollection.get*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.customerdirectoryroles"
+  summary: "Gets all the user members of a customer directory role."
+  syntax:
+    content: "public abstract SeekBasedResourceCollection<UserMember> get()"
+    return:
+      type: "com.microsoft.store.partnercenter.models.SeekBasedResourceCollection<com.microsoft.store.partnercenter.models.roles.UserMember>"
+      description: "The directory role user memberships."
 - uid: "com.microsoft.store.partnercenter.customerdirectoryroles.IUserMemberCollection.query(com.microsoft.store.partnercenter.models.query.IQuery)"
   id: "query(com.microsoft.store.partnercenter.models.query.IQuery)"
   parent: "com.microsoft.store.partnercenter.customerdirectoryroles.IUserMemberCollection"
@@ -86,23 +103,6 @@ items:
     return:
       type: "com.microsoft.store.partnercenter.models.SeekBasedResourceCollection<com.microsoft.store.partnercenter.models.roles.UserMember>"
       description: "The directory role user members."
-- uid: "com.microsoft.store.partnercenter.customerdirectoryroles.IUserMemberCollection.get()"
-  id: "get()"
-  parent: "com.microsoft.store.partnercenter.customerdirectoryroles.IUserMemberCollection"
-  langs:
-  - "java"
-  name: "get()"
-  nameWithType: "IUserMemberCollection.get()"
-  fullName: "com.microsoft.store.partnercenter.customerdirectoryroles.IUserMemberCollection.get()"
-  overload: "com.microsoft.store.partnercenter.customerdirectoryroles.IUserMemberCollection.get*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.customerdirectoryroles"
-  summary: "Gets all the user members of a customer directory role."
-  syntax:
-    content: "public abstract SeekBasedResourceCollection<UserMember> get()"
-    return:
-      type: "com.microsoft.store.partnercenter.models.SeekBasedResourceCollection<com.microsoft.store.partnercenter.models.roles.UserMember>"
-      description: "The directory role user memberships."
 references:
 - uid: "java.lang.String"
   name: "String"
@@ -131,9 +131,17 @@ references:
   nameWithType: "IQuery"
   fullName: "com.microsoft.store.partnercenter.models.query.IQuery"
 - uid: "com.microsoft.store.partnercenter.models.SeekBasedResourceCollection<com.microsoft.store.partnercenter.models.roles.UserMember>"
-  name: "SeekBasedResourceCollection<UserMember>"
-  nameWithType: "SeekBasedResourceCollection<UserMember>"
-  fullName: "com.microsoft.store.partnercenter.models.SeekBasedResourceCollection<com.microsoft.store.partnercenter.models.roles.UserMember>"
+  spec.java:
+  - uid: "com.microsoft.store.partnercenter.models.SeekBasedResourceCollection"
+    name: "com.microsoft.store.partnercenter.models.SeekBasedResourceCollection"
+    fullName: "com.microsoft.store.partnercenter.models.SeekBasedResourceCollection"
+  - name: "<"
+    fullName: "<"
+  - uid: "com.microsoft.store.partnercenter.models.roles.UserMember"
+    name: "com.microsoft.store.partnercenter.models.roles.UserMember"
+    fullName: "com.microsoft.store.partnercenter.models.roles.UserMember"
+  - name: ">"
+    fullName: ">"
 - uid: "com.microsoft.store.partnercenter.customerdirectoryroles.IUserMemberCollection.query*"
   name: "query"
   nameWithType: "IUserMemberCollection.query"

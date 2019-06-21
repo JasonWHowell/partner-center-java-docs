@@ -6,8 +6,8 @@ items:
   children:
   - "com.microsoft.store.partnercenter.models.orders.QuantityProvisioningStatus.QuantityProvisioningStatus()"
   - "com.microsoft.store.partnercenter.models.orders.QuantityProvisioningStatus.getQuantity()"
-  - "com.microsoft.store.partnercenter.models.orders.QuantityProvisioningStatus.setQuantity(int)"
   - "com.microsoft.store.partnercenter.models.orders.QuantityProvisioningStatus.getStatus()"
+  - "com.microsoft.store.partnercenter.models.orders.QuantityProvisioningStatus.setQuantity(int)"
   - "com.microsoft.store.partnercenter.models.orders.QuantityProvisioningStatus.setStatus(java.lang.String)"
   langs:
   - "java"
@@ -51,6 +51,23 @@ items:
     return:
       type: "int"
       description: "The product quantity."
+- uid: "com.microsoft.store.partnercenter.models.orders.QuantityProvisioningStatus.getStatus()"
+  id: "getStatus()"
+  parent: "com.microsoft.store.partnercenter.models.orders.QuantityProvisioningStatus"
+  langs:
+  - "java"
+  name: "getStatus()"
+  nameWithType: "QuantityProvisioningStatus.getStatus()"
+  fullName: "com.microsoft.store.partnercenter.models.orders.QuantityProvisioningStatus.getStatus()"
+  overload: "com.microsoft.store.partnercenter.models.orders.QuantityProvisioningStatus.getStatus*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.orders"
+  summary: "Gets the provisioning status."
+  syntax:
+    content: "public String getStatus()"
+    return:
+      type: "java.lang.String"
+      description: "The provisioning status."
 - uid: "com.microsoft.store.partnercenter.models.orders.QuantityProvisioningStatus.setQuantity(int)"
   id: "setQuantity(int)"
   parent: "com.microsoft.store.partnercenter.models.orders.QuantityProvisioningStatus"
@@ -69,23 +86,6 @@ items:
     - id: "value"
       type: "int"
       description: "The product quantity."
-- uid: "com.microsoft.store.partnercenter.models.orders.QuantityProvisioningStatus.getStatus()"
-  id: "getStatus()"
-  parent: "com.microsoft.store.partnercenter.models.orders.QuantityProvisioningStatus"
-  langs:
-  - "java"
-  name: "getStatus()"
-  nameWithType: "QuantityProvisioningStatus.getStatus()"
-  fullName: "com.microsoft.store.partnercenter.models.orders.QuantityProvisioningStatus.getStatus()"
-  overload: "com.microsoft.store.partnercenter.models.orders.QuantityProvisioningStatus.getStatus*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.orders"
-  summary: "Gets the provisioning status."
-  syntax:
-    content: "public String getStatus()"
-    return:
-      type: "java.lang.String"
-      description: "The provisioning status."
 - uid: "com.microsoft.store.partnercenter.models.orders.QuantityProvisioningStatus.setStatus(java.lang.String)"
   id: "setStatus(java.lang.String)"
   parent: "com.microsoft.store.partnercenter.models.orders.QuantityProvisioningStatus"

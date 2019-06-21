@@ -4,14 +4,14 @@ items:
   id: "BillingCycleType"
   parent: "com.microsoft.store.partnercenter.models.offers"
   children:
-  - "com.microsoft.store.partnercenter.models.offers.BillingCycleType.values()"
-  - "com.microsoft.store.partnercenter.models.offers.BillingCycleType.valueOf(java.lang.String)"
-  - "com.microsoft.store.partnercenter.models.offers.BillingCycleType.toString()"
-  - "com.microsoft.store.partnercenter.models.offers.BillingCycleType.UNKNOWN"
-  - "com.microsoft.store.partnercenter.models.offers.BillingCycleType.MONTHLY"
   - "com.microsoft.store.partnercenter.models.offers.BillingCycleType.ANNUAL"
+  - "com.microsoft.store.partnercenter.models.offers.BillingCycleType.MONTHLY"
   - "com.microsoft.store.partnercenter.models.offers.BillingCycleType.NONE"
   - "com.microsoft.store.partnercenter.models.offers.BillingCycleType.ONE_TIME"
+  - "com.microsoft.store.partnercenter.models.offers.BillingCycleType.UNKNOWN"
+  - "com.microsoft.store.partnercenter.models.offers.BillingCycleType.toString()"
+  - "com.microsoft.store.partnercenter.models.offers.BillingCycleType.valueOf(java.lang.String)"
+  - "com.microsoft.store.partnercenter.models.offers.BillingCycleType.values()"
   langs:
   - "java"
   name: "BillingCycleType"
@@ -24,6 +24,21 @@ items:
     content: "public enum BillingCycleType extends Enum<BillingCycleType>"
   inheritance:
   - "java.lang.Enum<com.microsoft.store.partnercenter.models.offers.BillingCycleType>"
+- uid: "com.microsoft.store.partnercenter.models.offers.BillingCycleType.ANNUAL"
+  id: "ANNUAL"
+  parent: "com.microsoft.store.partnercenter.models.offers.BillingCycleType"
+  langs:
+  - "java"
+  name: "ANNUAL"
+  nameWithType: "BillingCycleType.ANNUAL"
+  fullName: "com.microsoft.store.partnercenter.models.offers.BillingCycleType.ANNUAL"
+  type: "Field"
+  package: "com.microsoft.store.partnercenter.models.offers"
+  summary: "Indicates that the partner will be charged annually for the subscription."
+  syntax:
+    content: "public static final BillingCycleType ANNUAL"
+    return:
+      type: "com.microsoft.store.partnercenter.models.offers.BillingCycleType"
 - uid: "com.microsoft.store.partnercenter.models.offers.BillingCycleType.BillingCycleType(java.lang.String)"
   id: "BillingCycleType(java.lang.String)"
   parent: "com.microsoft.store.partnercenter.models.offers.BillingCycleType"
@@ -40,71 +55,6 @@ items:
     parameters:
     - id: "value"
       type: "java.lang.String"
-- uid: "com.microsoft.store.partnercenter.models.offers.BillingCycleType.values()"
-  id: "values()"
-  parent: "com.microsoft.store.partnercenter.models.offers.BillingCycleType"
-  langs:
-  - "java"
-  name: "values()"
-  nameWithType: "BillingCycleType.values()"
-  fullName: "com.microsoft.store.partnercenter.models.offers.BillingCycleType.values()"
-  overload: "com.microsoft.store.partnercenter.models.offers.BillingCycleType.values*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.offers"
-  syntax:
-    content: "public static BillingCycleType[] values()"
-    return:
-      type: "com.microsoft.store.partnercenter.models.offers.BillingCycleType[]"
-- uid: "com.microsoft.store.partnercenter.models.offers.BillingCycleType.valueOf(java.lang.String)"
-  id: "valueOf(java.lang.String)"
-  parent: "com.microsoft.store.partnercenter.models.offers.BillingCycleType"
-  langs:
-  - "java"
-  name: "valueOf(String name)"
-  nameWithType: "BillingCycleType.valueOf(String name)"
-  fullName: "com.microsoft.store.partnercenter.models.offers.BillingCycleType.valueOf(String name)"
-  overload: "com.microsoft.store.partnercenter.models.offers.BillingCycleType.valueOf*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.offers"
-  syntax:
-    content: "public static BillingCycleType valueOf(String name)"
-    parameters:
-    - id: "name"
-      type: "java.lang.String"
-    return:
-      type: "com.microsoft.store.partnercenter.models.offers.BillingCycleType"
-- uid: "com.microsoft.store.partnercenter.models.offers.BillingCycleType.toString()"
-  id: "toString()"
-  parent: "com.microsoft.store.partnercenter.models.offers.BillingCycleType"
-  langs:
-  - "java"
-  name: "toString()"
-  nameWithType: "BillingCycleType.toString()"
-  fullName: "com.microsoft.store.partnercenter.models.offers.BillingCycleType.toString()"
-  overload: "com.microsoft.store.partnercenter.models.offers.BillingCycleType.toString*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.offers"
-  summary: "Converts the object to a string."
-  syntax:
-    content: "public String toString()"
-    return:
-      type: "java.lang.String"
-      description: "A string that represents this object."
-- uid: "com.microsoft.store.partnercenter.models.offers.BillingCycleType.UNKNOWN"
-  id: "UNKNOWN"
-  parent: "com.microsoft.store.partnercenter.models.offers.BillingCycleType"
-  langs:
-  - "java"
-  name: "UNKNOWN"
-  nameWithType: "BillingCycleType.UNKNOWN"
-  fullName: "com.microsoft.store.partnercenter.models.offers.BillingCycleType.UNKNOWN"
-  type: "Field"
-  package: "com.microsoft.store.partnercenter.models.offers"
-  summary: "Enum initializer"
-  syntax:
-    content: "public static final BillingCycleType UNKNOWN"
-    return:
-      type: "com.microsoft.store.partnercenter.models.offers.BillingCycleType"
 - uid: "com.microsoft.store.partnercenter.models.offers.BillingCycleType.MONTHLY"
   id: "MONTHLY"
   parent: "com.microsoft.store.partnercenter.models.offers.BillingCycleType"
@@ -118,21 +68,6 @@ items:
   summary: "Indicates that the partner will be charged monthly for the subscription"
   syntax:
     content: "public static final BillingCycleType MONTHLY"
-    return:
-      type: "com.microsoft.store.partnercenter.models.offers.BillingCycleType"
-- uid: "com.microsoft.store.partnercenter.models.offers.BillingCycleType.ANNUAL"
-  id: "ANNUAL"
-  parent: "com.microsoft.store.partnercenter.models.offers.BillingCycleType"
-  langs:
-  - "java"
-  name: "ANNUAL"
-  nameWithType: "BillingCycleType.ANNUAL"
-  fullName: "com.microsoft.store.partnercenter.models.offers.BillingCycleType.ANNUAL"
-  type: "Field"
-  package: "com.microsoft.store.partnercenter.models.offers"
-  summary: "Indicates that the partner will be charged annually for the subscription."
-  syntax:
-    content: "public static final BillingCycleType ANNUAL"
     return:
       type: "com.microsoft.store.partnercenter.models.offers.BillingCycleType"
 - uid: "com.microsoft.store.partnercenter.models.offers.BillingCycleType.NONE"
@@ -165,6 +100,71 @@ items:
     content: "public static final BillingCycleType ONE_TIME"
     return:
       type: "com.microsoft.store.partnercenter.models.offers.BillingCycleType"
+- uid: "com.microsoft.store.partnercenter.models.offers.BillingCycleType.UNKNOWN"
+  id: "UNKNOWN"
+  parent: "com.microsoft.store.partnercenter.models.offers.BillingCycleType"
+  langs:
+  - "java"
+  name: "UNKNOWN"
+  nameWithType: "BillingCycleType.UNKNOWN"
+  fullName: "com.microsoft.store.partnercenter.models.offers.BillingCycleType.UNKNOWN"
+  type: "Field"
+  package: "com.microsoft.store.partnercenter.models.offers"
+  summary: "Enum initializer"
+  syntax:
+    content: "public static final BillingCycleType UNKNOWN"
+    return:
+      type: "com.microsoft.store.partnercenter.models.offers.BillingCycleType"
+- uid: "com.microsoft.store.partnercenter.models.offers.BillingCycleType.toString()"
+  id: "toString()"
+  parent: "com.microsoft.store.partnercenter.models.offers.BillingCycleType"
+  langs:
+  - "java"
+  name: "toString()"
+  nameWithType: "BillingCycleType.toString()"
+  fullName: "com.microsoft.store.partnercenter.models.offers.BillingCycleType.toString()"
+  overload: "com.microsoft.store.partnercenter.models.offers.BillingCycleType.toString*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.offers"
+  summary: "Converts the object to a string."
+  syntax:
+    content: "public String toString()"
+    return:
+      type: "java.lang.String"
+      description: "A string that represents this object."
+- uid: "com.microsoft.store.partnercenter.models.offers.BillingCycleType.valueOf(java.lang.String)"
+  id: "valueOf(java.lang.String)"
+  parent: "com.microsoft.store.partnercenter.models.offers.BillingCycleType"
+  langs:
+  - "java"
+  name: "valueOf(String name)"
+  nameWithType: "BillingCycleType.valueOf(String name)"
+  fullName: "com.microsoft.store.partnercenter.models.offers.BillingCycleType.valueOf(String name)"
+  overload: "com.microsoft.store.partnercenter.models.offers.BillingCycleType.valueOf*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.offers"
+  syntax:
+    content: "public static BillingCycleType valueOf(String name)"
+    parameters:
+    - id: "name"
+      type: "java.lang.String"
+    return:
+      type: "com.microsoft.store.partnercenter.models.offers.BillingCycleType"
+- uid: "com.microsoft.store.partnercenter.models.offers.BillingCycleType.values()"
+  id: "values()"
+  parent: "com.microsoft.store.partnercenter.models.offers.BillingCycleType"
+  langs:
+  - "java"
+  name: "values()"
+  nameWithType: "BillingCycleType.values()"
+  fullName: "com.microsoft.store.partnercenter.models.offers.BillingCycleType.values()"
+  overload: "com.microsoft.store.partnercenter.models.offers.BillingCycleType.values*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.offers"
+  syntax:
+    content: "public static BillingCycleType[] values()"
+    return:
+      type: "com.microsoft.store.partnercenter.models.offers.BillingCycleType[]"
 references:
 - uid: "java.lang.String"
   name: "String"

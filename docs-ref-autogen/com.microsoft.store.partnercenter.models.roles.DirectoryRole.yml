@@ -5,10 +5,10 @@ items:
   parent: "com.microsoft.store.partnercenter.models.roles"
   children:
   - "com.microsoft.store.partnercenter.models.roles.DirectoryRole.DirectoryRole()"
-  - "com.microsoft.store.partnercenter.models.roles.DirectoryRole.getName()"
-  - "com.microsoft.store.partnercenter.models.roles.DirectoryRole.setName(java.lang.String)"
   - "com.microsoft.store.partnercenter.models.roles.DirectoryRole.getId()"
+  - "com.microsoft.store.partnercenter.models.roles.DirectoryRole.getName()"
   - "com.microsoft.store.partnercenter.models.roles.DirectoryRole.setId(java.lang.String)"
+  - "com.microsoft.store.partnercenter.models.roles.DirectoryRole.setName(java.lang.String)"
   langs:
   - "java"
   name: "DirectoryRole"
@@ -34,37 +34,6 @@ items:
   package: "com.microsoft.store.partnercenter.models.roles"
   syntax:
     content: "public DirectoryRole()"
-- uid: "com.microsoft.store.partnercenter.models.roles.DirectoryRole.getName()"
-  id: "getName()"
-  parent: "com.microsoft.store.partnercenter.models.roles.DirectoryRole"
-  langs:
-  - "java"
-  name: "getName()"
-  nameWithType: "DirectoryRole.getName()"
-  fullName: "com.microsoft.store.partnercenter.models.roles.DirectoryRole.getName()"
-  overload: "com.microsoft.store.partnercenter.models.roles.DirectoryRole.getName*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.roles"
-  syntax:
-    content: "public String getName()"
-    return:
-      type: "java.lang.String"
-- uid: "com.microsoft.store.partnercenter.models.roles.DirectoryRole.setName(java.lang.String)"
-  id: "setName(java.lang.String)"
-  parent: "com.microsoft.store.partnercenter.models.roles.DirectoryRole"
-  langs:
-  - "java"
-  name: "setName(String value)"
-  nameWithType: "DirectoryRole.setName(String value)"
-  fullName: "com.microsoft.store.partnercenter.models.roles.DirectoryRole.setName(String value)"
-  overload: "com.microsoft.store.partnercenter.models.roles.DirectoryRole.setName*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.roles"
-  syntax:
-    content: "public void setName(String value)"
-    parameters:
-    - id: "value"
-      type: "java.lang.String"
 - uid: "com.microsoft.store.partnercenter.models.roles.DirectoryRole.getId()"
   id: "getId()"
   parent: "com.microsoft.store.partnercenter.models.roles.DirectoryRole"
@@ -80,6 +49,21 @@ items:
     content: "public String getId()"
     return:
       type: "java.lang.String"
+- uid: "com.microsoft.store.partnercenter.models.roles.DirectoryRole.getName()"
+  id: "getName()"
+  parent: "com.microsoft.store.partnercenter.models.roles.DirectoryRole"
+  langs:
+  - "java"
+  name: "getName()"
+  nameWithType: "DirectoryRole.getName()"
+  fullName: "com.microsoft.store.partnercenter.models.roles.DirectoryRole.getName()"
+  overload: "com.microsoft.store.partnercenter.models.roles.DirectoryRole.getName*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.roles"
+  syntax:
+    content: "public String getName()"
+    return:
+      type: "java.lang.String"
 - uid: "com.microsoft.store.partnercenter.models.roles.DirectoryRole.setId(java.lang.String)"
   id: "setId(java.lang.String)"
   parent: "com.microsoft.store.partnercenter.models.roles.DirectoryRole"
@@ -93,6 +77,22 @@ items:
   package: "com.microsoft.store.partnercenter.models.roles"
   syntax:
     content: "public void setId(String value)"
+    parameters:
+    - id: "value"
+      type: "java.lang.String"
+- uid: "com.microsoft.store.partnercenter.models.roles.DirectoryRole.setName(java.lang.String)"
+  id: "setName(java.lang.String)"
+  parent: "com.microsoft.store.partnercenter.models.roles.DirectoryRole"
+  langs:
+  - "java"
+  name: "setName(String value)"
+  nameWithType: "DirectoryRole.setName(String value)"
+  fullName: "com.microsoft.store.partnercenter.models.roles.DirectoryRole.setName(String value)"
+  overload: "com.microsoft.store.partnercenter.models.roles.DirectoryRole.setName*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.roles"
+  syntax:
+    content: "public void setName(String value)"
     parameters:
     - id: "value"
       type: "java.lang.String"

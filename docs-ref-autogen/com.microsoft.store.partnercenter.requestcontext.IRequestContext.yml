@@ -4,9 +4,9 @@ items:
   id: "IRequestContext"
   parent: "com.microsoft.store.partnercenter.requestcontext"
   children:
-  - "com.microsoft.store.partnercenter.requestcontext.IRequestContext.getRequestId()"
   - "com.microsoft.store.partnercenter.requestcontext.IRequestContext.getCorrelationId()"
   - "com.microsoft.store.partnercenter.requestcontext.IRequestContext.getLocale()"
+  - "com.microsoft.store.partnercenter.requestcontext.IRequestContext.getRequestId()"
   langs:
   - "java"
   name: "IRequestContext"
@@ -17,23 +17,6 @@ items:
   summary: "Bundles context information which is amended to the partner SDK operations."
   syntax:
     content: "public interface IRequestContext"
-- uid: "com.microsoft.store.partnercenter.requestcontext.IRequestContext.getRequestId()"
-  id: "getRequestId()"
-  parent: "com.microsoft.store.partnercenter.requestcontext.IRequestContext"
-  langs:
-  - "java"
-  name: "getRequestId()"
-  nameWithType: "IRequestContext.getRequestId()"
-  fullName: "com.microsoft.store.partnercenter.requestcontext.IRequestContext.getRequestId()"
-  overload: "com.microsoft.store.partnercenter.requestcontext.IRequestContext.getRequestId*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.requestcontext"
-  summary: "Gets the request identifier. Uniquely identifies the partner service operation."
-  syntax:
-    content: "public abstract UUID getRequestId()"
-    return:
-      type: "java.util.UUID"
-      description: "The request identifier."
 - uid: "com.microsoft.store.partnercenter.requestcontext.IRequestContext.getCorrelationId()"
   id: "getCorrelationId()"
   parent: "com.microsoft.store.partnercenter.requestcontext.IRequestContext"
@@ -68,6 +51,23 @@ items:
     return:
       type: "java.lang.String"
       description: "The locale."
+- uid: "com.microsoft.store.partnercenter.requestcontext.IRequestContext.getRequestId()"
+  id: "getRequestId()"
+  parent: "com.microsoft.store.partnercenter.requestcontext.IRequestContext"
+  langs:
+  - "java"
+  name: "getRequestId()"
+  nameWithType: "IRequestContext.getRequestId()"
+  fullName: "com.microsoft.store.partnercenter.requestcontext.IRequestContext.getRequestId()"
+  overload: "com.microsoft.store.partnercenter.requestcontext.IRequestContext.getRequestId*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.requestcontext"
+  summary: "Gets the request identifier. Uniquely identifies the partner service operation."
+  syntax:
+    content: "public abstract UUID getRequestId()"
+    return:
+      type: "java.util.UUID"
+      description: "The request identifier."
 references:
 - uid: "java.util.UUID"
   name: "UUID"

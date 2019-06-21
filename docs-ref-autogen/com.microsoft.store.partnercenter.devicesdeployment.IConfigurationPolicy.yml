@@ -4,9 +4,9 @@ items:
   id: "IConfigurationPolicy"
   parent: "com.microsoft.store.partnercenter.devicesdeployment"
   children:
+  - "com.microsoft.store.partnercenter.devicesdeployment.IConfigurationPolicy.delete()"
   - "com.microsoft.store.partnercenter.devicesdeployment.IConfigurationPolicy.get()"
   - "com.microsoft.store.partnercenter.devicesdeployment.IConfigurationPolicy.patch(com.microsoft.store.partnercenter.models.devicesdeployment.ConfigurationPolicy)"
-  - "com.microsoft.store.partnercenter.devicesdeployment.IConfigurationPolicy.delete()"
   langs:
   - "java"
   name: "IConfigurationPolicy"
@@ -22,6 +22,20 @@ items:
   - "com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations<com.microsoft.store.partnercenter.models.devicesdeployment.ConfigurationPolicy>"
   - "com.microsoft.store.partnercenter.genericoperations.IEntityPatchOperations<com.microsoft.store.partnercenter.models.devicesdeployment.ConfigurationPolicy>"
   - "com.microsoft.store.partnercenter.genericoperations.IEntityDeleteOperations<com.microsoft.store.partnercenter.models.devicesdeployment.ConfigurationPolicy>"
+- uid: "com.microsoft.store.partnercenter.devicesdeployment.IConfigurationPolicy.delete()"
+  id: "delete()"
+  parent: "com.microsoft.store.partnercenter.devicesdeployment.IConfigurationPolicy"
+  langs:
+  - "java"
+  name: "delete()"
+  nameWithType: "IConfigurationPolicy.delete()"
+  fullName: "com.microsoft.store.partnercenter.devicesdeployment.IConfigurationPolicy.delete()"
+  overload: "com.microsoft.store.partnercenter.devicesdeployment.IConfigurationPolicy.delete*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.devicesdeployment"
+  summary: "Deletes the configuration policy."
+  syntax:
+    content: "public abstract void delete()"
 - uid: "com.microsoft.store.partnercenter.devicesdeployment.IConfigurationPolicy.get()"
   id: "get()"
   parent: "com.microsoft.store.partnercenter.devicesdeployment.IConfigurationPolicy"
@@ -60,20 +74,6 @@ items:
     return:
       type: "com.microsoft.store.partnercenter.models.devicesdeployment.ConfigurationPolicy"
       description: "The updated configuration policy."
-- uid: "com.microsoft.store.partnercenter.devicesdeployment.IConfigurationPolicy.delete()"
-  id: "delete()"
-  parent: "com.microsoft.store.partnercenter.devicesdeployment.IConfigurationPolicy"
-  langs:
-  - "java"
-  name: "delete()"
-  nameWithType: "IConfigurationPolicy.delete()"
-  fullName: "com.microsoft.store.partnercenter.devicesdeployment.IConfigurationPolicy.delete()"
-  overload: "com.microsoft.store.partnercenter.devicesdeployment.IConfigurationPolicy.delete*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.devicesdeployment"
-  summary: "Deletes the configuration policy."
-  syntax:
-    content: "public abstract void delete()"
 references:
 - uid: "com.microsoft.store.partnercenter.models.devicesdeployment.ConfigurationPolicy"
   name: "ConfigurationPolicy"

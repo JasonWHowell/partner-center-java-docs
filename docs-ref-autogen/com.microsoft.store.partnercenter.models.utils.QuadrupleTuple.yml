@@ -6,12 +6,12 @@ items:
   children:
   - "com.microsoft.store.partnercenter.models.utils.QuadrupleTuple.QuadrupleTuple(T1,T2,T3,T4)"
   - "com.microsoft.store.partnercenter.models.utils.QuadrupleTuple.getItem1()"
-  - "com.microsoft.store.partnercenter.models.utils.QuadrupleTuple.setItem1(T1)"
   - "com.microsoft.store.partnercenter.models.utils.QuadrupleTuple.getItem2()"
-  - "com.microsoft.store.partnercenter.models.utils.QuadrupleTuple.setItem2(T2)"
   - "com.microsoft.store.partnercenter.models.utils.QuadrupleTuple.getItem3()"
-  - "com.microsoft.store.partnercenter.models.utils.QuadrupleTuple.setItem3(T3)"
   - "com.microsoft.store.partnercenter.models.utils.QuadrupleTuple.getItem4()"
+  - "com.microsoft.store.partnercenter.models.utils.QuadrupleTuple.setItem1(T1)"
+  - "com.microsoft.store.partnercenter.models.utils.QuadrupleTuple.setItem2(T2)"
+  - "com.microsoft.store.partnercenter.models.utils.QuadrupleTuple.setItem3(T3)"
   - "com.microsoft.store.partnercenter.models.utils.QuadrupleTuple.setItem4(T4)"
   langs:
   - "java"
@@ -66,22 +66,6 @@ items:
     content: "public T1 getItem1()"
     return:
       type: "T1"
-- uid: "com.microsoft.store.partnercenter.models.utils.QuadrupleTuple.setItem1(T1)"
-  id: "setItem1(T1)"
-  parent: "com.microsoft.store.partnercenter.models.utils.QuadrupleTuple"
-  langs:
-  - "java"
-  name: "setItem1(T1 item1)"
-  nameWithType: "QuadrupleTuple<T1,T2,T3,T4>.setItem1(T1 item1)"
-  fullName: "com.microsoft.store.partnercenter.models.utils.QuadrupleTuple<T1,T2,T3,T4>.setItem1(T1 item1)"
-  overload: "com.microsoft.store.partnercenter.models.utils.QuadrupleTuple.setItem1*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.utils"
-  syntax:
-    content: "public void setItem1(T1 item1)"
-    parameters:
-    - id: "item1"
-      type: "T1"
 - uid: "com.microsoft.store.partnercenter.models.utils.QuadrupleTuple.getItem2()"
   id: "getItem2()"
   parent: "com.microsoft.store.partnercenter.models.utils.QuadrupleTuple"
@@ -96,22 +80,6 @@ items:
   syntax:
     content: "public T2 getItem2()"
     return:
-      type: "T2"
-- uid: "com.microsoft.store.partnercenter.models.utils.QuadrupleTuple.setItem2(T2)"
-  id: "setItem2(T2)"
-  parent: "com.microsoft.store.partnercenter.models.utils.QuadrupleTuple"
-  langs:
-  - "java"
-  name: "setItem2(T2 item2)"
-  nameWithType: "QuadrupleTuple<T1,T2,T3,T4>.setItem2(T2 item2)"
-  fullName: "com.microsoft.store.partnercenter.models.utils.QuadrupleTuple<T1,T2,T3,T4>.setItem2(T2 item2)"
-  overload: "com.microsoft.store.partnercenter.models.utils.QuadrupleTuple.setItem2*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.utils"
-  syntax:
-    content: "public void setItem2(T2 item2)"
-    parameters:
-    - id: "item2"
       type: "T2"
 - uid: "com.microsoft.store.partnercenter.models.utils.QuadrupleTuple.getItem3()"
   id: "getItem3()"
@@ -128,6 +96,53 @@ items:
     content: "public T3 getItem3()"
     return:
       type: "T3"
+- uid: "com.microsoft.store.partnercenter.models.utils.QuadrupleTuple.getItem4()"
+  id: "getItem4()"
+  parent: "com.microsoft.store.partnercenter.models.utils.QuadrupleTuple"
+  langs:
+  - "java"
+  name: "getItem4()"
+  nameWithType: "QuadrupleTuple<T1,T2,T3,T4>.getItem4()"
+  fullName: "com.microsoft.store.partnercenter.models.utils.QuadrupleTuple<T1,T2,T3,T4>.getItem4()"
+  overload: "com.microsoft.store.partnercenter.models.utils.QuadrupleTuple.getItem4*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.utils"
+  syntax:
+    content: "public T4 getItem4()"
+    return:
+      type: "T4"
+- uid: "com.microsoft.store.partnercenter.models.utils.QuadrupleTuple.setItem1(T1)"
+  id: "setItem1(T1)"
+  parent: "com.microsoft.store.partnercenter.models.utils.QuadrupleTuple"
+  langs:
+  - "java"
+  name: "setItem1(T1 item1)"
+  nameWithType: "QuadrupleTuple<T1,T2,T3,T4>.setItem1(T1 item1)"
+  fullName: "com.microsoft.store.partnercenter.models.utils.QuadrupleTuple<T1,T2,T3,T4>.setItem1(T1 item1)"
+  overload: "com.microsoft.store.partnercenter.models.utils.QuadrupleTuple.setItem1*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.utils"
+  syntax:
+    content: "public void setItem1(T1 item1)"
+    parameters:
+    - id: "item1"
+      type: "T1"
+- uid: "com.microsoft.store.partnercenter.models.utils.QuadrupleTuple.setItem2(T2)"
+  id: "setItem2(T2)"
+  parent: "com.microsoft.store.partnercenter.models.utils.QuadrupleTuple"
+  langs:
+  - "java"
+  name: "setItem2(T2 item2)"
+  nameWithType: "QuadrupleTuple<T1,T2,T3,T4>.setItem2(T2 item2)"
+  fullName: "com.microsoft.store.partnercenter.models.utils.QuadrupleTuple<T1,T2,T3,T4>.setItem2(T2 item2)"
+  overload: "com.microsoft.store.partnercenter.models.utils.QuadrupleTuple.setItem2*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.utils"
+  syntax:
+    content: "public void setItem2(T2 item2)"
+    parameters:
+    - id: "item2"
+      type: "T2"
 - uid: "com.microsoft.store.partnercenter.models.utils.QuadrupleTuple.setItem3(T3)"
   id: "setItem3(T3)"
   parent: "com.microsoft.store.partnercenter.models.utils.QuadrupleTuple"
@@ -144,21 +159,6 @@ items:
     parameters:
     - id: "item3"
       type: "T3"
-- uid: "com.microsoft.store.partnercenter.models.utils.QuadrupleTuple.getItem4()"
-  id: "getItem4()"
-  parent: "com.microsoft.store.partnercenter.models.utils.QuadrupleTuple"
-  langs:
-  - "java"
-  name: "getItem4()"
-  nameWithType: "QuadrupleTuple<T1,T2,T3,T4>.getItem4()"
-  fullName: "com.microsoft.store.partnercenter.models.utils.QuadrupleTuple<T1,T2,T3,T4>.getItem4()"
-  overload: "com.microsoft.store.partnercenter.models.utils.QuadrupleTuple.getItem4*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.utils"
-  syntax:
-    content: "public T4 getItem4()"
-    return:
-      type: "T4"
 - uid: "com.microsoft.store.partnercenter.models.utils.QuadrupleTuple.setItem4(T4)"
   id: "setItem4(T4)"
   parent: "com.microsoft.store.partnercenter.models.utils.QuadrupleTuple"

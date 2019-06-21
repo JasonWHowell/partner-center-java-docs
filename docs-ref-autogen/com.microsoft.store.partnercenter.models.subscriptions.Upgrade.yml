@@ -5,16 +5,16 @@ items:
   parent: "com.microsoft.store.partnercenter.models.subscriptions"
   children:
   - "com.microsoft.store.partnercenter.models.subscriptions.Upgrade.Upgrade()"
+  - "com.microsoft.store.partnercenter.models.subscriptions.Upgrade.getQuantity()"
   - "com.microsoft.store.partnercenter.models.subscriptions.Upgrade.getTargetOffer()"
-  - "com.microsoft.store.partnercenter.models.subscriptions.Upgrade.setTargetOffer(com.microsoft.store.partnercenter.models.offers.Offer)"
+  - "com.microsoft.store.partnercenter.models.subscriptions.Upgrade.getUpgradeErrors()"
   - "com.microsoft.store.partnercenter.models.subscriptions.Upgrade.getUpgradeType()"
-  - "com.microsoft.store.partnercenter.models.subscriptions.Upgrade.setUpgradeType(com.microsoft.store.partnercenter.models.subscriptions.UpgradeType)"
   - "com.microsoft.store.partnercenter.models.subscriptions.Upgrade.isEligible()"
   - "com.microsoft.store.partnercenter.models.subscriptions.Upgrade.setIsEligible(java.lang.Boolean)"
-  - "com.microsoft.store.partnercenter.models.subscriptions.Upgrade.getQuantity()"
   - "com.microsoft.store.partnercenter.models.subscriptions.Upgrade.setQuantity(int)"
-  - "com.microsoft.store.partnercenter.models.subscriptions.Upgrade.getUpgradeErrors()"
+  - "com.microsoft.store.partnercenter.models.subscriptions.Upgrade.setTargetOffer(com.microsoft.store.partnercenter.models.offers.Offer)"
   - "com.microsoft.store.partnercenter.models.subscriptions.Upgrade.setUpgradeErrors(java.lang.Iterable<com.microsoft.store.partnercenter.models.subscriptions.UpgradeError>)"
+  - "com.microsoft.store.partnercenter.models.subscriptions.Upgrade.setUpgradeType(com.microsoft.store.partnercenter.models.subscriptions.UpgradeType)"
   langs:
   - "java"
   name: "Upgrade"
@@ -40,6 +40,21 @@ items:
   package: "com.microsoft.store.partnercenter.models.subscriptions"
   syntax:
     content: "public Upgrade()"
+- uid: "com.microsoft.store.partnercenter.models.subscriptions.Upgrade.getQuantity()"
+  id: "getQuantity()"
+  parent: "com.microsoft.store.partnercenter.models.subscriptions.Upgrade"
+  langs:
+  - "java"
+  name: "getQuantity()"
+  nameWithType: "Upgrade.getQuantity()"
+  fullName: "com.microsoft.store.partnercenter.models.subscriptions.Upgrade.getQuantity()"
+  overload: "com.microsoft.store.partnercenter.models.subscriptions.Upgrade.getQuantity*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.subscriptions"
+  syntax:
+    content: "public int getQuantity()"
+    return:
+      type: "int"
 - uid: "com.microsoft.store.partnercenter.models.subscriptions.Upgrade.getTargetOffer()"
   id: "getTargetOffer()"
   parent: "com.microsoft.store.partnercenter.models.subscriptions.Upgrade"
@@ -55,22 +70,21 @@ items:
     content: "public Offer getTargetOffer()"
     return:
       type: "com.microsoft.store.partnercenter.models.offers.Offer"
-- uid: "com.microsoft.store.partnercenter.models.subscriptions.Upgrade.setTargetOffer(com.microsoft.store.partnercenter.models.offers.Offer)"
-  id: "setTargetOffer(com.microsoft.store.partnercenter.models.offers.Offer)"
+- uid: "com.microsoft.store.partnercenter.models.subscriptions.Upgrade.getUpgradeErrors()"
+  id: "getUpgradeErrors()"
   parent: "com.microsoft.store.partnercenter.models.subscriptions.Upgrade"
   langs:
   - "java"
-  name: "setTargetOffer(Offer value)"
-  nameWithType: "Upgrade.setTargetOffer(Offer value)"
-  fullName: "com.microsoft.store.partnercenter.models.subscriptions.Upgrade.setTargetOffer(Offer value)"
-  overload: "com.microsoft.store.partnercenter.models.subscriptions.Upgrade.setTargetOffer*"
+  name: "getUpgradeErrors()"
+  nameWithType: "Upgrade.getUpgradeErrors()"
+  fullName: "com.microsoft.store.partnercenter.models.subscriptions.Upgrade.getUpgradeErrors()"
+  overload: "com.microsoft.store.partnercenter.models.subscriptions.Upgrade.getUpgradeErrors*"
   type: "Method"
   package: "com.microsoft.store.partnercenter.models.subscriptions"
   syntax:
-    content: "public void setTargetOffer(Offer value)"
-    parameters:
-    - id: "value"
-      type: "com.microsoft.store.partnercenter.models.offers.Offer"
+    content: "public Iterable<UpgradeError> getUpgradeErrors()"
+    return:
+      type: "java.lang.Iterable<com.microsoft.store.partnercenter.models.subscriptions.UpgradeError>"
 - uid: "com.microsoft.store.partnercenter.models.subscriptions.Upgrade.getUpgradeType()"
   id: "getUpgradeType()"
   parent: "com.microsoft.store.partnercenter.models.subscriptions.Upgrade"
@@ -85,22 +99,6 @@ items:
   syntax:
     content: "public UpgradeType getUpgradeType()"
     return:
-      type: "com.microsoft.store.partnercenter.models.subscriptions.UpgradeType"
-- uid: "com.microsoft.store.partnercenter.models.subscriptions.Upgrade.setUpgradeType(com.microsoft.store.partnercenter.models.subscriptions.UpgradeType)"
-  id: "setUpgradeType(com.microsoft.store.partnercenter.models.subscriptions.UpgradeType)"
-  parent: "com.microsoft.store.partnercenter.models.subscriptions.Upgrade"
-  langs:
-  - "java"
-  name: "setUpgradeType(UpgradeType value)"
-  nameWithType: "Upgrade.setUpgradeType(UpgradeType value)"
-  fullName: "com.microsoft.store.partnercenter.models.subscriptions.Upgrade.setUpgradeType(UpgradeType value)"
-  overload: "com.microsoft.store.partnercenter.models.subscriptions.Upgrade.setUpgradeType*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.subscriptions"
-  syntax:
-    content: "public void setUpgradeType(UpgradeType value)"
-    parameters:
-    - id: "value"
       type: "com.microsoft.store.partnercenter.models.subscriptions.UpgradeType"
 - uid: "com.microsoft.store.partnercenter.models.subscriptions.Upgrade.isEligible()"
   id: "isEligible()"
@@ -133,21 +131,6 @@ items:
     parameters:
     - id: "value"
       type: "java.lang.Boolean"
-- uid: "com.microsoft.store.partnercenter.models.subscriptions.Upgrade.getQuantity()"
-  id: "getQuantity()"
-  parent: "com.microsoft.store.partnercenter.models.subscriptions.Upgrade"
-  langs:
-  - "java"
-  name: "getQuantity()"
-  nameWithType: "Upgrade.getQuantity()"
-  fullName: "com.microsoft.store.partnercenter.models.subscriptions.Upgrade.getQuantity()"
-  overload: "com.microsoft.store.partnercenter.models.subscriptions.Upgrade.getQuantity*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.subscriptions"
-  syntax:
-    content: "public int getQuantity()"
-    return:
-      type: "int"
 - uid: "com.microsoft.store.partnercenter.models.subscriptions.Upgrade.setQuantity(int)"
   id: "setQuantity(int)"
   parent: "com.microsoft.store.partnercenter.models.subscriptions.Upgrade"
@@ -164,21 +147,22 @@ items:
     parameters:
     - id: "value"
       type: "int"
-- uid: "com.microsoft.store.partnercenter.models.subscriptions.Upgrade.getUpgradeErrors()"
-  id: "getUpgradeErrors()"
+- uid: "com.microsoft.store.partnercenter.models.subscriptions.Upgrade.setTargetOffer(com.microsoft.store.partnercenter.models.offers.Offer)"
+  id: "setTargetOffer(com.microsoft.store.partnercenter.models.offers.Offer)"
   parent: "com.microsoft.store.partnercenter.models.subscriptions.Upgrade"
   langs:
   - "java"
-  name: "getUpgradeErrors()"
-  nameWithType: "Upgrade.getUpgradeErrors()"
-  fullName: "com.microsoft.store.partnercenter.models.subscriptions.Upgrade.getUpgradeErrors()"
-  overload: "com.microsoft.store.partnercenter.models.subscriptions.Upgrade.getUpgradeErrors*"
+  name: "setTargetOffer(Offer value)"
+  nameWithType: "Upgrade.setTargetOffer(Offer value)"
+  fullName: "com.microsoft.store.partnercenter.models.subscriptions.Upgrade.setTargetOffer(Offer value)"
+  overload: "com.microsoft.store.partnercenter.models.subscriptions.Upgrade.setTargetOffer*"
   type: "Method"
   package: "com.microsoft.store.partnercenter.models.subscriptions"
   syntax:
-    content: "public Iterable<UpgradeError> getUpgradeErrors()"
-    return:
-      type: "java.lang.Iterable<com.microsoft.store.partnercenter.models.subscriptions.UpgradeError>"
+    content: "public void setTargetOffer(Offer value)"
+    parameters:
+    - id: "value"
+      type: "com.microsoft.store.partnercenter.models.offers.Offer"
 - uid: "com.microsoft.store.partnercenter.models.subscriptions.Upgrade.setUpgradeErrors(java.lang.Iterable<com.microsoft.store.partnercenter.models.subscriptions.UpgradeError>)"
   id: "setUpgradeErrors(java.lang.Iterable<com.microsoft.store.partnercenter.models.subscriptions.UpgradeError>)"
   parent: "com.microsoft.store.partnercenter.models.subscriptions.Upgrade"
@@ -195,6 +179,22 @@ items:
     parameters:
     - id: "value"
       type: "java.lang.Iterable<com.microsoft.store.partnercenter.models.subscriptions.UpgradeError>"
+- uid: "com.microsoft.store.partnercenter.models.subscriptions.Upgrade.setUpgradeType(com.microsoft.store.partnercenter.models.subscriptions.UpgradeType)"
+  id: "setUpgradeType(com.microsoft.store.partnercenter.models.subscriptions.UpgradeType)"
+  parent: "com.microsoft.store.partnercenter.models.subscriptions.Upgrade"
+  langs:
+  - "java"
+  name: "setUpgradeType(UpgradeType value)"
+  nameWithType: "Upgrade.setUpgradeType(UpgradeType value)"
+  fullName: "com.microsoft.store.partnercenter.models.subscriptions.Upgrade.setUpgradeType(UpgradeType value)"
+  overload: "com.microsoft.store.partnercenter.models.subscriptions.Upgrade.setUpgradeType*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.subscriptions"
+  syntax:
+    content: "public void setUpgradeType(UpgradeType value)"
+    parameters:
+    - id: "value"
+      type: "com.microsoft.store.partnercenter.models.subscriptions.UpgradeType"
 references:
 - uid: "com.microsoft.store.partnercenter.models.subscriptions.Upgrade.Upgrade*"
   name: "Upgrade"
@@ -258,9 +258,17 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.subscriptions.Upgrade.setQuantity"
   package: "com.microsoft.store.partnercenter.models.subscriptions"
 - uid: "java.lang.Iterable<com.microsoft.store.partnercenter.models.subscriptions.UpgradeError>"
-  name: "Iterable<UpgradeError>"
-  nameWithType: "Iterable<UpgradeError>"
-  fullName: "java.lang.Iterable<com.microsoft.store.partnercenter.models.subscriptions.UpgradeError>"
+  spec.java:
+  - uid: "java.lang.Iterable"
+    name: "java.lang.Iterable"
+    fullName: "java.lang.Iterable"
+  - name: "<"
+    fullName: "<"
+  - uid: "com.microsoft.store.partnercenter.models.subscriptions.UpgradeError"
+    name: "com.microsoft.store.partnercenter.models.subscriptions.UpgradeError"
+    fullName: "com.microsoft.store.partnercenter.models.subscriptions.UpgradeError"
+  - name: ">"
+    fullName: ">"
 - uid: "com.microsoft.store.partnercenter.models.subscriptions.Upgrade.getUpgradeErrors*"
   name: "getUpgradeErrors"
   nameWithType: "Upgrade.getUpgradeErrors"

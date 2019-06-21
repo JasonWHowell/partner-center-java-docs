@@ -6,10 +6,10 @@ items:
   children:
   - "com.microsoft.store.partnercenter.models.query.SimpleQuery.SimpleQuery()"
   - "com.microsoft.store.partnercenter.models.query.SimpleQuery.SimpleQuery(java.lang.Object)"
-  - "com.microsoft.store.partnercenter.models.query.SimpleQuery.getType()"
   - "com.microsoft.store.partnercenter.models.query.SimpleQuery.getFilter()"
-  - "com.microsoft.store.partnercenter.models.query.SimpleQuery.setFilter(com.microsoft.store.partnercenter.models.query.filters.FieldFilter)"
   - "com.microsoft.store.partnercenter.models.query.SimpleQuery.getSort()"
+  - "com.microsoft.store.partnercenter.models.query.SimpleQuery.getType()"
+  - "com.microsoft.store.partnercenter.models.query.SimpleQuery.setFilter(com.microsoft.store.partnercenter.models.query.filters.FieldFilter)"
   - "com.microsoft.store.partnercenter.models.query.SimpleQuery.setSort(com.microsoft.store.partnercenter.models.query.sort.Sort)"
   - "com.microsoft.store.partnercenter.models.query.SimpleQuery.toString()"
   langs:
@@ -53,22 +53,6 @@ items:
     parameters:
     - id: "token"
       type: "java.lang.Object"
-- uid: "com.microsoft.store.partnercenter.models.query.SimpleQuery.getType()"
-  id: "getType()"
-  parent: "com.microsoft.store.partnercenter.models.query.SimpleQuery"
-  langs:
-  - "java"
-  name: "getType()"
-  nameWithType: "SimpleQuery.getType()"
-  fullName: "com.microsoft.store.partnercenter.models.query.SimpleQuery.getType()"
-  overload: "com.microsoft.store.partnercenter.models.query.SimpleQuery.getType*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.query"
-  summary: "Gets the query type."
-  syntax:
-    content: "public QueryType getType()"
-    return:
-      type: "com.microsoft.store.partnercenter.models.query.QueryType"
 - uid: "com.microsoft.store.partnercenter.models.query.SimpleQuery.getFilter()"
   id: "getFilter()"
   parent: "com.microsoft.store.partnercenter.models.query.SimpleQuery"
@@ -83,22 +67,6 @@ items:
   syntax:
     content: "public FieldFilter getFilter()"
     return:
-      type: "com.microsoft.store.partnercenter.models.query.filters.FieldFilter"
-- uid: "com.microsoft.store.partnercenter.models.query.SimpleQuery.setFilter(com.microsoft.store.partnercenter.models.query.filters.FieldFilter)"
-  id: "setFilter(com.microsoft.store.partnercenter.models.query.filters.FieldFilter)"
-  parent: "com.microsoft.store.partnercenter.models.query.SimpleQuery"
-  langs:
-  - "java"
-  name: "setFilter(FieldFilter value)"
-  nameWithType: "SimpleQuery.setFilter(FieldFilter value)"
-  fullName: "com.microsoft.store.partnercenter.models.query.SimpleQuery.setFilter(FieldFilter value)"
-  overload: "com.microsoft.store.partnercenter.models.query.SimpleQuery.setFilter*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.query"
-  syntax:
-    content: "public void setFilter(FieldFilter value)"
-    parameters:
-    - id: "value"
       type: "com.microsoft.store.partnercenter.models.query.filters.FieldFilter"
 - uid: "com.microsoft.store.partnercenter.models.query.SimpleQuery.getSort()"
   id: "getSort()"
@@ -115,6 +83,38 @@ items:
     content: "public Sort getSort()"
     return:
       type: "com.microsoft.store.partnercenter.models.query.sort.Sort"
+- uid: "com.microsoft.store.partnercenter.models.query.SimpleQuery.getType()"
+  id: "getType()"
+  parent: "com.microsoft.store.partnercenter.models.query.SimpleQuery"
+  langs:
+  - "java"
+  name: "getType()"
+  nameWithType: "SimpleQuery.getType()"
+  fullName: "com.microsoft.store.partnercenter.models.query.SimpleQuery.getType()"
+  overload: "com.microsoft.store.partnercenter.models.query.SimpleQuery.getType*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.query"
+  summary: "Gets the query type."
+  syntax:
+    content: "public QueryType getType()"
+    return:
+      type: "com.microsoft.store.partnercenter.models.query.QueryType"
+- uid: "com.microsoft.store.partnercenter.models.query.SimpleQuery.setFilter(com.microsoft.store.partnercenter.models.query.filters.FieldFilter)"
+  id: "setFilter(com.microsoft.store.partnercenter.models.query.filters.FieldFilter)"
+  parent: "com.microsoft.store.partnercenter.models.query.SimpleQuery"
+  langs:
+  - "java"
+  name: "setFilter(FieldFilter value)"
+  nameWithType: "SimpleQuery.setFilter(FieldFilter value)"
+  fullName: "com.microsoft.store.partnercenter.models.query.SimpleQuery.setFilter(FieldFilter value)"
+  overload: "com.microsoft.store.partnercenter.models.query.SimpleQuery.setFilter*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.query"
+  syntax:
+    content: "public void setFilter(FieldFilter value)"
+    parameters:
+    - id: "value"
+      type: "com.microsoft.store.partnercenter.models.query.filters.FieldFilter"
 - uid: "com.microsoft.store.partnercenter.models.query.SimpleQuery.setSort(com.microsoft.store.partnercenter.models.query.sort.Sort)"
   id: "setSort(com.microsoft.store.partnercenter.models.query.sort.Sort)"
   parent: "com.microsoft.store.partnercenter.models.query.SimpleQuery"

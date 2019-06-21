@@ -4,12 +4,12 @@ items:
   id: "VettingVersion"
   parent: "com.microsoft.store.partnercenter.models.partners"
   children:
-  - "com.microsoft.store.partnercenter.models.partners.VettingVersion.values()"
-  - "com.microsoft.store.partnercenter.models.partners.VettingVersion.valueOf(java.lang.String)"
-  - "com.microsoft.store.partnercenter.models.partners.VettingVersion.toString()"
-  - "com.microsoft.store.partnercenter.models.partners.VettingVersion.NONE"
   - "com.microsoft.store.partnercenter.models.partners.VettingVersion.CURRENT"
   - "com.microsoft.store.partnercenter.models.partners.VettingVersion.LAST_FINALIZED"
+  - "com.microsoft.store.partnercenter.models.partners.VettingVersion.NONE"
+  - "com.microsoft.store.partnercenter.models.partners.VettingVersion.toString()"
+  - "com.microsoft.store.partnercenter.models.partners.VettingVersion.valueOf(java.lang.String)"
+  - "com.microsoft.store.partnercenter.models.partners.VettingVersion.values()"
   langs:
   - "java"
   name: "VettingVersion"
@@ -21,87 +21,6 @@ items:
     content: "public enum VettingVersion extends Enum<VettingVersion>"
   inheritance:
   - "java.lang.Enum<com.microsoft.store.partnercenter.models.partners.VettingVersion>"
-- uid: "com.microsoft.store.partnercenter.models.partners.VettingVersion.VettingVersion(java.lang.String)"
-  id: "VettingVersion(java.lang.String)"
-  parent: "com.microsoft.store.partnercenter.models.partners.VettingVersion"
-  langs:
-  - "java"
-  name: "VettingVersion(String value)"
-  nameWithType: "VettingVersion.VettingVersion(String value)"
-  fullName: "com.microsoft.store.partnercenter.models.partners.VettingVersion.VettingVersion(String value)"
-  overload: "com.microsoft.store.partnercenter.models.partners.VettingVersion.VettingVersion*"
-  type: "Constructor"
-  package: "com.microsoft.store.partnercenter.models.partners"
-  syntax:
-    content: "private VettingVersion(String value)"
-    parameters:
-    - id: "value"
-      type: "java.lang.String"
-- uid: "com.microsoft.store.partnercenter.models.partners.VettingVersion.values()"
-  id: "values()"
-  parent: "com.microsoft.store.partnercenter.models.partners.VettingVersion"
-  langs:
-  - "java"
-  name: "values()"
-  nameWithType: "VettingVersion.values()"
-  fullName: "com.microsoft.store.partnercenter.models.partners.VettingVersion.values()"
-  overload: "com.microsoft.store.partnercenter.models.partners.VettingVersion.values*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.partners"
-  syntax:
-    content: "public static VettingVersion[] values()"
-    return:
-      type: "com.microsoft.store.partnercenter.models.partners.VettingVersion[]"
-- uid: "com.microsoft.store.partnercenter.models.partners.VettingVersion.valueOf(java.lang.String)"
-  id: "valueOf(java.lang.String)"
-  parent: "com.microsoft.store.partnercenter.models.partners.VettingVersion"
-  langs:
-  - "java"
-  name: "valueOf(String name)"
-  nameWithType: "VettingVersion.valueOf(String name)"
-  fullName: "com.microsoft.store.partnercenter.models.partners.VettingVersion.valueOf(String name)"
-  overload: "com.microsoft.store.partnercenter.models.partners.VettingVersion.valueOf*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.partners"
-  syntax:
-    content: "public static VettingVersion valueOf(String name)"
-    parameters:
-    - id: "name"
-      type: "java.lang.String"
-    return:
-      type: "com.microsoft.store.partnercenter.models.partners.VettingVersion"
-- uid: "com.microsoft.store.partnercenter.models.partners.VettingVersion.toString()"
-  id: "toString()"
-  parent: "com.microsoft.store.partnercenter.models.partners.VettingVersion"
-  langs:
-  - "java"
-  name: "toString()"
-  nameWithType: "VettingVersion.toString()"
-  fullName: "com.microsoft.store.partnercenter.models.partners.VettingVersion.toString()"
-  overload: "com.microsoft.store.partnercenter.models.partners.VettingVersion.toString*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.partners"
-  summary: "Converts the object to a string."
-  syntax:
-    content: "public String toString()"
-    return:
-      type: "java.lang.String"
-      description: "A string that represents this object."
-- uid: "com.microsoft.store.partnercenter.models.partners.VettingVersion.NONE"
-  id: "NONE"
-  parent: "com.microsoft.store.partnercenter.models.partners.VettingVersion"
-  langs:
-  - "java"
-  name: "NONE"
-  nameWithType: "VettingVersion.NONE"
-  fullName: "com.microsoft.store.partnercenter.models.partners.VettingVersion.NONE"
-  type: "Field"
-  package: "com.microsoft.store.partnercenter.models.partners"
-  summary: "None vetting version"
-  syntax:
-    content: "public static final VettingVersion NONE"
-    return:
-      type: "com.microsoft.store.partnercenter.models.partners.VettingVersion"
 - uid: "com.microsoft.store.partnercenter.models.partners.VettingVersion.CURRENT"
   id: "CURRENT"
   parent: "com.microsoft.store.partnercenter.models.partners.VettingVersion"
@@ -132,6 +51,87 @@ items:
     content: "public static final VettingVersion LAST_FINALIZED"
     return:
       type: "com.microsoft.store.partnercenter.models.partners.VettingVersion"
+- uid: "com.microsoft.store.partnercenter.models.partners.VettingVersion.NONE"
+  id: "NONE"
+  parent: "com.microsoft.store.partnercenter.models.partners.VettingVersion"
+  langs:
+  - "java"
+  name: "NONE"
+  nameWithType: "VettingVersion.NONE"
+  fullName: "com.microsoft.store.partnercenter.models.partners.VettingVersion.NONE"
+  type: "Field"
+  package: "com.microsoft.store.partnercenter.models.partners"
+  summary: "None vetting version"
+  syntax:
+    content: "public static final VettingVersion NONE"
+    return:
+      type: "com.microsoft.store.partnercenter.models.partners.VettingVersion"
+- uid: "com.microsoft.store.partnercenter.models.partners.VettingVersion.VettingVersion(java.lang.String)"
+  id: "VettingVersion(java.lang.String)"
+  parent: "com.microsoft.store.partnercenter.models.partners.VettingVersion"
+  langs:
+  - "java"
+  name: "VettingVersion(String value)"
+  nameWithType: "VettingVersion.VettingVersion(String value)"
+  fullName: "com.microsoft.store.partnercenter.models.partners.VettingVersion.VettingVersion(String value)"
+  overload: "com.microsoft.store.partnercenter.models.partners.VettingVersion.VettingVersion*"
+  type: "Constructor"
+  package: "com.microsoft.store.partnercenter.models.partners"
+  syntax:
+    content: "private VettingVersion(String value)"
+    parameters:
+    - id: "value"
+      type: "java.lang.String"
+- uid: "com.microsoft.store.partnercenter.models.partners.VettingVersion.toString()"
+  id: "toString()"
+  parent: "com.microsoft.store.partnercenter.models.partners.VettingVersion"
+  langs:
+  - "java"
+  name: "toString()"
+  nameWithType: "VettingVersion.toString()"
+  fullName: "com.microsoft.store.partnercenter.models.partners.VettingVersion.toString()"
+  overload: "com.microsoft.store.partnercenter.models.partners.VettingVersion.toString*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.partners"
+  summary: "Converts the object to a string."
+  syntax:
+    content: "public String toString()"
+    return:
+      type: "java.lang.String"
+      description: "A string that represents this object."
+- uid: "com.microsoft.store.partnercenter.models.partners.VettingVersion.valueOf(java.lang.String)"
+  id: "valueOf(java.lang.String)"
+  parent: "com.microsoft.store.partnercenter.models.partners.VettingVersion"
+  langs:
+  - "java"
+  name: "valueOf(String name)"
+  nameWithType: "VettingVersion.valueOf(String name)"
+  fullName: "com.microsoft.store.partnercenter.models.partners.VettingVersion.valueOf(String name)"
+  overload: "com.microsoft.store.partnercenter.models.partners.VettingVersion.valueOf*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.partners"
+  syntax:
+    content: "public static VettingVersion valueOf(String name)"
+    parameters:
+    - id: "name"
+      type: "java.lang.String"
+    return:
+      type: "com.microsoft.store.partnercenter.models.partners.VettingVersion"
+- uid: "com.microsoft.store.partnercenter.models.partners.VettingVersion.values()"
+  id: "values()"
+  parent: "com.microsoft.store.partnercenter.models.partners.VettingVersion"
+  langs:
+  - "java"
+  name: "values()"
+  nameWithType: "VettingVersion.values()"
+  fullName: "com.microsoft.store.partnercenter.models.partners.VettingVersion.values()"
+  overload: "com.microsoft.store.partnercenter.models.partners.VettingVersion.values*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.partners"
+  syntax:
+    content: "public static VettingVersion[] values()"
+    return:
+      type: "com.microsoft.store.partnercenter.models.partners.VettingVersion[]"
 references:
 - uid: "java.lang.String"
   name: "String"

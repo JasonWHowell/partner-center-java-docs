@@ -4,14 +4,14 @@ items:
   id: "HttpStatusCode"
   parent: "com.microsoft.store.partnercenter.network"
   children:
-  - "com.microsoft.store.partnercenter.network.HttpStatusCode.HttpStatusCode()"
   - "com.microsoft.store.partnercenter.network.HttpStatusCode.BADREQUEST"
-  - "com.microsoft.store.partnercenter.network.HttpStatusCode.UNAUTHORIZED"
-  - "com.microsoft.store.partnercenter.network.HttpStatusCode.FORBIDDEN"
-  - "com.microsoft.store.partnercenter.network.HttpStatusCode.NOTFOUND"
   - "com.microsoft.store.partnercenter.network.HttpStatusCode.CONFLICT"
-  - "com.microsoft.store.partnercenter.network.HttpStatusCode.SERVICEUNAVAILABLE"
   - "com.microsoft.store.partnercenter.network.HttpStatusCode.EXPECTATIONFAILED"
+  - "com.microsoft.store.partnercenter.network.HttpStatusCode.FORBIDDEN"
+  - "com.microsoft.store.partnercenter.network.HttpStatusCode.HttpStatusCode()"
+  - "com.microsoft.store.partnercenter.network.HttpStatusCode.NOTFOUND"
+  - "com.microsoft.store.partnercenter.network.HttpStatusCode.SERVICEUNAVAILABLE"
+  - "com.microsoft.store.partnercenter.network.HttpStatusCode.UNAUTHORIZED"
   langs:
   - "java"
   name: "HttpStatusCode"
@@ -23,19 +23,6 @@ items:
     content: "public class HttpStatusCode"
   inheritance:
   - "java.lang.Object"
-- uid: "com.microsoft.store.partnercenter.network.HttpStatusCode.HttpStatusCode()"
-  id: "HttpStatusCode()"
-  parent: "com.microsoft.store.partnercenter.network.HttpStatusCode"
-  langs:
-  - "java"
-  name: "HttpStatusCode()"
-  nameWithType: "HttpStatusCode.HttpStatusCode()"
-  fullName: "com.microsoft.store.partnercenter.network.HttpStatusCode.HttpStatusCode()"
-  overload: "com.microsoft.store.partnercenter.network.HttpStatusCode.HttpStatusCode*"
-  type: "Constructor"
-  package: "com.microsoft.store.partnercenter.network"
-  syntax:
-    content: "public HttpStatusCode()"
 - uid: "com.microsoft.store.partnercenter.network.HttpStatusCode.BADREQUEST"
   id: "BADREQUEST"
   parent: "com.microsoft.store.partnercenter.network.HttpStatusCode"
@@ -48,48 +35,6 @@ items:
   package: "com.microsoft.store.partnercenter.network"
   syntax:
     content: "public static final int BADREQUEST"
-    return:
-      type: "int"
-- uid: "com.microsoft.store.partnercenter.network.HttpStatusCode.UNAUTHORIZED"
-  id: "UNAUTHORIZED"
-  parent: "com.microsoft.store.partnercenter.network.HttpStatusCode"
-  langs:
-  - "java"
-  name: "UNAUTHORIZED"
-  nameWithType: "HttpStatusCode.UNAUTHORIZED"
-  fullName: "com.microsoft.store.partnercenter.network.HttpStatusCode.UNAUTHORIZED"
-  type: "Field"
-  package: "com.microsoft.store.partnercenter.network"
-  syntax:
-    content: "public static final int UNAUTHORIZED"
-    return:
-      type: "int"
-- uid: "com.microsoft.store.partnercenter.network.HttpStatusCode.FORBIDDEN"
-  id: "FORBIDDEN"
-  parent: "com.microsoft.store.partnercenter.network.HttpStatusCode"
-  langs:
-  - "java"
-  name: "FORBIDDEN"
-  nameWithType: "HttpStatusCode.FORBIDDEN"
-  fullName: "com.microsoft.store.partnercenter.network.HttpStatusCode.FORBIDDEN"
-  type: "Field"
-  package: "com.microsoft.store.partnercenter.network"
-  syntax:
-    content: "public static final int FORBIDDEN"
-    return:
-      type: "int"
-- uid: "com.microsoft.store.partnercenter.network.HttpStatusCode.NOTFOUND"
-  id: "NOTFOUND"
-  parent: "com.microsoft.store.partnercenter.network.HttpStatusCode"
-  langs:
-  - "java"
-  name: "NOTFOUND"
-  nameWithType: "HttpStatusCode.NOTFOUND"
-  fullName: "com.microsoft.store.partnercenter.network.HttpStatusCode.NOTFOUND"
-  type: "Field"
-  package: "com.microsoft.store.partnercenter.network"
-  syntax:
-    content: "public static final int NOTFOUND"
     return:
       type: "int"
 - uid: "com.microsoft.store.partnercenter.network.HttpStatusCode.CONFLICT"
@@ -106,6 +51,61 @@ items:
     content: "public static final int CONFLICT"
     return:
       type: "int"
+- uid: "com.microsoft.store.partnercenter.network.HttpStatusCode.EXPECTATIONFAILED"
+  id: "EXPECTATIONFAILED"
+  parent: "com.microsoft.store.partnercenter.network.HttpStatusCode"
+  langs:
+  - "java"
+  name: "EXPECTATIONFAILED"
+  nameWithType: "HttpStatusCode.EXPECTATIONFAILED"
+  fullName: "com.microsoft.store.partnercenter.network.HttpStatusCode.EXPECTATIONFAILED"
+  type: "Field"
+  package: "com.microsoft.store.partnercenter.network"
+  syntax:
+    content: "public static final int EXPECTATIONFAILED"
+    return:
+      type: "int"
+- uid: "com.microsoft.store.partnercenter.network.HttpStatusCode.FORBIDDEN"
+  id: "FORBIDDEN"
+  parent: "com.microsoft.store.partnercenter.network.HttpStatusCode"
+  langs:
+  - "java"
+  name: "FORBIDDEN"
+  nameWithType: "HttpStatusCode.FORBIDDEN"
+  fullName: "com.microsoft.store.partnercenter.network.HttpStatusCode.FORBIDDEN"
+  type: "Field"
+  package: "com.microsoft.store.partnercenter.network"
+  syntax:
+    content: "public static final int FORBIDDEN"
+    return:
+      type: "int"
+- uid: "com.microsoft.store.partnercenter.network.HttpStatusCode.HttpStatusCode()"
+  id: "HttpStatusCode()"
+  parent: "com.microsoft.store.partnercenter.network.HttpStatusCode"
+  langs:
+  - "java"
+  name: "HttpStatusCode()"
+  nameWithType: "HttpStatusCode.HttpStatusCode()"
+  fullName: "com.microsoft.store.partnercenter.network.HttpStatusCode.HttpStatusCode()"
+  overload: "com.microsoft.store.partnercenter.network.HttpStatusCode.HttpStatusCode*"
+  type: "Constructor"
+  package: "com.microsoft.store.partnercenter.network"
+  syntax:
+    content: "public HttpStatusCode()"
+- uid: "com.microsoft.store.partnercenter.network.HttpStatusCode.NOTFOUND"
+  id: "NOTFOUND"
+  parent: "com.microsoft.store.partnercenter.network.HttpStatusCode"
+  langs:
+  - "java"
+  name: "NOTFOUND"
+  nameWithType: "HttpStatusCode.NOTFOUND"
+  fullName: "com.microsoft.store.partnercenter.network.HttpStatusCode.NOTFOUND"
+  type: "Field"
+  package: "com.microsoft.store.partnercenter.network"
+  syntax:
+    content: "public static final int NOTFOUND"
+    return:
+      type: "int"
 - uid: "com.microsoft.store.partnercenter.network.HttpStatusCode.SERVICEUNAVAILABLE"
   id: "SERVICEUNAVAILABLE"
   parent: "com.microsoft.store.partnercenter.network.HttpStatusCode"
@@ -120,18 +120,18 @@ items:
     content: "public static final int SERVICEUNAVAILABLE"
     return:
       type: "int"
-- uid: "com.microsoft.store.partnercenter.network.HttpStatusCode.EXPECTATIONFAILED"
-  id: "EXPECTATIONFAILED"
+- uid: "com.microsoft.store.partnercenter.network.HttpStatusCode.UNAUTHORIZED"
+  id: "UNAUTHORIZED"
   parent: "com.microsoft.store.partnercenter.network.HttpStatusCode"
   langs:
   - "java"
-  name: "EXPECTATIONFAILED"
-  nameWithType: "HttpStatusCode.EXPECTATIONFAILED"
-  fullName: "com.microsoft.store.partnercenter.network.HttpStatusCode.EXPECTATIONFAILED"
+  name: "UNAUTHORIZED"
+  nameWithType: "HttpStatusCode.UNAUTHORIZED"
+  fullName: "com.microsoft.store.partnercenter.network.HttpStatusCode.UNAUTHORIZED"
   type: "Field"
   package: "com.microsoft.store.partnercenter.network"
   syntax:
-    content: "public static final int EXPECTATIONFAILED"
+    content: "public static final int UNAUTHORIZED"
     return:
       type: "int"
 references:

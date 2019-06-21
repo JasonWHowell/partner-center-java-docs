@@ -6,14 +6,14 @@ items:
   children:
   - "com.microsoft.store.partnercenter.models.servicerequests.FileInfo.FileInfo()"
   - "com.microsoft.store.partnercenter.models.servicerequests.FileInfo.getComment()"
-  - "com.microsoft.store.partnercenter.models.servicerequests.FileInfo.setComment(java.lang.String)"
   - "com.microsoft.store.partnercenter.models.servicerequests.FileInfo.getFileExtension()"
-  - "com.microsoft.store.partnercenter.models.servicerequests.FileInfo.setFileExtension(java.lang.String)"
   - "com.microsoft.store.partnercenter.models.servicerequests.FileInfo.getFileNameWithoutExtension()"
-  - "com.microsoft.store.partnercenter.models.servicerequests.FileInfo.setFileNameWithoutExtension(java.lang.String)"
   - "com.microsoft.store.partnercenter.models.servicerequests.FileInfo.getFileSize()"
-  - "com.microsoft.store.partnercenter.models.servicerequests.FileInfo.setFileSize(long)"
   - "com.microsoft.store.partnercenter.models.servicerequests.FileInfo.getId()"
+  - "com.microsoft.store.partnercenter.models.servicerequests.FileInfo.setComment(java.lang.String)"
+  - "com.microsoft.store.partnercenter.models.servicerequests.FileInfo.setFileExtension(java.lang.String)"
+  - "com.microsoft.store.partnercenter.models.servicerequests.FileInfo.setFileNameWithoutExtension(java.lang.String)"
+  - "com.microsoft.store.partnercenter.models.servicerequests.FileInfo.setFileSize(long)"
   - "com.microsoft.store.partnercenter.models.servicerequests.FileInfo.setId(java.lang.String)"
   langs:
   - "java"
@@ -55,6 +55,66 @@ items:
     content: "public String getComment()"
     return:
       type: "java.lang.String"
+- uid: "com.microsoft.store.partnercenter.models.servicerequests.FileInfo.getFileExtension()"
+  id: "getFileExtension()"
+  parent: "com.microsoft.store.partnercenter.models.servicerequests.FileInfo"
+  langs:
+  - "java"
+  name: "getFileExtension()"
+  nameWithType: "FileInfo.getFileExtension()"
+  fullName: "com.microsoft.store.partnercenter.models.servicerequests.FileInfo.getFileExtension()"
+  overload: "com.microsoft.store.partnercenter.models.servicerequests.FileInfo.getFileExtension*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.servicerequests"
+  syntax:
+    content: "public String getFileExtension()"
+    return:
+      type: "java.lang.String"
+- uid: "com.microsoft.store.partnercenter.models.servicerequests.FileInfo.getFileNameWithoutExtension()"
+  id: "getFileNameWithoutExtension()"
+  parent: "com.microsoft.store.partnercenter.models.servicerequests.FileInfo"
+  langs:
+  - "java"
+  name: "getFileNameWithoutExtension()"
+  nameWithType: "FileInfo.getFileNameWithoutExtension()"
+  fullName: "com.microsoft.store.partnercenter.models.servicerequests.FileInfo.getFileNameWithoutExtension()"
+  overload: "com.microsoft.store.partnercenter.models.servicerequests.FileInfo.getFileNameWithoutExtension*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.servicerequests"
+  syntax:
+    content: "public String getFileNameWithoutExtension()"
+    return:
+      type: "java.lang.String"
+- uid: "com.microsoft.store.partnercenter.models.servicerequests.FileInfo.getFileSize()"
+  id: "getFileSize()"
+  parent: "com.microsoft.store.partnercenter.models.servicerequests.FileInfo"
+  langs:
+  - "java"
+  name: "getFileSize()"
+  nameWithType: "FileInfo.getFileSize()"
+  fullName: "com.microsoft.store.partnercenter.models.servicerequests.FileInfo.getFileSize()"
+  overload: "com.microsoft.store.partnercenter.models.servicerequests.FileInfo.getFileSize*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.servicerequests"
+  syntax:
+    content: "public long getFileSize()"
+    return:
+      type: "long"
+- uid: "com.microsoft.store.partnercenter.models.servicerequests.FileInfo.getId()"
+  id: "getId()"
+  parent: "com.microsoft.store.partnercenter.models.servicerequests.FileInfo"
+  langs:
+  - "java"
+  name: "getId()"
+  nameWithType: "FileInfo.getId()"
+  fullName: "com.microsoft.store.partnercenter.models.servicerequests.FileInfo.getId()"
+  overload: "com.microsoft.store.partnercenter.models.servicerequests.FileInfo.getId*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.servicerequests"
+  syntax:
+    content: "public String getId()"
+    return:
+      type: "java.lang.String"
 - uid: "com.microsoft.store.partnercenter.models.servicerequests.FileInfo.setComment(java.lang.String)"
   id: "setComment(java.lang.String)"
   parent: "com.microsoft.store.partnercenter.models.servicerequests.FileInfo"
@@ -70,21 +130,6 @@ items:
     content: "public void setComment(String value)"
     parameters:
     - id: "value"
-      type: "java.lang.String"
-- uid: "com.microsoft.store.partnercenter.models.servicerequests.FileInfo.getFileExtension()"
-  id: "getFileExtension()"
-  parent: "com.microsoft.store.partnercenter.models.servicerequests.FileInfo"
-  langs:
-  - "java"
-  name: "getFileExtension()"
-  nameWithType: "FileInfo.getFileExtension()"
-  fullName: "com.microsoft.store.partnercenter.models.servicerequests.FileInfo.getFileExtension()"
-  overload: "com.microsoft.store.partnercenter.models.servicerequests.FileInfo.getFileExtension*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.servicerequests"
-  syntax:
-    content: "public String getFileExtension()"
-    return:
       type: "java.lang.String"
 - uid: "com.microsoft.store.partnercenter.models.servicerequests.FileInfo.setFileExtension(java.lang.String)"
   id: "setFileExtension(java.lang.String)"
@@ -102,21 +147,6 @@ items:
     parameters:
     - id: "value"
       type: "java.lang.String"
-- uid: "com.microsoft.store.partnercenter.models.servicerequests.FileInfo.getFileNameWithoutExtension()"
-  id: "getFileNameWithoutExtension()"
-  parent: "com.microsoft.store.partnercenter.models.servicerequests.FileInfo"
-  langs:
-  - "java"
-  name: "getFileNameWithoutExtension()"
-  nameWithType: "FileInfo.getFileNameWithoutExtension()"
-  fullName: "com.microsoft.store.partnercenter.models.servicerequests.FileInfo.getFileNameWithoutExtension()"
-  overload: "com.microsoft.store.partnercenter.models.servicerequests.FileInfo.getFileNameWithoutExtension*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.servicerequests"
-  syntax:
-    content: "public String getFileNameWithoutExtension()"
-    return:
-      type: "java.lang.String"
 - uid: "com.microsoft.store.partnercenter.models.servicerequests.FileInfo.setFileNameWithoutExtension(java.lang.String)"
   id: "setFileNameWithoutExtension(java.lang.String)"
   parent: "com.microsoft.store.partnercenter.models.servicerequests.FileInfo"
@@ -133,21 +163,6 @@ items:
     parameters:
     - id: "value"
       type: "java.lang.String"
-- uid: "com.microsoft.store.partnercenter.models.servicerequests.FileInfo.getFileSize()"
-  id: "getFileSize()"
-  parent: "com.microsoft.store.partnercenter.models.servicerequests.FileInfo"
-  langs:
-  - "java"
-  name: "getFileSize()"
-  nameWithType: "FileInfo.getFileSize()"
-  fullName: "com.microsoft.store.partnercenter.models.servicerequests.FileInfo.getFileSize()"
-  overload: "com.microsoft.store.partnercenter.models.servicerequests.FileInfo.getFileSize*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.servicerequests"
-  syntax:
-    content: "public long getFileSize()"
-    return:
-      type: "long"
 - uid: "com.microsoft.store.partnercenter.models.servicerequests.FileInfo.setFileSize(long)"
   id: "setFileSize(long)"
   parent: "com.microsoft.store.partnercenter.models.servicerequests.FileInfo"
@@ -164,21 +179,6 @@ items:
     parameters:
     - id: "value"
       type: "long"
-- uid: "com.microsoft.store.partnercenter.models.servicerequests.FileInfo.getId()"
-  id: "getId()"
-  parent: "com.microsoft.store.partnercenter.models.servicerequests.FileInfo"
-  langs:
-  - "java"
-  name: "getId()"
-  nameWithType: "FileInfo.getId()"
-  fullName: "com.microsoft.store.partnercenter.models.servicerequests.FileInfo.getId()"
-  overload: "com.microsoft.store.partnercenter.models.servicerequests.FileInfo.getId*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.servicerequests"
-  syntax:
-    content: "public String getId()"
-    return:
-      type: "java.lang.String"
 - uid: "com.microsoft.store.partnercenter.models.servicerequests.FileInfo.setId(java.lang.String)"
   id: "setId(java.lang.String)"
   parent: "com.microsoft.store.partnercenter.models.servicerequests.FileInfo"

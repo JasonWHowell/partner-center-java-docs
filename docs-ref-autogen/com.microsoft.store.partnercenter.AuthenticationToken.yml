@@ -5,11 +5,11 @@ items:
   parent: "com.microsoft.store.partnercenter"
   children:
   - "com.microsoft.store.partnercenter.AuthenticationToken.AuthenticationToken(java.lang.String,org.joda.time.DateTime)"
-  - "com.microsoft.store.partnercenter.AuthenticationToken.getToken()"
-  - "com.microsoft.store.partnercenter.AuthenticationToken.getExpiryTime()"
   - "com.microsoft.store.partnercenter.AuthenticationToken.getExpiryBuffer()"
-  - "com.microsoft.store.partnercenter.AuthenticationToken.setExpiryBuffer(org.joda.time.Duration)"
+  - "com.microsoft.store.partnercenter.AuthenticationToken.getExpiryTime()"
+  - "com.microsoft.store.partnercenter.AuthenticationToken.getToken()"
   - "com.microsoft.store.partnercenter.AuthenticationToken.isExpired()"
+  - "com.microsoft.store.partnercenter.AuthenticationToken.setExpiryBuffer(org.joda.time.Duration)"
   langs:
   - "java"
   name: "AuthenticationToken"
@@ -43,36 +43,6 @@ items:
     - id: "expiryTime"
       type: "org.joda.time.DateTime"
       description: "The token expiry time."
-- uid: "com.microsoft.store.partnercenter.AuthenticationToken.getToken()"
-  id: "getToken()"
-  parent: "com.microsoft.store.partnercenter.AuthenticationToken"
-  langs:
-  - "java"
-  name: "getToken()"
-  nameWithType: "AuthenticationToken.getToken()"
-  fullName: "com.microsoft.store.partnercenter.AuthenticationToken.getToken()"
-  overload: "com.microsoft.store.partnercenter.AuthenticationToken.getToken*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter"
-  syntax:
-    content: "public String getToken()"
-    return:
-      type: "java.lang.String"
-- uid: "com.microsoft.store.partnercenter.AuthenticationToken.getExpiryTime()"
-  id: "getExpiryTime()"
-  parent: "com.microsoft.store.partnercenter.AuthenticationToken"
-  langs:
-  - "java"
-  name: "getExpiryTime()"
-  nameWithType: "AuthenticationToken.getExpiryTime()"
-  fullName: "com.microsoft.store.partnercenter.AuthenticationToken.getExpiryTime()"
-  overload: "com.microsoft.store.partnercenter.AuthenticationToken.getExpiryTime*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter"
-  syntax:
-    content: "public DateTime getExpiryTime()"
-    return:
-      type: "org.joda.time.DateTime"
 - uid: "com.microsoft.store.partnercenter.AuthenticationToken.getExpiryBuffer()"
   id: "getExpiryBuffer()"
   parent: "com.microsoft.store.partnercenter.AuthenticationToken"
@@ -88,22 +58,36 @@ items:
     content: "public Duration getExpiryBuffer()"
     return:
       type: "org.joda.time.Duration"
-- uid: "com.microsoft.store.partnercenter.AuthenticationToken.setExpiryBuffer(org.joda.time.Duration)"
-  id: "setExpiryBuffer(org.joda.time.Duration)"
+- uid: "com.microsoft.store.partnercenter.AuthenticationToken.getExpiryTime()"
+  id: "getExpiryTime()"
   parent: "com.microsoft.store.partnercenter.AuthenticationToken"
   langs:
   - "java"
-  name: "setExpiryBuffer(Duration value)"
-  nameWithType: "AuthenticationToken.setExpiryBuffer(Duration value)"
-  fullName: "com.microsoft.store.partnercenter.AuthenticationToken.setExpiryBuffer(Duration value)"
-  overload: "com.microsoft.store.partnercenter.AuthenticationToken.setExpiryBuffer*"
+  name: "getExpiryTime()"
+  nameWithType: "AuthenticationToken.getExpiryTime()"
+  fullName: "com.microsoft.store.partnercenter.AuthenticationToken.getExpiryTime()"
+  overload: "com.microsoft.store.partnercenter.AuthenticationToken.getExpiryTime*"
   type: "Method"
   package: "com.microsoft.store.partnercenter"
   syntax:
-    content: "public void setExpiryBuffer(Duration value)"
-    parameters:
-    - id: "value"
-      type: "org.joda.time.Duration"
+    content: "public DateTime getExpiryTime()"
+    return:
+      type: "org.joda.time.DateTime"
+- uid: "com.microsoft.store.partnercenter.AuthenticationToken.getToken()"
+  id: "getToken()"
+  parent: "com.microsoft.store.partnercenter.AuthenticationToken"
+  langs:
+  - "java"
+  name: "getToken()"
+  nameWithType: "AuthenticationToken.getToken()"
+  fullName: "com.microsoft.store.partnercenter.AuthenticationToken.getToken()"
+  overload: "com.microsoft.store.partnercenter.AuthenticationToken.getToken*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter"
+  syntax:
+    content: "public String getToken()"
+    return:
+      type: "java.lang.String"
 - uid: "com.microsoft.store.partnercenter.AuthenticationToken.isExpired()"
   id: "isExpired()"
   parent: "com.microsoft.store.partnercenter.AuthenticationToken"
@@ -121,6 +105,22 @@ items:
     return:
       type: "boolean"
       description: "true if token has expired; otherwise false."
+- uid: "com.microsoft.store.partnercenter.AuthenticationToken.setExpiryBuffer(org.joda.time.Duration)"
+  id: "setExpiryBuffer(org.joda.time.Duration)"
+  parent: "com.microsoft.store.partnercenter.AuthenticationToken"
+  langs:
+  - "java"
+  name: "setExpiryBuffer(Duration value)"
+  nameWithType: "AuthenticationToken.setExpiryBuffer(Duration value)"
+  fullName: "com.microsoft.store.partnercenter.AuthenticationToken.setExpiryBuffer(Duration value)"
+  overload: "com.microsoft.store.partnercenter.AuthenticationToken.setExpiryBuffer*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter"
+  syntax:
+    content: "public void setExpiryBuffer(Duration value)"
+    parameters:
+    - id: "value"
+      type: "org.joda.time.Duration"
 references:
 - uid: "java.lang.String"
   name: "String"

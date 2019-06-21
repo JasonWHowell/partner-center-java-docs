@@ -4,11 +4,11 @@ items:
   id: "AzureUtilizationGranularity"
   parent: "com.microsoft.store.partnercenter.models.utilizations"
   children:
-  - "com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationGranularity.values()"
-  - "com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationGranularity.valueOf(java.lang.String)"
-  - "com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationGranularity.toString()"
   - "com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationGranularity.DAILY"
   - "com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationGranularity.HOURLY"
+  - "com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationGranularity.toString()"
+  - "com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationGranularity.valueOf(java.lang.String)"
+  - "com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationGranularity.values()"
   langs:
   - "java"
   name: "AzureUtilizationGranularity"
@@ -37,56 +37,6 @@ items:
     parameters:
     - id: "value"
       type: "java.lang.String"
-- uid: "com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationGranularity.values()"
-  id: "values()"
-  parent: "com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationGranularity"
-  langs:
-  - "java"
-  name: "values()"
-  nameWithType: "AzureUtilizationGranularity.values()"
-  fullName: "com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationGranularity.values()"
-  overload: "com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationGranularity.values*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.utilizations"
-  syntax:
-    content: "public static AzureUtilizationGranularity[] values()"
-    return:
-      type: "com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationGranularity[]"
-- uid: "com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationGranularity.valueOf(java.lang.String)"
-  id: "valueOf(java.lang.String)"
-  parent: "com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationGranularity"
-  langs:
-  - "java"
-  name: "valueOf(String name)"
-  nameWithType: "AzureUtilizationGranularity.valueOf(String name)"
-  fullName: "com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationGranularity.valueOf(String name)"
-  overload: "com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationGranularity.valueOf*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.utilizations"
-  syntax:
-    content: "public static AzureUtilizationGranularity valueOf(String name)"
-    parameters:
-    - id: "name"
-      type: "java.lang.String"
-    return:
-      type: "com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationGranularity"
-- uid: "com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationGranularity.toString()"
-  id: "toString()"
-  parent: "com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationGranularity"
-  langs:
-  - "java"
-  name: "toString()"
-  nameWithType: "AzureUtilizationGranularity.toString()"
-  fullName: "com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationGranularity.toString()"
-  overload: "com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationGranularity.toString*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.utilizations"
-  summary: "Converts the object to a string."
-  syntax:
-    content: "public String toString()"
-    return:
-      type: "java.lang.String"
-      description: "A string that represents this object."
 - uid: "com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationGranularity.DAILY"
   id: "DAILY"
   parent: "com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationGranularity"
@@ -117,6 +67,56 @@ items:
     content: "public static final AzureUtilizationGranularity HOURLY"
     return:
       type: "com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationGranularity"
+- uid: "com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationGranularity.toString()"
+  id: "toString()"
+  parent: "com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationGranularity"
+  langs:
+  - "java"
+  name: "toString()"
+  nameWithType: "AzureUtilizationGranularity.toString()"
+  fullName: "com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationGranularity.toString()"
+  overload: "com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationGranularity.toString*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.utilizations"
+  summary: "Converts the object to a string."
+  syntax:
+    content: "public String toString()"
+    return:
+      type: "java.lang.String"
+      description: "A string that represents this object."
+- uid: "com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationGranularity.valueOf(java.lang.String)"
+  id: "valueOf(java.lang.String)"
+  parent: "com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationGranularity"
+  langs:
+  - "java"
+  name: "valueOf(String name)"
+  nameWithType: "AzureUtilizationGranularity.valueOf(String name)"
+  fullName: "com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationGranularity.valueOf(String name)"
+  overload: "com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationGranularity.valueOf*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.utilizations"
+  syntax:
+    content: "public static AzureUtilizationGranularity valueOf(String name)"
+    parameters:
+    - id: "name"
+      type: "java.lang.String"
+    return:
+      type: "com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationGranularity"
+- uid: "com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationGranularity.values()"
+  id: "values()"
+  parent: "com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationGranularity"
+  langs:
+  - "java"
+  name: "values()"
+  nameWithType: "AzureUtilizationGranularity.values()"
+  fullName: "com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationGranularity.values()"
+  overload: "com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationGranularity.values*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.utilizations"
+  syntax:
+    content: "public static AzureUtilizationGranularity[] values()"
+    return:
+      type: "com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationGranularity[]"
 references:
 - uid: "java.lang.String"
   name: "String"

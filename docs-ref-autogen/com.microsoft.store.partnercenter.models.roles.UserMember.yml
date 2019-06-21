@@ -5,11 +5,11 @@ items:
   parent: "com.microsoft.store.partnercenter.models.roles"
   children:
   - "com.microsoft.store.partnercenter.models.roles.UserMember.UserMember()"
-  - "com.microsoft.store.partnercenter.models.roles.UserMember.getId()"
-  - "com.microsoft.store.partnercenter.models.roles.UserMember.setId(java.lang.String)"
   - "com.microsoft.store.partnercenter.models.roles.UserMember.getDisplayName()"
-  - "com.microsoft.store.partnercenter.models.roles.UserMember.setDisplayName(java.lang.String)"
+  - "com.microsoft.store.partnercenter.models.roles.UserMember.getId()"
   - "com.microsoft.store.partnercenter.models.roles.UserMember.getUserPrincipalName()"
+  - "com.microsoft.store.partnercenter.models.roles.UserMember.setDisplayName(java.lang.String)"
+  - "com.microsoft.store.partnercenter.models.roles.UserMember.setId(java.lang.String)"
   - "com.microsoft.store.partnercenter.models.roles.UserMember.setUserPrincipalName(java.lang.String)"
   langs:
   - "java"
@@ -35,6 +35,21 @@ items:
   package: "com.microsoft.store.partnercenter.models.roles"
   syntax:
     content: "public UserMember()"
+- uid: "com.microsoft.store.partnercenter.models.roles.UserMember.getDisplayName()"
+  id: "getDisplayName()"
+  parent: "com.microsoft.store.partnercenter.models.roles.UserMember"
+  langs:
+  - "java"
+  name: "getDisplayName()"
+  nameWithType: "UserMember.getDisplayName()"
+  fullName: "com.microsoft.store.partnercenter.models.roles.UserMember.getDisplayName()"
+  overload: "com.microsoft.store.partnercenter.models.roles.UserMember.getDisplayName*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.roles"
+  syntax:
+    content: "public String getDisplayName()"
+    return:
+      type: "java.lang.String"
 - uid: "com.microsoft.store.partnercenter.models.roles.UserMember.getId()"
   id: "getId()"
   parent: "com.microsoft.store.partnercenter.models.roles.UserMember"
@@ -50,35 +65,19 @@ items:
     content: "public String getId()"
     return:
       type: "java.lang.String"
-- uid: "com.microsoft.store.partnercenter.models.roles.UserMember.setId(java.lang.String)"
-  id: "setId(java.lang.String)"
+- uid: "com.microsoft.store.partnercenter.models.roles.UserMember.getUserPrincipalName()"
+  id: "getUserPrincipalName()"
   parent: "com.microsoft.store.partnercenter.models.roles.UserMember"
   langs:
   - "java"
-  name: "setId(String value)"
-  nameWithType: "UserMember.setId(String value)"
-  fullName: "com.microsoft.store.partnercenter.models.roles.UserMember.setId(String value)"
-  overload: "com.microsoft.store.partnercenter.models.roles.UserMember.setId*"
+  name: "getUserPrincipalName()"
+  nameWithType: "UserMember.getUserPrincipalName()"
+  fullName: "com.microsoft.store.partnercenter.models.roles.UserMember.getUserPrincipalName()"
+  overload: "com.microsoft.store.partnercenter.models.roles.UserMember.getUserPrincipalName*"
   type: "Method"
   package: "com.microsoft.store.partnercenter.models.roles"
   syntax:
-    content: "public void setId(String value)"
-    parameters:
-    - id: "value"
-      type: "java.lang.String"
-- uid: "com.microsoft.store.partnercenter.models.roles.UserMember.getDisplayName()"
-  id: "getDisplayName()"
-  parent: "com.microsoft.store.partnercenter.models.roles.UserMember"
-  langs:
-  - "java"
-  name: "getDisplayName()"
-  nameWithType: "UserMember.getDisplayName()"
-  fullName: "com.microsoft.store.partnercenter.models.roles.UserMember.getDisplayName()"
-  overload: "com.microsoft.store.partnercenter.models.roles.UserMember.getDisplayName*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.roles"
-  syntax:
-    content: "public String getDisplayName()"
+    content: "public String getUserPrincipalName()"
     return:
       type: "java.lang.String"
 - uid: "com.microsoft.store.partnercenter.models.roles.UserMember.setDisplayName(java.lang.String)"
@@ -97,20 +96,21 @@ items:
     parameters:
     - id: "value"
       type: "java.lang.String"
-- uid: "com.microsoft.store.partnercenter.models.roles.UserMember.getUserPrincipalName()"
-  id: "getUserPrincipalName()"
+- uid: "com.microsoft.store.partnercenter.models.roles.UserMember.setId(java.lang.String)"
+  id: "setId(java.lang.String)"
   parent: "com.microsoft.store.partnercenter.models.roles.UserMember"
   langs:
   - "java"
-  name: "getUserPrincipalName()"
-  nameWithType: "UserMember.getUserPrincipalName()"
-  fullName: "com.microsoft.store.partnercenter.models.roles.UserMember.getUserPrincipalName()"
-  overload: "com.microsoft.store.partnercenter.models.roles.UserMember.getUserPrincipalName*"
+  name: "setId(String value)"
+  nameWithType: "UserMember.setId(String value)"
+  fullName: "com.microsoft.store.partnercenter.models.roles.UserMember.setId(String value)"
+  overload: "com.microsoft.store.partnercenter.models.roles.UserMember.setId*"
   type: "Method"
   package: "com.microsoft.store.partnercenter.models.roles"
   syntax:
-    content: "public String getUserPrincipalName()"
-    return:
+    content: "public void setId(String value)"
+    parameters:
+    - id: "value"
       type: "java.lang.String"
 - uid: "com.microsoft.store.partnercenter.models.roles.UserMember.setUserPrincipalName(java.lang.String)"
   id: "setUserPrincipalName(java.lang.String)"

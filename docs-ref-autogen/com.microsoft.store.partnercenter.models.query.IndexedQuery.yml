@@ -4,12 +4,12 @@ items:
   id: "IndexedQuery"
   parent: "com.microsoft.store.partnercenter.models.query"
   children:
-  - "com.microsoft.store.partnercenter.models.query.IndexedQuery.IndexedQuery(java.lang.Object)"
   - "com.microsoft.store.partnercenter.models.query.IndexedQuery.IndexedQuery()"
-  - "com.microsoft.store.partnercenter.models.query.IndexedQuery.getType()"
+  - "com.microsoft.store.partnercenter.models.query.IndexedQuery.IndexedQuery(java.lang.Object)"
   - "com.microsoft.store.partnercenter.models.query.IndexedQuery.getIndex()"
-  - "com.microsoft.store.partnercenter.models.query.IndexedQuery.setIndex(int)"
   - "com.microsoft.store.partnercenter.models.query.IndexedQuery.getPageSize()"
+  - "com.microsoft.store.partnercenter.models.query.IndexedQuery.getType()"
+  - "com.microsoft.store.partnercenter.models.query.IndexedQuery.setIndex(int)"
   - "com.microsoft.store.partnercenter.models.query.IndexedQuery.setPageSize(int)"
   - "com.microsoft.store.partnercenter.models.query.IndexedQuery.toString()"
   langs:
@@ -24,6 +24,19 @@ items:
     content: "public class IndexedQuery extends SimpleQuery"
   inheritance:
   - "com.microsoft.store.partnercenter.models.query.SimpleQuery"
+- uid: "com.microsoft.store.partnercenter.models.query.IndexedQuery.IndexedQuery()"
+  id: "IndexedQuery()"
+  parent: "com.microsoft.store.partnercenter.models.query.IndexedQuery"
+  langs:
+  - "java"
+  name: "IndexedQuery()"
+  nameWithType: "IndexedQuery.IndexedQuery()"
+  fullName: "com.microsoft.store.partnercenter.models.query.IndexedQuery.IndexedQuery()"
+  overload: "com.microsoft.store.partnercenter.models.query.IndexedQuery.IndexedQuery*"
+  type: "Constructor"
+  package: "com.microsoft.store.partnercenter.models.query"
+  syntax:
+    content: "protected IndexedQuery()"
 - uid: "com.microsoft.store.partnercenter.models.query.IndexedQuery.IndexedQuery(java.lang.Object)"
   id: "IndexedQuery(java.lang.Object)"
   parent: "com.microsoft.store.partnercenter.models.query.IndexedQuery"
@@ -40,35 +53,6 @@ items:
     parameters:
     - id: "token"
       type: "java.lang.Object"
-- uid: "com.microsoft.store.partnercenter.models.query.IndexedQuery.IndexedQuery()"
-  id: "IndexedQuery()"
-  parent: "com.microsoft.store.partnercenter.models.query.IndexedQuery"
-  langs:
-  - "java"
-  name: "IndexedQuery()"
-  nameWithType: "IndexedQuery.IndexedQuery()"
-  fullName: "com.microsoft.store.partnercenter.models.query.IndexedQuery.IndexedQuery()"
-  overload: "com.microsoft.store.partnercenter.models.query.IndexedQuery.IndexedQuery*"
-  type: "Constructor"
-  package: "com.microsoft.store.partnercenter.models.query"
-  syntax:
-    content: "protected IndexedQuery()"
-- uid: "com.microsoft.store.partnercenter.models.query.IndexedQuery.getType()"
-  id: "getType()"
-  parent: "com.microsoft.store.partnercenter.models.query.IndexedQuery"
-  langs:
-  - "java"
-  name: "getType()"
-  nameWithType: "IndexedQuery.getType()"
-  fullName: "com.microsoft.store.partnercenter.models.query.IndexedQuery.getType()"
-  overload: "com.microsoft.store.partnercenter.models.query.IndexedQuery.getType*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.query"
-  summary: "Gets the query type."
-  syntax:
-    content: "public QueryType getType()"
-    return:
-      type: "com.microsoft.store.partnercenter.models.query.QueryType"
 - uid: "com.microsoft.store.partnercenter.models.query.IndexedQuery.getIndex()"
   id: "getIndex()"
   parent: "com.microsoft.store.partnercenter.models.query.IndexedQuery"
@@ -85,22 +69,6 @@ items:
     content: "public int getIndex()"
     return:
       type: "int"
-- uid: "com.microsoft.store.partnercenter.models.query.IndexedQuery.setIndex(int)"
-  id: "setIndex(int)"
-  parent: "com.microsoft.store.partnercenter.models.query.IndexedQuery"
-  langs:
-  - "java"
-  name: "setIndex(int value)"
-  nameWithType: "IndexedQuery.setIndex(int value)"
-  fullName: "com.microsoft.store.partnercenter.models.query.IndexedQuery.setIndex(int value)"
-  overload: "com.microsoft.store.partnercenter.models.query.IndexedQuery.setIndex*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.query"
-  syntax:
-    content: "public void setIndex(int value)"
-    parameters:
-    - id: "value"
-      type: "int"
 - uid: "com.microsoft.store.partnercenter.models.query.IndexedQuery.getPageSize()"
   id: "getPageSize()"
   parent: "com.microsoft.store.partnercenter.models.query.IndexedQuery"
@@ -116,6 +84,38 @@ items:
   syntax:
     content: "public int getPageSize()"
     return:
+      type: "int"
+- uid: "com.microsoft.store.partnercenter.models.query.IndexedQuery.getType()"
+  id: "getType()"
+  parent: "com.microsoft.store.partnercenter.models.query.IndexedQuery"
+  langs:
+  - "java"
+  name: "getType()"
+  nameWithType: "IndexedQuery.getType()"
+  fullName: "com.microsoft.store.partnercenter.models.query.IndexedQuery.getType()"
+  overload: "com.microsoft.store.partnercenter.models.query.IndexedQuery.getType*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.query"
+  summary: "Gets the query type."
+  syntax:
+    content: "public QueryType getType()"
+    return:
+      type: "com.microsoft.store.partnercenter.models.query.QueryType"
+- uid: "com.microsoft.store.partnercenter.models.query.IndexedQuery.setIndex(int)"
+  id: "setIndex(int)"
+  parent: "com.microsoft.store.partnercenter.models.query.IndexedQuery"
+  langs:
+  - "java"
+  name: "setIndex(int value)"
+  nameWithType: "IndexedQuery.setIndex(int value)"
+  fullName: "com.microsoft.store.partnercenter.models.query.IndexedQuery.setIndex(int value)"
+  overload: "com.microsoft.store.partnercenter.models.query.IndexedQuery.setIndex*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.query"
+  syntax:
+    content: "public void setIndex(int value)"
+    parameters:
+    - id: "value"
       type: "int"
 - uid: "com.microsoft.store.partnercenter.models.query.IndexedQuery.setPageSize(int)"
   id: "setPageSize(int)"

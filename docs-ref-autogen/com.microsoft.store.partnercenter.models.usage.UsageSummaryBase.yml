@@ -5,20 +5,20 @@ items:
   parent: "com.microsoft.store.partnercenter.models.usage"
   children:
   - "com.microsoft.store.partnercenter.models.usage.UsageSummaryBase.UsageSummaryBase()"
-  - "com.microsoft.store.partnercenter.models.usage.UsageSummaryBase.getResourceId()"
-  - "com.microsoft.store.partnercenter.models.usage.UsageSummaryBase.setResourceId(java.lang.String)"
-  - "com.microsoft.store.partnercenter.models.usage.UsageSummaryBase.getResourceName()"
-  - "com.microsoft.store.partnercenter.models.usage.UsageSummaryBase.setResourceName(java.lang.String)"
-  - "com.microsoft.store.partnercenter.models.usage.UsageSummaryBase.getBillingStartDate()"
-  - "com.microsoft.store.partnercenter.models.usage.UsageSummaryBase.setBillingStartDate(org.joda.time.DateTime)"
   - "com.microsoft.store.partnercenter.models.usage.UsageSummaryBase.getBillingEndDate()"
-  - "com.microsoft.store.partnercenter.models.usage.UsageSummaryBase.setBillingEndDate(org.joda.time.DateTime)"
-  - "com.microsoft.store.partnercenter.models.usage.UsageSummaryBase.getTotalCost()"
-  - "com.microsoft.store.partnercenter.models.usage.UsageSummaryBase.setTotalCost(double)"
+  - "com.microsoft.store.partnercenter.models.usage.UsageSummaryBase.getBillingStartDate()"
   - "com.microsoft.store.partnercenter.models.usage.UsageSummaryBase.getCurrencyLocale()"
-  - "com.microsoft.store.partnercenter.models.usage.UsageSummaryBase.setCurrencyLocale(java.util.Locale)"
   - "com.microsoft.store.partnercenter.models.usage.UsageSummaryBase.getLastModifiedDate()"
+  - "com.microsoft.store.partnercenter.models.usage.UsageSummaryBase.getResourceId()"
+  - "com.microsoft.store.partnercenter.models.usage.UsageSummaryBase.getResourceName()"
+  - "com.microsoft.store.partnercenter.models.usage.UsageSummaryBase.getTotalCost()"
+  - "com.microsoft.store.partnercenter.models.usage.UsageSummaryBase.setBillingEndDate(org.joda.time.DateTime)"
+  - "com.microsoft.store.partnercenter.models.usage.UsageSummaryBase.setBillingStartDate(org.joda.time.DateTime)"
+  - "com.microsoft.store.partnercenter.models.usage.UsageSummaryBase.setCurrencyLocale(java.util.Locale)"
   - "com.microsoft.store.partnercenter.models.usage.UsageSummaryBase.setLastModifiedDate(org.joda.time.DateTime)"
+  - "com.microsoft.store.partnercenter.models.usage.UsageSummaryBase.setResourceId(java.lang.String)"
+  - "com.microsoft.store.partnercenter.models.usage.UsageSummaryBase.setResourceName(java.lang.String)"
+  - "com.microsoft.store.partnercenter.models.usage.UsageSummaryBase.setTotalCost(double)"
   langs:
   - "java"
   name: "UsageSummaryBase"
@@ -44,6 +44,66 @@ items:
   package: "com.microsoft.store.partnercenter.models.usage"
   syntax:
     content: "public UsageSummaryBase()"
+- uid: "com.microsoft.store.partnercenter.models.usage.UsageSummaryBase.getBillingEndDate()"
+  id: "getBillingEndDate()"
+  parent: "com.microsoft.store.partnercenter.models.usage.UsageSummaryBase"
+  langs:
+  - "java"
+  name: "getBillingEndDate()"
+  nameWithType: "UsageSummaryBase.getBillingEndDate()"
+  fullName: "com.microsoft.store.partnercenter.models.usage.UsageSummaryBase.getBillingEndDate()"
+  overload: "com.microsoft.store.partnercenter.models.usage.UsageSummaryBase.getBillingEndDate*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.usage"
+  syntax:
+    content: "public DateTime getBillingEndDate()"
+    return:
+      type: "org.joda.time.DateTime"
+- uid: "com.microsoft.store.partnercenter.models.usage.UsageSummaryBase.getBillingStartDate()"
+  id: "getBillingStartDate()"
+  parent: "com.microsoft.store.partnercenter.models.usage.UsageSummaryBase"
+  langs:
+  - "java"
+  name: "getBillingStartDate()"
+  nameWithType: "UsageSummaryBase.getBillingStartDate()"
+  fullName: "com.microsoft.store.partnercenter.models.usage.UsageSummaryBase.getBillingStartDate()"
+  overload: "com.microsoft.store.partnercenter.models.usage.UsageSummaryBase.getBillingStartDate*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.usage"
+  syntax:
+    content: "public DateTime getBillingStartDate()"
+    return:
+      type: "org.joda.time.DateTime"
+- uid: "com.microsoft.store.partnercenter.models.usage.UsageSummaryBase.getCurrencyLocale()"
+  id: "getCurrencyLocale()"
+  parent: "com.microsoft.store.partnercenter.models.usage.UsageSummaryBase"
+  langs:
+  - "java"
+  name: "getCurrencyLocale()"
+  nameWithType: "UsageSummaryBase.getCurrencyLocale()"
+  fullName: "com.microsoft.store.partnercenter.models.usage.UsageSummaryBase.getCurrencyLocale()"
+  overload: "com.microsoft.store.partnercenter.models.usage.UsageSummaryBase.getCurrencyLocale*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.usage"
+  syntax:
+    content: "public Locale getCurrencyLocale()"
+    return:
+      type: "java.util.Locale"
+- uid: "com.microsoft.store.partnercenter.models.usage.UsageSummaryBase.getLastModifiedDate()"
+  id: "getLastModifiedDate()"
+  parent: "com.microsoft.store.partnercenter.models.usage.UsageSummaryBase"
+  langs:
+  - "java"
+  name: "getLastModifiedDate()"
+  nameWithType: "UsageSummaryBase.getLastModifiedDate()"
+  fullName: "com.microsoft.store.partnercenter.models.usage.UsageSummaryBase.getLastModifiedDate()"
+  overload: "com.microsoft.store.partnercenter.models.usage.UsageSummaryBase.getLastModifiedDate*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.usage"
+  syntax:
+    content: "public DateTime getLastModifiedDate()"
+    return:
+      type: "org.joda.time.DateTime"
 - uid: "com.microsoft.store.partnercenter.models.usage.UsageSummaryBase.getResourceId()"
   id: "getResourceId()"
   parent: "com.microsoft.store.partnercenter.models.usage.UsageSummaryBase"
@@ -58,22 +118,6 @@ items:
   syntax:
     content: "public String getResourceId()"
     return:
-      type: "java.lang.String"
-- uid: "com.microsoft.store.partnercenter.models.usage.UsageSummaryBase.setResourceId(java.lang.String)"
-  id: "setResourceId(java.lang.String)"
-  parent: "com.microsoft.store.partnercenter.models.usage.UsageSummaryBase"
-  langs:
-  - "java"
-  name: "setResourceId(String value)"
-  nameWithType: "UsageSummaryBase.setResourceId(String value)"
-  fullName: "com.microsoft.store.partnercenter.models.usage.UsageSummaryBase.setResourceId(String value)"
-  overload: "com.microsoft.store.partnercenter.models.usage.UsageSummaryBase.setResourceId*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.usage"
-  syntax:
-    content: "public void setResourceId(String value)"
-    parameters:
-    - id: "value"
       type: "java.lang.String"
 - uid: "com.microsoft.store.partnercenter.models.usage.UsageSummaryBase.getResourceName()"
   id: "getResourceName()"
@@ -90,36 +134,36 @@ items:
     content: "public String getResourceName()"
     return:
       type: "java.lang.String"
-- uid: "com.microsoft.store.partnercenter.models.usage.UsageSummaryBase.setResourceName(java.lang.String)"
-  id: "setResourceName(java.lang.String)"
+- uid: "com.microsoft.store.partnercenter.models.usage.UsageSummaryBase.getTotalCost()"
+  id: "getTotalCost()"
   parent: "com.microsoft.store.partnercenter.models.usage.UsageSummaryBase"
   langs:
   - "java"
-  name: "setResourceName(String value)"
-  nameWithType: "UsageSummaryBase.setResourceName(String value)"
-  fullName: "com.microsoft.store.partnercenter.models.usage.UsageSummaryBase.setResourceName(String value)"
-  overload: "com.microsoft.store.partnercenter.models.usage.UsageSummaryBase.setResourceName*"
+  name: "getTotalCost()"
+  nameWithType: "UsageSummaryBase.getTotalCost()"
+  fullName: "com.microsoft.store.partnercenter.models.usage.UsageSummaryBase.getTotalCost()"
+  overload: "com.microsoft.store.partnercenter.models.usage.UsageSummaryBase.getTotalCost*"
   type: "Method"
   package: "com.microsoft.store.partnercenter.models.usage"
   syntax:
-    content: "public void setResourceName(String value)"
+    content: "public double getTotalCost()"
+    return:
+      type: "double"
+- uid: "com.microsoft.store.partnercenter.models.usage.UsageSummaryBase.setBillingEndDate(org.joda.time.DateTime)"
+  id: "setBillingEndDate(org.joda.time.DateTime)"
+  parent: "com.microsoft.store.partnercenter.models.usage.UsageSummaryBase"
+  langs:
+  - "java"
+  name: "setBillingEndDate(DateTime value)"
+  nameWithType: "UsageSummaryBase.setBillingEndDate(DateTime value)"
+  fullName: "com.microsoft.store.partnercenter.models.usage.UsageSummaryBase.setBillingEndDate(DateTime value)"
+  overload: "com.microsoft.store.partnercenter.models.usage.UsageSummaryBase.setBillingEndDate*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.usage"
+  syntax:
+    content: "public void setBillingEndDate(DateTime value)"
     parameters:
     - id: "value"
-      type: "java.lang.String"
-- uid: "com.microsoft.store.partnercenter.models.usage.UsageSummaryBase.getBillingStartDate()"
-  id: "getBillingStartDate()"
-  parent: "com.microsoft.store.partnercenter.models.usage.UsageSummaryBase"
-  langs:
-  - "java"
-  name: "getBillingStartDate()"
-  nameWithType: "UsageSummaryBase.getBillingStartDate()"
-  fullName: "com.microsoft.store.partnercenter.models.usage.UsageSummaryBase.getBillingStartDate()"
-  overload: "com.microsoft.store.partnercenter.models.usage.UsageSummaryBase.getBillingStartDate*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.usage"
-  syntax:
-    content: "public DateTime getBillingStartDate()"
-    return:
       type: "org.joda.time.DateTime"
 - uid: "com.microsoft.store.partnercenter.models.usage.UsageSummaryBase.setBillingStartDate(org.joda.time.DateTime)"
   id: "setBillingStartDate(org.joda.time.DateTime)"
@@ -137,83 +181,6 @@ items:
     parameters:
     - id: "value"
       type: "org.joda.time.DateTime"
-- uid: "com.microsoft.store.partnercenter.models.usage.UsageSummaryBase.getBillingEndDate()"
-  id: "getBillingEndDate()"
-  parent: "com.microsoft.store.partnercenter.models.usage.UsageSummaryBase"
-  langs:
-  - "java"
-  name: "getBillingEndDate()"
-  nameWithType: "UsageSummaryBase.getBillingEndDate()"
-  fullName: "com.microsoft.store.partnercenter.models.usage.UsageSummaryBase.getBillingEndDate()"
-  overload: "com.microsoft.store.partnercenter.models.usage.UsageSummaryBase.getBillingEndDate*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.usage"
-  syntax:
-    content: "public DateTime getBillingEndDate()"
-    return:
-      type: "org.joda.time.DateTime"
-- uid: "com.microsoft.store.partnercenter.models.usage.UsageSummaryBase.setBillingEndDate(org.joda.time.DateTime)"
-  id: "setBillingEndDate(org.joda.time.DateTime)"
-  parent: "com.microsoft.store.partnercenter.models.usage.UsageSummaryBase"
-  langs:
-  - "java"
-  name: "setBillingEndDate(DateTime value)"
-  nameWithType: "UsageSummaryBase.setBillingEndDate(DateTime value)"
-  fullName: "com.microsoft.store.partnercenter.models.usage.UsageSummaryBase.setBillingEndDate(DateTime value)"
-  overload: "com.microsoft.store.partnercenter.models.usage.UsageSummaryBase.setBillingEndDate*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.usage"
-  syntax:
-    content: "public void setBillingEndDate(DateTime value)"
-    parameters:
-    - id: "value"
-      type: "org.joda.time.DateTime"
-- uid: "com.microsoft.store.partnercenter.models.usage.UsageSummaryBase.getTotalCost()"
-  id: "getTotalCost()"
-  parent: "com.microsoft.store.partnercenter.models.usage.UsageSummaryBase"
-  langs:
-  - "java"
-  name: "getTotalCost()"
-  nameWithType: "UsageSummaryBase.getTotalCost()"
-  fullName: "com.microsoft.store.partnercenter.models.usage.UsageSummaryBase.getTotalCost()"
-  overload: "com.microsoft.store.partnercenter.models.usage.UsageSummaryBase.getTotalCost*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.usage"
-  syntax:
-    content: "public double getTotalCost()"
-    return:
-      type: "double"
-- uid: "com.microsoft.store.partnercenter.models.usage.UsageSummaryBase.setTotalCost(double)"
-  id: "setTotalCost(double)"
-  parent: "com.microsoft.store.partnercenter.models.usage.UsageSummaryBase"
-  langs:
-  - "java"
-  name: "setTotalCost(double value)"
-  nameWithType: "UsageSummaryBase.setTotalCost(double value)"
-  fullName: "com.microsoft.store.partnercenter.models.usage.UsageSummaryBase.setTotalCost(double value)"
-  overload: "com.microsoft.store.partnercenter.models.usage.UsageSummaryBase.setTotalCost*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.usage"
-  syntax:
-    content: "public void setTotalCost(double value)"
-    parameters:
-    - id: "value"
-      type: "double"
-- uid: "com.microsoft.store.partnercenter.models.usage.UsageSummaryBase.getCurrencyLocale()"
-  id: "getCurrencyLocale()"
-  parent: "com.microsoft.store.partnercenter.models.usage.UsageSummaryBase"
-  langs:
-  - "java"
-  name: "getCurrencyLocale()"
-  nameWithType: "UsageSummaryBase.getCurrencyLocale()"
-  fullName: "com.microsoft.store.partnercenter.models.usage.UsageSummaryBase.getCurrencyLocale()"
-  overload: "com.microsoft.store.partnercenter.models.usage.UsageSummaryBase.getCurrencyLocale*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.usage"
-  syntax:
-    content: "public Locale getCurrencyLocale()"
-    return:
-      type: "java.util.Locale"
 - uid: "com.microsoft.store.partnercenter.models.usage.UsageSummaryBase.setCurrencyLocale(java.util.Locale)"
   id: "setCurrencyLocale(java.util.Locale)"
   parent: "com.microsoft.store.partnercenter.models.usage.UsageSummaryBase"
@@ -230,21 +197,6 @@ items:
     parameters:
     - id: "value"
       type: "java.util.Locale"
-- uid: "com.microsoft.store.partnercenter.models.usage.UsageSummaryBase.getLastModifiedDate()"
-  id: "getLastModifiedDate()"
-  parent: "com.microsoft.store.partnercenter.models.usage.UsageSummaryBase"
-  langs:
-  - "java"
-  name: "getLastModifiedDate()"
-  nameWithType: "UsageSummaryBase.getLastModifiedDate()"
-  fullName: "com.microsoft.store.partnercenter.models.usage.UsageSummaryBase.getLastModifiedDate()"
-  overload: "com.microsoft.store.partnercenter.models.usage.UsageSummaryBase.getLastModifiedDate*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.usage"
-  syntax:
-    content: "public DateTime getLastModifiedDate()"
-    return:
-      type: "org.joda.time.DateTime"
 - uid: "com.microsoft.store.partnercenter.models.usage.UsageSummaryBase.setLastModifiedDate(org.joda.time.DateTime)"
   id: "setLastModifiedDate(org.joda.time.DateTime)"
   parent: "com.microsoft.store.partnercenter.models.usage.UsageSummaryBase"
@@ -261,6 +213,54 @@ items:
     parameters:
     - id: "value"
       type: "org.joda.time.DateTime"
+- uid: "com.microsoft.store.partnercenter.models.usage.UsageSummaryBase.setResourceId(java.lang.String)"
+  id: "setResourceId(java.lang.String)"
+  parent: "com.microsoft.store.partnercenter.models.usage.UsageSummaryBase"
+  langs:
+  - "java"
+  name: "setResourceId(String value)"
+  nameWithType: "UsageSummaryBase.setResourceId(String value)"
+  fullName: "com.microsoft.store.partnercenter.models.usage.UsageSummaryBase.setResourceId(String value)"
+  overload: "com.microsoft.store.partnercenter.models.usage.UsageSummaryBase.setResourceId*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.usage"
+  syntax:
+    content: "public void setResourceId(String value)"
+    parameters:
+    - id: "value"
+      type: "java.lang.String"
+- uid: "com.microsoft.store.partnercenter.models.usage.UsageSummaryBase.setResourceName(java.lang.String)"
+  id: "setResourceName(java.lang.String)"
+  parent: "com.microsoft.store.partnercenter.models.usage.UsageSummaryBase"
+  langs:
+  - "java"
+  name: "setResourceName(String value)"
+  nameWithType: "UsageSummaryBase.setResourceName(String value)"
+  fullName: "com.microsoft.store.partnercenter.models.usage.UsageSummaryBase.setResourceName(String value)"
+  overload: "com.microsoft.store.partnercenter.models.usage.UsageSummaryBase.setResourceName*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.usage"
+  syntax:
+    content: "public void setResourceName(String value)"
+    parameters:
+    - id: "value"
+      type: "java.lang.String"
+- uid: "com.microsoft.store.partnercenter.models.usage.UsageSummaryBase.setTotalCost(double)"
+  id: "setTotalCost(double)"
+  parent: "com.microsoft.store.partnercenter.models.usage.UsageSummaryBase"
+  langs:
+  - "java"
+  name: "setTotalCost(double value)"
+  nameWithType: "UsageSummaryBase.setTotalCost(double value)"
+  fullName: "com.microsoft.store.partnercenter.models.usage.UsageSummaryBase.setTotalCost(double value)"
+  overload: "com.microsoft.store.partnercenter.models.usage.UsageSummaryBase.setTotalCost*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.usage"
+  syntax:
+    content: "public void setTotalCost(double value)"
+    parameters:
+    - id: "value"
+      type: "double"
 references:
 - uid: "com.microsoft.store.partnercenter.models.usage.UsageSummaryBase.UsageSummaryBase*"
   name: "UsageSummaryBase"

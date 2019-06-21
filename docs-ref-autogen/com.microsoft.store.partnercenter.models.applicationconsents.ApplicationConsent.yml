@@ -5,12 +5,12 @@ items:
   parent: "com.microsoft.store.partnercenter.models.applicationconsents"
   children:
   - "com.microsoft.store.partnercenter.models.applicationconsents.ApplicationConsent.ApplicationConsent()"
-  - "com.microsoft.store.partnercenter.models.applicationconsents.ApplicationConsent.getDisplayName()"
-  - "com.microsoft.store.partnercenter.models.applicationconsents.ApplicationConsent.setDisplayName(java.lang.String)"
-  - "com.microsoft.store.partnercenter.models.applicationconsents.ApplicationConsent.getApplicationId()"
-  - "com.microsoft.store.partnercenter.models.applicationconsents.ApplicationConsent.setApplicationId(java.lang.String)"
   - "com.microsoft.store.partnercenter.models.applicationconsents.ApplicationConsent.getApplicationGrants()"
+  - "com.microsoft.store.partnercenter.models.applicationconsents.ApplicationConsent.getApplicationId()"
+  - "com.microsoft.store.partnercenter.models.applicationconsents.ApplicationConsent.getDisplayName()"
   - "com.microsoft.store.partnercenter.models.applicationconsents.ApplicationConsent.setApplicationGrants(com.microsoft.store.partnercenter.models.applicationconsents.ApplicationGrant[])"
+  - "com.microsoft.store.partnercenter.models.applicationconsents.ApplicationConsent.setApplicationId(java.lang.String)"
+  - "com.microsoft.store.partnercenter.models.applicationconsents.ApplicationConsent.setDisplayName(java.lang.String)"
   langs:
   - "java"
   name: "ApplicationConsent"
@@ -36,6 +36,36 @@ items:
   package: "com.microsoft.store.partnercenter.models.applicationconsents"
   syntax:
     content: "public ApplicationConsent()"
+- uid: "com.microsoft.store.partnercenter.models.applicationconsents.ApplicationConsent.getApplicationGrants()"
+  id: "getApplicationGrants()"
+  parent: "com.microsoft.store.partnercenter.models.applicationconsents.ApplicationConsent"
+  langs:
+  - "java"
+  name: "getApplicationGrants()"
+  nameWithType: "ApplicationConsent.getApplicationGrants()"
+  fullName: "com.microsoft.store.partnercenter.models.applicationconsents.ApplicationConsent.getApplicationGrants()"
+  overload: "com.microsoft.store.partnercenter.models.applicationconsents.ApplicationConsent.getApplicationGrants*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.applicationconsents"
+  syntax:
+    content: "public ApplicationGrant[] getApplicationGrants()"
+    return:
+      type: "com.microsoft.store.partnercenter.models.applicationconsents.ApplicationGrant[]"
+- uid: "com.microsoft.store.partnercenter.models.applicationconsents.ApplicationConsent.getApplicationId()"
+  id: "getApplicationId()"
+  parent: "com.microsoft.store.partnercenter.models.applicationconsents.ApplicationConsent"
+  langs:
+  - "java"
+  name: "getApplicationId()"
+  nameWithType: "ApplicationConsent.getApplicationId()"
+  fullName: "com.microsoft.store.partnercenter.models.applicationconsents.ApplicationConsent.getApplicationId()"
+  overload: "com.microsoft.store.partnercenter.models.applicationconsents.ApplicationConsent.getApplicationId*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.applicationconsents"
+  syntax:
+    content: "public String getApplicationId()"
+    return:
+      type: "java.lang.String"
 - uid: "com.microsoft.store.partnercenter.models.applicationconsents.ApplicationConsent.getDisplayName()"
   id: "getDisplayName()"
   parent: "com.microsoft.store.partnercenter.models.applicationconsents.ApplicationConsent"
@@ -50,6 +80,38 @@ items:
   syntax:
     content: "public String getDisplayName()"
     return:
+      type: "java.lang.String"
+- uid: "com.microsoft.store.partnercenter.models.applicationconsents.ApplicationConsent.setApplicationGrants(com.microsoft.store.partnercenter.models.applicationconsents.ApplicationGrant[])"
+  id: "setApplicationGrants(com.microsoft.store.partnercenter.models.applicationconsents.ApplicationGrant[])"
+  parent: "com.microsoft.store.partnercenter.models.applicationconsents.ApplicationConsent"
+  langs:
+  - "java"
+  name: "setApplicationGrants(ApplicationGrant[] value)"
+  nameWithType: "ApplicationConsent.setApplicationGrants(ApplicationGrant[] value)"
+  fullName: "com.microsoft.store.partnercenter.models.applicationconsents.ApplicationConsent.setApplicationGrants(ApplicationGrant[] value)"
+  overload: "com.microsoft.store.partnercenter.models.applicationconsents.ApplicationConsent.setApplicationGrants*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.applicationconsents"
+  syntax:
+    content: "public void setApplicationGrants(ApplicationGrant[] value)"
+    parameters:
+    - id: "value"
+      type: "com.microsoft.store.partnercenter.models.applicationconsents.ApplicationGrant[]"
+- uid: "com.microsoft.store.partnercenter.models.applicationconsents.ApplicationConsent.setApplicationId(java.lang.String)"
+  id: "setApplicationId(java.lang.String)"
+  parent: "com.microsoft.store.partnercenter.models.applicationconsents.ApplicationConsent"
+  langs:
+  - "java"
+  name: "setApplicationId(String value)"
+  nameWithType: "ApplicationConsent.setApplicationId(String value)"
+  fullName: "com.microsoft.store.partnercenter.models.applicationconsents.ApplicationConsent.setApplicationId(String value)"
+  overload: "com.microsoft.store.partnercenter.models.applicationconsents.ApplicationConsent.setApplicationId*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.applicationconsents"
+  syntax:
+    content: "public void setApplicationId(String value)"
+    parameters:
+    - id: "value"
       type: "java.lang.String"
 - uid: "com.microsoft.store.partnercenter.models.applicationconsents.ApplicationConsent.setDisplayName(java.lang.String)"
   id: "setDisplayName(java.lang.String)"
@@ -67,68 +129,6 @@ items:
     parameters:
     - id: "value"
       type: "java.lang.String"
-- uid: "com.microsoft.store.partnercenter.models.applicationconsents.ApplicationConsent.getApplicationId()"
-  id: "getApplicationId()"
-  parent: "com.microsoft.store.partnercenter.models.applicationconsents.ApplicationConsent"
-  langs:
-  - "java"
-  name: "getApplicationId()"
-  nameWithType: "ApplicationConsent.getApplicationId()"
-  fullName: "com.microsoft.store.partnercenter.models.applicationconsents.ApplicationConsent.getApplicationId()"
-  overload: "com.microsoft.store.partnercenter.models.applicationconsents.ApplicationConsent.getApplicationId*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.applicationconsents"
-  syntax:
-    content: "public String getApplicationId()"
-    return:
-      type: "java.lang.String"
-- uid: "com.microsoft.store.partnercenter.models.applicationconsents.ApplicationConsent.setApplicationId(java.lang.String)"
-  id: "setApplicationId(java.lang.String)"
-  parent: "com.microsoft.store.partnercenter.models.applicationconsents.ApplicationConsent"
-  langs:
-  - "java"
-  name: "setApplicationId(String value)"
-  nameWithType: "ApplicationConsent.setApplicationId(String value)"
-  fullName: "com.microsoft.store.partnercenter.models.applicationconsents.ApplicationConsent.setApplicationId(String value)"
-  overload: "com.microsoft.store.partnercenter.models.applicationconsents.ApplicationConsent.setApplicationId*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.applicationconsents"
-  syntax:
-    content: "public void setApplicationId(String value)"
-    parameters:
-    - id: "value"
-      type: "java.lang.String"
-- uid: "com.microsoft.store.partnercenter.models.applicationconsents.ApplicationConsent.getApplicationGrants()"
-  id: "getApplicationGrants()"
-  parent: "com.microsoft.store.partnercenter.models.applicationconsents.ApplicationConsent"
-  langs:
-  - "java"
-  name: "getApplicationGrants()"
-  nameWithType: "ApplicationConsent.getApplicationGrants()"
-  fullName: "com.microsoft.store.partnercenter.models.applicationconsents.ApplicationConsent.getApplicationGrants()"
-  overload: "com.microsoft.store.partnercenter.models.applicationconsents.ApplicationConsent.getApplicationGrants*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.applicationconsents"
-  syntax:
-    content: "public ApplicationGrant[] getApplicationGrants()"
-    return:
-      type: "com.microsoft.store.partnercenter.models.applicationconsents.ApplicationGrant[]"
-- uid: "com.microsoft.store.partnercenter.models.applicationconsents.ApplicationConsent.setApplicationGrants(com.microsoft.store.partnercenter.models.applicationconsents.ApplicationGrant[])"
-  id: "setApplicationGrants(com.microsoft.store.partnercenter.models.applicationconsents.ApplicationGrant[])"
-  parent: "com.microsoft.store.partnercenter.models.applicationconsents.ApplicationConsent"
-  langs:
-  - "java"
-  name: "setApplicationGrants(ApplicationGrant[] value)"
-  nameWithType: "ApplicationConsent.setApplicationGrants(ApplicationGrant[] value)"
-  fullName: "com.microsoft.store.partnercenter.models.applicationconsents.ApplicationConsent.setApplicationGrants(ApplicationGrant[] value)"
-  overload: "com.microsoft.store.partnercenter.models.applicationconsents.ApplicationConsent.setApplicationGrants*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.applicationconsents"
-  syntax:
-    content: "public void setApplicationGrants(ApplicationGrant[] value)"
-    parameters:
-    - id: "value"
-      type: "com.microsoft.store.partnercenter.models.applicationconsents.ApplicationGrant[]"
 references:
 - uid: "com.microsoft.store.partnercenter.models.applicationconsents.ApplicationConsent.ApplicationConsent*"
   name: "ApplicationConsent"

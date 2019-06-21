@@ -8,8 +8,8 @@ items:
   - "com.microsoft.store.partnercenter.models.orders.Pricing.getDiscountedPrice()"
   - "com.microsoft.store.partnercenter.models.orders.Pricing.getExtendedPrice()"
   - "com.microsoft.store.partnercenter.models.orders.Pricing.getListPrice()"
-  - "com.microsoft.store.partnercenter.models.orders.Pricing.getProratedPrice()"
   - "com.microsoft.store.partnercenter.models.orders.Pricing.getPrice()"
+  - "com.microsoft.store.partnercenter.models.orders.Pricing.getProratedPrice()"
   langs:
   - "java"
   name: "Pricing"
@@ -86,23 +86,6 @@ items:
     return:
       type: "java.lang.Double"
       description: "The list price for the order line item."
-- uid: "com.microsoft.store.partnercenter.models.orders.Pricing.getProratedPrice()"
-  id: "getProratedPrice()"
-  parent: "com.microsoft.store.partnercenter.models.orders.Pricing"
-  langs:
-  - "java"
-  name: "getProratedPrice()"
-  nameWithType: "Pricing.getProratedPrice()"
-  fullName: "com.microsoft.store.partnercenter.models.orders.Pricing.getProratedPrice()"
-  overload: "com.microsoft.store.partnercenter.models.orders.Pricing.getProratedPrice*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.orders"
-  summary: "Gets the prorated price for the order line item."
-  syntax:
-    content: "public Double getProratedPrice()"
-    return:
-      type: "java.lang.Double"
-      description: "The prorated price for the order line item."
 - uid: "com.microsoft.store.partnercenter.models.orders.Pricing.getPrice()"
   id: "getPrice()"
   parent: "com.microsoft.store.partnercenter.models.orders.Pricing"
@@ -120,6 +103,23 @@ items:
     return:
       type: "java.lang.Double"
       description: "The price for the order line item."
+- uid: "com.microsoft.store.partnercenter.models.orders.Pricing.getProratedPrice()"
+  id: "getProratedPrice()"
+  parent: "com.microsoft.store.partnercenter.models.orders.Pricing"
+  langs:
+  - "java"
+  name: "getProratedPrice()"
+  nameWithType: "Pricing.getProratedPrice()"
+  fullName: "com.microsoft.store.partnercenter.models.orders.Pricing.getProratedPrice()"
+  overload: "com.microsoft.store.partnercenter.models.orders.Pricing.getProratedPrice*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.orders"
+  summary: "Gets the prorated price for the order line item."
+  syntax:
+    content: "public Double getProratedPrice()"
+    return:
+      type: "java.lang.Double"
+      description: "The prorated price for the order line item."
 references:
 - uid: "com.microsoft.store.partnercenter.models.orders.Pricing.Pricing*"
   name: "Pricing"

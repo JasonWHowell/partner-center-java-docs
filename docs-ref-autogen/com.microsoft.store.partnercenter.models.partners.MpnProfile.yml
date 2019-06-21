@@ -5,10 +5,10 @@ items:
   parent: "com.microsoft.store.partnercenter.models.partners"
   children:
   - "com.microsoft.store.partnercenter.models.partners.MpnProfile.MpnProfile()"
-  - "com.microsoft.store.partnercenter.models.partners.MpnProfile.getPartnerName()"
-  - "com.microsoft.store.partnercenter.models.partners.MpnProfile.setPartnerName(java.lang.String)"
   - "com.microsoft.store.partnercenter.models.partners.MpnProfile.getMpnId()"
+  - "com.microsoft.store.partnercenter.models.partners.MpnProfile.getPartnerName()"
   - "com.microsoft.store.partnercenter.models.partners.MpnProfile.setMpnId(java.lang.String)"
+  - "com.microsoft.store.partnercenter.models.partners.MpnProfile.setPartnerName(java.lang.String)"
   langs:
   - "java"
   name: "MpnProfile"
@@ -34,37 +34,6 @@ items:
   package: "com.microsoft.store.partnercenter.models.partners"
   syntax:
     content: "public MpnProfile()"
-- uid: "com.microsoft.store.partnercenter.models.partners.MpnProfile.getPartnerName()"
-  id: "getPartnerName()"
-  parent: "com.microsoft.store.partnercenter.models.partners.MpnProfile"
-  langs:
-  - "java"
-  name: "getPartnerName()"
-  nameWithType: "MpnProfile.getPartnerName()"
-  fullName: "com.microsoft.store.partnercenter.models.partners.MpnProfile.getPartnerName()"
-  overload: "com.microsoft.store.partnercenter.models.partners.MpnProfile.getPartnerName*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.partners"
-  syntax:
-    content: "public String getPartnerName()"
-    return:
-      type: "java.lang.String"
-- uid: "com.microsoft.store.partnercenter.models.partners.MpnProfile.setPartnerName(java.lang.String)"
-  id: "setPartnerName(java.lang.String)"
-  parent: "com.microsoft.store.partnercenter.models.partners.MpnProfile"
-  langs:
-  - "java"
-  name: "setPartnerName(String value)"
-  nameWithType: "MpnProfile.setPartnerName(String value)"
-  fullName: "com.microsoft.store.partnercenter.models.partners.MpnProfile.setPartnerName(String value)"
-  overload: "com.microsoft.store.partnercenter.models.partners.MpnProfile.setPartnerName*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.partners"
-  syntax:
-    content: "public void setPartnerName(String value)"
-    parameters:
-    - id: "value"
-      type: "java.lang.String"
 - uid: "com.microsoft.store.partnercenter.models.partners.MpnProfile.getMpnId()"
   id: "getMpnId()"
   parent: "com.microsoft.store.partnercenter.models.partners.MpnProfile"
@@ -80,6 +49,21 @@ items:
     content: "public String getMpnId()"
     return:
       type: "java.lang.String"
+- uid: "com.microsoft.store.partnercenter.models.partners.MpnProfile.getPartnerName()"
+  id: "getPartnerName()"
+  parent: "com.microsoft.store.partnercenter.models.partners.MpnProfile"
+  langs:
+  - "java"
+  name: "getPartnerName()"
+  nameWithType: "MpnProfile.getPartnerName()"
+  fullName: "com.microsoft.store.partnercenter.models.partners.MpnProfile.getPartnerName()"
+  overload: "com.microsoft.store.partnercenter.models.partners.MpnProfile.getPartnerName*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.partners"
+  syntax:
+    content: "public String getPartnerName()"
+    return:
+      type: "java.lang.String"
 - uid: "com.microsoft.store.partnercenter.models.partners.MpnProfile.setMpnId(java.lang.String)"
   id: "setMpnId(java.lang.String)"
   parent: "com.microsoft.store.partnercenter.models.partners.MpnProfile"
@@ -93,6 +77,22 @@ items:
   package: "com.microsoft.store.partnercenter.models.partners"
   syntax:
     content: "public void setMpnId(String value)"
+    parameters:
+    - id: "value"
+      type: "java.lang.String"
+- uid: "com.microsoft.store.partnercenter.models.partners.MpnProfile.setPartnerName(java.lang.String)"
+  id: "setPartnerName(java.lang.String)"
+  parent: "com.microsoft.store.partnercenter.models.partners.MpnProfile"
+  langs:
+  - "java"
+  name: "setPartnerName(String value)"
+  nameWithType: "MpnProfile.setPartnerName(String value)"
+  fullName: "com.microsoft.store.partnercenter.models.partners.MpnProfile.setPartnerName(String value)"
+  overload: "com.microsoft.store.partnercenter.models.partners.MpnProfile.setPartnerName*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.partners"
+  syntax:
+    content: "public void setPartnerName(String value)"
     parameters:
     - id: "value"
       type: "java.lang.String"

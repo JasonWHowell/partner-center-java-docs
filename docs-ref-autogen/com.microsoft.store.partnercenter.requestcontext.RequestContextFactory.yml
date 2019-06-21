@@ -4,13 +4,13 @@ items:
   id: "RequestContextFactory"
   parent: "com.microsoft.store.partnercenter.requestcontext"
   children:
-  - "com.microsoft.store.partnercenter.requestcontext.RequestContextFactory.getInstance()"
   - "com.microsoft.store.partnercenter.requestcontext.RequestContextFactory.create()"
   - "com.microsoft.store.partnercenter.requestcontext.RequestContextFactory.create(java.lang.String)"
   - "com.microsoft.store.partnercenter.requestcontext.RequestContextFactory.create(java.util.UUID)"
   - "com.microsoft.store.partnercenter.requestcontext.RequestContextFactory.create(java.util.UUID,java.lang.String)"
   - "com.microsoft.store.partnercenter.requestcontext.RequestContextFactory.create(java.util.UUID,java.util.UUID)"
   - "com.microsoft.store.partnercenter.requestcontext.RequestContextFactory.create(java.util.UUID,java.util.UUID,java.lang.String)"
+  - "com.microsoft.store.partnercenter.requestcontext.RequestContextFactory.getInstance()"
   langs:
   - "java"
   name: "RequestContextFactory"
@@ -36,23 +36,6 @@ items:
   summary: "Prevents a default instance of the  class from being created."
   syntax:
     content: "private RequestContextFactory()"
-- uid: "com.microsoft.store.partnercenter.requestcontext.RequestContextFactory.getInstance()"
-  id: "getInstance()"
-  parent: "com.microsoft.store.partnercenter.requestcontext.RequestContextFactory"
-  langs:
-  - "java"
-  name: "getInstance()"
-  nameWithType: "RequestContextFactory.getInstance()"
-  fullName: "com.microsoft.store.partnercenter.requestcontext.RequestContextFactory.getInstance()"
-  overload: "com.microsoft.store.partnercenter.requestcontext.RequestContextFactory.getInstance*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.requestcontext"
-  summary: "Gets an instance of the request context factory."
-  syntax:
-    content: "public static RequestContextFactory getInstance()"
-    return:
-      type: "com.microsoft.store.partnercenter.requestcontext.RequestContextFactory"
-      description: "An instance of the request context factory."
 - uid: "com.microsoft.store.partnercenter.requestcontext.RequestContextFactory.create()"
   id: "create()"
   parent: "com.microsoft.store.partnercenter.requestcontext.RequestContextFactory"
@@ -187,6 +170,23 @@ items:
     return:
       type: "com.microsoft.store.partnercenter.requestcontext.IRequestContext"
       description: "A request context object."
+- uid: "com.microsoft.store.partnercenter.requestcontext.RequestContextFactory.getInstance()"
+  id: "getInstance()"
+  parent: "com.microsoft.store.partnercenter.requestcontext.RequestContextFactory"
+  langs:
+  - "java"
+  name: "getInstance()"
+  nameWithType: "RequestContextFactory.getInstance()"
+  fullName: "com.microsoft.store.partnercenter.requestcontext.RequestContextFactory.getInstance()"
+  overload: "com.microsoft.store.partnercenter.requestcontext.RequestContextFactory.getInstance*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.requestcontext"
+  summary: "Gets an instance of the request context factory."
+  syntax:
+    content: "public static RequestContextFactory getInstance()"
+    return:
+      type: "com.microsoft.store.partnercenter.requestcontext.RequestContextFactory"
+      description: "An instance of the request context factory."
 references:
 - uid: "com.microsoft.store.partnercenter.requestcontext.RequestContextFactory.RequestContextFactory*"
   name: "RequestContextFactory"

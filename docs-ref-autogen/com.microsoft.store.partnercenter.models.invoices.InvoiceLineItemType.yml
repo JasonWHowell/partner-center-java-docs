@@ -4,12 +4,12 @@ items:
   id: "InvoiceLineItemType"
   parent: "com.microsoft.store.partnercenter.models.invoices"
   children:
-  - "com.microsoft.store.partnercenter.models.invoices.InvoiceLineItemType.values()"
-  - "com.microsoft.store.partnercenter.models.invoices.InvoiceLineItemType.valueOf(java.lang.String)"
-  - "com.microsoft.store.partnercenter.models.invoices.InvoiceLineItemType.getUrlName()"
+  - "com.microsoft.store.partnercenter.models.invoices.InvoiceLineItemType.BILLINGLINEITEMS"
   - "com.microsoft.store.partnercenter.models.invoices.InvoiceLineItemType.NONE"
   - "com.microsoft.store.partnercenter.models.invoices.InvoiceLineItemType.USAGELINEITEMS"
-  - "com.microsoft.store.partnercenter.models.invoices.InvoiceLineItemType.BILLINGLINEITEMS"
+  - "com.microsoft.store.partnercenter.models.invoices.InvoiceLineItemType.getUrlName()"
+  - "com.microsoft.store.partnercenter.models.invoices.InvoiceLineItemType.valueOf(java.lang.String)"
+  - "com.microsoft.store.partnercenter.models.invoices.InvoiceLineItemType.values()"
   langs:
   - "java"
   name: "InvoiceLineItemType"
@@ -21,6 +21,21 @@ items:
     content: "public enum InvoiceLineItemType extends Enum<InvoiceLineItemType>"
   inheritance:
   - "java.lang.Enum<com.microsoft.store.partnercenter.models.invoices.InvoiceLineItemType>"
+- uid: "com.microsoft.store.partnercenter.models.invoices.InvoiceLineItemType.BILLINGLINEITEMS"
+  id: "BILLINGLINEITEMS"
+  parent: "com.microsoft.store.partnercenter.models.invoices.InvoiceLineItemType"
+  langs:
+  - "java"
+  name: "BILLINGLINEITEMS"
+  nameWithType: "InvoiceLineItemType.BILLINGLINEITEMS"
+  fullName: "com.microsoft.store.partnercenter.models.invoices.InvoiceLineItemType.BILLINGLINEITEMS"
+  type: "Field"
+  package: "com.microsoft.store.partnercenter.models.invoices"
+  summary: "Billing line items associated with an invoice. Contains information such as cost per use, tax charged, etc."
+  syntax:
+    content: "public static final InvoiceLineItemType BILLINGLINEITEMS"
+    return:
+      type: "com.microsoft.store.partnercenter.models.invoices.InvoiceLineItemType"
 - uid: "com.microsoft.store.partnercenter.models.invoices.InvoiceLineItemType.InvoiceLineItemType(java.lang.String)"
   id: "InvoiceLineItemType(java.lang.String)"
   parent: "com.microsoft.store.partnercenter.models.invoices.InvoiceLineItemType"
@@ -36,54 +51,6 @@ items:
     content: "private InvoiceLineItemType(String urlName)"
     parameters:
     - id: "urlName"
-      type: "java.lang.String"
-- uid: "com.microsoft.store.partnercenter.models.invoices.InvoiceLineItemType.values()"
-  id: "values()"
-  parent: "com.microsoft.store.partnercenter.models.invoices.InvoiceLineItemType"
-  langs:
-  - "java"
-  name: "values()"
-  nameWithType: "InvoiceLineItemType.values()"
-  fullName: "com.microsoft.store.partnercenter.models.invoices.InvoiceLineItemType.values()"
-  overload: "com.microsoft.store.partnercenter.models.invoices.InvoiceLineItemType.values*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.invoices"
-  syntax:
-    content: "public static InvoiceLineItemType[] values()"
-    return:
-      type: "com.microsoft.store.partnercenter.models.invoices.InvoiceLineItemType[]"
-- uid: "com.microsoft.store.partnercenter.models.invoices.InvoiceLineItemType.valueOf(java.lang.String)"
-  id: "valueOf(java.lang.String)"
-  parent: "com.microsoft.store.partnercenter.models.invoices.InvoiceLineItemType"
-  langs:
-  - "java"
-  name: "valueOf(String name)"
-  nameWithType: "InvoiceLineItemType.valueOf(String name)"
-  fullName: "com.microsoft.store.partnercenter.models.invoices.InvoiceLineItemType.valueOf(String name)"
-  overload: "com.microsoft.store.partnercenter.models.invoices.InvoiceLineItemType.valueOf*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.invoices"
-  syntax:
-    content: "public static InvoiceLineItemType valueOf(String name)"
-    parameters:
-    - id: "name"
-      type: "java.lang.String"
-    return:
-      type: "com.microsoft.store.partnercenter.models.invoices.InvoiceLineItemType"
-- uid: "com.microsoft.store.partnercenter.models.invoices.InvoiceLineItemType.getUrlName()"
-  id: "getUrlName()"
-  parent: "com.microsoft.store.partnercenter.models.invoices.InvoiceLineItemType"
-  langs:
-  - "java"
-  name: "getUrlName()"
-  nameWithType: "InvoiceLineItemType.getUrlName()"
-  fullName: "com.microsoft.store.partnercenter.models.invoices.InvoiceLineItemType.getUrlName()"
-  overload: "com.microsoft.store.partnercenter.models.invoices.InvoiceLineItemType.getUrlName*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.invoices"
-  syntax:
-    content: "public String getUrlName()"
-    return:
       type: "java.lang.String"
 - uid: "com.microsoft.store.partnercenter.models.invoices.InvoiceLineItemType.NONE"
   id: "NONE"
@@ -115,21 +82,54 @@ items:
     content: "public static final InvoiceLineItemType USAGELINEITEMS"
     return:
       type: "com.microsoft.store.partnercenter.models.invoices.InvoiceLineItemType"
-- uid: "com.microsoft.store.partnercenter.models.invoices.InvoiceLineItemType.BILLINGLINEITEMS"
-  id: "BILLINGLINEITEMS"
+- uid: "com.microsoft.store.partnercenter.models.invoices.InvoiceLineItemType.getUrlName()"
+  id: "getUrlName()"
   parent: "com.microsoft.store.partnercenter.models.invoices.InvoiceLineItemType"
   langs:
   - "java"
-  name: "BILLINGLINEITEMS"
-  nameWithType: "InvoiceLineItemType.BILLINGLINEITEMS"
-  fullName: "com.microsoft.store.partnercenter.models.invoices.InvoiceLineItemType.BILLINGLINEITEMS"
-  type: "Field"
+  name: "getUrlName()"
+  nameWithType: "InvoiceLineItemType.getUrlName()"
+  fullName: "com.microsoft.store.partnercenter.models.invoices.InvoiceLineItemType.getUrlName()"
+  overload: "com.microsoft.store.partnercenter.models.invoices.InvoiceLineItemType.getUrlName*"
+  type: "Method"
   package: "com.microsoft.store.partnercenter.models.invoices"
-  summary: "Billing line items associated with an invoice. Contains information such as cost per use, tax charged, etc."
   syntax:
-    content: "public static final InvoiceLineItemType BILLINGLINEITEMS"
+    content: "public String getUrlName()"
+    return:
+      type: "java.lang.String"
+- uid: "com.microsoft.store.partnercenter.models.invoices.InvoiceLineItemType.valueOf(java.lang.String)"
+  id: "valueOf(java.lang.String)"
+  parent: "com.microsoft.store.partnercenter.models.invoices.InvoiceLineItemType"
+  langs:
+  - "java"
+  name: "valueOf(String name)"
+  nameWithType: "InvoiceLineItemType.valueOf(String name)"
+  fullName: "com.microsoft.store.partnercenter.models.invoices.InvoiceLineItemType.valueOf(String name)"
+  overload: "com.microsoft.store.partnercenter.models.invoices.InvoiceLineItemType.valueOf*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.invoices"
+  syntax:
+    content: "public static InvoiceLineItemType valueOf(String name)"
+    parameters:
+    - id: "name"
+      type: "java.lang.String"
     return:
       type: "com.microsoft.store.partnercenter.models.invoices.InvoiceLineItemType"
+- uid: "com.microsoft.store.partnercenter.models.invoices.InvoiceLineItemType.values()"
+  id: "values()"
+  parent: "com.microsoft.store.partnercenter.models.invoices.InvoiceLineItemType"
+  langs:
+  - "java"
+  name: "values()"
+  nameWithType: "InvoiceLineItemType.values()"
+  fullName: "com.microsoft.store.partnercenter.models.invoices.InvoiceLineItemType.values()"
+  overload: "com.microsoft.store.partnercenter.models.invoices.InvoiceLineItemType.values*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.invoices"
+  syntax:
+    content: "public static InvoiceLineItemType[] values()"
+    return:
+      type: "com.microsoft.store.partnercenter.models.invoices.InvoiceLineItemType[]"
 references:
 - uid: "java.lang.String"
   name: "String"

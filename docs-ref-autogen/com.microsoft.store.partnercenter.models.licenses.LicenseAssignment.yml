@@ -6,8 +6,8 @@ items:
   children:
   - "com.microsoft.store.partnercenter.models.licenses.LicenseAssignment.LicenseAssignment()"
   - "com.microsoft.store.partnercenter.models.licenses.LicenseAssignment.getExcludedPlans()"
-  - "com.microsoft.store.partnercenter.models.licenses.LicenseAssignment.setExcludedPlans(java.lang.Iterable<java.lang.String>)"
   - "com.microsoft.store.partnercenter.models.licenses.LicenseAssignment.getSkuId()"
+  - "com.microsoft.store.partnercenter.models.licenses.LicenseAssignment.setExcludedPlans(java.lang.Iterable<java.lang.String>)"
   - "com.microsoft.store.partnercenter.models.licenses.LicenseAssignment.setSkuId(java.lang.String)"
   langs:
   - "java"
@@ -49,6 +49,21 @@ items:
     content: "public Iterable<String> getExcludedPlans()"
     return:
       type: "java.lang.Iterable<java.lang.String>"
+- uid: "com.microsoft.store.partnercenter.models.licenses.LicenseAssignment.getSkuId()"
+  id: "getSkuId()"
+  parent: "com.microsoft.store.partnercenter.models.licenses.LicenseAssignment"
+  langs:
+  - "java"
+  name: "getSkuId()"
+  nameWithType: "LicenseAssignment.getSkuId()"
+  fullName: "com.microsoft.store.partnercenter.models.licenses.LicenseAssignment.getSkuId()"
+  overload: "com.microsoft.store.partnercenter.models.licenses.LicenseAssignment.getSkuId*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.licenses"
+  syntax:
+    content: "public String getSkuId()"
+    return:
+      type: "java.lang.String"
 - uid: "com.microsoft.store.partnercenter.models.licenses.LicenseAssignment.setExcludedPlans(java.lang.Iterable<java.lang.String>)"
   id: "setExcludedPlans(java.lang.Iterable<java.lang.String>)"
   parent: "com.microsoft.store.partnercenter.models.licenses.LicenseAssignment"
@@ -65,21 +80,6 @@ items:
     parameters:
     - id: "value"
       type: "java.lang.Iterable<java.lang.String>"
-- uid: "com.microsoft.store.partnercenter.models.licenses.LicenseAssignment.getSkuId()"
-  id: "getSkuId()"
-  parent: "com.microsoft.store.partnercenter.models.licenses.LicenseAssignment"
-  langs:
-  - "java"
-  name: "getSkuId()"
-  nameWithType: "LicenseAssignment.getSkuId()"
-  fullName: "com.microsoft.store.partnercenter.models.licenses.LicenseAssignment.getSkuId()"
-  overload: "com.microsoft.store.partnercenter.models.licenses.LicenseAssignment.getSkuId*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.licenses"
-  syntax:
-    content: "public String getSkuId()"
-    return:
-      type: "java.lang.String"
 - uid: "com.microsoft.store.partnercenter.models.licenses.LicenseAssignment.setSkuId(java.lang.String)"
   id: "setSkuId(java.lang.String)"
   parent: "com.microsoft.store.partnercenter.models.licenses.LicenseAssignment"
@@ -103,9 +103,17 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.licenses.LicenseAssignment.LicenseAssignment"
   package: "com.microsoft.store.partnercenter.models.licenses"
 - uid: "java.lang.Iterable<java.lang.String>"
-  name: "Iterable<String>"
-  nameWithType: "Iterable<String>"
-  fullName: "java.lang.Iterable<java.lang.String>"
+  spec.java:
+  - uid: "java.lang.Iterable"
+    name: "java.lang.Iterable"
+    fullName: "java.lang.Iterable"
+  - name: "<"
+    fullName: "<"
+  - uid: "java.lang.String"
+    name: "java.lang.String"
+    fullName: "java.lang.String"
+  - name: ">"
+    fullName: ">"
 - uid: "com.microsoft.store.partnercenter.models.licenses.LicenseAssignment.getExcludedPlans*"
   name: "getExcludedPlans"
   nameWithType: "LicenseAssignment.getExcludedPlans"

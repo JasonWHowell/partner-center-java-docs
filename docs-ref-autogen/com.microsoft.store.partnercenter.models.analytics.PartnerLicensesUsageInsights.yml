@@ -5,10 +5,10 @@ items:
   parent: "com.microsoft.store.partnercenter.models.analytics"
   children:
   - "com.microsoft.store.partnercenter.models.analytics.PartnerLicensesUsageInsights.PartnerLicensesUsageInsights()"
-  - "com.microsoft.store.partnercenter.models.analytics.PartnerLicensesUsageInsights.getWorkloadName()"
-  - "com.microsoft.store.partnercenter.models.analytics.PartnerLicensesUsageInsights.setWorkloadName(java.lang.String)"
   - "com.microsoft.store.partnercenter.models.analytics.PartnerLicensesUsageInsights.getProratedLicensesUsagePercent()"
+  - "com.microsoft.store.partnercenter.models.analytics.PartnerLicensesUsageInsights.getWorkloadName()"
   - "com.microsoft.store.partnercenter.models.analytics.PartnerLicensesUsageInsights.setProratedLicensesUsagePercent(double)"
+  - "com.microsoft.store.partnercenter.models.analytics.PartnerLicensesUsageInsights.setWorkloadName(java.lang.String)"
   langs:
   - "java"
   name: "PartnerLicensesUsageInsights"
@@ -34,37 +34,6 @@ items:
   package: "com.microsoft.store.partnercenter.models.analytics"
   syntax:
     content: "public PartnerLicensesUsageInsights()"
-- uid: "com.microsoft.store.partnercenter.models.analytics.PartnerLicensesUsageInsights.getWorkloadName()"
-  id: "getWorkloadName()"
-  parent: "com.microsoft.store.partnercenter.models.analytics.PartnerLicensesUsageInsights"
-  langs:
-  - "java"
-  name: "getWorkloadName()"
-  nameWithType: "PartnerLicensesUsageInsights.getWorkloadName()"
-  fullName: "com.microsoft.store.partnercenter.models.analytics.PartnerLicensesUsageInsights.getWorkloadName()"
-  overload: "com.microsoft.store.partnercenter.models.analytics.PartnerLicensesUsageInsights.getWorkloadName*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.analytics"
-  syntax:
-    content: "public String getWorkloadName()"
-    return:
-      type: "java.lang.String"
-- uid: "com.microsoft.store.partnercenter.models.analytics.PartnerLicensesUsageInsights.setWorkloadName(java.lang.String)"
-  id: "setWorkloadName(java.lang.String)"
-  parent: "com.microsoft.store.partnercenter.models.analytics.PartnerLicensesUsageInsights"
-  langs:
-  - "java"
-  name: "setWorkloadName(String value)"
-  nameWithType: "PartnerLicensesUsageInsights.setWorkloadName(String value)"
-  fullName: "com.microsoft.store.partnercenter.models.analytics.PartnerLicensesUsageInsights.setWorkloadName(String value)"
-  overload: "com.microsoft.store.partnercenter.models.analytics.PartnerLicensesUsageInsights.setWorkloadName*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.analytics"
-  syntax:
-    content: "public void setWorkloadName(String value)"
-    parameters:
-    - id: "value"
-      type: "java.lang.String"
 - uid: "com.microsoft.store.partnercenter.models.analytics.PartnerLicensesUsageInsights.getProratedLicensesUsagePercent()"
   id: "getProratedLicensesUsagePercent()"
   parent: "com.microsoft.store.partnercenter.models.analytics.PartnerLicensesUsageInsights"
@@ -80,6 +49,21 @@ items:
     content: "public double getProratedLicensesUsagePercent()"
     return:
       type: "double"
+- uid: "com.microsoft.store.partnercenter.models.analytics.PartnerLicensesUsageInsights.getWorkloadName()"
+  id: "getWorkloadName()"
+  parent: "com.microsoft.store.partnercenter.models.analytics.PartnerLicensesUsageInsights"
+  langs:
+  - "java"
+  name: "getWorkloadName()"
+  nameWithType: "PartnerLicensesUsageInsights.getWorkloadName()"
+  fullName: "com.microsoft.store.partnercenter.models.analytics.PartnerLicensesUsageInsights.getWorkloadName()"
+  overload: "com.microsoft.store.partnercenter.models.analytics.PartnerLicensesUsageInsights.getWorkloadName*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.analytics"
+  syntax:
+    content: "public String getWorkloadName()"
+    return:
+      type: "java.lang.String"
 - uid: "com.microsoft.store.partnercenter.models.analytics.PartnerLicensesUsageInsights.setProratedLicensesUsagePercent(double)"
   id: "setProratedLicensesUsagePercent(double)"
   parent: "com.microsoft.store.partnercenter.models.analytics.PartnerLicensesUsageInsights"
@@ -96,6 +80,22 @@ items:
     parameters:
     - id: "value"
       type: "double"
+- uid: "com.microsoft.store.partnercenter.models.analytics.PartnerLicensesUsageInsights.setWorkloadName(java.lang.String)"
+  id: "setWorkloadName(java.lang.String)"
+  parent: "com.microsoft.store.partnercenter.models.analytics.PartnerLicensesUsageInsights"
+  langs:
+  - "java"
+  name: "setWorkloadName(String value)"
+  nameWithType: "PartnerLicensesUsageInsights.setWorkloadName(String value)"
+  fullName: "com.microsoft.store.partnercenter.models.analytics.PartnerLicensesUsageInsights.setWorkloadName(String value)"
+  overload: "com.microsoft.store.partnercenter.models.analytics.PartnerLicensesUsageInsights.setWorkloadName*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.analytics"
+  syntax:
+    content: "public void setWorkloadName(String value)"
+    parameters:
+    - id: "value"
+      type: "java.lang.String"
 references:
 - uid: "com.microsoft.store.partnercenter.models.analytics.PartnerLicensesUsageInsights.PartnerLicensesUsageInsights*"
   name: "PartnerLicensesUsageInsights"

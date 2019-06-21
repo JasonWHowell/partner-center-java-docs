@@ -6,10 +6,10 @@ items:
   children:
   - "com.microsoft.store.partnercenter.models.partners.SupportProfile.SupportProfile()"
   - "com.microsoft.store.partnercenter.models.partners.SupportProfile.getEmail()"
-  - "com.microsoft.store.partnercenter.models.partners.SupportProfile.setEmail(java.lang.String)"
   - "com.microsoft.store.partnercenter.models.partners.SupportProfile.getTelephone()"
-  - "com.microsoft.store.partnercenter.models.partners.SupportProfile.setTelephone(java.lang.String)"
   - "com.microsoft.store.partnercenter.models.partners.SupportProfile.getWebsite()"
+  - "com.microsoft.store.partnercenter.models.partners.SupportProfile.setEmail(java.lang.String)"
+  - "com.microsoft.store.partnercenter.models.partners.SupportProfile.setTelephone(java.lang.String)"
   - "com.microsoft.store.partnercenter.models.partners.SupportProfile.setWebsite(java.lang.String)"
   langs:
   - "java"
@@ -51,6 +51,36 @@ items:
     content: "public String getEmail()"
     return:
       type: "java.lang.String"
+- uid: "com.microsoft.store.partnercenter.models.partners.SupportProfile.getTelephone()"
+  id: "getTelephone()"
+  parent: "com.microsoft.store.partnercenter.models.partners.SupportProfile"
+  langs:
+  - "java"
+  name: "getTelephone()"
+  nameWithType: "SupportProfile.getTelephone()"
+  fullName: "com.microsoft.store.partnercenter.models.partners.SupportProfile.getTelephone()"
+  overload: "com.microsoft.store.partnercenter.models.partners.SupportProfile.getTelephone*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.partners"
+  syntax:
+    content: "public String getTelephone()"
+    return:
+      type: "java.lang.String"
+- uid: "com.microsoft.store.partnercenter.models.partners.SupportProfile.getWebsite()"
+  id: "getWebsite()"
+  parent: "com.microsoft.store.partnercenter.models.partners.SupportProfile"
+  langs:
+  - "java"
+  name: "getWebsite()"
+  nameWithType: "SupportProfile.getWebsite()"
+  fullName: "com.microsoft.store.partnercenter.models.partners.SupportProfile.getWebsite()"
+  overload: "com.microsoft.store.partnercenter.models.partners.SupportProfile.getWebsite*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.partners"
+  syntax:
+    content: "public String getWebsite()"
+    return:
+      type: "java.lang.String"
 - uid: "com.microsoft.store.partnercenter.models.partners.SupportProfile.setEmail(java.lang.String)"
   id: "setEmail(java.lang.String)"
   parent: "com.microsoft.store.partnercenter.models.partners.SupportProfile"
@@ -67,21 +97,6 @@ items:
     parameters:
     - id: "value"
       type: "java.lang.String"
-- uid: "com.microsoft.store.partnercenter.models.partners.SupportProfile.getTelephone()"
-  id: "getTelephone()"
-  parent: "com.microsoft.store.partnercenter.models.partners.SupportProfile"
-  langs:
-  - "java"
-  name: "getTelephone()"
-  nameWithType: "SupportProfile.getTelephone()"
-  fullName: "com.microsoft.store.partnercenter.models.partners.SupportProfile.getTelephone()"
-  overload: "com.microsoft.store.partnercenter.models.partners.SupportProfile.getTelephone*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.partners"
-  syntax:
-    content: "public String getTelephone()"
-    return:
-      type: "java.lang.String"
 - uid: "com.microsoft.store.partnercenter.models.partners.SupportProfile.setTelephone(java.lang.String)"
   id: "setTelephone(java.lang.String)"
   parent: "com.microsoft.store.partnercenter.models.partners.SupportProfile"
@@ -97,21 +112,6 @@ items:
     content: "public void setTelephone(String value)"
     parameters:
     - id: "value"
-      type: "java.lang.String"
-- uid: "com.microsoft.store.partnercenter.models.partners.SupportProfile.getWebsite()"
-  id: "getWebsite()"
-  parent: "com.microsoft.store.partnercenter.models.partners.SupportProfile"
-  langs:
-  - "java"
-  name: "getWebsite()"
-  nameWithType: "SupportProfile.getWebsite()"
-  fullName: "com.microsoft.store.partnercenter.models.partners.SupportProfile.getWebsite()"
-  overload: "com.microsoft.store.partnercenter.models.partners.SupportProfile.getWebsite*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.partners"
-  syntax:
-    content: "public String getWebsite()"
-    return:
       type: "java.lang.String"
 - uid: "com.microsoft.store.partnercenter.models.partners.SupportProfile.setWebsite(java.lang.String)"
   id: "setWebsite(java.lang.String)"

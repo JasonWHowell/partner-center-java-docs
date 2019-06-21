@@ -4,10 +4,10 @@ items:
   id: "PartnerRelationshipSearchField"
   parent: "com.microsoft.store.partnercenter.models.relationships"
   children:
-  - "com.microsoft.store.partnercenter.models.relationships.PartnerRelationshipSearchField.values()"
-  - "com.microsoft.store.partnercenter.models.relationships.PartnerRelationshipSearchField.valueOf(java.lang.String)"
-  - "com.microsoft.store.partnercenter.models.relationships.PartnerRelationshipSearchField.toString()"
   - "com.microsoft.store.partnercenter.models.relationships.PartnerRelationshipSearchField.NAME"
+  - "com.microsoft.store.partnercenter.models.relationships.PartnerRelationshipSearchField.toString()"
+  - "com.microsoft.store.partnercenter.models.relationships.PartnerRelationshipSearchField.valueOf(java.lang.String)"
+  - "com.microsoft.store.partnercenter.models.relationships.PartnerRelationshipSearchField.values()"
   langs:
   - "java"
   name: "PartnerRelationshipSearchField"
@@ -20,6 +20,20 @@ items:
     content: "public enum PartnerRelationshipSearchField extends Enum<PartnerRelationshipSearchField>"
   inheritance:
   - "java.lang.Enum<com.microsoft.store.partnercenter.models.relationships.PartnerRelationshipSearchField>"
+- uid: "com.microsoft.store.partnercenter.models.relationships.PartnerRelationshipSearchField.NAME"
+  id: "NAME"
+  parent: "com.microsoft.store.partnercenter.models.relationships.PartnerRelationshipSearchField"
+  langs:
+  - "java"
+  name: "NAME"
+  nameWithType: "PartnerRelationshipSearchField.NAME"
+  fullName: "com.microsoft.store.partnercenter.models.relationships.PartnerRelationshipSearchField.NAME"
+  type: "Field"
+  package: "com.microsoft.store.partnercenter.models.relationships"
+  syntax:
+    content: "public static final PartnerRelationshipSearchField NAME"
+    return:
+      type: "com.microsoft.store.partnercenter.models.relationships.PartnerRelationshipSearchField"
 - uid: "com.microsoft.store.partnercenter.models.relationships.PartnerRelationshipSearchField.PartnerRelationshipSearchField(java.lang.String)"
   id: "PartnerRelationshipSearchField(java.lang.String)"
   parent: "com.microsoft.store.partnercenter.models.relationships.PartnerRelationshipSearchField"
@@ -36,21 +50,23 @@ items:
     parameters:
     - id: "value"
       type: "java.lang.String"
-- uid: "com.microsoft.store.partnercenter.models.relationships.PartnerRelationshipSearchField.values()"
-  id: "values()"
+- uid: "com.microsoft.store.partnercenter.models.relationships.PartnerRelationshipSearchField.toString()"
+  id: "toString()"
   parent: "com.microsoft.store.partnercenter.models.relationships.PartnerRelationshipSearchField"
   langs:
   - "java"
-  name: "values()"
-  nameWithType: "PartnerRelationshipSearchField.values()"
-  fullName: "com.microsoft.store.partnercenter.models.relationships.PartnerRelationshipSearchField.values()"
-  overload: "com.microsoft.store.partnercenter.models.relationships.PartnerRelationshipSearchField.values*"
+  name: "toString()"
+  nameWithType: "PartnerRelationshipSearchField.toString()"
+  fullName: "com.microsoft.store.partnercenter.models.relationships.PartnerRelationshipSearchField.toString()"
+  overload: "com.microsoft.store.partnercenter.models.relationships.PartnerRelationshipSearchField.toString*"
   type: "Method"
   package: "com.microsoft.store.partnercenter.models.relationships"
+  summary: "Converts the object to a string."
   syntax:
-    content: "public static PartnerRelationshipSearchField[] values()"
+    content: "public String toString()"
     return:
-      type: "com.microsoft.store.partnercenter.models.relationships.PartnerRelationshipSearchField[]"
+      type: "java.lang.String"
+      description: "A string that represents this object."
 - uid: "com.microsoft.store.partnercenter.models.relationships.PartnerRelationshipSearchField.valueOf(java.lang.String)"
   id: "valueOf(java.lang.String)"
   parent: "com.microsoft.store.partnercenter.models.relationships.PartnerRelationshipSearchField"
@@ -69,37 +85,21 @@ items:
       type: "java.lang.String"
     return:
       type: "com.microsoft.store.partnercenter.models.relationships.PartnerRelationshipSearchField"
-- uid: "com.microsoft.store.partnercenter.models.relationships.PartnerRelationshipSearchField.toString()"
-  id: "toString()"
+- uid: "com.microsoft.store.partnercenter.models.relationships.PartnerRelationshipSearchField.values()"
+  id: "values()"
   parent: "com.microsoft.store.partnercenter.models.relationships.PartnerRelationshipSearchField"
   langs:
   - "java"
-  name: "toString()"
-  nameWithType: "PartnerRelationshipSearchField.toString()"
-  fullName: "com.microsoft.store.partnercenter.models.relationships.PartnerRelationshipSearchField.toString()"
-  overload: "com.microsoft.store.partnercenter.models.relationships.PartnerRelationshipSearchField.toString*"
+  name: "values()"
+  nameWithType: "PartnerRelationshipSearchField.values()"
+  fullName: "com.microsoft.store.partnercenter.models.relationships.PartnerRelationshipSearchField.values()"
+  overload: "com.microsoft.store.partnercenter.models.relationships.PartnerRelationshipSearchField.values*"
   type: "Method"
   package: "com.microsoft.store.partnercenter.models.relationships"
-  summary: "Converts the object to a string."
   syntax:
-    content: "public String toString()"
+    content: "public static PartnerRelationshipSearchField[] values()"
     return:
-      type: "java.lang.String"
-      description: "A string that represents this object."
-- uid: "com.microsoft.store.partnercenter.models.relationships.PartnerRelationshipSearchField.NAME"
-  id: "NAME"
-  parent: "com.microsoft.store.partnercenter.models.relationships.PartnerRelationshipSearchField"
-  langs:
-  - "java"
-  name: "NAME"
-  nameWithType: "PartnerRelationshipSearchField.NAME"
-  fullName: "com.microsoft.store.partnercenter.models.relationships.PartnerRelationshipSearchField.NAME"
-  type: "Field"
-  package: "com.microsoft.store.partnercenter.models.relationships"
-  syntax:
-    content: "public static final PartnerRelationshipSearchField NAME"
-    return:
-      type: "com.microsoft.store.partnercenter.models.relationships.PartnerRelationshipSearchField"
+      type: "com.microsoft.store.partnercenter.models.relationships.PartnerRelationshipSearchField[]"
 references:
 - uid: "java.lang.String"
   name: "String"

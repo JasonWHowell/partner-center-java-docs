@@ -5,12 +5,12 @@ items:
   parent: "com.microsoft.store.partnercenter.models.subscriptions"
   children:
   - "com.microsoft.store.partnercenter.models.subscriptions.SupportContact.SupportContact()"
-  - "com.microsoft.store.partnercenter.models.subscriptions.SupportContact.getSupportTenantId()"
-  - "com.microsoft.store.partnercenter.models.subscriptions.SupportContact.setSupportTenantId(java.lang.String)"
-  - "com.microsoft.store.partnercenter.models.subscriptions.SupportContact.getSupportMpnId()"
-  - "com.microsoft.store.partnercenter.models.subscriptions.SupportContact.setSupportMpnId(java.lang.String)"
   - "com.microsoft.store.partnercenter.models.subscriptions.SupportContact.getName()"
+  - "com.microsoft.store.partnercenter.models.subscriptions.SupportContact.getSupportMpnId()"
+  - "com.microsoft.store.partnercenter.models.subscriptions.SupportContact.getSupportTenantId()"
   - "com.microsoft.store.partnercenter.models.subscriptions.SupportContact.setName(java.lang.String)"
+  - "com.microsoft.store.partnercenter.models.subscriptions.SupportContact.setSupportMpnId(java.lang.String)"
+  - "com.microsoft.store.partnercenter.models.subscriptions.SupportContact.setSupportTenantId(java.lang.String)"
   langs:
   - "java"
   name: "SupportContact"
@@ -36,36 +36,20 @@ items:
   package: "com.microsoft.store.partnercenter.models.subscriptions"
   syntax:
     content: "public SupportContact()"
-- uid: "com.microsoft.store.partnercenter.models.subscriptions.SupportContact.getSupportTenantId()"
-  id: "getSupportTenantId()"
+- uid: "com.microsoft.store.partnercenter.models.subscriptions.SupportContact.getName()"
+  id: "getName()"
   parent: "com.microsoft.store.partnercenter.models.subscriptions.SupportContact"
   langs:
   - "java"
-  name: "getSupportTenantId()"
-  nameWithType: "SupportContact.getSupportTenantId()"
-  fullName: "com.microsoft.store.partnercenter.models.subscriptions.SupportContact.getSupportTenantId()"
-  overload: "com.microsoft.store.partnercenter.models.subscriptions.SupportContact.getSupportTenantId*"
+  name: "getName()"
+  nameWithType: "SupportContact.getName()"
+  fullName: "com.microsoft.store.partnercenter.models.subscriptions.SupportContact.getName()"
+  overload: "com.microsoft.store.partnercenter.models.subscriptions.SupportContact.getName*"
   type: "Method"
   package: "com.microsoft.store.partnercenter.models.subscriptions"
   syntax:
-    content: "public String getSupportTenantId()"
+    content: "public String getName()"
     return:
-      type: "java.lang.String"
-- uid: "com.microsoft.store.partnercenter.models.subscriptions.SupportContact.setSupportTenantId(java.lang.String)"
-  id: "setSupportTenantId(java.lang.String)"
-  parent: "com.microsoft.store.partnercenter.models.subscriptions.SupportContact"
-  langs:
-  - "java"
-  name: "setSupportTenantId(String value)"
-  nameWithType: "SupportContact.setSupportTenantId(String value)"
-  fullName: "com.microsoft.store.partnercenter.models.subscriptions.SupportContact.setSupportTenantId(String value)"
-  overload: "com.microsoft.store.partnercenter.models.subscriptions.SupportContact.setSupportTenantId*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.subscriptions"
-  syntax:
-    content: "public void setSupportTenantId(String value)"
-    parameters:
-    - id: "value"
       type: "java.lang.String"
 - uid: "com.microsoft.store.partnercenter.models.subscriptions.SupportContact.getSupportMpnId()"
   id: "getSupportMpnId()"
@@ -81,6 +65,37 @@ items:
   syntax:
     content: "public String getSupportMpnId()"
     return:
+      type: "java.lang.String"
+- uid: "com.microsoft.store.partnercenter.models.subscriptions.SupportContact.getSupportTenantId()"
+  id: "getSupportTenantId()"
+  parent: "com.microsoft.store.partnercenter.models.subscriptions.SupportContact"
+  langs:
+  - "java"
+  name: "getSupportTenantId()"
+  nameWithType: "SupportContact.getSupportTenantId()"
+  fullName: "com.microsoft.store.partnercenter.models.subscriptions.SupportContact.getSupportTenantId()"
+  overload: "com.microsoft.store.partnercenter.models.subscriptions.SupportContact.getSupportTenantId*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.subscriptions"
+  syntax:
+    content: "public String getSupportTenantId()"
+    return:
+      type: "java.lang.String"
+- uid: "com.microsoft.store.partnercenter.models.subscriptions.SupportContact.setName(java.lang.String)"
+  id: "setName(java.lang.String)"
+  parent: "com.microsoft.store.partnercenter.models.subscriptions.SupportContact"
+  langs:
+  - "java"
+  name: "setName(String value)"
+  nameWithType: "SupportContact.setName(String value)"
+  fullName: "com.microsoft.store.partnercenter.models.subscriptions.SupportContact.setName(String value)"
+  overload: "com.microsoft.store.partnercenter.models.subscriptions.SupportContact.setName*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.subscriptions"
+  syntax:
+    content: "public void setName(String value)"
+    parameters:
+    - id: "value"
       type: "java.lang.String"
 - uid: "com.microsoft.store.partnercenter.models.subscriptions.SupportContact.setSupportMpnId(java.lang.String)"
   id: "setSupportMpnId(java.lang.String)"
@@ -98,34 +113,19 @@ items:
     parameters:
     - id: "value"
       type: "java.lang.String"
-- uid: "com.microsoft.store.partnercenter.models.subscriptions.SupportContact.getName()"
-  id: "getName()"
+- uid: "com.microsoft.store.partnercenter.models.subscriptions.SupportContact.setSupportTenantId(java.lang.String)"
+  id: "setSupportTenantId(java.lang.String)"
   parent: "com.microsoft.store.partnercenter.models.subscriptions.SupportContact"
   langs:
   - "java"
-  name: "getName()"
-  nameWithType: "SupportContact.getName()"
-  fullName: "com.microsoft.store.partnercenter.models.subscriptions.SupportContact.getName()"
-  overload: "com.microsoft.store.partnercenter.models.subscriptions.SupportContact.getName*"
+  name: "setSupportTenantId(String value)"
+  nameWithType: "SupportContact.setSupportTenantId(String value)"
+  fullName: "com.microsoft.store.partnercenter.models.subscriptions.SupportContact.setSupportTenantId(String value)"
+  overload: "com.microsoft.store.partnercenter.models.subscriptions.SupportContact.setSupportTenantId*"
   type: "Method"
   package: "com.microsoft.store.partnercenter.models.subscriptions"
   syntax:
-    content: "public String getName()"
-    return:
-      type: "java.lang.String"
-- uid: "com.microsoft.store.partnercenter.models.subscriptions.SupportContact.setName(java.lang.String)"
-  id: "setName(java.lang.String)"
-  parent: "com.microsoft.store.partnercenter.models.subscriptions.SupportContact"
-  langs:
-  - "java"
-  name: "setName(String value)"
-  nameWithType: "SupportContact.setName(String value)"
-  fullName: "com.microsoft.store.partnercenter.models.subscriptions.SupportContact.setName(String value)"
-  overload: "com.microsoft.store.partnercenter.models.subscriptions.SupportContact.setName*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.subscriptions"
-  syntax:
-    content: "public void setName(String value)"
+    content: "public void setSupportTenantId(String value)"
     parameters:
     - id: "value"
       type: "java.lang.String"

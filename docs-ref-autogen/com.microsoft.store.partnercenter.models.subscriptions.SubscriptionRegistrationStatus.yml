@@ -5,10 +5,10 @@ items:
   parent: "com.microsoft.store.partnercenter.models.subscriptions"
   children:
   - "com.microsoft.store.partnercenter.models.subscriptions.SubscriptionRegistrationStatus.SubscriptionRegistrationStatus()"
-  - "com.microsoft.store.partnercenter.models.subscriptions.SubscriptionRegistrationStatus.getSubscriptionId()"
-  - "com.microsoft.store.partnercenter.models.subscriptions.SubscriptionRegistrationStatus.setSubscriptionId(java.lang.String)"
   - "com.microsoft.store.partnercenter.models.subscriptions.SubscriptionRegistrationStatus.getStatus()"
+  - "com.microsoft.store.partnercenter.models.subscriptions.SubscriptionRegistrationStatus.getSubscriptionId()"
   - "com.microsoft.store.partnercenter.models.subscriptions.SubscriptionRegistrationStatus.setStatus(java.lang.String)"
+  - "com.microsoft.store.partnercenter.models.subscriptions.SubscriptionRegistrationStatus.setSubscriptionId(java.lang.String)"
   langs:
   - "java"
   name: "SubscriptionRegistrationStatus"
@@ -34,37 +34,6 @@ items:
   package: "com.microsoft.store.partnercenter.models.subscriptions"
   syntax:
     content: "public SubscriptionRegistrationStatus()"
-- uid: "com.microsoft.store.partnercenter.models.subscriptions.SubscriptionRegistrationStatus.getSubscriptionId()"
-  id: "getSubscriptionId()"
-  parent: "com.microsoft.store.partnercenter.models.subscriptions.SubscriptionRegistrationStatus"
-  langs:
-  - "java"
-  name: "getSubscriptionId()"
-  nameWithType: "SubscriptionRegistrationStatus.getSubscriptionId()"
-  fullName: "com.microsoft.store.partnercenter.models.subscriptions.SubscriptionRegistrationStatus.getSubscriptionId()"
-  overload: "com.microsoft.store.partnercenter.models.subscriptions.SubscriptionRegistrationStatus.getSubscriptionId*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.subscriptions"
-  syntax:
-    content: "public String getSubscriptionId()"
-    return:
-      type: "java.lang.String"
-- uid: "com.microsoft.store.partnercenter.models.subscriptions.SubscriptionRegistrationStatus.setSubscriptionId(java.lang.String)"
-  id: "setSubscriptionId(java.lang.String)"
-  parent: "com.microsoft.store.partnercenter.models.subscriptions.SubscriptionRegistrationStatus"
-  langs:
-  - "java"
-  name: "setSubscriptionId(String value)"
-  nameWithType: "SubscriptionRegistrationStatus.setSubscriptionId(String value)"
-  fullName: "com.microsoft.store.partnercenter.models.subscriptions.SubscriptionRegistrationStatus.setSubscriptionId(String value)"
-  overload: "com.microsoft.store.partnercenter.models.subscriptions.SubscriptionRegistrationStatus.setSubscriptionId*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.subscriptions"
-  syntax:
-    content: "public void setSubscriptionId(String value)"
-    parameters:
-    - id: "value"
-      type: "java.lang.String"
 - uid: "com.microsoft.store.partnercenter.models.subscriptions.SubscriptionRegistrationStatus.getStatus()"
   id: "getStatus()"
   parent: "com.microsoft.store.partnercenter.models.subscriptions.SubscriptionRegistrationStatus"
@@ -80,6 +49,21 @@ items:
     content: "public String getStatus()"
     return:
       type: "java.lang.String"
+- uid: "com.microsoft.store.partnercenter.models.subscriptions.SubscriptionRegistrationStatus.getSubscriptionId()"
+  id: "getSubscriptionId()"
+  parent: "com.microsoft.store.partnercenter.models.subscriptions.SubscriptionRegistrationStatus"
+  langs:
+  - "java"
+  name: "getSubscriptionId()"
+  nameWithType: "SubscriptionRegistrationStatus.getSubscriptionId()"
+  fullName: "com.microsoft.store.partnercenter.models.subscriptions.SubscriptionRegistrationStatus.getSubscriptionId()"
+  overload: "com.microsoft.store.partnercenter.models.subscriptions.SubscriptionRegistrationStatus.getSubscriptionId*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.subscriptions"
+  syntax:
+    content: "public String getSubscriptionId()"
+    return:
+      type: "java.lang.String"
 - uid: "com.microsoft.store.partnercenter.models.subscriptions.SubscriptionRegistrationStatus.setStatus(java.lang.String)"
   id: "setStatus(java.lang.String)"
   parent: "com.microsoft.store.partnercenter.models.subscriptions.SubscriptionRegistrationStatus"
@@ -93,6 +77,22 @@ items:
   package: "com.microsoft.store.partnercenter.models.subscriptions"
   syntax:
     content: "public void setStatus(String value)"
+    parameters:
+    - id: "value"
+      type: "java.lang.String"
+- uid: "com.microsoft.store.partnercenter.models.subscriptions.SubscriptionRegistrationStatus.setSubscriptionId(java.lang.String)"
+  id: "setSubscriptionId(java.lang.String)"
+  parent: "com.microsoft.store.partnercenter.models.subscriptions.SubscriptionRegistrationStatus"
+  langs:
+  - "java"
+  name: "setSubscriptionId(String value)"
+  nameWithType: "SubscriptionRegistrationStatus.setSubscriptionId(String value)"
+  fullName: "com.microsoft.store.partnercenter.models.subscriptions.SubscriptionRegistrationStatus.setSubscriptionId(String value)"
+  overload: "com.microsoft.store.partnercenter.models.subscriptions.SubscriptionRegistrationStatus.setSubscriptionId*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.subscriptions"
+  syntax:
+    content: "public void setSubscriptionId(String value)"
     parameters:
     - id: "value"
       type: "java.lang.String"

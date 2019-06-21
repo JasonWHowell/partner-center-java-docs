@@ -5,14 +5,14 @@ items:
   parent: "com.microsoft.store.partnercenter.models.ratecards"
   children:
   - "com.microsoft.store.partnercenter.models.ratecards.AzureOfferTerm.AzureOfferTerm()"
-  - "com.microsoft.store.partnercenter.models.ratecards.AzureOfferTerm.getName()"
-  - "com.microsoft.store.partnercenter.models.ratecards.AzureOfferTerm.setName(java.lang.String)"
   - "com.microsoft.store.partnercenter.models.ratecards.AzureOfferTerm.getDiscount()"
-  - "com.microsoft.store.partnercenter.models.ratecards.AzureOfferTerm.setDiscount(double)"
-  - "com.microsoft.store.partnercenter.models.ratecards.AzureOfferTerm.getExcludedMeterIds()"
-  - "com.microsoft.store.partnercenter.models.ratecards.AzureOfferTerm.setExcludedMeterIds(java.lang.Iterable<java.lang.String>)"
   - "com.microsoft.store.partnercenter.models.ratecards.AzureOfferTerm.getEffectiveDate()"
+  - "com.microsoft.store.partnercenter.models.ratecards.AzureOfferTerm.getExcludedMeterIds()"
+  - "com.microsoft.store.partnercenter.models.ratecards.AzureOfferTerm.getName()"
+  - "com.microsoft.store.partnercenter.models.ratecards.AzureOfferTerm.setDiscount(double)"
   - "com.microsoft.store.partnercenter.models.ratecards.AzureOfferTerm.setEffectiveDate(org.joda.time.DateTime)"
+  - "com.microsoft.store.partnercenter.models.ratecards.AzureOfferTerm.setExcludedMeterIds(java.lang.Iterable<java.lang.String>)"
+  - "com.microsoft.store.partnercenter.models.ratecards.AzureOfferTerm.setName(java.lang.String)"
   langs:
   - "java"
   name: "AzureOfferTerm"
@@ -38,37 +38,6 @@ items:
   package: "com.microsoft.store.partnercenter.models.ratecards"
   syntax:
     content: "public AzureOfferTerm()"
-- uid: "com.microsoft.store.partnercenter.models.ratecards.AzureOfferTerm.getName()"
-  id: "getName()"
-  parent: "com.microsoft.store.partnercenter.models.ratecards.AzureOfferTerm"
-  langs:
-  - "java"
-  name: "getName()"
-  nameWithType: "AzureOfferTerm.getName()"
-  fullName: "com.microsoft.store.partnercenter.models.ratecards.AzureOfferTerm.getName()"
-  overload: "com.microsoft.store.partnercenter.models.ratecards.AzureOfferTerm.getName*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.ratecards"
-  syntax:
-    content: "public String getName()"
-    return:
-      type: "java.lang.String"
-- uid: "com.microsoft.store.partnercenter.models.ratecards.AzureOfferTerm.setName(java.lang.String)"
-  id: "setName(java.lang.String)"
-  parent: "com.microsoft.store.partnercenter.models.ratecards.AzureOfferTerm"
-  langs:
-  - "java"
-  name: "setName(String value)"
-  nameWithType: "AzureOfferTerm.setName(String value)"
-  fullName: "com.microsoft.store.partnercenter.models.ratecards.AzureOfferTerm.setName(String value)"
-  overload: "com.microsoft.store.partnercenter.models.ratecards.AzureOfferTerm.setName*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.ratecards"
-  syntax:
-    content: "public void setName(String value)"
-    parameters:
-    - id: "value"
-      type: "java.lang.String"
 - uid: "com.microsoft.store.partnercenter.models.ratecards.AzureOfferTerm.getDiscount()"
   id: "getDiscount()"
   parent: "com.microsoft.store.partnercenter.models.ratecards.AzureOfferTerm"
@@ -84,6 +53,51 @@ items:
     content: "public double getDiscount()"
     return:
       type: "double"
+- uid: "com.microsoft.store.partnercenter.models.ratecards.AzureOfferTerm.getEffectiveDate()"
+  id: "getEffectiveDate()"
+  parent: "com.microsoft.store.partnercenter.models.ratecards.AzureOfferTerm"
+  langs:
+  - "java"
+  name: "getEffectiveDate()"
+  nameWithType: "AzureOfferTerm.getEffectiveDate()"
+  fullName: "com.microsoft.store.partnercenter.models.ratecards.AzureOfferTerm.getEffectiveDate()"
+  overload: "com.microsoft.store.partnercenter.models.ratecards.AzureOfferTerm.getEffectiveDate*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.ratecards"
+  syntax:
+    content: "public DateTime getEffectiveDate()"
+    return:
+      type: "org.joda.time.DateTime"
+- uid: "com.microsoft.store.partnercenter.models.ratecards.AzureOfferTerm.getExcludedMeterIds()"
+  id: "getExcludedMeterIds()"
+  parent: "com.microsoft.store.partnercenter.models.ratecards.AzureOfferTerm"
+  langs:
+  - "java"
+  name: "getExcludedMeterIds()"
+  nameWithType: "AzureOfferTerm.getExcludedMeterIds()"
+  fullName: "com.microsoft.store.partnercenter.models.ratecards.AzureOfferTerm.getExcludedMeterIds()"
+  overload: "com.microsoft.store.partnercenter.models.ratecards.AzureOfferTerm.getExcludedMeterIds*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.ratecards"
+  syntax:
+    content: "public Iterable<String> getExcludedMeterIds()"
+    return:
+      type: "java.lang.Iterable<java.lang.String>"
+- uid: "com.microsoft.store.partnercenter.models.ratecards.AzureOfferTerm.getName()"
+  id: "getName()"
+  parent: "com.microsoft.store.partnercenter.models.ratecards.AzureOfferTerm"
+  langs:
+  - "java"
+  name: "getName()"
+  nameWithType: "AzureOfferTerm.getName()"
+  fullName: "com.microsoft.store.partnercenter.models.ratecards.AzureOfferTerm.getName()"
+  overload: "com.microsoft.store.partnercenter.models.ratecards.AzureOfferTerm.getName*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.ratecards"
+  syntax:
+    content: "public String getName()"
+    return:
+      type: "java.lang.String"
 - uid: "com.microsoft.store.partnercenter.models.ratecards.AzureOfferTerm.setDiscount(double)"
   id: "setDiscount(double)"
   parent: "com.microsoft.store.partnercenter.models.ratecards.AzureOfferTerm"
@@ -100,52 +114,6 @@ items:
     parameters:
     - id: "value"
       type: "double"
-- uid: "com.microsoft.store.partnercenter.models.ratecards.AzureOfferTerm.getExcludedMeterIds()"
-  id: "getExcludedMeterIds()"
-  parent: "com.microsoft.store.partnercenter.models.ratecards.AzureOfferTerm"
-  langs:
-  - "java"
-  name: "getExcludedMeterIds()"
-  nameWithType: "AzureOfferTerm.getExcludedMeterIds()"
-  fullName: "com.microsoft.store.partnercenter.models.ratecards.AzureOfferTerm.getExcludedMeterIds()"
-  overload: "com.microsoft.store.partnercenter.models.ratecards.AzureOfferTerm.getExcludedMeterIds*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.ratecards"
-  syntax:
-    content: "public Iterable<String> getExcludedMeterIds()"
-    return:
-      type: "java.lang.Iterable<java.lang.String>"
-- uid: "com.microsoft.store.partnercenter.models.ratecards.AzureOfferTerm.setExcludedMeterIds(java.lang.Iterable<java.lang.String>)"
-  id: "setExcludedMeterIds(java.lang.Iterable<java.lang.String>)"
-  parent: "com.microsoft.store.partnercenter.models.ratecards.AzureOfferTerm"
-  langs:
-  - "java"
-  name: "setExcludedMeterIds(Iterable<String> value)"
-  nameWithType: "AzureOfferTerm.setExcludedMeterIds(Iterable<String> value)"
-  fullName: "com.microsoft.store.partnercenter.models.ratecards.AzureOfferTerm.setExcludedMeterIds(Iterable<String> value)"
-  overload: "com.microsoft.store.partnercenter.models.ratecards.AzureOfferTerm.setExcludedMeterIds*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.ratecards"
-  syntax:
-    content: "public void setExcludedMeterIds(Iterable<String> value)"
-    parameters:
-    - id: "value"
-      type: "java.lang.Iterable<java.lang.String>"
-- uid: "com.microsoft.store.partnercenter.models.ratecards.AzureOfferTerm.getEffectiveDate()"
-  id: "getEffectiveDate()"
-  parent: "com.microsoft.store.partnercenter.models.ratecards.AzureOfferTerm"
-  langs:
-  - "java"
-  name: "getEffectiveDate()"
-  nameWithType: "AzureOfferTerm.getEffectiveDate()"
-  fullName: "com.microsoft.store.partnercenter.models.ratecards.AzureOfferTerm.getEffectiveDate()"
-  overload: "com.microsoft.store.partnercenter.models.ratecards.AzureOfferTerm.getEffectiveDate*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.ratecards"
-  syntax:
-    content: "public DateTime getEffectiveDate()"
-    return:
-      type: "org.joda.time.DateTime"
 - uid: "com.microsoft.store.partnercenter.models.ratecards.AzureOfferTerm.setEffectiveDate(org.joda.time.DateTime)"
   id: "setEffectiveDate(org.joda.time.DateTime)"
   parent: "com.microsoft.store.partnercenter.models.ratecards.AzureOfferTerm"
@@ -162,6 +130,38 @@ items:
     parameters:
     - id: "value"
       type: "org.joda.time.DateTime"
+- uid: "com.microsoft.store.partnercenter.models.ratecards.AzureOfferTerm.setExcludedMeterIds(java.lang.Iterable<java.lang.String>)"
+  id: "setExcludedMeterIds(java.lang.Iterable<java.lang.String>)"
+  parent: "com.microsoft.store.partnercenter.models.ratecards.AzureOfferTerm"
+  langs:
+  - "java"
+  name: "setExcludedMeterIds(Iterable<String> value)"
+  nameWithType: "AzureOfferTerm.setExcludedMeterIds(Iterable<String> value)"
+  fullName: "com.microsoft.store.partnercenter.models.ratecards.AzureOfferTerm.setExcludedMeterIds(Iterable<String> value)"
+  overload: "com.microsoft.store.partnercenter.models.ratecards.AzureOfferTerm.setExcludedMeterIds*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.ratecards"
+  syntax:
+    content: "public void setExcludedMeterIds(Iterable<String> value)"
+    parameters:
+    - id: "value"
+      type: "java.lang.Iterable<java.lang.String>"
+- uid: "com.microsoft.store.partnercenter.models.ratecards.AzureOfferTerm.setName(java.lang.String)"
+  id: "setName(java.lang.String)"
+  parent: "com.microsoft.store.partnercenter.models.ratecards.AzureOfferTerm"
+  langs:
+  - "java"
+  name: "setName(String value)"
+  nameWithType: "AzureOfferTerm.setName(String value)"
+  fullName: "com.microsoft.store.partnercenter.models.ratecards.AzureOfferTerm.setName(String value)"
+  overload: "com.microsoft.store.partnercenter.models.ratecards.AzureOfferTerm.setName*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.ratecards"
+  syntax:
+    content: "public void setName(String value)"
+    parameters:
+    - id: "value"
+      type: "java.lang.String"
 references:
 - uid: "com.microsoft.store.partnercenter.models.ratecards.AzureOfferTerm.AzureOfferTerm*"
   name: "AzureOfferTerm"
@@ -197,9 +197,17 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.ratecards.AzureOfferTerm.setDiscount"
   package: "com.microsoft.store.partnercenter.models.ratecards"
 - uid: "java.lang.Iterable<java.lang.String>"
-  name: "Iterable<String>"
-  nameWithType: "Iterable<String>"
-  fullName: "java.lang.Iterable<java.lang.String>"
+  spec.java:
+  - uid: "java.lang.Iterable"
+    name: "java.lang.Iterable"
+    fullName: "java.lang.Iterable"
+  - name: "<"
+    fullName: "<"
+  - uid: "java.lang.String"
+    name: "java.lang.String"
+    fullName: "java.lang.String"
+  - name: ">"
+    fullName: ">"
 - uid: "com.microsoft.store.partnercenter.models.ratecards.AzureOfferTerm.getExcludedMeterIds*"
   name: "getExcludedMeterIds"
   nameWithType: "AzureOfferTerm.getExcludedMeterIds"

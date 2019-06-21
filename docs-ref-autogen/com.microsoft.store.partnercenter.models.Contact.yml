@@ -5,13 +5,13 @@ items:
   parent: "com.microsoft.store.partnercenter.models"
   children:
   - "com.microsoft.store.partnercenter.models.Contact.Contact()"
-  - "com.microsoft.store.partnercenter.models.Contact.getFirstName()"
-  - "com.microsoft.store.partnercenter.models.Contact.setFirstName(java.lang.String)"
-  - "com.microsoft.store.partnercenter.models.Contact.getLastName()"
-  - "com.microsoft.store.partnercenter.models.Contact.setLastName(java.lang.String)"
   - "com.microsoft.store.partnercenter.models.Contact.getEmail()"
-  - "com.microsoft.store.partnercenter.models.Contact.setEmail(java.lang.String)"
+  - "com.microsoft.store.partnercenter.models.Contact.getFirstName()"
+  - "com.microsoft.store.partnercenter.models.Contact.getLastName()"
   - "com.microsoft.store.partnercenter.models.Contact.getPhoneNumber()"
+  - "com.microsoft.store.partnercenter.models.Contact.setEmail(java.lang.String)"
+  - "com.microsoft.store.partnercenter.models.Contact.setFirstName(java.lang.String)"
+  - "com.microsoft.store.partnercenter.models.Contact.setLastName(java.lang.String)"
   - "com.microsoft.store.partnercenter.models.Contact.setPhoneNumber(java.lang.String)"
   langs:
   - "java"
@@ -38,6 +38,21 @@ items:
   package: "com.microsoft.store.partnercenter.models"
   syntax:
     content: "public Contact()"
+- uid: "com.microsoft.store.partnercenter.models.Contact.getEmail()"
+  id: "getEmail()"
+  parent: "com.microsoft.store.partnercenter.models.Contact"
+  langs:
+  - "java"
+  name: "getEmail()"
+  nameWithType: "Contact.getEmail()"
+  fullName: "com.microsoft.store.partnercenter.models.Contact.getEmail()"
+  overload: "com.microsoft.store.partnercenter.models.Contact.getEmail*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models"
+  syntax:
+    content: "public String getEmail()"
+    return:
+      type: "java.lang.String"
 - uid: "com.microsoft.store.partnercenter.models.Contact.getFirstName()"
   id: "getFirstName()"
   parent: "com.microsoft.store.partnercenter.models.Contact"
@@ -52,22 +67,6 @@ items:
   syntax:
     content: "public String getFirstName()"
     return:
-      type: "java.lang.String"
-- uid: "com.microsoft.store.partnercenter.models.Contact.setFirstName(java.lang.String)"
-  id: "setFirstName(java.lang.String)"
-  parent: "com.microsoft.store.partnercenter.models.Contact"
-  langs:
-  - "java"
-  name: "setFirstName(String value)"
-  nameWithType: "Contact.setFirstName(String value)"
-  fullName: "com.microsoft.store.partnercenter.models.Contact.setFirstName(String value)"
-  overload: "com.microsoft.store.partnercenter.models.Contact.setFirstName*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models"
-  syntax:
-    content: "public void setFirstName(String value)"
-    parameters:
-    - id: "value"
       type: "java.lang.String"
 - uid: "com.microsoft.store.partnercenter.models.Contact.getLastName()"
   id: "getLastName()"
@@ -84,35 +83,19 @@ items:
     content: "public String getLastName()"
     return:
       type: "java.lang.String"
-- uid: "com.microsoft.store.partnercenter.models.Contact.setLastName(java.lang.String)"
-  id: "setLastName(java.lang.String)"
+- uid: "com.microsoft.store.partnercenter.models.Contact.getPhoneNumber()"
+  id: "getPhoneNumber()"
   parent: "com.microsoft.store.partnercenter.models.Contact"
   langs:
   - "java"
-  name: "setLastName(String value)"
-  nameWithType: "Contact.setLastName(String value)"
-  fullName: "com.microsoft.store.partnercenter.models.Contact.setLastName(String value)"
-  overload: "com.microsoft.store.partnercenter.models.Contact.setLastName*"
+  name: "getPhoneNumber()"
+  nameWithType: "Contact.getPhoneNumber()"
+  fullName: "com.microsoft.store.partnercenter.models.Contact.getPhoneNumber()"
+  overload: "com.microsoft.store.partnercenter.models.Contact.getPhoneNumber*"
   type: "Method"
   package: "com.microsoft.store.partnercenter.models"
   syntax:
-    content: "public void setLastName(String value)"
-    parameters:
-    - id: "value"
-      type: "java.lang.String"
-- uid: "com.microsoft.store.partnercenter.models.Contact.getEmail()"
-  id: "getEmail()"
-  parent: "com.microsoft.store.partnercenter.models.Contact"
-  langs:
-  - "java"
-  name: "getEmail()"
-  nameWithType: "Contact.getEmail()"
-  fullName: "com.microsoft.store.partnercenter.models.Contact.getEmail()"
-  overload: "com.microsoft.store.partnercenter.models.Contact.getEmail*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models"
-  syntax:
-    content: "public String getEmail()"
+    content: "public String getPhoneNumber()"
     return:
       type: "java.lang.String"
 - uid: "com.microsoft.store.partnercenter.models.Contact.setEmail(java.lang.String)"
@@ -131,20 +114,37 @@ items:
     parameters:
     - id: "value"
       type: "java.lang.String"
-- uid: "com.microsoft.store.partnercenter.models.Contact.getPhoneNumber()"
-  id: "getPhoneNumber()"
+- uid: "com.microsoft.store.partnercenter.models.Contact.setFirstName(java.lang.String)"
+  id: "setFirstName(java.lang.String)"
   parent: "com.microsoft.store.partnercenter.models.Contact"
   langs:
   - "java"
-  name: "getPhoneNumber()"
-  nameWithType: "Contact.getPhoneNumber()"
-  fullName: "com.microsoft.store.partnercenter.models.Contact.getPhoneNumber()"
-  overload: "com.microsoft.store.partnercenter.models.Contact.getPhoneNumber*"
+  name: "setFirstName(String value)"
+  nameWithType: "Contact.setFirstName(String value)"
+  fullName: "com.microsoft.store.partnercenter.models.Contact.setFirstName(String value)"
+  overload: "com.microsoft.store.partnercenter.models.Contact.setFirstName*"
   type: "Method"
   package: "com.microsoft.store.partnercenter.models"
   syntax:
-    content: "public String getPhoneNumber()"
-    return:
+    content: "public void setFirstName(String value)"
+    parameters:
+    - id: "value"
+      type: "java.lang.String"
+- uid: "com.microsoft.store.partnercenter.models.Contact.setLastName(java.lang.String)"
+  id: "setLastName(java.lang.String)"
+  parent: "com.microsoft.store.partnercenter.models.Contact"
+  langs:
+  - "java"
+  name: "setLastName(String value)"
+  nameWithType: "Contact.setLastName(String value)"
+  fullName: "com.microsoft.store.partnercenter.models.Contact.setLastName(String value)"
+  overload: "com.microsoft.store.partnercenter.models.Contact.setLastName*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models"
+  syntax:
+    content: "public void setLastName(String value)"
+    parameters:
+    - id: "value"
       type: "java.lang.String"
 - uid: "com.microsoft.store.partnercenter.models.Contact.setPhoneNumber(java.lang.String)"
   id: "setPhoneNumber(java.lang.String)"

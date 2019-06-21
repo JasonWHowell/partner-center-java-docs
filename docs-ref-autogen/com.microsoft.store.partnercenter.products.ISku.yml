@@ -4,8 +4,8 @@ items:
   id: "ISku"
   parent: "com.microsoft.store.partnercenter.products"
   children:
-  - "com.microsoft.store.partnercenter.products.ISku.getAvailabilities()"
   - "com.microsoft.store.partnercenter.products.ISku.get()"
+  - "com.microsoft.store.partnercenter.products.ISku.getAvailabilities()"
   langs:
   - "java"
   name: "ISku"
@@ -19,23 +19,6 @@ items:
   implements:
   - "com.microsoft.store.partnercenter.IPartnerComponent<com.microsoft.store.partnercenter.models.utils.TripletTuple<java.lang.String,java.lang.String,java.lang.String>>"
   - "com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations<com.microsoft.store.partnercenter.models.products.Sku>"
-- uid: "com.microsoft.store.partnercenter.products.ISku.getAvailabilities()"
-  id: "getAvailabilities()"
-  parent: "com.microsoft.store.partnercenter.products.ISku"
-  langs:
-  - "java"
-  name: "getAvailabilities()"
-  nameWithType: "ISku.getAvailabilities()"
-  fullName: "com.microsoft.store.partnercenter.products.ISku.getAvailabilities()"
-  overload: "com.microsoft.store.partnercenter.products.ISku.getAvailabilities*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.products"
-  summary: "Retrieves the operations for the current SKU's availabilities."
-  syntax:
-    content: "public abstract IAvailabilityCollection getAvailabilities()"
-    return:
-      type: "com.microsoft.store.partnercenter.products.IAvailabilityCollection"
-      description: "The operations for the current SKU's availabilities."
 - uid: "com.microsoft.store.partnercenter.products.ISku.get()"
   id: "get()"
   parent: "com.microsoft.store.partnercenter.products.ISku"
@@ -53,6 +36,23 @@ items:
     return:
       type: "com.microsoft.store.partnercenter.models.products.Sku"
       description: "The SKUs information."
+- uid: "com.microsoft.store.partnercenter.products.ISku.getAvailabilities()"
+  id: "getAvailabilities()"
+  parent: "com.microsoft.store.partnercenter.products.ISku"
+  langs:
+  - "java"
+  name: "getAvailabilities()"
+  nameWithType: "ISku.getAvailabilities()"
+  fullName: "com.microsoft.store.partnercenter.products.ISku.getAvailabilities()"
+  overload: "com.microsoft.store.partnercenter.products.ISku.getAvailabilities*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.products"
+  summary: "Retrieves the operations for the current SKU's availabilities."
+  syntax:
+    content: "public abstract IAvailabilityCollection getAvailabilities()"
+    return:
+      type: "com.microsoft.store.partnercenter.products.IAvailabilityCollection"
+      description: "The operations for the current SKU's availabilities."
 references:
 - uid: "com.microsoft.store.partnercenter.products.IAvailabilityCollection"
   name: "IAvailabilityCollection"

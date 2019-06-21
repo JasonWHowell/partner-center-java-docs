@@ -6,8 +6,8 @@ items:
   children:
   - "com.microsoft.store.partnercenter.models.devicesdeployment.DeviceBatchCreationRequest.DeviceBatchCreationRequest()"
   - "com.microsoft.store.partnercenter.models.devicesdeployment.DeviceBatchCreationRequest.getBatchId()"
-  - "com.microsoft.store.partnercenter.models.devicesdeployment.DeviceBatchCreationRequest.setBatchId(java.lang.String)"
   - "com.microsoft.store.partnercenter.models.devicesdeployment.DeviceBatchCreationRequest.getDevices()"
+  - "com.microsoft.store.partnercenter.models.devicesdeployment.DeviceBatchCreationRequest.setBatchId(java.lang.String)"
   - "com.microsoft.store.partnercenter.models.devicesdeployment.DeviceBatchCreationRequest.setDevices(java.util.List<com.microsoft.store.partnercenter.models.devicesdeployment.Device>)"
   langs:
   - "java"
@@ -49,6 +49,21 @@ items:
     content: "public String getBatchId()"
     return:
       type: "java.lang.String"
+- uid: "com.microsoft.store.partnercenter.models.devicesdeployment.DeviceBatchCreationRequest.getDevices()"
+  id: "getDevices()"
+  parent: "com.microsoft.store.partnercenter.models.devicesdeployment.DeviceBatchCreationRequest"
+  langs:
+  - "java"
+  name: "getDevices()"
+  nameWithType: "DeviceBatchCreationRequest.getDevices()"
+  fullName: "com.microsoft.store.partnercenter.models.devicesdeployment.DeviceBatchCreationRequest.getDevices()"
+  overload: "com.microsoft.store.partnercenter.models.devicesdeployment.DeviceBatchCreationRequest.getDevices*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.devicesdeployment"
+  syntax:
+    content: "public List<Device> getDevices()"
+    return:
+      type: "java.util.List<com.microsoft.store.partnercenter.models.devicesdeployment.Device>"
 - uid: "com.microsoft.store.partnercenter.models.devicesdeployment.DeviceBatchCreationRequest.setBatchId(java.lang.String)"
   id: "setBatchId(java.lang.String)"
   parent: "com.microsoft.store.partnercenter.models.devicesdeployment.DeviceBatchCreationRequest"
@@ -65,21 +80,6 @@ items:
     parameters:
     - id: "value"
       type: "java.lang.String"
-- uid: "com.microsoft.store.partnercenter.models.devicesdeployment.DeviceBatchCreationRequest.getDevices()"
-  id: "getDevices()"
-  parent: "com.microsoft.store.partnercenter.models.devicesdeployment.DeviceBatchCreationRequest"
-  langs:
-  - "java"
-  name: "getDevices()"
-  nameWithType: "DeviceBatchCreationRequest.getDevices()"
-  fullName: "com.microsoft.store.partnercenter.models.devicesdeployment.DeviceBatchCreationRequest.getDevices()"
-  overload: "com.microsoft.store.partnercenter.models.devicesdeployment.DeviceBatchCreationRequest.getDevices*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.devicesdeployment"
-  syntax:
-    content: "public List<Device> getDevices()"
-    return:
-      type: "java.util.List<com.microsoft.store.partnercenter.models.devicesdeployment.Device>"
 - uid: "com.microsoft.store.partnercenter.models.devicesdeployment.DeviceBatchCreationRequest.setDevices(java.util.List<com.microsoft.store.partnercenter.models.devicesdeployment.Device>)"
   id: "setDevices(java.util.List<com.microsoft.store.partnercenter.models.devicesdeployment.Device>)"
   parent: "com.microsoft.store.partnercenter.models.devicesdeployment.DeviceBatchCreationRequest"
@@ -117,9 +117,17 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.devicesdeployment.DeviceBatchCreationRequest.setBatchId"
   package: "com.microsoft.store.partnercenter.models.devicesdeployment"
 - uid: "java.util.List<com.microsoft.store.partnercenter.models.devicesdeployment.Device>"
-  name: "List<Device>"
-  nameWithType: "List<Device>"
-  fullName: "java.util.List<com.microsoft.store.partnercenter.models.devicesdeployment.Device>"
+  spec.java:
+  - uid: "java.util.List"
+    name: "java.util.List"
+    fullName: "java.util.List"
+  - name: "<"
+    fullName: "<"
+  - uid: "com.microsoft.store.partnercenter.models.devicesdeployment.Device"
+    name: "com.microsoft.store.partnercenter.models.devicesdeployment.Device"
+    fullName: "com.microsoft.store.partnercenter.models.devicesdeployment.Device"
+  - name: ">"
+    fullName: ">"
 - uid: "com.microsoft.store.partnercenter.models.devicesdeployment.DeviceBatchCreationRequest.getDevices*"
   name: "getDevices"
   nameWithType: "DeviceBatchCreationRequest.getDevices"

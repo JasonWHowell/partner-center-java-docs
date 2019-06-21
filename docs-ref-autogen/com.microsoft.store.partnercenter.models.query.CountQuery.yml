@@ -4,10 +4,10 @@ items:
   id: "CountQuery"
   parent: "com.microsoft.store.partnercenter.models.query"
   children:
-  - "com.microsoft.store.partnercenter.models.query.CountQuery.CountQuery(java.lang.Object)"
   - "com.microsoft.store.partnercenter.models.query.CountQuery.CountQuery()"
-  - "com.microsoft.store.partnercenter.models.query.CountQuery.getType()"
+  - "com.microsoft.store.partnercenter.models.query.CountQuery.CountQuery(java.lang.Object)"
   - "com.microsoft.store.partnercenter.models.query.CountQuery.getFilter()"
+  - "com.microsoft.store.partnercenter.models.query.CountQuery.getType()"
   - "com.microsoft.store.partnercenter.models.query.CountQuery.setFilter(com.microsoft.store.partnercenter.models.query.filters.FieldFilter)"
   - "com.microsoft.store.partnercenter.models.query.CountQuery.toString()"
   langs:
@@ -22,6 +22,19 @@ items:
     content: "public class CountQuery extends BaseQuery"
   inheritance:
   - "com.microsoft.store.partnercenter.models.query.BaseQuery"
+- uid: "com.microsoft.store.partnercenter.models.query.CountQuery.CountQuery()"
+  id: "CountQuery()"
+  parent: "com.microsoft.store.partnercenter.models.query.CountQuery"
+  langs:
+  - "java"
+  name: "CountQuery()"
+  nameWithType: "CountQuery.CountQuery()"
+  fullName: "com.microsoft.store.partnercenter.models.query.CountQuery.CountQuery()"
+  overload: "com.microsoft.store.partnercenter.models.query.CountQuery.CountQuery*"
+  type: "Constructor"
+  package: "com.microsoft.store.partnercenter.models.query"
+  syntax:
+    content: "protected CountQuery()"
 - uid: "com.microsoft.store.partnercenter.models.query.CountQuery.CountQuery(java.lang.Object)"
   id: "CountQuery(java.lang.Object)"
   parent: "com.microsoft.store.partnercenter.models.query.CountQuery"
@@ -38,19 +51,21 @@ items:
     parameters:
     - id: "token"
       type: "java.lang.Object"
-- uid: "com.microsoft.store.partnercenter.models.query.CountQuery.CountQuery()"
-  id: "CountQuery()"
+- uid: "com.microsoft.store.partnercenter.models.query.CountQuery.getFilter()"
+  id: "getFilter()"
   parent: "com.microsoft.store.partnercenter.models.query.CountQuery"
   langs:
   - "java"
-  name: "CountQuery()"
-  nameWithType: "CountQuery.CountQuery()"
-  fullName: "com.microsoft.store.partnercenter.models.query.CountQuery.CountQuery()"
-  overload: "com.microsoft.store.partnercenter.models.query.CountQuery.CountQuery*"
-  type: "Constructor"
+  name: "getFilter()"
+  nameWithType: "CountQuery.getFilter()"
+  fullName: "com.microsoft.store.partnercenter.models.query.CountQuery.getFilter()"
+  overload: "com.microsoft.store.partnercenter.models.query.CountQuery.getFilter*"
+  type: "Method"
   package: "com.microsoft.store.partnercenter.models.query"
   syntax:
-    content: "protected CountQuery()"
+    content: "public FieldFilter getFilter()"
+    return:
+      type: "com.microsoft.store.partnercenter.models.query.filters.FieldFilter"
 - uid: "com.microsoft.store.partnercenter.models.query.CountQuery.getType()"
   id: "getType()"
   parent: "com.microsoft.store.partnercenter.models.query.CountQuery"
@@ -67,21 +82,6 @@ items:
     content: "public QueryType getType()"
     return:
       type: "com.microsoft.store.partnercenter.models.query.QueryType"
-- uid: "com.microsoft.store.partnercenter.models.query.CountQuery.getFilter()"
-  id: "getFilter()"
-  parent: "com.microsoft.store.partnercenter.models.query.CountQuery"
-  langs:
-  - "java"
-  name: "getFilter()"
-  nameWithType: "CountQuery.getFilter()"
-  fullName: "com.microsoft.store.partnercenter.models.query.CountQuery.getFilter()"
-  overload: "com.microsoft.store.partnercenter.models.query.CountQuery.getFilter*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.query"
-  syntax:
-    content: "public FieldFilter getFilter()"
-    return:
-      type: "com.microsoft.store.partnercenter.models.query.filters.FieldFilter"
 - uid: "com.microsoft.store.partnercenter.models.query.CountQuery.setFilter(com.microsoft.store.partnercenter.models.query.filters.FieldFilter)"
   id: "setFilter(com.microsoft.store.partnercenter.models.query.filters.FieldFilter)"
   parent: "com.microsoft.store.partnercenter.models.query.CountQuery"

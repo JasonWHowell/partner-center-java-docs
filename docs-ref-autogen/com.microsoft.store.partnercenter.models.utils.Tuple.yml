@@ -6,8 +6,8 @@ items:
   children:
   - "com.microsoft.store.partnercenter.models.utils.Tuple.Tuple(T1,T2)"
   - "com.microsoft.store.partnercenter.models.utils.Tuple.getItem1()"
-  - "com.microsoft.store.partnercenter.models.utils.Tuple.setItem1(T1)"
   - "com.microsoft.store.partnercenter.models.utils.Tuple.getItem2()"
+  - "com.microsoft.store.partnercenter.models.utils.Tuple.setItem1(T1)"
   - "com.microsoft.store.partnercenter.models.utils.Tuple.setItem2(T2)"
   langs:
   - "java"
@@ -56,6 +56,21 @@ items:
     content: "public T1 getItem1()"
     return:
       type: "T1"
+- uid: "com.microsoft.store.partnercenter.models.utils.Tuple.getItem2()"
+  id: "getItem2()"
+  parent: "com.microsoft.store.partnercenter.models.utils.Tuple"
+  langs:
+  - "java"
+  name: "getItem2()"
+  nameWithType: "Tuple<T1,T2>.getItem2()"
+  fullName: "com.microsoft.store.partnercenter.models.utils.Tuple<T1,T2>.getItem2()"
+  overload: "com.microsoft.store.partnercenter.models.utils.Tuple.getItem2*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.utils"
+  syntax:
+    content: "public T2 getItem2()"
+    return:
+      type: "T2"
 - uid: "com.microsoft.store.partnercenter.models.utils.Tuple.setItem1(T1)"
   id: "setItem1(T1)"
   parent: "com.microsoft.store.partnercenter.models.utils.Tuple"
@@ -72,21 +87,6 @@ items:
     parameters:
     - id: "item1"
       type: "T1"
-- uid: "com.microsoft.store.partnercenter.models.utils.Tuple.getItem2()"
-  id: "getItem2()"
-  parent: "com.microsoft.store.partnercenter.models.utils.Tuple"
-  langs:
-  - "java"
-  name: "getItem2()"
-  nameWithType: "Tuple<T1,T2>.getItem2()"
-  fullName: "com.microsoft.store.partnercenter.models.utils.Tuple<T1,T2>.getItem2()"
-  overload: "com.microsoft.store.partnercenter.models.utils.Tuple.getItem2*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.utils"
-  syntax:
-    content: "public T2 getItem2()"
-    return:
-      type: "T2"
 - uid: "com.microsoft.store.partnercenter.models.utils.Tuple.setItem2(T2)"
   id: "setItem2(T2)"
   parent: "com.microsoft.store.partnercenter.models.utils.Tuple"

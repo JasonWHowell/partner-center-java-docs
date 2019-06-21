@@ -5,10 +5,10 @@ items:
   parent: "com.microsoft.store.partnercenter.models.query.sort"
   children:
   - "com.microsoft.store.partnercenter.models.query.sort.Sort.Sort(java.lang.String,com.microsoft.store.partnercenter.models.query.sort.SortDirection)"
-  - "com.microsoft.store.partnercenter.models.query.sort.Sort.getSortField()"
-  - "com.microsoft.store.partnercenter.models.query.sort.Sort.setSortField(java.lang.String)"
   - "com.microsoft.store.partnercenter.models.query.sort.Sort.getSortDirection()"
+  - "com.microsoft.store.partnercenter.models.query.sort.Sort.getSortField()"
   - "com.microsoft.store.partnercenter.models.query.sort.Sort.setSortDirection(com.microsoft.store.partnercenter.models.query.sort.SortDirection)"
+  - "com.microsoft.store.partnercenter.models.query.sort.Sort.setSortField(java.lang.String)"
   - "com.microsoft.store.partnercenter.models.query.sort.Sort.toString()"
   langs:
   - "java"
@@ -43,37 +43,6 @@ items:
     - id: "sortDirection"
       type: "com.microsoft.store.partnercenter.models.query.sort.SortDirection"
       description: "The sort direction."
-- uid: "com.microsoft.store.partnercenter.models.query.sort.Sort.getSortField()"
-  id: "getSortField()"
-  parent: "com.microsoft.store.partnercenter.models.query.sort.Sort"
-  langs:
-  - "java"
-  name: "getSortField()"
-  nameWithType: "Sort.getSortField()"
-  fullName: "com.microsoft.store.partnercenter.models.query.sort.Sort.getSortField()"
-  overload: "com.microsoft.store.partnercenter.models.query.sort.Sort.getSortField*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.query.sort"
-  syntax:
-    content: "public String getSortField()"
-    return:
-      type: "java.lang.String"
-- uid: "com.microsoft.store.partnercenter.models.query.sort.Sort.setSortField(java.lang.String)"
-  id: "setSortField(java.lang.String)"
-  parent: "com.microsoft.store.partnercenter.models.query.sort.Sort"
-  langs:
-  - "java"
-  name: "setSortField(String value)"
-  nameWithType: "Sort.setSortField(String value)"
-  fullName: "com.microsoft.store.partnercenter.models.query.sort.Sort.setSortField(String value)"
-  overload: "com.microsoft.store.partnercenter.models.query.sort.Sort.setSortField*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.query.sort"
-  syntax:
-    content: "public void setSortField(String value)"
-    parameters:
-    - id: "value"
-      type: "java.lang.String"
 - uid: "com.microsoft.store.partnercenter.models.query.sort.Sort.getSortDirection()"
   id: "getSortDirection()"
   parent: "com.microsoft.store.partnercenter.models.query.sort.Sort"
@@ -89,6 +58,21 @@ items:
     content: "public SortDirection getSortDirection()"
     return:
       type: "com.microsoft.store.partnercenter.models.query.sort.SortDirection"
+- uid: "com.microsoft.store.partnercenter.models.query.sort.Sort.getSortField()"
+  id: "getSortField()"
+  parent: "com.microsoft.store.partnercenter.models.query.sort.Sort"
+  langs:
+  - "java"
+  name: "getSortField()"
+  nameWithType: "Sort.getSortField()"
+  fullName: "com.microsoft.store.partnercenter.models.query.sort.Sort.getSortField()"
+  overload: "com.microsoft.store.partnercenter.models.query.sort.Sort.getSortField*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.query.sort"
+  syntax:
+    content: "public String getSortField()"
+    return:
+      type: "java.lang.String"
 - uid: "com.microsoft.store.partnercenter.models.query.sort.Sort.setSortDirection(com.microsoft.store.partnercenter.models.query.sort.SortDirection)"
   id: "setSortDirection(com.microsoft.store.partnercenter.models.query.sort.SortDirection)"
   parent: "com.microsoft.store.partnercenter.models.query.sort.Sort"
@@ -105,6 +89,22 @@ items:
     parameters:
     - id: "value"
       type: "com.microsoft.store.partnercenter.models.query.sort.SortDirection"
+- uid: "com.microsoft.store.partnercenter.models.query.sort.Sort.setSortField(java.lang.String)"
+  id: "setSortField(java.lang.String)"
+  parent: "com.microsoft.store.partnercenter.models.query.sort.Sort"
+  langs:
+  - "java"
+  name: "setSortField(String value)"
+  nameWithType: "Sort.setSortField(String value)"
+  fullName: "com.microsoft.store.partnercenter.models.query.sort.Sort.setSortField(String value)"
+  overload: "com.microsoft.store.partnercenter.models.query.sort.Sort.setSortField*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.query.sort"
+  syntax:
+    content: "public void setSortField(String value)"
+    parameters:
+    - id: "value"
+      type: "java.lang.String"
 - uid: "com.microsoft.store.partnercenter.models.query.sort.Sort.toString()"
   id: "toString()"
   parent: "com.microsoft.store.partnercenter.models.query.sort.Sort"

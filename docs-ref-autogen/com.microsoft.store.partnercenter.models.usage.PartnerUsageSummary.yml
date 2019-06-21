@@ -5,18 +5,18 @@ items:
   parent: "com.microsoft.store.partnercenter.models.usage"
   children:
   - "com.microsoft.store.partnercenter.models.usage.PartnerUsageSummary.PartnerUsageSummary()"
-  - "com.microsoft.store.partnercenter.models.usage.PartnerUsageSummary.getResourceId()"
-  - "com.microsoft.store.partnercenter.models.usage.PartnerUsageSummary.setResourceId(java.lang.String)"
-  - "com.microsoft.store.partnercenter.models.usage.PartnerUsageSummary.getResourceName()"
-  - "com.microsoft.store.partnercenter.models.usage.PartnerUsageSummary.setResourceName(java.lang.String)"
-  - "com.microsoft.store.partnercenter.models.usage.PartnerUsageSummary.getEmailsToNotify()"
-  - "com.microsoft.store.partnercenter.models.usage.PartnerUsageSummary.setEmailsToNotify(java.lang.Iterable<java.lang.String>)"
   - "com.microsoft.store.partnercenter.models.usage.PartnerUsageSummary.getCustomersOverBudget()"
-  - "com.microsoft.store.partnercenter.models.usage.PartnerUsageSummary.setCustomersOverBudget(long)"
   - "com.microsoft.store.partnercenter.models.usage.PartnerUsageSummary.getCustomersTrendingOver()"
-  - "com.microsoft.store.partnercenter.models.usage.PartnerUsageSummary.setCustomersTrendingOver(long)"
   - "com.microsoft.store.partnercenter.models.usage.PartnerUsageSummary.getCustomersWithUsageBasedSubscription()"
+  - "com.microsoft.store.partnercenter.models.usage.PartnerUsageSummary.getEmailsToNotify()"
+  - "com.microsoft.store.partnercenter.models.usage.PartnerUsageSummary.getResourceId()"
+  - "com.microsoft.store.partnercenter.models.usage.PartnerUsageSummary.getResourceName()"
+  - "com.microsoft.store.partnercenter.models.usage.PartnerUsageSummary.setCustomersOverBudget(long)"
+  - "com.microsoft.store.partnercenter.models.usage.PartnerUsageSummary.setCustomersTrendingOver(long)"
   - "com.microsoft.store.partnercenter.models.usage.PartnerUsageSummary.setCustomersWithUsageBasedSubscription(long)"
+  - "com.microsoft.store.partnercenter.models.usage.PartnerUsageSummary.setEmailsToNotify(java.lang.Iterable<java.lang.String>)"
+  - "com.microsoft.store.partnercenter.models.usage.PartnerUsageSummary.setResourceId(java.lang.String)"
+  - "com.microsoft.store.partnercenter.models.usage.PartnerUsageSummary.setResourceName(java.lang.String)"
   langs:
   - "java"
   name: "PartnerUsageSummary"
@@ -42,6 +42,66 @@ items:
   package: "com.microsoft.store.partnercenter.models.usage"
   syntax:
     content: "public PartnerUsageSummary()"
+- uid: "com.microsoft.store.partnercenter.models.usage.PartnerUsageSummary.getCustomersOverBudget()"
+  id: "getCustomersOverBudget()"
+  parent: "com.microsoft.store.partnercenter.models.usage.PartnerUsageSummary"
+  langs:
+  - "java"
+  name: "getCustomersOverBudget()"
+  nameWithType: "PartnerUsageSummary.getCustomersOverBudget()"
+  fullName: "com.microsoft.store.partnercenter.models.usage.PartnerUsageSummary.getCustomersOverBudget()"
+  overload: "com.microsoft.store.partnercenter.models.usage.PartnerUsageSummary.getCustomersOverBudget*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.usage"
+  syntax:
+    content: "public long getCustomersOverBudget()"
+    return:
+      type: "long"
+- uid: "com.microsoft.store.partnercenter.models.usage.PartnerUsageSummary.getCustomersTrendingOver()"
+  id: "getCustomersTrendingOver()"
+  parent: "com.microsoft.store.partnercenter.models.usage.PartnerUsageSummary"
+  langs:
+  - "java"
+  name: "getCustomersTrendingOver()"
+  nameWithType: "PartnerUsageSummary.getCustomersTrendingOver()"
+  fullName: "com.microsoft.store.partnercenter.models.usage.PartnerUsageSummary.getCustomersTrendingOver()"
+  overload: "com.microsoft.store.partnercenter.models.usage.PartnerUsageSummary.getCustomersTrendingOver*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.usage"
+  syntax:
+    content: "public long getCustomersTrendingOver()"
+    return:
+      type: "long"
+- uid: "com.microsoft.store.partnercenter.models.usage.PartnerUsageSummary.getCustomersWithUsageBasedSubscription()"
+  id: "getCustomersWithUsageBasedSubscription()"
+  parent: "com.microsoft.store.partnercenter.models.usage.PartnerUsageSummary"
+  langs:
+  - "java"
+  name: "getCustomersWithUsageBasedSubscription()"
+  nameWithType: "PartnerUsageSummary.getCustomersWithUsageBasedSubscription()"
+  fullName: "com.microsoft.store.partnercenter.models.usage.PartnerUsageSummary.getCustomersWithUsageBasedSubscription()"
+  overload: "com.microsoft.store.partnercenter.models.usage.PartnerUsageSummary.getCustomersWithUsageBasedSubscription*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.usage"
+  syntax:
+    content: "public long getCustomersWithUsageBasedSubscription()"
+    return:
+      type: "long"
+- uid: "com.microsoft.store.partnercenter.models.usage.PartnerUsageSummary.getEmailsToNotify()"
+  id: "getEmailsToNotify()"
+  parent: "com.microsoft.store.partnercenter.models.usage.PartnerUsageSummary"
+  langs:
+  - "java"
+  name: "getEmailsToNotify()"
+  nameWithType: "PartnerUsageSummary.getEmailsToNotify()"
+  fullName: "com.microsoft.store.partnercenter.models.usage.PartnerUsageSummary.getEmailsToNotify()"
+  overload: "com.microsoft.store.partnercenter.models.usage.PartnerUsageSummary.getEmailsToNotify*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.usage"
+  syntax:
+    content: "public Iterable<String> getEmailsToNotify()"
+    return:
+      type: "java.lang.Iterable<java.lang.String>"
 - uid: "com.microsoft.store.partnercenter.models.usage.PartnerUsageSummary.getResourceId()"
   id: "getResourceId()"
   parent: "com.microsoft.store.partnercenter.models.usage.PartnerUsageSummary"
@@ -56,22 +116,6 @@ items:
   syntax:
     content: "public String getResourceId()"
     return:
-      type: "java.lang.String"
-- uid: "com.microsoft.store.partnercenter.models.usage.PartnerUsageSummary.setResourceId(java.lang.String)"
-  id: "setResourceId(java.lang.String)"
-  parent: "com.microsoft.store.partnercenter.models.usage.PartnerUsageSummary"
-  langs:
-  - "java"
-  name: "setResourceId(String value)"
-  nameWithType: "PartnerUsageSummary.setResourceId(String value)"
-  fullName: "com.microsoft.store.partnercenter.models.usage.PartnerUsageSummary.setResourceId(String value)"
-  overload: "com.microsoft.store.partnercenter.models.usage.PartnerUsageSummary.setResourceId*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.usage"
-  syntax:
-    content: "public void setResourceId(String value)"
-    parameters:
-    - id: "value"
       type: "java.lang.String"
 - uid: "com.microsoft.store.partnercenter.models.usage.PartnerUsageSummary.getResourceName()"
   id: "getResourceName()"
@@ -88,68 +132,6 @@ items:
     content: "public String getResourceName()"
     return:
       type: "java.lang.String"
-- uid: "com.microsoft.store.partnercenter.models.usage.PartnerUsageSummary.setResourceName(java.lang.String)"
-  id: "setResourceName(java.lang.String)"
-  parent: "com.microsoft.store.partnercenter.models.usage.PartnerUsageSummary"
-  langs:
-  - "java"
-  name: "setResourceName(String value)"
-  nameWithType: "PartnerUsageSummary.setResourceName(String value)"
-  fullName: "com.microsoft.store.partnercenter.models.usage.PartnerUsageSummary.setResourceName(String value)"
-  overload: "com.microsoft.store.partnercenter.models.usage.PartnerUsageSummary.setResourceName*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.usage"
-  syntax:
-    content: "public void setResourceName(String value)"
-    parameters:
-    - id: "value"
-      type: "java.lang.String"
-- uid: "com.microsoft.store.partnercenter.models.usage.PartnerUsageSummary.getEmailsToNotify()"
-  id: "getEmailsToNotify()"
-  parent: "com.microsoft.store.partnercenter.models.usage.PartnerUsageSummary"
-  langs:
-  - "java"
-  name: "getEmailsToNotify()"
-  nameWithType: "PartnerUsageSummary.getEmailsToNotify()"
-  fullName: "com.microsoft.store.partnercenter.models.usage.PartnerUsageSummary.getEmailsToNotify()"
-  overload: "com.microsoft.store.partnercenter.models.usage.PartnerUsageSummary.getEmailsToNotify*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.usage"
-  syntax:
-    content: "public Iterable<String> getEmailsToNotify()"
-    return:
-      type: "java.lang.Iterable<java.lang.String>"
-- uid: "com.microsoft.store.partnercenter.models.usage.PartnerUsageSummary.setEmailsToNotify(java.lang.Iterable<java.lang.String>)"
-  id: "setEmailsToNotify(java.lang.Iterable<java.lang.String>)"
-  parent: "com.microsoft.store.partnercenter.models.usage.PartnerUsageSummary"
-  langs:
-  - "java"
-  name: "setEmailsToNotify(Iterable<String> value)"
-  nameWithType: "PartnerUsageSummary.setEmailsToNotify(Iterable<String> value)"
-  fullName: "com.microsoft.store.partnercenter.models.usage.PartnerUsageSummary.setEmailsToNotify(Iterable<String> value)"
-  overload: "com.microsoft.store.partnercenter.models.usage.PartnerUsageSummary.setEmailsToNotify*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.usage"
-  syntax:
-    content: "public void setEmailsToNotify(Iterable<String> value)"
-    parameters:
-    - id: "value"
-      type: "java.lang.Iterable<java.lang.String>"
-- uid: "com.microsoft.store.partnercenter.models.usage.PartnerUsageSummary.getCustomersOverBudget()"
-  id: "getCustomersOverBudget()"
-  parent: "com.microsoft.store.partnercenter.models.usage.PartnerUsageSummary"
-  langs:
-  - "java"
-  name: "getCustomersOverBudget()"
-  nameWithType: "PartnerUsageSummary.getCustomersOverBudget()"
-  fullName: "com.microsoft.store.partnercenter.models.usage.PartnerUsageSummary.getCustomersOverBudget()"
-  overload: "com.microsoft.store.partnercenter.models.usage.PartnerUsageSummary.getCustomersOverBudget*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.usage"
-  syntax:
-    content: "public long getCustomersOverBudget()"
-    return:
-      type: "long"
 - uid: "com.microsoft.store.partnercenter.models.usage.PartnerUsageSummary.setCustomersOverBudget(long)"
   id: "setCustomersOverBudget(long)"
   parent: "com.microsoft.store.partnercenter.models.usage.PartnerUsageSummary"
@@ -165,21 +147,6 @@ items:
     content: "public void setCustomersOverBudget(long value)"
     parameters:
     - id: "value"
-      type: "long"
-- uid: "com.microsoft.store.partnercenter.models.usage.PartnerUsageSummary.getCustomersTrendingOver()"
-  id: "getCustomersTrendingOver()"
-  parent: "com.microsoft.store.partnercenter.models.usage.PartnerUsageSummary"
-  langs:
-  - "java"
-  name: "getCustomersTrendingOver()"
-  nameWithType: "PartnerUsageSummary.getCustomersTrendingOver()"
-  fullName: "com.microsoft.store.partnercenter.models.usage.PartnerUsageSummary.getCustomersTrendingOver()"
-  overload: "com.microsoft.store.partnercenter.models.usage.PartnerUsageSummary.getCustomersTrendingOver*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.usage"
-  syntax:
-    content: "public long getCustomersTrendingOver()"
-    return:
       type: "long"
 - uid: "com.microsoft.store.partnercenter.models.usage.PartnerUsageSummary.setCustomersTrendingOver(long)"
   id: "setCustomersTrendingOver(long)"
@@ -197,21 +164,6 @@ items:
     parameters:
     - id: "value"
       type: "long"
-- uid: "com.microsoft.store.partnercenter.models.usage.PartnerUsageSummary.getCustomersWithUsageBasedSubscription()"
-  id: "getCustomersWithUsageBasedSubscription()"
-  parent: "com.microsoft.store.partnercenter.models.usage.PartnerUsageSummary"
-  langs:
-  - "java"
-  name: "getCustomersWithUsageBasedSubscription()"
-  nameWithType: "PartnerUsageSummary.getCustomersWithUsageBasedSubscription()"
-  fullName: "com.microsoft.store.partnercenter.models.usage.PartnerUsageSummary.getCustomersWithUsageBasedSubscription()"
-  overload: "com.microsoft.store.partnercenter.models.usage.PartnerUsageSummary.getCustomersWithUsageBasedSubscription*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.usage"
-  syntax:
-    content: "public long getCustomersWithUsageBasedSubscription()"
-    return:
-      type: "long"
 - uid: "com.microsoft.store.partnercenter.models.usage.PartnerUsageSummary.setCustomersWithUsageBasedSubscription(long)"
   id: "setCustomersWithUsageBasedSubscription(long)"
   parent: "com.microsoft.store.partnercenter.models.usage.PartnerUsageSummary"
@@ -228,6 +180,54 @@ items:
     parameters:
     - id: "value"
       type: "long"
+- uid: "com.microsoft.store.partnercenter.models.usage.PartnerUsageSummary.setEmailsToNotify(java.lang.Iterable<java.lang.String>)"
+  id: "setEmailsToNotify(java.lang.Iterable<java.lang.String>)"
+  parent: "com.microsoft.store.partnercenter.models.usage.PartnerUsageSummary"
+  langs:
+  - "java"
+  name: "setEmailsToNotify(Iterable<String> value)"
+  nameWithType: "PartnerUsageSummary.setEmailsToNotify(Iterable<String> value)"
+  fullName: "com.microsoft.store.partnercenter.models.usage.PartnerUsageSummary.setEmailsToNotify(Iterable<String> value)"
+  overload: "com.microsoft.store.partnercenter.models.usage.PartnerUsageSummary.setEmailsToNotify*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.usage"
+  syntax:
+    content: "public void setEmailsToNotify(Iterable<String> value)"
+    parameters:
+    - id: "value"
+      type: "java.lang.Iterable<java.lang.String>"
+- uid: "com.microsoft.store.partnercenter.models.usage.PartnerUsageSummary.setResourceId(java.lang.String)"
+  id: "setResourceId(java.lang.String)"
+  parent: "com.microsoft.store.partnercenter.models.usage.PartnerUsageSummary"
+  langs:
+  - "java"
+  name: "setResourceId(String value)"
+  nameWithType: "PartnerUsageSummary.setResourceId(String value)"
+  fullName: "com.microsoft.store.partnercenter.models.usage.PartnerUsageSummary.setResourceId(String value)"
+  overload: "com.microsoft.store.partnercenter.models.usage.PartnerUsageSummary.setResourceId*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.usage"
+  syntax:
+    content: "public void setResourceId(String value)"
+    parameters:
+    - id: "value"
+      type: "java.lang.String"
+- uid: "com.microsoft.store.partnercenter.models.usage.PartnerUsageSummary.setResourceName(java.lang.String)"
+  id: "setResourceName(java.lang.String)"
+  parent: "com.microsoft.store.partnercenter.models.usage.PartnerUsageSummary"
+  langs:
+  - "java"
+  name: "setResourceName(String value)"
+  nameWithType: "PartnerUsageSummary.setResourceName(String value)"
+  fullName: "com.microsoft.store.partnercenter.models.usage.PartnerUsageSummary.setResourceName(String value)"
+  overload: "com.microsoft.store.partnercenter.models.usage.PartnerUsageSummary.setResourceName*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.usage"
+  syntax:
+    content: "public void setResourceName(String value)"
+    parameters:
+    - id: "value"
+      type: "java.lang.String"
 references:
 - uid: "com.microsoft.store.partnercenter.models.usage.PartnerUsageSummary.PartnerUsageSummary*"
   name: "PartnerUsageSummary"
@@ -259,9 +259,17 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.usage.PartnerUsageSummary.setResourceName"
   package: "com.microsoft.store.partnercenter.models.usage"
 - uid: "java.lang.Iterable<java.lang.String>"
-  name: "Iterable<String>"
-  nameWithType: "Iterable<String>"
-  fullName: "java.lang.Iterable<java.lang.String>"
+  spec.java:
+  - uid: "java.lang.Iterable"
+    name: "java.lang.Iterable"
+    fullName: "java.lang.Iterable"
+  - name: "<"
+    fullName: "<"
+  - uid: "java.lang.String"
+    name: "java.lang.String"
+    fullName: "java.lang.String"
+  - name: ">"
+    fullName: ">"
 - uid: "com.microsoft.store.partnercenter.models.usage.PartnerUsageSummary.getEmailsToNotify*"
   name: "getEmailsToNotify"
   nameWithType: "PartnerUsageSummary.getEmailsToNotify"

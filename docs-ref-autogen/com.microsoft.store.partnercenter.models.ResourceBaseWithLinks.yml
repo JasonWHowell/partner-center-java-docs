@@ -4,8 +4,8 @@ items:
   id: "ResourceBaseWithLinks"
   parent: "com.microsoft.store.partnercenter.models"
   children:
-  - "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.ResourceBaseWithLinks(java.lang.String)"
   - "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.ResourceBaseWithLinks()"
+  - "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.ResourceBaseWithLinks(java.lang.String)"
   - "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.getLinks()"
   - "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.setLinks(TLinks)"
   langs:
@@ -22,6 +22,20 @@ items:
     - id: "TLinks"
   inheritance:
   - "com.microsoft.store.partnercenter.models.ResourceBase"
+- uid: "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.ResourceBaseWithLinks()"
+  id: "ResourceBaseWithLinks()"
+  parent: "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks"
+  langs:
+  - "java"
+  name: "ResourceBaseWithLinks()"
+  nameWithType: "ResourceBaseWithLinks<TLinks>.ResourceBaseWithLinks()"
+  fullName: "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks<TLinks>.ResourceBaseWithLinks()"
+  overload: "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.ResourceBaseWithLinks*"
+  type: "Constructor"
+  package: "com.microsoft.store.partnercenter.models"
+  summary: "Initializes a new instance of the ResourceBaseWithLinks class."
+  syntax:
+    content: "protected ResourceBaseWithLinks()"
 - uid: "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.ResourceBaseWithLinks(java.lang.String)"
   id: "ResourceBaseWithLinks(java.lang.String)"
   parent: "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks"
@@ -40,20 +54,6 @@ items:
     - id: "objectType"
       type: "java.lang.String"
       description: "Type of the object."
-- uid: "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.ResourceBaseWithLinks()"
-  id: "ResourceBaseWithLinks()"
-  parent: "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks"
-  langs:
-  - "java"
-  name: "ResourceBaseWithLinks()"
-  nameWithType: "ResourceBaseWithLinks<TLinks>.ResourceBaseWithLinks()"
-  fullName: "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks<TLinks>.ResourceBaseWithLinks()"
-  overload: "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.ResourceBaseWithLinks*"
-  type: "Constructor"
-  package: "com.microsoft.store.partnercenter.models"
-  summary: "Initializes a new instance of the ResourceBaseWithLinks class."
-  syntax:
-    content: "protected ResourceBaseWithLinks()"
 - uid: "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.getLinks()"
   id: "getLinks()"
   parent: "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks"

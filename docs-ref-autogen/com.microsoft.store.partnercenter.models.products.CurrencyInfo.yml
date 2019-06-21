@@ -6,8 +6,8 @@ items:
   children:
   - "com.microsoft.store.partnercenter.models.products.CurrencyInfo.CurrencyInfo()"
   - "com.microsoft.store.partnercenter.models.products.CurrencyInfo.getCode()"
-  - "com.microsoft.store.partnercenter.models.products.CurrencyInfo.setCode(java.lang.String)"
   - "com.microsoft.store.partnercenter.models.products.CurrencyInfo.getSymbol()"
+  - "com.microsoft.store.partnercenter.models.products.CurrencyInfo.setCode(java.lang.String)"
   - "com.microsoft.store.partnercenter.models.products.CurrencyInfo.setSymbol(java.lang.String)"
   langs:
   - "java"
@@ -49,6 +49,21 @@ items:
     content: "public String getCode()"
     return:
       type: "java.lang.String"
+- uid: "com.microsoft.store.partnercenter.models.products.CurrencyInfo.getSymbol()"
+  id: "getSymbol()"
+  parent: "com.microsoft.store.partnercenter.models.products.CurrencyInfo"
+  langs:
+  - "java"
+  name: "getSymbol()"
+  nameWithType: "CurrencyInfo.getSymbol()"
+  fullName: "com.microsoft.store.partnercenter.models.products.CurrencyInfo.getSymbol()"
+  overload: "com.microsoft.store.partnercenter.models.products.CurrencyInfo.getSymbol*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.products"
+  syntax:
+    content: "public String getSymbol()"
+    return:
+      type: "java.lang.String"
 - uid: "com.microsoft.store.partnercenter.models.products.CurrencyInfo.setCode(java.lang.String)"
   id: "setCode(java.lang.String)"
   parent: "com.microsoft.store.partnercenter.models.products.CurrencyInfo"
@@ -64,21 +79,6 @@ items:
     content: "public void setCode(String value)"
     parameters:
     - id: "value"
-      type: "java.lang.String"
-- uid: "com.microsoft.store.partnercenter.models.products.CurrencyInfo.getSymbol()"
-  id: "getSymbol()"
-  parent: "com.microsoft.store.partnercenter.models.products.CurrencyInfo"
-  langs:
-  - "java"
-  name: "getSymbol()"
-  nameWithType: "CurrencyInfo.getSymbol()"
-  fullName: "com.microsoft.store.partnercenter.models.products.CurrencyInfo.getSymbol()"
-  overload: "com.microsoft.store.partnercenter.models.products.CurrencyInfo.getSymbol*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.products"
-  syntax:
-    content: "public String getSymbol()"
-    return:
       type: "java.lang.String"
 - uid: "com.microsoft.store.partnercenter.models.products.CurrencyInfo.setSymbol(java.lang.String)"
   id: "setSymbol(java.lang.String)"

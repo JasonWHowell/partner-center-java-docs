@@ -4,11 +4,11 @@ items:
   id: "UserState"
   parent: "com.microsoft.store.partnercenter.models.users"
   children:
-  - "com.microsoft.store.partnercenter.models.users.UserState.values()"
-  - "com.microsoft.store.partnercenter.models.users.UserState.valueOf(java.lang.String)"
-  - "com.microsoft.store.partnercenter.models.users.UserState.toString()"
   - "com.microsoft.store.partnercenter.models.users.UserState.ACTIVE"
   - "com.microsoft.store.partnercenter.models.users.UserState.INACTIVE"
+  - "com.microsoft.store.partnercenter.models.users.UserState.toString()"
+  - "com.microsoft.store.partnercenter.models.users.UserState.valueOf(java.lang.String)"
+  - "com.microsoft.store.partnercenter.models.users.UserState.values()"
   langs:
   - "java"
   name: "UserState"
@@ -21,72 +21,6 @@ items:
     content: "public enum UserState extends Enum<UserState>"
   inheritance:
   - "java.lang.Enum<com.microsoft.store.partnercenter.models.users.UserState>"
-- uid: "com.microsoft.store.partnercenter.models.users.UserState.UserState(java.lang.String)"
-  id: "UserState(java.lang.String)"
-  parent: "com.microsoft.store.partnercenter.models.users.UserState"
-  langs:
-  - "java"
-  name: "UserState(String value)"
-  nameWithType: "UserState.UserState(String value)"
-  fullName: "com.microsoft.store.partnercenter.models.users.UserState.UserState(String value)"
-  overload: "com.microsoft.store.partnercenter.models.users.UserState.UserState*"
-  type: "Constructor"
-  package: "com.microsoft.store.partnercenter.models.users"
-  syntax:
-    content: "private UserState(String value)"
-    parameters:
-    - id: "value"
-      type: "java.lang.String"
-- uid: "com.microsoft.store.partnercenter.models.users.UserState.values()"
-  id: "values()"
-  parent: "com.microsoft.store.partnercenter.models.users.UserState"
-  langs:
-  - "java"
-  name: "values()"
-  nameWithType: "UserState.values()"
-  fullName: "com.microsoft.store.partnercenter.models.users.UserState.values()"
-  overload: "com.microsoft.store.partnercenter.models.users.UserState.values*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.users"
-  syntax:
-    content: "public static UserState[] values()"
-    return:
-      type: "com.microsoft.store.partnercenter.models.users.UserState[]"
-- uid: "com.microsoft.store.partnercenter.models.users.UserState.valueOf(java.lang.String)"
-  id: "valueOf(java.lang.String)"
-  parent: "com.microsoft.store.partnercenter.models.users.UserState"
-  langs:
-  - "java"
-  name: "valueOf(String name)"
-  nameWithType: "UserState.valueOf(String name)"
-  fullName: "com.microsoft.store.partnercenter.models.users.UserState.valueOf(String name)"
-  overload: "com.microsoft.store.partnercenter.models.users.UserState.valueOf*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.users"
-  syntax:
-    content: "public static UserState valueOf(String name)"
-    parameters:
-    - id: "name"
-      type: "java.lang.String"
-    return:
-      type: "com.microsoft.store.partnercenter.models.users.UserState"
-- uid: "com.microsoft.store.partnercenter.models.users.UserState.toString()"
-  id: "toString()"
-  parent: "com.microsoft.store.partnercenter.models.users.UserState"
-  langs:
-  - "java"
-  name: "toString()"
-  nameWithType: "UserState.toString()"
-  fullName: "com.microsoft.store.partnercenter.models.users.UserState.toString()"
-  overload: "com.microsoft.store.partnercenter.models.users.UserState.toString*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.users"
-  summary: "Converts the object to a string."
-  syntax:
-    content: "public String toString()"
-    return:
-      type: "java.lang.String"
-      description: "A string that represents this object."
 - uid: "com.microsoft.store.partnercenter.models.users.UserState.ACTIVE"
   id: "ACTIVE"
   parent: "com.microsoft.store.partnercenter.models.users.UserState"
@@ -117,6 +51,72 @@ items:
     content: "public static final UserState INACTIVE"
     return:
       type: "com.microsoft.store.partnercenter.models.users.UserState"
+- uid: "com.microsoft.store.partnercenter.models.users.UserState.UserState(java.lang.String)"
+  id: "UserState(java.lang.String)"
+  parent: "com.microsoft.store.partnercenter.models.users.UserState"
+  langs:
+  - "java"
+  name: "UserState(String value)"
+  nameWithType: "UserState.UserState(String value)"
+  fullName: "com.microsoft.store.partnercenter.models.users.UserState.UserState(String value)"
+  overload: "com.microsoft.store.partnercenter.models.users.UserState.UserState*"
+  type: "Constructor"
+  package: "com.microsoft.store.partnercenter.models.users"
+  syntax:
+    content: "private UserState(String value)"
+    parameters:
+    - id: "value"
+      type: "java.lang.String"
+- uid: "com.microsoft.store.partnercenter.models.users.UserState.toString()"
+  id: "toString()"
+  parent: "com.microsoft.store.partnercenter.models.users.UserState"
+  langs:
+  - "java"
+  name: "toString()"
+  nameWithType: "UserState.toString()"
+  fullName: "com.microsoft.store.partnercenter.models.users.UserState.toString()"
+  overload: "com.microsoft.store.partnercenter.models.users.UserState.toString*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.users"
+  summary: "Converts the object to a string."
+  syntax:
+    content: "public String toString()"
+    return:
+      type: "java.lang.String"
+      description: "A string that represents this object."
+- uid: "com.microsoft.store.partnercenter.models.users.UserState.valueOf(java.lang.String)"
+  id: "valueOf(java.lang.String)"
+  parent: "com.microsoft.store.partnercenter.models.users.UserState"
+  langs:
+  - "java"
+  name: "valueOf(String name)"
+  nameWithType: "UserState.valueOf(String name)"
+  fullName: "com.microsoft.store.partnercenter.models.users.UserState.valueOf(String name)"
+  overload: "com.microsoft.store.partnercenter.models.users.UserState.valueOf*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.users"
+  syntax:
+    content: "public static UserState valueOf(String name)"
+    parameters:
+    - id: "name"
+      type: "java.lang.String"
+    return:
+      type: "com.microsoft.store.partnercenter.models.users.UserState"
+- uid: "com.microsoft.store.partnercenter.models.users.UserState.values()"
+  id: "values()"
+  parent: "com.microsoft.store.partnercenter.models.users.UserState"
+  langs:
+  - "java"
+  name: "values()"
+  nameWithType: "UserState.values()"
+  fullName: "com.microsoft.store.partnercenter.models.users.UserState.values()"
+  overload: "com.microsoft.store.partnercenter.models.users.UserState.values*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.users"
+  syntax:
+    content: "public static UserState[] values()"
+    return:
+      type: "com.microsoft.store.partnercenter.models.users.UserState[]"
 references:
 - uid: "java.lang.String"
   name: "String"

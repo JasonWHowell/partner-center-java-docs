@@ -4,11 +4,11 @@ items:
   id: "SortDirection"
   parent: "com.microsoft.store.partnercenter.models.query.sort"
   children:
-  - "com.microsoft.store.partnercenter.models.query.sort.SortDirection.values()"
-  - "com.microsoft.store.partnercenter.models.query.sort.SortDirection.valueOf(java.lang.String)"
-  - "com.microsoft.store.partnercenter.models.query.sort.SortDirection.toString()"
   - "com.microsoft.store.partnercenter.models.query.sort.SortDirection.ASCENDING"
   - "com.microsoft.store.partnercenter.models.query.sort.SortDirection.DESCENDING"
+  - "com.microsoft.store.partnercenter.models.query.sort.SortDirection.toString()"
+  - "com.microsoft.store.partnercenter.models.query.sort.SortDirection.valueOf(java.lang.String)"
+  - "com.microsoft.store.partnercenter.models.query.sort.SortDirection.values()"
   langs:
   - "java"
   name: "SortDirection"
@@ -20,72 +20,6 @@ items:
     content: "public enum SortDirection extends Enum<SortDirection>"
   inheritance:
   - "java.lang.Enum<com.microsoft.store.partnercenter.models.query.sort.SortDirection>"
-- uid: "com.microsoft.store.partnercenter.models.query.sort.SortDirection.SortDirection(java.lang.String)"
-  id: "SortDirection(java.lang.String)"
-  parent: "com.microsoft.store.partnercenter.models.query.sort.SortDirection"
-  langs:
-  - "java"
-  name: "SortDirection(String value)"
-  nameWithType: "SortDirection.SortDirection(String value)"
-  fullName: "com.microsoft.store.partnercenter.models.query.sort.SortDirection.SortDirection(String value)"
-  overload: "com.microsoft.store.partnercenter.models.query.sort.SortDirection.SortDirection*"
-  type: "Constructor"
-  package: "com.microsoft.store.partnercenter.models.query.sort"
-  syntax:
-    content: "private SortDirection(String value)"
-    parameters:
-    - id: "value"
-      type: "java.lang.String"
-- uid: "com.microsoft.store.partnercenter.models.query.sort.SortDirection.values()"
-  id: "values()"
-  parent: "com.microsoft.store.partnercenter.models.query.sort.SortDirection"
-  langs:
-  - "java"
-  name: "values()"
-  nameWithType: "SortDirection.values()"
-  fullName: "com.microsoft.store.partnercenter.models.query.sort.SortDirection.values()"
-  overload: "com.microsoft.store.partnercenter.models.query.sort.SortDirection.values*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.query.sort"
-  syntax:
-    content: "public static SortDirection[] values()"
-    return:
-      type: "com.microsoft.store.partnercenter.models.query.sort.SortDirection[]"
-- uid: "com.microsoft.store.partnercenter.models.query.sort.SortDirection.valueOf(java.lang.String)"
-  id: "valueOf(java.lang.String)"
-  parent: "com.microsoft.store.partnercenter.models.query.sort.SortDirection"
-  langs:
-  - "java"
-  name: "valueOf(String name)"
-  nameWithType: "SortDirection.valueOf(String name)"
-  fullName: "com.microsoft.store.partnercenter.models.query.sort.SortDirection.valueOf(String name)"
-  overload: "com.microsoft.store.partnercenter.models.query.sort.SortDirection.valueOf*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.query.sort"
-  syntax:
-    content: "public static SortDirection valueOf(String name)"
-    parameters:
-    - id: "name"
-      type: "java.lang.String"
-    return:
-      type: "com.microsoft.store.partnercenter.models.query.sort.SortDirection"
-- uid: "com.microsoft.store.partnercenter.models.query.sort.SortDirection.toString()"
-  id: "toString()"
-  parent: "com.microsoft.store.partnercenter.models.query.sort.SortDirection"
-  langs:
-  - "java"
-  name: "toString()"
-  nameWithType: "SortDirection.toString()"
-  fullName: "com.microsoft.store.partnercenter.models.query.sort.SortDirection.toString()"
-  overload: "com.microsoft.store.partnercenter.models.query.sort.SortDirection.toString*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.query.sort"
-  summary: "Converts the object to a string."
-  syntax:
-    content: "public String toString()"
-    return:
-      type: "java.lang.String"
-      description: "A string that represents this object."
 - uid: "com.microsoft.store.partnercenter.models.query.sort.SortDirection.ASCENDING"
   id: "ASCENDING"
   parent: "com.microsoft.store.partnercenter.models.query.sort.SortDirection"
@@ -116,6 +50,72 @@ items:
     content: "public static final SortDirection DESCENDING"
     return:
       type: "com.microsoft.store.partnercenter.models.query.sort.SortDirection"
+- uid: "com.microsoft.store.partnercenter.models.query.sort.SortDirection.SortDirection(java.lang.String)"
+  id: "SortDirection(java.lang.String)"
+  parent: "com.microsoft.store.partnercenter.models.query.sort.SortDirection"
+  langs:
+  - "java"
+  name: "SortDirection(String value)"
+  nameWithType: "SortDirection.SortDirection(String value)"
+  fullName: "com.microsoft.store.partnercenter.models.query.sort.SortDirection.SortDirection(String value)"
+  overload: "com.microsoft.store.partnercenter.models.query.sort.SortDirection.SortDirection*"
+  type: "Constructor"
+  package: "com.microsoft.store.partnercenter.models.query.sort"
+  syntax:
+    content: "private SortDirection(String value)"
+    parameters:
+    - id: "value"
+      type: "java.lang.String"
+- uid: "com.microsoft.store.partnercenter.models.query.sort.SortDirection.toString()"
+  id: "toString()"
+  parent: "com.microsoft.store.partnercenter.models.query.sort.SortDirection"
+  langs:
+  - "java"
+  name: "toString()"
+  nameWithType: "SortDirection.toString()"
+  fullName: "com.microsoft.store.partnercenter.models.query.sort.SortDirection.toString()"
+  overload: "com.microsoft.store.partnercenter.models.query.sort.SortDirection.toString*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.query.sort"
+  summary: "Converts the object to a string."
+  syntax:
+    content: "public String toString()"
+    return:
+      type: "java.lang.String"
+      description: "A string that represents this object."
+- uid: "com.microsoft.store.partnercenter.models.query.sort.SortDirection.valueOf(java.lang.String)"
+  id: "valueOf(java.lang.String)"
+  parent: "com.microsoft.store.partnercenter.models.query.sort.SortDirection"
+  langs:
+  - "java"
+  name: "valueOf(String name)"
+  nameWithType: "SortDirection.valueOf(String name)"
+  fullName: "com.microsoft.store.partnercenter.models.query.sort.SortDirection.valueOf(String name)"
+  overload: "com.microsoft.store.partnercenter.models.query.sort.SortDirection.valueOf*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.query.sort"
+  syntax:
+    content: "public static SortDirection valueOf(String name)"
+    parameters:
+    - id: "name"
+      type: "java.lang.String"
+    return:
+      type: "com.microsoft.store.partnercenter.models.query.sort.SortDirection"
+- uid: "com.microsoft.store.partnercenter.models.query.sort.SortDirection.values()"
+  id: "values()"
+  parent: "com.microsoft.store.partnercenter.models.query.sort.SortDirection"
+  langs:
+  - "java"
+  name: "values()"
+  nameWithType: "SortDirection.values()"
+  fullName: "com.microsoft.store.partnercenter.models.query.sort.SortDirection.values()"
+  overload: "com.microsoft.store.partnercenter.models.query.sort.SortDirection.values*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.query.sort"
+  syntax:
+    content: "public static SortDirection[] values()"
+    return:
+      type: "com.microsoft.store.partnercenter.models.query.sort.SortDirection[]"
 references:
 - uid: "java.lang.String"
   name: "String"

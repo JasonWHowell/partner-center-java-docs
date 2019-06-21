@@ -6,8 +6,8 @@ items:
   children:
   - "com.microsoft.store.partnercenter.models.subscriptions.RefundOption.RefundOption()"
   - "com.microsoft.store.partnercenter.models.subscriptions.RefundOption.getExpiresAt()"
-  - "com.microsoft.store.partnercenter.models.subscriptions.RefundOption.setExpiresAt(org.joda.time.DateTime)"
   - "com.microsoft.store.partnercenter.models.subscriptions.RefundOption.getType()"
+  - "com.microsoft.store.partnercenter.models.subscriptions.RefundOption.setExpiresAt(org.joda.time.DateTime)"
   - "com.microsoft.store.partnercenter.models.subscriptions.RefundOption.setType(java.lang.String)"
   langs:
   - "java"
@@ -51,6 +51,23 @@ items:
     return:
       type: "org.joda.time.DateTime"
       description: "The timestamp when this policy expires if applicable."
+- uid: "com.microsoft.store.partnercenter.models.subscriptions.RefundOption.getType()"
+  id: "getType()"
+  parent: "com.microsoft.store.partnercenter.models.subscriptions.RefundOption"
+  langs:
+  - "java"
+  name: "getType()"
+  nameWithType: "RefundOption.getType()"
+  fullName: "com.microsoft.store.partnercenter.models.subscriptions.RefundOption.getType()"
+  overload: "com.microsoft.store.partnercenter.models.subscriptions.RefundOption.getType*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.subscriptions"
+  summary: "Gets the type of refund (\"Full, Partial\")."
+  syntax:
+    content: "public String getType()"
+    return:
+      type: "java.lang.String"
+      description: "The type of refund (\"Full, Partial\")."
 - uid: "com.microsoft.store.partnercenter.models.subscriptions.RefundOption.setExpiresAt(org.joda.time.DateTime)"
   id: "setExpiresAt(org.joda.time.DateTime)"
   parent: "com.microsoft.store.partnercenter.models.subscriptions.RefundOption"
@@ -69,23 +86,6 @@ items:
     - id: "value"
       type: "org.joda.time.DateTime"
       description: "The timestamp when this policy expires if applicable."
-- uid: "com.microsoft.store.partnercenter.models.subscriptions.RefundOption.getType()"
-  id: "getType()"
-  parent: "com.microsoft.store.partnercenter.models.subscriptions.RefundOption"
-  langs:
-  - "java"
-  name: "getType()"
-  nameWithType: "RefundOption.getType()"
-  fullName: "com.microsoft.store.partnercenter.models.subscriptions.RefundOption.getType()"
-  overload: "com.microsoft.store.partnercenter.models.subscriptions.RefundOption.getType*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.subscriptions"
-  summary: "Gets the type of refund (\"Full, Partial\")."
-  syntax:
-    content: "public String getType()"
-    return:
-      type: "java.lang.String"
-      description: "The type of refund (\"Full, Partial\")."
 - uid: "com.microsoft.store.partnercenter.models.subscriptions.RefundOption.setType(java.lang.String)"
   id: "setType(java.lang.String)"
   parent: "com.microsoft.store.partnercenter.models.subscriptions.RefundOption"

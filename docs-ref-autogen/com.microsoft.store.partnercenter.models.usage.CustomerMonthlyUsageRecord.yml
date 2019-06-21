@@ -6,8 +6,8 @@ items:
   children:
   - "com.microsoft.store.partnercenter.models.usage.CustomerMonthlyUsageRecord.CustomerMonthlyUsageRecord()"
   - "com.microsoft.store.partnercenter.models.usage.CustomerMonthlyUsageRecord.getBudget()"
-  - "com.microsoft.store.partnercenter.models.usage.CustomerMonthlyUsageRecord.setBudget(com.microsoft.store.partnercenter.models.usage.SpendingBudget)"
   - "com.microsoft.store.partnercenter.models.usage.CustomerMonthlyUsageRecord.getPercentUsed()"
+  - "com.microsoft.store.partnercenter.models.usage.CustomerMonthlyUsageRecord.setBudget(com.microsoft.store.partnercenter.models.usage.SpendingBudget)"
   - "com.microsoft.store.partnercenter.models.usage.CustomerMonthlyUsageRecord.setPercentUsed(double)"
   langs:
   - "java"
@@ -49,6 +49,21 @@ items:
     content: "public SpendingBudget getBudget()"
     return:
       type: "com.microsoft.store.partnercenter.models.usage.SpendingBudget"
+- uid: "com.microsoft.store.partnercenter.models.usage.CustomerMonthlyUsageRecord.getPercentUsed()"
+  id: "getPercentUsed()"
+  parent: "com.microsoft.store.partnercenter.models.usage.CustomerMonthlyUsageRecord"
+  langs:
+  - "java"
+  name: "getPercentUsed()"
+  nameWithType: "CustomerMonthlyUsageRecord.getPercentUsed()"
+  fullName: "com.microsoft.store.partnercenter.models.usage.CustomerMonthlyUsageRecord.getPercentUsed()"
+  overload: "com.microsoft.store.partnercenter.models.usage.CustomerMonthlyUsageRecord.getPercentUsed*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.usage"
+  syntax:
+    content: "public double getPercentUsed()"
+    return:
+      type: "double"
 - uid: "com.microsoft.store.partnercenter.models.usage.CustomerMonthlyUsageRecord.setBudget(com.microsoft.store.partnercenter.models.usage.SpendingBudget)"
   id: "setBudget(com.microsoft.store.partnercenter.models.usage.SpendingBudget)"
   parent: "com.microsoft.store.partnercenter.models.usage.CustomerMonthlyUsageRecord"
@@ -65,21 +80,6 @@ items:
     parameters:
     - id: "value"
       type: "com.microsoft.store.partnercenter.models.usage.SpendingBudget"
-- uid: "com.microsoft.store.partnercenter.models.usage.CustomerMonthlyUsageRecord.getPercentUsed()"
-  id: "getPercentUsed()"
-  parent: "com.microsoft.store.partnercenter.models.usage.CustomerMonthlyUsageRecord"
-  langs:
-  - "java"
-  name: "getPercentUsed()"
-  nameWithType: "CustomerMonthlyUsageRecord.getPercentUsed()"
-  fullName: "com.microsoft.store.partnercenter.models.usage.CustomerMonthlyUsageRecord.getPercentUsed()"
-  overload: "com.microsoft.store.partnercenter.models.usage.CustomerMonthlyUsageRecord.getPercentUsed*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.usage"
-  syntax:
-    content: "public double getPercentUsed()"
-    return:
-      type: "double"
 - uid: "com.microsoft.store.partnercenter.models.usage.CustomerMonthlyUsageRecord.setPercentUsed(double)"
   id: "setPercentUsed(double)"
   parent: "com.microsoft.store.partnercenter.models.usage.CustomerMonthlyUsageRecord"

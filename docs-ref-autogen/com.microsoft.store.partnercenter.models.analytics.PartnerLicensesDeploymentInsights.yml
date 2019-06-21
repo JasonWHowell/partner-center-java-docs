@@ -6,8 +6,8 @@ items:
   children:
   - "com.microsoft.store.partnercenter.models.analytics.PartnerLicensesDeploymentInsights.PartnerLicensesDeploymentInsights()"
   - "com.microsoft.store.partnercenter.models.analytics.PartnerLicensesDeploymentInsights.getLicensesSold()"
-  - "com.microsoft.store.partnercenter.models.analytics.PartnerLicensesDeploymentInsights.setLicensesSold(long)"
   - "com.microsoft.store.partnercenter.models.analytics.PartnerLicensesDeploymentInsights.getProratedDeploymentPercent()"
+  - "com.microsoft.store.partnercenter.models.analytics.PartnerLicensesDeploymentInsights.setLicensesSold(long)"
   - "com.microsoft.store.partnercenter.models.analytics.PartnerLicensesDeploymentInsights.setProratedDeploymentPercent(double)"
   langs:
   - "java"
@@ -49,6 +49,21 @@ items:
     content: "public long getLicensesSold()"
     return:
       type: "long"
+- uid: "com.microsoft.store.partnercenter.models.analytics.PartnerLicensesDeploymentInsights.getProratedDeploymentPercent()"
+  id: "getProratedDeploymentPercent()"
+  parent: "com.microsoft.store.partnercenter.models.analytics.PartnerLicensesDeploymentInsights"
+  langs:
+  - "java"
+  name: "getProratedDeploymentPercent()"
+  nameWithType: "PartnerLicensesDeploymentInsights.getProratedDeploymentPercent()"
+  fullName: "com.microsoft.store.partnercenter.models.analytics.PartnerLicensesDeploymentInsights.getProratedDeploymentPercent()"
+  overload: "com.microsoft.store.partnercenter.models.analytics.PartnerLicensesDeploymentInsights.getProratedDeploymentPercent*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.analytics"
+  syntax:
+    content: "public double getProratedDeploymentPercent()"
+    return:
+      type: "double"
 - uid: "com.microsoft.store.partnercenter.models.analytics.PartnerLicensesDeploymentInsights.setLicensesSold(long)"
   id: "setLicensesSold(long)"
   parent: "com.microsoft.store.partnercenter.models.analytics.PartnerLicensesDeploymentInsights"
@@ -65,21 +80,6 @@ items:
     parameters:
     - id: "value"
       type: "long"
-- uid: "com.microsoft.store.partnercenter.models.analytics.PartnerLicensesDeploymentInsights.getProratedDeploymentPercent()"
-  id: "getProratedDeploymentPercent()"
-  parent: "com.microsoft.store.partnercenter.models.analytics.PartnerLicensesDeploymentInsights"
-  langs:
-  - "java"
-  name: "getProratedDeploymentPercent()"
-  nameWithType: "PartnerLicensesDeploymentInsights.getProratedDeploymentPercent()"
-  fullName: "com.microsoft.store.partnercenter.models.analytics.PartnerLicensesDeploymentInsights.getProratedDeploymentPercent()"
-  overload: "com.microsoft.store.partnercenter.models.analytics.PartnerLicensesDeploymentInsights.getProratedDeploymentPercent*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.analytics"
-  syntax:
-    content: "public double getProratedDeploymentPercent()"
-    return:
-      type: "double"
 - uid: "com.microsoft.store.partnercenter.models.analytics.PartnerLicensesDeploymentInsights.setProratedDeploymentPercent(double)"
   id: "setProratedDeploymentPercent(double)"
   parent: "com.microsoft.store.partnercenter.models.analytics.PartnerLicensesDeploymentInsights"

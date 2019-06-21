@@ -5,11 +5,11 @@ items:
   parent: "com.microsoft.store.partnercenter.models.query.filters"
   children:
   - "com.microsoft.store.partnercenter.models.query.filters.FieldFilter.FieldFilter()"
-  - "com.microsoft.store.partnercenter.models.query.filters.FieldFilter.getOperator()"
-  - "com.microsoft.store.partnercenter.models.query.filters.FieldFilter.setOperator(com.microsoft.store.partnercenter.models.query.filters.FieldFilterOperation)"
-  - "com.microsoft.store.partnercenter.models.query.filters.FieldFilter.getFieldType()"
-  - "com.microsoft.store.partnercenter.models.query.filters.FieldFilter.setFieldType(com.microsoft.store.partnercenter.models.query.filters.FieldType)"
   - "com.microsoft.store.partnercenter.models.query.filters.FieldFilter.generateExpression(com.microsoft.store.partnercenter.models.query.filters.IFilterExpressionGenerator)"
+  - "com.microsoft.store.partnercenter.models.query.filters.FieldFilter.getFieldType()"
+  - "com.microsoft.store.partnercenter.models.query.filters.FieldFilter.getOperator()"
+  - "com.microsoft.store.partnercenter.models.query.filters.FieldFilter.setFieldType(com.microsoft.store.partnercenter.models.query.filters.FieldType)"
+  - "com.microsoft.store.partnercenter.models.query.filters.FieldFilter.setOperator(com.microsoft.store.partnercenter.models.query.filters.FieldFilterOperation)"
   langs:
   - "java"
   name: "FieldFilter"
@@ -35,68 +35,6 @@ items:
   package: "com.microsoft.store.partnercenter.models.query.filters"
   syntax:
     content: "public FieldFilter()"
-- uid: "com.microsoft.store.partnercenter.models.query.filters.FieldFilter.getOperator()"
-  id: "getOperator()"
-  parent: "com.microsoft.store.partnercenter.models.query.filters.FieldFilter"
-  langs:
-  - "java"
-  name: "getOperator()"
-  nameWithType: "FieldFilter.getOperator()"
-  fullName: "com.microsoft.store.partnercenter.models.query.filters.FieldFilter.getOperator()"
-  overload: "com.microsoft.store.partnercenter.models.query.filters.FieldFilter.getOperator*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.query.filters"
-  syntax:
-    content: "public FieldFilterOperation getOperator()"
-    return:
-      type: "com.microsoft.store.partnercenter.models.query.filters.FieldFilterOperation"
-- uid: "com.microsoft.store.partnercenter.models.query.filters.FieldFilter.setOperator(com.microsoft.store.partnercenter.models.query.filters.FieldFilterOperation)"
-  id: "setOperator(com.microsoft.store.partnercenter.models.query.filters.FieldFilterOperation)"
-  parent: "com.microsoft.store.partnercenter.models.query.filters.FieldFilter"
-  langs:
-  - "java"
-  name: "setOperator(FieldFilterOperation value)"
-  nameWithType: "FieldFilter.setOperator(FieldFilterOperation value)"
-  fullName: "com.microsoft.store.partnercenter.models.query.filters.FieldFilter.setOperator(FieldFilterOperation value)"
-  overload: "com.microsoft.store.partnercenter.models.query.filters.FieldFilter.setOperator*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.query.filters"
-  syntax:
-    content: "public void setOperator(FieldFilterOperation value)"
-    parameters:
-    - id: "value"
-      type: "com.microsoft.store.partnercenter.models.query.filters.FieldFilterOperation"
-- uid: "com.microsoft.store.partnercenter.models.query.filters.FieldFilter.getFieldType()"
-  id: "getFieldType()"
-  parent: "com.microsoft.store.partnercenter.models.query.filters.FieldFilter"
-  langs:
-  - "java"
-  name: "getFieldType()"
-  nameWithType: "FieldFilter.getFieldType()"
-  fullName: "com.microsoft.store.partnercenter.models.query.filters.FieldFilter.getFieldType()"
-  overload: "com.microsoft.store.partnercenter.models.query.filters.FieldFilter.getFieldType*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.query.filters"
-  syntax:
-    content: "public FieldType getFieldType()"
-    return:
-      type: "com.microsoft.store.partnercenter.models.query.filters.FieldType"
-- uid: "com.microsoft.store.partnercenter.models.query.filters.FieldFilter.setFieldType(com.microsoft.store.partnercenter.models.query.filters.FieldType)"
-  id: "setFieldType(com.microsoft.store.partnercenter.models.query.filters.FieldType)"
-  parent: "com.microsoft.store.partnercenter.models.query.filters.FieldFilter"
-  langs:
-  - "java"
-  name: "setFieldType(FieldType value)"
-  nameWithType: "FieldFilter.setFieldType(FieldType value)"
-  fullName: "com.microsoft.store.partnercenter.models.query.filters.FieldFilter.setFieldType(FieldType value)"
-  overload: "com.microsoft.store.partnercenter.models.query.filters.FieldFilter.setFieldType*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.query.filters"
-  syntax:
-    content: "public void setFieldType(FieldType value)"
-    parameters:
-    - id: "value"
-      type: "com.microsoft.store.partnercenter.models.query.filters.FieldType"
 - uid: "com.microsoft.store.partnercenter.models.query.filters.FieldFilter.generateExpression(com.microsoft.store.partnercenter.models.query.filters.IFilterExpressionGenerator)"
   id: "generateExpression(com.microsoft.store.partnercenter.models.query.filters.IFilterExpressionGenerator)"
   parent: "com.microsoft.store.partnercenter.models.query.filters.FieldFilter"
@@ -118,6 +56,68 @@ items:
     return:
       type: "java.lang.String"
       description: "The filter expression according to the provided generator language."
+- uid: "com.microsoft.store.partnercenter.models.query.filters.FieldFilter.getFieldType()"
+  id: "getFieldType()"
+  parent: "com.microsoft.store.partnercenter.models.query.filters.FieldFilter"
+  langs:
+  - "java"
+  name: "getFieldType()"
+  nameWithType: "FieldFilter.getFieldType()"
+  fullName: "com.microsoft.store.partnercenter.models.query.filters.FieldFilter.getFieldType()"
+  overload: "com.microsoft.store.partnercenter.models.query.filters.FieldFilter.getFieldType*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.query.filters"
+  syntax:
+    content: "public FieldType getFieldType()"
+    return:
+      type: "com.microsoft.store.partnercenter.models.query.filters.FieldType"
+- uid: "com.microsoft.store.partnercenter.models.query.filters.FieldFilter.getOperator()"
+  id: "getOperator()"
+  parent: "com.microsoft.store.partnercenter.models.query.filters.FieldFilter"
+  langs:
+  - "java"
+  name: "getOperator()"
+  nameWithType: "FieldFilter.getOperator()"
+  fullName: "com.microsoft.store.partnercenter.models.query.filters.FieldFilter.getOperator()"
+  overload: "com.microsoft.store.partnercenter.models.query.filters.FieldFilter.getOperator*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.query.filters"
+  syntax:
+    content: "public FieldFilterOperation getOperator()"
+    return:
+      type: "com.microsoft.store.partnercenter.models.query.filters.FieldFilterOperation"
+- uid: "com.microsoft.store.partnercenter.models.query.filters.FieldFilter.setFieldType(com.microsoft.store.partnercenter.models.query.filters.FieldType)"
+  id: "setFieldType(com.microsoft.store.partnercenter.models.query.filters.FieldType)"
+  parent: "com.microsoft.store.partnercenter.models.query.filters.FieldFilter"
+  langs:
+  - "java"
+  name: "setFieldType(FieldType value)"
+  nameWithType: "FieldFilter.setFieldType(FieldType value)"
+  fullName: "com.microsoft.store.partnercenter.models.query.filters.FieldFilter.setFieldType(FieldType value)"
+  overload: "com.microsoft.store.partnercenter.models.query.filters.FieldFilter.setFieldType*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.query.filters"
+  syntax:
+    content: "public void setFieldType(FieldType value)"
+    parameters:
+    - id: "value"
+      type: "com.microsoft.store.partnercenter.models.query.filters.FieldType"
+- uid: "com.microsoft.store.partnercenter.models.query.filters.FieldFilter.setOperator(com.microsoft.store.partnercenter.models.query.filters.FieldFilterOperation)"
+  id: "setOperator(com.microsoft.store.partnercenter.models.query.filters.FieldFilterOperation)"
+  parent: "com.microsoft.store.partnercenter.models.query.filters.FieldFilter"
+  langs:
+  - "java"
+  name: "setOperator(FieldFilterOperation value)"
+  nameWithType: "FieldFilter.setOperator(FieldFilterOperation value)"
+  fullName: "com.microsoft.store.partnercenter.models.query.filters.FieldFilter.setOperator(FieldFilterOperation value)"
+  overload: "com.microsoft.store.partnercenter.models.query.filters.FieldFilter.setOperator*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.query.filters"
+  syntax:
+    content: "public void setOperator(FieldFilterOperation value)"
+    parameters:
+    - id: "value"
+      type: "com.microsoft.store.partnercenter.models.query.filters.FieldFilterOperation"
 references:
 - uid: "com.microsoft.store.partnercenter.models.query.filters.FieldFilter.FieldFilter*"
   name: "FieldFilter"

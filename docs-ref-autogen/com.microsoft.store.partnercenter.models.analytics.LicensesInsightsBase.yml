@@ -5,12 +5,12 @@ items:
   parent: "com.microsoft.store.partnercenter.models.analytics"
   children:
   - "com.microsoft.store.partnercenter.models.analytics.LicensesInsightsBase.LicensesInsightsBase()"
-  - "com.microsoft.store.partnercenter.models.analytics.LicensesInsightsBase.getProcessedDateTime()"
-  - "com.microsoft.store.partnercenter.models.analytics.LicensesInsightsBase.setProcessedDateTime(org.joda.time.DateTime)"
-  - "com.microsoft.store.partnercenter.models.analytics.LicensesInsightsBase.getServiceName()"
-  - "com.microsoft.store.partnercenter.models.analytics.LicensesInsightsBase.setServiceName(java.lang.String)"
   - "com.microsoft.store.partnercenter.models.analytics.LicensesInsightsBase.getChannel()"
+  - "com.microsoft.store.partnercenter.models.analytics.LicensesInsightsBase.getProcessedDateTime()"
+  - "com.microsoft.store.partnercenter.models.analytics.LicensesInsightsBase.getServiceName()"
   - "com.microsoft.store.partnercenter.models.analytics.LicensesInsightsBase.setChannel(java.lang.String)"
+  - "com.microsoft.store.partnercenter.models.analytics.LicensesInsightsBase.setProcessedDateTime(org.joda.time.DateTime)"
+  - "com.microsoft.store.partnercenter.models.analytics.LicensesInsightsBase.setServiceName(java.lang.String)"
   langs:
   - "java"
   name: "LicensesInsightsBase"
@@ -36,6 +36,21 @@ items:
   package: "com.microsoft.store.partnercenter.models.analytics"
   syntax:
     content: "public LicensesInsightsBase()"
+- uid: "com.microsoft.store.partnercenter.models.analytics.LicensesInsightsBase.getChannel()"
+  id: "getChannel()"
+  parent: "com.microsoft.store.partnercenter.models.analytics.LicensesInsightsBase"
+  langs:
+  - "java"
+  name: "getChannel()"
+  nameWithType: "LicensesInsightsBase.getChannel()"
+  fullName: "com.microsoft.store.partnercenter.models.analytics.LicensesInsightsBase.getChannel()"
+  overload: "com.microsoft.store.partnercenter.models.analytics.LicensesInsightsBase.getChannel*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.analytics"
+  syntax:
+    content: "public String getChannel()"
+    return:
+      type: "java.lang.String"
 - uid: "com.microsoft.store.partnercenter.models.analytics.LicensesInsightsBase.getProcessedDateTime()"
   id: "getProcessedDateTime()"
   parent: "com.microsoft.store.partnercenter.models.analytics.LicensesInsightsBase"
@@ -50,22 +65,6 @@ items:
   syntax:
     content: "public DateTime getProcessedDateTime()"
     return:
-      type: "org.joda.time.DateTime"
-- uid: "com.microsoft.store.partnercenter.models.analytics.LicensesInsightsBase.setProcessedDateTime(org.joda.time.DateTime)"
-  id: "setProcessedDateTime(org.joda.time.DateTime)"
-  parent: "com.microsoft.store.partnercenter.models.analytics.LicensesInsightsBase"
-  langs:
-  - "java"
-  name: "setProcessedDateTime(DateTime value)"
-  nameWithType: "LicensesInsightsBase.setProcessedDateTime(DateTime value)"
-  fullName: "com.microsoft.store.partnercenter.models.analytics.LicensesInsightsBase.setProcessedDateTime(DateTime value)"
-  overload: "com.microsoft.store.partnercenter.models.analytics.LicensesInsightsBase.setProcessedDateTime*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.analytics"
-  syntax:
-    content: "public void setProcessedDateTime(DateTime value)"
-    parameters:
-    - id: "value"
       type: "org.joda.time.DateTime"
 - uid: "com.microsoft.store.partnercenter.models.analytics.LicensesInsightsBase.getServiceName()"
   id: "getServiceName()"
@@ -82,37 +81,6 @@ items:
     content: "public String getServiceName()"
     return:
       type: "java.lang.String"
-- uid: "com.microsoft.store.partnercenter.models.analytics.LicensesInsightsBase.setServiceName(java.lang.String)"
-  id: "setServiceName(java.lang.String)"
-  parent: "com.microsoft.store.partnercenter.models.analytics.LicensesInsightsBase"
-  langs:
-  - "java"
-  name: "setServiceName(String value)"
-  nameWithType: "LicensesInsightsBase.setServiceName(String value)"
-  fullName: "com.microsoft.store.partnercenter.models.analytics.LicensesInsightsBase.setServiceName(String value)"
-  overload: "com.microsoft.store.partnercenter.models.analytics.LicensesInsightsBase.setServiceName*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.analytics"
-  syntax:
-    content: "public void setServiceName(String value)"
-    parameters:
-    - id: "value"
-      type: "java.lang.String"
-- uid: "com.microsoft.store.partnercenter.models.analytics.LicensesInsightsBase.getChannel()"
-  id: "getChannel()"
-  parent: "com.microsoft.store.partnercenter.models.analytics.LicensesInsightsBase"
-  langs:
-  - "java"
-  name: "getChannel()"
-  nameWithType: "LicensesInsightsBase.getChannel()"
-  fullName: "com.microsoft.store.partnercenter.models.analytics.LicensesInsightsBase.getChannel()"
-  overload: "com.microsoft.store.partnercenter.models.analytics.LicensesInsightsBase.getChannel*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.analytics"
-  syntax:
-    content: "public String getChannel()"
-    return:
-      type: "java.lang.String"
 - uid: "com.microsoft.store.partnercenter.models.analytics.LicensesInsightsBase.setChannel(java.lang.String)"
   id: "setChannel(java.lang.String)"
   parent: "com.microsoft.store.partnercenter.models.analytics.LicensesInsightsBase"
@@ -126,6 +94,38 @@ items:
   package: "com.microsoft.store.partnercenter.models.analytics"
   syntax:
     content: "public void setChannel(String value)"
+    parameters:
+    - id: "value"
+      type: "java.lang.String"
+- uid: "com.microsoft.store.partnercenter.models.analytics.LicensesInsightsBase.setProcessedDateTime(org.joda.time.DateTime)"
+  id: "setProcessedDateTime(org.joda.time.DateTime)"
+  parent: "com.microsoft.store.partnercenter.models.analytics.LicensesInsightsBase"
+  langs:
+  - "java"
+  name: "setProcessedDateTime(DateTime value)"
+  nameWithType: "LicensesInsightsBase.setProcessedDateTime(DateTime value)"
+  fullName: "com.microsoft.store.partnercenter.models.analytics.LicensesInsightsBase.setProcessedDateTime(DateTime value)"
+  overload: "com.microsoft.store.partnercenter.models.analytics.LicensesInsightsBase.setProcessedDateTime*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.analytics"
+  syntax:
+    content: "public void setProcessedDateTime(DateTime value)"
+    parameters:
+    - id: "value"
+      type: "org.joda.time.DateTime"
+- uid: "com.microsoft.store.partnercenter.models.analytics.LicensesInsightsBase.setServiceName(java.lang.String)"
+  id: "setServiceName(java.lang.String)"
+  parent: "com.microsoft.store.partnercenter.models.analytics.LicensesInsightsBase"
+  langs:
+  - "java"
+  name: "setServiceName(String value)"
+  nameWithType: "LicensesInsightsBase.setServiceName(String value)"
+  fullName: "com.microsoft.store.partnercenter.models.analytics.LicensesInsightsBase.setServiceName(String value)"
+  overload: "com.microsoft.store.partnercenter.models.analytics.LicensesInsightsBase.setServiceName*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.analytics"
+  syntax:
+    content: "public void setServiceName(String value)"
     parameters:
     - id: "value"
       type: "java.lang.String"

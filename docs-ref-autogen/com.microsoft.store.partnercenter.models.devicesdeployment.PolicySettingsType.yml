@@ -4,15 +4,15 @@ items:
   id: "PolicySettingsType"
   parent: "com.microsoft.store.partnercenter.models.devicesdeployment"
   children:
-  - "com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.values()"
-  - "com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.valueOf(java.lang.String)"
-  - "com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.toString()"
   - "com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.None"
-  - "com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.REMOVE_OEM_PREINSTALLS"
   - "com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.OOBE_USER_NOT_LOCAL_ADMIN"
+  - "com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.REMOVE_OEM_PREINSTALLS"
+  - "com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.SKIP_EULA"
   - "com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.SKIP_EXPRESS_SETTINGS"
   - "com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.SKIP_OEM_REGISTRATION"
-  - "com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.SKIP_EULA"
+  - "com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.toString()"
+  - "com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.valueOf(java.lang.String)"
+  - "com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.values()"
   langs:
   - "java"
   name: "PolicySettingsType"
@@ -25,6 +25,36 @@ items:
     content: "public enum PolicySettingsType extends Enum<PolicySettingsType>"
   inheritance:
   - "java.lang.Enum<com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType>"
+- uid: "com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.None"
+  id: "None"
+  parent: "com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType"
+  langs:
+  - "java"
+  name: "None"
+  nameWithType: "PolicySettingsType.None"
+  fullName: "com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.None"
+  type: "Field"
+  package: "com.microsoft.store.partnercenter.models.devicesdeployment"
+  summary: "Default value for policy settings."
+  syntax:
+    content: "public static final PolicySettingsType None"
+    return:
+      type: "com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType"
+- uid: "com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.OOBE_USER_NOT_LOCAL_ADMIN"
+  id: "OOBE_USER_NOT_LOCAL_ADMIN"
+  parent: "com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType"
+  langs:
+  - "java"
+  name: "OOBE_USER_NOT_LOCAL_ADMIN"
+  nameWithType: "PolicySettingsType.OOBE_USER_NOT_LOCAL_ADMIN"
+  fullName: "com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.OOBE_USER_NOT_LOCAL_ADMIN"
+  type: "Field"
+  package: "com.microsoft.store.partnercenter.models.devicesdeployment"
+  summary: "OOBE(Out of box experience) user will not be a local admin on the configured device."
+  syntax:
+    content: "public static final PolicySettingsType OOBE_USER_NOT_LOCAL_ADMIN"
+    return:
+      type: "com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType"
 - uid: "com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.PolicySettingsType(java.lang.String)"
   id: "PolicySettingsType(java.lang.String)"
   parent: "com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType"
@@ -41,71 +71,6 @@ items:
     parameters:
     - id: "value"
       type: "java.lang.String"
-- uid: "com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.values()"
-  id: "values()"
-  parent: "com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType"
-  langs:
-  - "java"
-  name: "values()"
-  nameWithType: "PolicySettingsType.values()"
-  fullName: "com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.values()"
-  overload: "com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.values*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.devicesdeployment"
-  syntax:
-    content: "public static PolicySettingsType[] values()"
-    return:
-      type: "com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType[]"
-- uid: "com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.valueOf(java.lang.String)"
-  id: "valueOf(java.lang.String)"
-  parent: "com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType"
-  langs:
-  - "java"
-  name: "valueOf(String name)"
-  nameWithType: "PolicySettingsType.valueOf(String name)"
-  fullName: "com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.valueOf(String name)"
-  overload: "com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.valueOf*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.devicesdeployment"
-  syntax:
-    content: "public static PolicySettingsType valueOf(String name)"
-    parameters:
-    - id: "name"
-      type: "java.lang.String"
-    return:
-      type: "com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType"
-- uid: "com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.toString()"
-  id: "toString()"
-  parent: "com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType"
-  langs:
-  - "java"
-  name: "toString()"
-  nameWithType: "PolicySettingsType.toString()"
-  fullName: "com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.toString()"
-  overload: "com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.toString*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.devicesdeployment"
-  summary: "Converts the object to a string."
-  syntax:
-    content: "public String toString()"
-    return:
-      type: "java.lang.String"
-      description: "A string that represents this object."
-- uid: "com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.None"
-  id: "None"
-  parent: "com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType"
-  langs:
-  - "java"
-  name: "None"
-  nameWithType: "PolicySettingsType.None"
-  fullName: "com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.None"
-  type: "Field"
-  package: "com.microsoft.store.partnercenter.models.devicesdeployment"
-  summary: "Default value for policy settings."
-  syntax:
-    content: "public static final PolicySettingsType None"
-    return:
-      type: "com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType"
 - uid: "com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.REMOVE_OEM_PREINSTALLS"
   id: "REMOVE_OEM_PREINSTALLS"
   parent: "com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType"
@@ -121,19 +86,19 @@ items:
     content: "public static final PolicySettingsType REMOVE_OEM_PREINSTALLS"
     return:
       type: "com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType"
-- uid: "com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.OOBE_USER_NOT_LOCAL_ADMIN"
-  id: "OOBE_USER_NOT_LOCAL_ADMIN"
+- uid: "com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.SKIP_EULA"
+  id: "SKIP_EULA"
   parent: "com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType"
   langs:
   - "java"
-  name: "OOBE_USER_NOT_LOCAL_ADMIN"
-  nameWithType: "PolicySettingsType.OOBE_USER_NOT_LOCAL_ADMIN"
-  fullName: "com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.OOBE_USER_NOT_LOCAL_ADMIN"
+  name: "SKIP_EULA"
+  nameWithType: "PolicySettingsType.SKIP_EULA"
+  fullName: "com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.SKIP_EULA"
   type: "Field"
   package: "com.microsoft.store.partnercenter.models.devicesdeployment"
-  summary: "OOBE(Out of box experience) user will not be a local admin on the configured device."
+  summary: "Skip EULA settings."
   syntax:
-    content: "public static final PolicySettingsType OOBE_USER_NOT_LOCAL_ADMIN"
+    content: "public static final PolicySettingsType SKIP_EULA"
     return:
       type: "com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType"
 - uid: "com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.SKIP_EXPRESS_SETTINGS"
@@ -166,21 +131,56 @@ items:
     content: "public static final PolicySettingsType SKIP_OEM_REGISTRATION"
     return:
       type: "com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType"
-- uid: "com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.SKIP_EULA"
-  id: "SKIP_EULA"
+- uid: "com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.toString()"
+  id: "toString()"
   parent: "com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType"
   langs:
   - "java"
-  name: "SKIP_EULA"
-  nameWithType: "PolicySettingsType.SKIP_EULA"
-  fullName: "com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.SKIP_EULA"
-  type: "Field"
+  name: "toString()"
+  nameWithType: "PolicySettingsType.toString()"
+  fullName: "com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.toString()"
+  overload: "com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.toString*"
+  type: "Method"
   package: "com.microsoft.store.partnercenter.models.devicesdeployment"
-  summary: "Skip EULA settings."
+  summary: "Converts the object to a string."
   syntax:
-    content: "public static final PolicySettingsType SKIP_EULA"
+    content: "public String toString()"
+    return:
+      type: "java.lang.String"
+      description: "A string that represents this object."
+- uid: "com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.valueOf(java.lang.String)"
+  id: "valueOf(java.lang.String)"
+  parent: "com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType"
+  langs:
+  - "java"
+  name: "valueOf(String name)"
+  nameWithType: "PolicySettingsType.valueOf(String name)"
+  fullName: "com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.valueOf(String name)"
+  overload: "com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.valueOf*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.devicesdeployment"
+  syntax:
+    content: "public static PolicySettingsType valueOf(String name)"
+    parameters:
+    - id: "name"
+      type: "java.lang.String"
     return:
       type: "com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType"
+- uid: "com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.values()"
+  id: "values()"
+  parent: "com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType"
+  langs:
+  - "java"
+  name: "values()"
+  nameWithType: "PolicySettingsType.values()"
+  fullName: "com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.values()"
+  overload: "com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.values*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.devicesdeployment"
+  syntax:
+    content: "public static PolicySettingsType[] values()"
+    return:
+      type: "com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType[]"
 references:
 - uid: "java.lang.String"
   name: "String"

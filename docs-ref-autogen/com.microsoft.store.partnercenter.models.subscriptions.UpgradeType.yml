@@ -4,12 +4,12 @@ items:
   id: "UpgradeType"
   parent: "com.microsoft.store.partnercenter.models.subscriptions"
   children:
-  - "com.microsoft.store.partnercenter.models.subscriptions.UpgradeType.values()"
-  - "com.microsoft.store.partnercenter.models.subscriptions.UpgradeType.valueOf(java.lang.String)"
-  - "com.microsoft.store.partnercenter.models.subscriptions.UpgradeType.toString()"
   - "com.microsoft.store.partnercenter.models.subscriptions.UpgradeType.NONE"
   - "com.microsoft.store.partnercenter.models.subscriptions.UpgradeType.UPGRADE_ONLY"
   - "com.microsoft.store.partnercenter.models.subscriptions.UpgradeType.UPGRADE_WITH_LICENSE_TRANSFER"
+  - "com.microsoft.store.partnercenter.models.subscriptions.UpgradeType.toString()"
+  - "com.microsoft.store.partnercenter.models.subscriptions.UpgradeType.valueOf(java.lang.String)"
+  - "com.microsoft.store.partnercenter.models.subscriptions.UpgradeType.values()"
   langs:
   - "java"
   name: "UpgradeType"
@@ -21,72 +21,6 @@ items:
     content: "public enum UpgradeType extends Enum<UpgradeType>"
   inheritance:
   - "java.lang.Enum<com.microsoft.store.partnercenter.models.subscriptions.UpgradeType>"
-- uid: "com.microsoft.store.partnercenter.models.subscriptions.UpgradeType.UpgradeType(java.lang.String)"
-  id: "UpgradeType(java.lang.String)"
-  parent: "com.microsoft.store.partnercenter.models.subscriptions.UpgradeType"
-  langs:
-  - "java"
-  name: "UpgradeType(String value)"
-  nameWithType: "UpgradeType.UpgradeType(String value)"
-  fullName: "com.microsoft.store.partnercenter.models.subscriptions.UpgradeType.UpgradeType(String value)"
-  overload: "com.microsoft.store.partnercenter.models.subscriptions.UpgradeType.UpgradeType*"
-  type: "Constructor"
-  package: "com.microsoft.store.partnercenter.models.subscriptions"
-  syntax:
-    content: "private UpgradeType(String value)"
-    parameters:
-    - id: "value"
-      type: "java.lang.String"
-- uid: "com.microsoft.store.partnercenter.models.subscriptions.UpgradeType.values()"
-  id: "values()"
-  parent: "com.microsoft.store.partnercenter.models.subscriptions.UpgradeType"
-  langs:
-  - "java"
-  name: "values()"
-  nameWithType: "UpgradeType.values()"
-  fullName: "com.microsoft.store.partnercenter.models.subscriptions.UpgradeType.values()"
-  overload: "com.microsoft.store.partnercenter.models.subscriptions.UpgradeType.values*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.subscriptions"
-  syntax:
-    content: "public static UpgradeType[] values()"
-    return:
-      type: "com.microsoft.store.partnercenter.models.subscriptions.UpgradeType[]"
-- uid: "com.microsoft.store.partnercenter.models.subscriptions.UpgradeType.valueOf(java.lang.String)"
-  id: "valueOf(java.lang.String)"
-  parent: "com.microsoft.store.partnercenter.models.subscriptions.UpgradeType"
-  langs:
-  - "java"
-  name: "valueOf(String name)"
-  nameWithType: "UpgradeType.valueOf(String name)"
-  fullName: "com.microsoft.store.partnercenter.models.subscriptions.UpgradeType.valueOf(String name)"
-  overload: "com.microsoft.store.partnercenter.models.subscriptions.UpgradeType.valueOf*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.subscriptions"
-  syntax:
-    content: "public static UpgradeType valueOf(String name)"
-    parameters:
-    - id: "name"
-      type: "java.lang.String"
-    return:
-      type: "com.microsoft.store.partnercenter.models.subscriptions.UpgradeType"
-- uid: "com.microsoft.store.partnercenter.models.subscriptions.UpgradeType.toString()"
-  id: "toString()"
-  parent: "com.microsoft.store.partnercenter.models.subscriptions.UpgradeType"
-  langs:
-  - "java"
-  name: "toString()"
-  nameWithType: "UpgradeType.toString()"
-  fullName: "com.microsoft.store.partnercenter.models.subscriptions.UpgradeType.toString()"
-  overload: "com.microsoft.store.partnercenter.models.subscriptions.UpgradeType.toString*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.subscriptions"
-  summary: "Converts the object to a string."
-  syntax:
-    content: "public String toString()"
-    return:
-      type: "java.lang.String"
-      description: "A string that represents this object."
 - uid: "com.microsoft.store.partnercenter.models.subscriptions.UpgradeType.NONE"
   id: "NONE"
   parent: "com.microsoft.store.partnercenter.models.subscriptions.UpgradeType"
@@ -132,6 +66,72 @@ items:
     content: "public static final UpgradeType UPGRADE_WITH_LICENSE_TRANSFER"
     return:
       type: "com.microsoft.store.partnercenter.models.subscriptions.UpgradeType"
+- uid: "com.microsoft.store.partnercenter.models.subscriptions.UpgradeType.UpgradeType(java.lang.String)"
+  id: "UpgradeType(java.lang.String)"
+  parent: "com.microsoft.store.partnercenter.models.subscriptions.UpgradeType"
+  langs:
+  - "java"
+  name: "UpgradeType(String value)"
+  nameWithType: "UpgradeType.UpgradeType(String value)"
+  fullName: "com.microsoft.store.partnercenter.models.subscriptions.UpgradeType.UpgradeType(String value)"
+  overload: "com.microsoft.store.partnercenter.models.subscriptions.UpgradeType.UpgradeType*"
+  type: "Constructor"
+  package: "com.microsoft.store.partnercenter.models.subscriptions"
+  syntax:
+    content: "private UpgradeType(String value)"
+    parameters:
+    - id: "value"
+      type: "java.lang.String"
+- uid: "com.microsoft.store.partnercenter.models.subscriptions.UpgradeType.toString()"
+  id: "toString()"
+  parent: "com.microsoft.store.partnercenter.models.subscriptions.UpgradeType"
+  langs:
+  - "java"
+  name: "toString()"
+  nameWithType: "UpgradeType.toString()"
+  fullName: "com.microsoft.store.partnercenter.models.subscriptions.UpgradeType.toString()"
+  overload: "com.microsoft.store.partnercenter.models.subscriptions.UpgradeType.toString*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.subscriptions"
+  summary: "Converts the object to a string."
+  syntax:
+    content: "public String toString()"
+    return:
+      type: "java.lang.String"
+      description: "A string that represents this object."
+- uid: "com.microsoft.store.partnercenter.models.subscriptions.UpgradeType.valueOf(java.lang.String)"
+  id: "valueOf(java.lang.String)"
+  parent: "com.microsoft.store.partnercenter.models.subscriptions.UpgradeType"
+  langs:
+  - "java"
+  name: "valueOf(String name)"
+  nameWithType: "UpgradeType.valueOf(String name)"
+  fullName: "com.microsoft.store.partnercenter.models.subscriptions.UpgradeType.valueOf(String name)"
+  overload: "com.microsoft.store.partnercenter.models.subscriptions.UpgradeType.valueOf*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.subscriptions"
+  syntax:
+    content: "public static UpgradeType valueOf(String name)"
+    parameters:
+    - id: "name"
+      type: "java.lang.String"
+    return:
+      type: "com.microsoft.store.partnercenter.models.subscriptions.UpgradeType"
+- uid: "com.microsoft.store.partnercenter.models.subscriptions.UpgradeType.values()"
+  id: "values()"
+  parent: "com.microsoft.store.partnercenter.models.subscriptions.UpgradeType"
+  langs:
+  - "java"
+  name: "values()"
+  nameWithType: "UpgradeType.values()"
+  fullName: "com.microsoft.store.partnercenter.models.subscriptions.UpgradeType.values()"
+  overload: "com.microsoft.store.partnercenter.models.subscriptions.UpgradeType.values*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.subscriptions"
+  syntax:
+    content: "public static UpgradeType[] values()"
+    return:
+      type: "com.microsoft.store.partnercenter.models.subscriptions.UpgradeType[]"
 references:
 - uid: "java.lang.String"
   name: "String"

@@ -6,8 +6,8 @@ items:
   children:
   - "com.microsoft.store.partnercenter.models.products.AvailabilityTerm.AvailabilityTerm()"
   - "com.microsoft.store.partnercenter.models.products.AvailabilityTerm.getDescription()"
-  - "com.microsoft.store.partnercenter.models.products.AvailabilityTerm.setDescription(java.lang.String)"
   - "com.microsoft.store.partnercenter.models.products.AvailabilityTerm.getDuration()"
+  - "com.microsoft.store.partnercenter.models.products.AvailabilityTerm.setDescription(java.lang.String)"
   - "com.microsoft.store.partnercenter.models.products.AvailabilityTerm.setDuration(java.lang.String)"
   langs:
   - "java"
@@ -51,6 +51,23 @@ items:
     return:
       type: "java.lang.String"
       description: "The description for the term."
+- uid: "com.microsoft.store.partnercenter.models.products.AvailabilityTerm.getDuration()"
+  id: "getDuration()"
+  parent: "com.microsoft.store.partnercenter.models.products.AvailabilityTerm"
+  langs:
+  - "java"
+  name: "getDuration()"
+  nameWithType: "AvailabilityTerm.getDuration()"
+  fullName: "com.microsoft.store.partnercenter.models.products.AvailabilityTerm.getDuration()"
+  overload: "com.microsoft.store.partnercenter.models.products.AvailabilityTerm.getDuration*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.products"
+  summary: "Gets the ISO standard representation of this term's duration."
+  syntax:
+    content: "public String getDuration()"
+    return:
+      type: "java.lang.String"
+      description: "The ISO standard representation of this term's duration."
 - uid: "com.microsoft.store.partnercenter.models.products.AvailabilityTerm.setDescription(java.lang.String)"
   id: "setDescription(java.lang.String)"
   parent: "com.microsoft.store.partnercenter.models.products.AvailabilityTerm"
@@ -69,23 +86,6 @@ items:
     - id: "value"
       type: "java.lang.String"
       description: "The description for the term."
-- uid: "com.microsoft.store.partnercenter.models.products.AvailabilityTerm.getDuration()"
-  id: "getDuration()"
-  parent: "com.microsoft.store.partnercenter.models.products.AvailabilityTerm"
-  langs:
-  - "java"
-  name: "getDuration()"
-  nameWithType: "AvailabilityTerm.getDuration()"
-  fullName: "com.microsoft.store.partnercenter.models.products.AvailabilityTerm.getDuration()"
-  overload: "com.microsoft.store.partnercenter.models.products.AvailabilityTerm.getDuration*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.products"
-  summary: "Gets the ISO standard representation of this term's duration."
-  syntax:
-    content: "public String getDuration()"
-    return:
-      type: "java.lang.String"
-      description: "The ISO standard representation of this term's duration."
 - uid: "com.microsoft.store.partnercenter.models.products.AvailabilityTerm.setDuration(java.lang.String)"
   id: "setDuration(java.lang.String)"
   parent: "com.microsoft.store.partnercenter.models.products.AvailabilityTerm"

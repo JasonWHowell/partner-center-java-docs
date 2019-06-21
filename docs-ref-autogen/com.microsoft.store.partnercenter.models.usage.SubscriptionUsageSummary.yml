@@ -6,8 +6,8 @@ items:
   children:
   - "com.microsoft.store.partnercenter.models.usage.SubscriptionUsageSummary.SubscriptionUsageSummary()"
   - "com.microsoft.store.partnercenter.models.usage.SubscriptionUsageSummary.getResourceId()"
-  - "com.microsoft.store.partnercenter.models.usage.SubscriptionUsageSummary.setResourceId(java.lang.String)"
   - "com.microsoft.store.partnercenter.models.usage.SubscriptionUsageSummary.getResourceName()"
+  - "com.microsoft.store.partnercenter.models.usage.SubscriptionUsageSummary.setResourceId(java.lang.String)"
   - "com.microsoft.store.partnercenter.models.usage.SubscriptionUsageSummary.setResourceName(java.lang.String)"
   langs:
   - "java"
@@ -49,6 +49,21 @@ items:
     content: "public String getResourceId()"
     return:
       type: "java.lang.String"
+- uid: "com.microsoft.store.partnercenter.models.usage.SubscriptionUsageSummary.getResourceName()"
+  id: "getResourceName()"
+  parent: "com.microsoft.store.partnercenter.models.usage.SubscriptionUsageSummary"
+  langs:
+  - "java"
+  name: "getResourceName()"
+  nameWithType: "SubscriptionUsageSummary.getResourceName()"
+  fullName: "com.microsoft.store.partnercenter.models.usage.SubscriptionUsageSummary.getResourceName()"
+  overload: "com.microsoft.store.partnercenter.models.usage.SubscriptionUsageSummary.getResourceName*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.usage"
+  syntax:
+    content: "public String getResourceName()"
+    return:
+      type: "java.lang.String"
 - uid: "com.microsoft.store.partnercenter.models.usage.SubscriptionUsageSummary.setResourceId(java.lang.String)"
   id: "setResourceId(java.lang.String)"
   parent: "com.microsoft.store.partnercenter.models.usage.SubscriptionUsageSummary"
@@ -64,21 +79,6 @@ items:
     content: "public void setResourceId(String value)"
     parameters:
     - id: "value"
-      type: "java.lang.String"
-- uid: "com.microsoft.store.partnercenter.models.usage.SubscriptionUsageSummary.getResourceName()"
-  id: "getResourceName()"
-  parent: "com.microsoft.store.partnercenter.models.usage.SubscriptionUsageSummary"
-  langs:
-  - "java"
-  name: "getResourceName()"
-  nameWithType: "SubscriptionUsageSummary.getResourceName()"
-  fullName: "com.microsoft.store.partnercenter.models.usage.SubscriptionUsageSummary.getResourceName()"
-  overload: "com.microsoft.store.partnercenter.models.usage.SubscriptionUsageSummary.getResourceName*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.usage"
-  syntax:
-    content: "public String getResourceName()"
-    return:
       type: "java.lang.String"
 - uid: "com.microsoft.store.partnercenter.models.usage.SubscriptionUsageSummary.setResourceName(java.lang.String)"
   id: "setResourceName(java.lang.String)"

@@ -5,12 +5,12 @@ items:
   parent: "com.microsoft.store.partnercenter.models.invoices"
   children:
   - "com.microsoft.store.partnercenter.models.invoices.InvoiceDetail.InvoiceDetail()"
-  - "com.microsoft.store.partnercenter.models.invoices.InvoiceDetail.getInvoiceLineItemType()"
-  - "com.microsoft.store.partnercenter.models.invoices.InvoiceDetail.setInvoiceLineItemType(com.microsoft.store.partnercenter.models.invoices.InvoiceLineItemType)"
   - "com.microsoft.store.partnercenter.models.invoices.InvoiceDetail.getBillingProvider()"
-  - "com.microsoft.store.partnercenter.models.invoices.InvoiceDetail.setBillingProvider(com.microsoft.store.partnercenter.models.invoices.BillingProvider)"
   - "com.microsoft.store.partnercenter.models.invoices.InvoiceDetail.getDetailLink()"
+  - "com.microsoft.store.partnercenter.models.invoices.InvoiceDetail.getInvoiceLineItemType()"
+  - "com.microsoft.store.partnercenter.models.invoices.InvoiceDetail.setBillingProvider(com.microsoft.store.partnercenter.models.invoices.BillingProvider)"
   - "com.microsoft.store.partnercenter.models.invoices.InvoiceDetail.setDetailLink(com.microsoft.store.partnercenter.models.Link)"
+  - "com.microsoft.store.partnercenter.models.invoices.InvoiceDetail.setInvoiceLineItemType(com.microsoft.store.partnercenter.models.invoices.InvoiceLineItemType)"
   langs:
   - "java"
   name: "InvoiceDetail"
@@ -36,37 +36,6 @@ items:
   package: "com.microsoft.store.partnercenter.models.invoices"
   syntax:
     content: "public InvoiceDetail()"
-- uid: "com.microsoft.store.partnercenter.models.invoices.InvoiceDetail.getInvoiceLineItemType()"
-  id: "getInvoiceLineItemType()"
-  parent: "com.microsoft.store.partnercenter.models.invoices.InvoiceDetail"
-  langs:
-  - "java"
-  name: "getInvoiceLineItemType()"
-  nameWithType: "InvoiceDetail.getInvoiceLineItemType()"
-  fullName: "com.microsoft.store.partnercenter.models.invoices.InvoiceDetail.getInvoiceLineItemType()"
-  overload: "com.microsoft.store.partnercenter.models.invoices.InvoiceDetail.getInvoiceLineItemType*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.invoices"
-  syntax:
-    content: "public InvoiceLineItemType getInvoiceLineItemType()"
-    return:
-      type: "com.microsoft.store.partnercenter.models.invoices.InvoiceLineItemType"
-- uid: "com.microsoft.store.partnercenter.models.invoices.InvoiceDetail.setInvoiceLineItemType(com.microsoft.store.partnercenter.models.invoices.InvoiceLineItemType)"
-  id: "setInvoiceLineItemType(com.microsoft.store.partnercenter.models.invoices.InvoiceLineItemType)"
-  parent: "com.microsoft.store.partnercenter.models.invoices.InvoiceDetail"
-  langs:
-  - "java"
-  name: "setInvoiceLineItemType(InvoiceLineItemType value)"
-  nameWithType: "InvoiceDetail.setInvoiceLineItemType(InvoiceLineItemType value)"
-  fullName: "com.microsoft.store.partnercenter.models.invoices.InvoiceDetail.setInvoiceLineItemType(InvoiceLineItemType value)"
-  overload: "com.microsoft.store.partnercenter.models.invoices.InvoiceDetail.setInvoiceLineItemType*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.invoices"
-  syntax:
-    content: "public void setInvoiceLineItemType(InvoiceLineItemType value)"
-    parameters:
-    - id: "value"
-      type: "com.microsoft.store.partnercenter.models.invoices.InvoiceLineItemType"
 - uid: "com.microsoft.store.partnercenter.models.invoices.InvoiceDetail.getBillingProvider()"
   id: "getBillingProvider()"
   parent: "com.microsoft.store.partnercenter.models.invoices.InvoiceDetail"
@@ -81,22 +50,6 @@ items:
   syntax:
     content: "public BillingProvider getBillingProvider()"
     return:
-      type: "com.microsoft.store.partnercenter.models.invoices.BillingProvider"
-- uid: "com.microsoft.store.partnercenter.models.invoices.InvoiceDetail.setBillingProvider(com.microsoft.store.partnercenter.models.invoices.BillingProvider)"
-  id: "setBillingProvider(com.microsoft.store.partnercenter.models.invoices.BillingProvider)"
-  parent: "com.microsoft.store.partnercenter.models.invoices.InvoiceDetail"
-  langs:
-  - "java"
-  name: "setBillingProvider(BillingProvider value)"
-  nameWithType: "InvoiceDetail.setBillingProvider(BillingProvider value)"
-  fullName: "com.microsoft.store.partnercenter.models.invoices.InvoiceDetail.setBillingProvider(BillingProvider value)"
-  overload: "com.microsoft.store.partnercenter.models.invoices.InvoiceDetail.setBillingProvider*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.invoices"
-  syntax:
-    content: "public void setBillingProvider(BillingProvider value)"
-    parameters:
-    - id: "value"
       type: "com.microsoft.store.partnercenter.models.invoices.BillingProvider"
 - uid: "com.microsoft.store.partnercenter.models.invoices.InvoiceDetail.getDetailLink()"
   id: "getDetailLink()"
@@ -113,6 +66,37 @@ items:
     content: "public Link getDetailLink()"
     return:
       type: "com.microsoft.store.partnercenter.models.Link"
+- uid: "com.microsoft.store.partnercenter.models.invoices.InvoiceDetail.getInvoiceLineItemType()"
+  id: "getInvoiceLineItemType()"
+  parent: "com.microsoft.store.partnercenter.models.invoices.InvoiceDetail"
+  langs:
+  - "java"
+  name: "getInvoiceLineItemType()"
+  nameWithType: "InvoiceDetail.getInvoiceLineItemType()"
+  fullName: "com.microsoft.store.partnercenter.models.invoices.InvoiceDetail.getInvoiceLineItemType()"
+  overload: "com.microsoft.store.partnercenter.models.invoices.InvoiceDetail.getInvoiceLineItemType*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.invoices"
+  syntax:
+    content: "public InvoiceLineItemType getInvoiceLineItemType()"
+    return:
+      type: "com.microsoft.store.partnercenter.models.invoices.InvoiceLineItemType"
+- uid: "com.microsoft.store.partnercenter.models.invoices.InvoiceDetail.setBillingProvider(com.microsoft.store.partnercenter.models.invoices.BillingProvider)"
+  id: "setBillingProvider(com.microsoft.store.partnercenter.models.invoices.BillingProvider)"
+  parent: "com.microsoft.store.partnercenter.models.invoices.InvoiceDetail"
+  langs:
+  - "java"
+  name: "setBillingProvider(BillingProvider value)"
+  nameWithType: "InvoiceDetail.setBillingProvider(BillingProvider value)"
+  fullName: "com.microsoft.store.partnercenter.models.invoices.InvoiceDetail.setBillingProvider(BillingProvider value)"
+  overload: "com.microsoft.store.partnercenter.models.invoices.InvoiceDetail.setBillingProvider*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.invoices"
+  syntax:
+    content: "public void setBillingProvider(BillingProvider value)"
+    parameters:
+    - id: "value"
+      type: "com.microsoft.store.partnercenter.models.invoices.BillingProvider"
 - uid: "com.microsoft.store.partnercenter.models.invoices.InvoiceDetail.setDetailLink(com.microsoft.store.partnercenter.models.Link)"
   id: "setDetailLink(com.microsoft.store.partnercenter.models.Link)"
   parent: "com.microsoft.store.partnercenter.models.invoices.InvoiceDetail"
@@ -129,6 +113,22 @@ items:
     parameters:
     - id: "value"
       type: "com.microsoft.store.partnercenter.models.Link"
+- uid: "com.microsoft.store.partnercenter.models.invoices.InvoiceDetail.setInvoiceLineItemType(com.microsoft.store.partnercenter.models.invoices.InvoiceLineItemType)"
+  id: "setInvoiceLineItemType(com.microsoft.store.partnercenter.models.invoices.InvoiceLineItemType)"
+  parent: "com.microsoft.store.partnercenter.models.invoices.InvoiceDetail"
+  langs:
+  - "java"
+  name: "setInvoiceLineItemType(InvoiceLineItemType value)"
+  nameWithType: "InvoiceDetail.setInvoiceLineItemType(InvoiceLineItemType value)"
+  fullName: "com.microsoft.store.partnercenter.models.invoices.InvoiceDetail.setInvoiceLineItemType(InvoiceLineItemType value)"
+  overload: "com.microsoft.store.partnercenter.models.invoices.InvoiceDetail.setInvoiceLineItemType*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.invoices"
+  syntax:
+    content: "public void setInvoiceLineItemType(InvoiceLineItemType value)"
+    parameters:
+    - id: "value"
+      type: "com.microsoft.store.partnercenter.models.invoices.InvoiceLineItemType"
 references:
 - uid: "com.microsoft.store.partnercenter.models.invoices.InvoiceDetail.InvoiceDetail*"
   name: "InvoiceDetail"

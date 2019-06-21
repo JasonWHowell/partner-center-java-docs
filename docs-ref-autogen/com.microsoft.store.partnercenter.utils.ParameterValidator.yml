@@ -6,8 +6,8 @@ items:
   children:
   - "com.microsoft.store.partnercenter.utils.ParameterValidator.ParameterValidator()"
   - "com.microsoft.store.partnercenter.utils.ParameterValidator.isIntInclusive(int,int,int,java.lang.String)"
-  - "com.microsoft.store.partnercenter.utils.ParameterValidator.isValidUriQueryValue(java.lang.String,java.lang.String)"
   - "com.microsoft.store.partnercenter.utils.ParameterValidator.isValidCountryCode(java.lang.String)"
+  - "com.microsoft.store.partnercenter.utils.ParameterValidator.isValidUriQueryValue(java.lang.String,java.lang.String)"
   langs:
   - "java"
   name: "ParameterValidator"
@@ -54,24 +54,6 @@ items:
       type: "int"
     - id: "errorMessage"
       type: "java.lang.String"
-- uid: "com.microsoft.store.partnercenter.utils.ParameterValidator.isValidUriQueryValue(java.lang.String,java.lang.String)"
-  id: "isValidUriQueryValue(java.lang.String,java.lang.String)"
-  parent: "com.microsoft.store.partnercenter.utils.ParameterValidator"
-  langs:
-  - "java"
-  name: "isValidUriQueryValue(String string, String errorMessage)"
-  nameWithType: "ParameterValidator.isValidUriQueryValue(String string, String errorMessage)"
-  fullName: "com.microsoft.store.partnercenter.utils.ParameterValidator.isValidUriQueryValue(String string, String errorMessage)"
-  overload: "com.microsoft.store.partnercenter.utils.ParameterValidator.isValidUriQueryValue*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.utils"
-  syntax:
-    content: "public static void isValidUriQueryValue(String string, String errorMessage)"
-    parameters:
-    - id: "string"
-      type: "java.lang.String"
-    - id: "errorMessage"
-      type: "java.lang.String"
 - uid: "com.microsoft.store.partnercenter.utils.ParameterValidator.isValidCountryCode(java.lang.String)"
   id: "isValidCountryCode(java.lang.String)"
   parent: "com.microsoft.store.partnercenter.utils.ParameterValidator"
@@ -90,6 +72,24 @@ items:
     - id: "countryCode"
       type: "java.lang.String"
       description: "The country code to validate."
+- uid: "com.microsoft.store.partnercenter.utils.ParameterValidator.isValidUriQueryValue(java.lang.String,java.lang.String)"
+  id: "isValidUriQueryValue(java.lang.String,java.lang.String)"
+  parent: "com.microsoft.store.partnercenter.utils.ParameterValidator"
+  langs:
+  - "java"
+  name: "isValidUriQueryValue(String string, String errorMessage)"
+  nameWithType: "ParameterValidator.isValidUriQueryValue(String string, String errorMessage)"
+  fullName: "com.microsoft.store.partnercenter.utils.ParameterValidator.isValidUriQueryValue(String string, String errorMessage)"
+  overload: "com.microsoft.store.partnercenter.utils.ParameterValidator.isValidUriQueryValue*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.utils"
+  syntax:
+    content: "public static void isValidUriQueryValue(String string, String errorMessage)"
+    parameters:
+    - id: "string"
+      type: "java.lang.String"
+    - id: "errorMessage"
+      type: "java.lang.String"
 references:
 - uid: "com.microsoft.store.partnercenter.utils.ParameterValidator.ParameterValidator*"
   name: "ParameterValidator"

@@ -6,10 +6,10 @@ items:
   children:
   - "com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestOrganization.ServiceRequestOrganization()"
   - "com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestOrganization.getId()"
-  - "com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestOrganization.setId(java.lang.String)"
   - "com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestOrganization.getName()"
-  - "com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestOrganization.setName(java.lang.String)"
   - "com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestOrganization.getPhoneNumber()"
+  - "com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestOrganization.setId(java.lang.String)"
+  - "com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestOrganization.setName(java.lang.String)"
   - "com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestOrganization.setPhoneNumber(java.lang.String)"
   langs:
   - "java"
@@ -51,6 +51,36 @@ items:
     content: "public String getId()"
     return:
       type: "java.lang.String"
+- uid: "com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestOrganization.getName()"
+  id: "getName()"
+  parent: "com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestOrganization"
+  langs:
+  - "java"
+  name: "getName()"
+  nameWithType: "ServiceRequestOrganization.getName()"
+  fullName: "com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestOrganization.getName()"
+  overload: "com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestOrganization.getName*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.servicerequests"
+  syntax:
+    content: "public String getName()"
+    return:
+      type: "java.lang.String"
+- uid: "com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestOrganization.getPhoneNumber()"
+  id: "getPhoneNumber()"
+  parent: "com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestOrganization"
+  langs:
+  - "java"
+  name: "getPhoneNumber()"
+  nameWithType: "ServiceRequestOrganization.getPhoneNumber()"
+  fullName: "com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestOrganization.getPhoneNumber()"
+  overload: "com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestOrganization.getPhoneNumber*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.servicerequests"
+  syntax:
+    content: "public String getPhoneNumber()"
+    return:
+      type: "java.lang.String"
 - uid: "com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestOrganization.setId(java.lang.String)"
   id: "setId(java.lang.String)"
   parent: "com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestOrganization"
@@ -67,21 +97,6 @@ items:
     parameters:
     - id: "value"
       type: "java.lang.String"
-- uid: "com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestOrganization.getName()"
-  id: "getName()"
-  parent: "com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestOrganization"
-  langs:
-  - "java"
-  name: "getName()"
-  nameWithType: "ServiceRequestOrganization.getName()"
-  fullName: "com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestOrganization.getName()"
-  overload: "com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestOrganization.getName*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.servicerequests"
-  syntax:
-    content: "public String getName()"
-    return:
-      type: "java.lang.String"
 - uid: "com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestOrganization.setName(java.lang.String)"
   id: "setName(java.lang.String)"
   parent: "com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestOrganization"
@@ -97,21 +112,6 @@ items:
     content: "public void setName(String value)"
     parameters:
     - id: "value"
-      type: "java.lang.String"
-- uid: "com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestOrganization.getPhoneNumber()"
-  id: "getPhoneNumber()"
-  parent: "com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestOrganization"
-  langs:
-  - "java"
-  name: "getPhoneNumber()"
-  nameWithType: "ServiceRequestOrganization.getPhoneNumber()"
-  fullName: "com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestOrganization.getPhoneNumber()"
-  overload: "com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestOrganization.getPhoneNumber*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.servicerequests"
-  syntax:
-    content: "public String getPhoneNumber()"
-    return:
       type: "java.lang.String"
 - uid: "com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestOrganization.setPhoneNumber(java.lang.String)"
   id: "setPhoneNumber(java.lang.String)"

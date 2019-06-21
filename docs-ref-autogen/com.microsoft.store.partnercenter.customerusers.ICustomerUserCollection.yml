@@ -5,9 +5,9 @@ items:
   parent: "com.microsoft.store.partnercenter.customerusers"
   children:
   - "com.microsoft.store.partnercenter.customerusers.ICustomerUserCollection.byId(java.lang.String)"
-  - "com.microsoft.store.partnercenter.customerusers.ICustomerUserCollection.query(com.microsoft.store.partnercenter.models.query.IQuery)"
   - "com.microsoft.store.partnercenter.customerusers.ICustomerUserCollection.create(com.microsoft.store.partnercenter.models.users.CustomerUser)"
   - "com.microsoft.store.partnercenter.customerusers.ICustomerUserCollection.get()"
+  - "com.microsoft.store.partnercenter.customerusers.ICustomerUserCollection.query(com.microsoft.store.partnercenter.models.query.IQuery)"
   langs:
   - "java"
   name: "ICustomerUserCollection"
@@ -43,27 +43,6 @@ items:
     return:
       type: "com.microsoft.store.partnercenter.customerusers.ICustomerUser"
       description: "The customer user operations for the specified user."
-- uid: "com.microsoft.store.partnercenter.customerusers.ICustomerUserCollection.query(com.microsoft.store.partnercenter.models.query.IQuery)"
-  id: "query(com.microsoft.store.partnercenter.models.query.IQuery)"
-  parent: "com.microsoft.store.partnercenter.customerusers.ICustomerUserCollection"
-  langs:
-  - "java"
-  name: "query(IQuery customerUsersQuery)"
-  nameWithType: "ICustomerUserCollection.query(IQuery customerUsersQuery)"
-  fullName: "com.microsoft.store.partnercenter.customerusers.ICustomerUserCollection.query(IQuery customerUsersQuery)"
-  overload: "com.microsoft.store.partnercenter.customerusers.ICustomerUserCollection.query*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.customerusers"
-  summary: "Queries users associated to the customer. - Count queries are not supported by this operation. - You can set page size, filter and sort option. - You can navigate to other pages by specifying a seek query with the seek operation and the continuation token sent by the previous operation."
-  syntax:
-    content: "public abstract SeekBasedResourceCollection<CustomerUser> query(IQuery customerUsersQuery)"
-    parameters:
-    - id: "customerUsersQuery"
-      type: "com.microsoft.store.partnercenter.models.query.IQuery"
-      description: "A query to apply onto customer users. Check <xref uid=\"com.microsoft.store.partnercenter.models.query.QueryFactory\" data-throw-if-not-resolved=\"false\">com.microsoft.store.partnercenter.models.query.QueryFactory</xref> to see how to build queries."
-    return:
-      type: "com.microsoft.store.partnercenter.models.SeekBasedResourceCollection<com.microsoft.store.partnercenter.models.users.CustomerUser>"
-      description: "The requested customer users."
 - uid: "com.microsoft.store.partnercenter.customerusers.ICustomerUserCollection.create(com.microsoft.store.partnercenter.models.users.CustomerUser)"
   id: "create(com.microsoft.store.partnercenter.models.users.CustomerUser)"
   parent: "com.microsoft.store.partnercenter.customerusers.ICustomerUserCollection"
@@ -102,6 +81,27 @@ items:
     return:
       type: "com.microsoft.store.partnercenter.models.SeekBasedResourceCollection<com.microsoft.store.partnercenter.models.users.CustomerUser>"
       description: "All the customer users."
+- uid: "com.microsoft.store.partnercenter.customerusers.ICustomerUserCollection.query(com.microsoft.store.partnercenter.models.query.IQuery)"
+  id: "query(com.microsoft.store.partnercenter.models.query.IQuery)"
+  parent: "com.microsoft.store.partnercenter.customerusers.ICustomerUserCollection"
+  langs:
+  - "java"
+  name: "query(IQuery customerUsersQuery)"
+  nameWithType: "ICustomerUserCollection.query(IQuery customerUsersQuery)"
+  fullName: "com.microsoft.store.partnercenter.customerusers.ICustomerUserCollection.query(IQuery customerUsersQuery)"
+  overload: "com.microsoft.store.partnercenter.customerusers.ICustomerUserCollection.query*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.customerusers"
+  summary: "Queries users associated to the customer. - Count queries are not supported by this operation. - You can set page size, filter and sort option. - You can navigate to other pages by specifying a seek query with the seek operation and the continuation token sent by the previous operation."
+  syntax:
+    content: "public abstract SeekBasedResourceCollection<CustomerUser> query(IQuery customerUsersQuery)"
+    parameters:
+    - id: "customerUsersQuery"
+      type: "com.microsoft.store.partnercenter.models.query.IQuery"
+      description: "A query to apply onto customer users. Check <xref uid=\"com.microsoft.store.partnercenter.models.query.QueryFactory\" data-throw-if-not-resolved=\"false\">com.microsoft.store.partnercenter.models.query.QueryFactory</xref> to see how to build queries."
+    return:
+      type: "com.microsoft.store.partnercenter.models.SeekBasedResourceCollection<com.microsoft.store.partnercenter.models.users.CustomerUser>"
+      description: "The requested customer users."
 references:
 - uid: "java.lang.String"
   name: "String"
@@ -121,9 +121,17 @@ references:
   nameWithType: "IQuery"
   fullName: "com.microsoft.store.partnercenter.models.query.IQuery"
 - uid: "com.microsoft.store.partnercenter.models.SeekBasedResourceCollection<com.microsoft.store.partnercenter.models.users.CustomerUser>"
-  name: "SeekBasedResourceCollection<CustomerUser>"
-  nameWithType: "SeekBasedResourceCollection<CustomerUser>"
-  fullName: "com.microsoft.store.partnercenter.models.SeekBasedResourceCollection<com.microsoft.store.partnercenter.models.users.CustomerUser>"
+  spec.java:
+  - uid: "com.microsoft.store.partnercenter.models.SeekBasedResourceCollection"
+    name: "com.microsoft.store.partnercenter.models.SeekBasedResourceCollection"
+    fullName: "com.microsoft.store.partnercenter.models.SeekBasedResourceCollection"
+  - name: "<"
+    fullName: "<"
+  - uid: "com.microsoft.store.partnercenter.models.users.CustomerUser"
+    name: "com.microsoft.store.partnercenter.models.users.CustomerUser"
+    fullName: "com.microsoft.store.partnercenter.models.users.CustomerUser"
+  - name: ">"
+    fullName: ">"
 - uid: "com.microsoft.store.partnercenter.customerusers.ICustomerUserCollection.query*"
   name: "query"
   nameWithType: "ICustomerUserCollection.query"

@@ -6,10 +6,10 @@ items:
   children:
   - "com.microsoft.store.partnercenter.models.licenses.LicenseWarning.LicenseWarning()"
   - "com.microsoft.store.partnercenter.models.licenses.LicenseWarning.getCode()"
-  - "com.microsoft.store.partnercenter.models.licenses.LicenseWarning.setCode(java.lang.String)"
   - "com.microsoft.store.partnercenter.models.licenses.LicenseWarning.getMessage()"
-  - "com.microsoft.store.partnercenter.models.licenses.LicenseWarning.setMessage(java.lang.String)"
   - "com.microsoft.store.partnercenter.models.licenses.LicenseWarning.getServicePlans()"
+  - "com.microsoft.store.partnercenter.models.licenses.LicenseWarning.setCode(java.lang.String)"
+  - "com.microsoft.store.partnercenter.models.licenses.LicenseWarning.setMessage(java.lang.String)"
   - "com.microsoft.store.partnercenter.models.licenses.LicenseWarning.setServicePlans(java.lang.Iterable<java.lang.String>)"
   langs:
   - "java"
@@ -51,6 +51,36 @@ items:
     content: "public String getCode()"
     return:
       type: "java.lang.String"
+- uid: "com.microsoft.store.partnercenter.models.licenses.LicenseWarning.getMessage()"
+  id: "getMessage()"
+  parent: "com.microsoft.store.partnercenter.models.licenses.LicenseWarning"
+  langs:
+  - "java"
+  name: "getMessage()"
+  nameWithType: "LicenseWarning.getMessage()"
+  fullName: "com.microsoft.store.partnercenter.models.licenses.LicenseWarning.getMessage()"
+  overload: "com.microsoft.store.partnercenter.models.licenses.LicenseWarning.getMessage*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.licenses"
+  syntax:
+    content: "public String getMessage()"
+    return:
+      type: "java.lang.String"
+- uid: "com.microsoft.store.partnercenter.models.licenses.LicenseWarning.getServicePlans()"
+  id: "getServicePlans()"
+  parent: "com.microsoft.store.partnercenter.models.licenses.LicenseWarning"
+  langs:
+  - "java"
+  name: "getServicePlans()"
+  nameWithType: "LicenseWarning.getServicePlans()"
+  fullName: "com.microsoft.store.partnercenter.models.licenses.LicenseWarning.getServicePlans()"
+  overload: "com.microsoft.store.partnercenter.models.licenses.LicenseWarning.getServicePlans*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.licenses"
+  syntax:
+    content: "public Iterable<String> getServicePlans()"
+    return:
+      type: "java.lang.Iterable<java.lang.String>"
 - uid: "com.microsoft.store.partnercenter.models.licenses.LicenseWarning.setCode(java.lang.String)"
   id: "setCode(java.lang.String)"
   parent: "com.microsoft.store.partnercenter.models.licenses.LicenseWarning"
@@ -66,21 +96,6 @@ items:
     content: "public void setCode(String value)"
     parameters:
     - id: "value"
-      type: "java.lang.String"
-- uid: "com.microsoft.store.partnercenter.models.licenses.LicenseWarning.getMessage()"
-  id: "getMessage()"
-  parent: "com.microsoft.store.partnercenter.models.licenses.LicenseWarning"
-  langs:
-  - "java"
-  name: "getMessage()"
-  nameWithType: "LicenseWarning.getMessage()"
-  fullName: "com.microsoft.store.partnercenter.models.licenses.LicenseWarning.getMessage()"
-  overload: "com.microsoft.store.partnercenter.models.licenses.LicenseWarning.getMessage*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.licenses"
-  syntax:
-    content: "public String getMessage()"
-    return:
       type: "java.lang.String"
 - uid: "com.microsoft.store.partnercenter.models.licenses.LicenseWarning.setMessage(java.lang.String)"
   id: "setMessage(java.lang.String)"
@@ -98,21 +113,6 @@ items:
     parameters:
     - id: "value"
       type: "java.lang.String"
-- uid: "com.microsoft.store.partnercenter.models.licenses.LicenseWarning.getServicePlans()"
-  id: "getServicePlans()"
-  parent: "com.microsoft.store.partnercenter.models.licenses.LicenseWarning"
-  langs:
-  - "java"
-  name: "getServicePlans()"
-  nameWithType: "LicenseWarning.getServicePlans()"
-  fullName: "com.microsoft.store.partnercenter.models.licenses.LicenseWarning.getServicePlans()"
-  overload: "com.microsoft.store.partnercenter.models.licenses.LicenseWarning.getServicePlans*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.licenses"
-  syntax:
-    content: "public Iterable<String> getServicePlans()"
-    return:
-      type: "java.lang.Iterable<java.lang.String>"
 - uid: "com.microsoft.store.partnercenter.models.licenses.LicenseWarning.setServicePlans(java.lang.Iterable<java.lang.String>)"
   id: "setServicePlans(java.lang.Iterable<java.lang.String>)"
   parent: "com.microsoft.store.partnercenter.models.licenses.LicenseWarning"
@@ -160,9 +160,17 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.licenses.LicenseWarning.setMessage"
   package: "com.microsoft.store.partnercenter.models.licenses"
 - uid: "java.lang.Iterable<java.lang.String>"
-  name: "Iterable<String>"
-  nameWithType: "Iterable<String>"
-  fullName: "java.lang.Iterable<java.lang.String>"
+  spec.java:
+  - uid: "java.lang.Iterable"
+    name: "java.lang.Iterable"
+    fullName: "java.lang.Iterable"
+  - name: "<"
+    fullName: "<"
+  - uid: "java.lang.String"
+    name: "java.lang.String"
+    fullName: "java.lang.String"
+  - name: ">"
+    fullName: ">"
 - uid: "com.microsoft.store.partnercenter.models.licenses.LicenseWarning.getServicePlans*"
   name: "getServicePlans"
   nameWithType: "LicenseWarning.getServicePlans"

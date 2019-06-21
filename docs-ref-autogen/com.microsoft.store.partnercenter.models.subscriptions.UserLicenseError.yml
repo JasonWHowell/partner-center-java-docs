@@ -5,14 +5,14 @@ items:
   parent: "com.microsoft.store.partnercenter.models.subscriptions"
   children:
   - "com.microsoft.store.partnercenter.models.subscriptions.UserLicenseError.UserLicenseError()"
-  - "com.microsoft.store.partnercenter.models.subscriptions.UserLicenseError.getUserObjectId()"
-  - "com.microsoft.store.partnercenter.models.subscriptions.UserLicenseError.setUserObjectId(java.util.UUID)"
-  - "com.microsoft.store.partnercenter.models.subscriptions.UserLicenseError.getName()"
-  - "com.microsoft.store.partnercenter.models.subscriptions.UserLicenseError.setName(java.lang.String)"
   - "com.microsoft.store.partnercenter.models.subscriptions.UserLicenseError.getEmail()"
-  - "com.microsoft.store.partnercenter.models.subscriptions.UserLicenseError.setEmail(java.lang.String)"
   - "com.microsoft.store.partnercenter.models.subscriptions.UserLicenseError.getErrors()"
+  - "com.microsoft.store.partnercenter.models.subscriptions.UserLicenseError.getName()"
+  - "com.microsoft.store.partnercenter.models.subscriptions.UserLicenseError.getUserObjectId()"
+  - "com.microsoft.store.partnercenter.models.subscriptions.UserLicenseError.setEmail(java.lang.String)"
   - "com.microsoft.store.partnercenter.models.subscriptions.UserLicenseError.setErrors(java.lang.Iterable<com.microsoft.store.partnercenter.models.ApiFault>)"
+  - "com.microsoft.store.partnercenter.models.subscriptions.UserLicenseError.setName(java.lang.String)"
+  - "com.microsoft.store.partnercenter.models.subscriptions.UserLicenseError.setUserObjectId(java.util.UUID)"
   langs:
   - "java"
   name: "UserLicenseError"
@@ -38,68 +38,6 @@ items:
   package: "com.microsoft.store.partnercenter.models.subscriptions"
   syntax:
     content: "public UserLicenseError()"
-- uid: "com.microsoft.store.partnercenter.models.subscriptions.UserLicenseError.getUserObjectId()"
-  id: "getUserObjectId()"
-  parent: "com.microsoft.store.partnercenter.models.subscriptions.UserLicenseError"
-  langs:
-  - "java"
-  name: "getUserObjectId()"
-  nameWithType: "UserLicenseError.getUserObjectId()"
-  fullName: "com.microsoft.store.partnercenter.models.subscriptions.UserLicenseError.getUserObjectId()"
-  overload: "com.microsoft.store.partnercenter.models.subscriptions.UserLicenseError.getUserObjectId*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.subscriptions"
-  syntax:
-    content: "public UUID getUserObjectId()"
-    return:
-      type: "java.util.UUID"
-- uid: "com.microsoft.store.partnercenter.models.subscriptions.UserLicenseError.setUserObjectId(java.util.UUID)"
-  id: "setUserObjectId(java.util.UUID)"
-  parent: "com.microsoft.store.partnercenter.models.subscriptions.UserLicenseError"
-  langs:
-  - "java"
-  name: "setUserObjectId(UUID value)"
-  nameWithType: "UserLicenseError.setUserObjectId(UUID value)"
-  fullName: "com.microsoft.store.partnercenter.models.subscriptions.UserLicenseError.setUserObjectId(UUID value)"
-  overload: "com.microsoft.store.partnercenter.models.subscriptions.UserLicenseError.setUserObjectId*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.subscriptions"
-  syntax:
-    content: "public void setUserObjectId(UUID value)"
-    parameters:
-    - id: "value"
-      type: "java.util.UUID"
-- uid: "com.microsoft.store.partnercenter.models.subscriptions.UserLicenseError.getName()"
-  id: "getName()"
-  parent: "com.microsoft.store.partnercenter.models.subscriptions.UserLicenseError"
-  langs:
-  - "java"
-  name: "getName()"
-  nameWithType: "UserLicenseError.getName()"
-  fullName: "com.microsoft.store.partnercenter.models.subscriptions.UserLicenseError.getName()"
-  overload: "com.microsoft.store.partnercenter.models.subscriptions.UserLicenseError.getName*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.subscriptions"
-  syntax:
-    content: "public String getName()"
-    return:
-      type: "java.lang.String"
-- uid: "com.microsoft.store.partnercenter.models.subscriptions.UserLicenseError.setName(java.lang.String)"
-  id: "setName(java.lang.String)"
-  parent: "com.microsoft.store.partnercenter.models.subscriptions.UserLicenseError"
-  langs:
-  - "java"
-  name: "setName(String value)"
-  nameWithType: "UserLicenseError.setName(String value)"
-  fullName: "com.microsoft.store.partnercenter.models.subscriptions.UserLicenseError.setName(String value)"
-  overload: "com.microsoft.store.partnercenter.models.subscriptions.UserLicenseError.setName*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.subscriptions"
-  syntax:
-    content: "public void setName(String value)"
-    parameters:
-    - id: "value"
-      type: "java.lang.String"
 - uid: "com.microsoft.store.partnercenter.models.subscriptions.UserLicenseError.getEmail()"
   id: "getEmail()"
   parent: "com.microsoft.store.partnercenter.models.subscriptions.UserLicenseError"
@@ -114,22 +52,6 @@ items:
   syntax:
     content: "public String getEmail()"
     return:
-      type: "java.lang.String"
-- uid: "com.microsoft.store.partnercenter.models.subscriptions.UserLicenseError.setEmail(java.lang.String)"
-  id: "setEmail(java.lang.String)"
-  parent: "com.microsoft.store.partnercenter.models.subscriptions.UserLicenseError"
-  langs:
-  - "java"
-  name: "setEmail(String value)"
-  nameWithType: "UserLicenseError.setEmail(String value)"
-  fullName: "com.microsoft.store.partnercenter.models.subscriptions.UserLicenseError.setEmail(String value)"
-  overload: "com.microsoft.store.partnercenter.models.subscriptions.UserLicenseError.setEmail*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.subscriptions"
-  syntax:
-    content: "public void setEmail(String value)"
-    parameters:
-    - id: "value"
       type: "java.lang.String"
 - uid: "com.microsoft.store.partnercenter.models.subscriptions.UserLicenseError.getErrors()"
   id: "getErrors()"
@@ -146,6 +68,52 @@ items:
     content: "public Iterable<ApiFault> getErrors()"
     return:
       type: "java.lang.Iterable<com.microsoft.store.partnercenter.models.ApiFault>"
+- uid: "com.microsoft.store.partnercenter.models.subscriptions.UserLicenseError.getName()"
+  id: "getName()"
+  parent: "com.microsoft.store.partnercenter.models.subscriptions.UserLicenseError"
+  langs:
+  - "java"
+  name: "getName()"
+  nameWithType: "UserLicenseError.getName()"
+  fullName: "com.microsoft.store.partnercenter.models.subscriptions.UserLicenseError.getName()"
+  overload: "com.microsoft.store.partnercenter.models.subscriptions.UserLicenseError.getName*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.subscriptions"
+  syntax:
+    content: "public String getName()"
+    return:
+      type: "java.lang.String"
+- uid: "com.microsoft.store.partnercenter.models.subscriptions.UserLicenseError.getUserObjectId()"
+  id: "getUserObjectId()"
+  parent: "com.microsoft.store.partnercenter.models.subscriptions.UserLicenseError"
+  langs:
+  - "java"
+  name: "getUserObjectId()"
+  nameWithType: "UserLicenseError.getUserObjectId()"
+  fullName: "com.microsoft.store.partnercenter.models.subscriptions.UserLicenseError.getUserObjectId()"
+  overload: "com.microsoft.store.partnercenter.models.subscriptions.UserLicenseError.getUserObjectId*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.subscriptions"
+  syntax:
+    content: "public UUID getUserObjectId()"
+    return:
+      type: "java.util.UUID"
+- uid: "com.microsoft.store.partnercenter.models.subscriptions.UserLicenseError.setEmail(java.lang.String)"
+  id: "setEmail(java.lang.String)"
+  parent: "com.microsoft.store.partnercenter.models.subscriptions.UserLicenseError"
+  langs:
+  - "java"
+  name: "setEmail(String value)"
+  nameWithType: "UserLicenseError.setEmail(String value)"
+  fullName: "com.microsoft.store.partnercenter.models.subscriptions.UserLicenseError.setEmail(String value)"
+  overload: "com.microsoft.store.partnercenter.models.subscriptions.UserLicenseError.setEmail*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.subscriptions"
+  syntax:
+    content: "public void setEmail(String value)"
+    parameters:
+    - id: "value"
+      type: "java.lang.String"
 - uid: "com.microsoft.store.partnercenter.models.subscriptions.UserLicenseError.setErrors(java.lang.Iterable<com.microsoft.store.partnercenter.models.ApiFault>)"
   id: "setErrors(java.lang.Iterable<com.microsoft.store.partnercenter.models.ApiFault>)"
   parent: "com.microsoft.store.partnercenter.models.subscriptions.UserLicenseError"
@@ -162,6 +130,38 @@ items:
     parameters:
     - id: "value"
       type: "java.lang.Iterable<com.microsoft.store.partnercenter.models.ApiFault>"
+- uid: "com.microsoft.store.partnercenter.models.subscriptions.UserLicenseError.setName(java.lang.String)"
+  id: "setName(java.lang.String)"
+  parent: "com.microsoft.store.partnercenter.models.subscriptions.UserLicenseError"
+  langs:
+  - "java"
+  name: "setName(String value)"
+  nameWithType: "UserLicenseError.setName(String value)"
+  fullName: "com.microsoft.store.partnercenter.models.subscriptions.UserLicenseError.setName(String value)"
+  overload: "com.microsoft.store.partnercenter.models.subscriptions.UserLicenseError.setName*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.subscriptions"
+  syntax:
+    content: "public void setName(String value)"
+    parameters:
+    - id: "value"
+      type: "java.lang.String"
+- uid: "com.microsoft.store.partnercenter.models.subscriptions.UserLicenseError.setUserObjectId(java.util.UUID)"
+  id: "setUserObjectId(java.util.UUID)"
+  parent: "com.microsoft.store.partnercenter.models.subscriptions.UserLicenseError"
+  langs:
+  - "java"
+  name: "setUserObjectId(UUID value)"
+  nameWithType: "UserLicenseError.setUserObjectId(UUID value)"
+  fullName: "com.microsoft.store.partnercenter.models.subscriptions.UserLicenseError.setUserObjectId(UUID value)"
+  overload: "com.microsoft.store.partnercenter.models.subscriptions.UserLicenseError.setUserObjectId*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.subscriptions"
+  syntax:
+    content: "public void setUserObjectId(UUID value)"
+    parameters:
+    - id: "value"
+      type: "java.util.UUID"
 references:
 - uid: "com.microsoft.store.partnercenter.models.subscriptions.UserLicenseError.UserLicenseError*"
   name: "UserLicenseError"
@@ -207,9 +207,17 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.subscriptions.UserLicenseError.setEmail"
   package: "com.microsoft.store.partnercenter.models.subscriptions"
 - uid: "java.lang.Iterable<com.microsoft.store.partnercenter.models.ApiFault>"
-  name: "Iterable<ApiFault>"
-  nameWithType: "Iterable<ApiFault>"
-  fullName: "java.lang.Iterable<com.microsoft.store.partnercenter.models.ApiFault>"
+  spec.java:
+  - uid: "java.lang.Iterable"
+    name: "java.lang.Iterable"
+    fullName: "java.lang.Iterable"
+  - name: "<"
+    fullName: "<"
+  - uid: "com.microsoft.store.partnercenter.models.ApiFault"
+    name: "com.microsoft.store.partnercenter.models.ApiFault"
+    fullName: "com.microsoft.store.partnercenter.models.ApiFault"
+  - name: ">"
+    fullName: ">"
 - uid: "com.microsoft.store.partnercenter.models.subscriptions.UserLicenseError.getErrors*"
   name: "getErrors"
   nameWithType: "UserLicenseError.getErrors"

@@ -6,10 +6,10 @@ items:
   children:
   - "com.microsoft.store.partnercenter.models.managedservices.ManagedServiceLinks.ManagedServiceLinks()"
   - "com.microsoft.store.partnercenter.models.managedservices.ManagedServiceLinks.getAdminService()"
-  - "com.microsoft.store.partnercenter.models.managedservices.ManagedServiceLinks.setAdminService(com.microsoft.store.partnercenter.models.Link)"
   - "com.microsoft.store.partnercenter.models.managedservices.ManagedServiceLinks.getServiceHealth()"
-  - "com.microsoft.store.partnercenter.models.managedservices.ManagedServiceLinks.setServiceHealth(com.microsoft.store.partnercenter.models.Link)"
   - "com.microsoft.store.partnercenter.models.managedservices.ManagedServiceLinks.getServiceTicket()"
+  - "com.microsoft.store.partnercenter.models.managedservices.ManagedServiceLinks.setAdminService(com.microsoft.store.partnercenter.models.Link)"
+  - "com.microsoft.store.partnercenter.models.managedservices.ManagedServiceLinks.setServiceHealth(com.microsoft.store.partnercenter.models.Link)"
   - "com.microsoft.store.partnercenter.models.managedservices.ManagedServiceLinks.setServiceTicket(com.microsoft.store.partnercenter.models.Link)"
   langs:
   - "java"
@@ -51,6 +51,36 @@ items:
     content: "public Link getAdminService()"
     return:
       type: "com.microsoft.store.partnercenter.models.Link"
+- uid: "com.microsoft.store.partnercenter.models.managedservices.ManagedServiceLinks.getServiceHealth()"
+  id: "getServiceHealth()"
+  parent: "com.microsoft.store.partnercenter.models.managedservices.ManagedServiceLinks"
+  langs:
+  - "java"
+  name: "getServiceHealth()"
+  nameWithType: "ManagedServiceLinks.getServiceHealth()"
+  fullName: "com.microsoft.store.partnercenter.models.managedservices.ManagedServiceLinks.getServiceHealth()"
+  overload: "com.microsoft.store.partnercenter.models.managedservices.ManagedServiceLinks.getServiceHealth*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.managedservices"
+  syntax:
+    content: "public Link getServiceHealth()"
+    return:
+      type: "com.microsoft.store.partnercenter.models.Link"
+- uid: "com.microsoft.store.partnercenter.models.managedservices.ManagedServiceLinks.getServiceTicket()"
+  id: "getServiceTicket()"
+  parent: "com.microsoft.store.partnercenter.models.managedservices.ManagedServiceLinks"
+  langs:
+  - "java"
+  name: "getServiceTicket()"
+  nameWithType: "ManagedServiceLinks.getServiceTicket()"
+  fullName: "com.microsoft.store.partnercenter.models.managedservices.ManagedServiceLinks.getServiceTicket()"
+  overload: "com.microsoft.store.partnercenter.models.managedservices.ManagedServiceLinks.getServiceTicket*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.managedservices"
+  syntax:
+    content: "public Link getServiceTicket()"
+    return:
+      type: "com.microsoft.store.partnercenter.models.Link"
 - uid: "com.microsoft.store.partnercenter.models.managedservices.ManagedServiceLinks.setAdminService(com.microsoft.store.partnercenter.models.Link)"
   id: "setAdminService(com.microsoft.store.partnercenter.models.Link)"
   parent: "com.microsoft.store.partnercenter.models.managedservices.ManagedServiceLinks"
@@ -67,21 +97,6 @@ items:
     parameters:
     - id: "value"
       type: "com.microsoft.store.partnercenter.models.Link"
-- uid: "com.microsoft.store.partnercenter.models.managedservices.ManagedServiceLinks.getServiceHealth()"
-  id: "getServiceHealth()"
-  parent: "com.microsoft.store.partnercenter.models.managedservices.ManagedServiceLinks"
-  langs:
-  - "java"
-  name: "getServiceHealth()"
-  nameWithType: "ManagedServiceLinks.getServiceHealth()"
-  fullName: "com.microsoft.store.partnercenter.models.managedservices.ManagedServiceLinks.getServiceHealth()"
-  overload: "com.microsoft.store.partnercenter.models.managedservices.ManagedServiceLinks.getServiceHealth*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.managedservices"
-  syntax:
-    content: "public Link getServiceHealth()"
-    return:
-      type: "com.microsoft.store.partnercenter.models.Link"
 - uid: "com.microsoft.store.partnercenter.models.managedservices.ManagedServiceLinks.setServiceHealth(com.microsoft.store.partnercenter.models.Link)"
   id: "setServiceHealth(com.microsoft.store.partnercenter.models.Link)"
   parent: "com.microsoft.store.partnercenter.models.managedservices.ManagedServiceLinks"
@@ -97,21 +112,6 @@ items:
     content: "public void setServiceHealth(Link value)"
     parameters:
     - id: "value"
-      type: "com.microsoft.store.partnercenter.models.Link"
-- uid: "com.microsoft.store.partnercenter.models.managedservices.ManagedServiceLinks.getServiceTicket()"
-  id: "getServiceTicket()"
-  parent: "com.microsoft.store.partnercenter.models.managedservices.ManagedServiceLinks"
-  langs:
-  - "java"
-  name: "getServiceTicket()"
-  nameWithType: "ManagedServiceLinks.getServiceTicket()"
-  fullName: "com.microsoft.store.partnercenter.models.managedservices.ManagedServiceLinks.getServiceTicket()"
-  overload: "com.microsoft.store.partnercenter.models.managedservices.ManagedServiceLinks.getServiceTicket*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.managedservices"
-  syntax:
-    content: "public Link getServiceTicket()"
-    return:
       type: "com.microsoft.store.partnercenter.models.Link"
 - uid: "com.microsoft.store.partnercenter.models.managedservices.ManagedServiceLinks.setServiceTicket(com.microsoft.store.partnercenter.models.Link)"
   id: "setServiceTicket(com.microsoft.store.partnercenter.models.Link)"

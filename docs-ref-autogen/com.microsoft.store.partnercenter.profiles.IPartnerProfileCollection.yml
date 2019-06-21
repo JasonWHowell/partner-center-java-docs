@@ -4,11 +4,11 @@ items:
   id: "IPartnerProfileCollection"
   parent: "com.microsoft.store.partnercenter.profiles"
   children:
+  - "com.microsoft.store.partnercenter.profiles.IPartnerProfileCollection.getBillingProfile()"
   - "com.microsoft.store.partnercenter.profiles.IPartnerProfileCollection.getLegalBusinessProfile()"
   - "com.microsoft.store.partnercenter.profiles.IPartnerProfileCollection.getMpnProfile()"
-  - "com.microsoft.store.partnercenter.profiles.IPartnerProfileCollection.getSupportProfile()"
   - "com.microsoft.store.partnercenter.profiles.IPartnerProfileCollection.getOrganizationProfile()"
-  - "com.microsoft.store.partnercenter.profiles.IPartnerProfileCollection.getBillingProfile()"
+  - "com.microsoft.store.partnercenter.profiles.IPartnerProfileCollection.getSupportProfile()"
   langs:
   - "java"
   name: "IPartnerProfileCollection"
@@ -21,6 +21,23 @@ items:
     content: "public interface IPartnerProfileCollection extends IPartnerComponentString"
   implements:
   - "com.microsoft.store.partnercenter.IPartnerComponentString"
+- uid: "com.microsoft.store.partnercenter.profiles.IPartnerProfileCollection.getBillingProfile()"
+  id: "getBillingProfile()"
+  parent: "com.microsoft.store.partnercenter.profiles.IPartnerProfileCollection"
+  langs:
+  - "java"
+  name: "getBillingProfile()"
+  nameWithType: "IPartnerProfileCollection.getBillingProfile()"
+  fullName: "com.microsoft.store.partnercenter.profiles.IPartnerProfileCollection.getBillingProfile()"
+  overload: "com.microsoft.store.partnercenter.profiles.IPartnerProfileCollection.getBillingProfile*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.profiles"
+  summary: "Gets the operations available for the partner billing profile."
+  syntax:
+    content: "public abstract IBillingProfile getBillingProfile()"
+    return:
+      type: "com.microsoft.store.partnercenter.profiles.IBillingProfile"
+      description: "The operations available for the partner billing profile."
 - uid: "com.microsoft.store.partnercenter.profiles.IPartnerProfileCollection.getLegalBusinessProfile()"
   id: "getLegalBusinessProfile()"
   parent: "com.microsoft.store.partnercenter.profiles.IPartnerProfileCollection"
@@ -55,23 +72,6 @@ items:
     return:
       type: "com.microsoft.store.partnercenter.profiles.IMpnProfile"
       description: "The operations available for the partner network profile."
-- uid: "com.microsoft.store.partnercenter.profiles.IPartnerProfileCollection.getSupportProfile()"
-  id: "getSupportProfile()"
-  parent: "com.microsoft.store.partnercenter.profiles.IPartnerProfileCollection"
-  langs:
-  - "java"
-  name: "getSupportProfile()"
-  nameWithType: "IPartnerProfileCollection.getSupportProfile()"
-  fullName: "com.microsoft.store.partnercenter.profiles.IPartnerProfileCollection.getSupportProfile()"
-  overload: "com.microsoft.store.partnercenter.profiles.IPartnerProfileCollection.getSupportProfile*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.profiles"
-  summary: "Gets the operations available for the partner support profile."
-  syntax:
-    content: "public abstract ISupportProfile getSupportProfile()"
-    return:
-      type: "com.microsoft.store.partnercenter.profiles.ISupportProfile"
-      description: "The operations available for the partner support profile."
 - uid: "com.microsoft.store.partnercenter.profiles.IPartnerProfileCollection.getOrganizationProfile()"
   id: "getOrganizationProfile()"
   parent: "com.microsoft.store.partnercenter.profiles.IPartnerProfileCollection"
@@ -89,23 +89,23 @@ items:
     return:
       type: "com.microsoft.store.partnercenter.profiles.IOrganizationProfile"
       description: "The operations available for the organization profile."
-- uid: "com.microsoft.store.partnercenter.profiles.IPartnerProfileCollection.getBillingProfile()"
-  id: "getBillingProfile()"
+- uid: "com.microsoft.store.partnercenter.profiles.IPartnerProfileCollection.getSupportProfile()"
+  id: "getSupportProfile()"
   parent: "com.microsoft.store.partnercenter.profiles.IPartnerProfileCollection"
   langs:
   - "java"
-  name: "getBillingProfile()"
-  nameWithType: "IPartnerProfileCollection.getBillingProfile()"
-  fullName: "com.microsoft.store.partnercenter.profiles.IPartnerProfileCollection.getBillingProfile()"
-  overload: "com.microsoft.store.partnercenter.profiles.IPartnerProfileCollection.getBillingProfile*"
+  name: "getSupportProfile()"
+  nameWithType: "IPartnerProfileCollection.getSupportProfile()"
+  fullName: "com.microsoft.store.partnercenter.profiles.IPartnerProfileCollection.getSupportProfile()"
+  overload: "com.microsoft.store.partnercenter.profiles.IPartnerProfileCollection.getSupportProfile*"
   type: "Method"
   package: "com.microsoft.store.partnercenter.profiles"
-  summary: "Gets the operations available for the partner billing profile."
+  summary: "Gets the operations available for the partner support profile."
   syntax:
-    content: "public abstract IBillingProfile getBillingProfile()"
+    content: "public abstract ISupportProfile getSupportProfile()"
     return:
-      type: "com.microsoft.store.partnercenter.profiles.IBillingProfile"
-      description: "The operations available for the partner billing profile."
+      type: "com.microsoft.store.partnercenter.profiles.ISupportProfile"
+      description: "The operations available for the partner support profile."
 references:
 - uid: "com.microsoft.store.partnercenter.profiles.ILegalBusinessProfile"
   name: "ILegalBusinessProfile"

@@ -4,14 +4,14 @@ items:
   id: "DeviceUploadStatusType"
   parent: "com.microsoft.store.partnercenter.models.devicesdeployment"
   children:
-  - "com.microsoft.store.partnercenter.models.devicesdeployment.DeviceUploadStatusType.values()"
-  - "com.microsoft.store.partnercenter.models.devicesdeployment.DeviceUploadStatusType.valueOf(java.lang.String)"
-  - "com.microsoft.store.partnercenter.models.devicesdeployment.DeviceUploadStatusType.toString()"
-  - "com.microsoft.store.partnercenter.models.devicesdeployment.DeviceUploadStatusType.UNKNOWN"
-  - "com.microsoft.store.partnercenter.models.devicesdeployment.DeviceUploadStatusType.QUEUED"
-  - "com.microsoft.store.partnercenter.models.devicesdeployment.DeviceUploadStatusType.PROCESSING"
   - "com.microsoft.store.partnercenter.models.devicesdeployment.DeviceUploadStatusType.FINISHED"
   - "com.microsoft.store.partnercenter.models.devicesdeployment.DeviceUploadStatusType.FINISHED_WITH_ERRORS"
+  - "com.microsoft.store.partnercenter.models.devicesdeployment.DeviceUploadStatusType.PROCESSING"
+  - "com.microsoft.store.partnercenter.models.devicesdeployment.DeviceUploadStatusType.QUEUED"
+  - "com.microsoft.store.partnercenter.models.devicesdeployment.DeviceUploadStatusType.UNKNOWN"
+  - "com.microsoft.store.partnercenter.models.devicesdeployment.DeviceUploadStatusType.toString()"
+  - "com.microsoft.store.partnercenter.models.devicesdeployment.DeviceUploadStatusType.valueOf(java.lang.String)"
+  - "com.microsoft.store.partnercenter.models.devicesdeployment.DeviceUploadStatusType.values()"
   langs:
   - "java"
   name: "DeviceUploadStatusType"
@@ -40,101 +40,6 @@ items:
     parameters:
     - id: "value"
       type: "java.lang.String"
-- uid: "com.microsoft.store.partnercenter.models.devicesdeployment.DeviceUploadStatusType.values()"
-  id: "values()"
-  parent: "com.microsoft.store.partnercenter.models.devicesdeployment.DeviceUploadStatusType"
-  langs:
-  - "java"
-  name: "values()"
-  nameWithType: "DeviceUploadStatusType.values()"
-  fullName: "com.microsoft.store.partnercenter.models.devicesdeployment.DeviceUploadStatusType.values()"
-  overload: "com.microsoft.store.partnercenter.models.devicesdeployment.DeviceUploadStatusType.values*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.devicesdeployment"
-  syntax:
-    content: "public static DeviceUploadStatusType[] values()"
-    return:
-      type: "com.microsoft.store.partnercenter.models.devicesdeployment.DeviceUploadStatusType[]"
-- uid: "com.microsoft.store.partnercenter.models.devicesdeployment.DeviceUploadStatusType.valueOf(java.lang.String)"
-  id: "valueOf(java.lang.String)"
-  parent: "com.microsoft.store.partnercenter.models.devicesdeployment.DeviceUploadStatusType"
-  langs:
-  - "java"
-  name: "valueOf(String name)"
-  nameWithType: "DeviceUploadStatusType.valueOf(String name)"
-  fullName: "com.microsoft.store.partnercenter.models.devicesdeployment.DeviceUploadStatusType.valueOf(String name)"
-  overload: "com.microsoft.store.partnercenter.models.devicesdeployment.DeviceUploadStatusType.valueOf*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.devicesdeployment"
-  syntax:
-    content: "public static DeviceUploadStatusType valueOf(String name)"
-    parameters:
-    - id: "name"
-      type: "java.lang.String"
-    return:
-      type: "com.microsoft.store.partnercenter.models.devicesdeployment.DeviceUploadStatusType"
-- uid: "com.microsoft.store.partnercenter.models.devicesdeployment.DeviceUploadStatusType.toString()"
-  id: "toString()"
-  parent: "com.microsoft.store.partnercenter.models.devicesdeployment.DeviceUploadStatusType"
-  langs:
-  - "java"
-  name: "toString()"
-  nameWithType: "DeviceUploadStatusType.toString()"
-  fullName: "com.microsoft.store.partnercenter.models.devicesdeployment.DeviceUploadStatusType.toString()"
-  overload: "com.microsoft.store.partnercenter.models.devicesdeployment.DeviceUploadStatusType.toString*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.devicesdeployment"
-  summary: "Converts the object to a string."
-  syntax:
-    content: "public String toString()"
-    return:
-      type: "java.lang.String"
-      description: "A string that represents this object."
-- uid: "com.microsoft.store.partnercenter.models.devicesdeployment.DeviceUploadStatusType.UNKNOWN"
-  id: "UNKNOWN"
-  parent: "com.microsoft.store.partnercenter.models.devicesdeployment.DeviceUploadStatusType"
-  langs:
-  - "java"
-  name: "UNKNOWN"
-  nameWithType: "DeviceUploadStatusType.UNKNOWN"
-  fullName: "com.microsoft.store.partnercenter.models.devicesdeployment.DeviceUploadStatusType.UNKNOWN"
-  type: "Field"
-  package: "com.microsoft.store.partnercenter.models.devicesdeployment"
-  summary: "Should never happen."
-  syntax:
-    content: "public static final DeviceUploadStatusType UNKNOWN"
-    return:
-      type: "com.microsoft.store.partnercenter.models.devicesdeployment.DeviceUploadStatusType"
-- uid: "com.microsoft.store.partnercenter.models.devicesdeployment.DeviceUploadStatusType.QUEUED"
-  id: "QUEUED"
-  parent: "com.microsoft.store.partnercenter.models.devicesdeployment.DeviceUploadStatusType"
-  langs:
-  - "java"
-  name: "QUEUED"
-  nameWithType: "DeviceUploadStatusType.QUEUED"
-  fullName: "com.microsoft.store.partnercenter.models.devicesdeployment.DeviceUploadStatusType.QUEUED"
-  type: "Field"
-  package: "com.microsoft.store.partnercenter.models.devicesdeployment"
-  summary: "Batch is queued."
-  syntax:
-    content: "public static final DeviceUploadStatusType QUEUED"
-    return:
-      type: "com.microsoft.store.partnercenter.models.devicesdeployment.DeviceUploadStatusType"
-- uid: "com.microsoft.store.partnercenter.models.devicesdeployment.DeviceUploadStatusType.PROCESSING"
-  id: "PROCESSING"
-  parent: "com.microsoft.store.partnercenter.models.devicesdeployment.DeviceUploadStatusType"
-  langs:
-  - "java"
-  name: "PROCESSING"
-  nameWithType: "DeviceUploadStatusType.PROCESSING"
-  fullName: "com.microsoft.store.partnercenter.models.devicesdeployment.DeviceUploadStatusType.PROCESSING"
-  type: "Field"
-  package: "com.microsoft.store.partnercenter.models.devicesdeployment"
-  summary: "Batch is processing."
-  syntax:
-    content: "public static final DeviceUploadStatusType PROCESSING"
-    return:
-      type: "com.microsoft.store.partnercenter.models.devicesdeployment.DeviceUploadStatusType"
 - uid: "com.microsoft.store.partnercenter.models.devicesdeployment.DeviceUploadStatusType.FINISHED"
   id: "FINISHED"
   parent: "com.microsoft.store.partnercenter.models.devicesdeployment.DeviceUploadStatusType"
@@ -165,6 +70,101 @@ items:
     content: "public static final DeviceUploadStatusType FINISHED_WITH_ERRORS"
     return:
       type: "com.microsoft.store.partnercenter.models.devicesdeployment.DeviceUploadStatusType"
+- uid: "com.microsoft.store.partnercenter.models.devicesdeployment.DeviceUploadStatusType.PROCESSING"
+  id: "PROCESSING"
+  parent: "com.microsoft.store.partnercenter.models.devicesdeployment.DeviceUploadStatusType"
+  langs:
+  - "java"
+  name: "PROCESSING"
+  nameWithType: "DeviceUploadStatusType.PROCESSING"
+  fullName: "com.microsoft.store.partnercenter.models.devicesdeployment.DeviceUploadStatusType.PROCESSING"
+  type: "Field"
+  package: "com.microsoft.store.partnercenter.models.devicesdeployment"
+  summary: "Batch is processing."
+  syntax:
+    content: "public static final DeviceUploadStatusType PROCESSING"
+    return:
+      type: "com.microsoft.store.partnercenter.models.devicesdeployment.DeviceUploadStatusType"
+- uid: "com.microsoft.store.partnercenter.models.devicesdeployment.DeviceUploadStatusType.QUEUED"
+  id: "QUEUED"
+  parent: "com.microsoft.store.partnercenter.models.devicesdeployment.DeviceUploadStatusType"
+  langs:
+  - "java"
+  name: "QUEUED"
+  nameWithType: "DeviceUploadStatusType.QUEUED"
+  fullName: "com.microsoft.store.partnercenter.models.devicesdeployment.DeviceUploadStatusType.QUEUED"
+  type: "Field"
+  package: "com.microsoft.store.partnercenter.models.devicesdeployment"
+  summary: "Batch is queued."
+  syntax:
+    content: "public static final DeviceUploadStatusType QUEUED"
+    return:
+      type: "com.microsoft.store.partnercenter.models.devicesdeployment.DeviceUploadStatusType"
+- uid: "com.microsoft.store.partnercenter.models.devicesdeployment.DeviceUploadStatusType.UNKNOWN"
+  id: "UNKNOWN"
+  parent: "com.microsoft.store.partnercenter.models.devicesdeployment.DeviceUploadStatusType"
+  langs:
+  - "java"
+  name: "UNKNOWN"
+  nameWithType: "DeviceUploadStatusType.UNKNOWN"
+  fullName: "com.microsoft.store.partnercenter.models.devicesdeployment.DeviceUploadStatusType.UNKNOWN"
+  type: "Field"
+  package: "com.microsoft.store.partnercenter.models.devicesdeployment"
+  summary: "Should never happen."
+  syntax:
+    content: "public static final DeviceUploadStatusType UNKNOWN"
+    return:
+      type: "com.microsoft.store.partnercenter.models.devicesdeployment.DeviceUploadStatusType"
+- uid: "com.microsoft.store.partnercenter.models.devicesdeployment.DeviceUploadStatusType.toString()"
+  id: "toString()"
+  parent: "com.microsoft.store.partnercenter.models.devicesdeployment.DeviceUploadStatusType"
+  langs:
+  - "java"
+  name: "toString()"
+  nameWithType: "DeviceUploadStatusType.toString()"
+  fullName: "com.microsoft.store.partnercenter.models.devicesdeployment.DeviceUploadStatusType.toString()"
+  overload: "com.microsoft.store.partnercenter.models.devicesdeployment.DeviceUploadStatusType.toString*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.devicesdeployment"
+  summary: "Converts the object to a string."
+  syntax:
+    content: "public String toString()"
+    return:
+      type: "java.lang.String"
+      description: "A string that represents this object."
+- uid: "com.microsoft.store.partnercenter.models.devicesdeployment.DeviceUploadStatusType.valueOf(java.lang.String)"
+  id: "valueOf(java.lang.String)"
+  parent: "com.microsoft.store.partnercenter.models.devicesdeployment.DeviceUploadStatusType"
+  langs:
+  - "java"
+  name: "valueOf(String name)"
+  nameWithType: "DeviceUploadStatusType.valueOf(String name)"
+  fullName: "com.microsoft.store.partnercenter.models.devicesdeployment.DeviceUploadStatusType.valueOf(String name)"
+  overload: "com.microsoft.store.partnercenter.models.devicesdeployment.DeviceUploadStatusType.valueOf*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.devicesdeployment"
+  syntax:
+    content: "public static DeviceUploadStatusType valueOf(String name)"
+    parameters:
+    - id: "name"
+      type: "java.lang.String"
+    return:
+      type: "com.microsoft.store.partnercenter.models.devicesdeployment.DeviceUploadStatusType"
+- uid: "com.microsoft.store.partnercenter.models.devicesdeployment.DeviceUploadStatusType.values()"
+  id: "values()"
+  parent: "com.microsoft.store.partnercenter.models.devicesdeployment.DeviceUploadStatusType"
+  langs:
+  - "java"
+  name: "values()"
+  nameWithType: "DeviceUploadStatusType.values()"
+  fullName: "com.microsoft.store.partnercenter.models.devicesdeployment.DeviceUploadStatusType.values()"
+  overload: "com.microsoft.store.partnercenter.models.devicesdeployment.DeviceUploadStatusType.values*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.devicesdeployment"
+  syntax:
+    content: "public static DeviceUploadStatusType[] values()"
+    return:
+      type: "com.microsoft.store.partnercenter.models.devicesdeployment.DeviceUploadStatusType[]"
 references:
 - uid: "java.lang.String"
   name: "String"

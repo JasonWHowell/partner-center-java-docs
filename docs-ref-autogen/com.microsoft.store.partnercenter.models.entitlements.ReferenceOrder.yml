@@ -6,10 +6,10 @@ items:
   children:
   - "com.microsoft.store.partnercenter.models.entitlements.ReferenceOrder.ReferenceOrder()"
   - "com.microsoft.store.partnercenter.models.entitlements.ReferenceOrder.getAlternateId()"
-  - "com.microsoft.store.partnercenter.models.entitlements.ReferenceOrder.setAlternateId(java.lang.String)"
   - "com.microsoft.store.partnercenter.models.entitlements.ReferenceOrder.getId()"
-  - "com.microsoft.store.partnercenter.models.entitlements.ReferenceOrder.setId(java.lang.String)"
   - "com.microsoft.store.partnercenter.models.entitlements.ReferenceOrder.getLineItemId()"
+  - "com.microsoft.store.partnercenter.models.entitlements.ReferenceOrder.setAlternateId(java.lang.String)"
+  - "com.microsoft.store.partnercenter.models.entitlements.ReferenceOrder.setId(java.lang.String)"
   - "com.microsoft.store.partnercenter.models.entitlements.ReferenceOrder.setLineItemId(java.lang.String)"
   langs:
   - "java"
@@ -53,24 +53,6 @@ items:
     return:
       type: "java.lang.String"
       description: "The value of the alternate identifier."
-- uid: "com.microsoft.store.partnercenter.models.entitlements.ReferenceOrder.setAlternateId(java.lang.String)"
-  id: "setAlternateId(java.lang.String)"
-  parent: "com.microsoft.store.partnercenter.models.entitlements.ReferenceOrder"
-  langs:
-  - "java"
-  name: "setAlternateId(String value)"
-  nameWithType: "ReferenceOrder.setAlternateId(String value)"
-  fullName: "com.microsoft.store.partnercenter.models.entitlements.ReferenceOrder.setAlternateId(String value)"
-  overload: "com.microsoft.store.partnercenter.models.entitlements.ReferenceOrder.setAlternateId*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.entitlements"
-  summary: "Sets the alternate identifier value."
-  syntax:
-    content: "public void setAlternateId(String value)"
-    parameters:
-    - id: "value"
-      type: "java.lang.String"
-      description: "The value of the alternate identifier."
 - uid: "com.microsoft.store.partnercenter.models.entitlements.ReferenceOrder.getId()"
   id: "getId()"
   parent: "com.microsoft.store.partnercenter.models.entitlements.ReferenceOrder"
@@ -86,24 +68,6 @@ items:
   syntax:
     content: "public String getId()"
     return:
-      type: "java.lang.String"
-      description: "The value of the identifier."
-- uid: "com.microsoft.store.partnercenter.models.entitlements.ReferenceOrder.setId(java.lang.String)"
-  id: "setId(java.lang.String)"
-  parent: "com.microsoft.store.partnercenter.models.entitlements.ReferenceOrder"
-  langs:
-  - "java"
-  name: "setId(String value)"
-  nameWithType: "ReferenceOrder.setId(String value)"
-  fullName: "com.microsoft.store.partnercenter.models.entitlements.ReferenceOrder.setId(String value)"
-  overload: "com.microsoft.store.partnercenter.models.entitlements.ReferenceOrder.setId*"
-  type: "Method"
-  package: "com.microsoft.store.partnercenter.models.entitlements"
-  summary: "Sets the identifier value."
-  syntax:
-    content: "public void setId(String value)"
-    parameters:
-    - id: "value"
       type: "java.lang.String"
       description: "The value of the identifier."
 - uid: "com.microsoft.store.partnercenter.models.entitlements.ReferenceOrder.getLineItemId()"
@@ -123,6 +87,42 @@ items:
     return:
       type: "java.lang.String"
       description: "The value of the line item identifier."
+- uid: "com.microsoft.store.partnercenter.models.entitlements.ReferenceOrder.setAlternateId(java.lang.String)"
+  id: "setAlternateId(java.lang.String)"
+  parent: "com.microsoft.store.partnercenter.models.entitlements.ReferenceOrder"
+  langs:
+  - "java"
+  name: "setAlternateId(String value)"
+  nameWithType: "ReferenceOrder.setAlternateId(String value)"
+  fullName: "com.microsoft.store.partnercenter.models.entitlements.ReferenceOrder.setAlternateId(String value)"
+  overload: "com.microsoft.store.partnercenter.models.entitlements.ReferenceOrder.setAlternateId*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.entitlements"
+  summary: "Sets the alternate identifier value."
+  syntax:
+    content: "public void setAlternateId(String value)"
+    parameters:
+    - id: "value"
+      type: "java.lang.String"
+      description: "The value of the alternate identifier."
+- uid: "com.microsoft.store.partnercenter.models.entitlements.ReferenceOrder.setId(java.lang.String)"
+  id: "setId(java.lang.String)"
+  parent: "com.microsoft.store.partnercenter.models.entitlements.ReferenceOrder"
+  langs:
+  - "java"
+  name: "setId(String value)"
+  nameWithType: "ReferenceOrder.setId(String value)"
+  fullName: "com.microsoft.store.partnercenter.models.entitlements.ReferenceOrder.setId(String value)"
+  overload: "com.microsoft.store.partnercenter.models.entitlements.ReferenceOrder.setId*"
+  type: "Method"
+  package: "com.microsoft.store.partnercenter.models.entitlements"
+  summary: "Sets the identifier value."
+  syntax:
+    content: "public void setId(String value)"
+    parameters:
+    - id: "value"
+      type: "java.lang.String"
+      description: "The value of the identifier."
 - uid: "com.microsoft.store.partnercenter.models.entitlements.ReferenceOrder.setLineItemId(java.lang.String)"
   id: "setLineItemId(java.lang.String)"
   parent: "com.microsoft.store.partnercenter.models.entitlements.ReferenceOrder"
