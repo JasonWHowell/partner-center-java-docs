@@ -40,13 +40,15 @@ items:
       description: "An operations interface customized for the provided country."
 references:
 - uid: "java.lang.String"
-  name: "String"
-  nameWithType: "String"
-  fullName: "java.lang.String"
+  spec.java:
+  - uid: "java.lang.String"
+    name: "String"
+    fullName: "java.lang.String"
 - uid: "TOperations"
-  name: "TOperations"
-  nameWithType: "TOperations"
-  fullName: "TOperations"
+  spec.java:
+  - uid: "TOperations"
+    name: "TOperations"
+    fullName: "TOperations"
 - uid: "com.microsoft.store.partnercenter.genericoperations.ICountrySelector.byCountry*"
   name: "byCountry"
   nameWithType: "ICountrySelector<TOperations>.byCountry"

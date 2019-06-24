@@ -40,13 +40,15 @@ items:
       description: "The entity's behavior."
 references:
 - uid: "TTYpe"
-  name: "TTYpe"
-  nameWithType: "TTYpe"
-  fullName: "TTYpe"
+  spec.java:
+  - uid: "TTYpe"
+    name: "TTYpe"
+    fullName: "TTYpe"
 - uid: "TEntity"
-  name: "TEntity"
-  nameWithType: "TEntity"
-  fullName: "TEntity"
+  spec.java:
+  - uid: "TEntity"
+    name: "TEntity"
+    fullName: "TEntity"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntitySelector.byId*"
   name: "byId"
   nameWithType: "IEntitySelector<TTYpe,TEntity>.byId"

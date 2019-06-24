@@ -132,9 +132,10 @@ items:
       type: "com.microsoft.store.partnercenter.models.invoices.InvoiceLineItemType[]"
 references:
 - uid: "java.lang.String"
-  name: "String"
-  nameWithType: "String"
-  fullName: "java.lang.String"
+  spec.java:
+  - uid: "java.lang.String"
+    name: "String"
+    fullName: "java.lang.String"
 - uid: "com.microsoft.store.partnercenter.models.invoices.InvoiceLineItemType.InvoiceLineItemType*"
   name: "InvoiceLineItemType"
   nameWithType: "InvoiceLineItemType.InvoiceLineItemType"

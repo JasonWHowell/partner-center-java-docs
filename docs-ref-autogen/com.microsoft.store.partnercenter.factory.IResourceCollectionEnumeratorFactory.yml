@@ -40,13 +40,14 @@ items:
       description: "A customer collection enumerator capable of traversing customers."
 references:
 - uid: "T"
-  name: "T"
-  nameWithType: "T"
-  fullName: "T"
+  spec.java:
+  - uid: "T"
+    name: "T"
+    fullName: "T"
 - uid: "com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumerator<T>"
   spec.java:
   - uid: "com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumerator"
-    name: "com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumerator"
+    name: "IResourceCollectionEnumerator"
     fullName: "com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumerator"
   - name: "<"
     fullName: "<"

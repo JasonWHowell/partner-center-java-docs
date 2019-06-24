@@ -104,9 +104,10 @@ items:
       description: "The requested customer users."
 references:
 - uid: "java.lang.String"
-  name: "String"
-  nameWithType: "String"
-  fullName: "java.lang.String"
+  spec.java:
+  - uid: "java.lang.String"
+    name: "String"
+    fullName: "java.lang.String"
 - uid: "com.microsoft.store.partnercenter.customerusers.ICustomerUser"
   name: "ICustomerUser"
   nameWithType: "ICustomerUser"
@@ -123,12 +124,12 @@ references:
 - uid: "com.microsoft.store.partnercenter.models.SeekBasedResourceCollection<com.microsoft.store.partnercenter.models.users.CustomerUser>"
   spec.java:
   - uid: "com.microsoft.store.partnercenter.models.SeekBasedResourceCollection"
-    name: "com.microsoft.store.partnercenter.models.SeekBasedResourceCollection"
+    name: "SeekBasedResourceCollection"
     fullName: "com.microsoft.store.partnercenter.models.SeekBasedResourceCollection"
   - name: "<"
     fullName: "<"
   - uid: "com.microsoft.store.partnercenter.models.users.CustomerUser"
-    name: "com.microsoft.store.partnercenter.models.users.CustomerUser"
+    name: "CustomerUser"
     fullName: "com.microsoft.store.partnercenter.models.users.CustomerUser"
   - name: ">"
     fullName: ">"

@@ -117,9 +117,10 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.carts.CartError.setErrorCode"
   package: "com.microsoft.store.partnercenter.models.carts"
 - uid: "java.lang.String"
-  name: "String"
-  nameWithType: "String"
-  fullName: "java.lang.String"
+  spec.java:
+  - uid: "java.lang.String"
+    name: "String"
+    fullName: "java.lang.String"
 - uid: "com.microsoft.store.partnercenter.models.carts.CartError.getErrorDescription*"
   name: "getErrorDescription"
   nameWithType: "CartError.getErrorDescription"

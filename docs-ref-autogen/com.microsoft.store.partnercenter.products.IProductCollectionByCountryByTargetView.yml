@@ -59,9 +59,10 @@ items:
       description: "The products in the given country and catalog view."
 references:
 - uid: "java.lang.String"
-  name: "String"
-  nameWithType: "String"
-  fullName: "java.lang.String"
+  spec.java:
+  - uid: "java.lang.String"
+    name: "String"
+    fullName: "java.lang.String"
 - uid: "com.microsoft.store.partnercenter.products.IProductCollectionByCountryByTargetViewByTargetSegment"
   name: "IProductCollectionByCountryByTargetViewByTargetSegment"
   nameWithType: "IProductCollectionByCountryByTargetViewByTargetSegment"
@@ -74,12 +75,12 @@ references:
 - uid: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.products.Product>"
   spec.java:
   - uid: "com.microsoft.store.partnercenter.models.ResourceCollection"
-    name: "com.microsoft.store.partnercenter.models.ResourceCollection"
+    name: "ResourceCollection"
     fullName: "com.microsoft.store.partnercenter.models.ResourceCollection"
   - name: "<"
     fullName: "<"
   - uid: "com.microsoft.store.partnercenter.models.products.Product"
-    name: "com.microsoft.store.partnercenter.models.products.Product"
+    name: "Product"
     fullName: "com.microsoft.store.partnercenter.models.products.Product"
   - name: ">"
     fullName: ">"

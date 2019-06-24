@@ -70,9 +70,10 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.usage.SpendingBudget.SpendingBudget"
   package: "com.microsoft.store.partnercenter.models.usage"
 - uid: "java.lang.Double"
-  name: "Double"
-  nameWithType: "Double"
-  fullName: "java.lang.Double"
+  spec.java:
+  - uid: "java.lang.Double"
+    name: "Double"
+    fullName: "java.lang.Double"
 - uid: "com.microsoft.store.partnercenter.models.usage.SpendingBudget.getAmount*"
   name: "getAmount"
   nameWithType: "SpendingBudget.getAmount"

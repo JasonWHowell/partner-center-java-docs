@@ -117,9 +117,10 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.usage.CustomerMonthlyUsageRecord.setBudget"
   package: "com.microsoft.store.partnercenter.models.usage"
 - uid: "double"
-  name: "double"
-  nameWithType: "double"
-  fullName: "double"
+  spec.java:
+  - uid: "double"
+    name: "double"
+    fullName: "double"
 - uid: "com.microsoft.store.partnercenter.models.usage.CustomerMonthlyUsageRecord.getPercentUsed*"
   name: "getPercentUsed"
   nameWithType: "CustomerMonthlyUsageRecord.getPercentUsed"

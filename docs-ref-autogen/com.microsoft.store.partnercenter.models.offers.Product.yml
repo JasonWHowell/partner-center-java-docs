@@ -136,9 +136,10 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.offers.Product.Product"
   package: "com.microsoft.store.partnercenter.models.offers"
 - uid: "java.lang.String"
-  name: "String"
-  nameWithType: "String"
-  fullName: "java.lang.String"
+  spec.java:
+  - uid: "java.lang.String"
+    name: "String"
+    fullName: "java.lang.String"
 - uid: "com.microsoft.store.partnercenter.models.offers.Product.getId*"
   name: "getId"
   nameWithType: "Product.getId"

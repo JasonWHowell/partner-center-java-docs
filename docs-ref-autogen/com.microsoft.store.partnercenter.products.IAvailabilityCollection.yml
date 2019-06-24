@@ -82,9 +82,10 @@ items:
       description: "The availabilities for the provided SKU."
 references:
 - uid: "java.lang.String"
-  name: "String"
-  nameWithType: "String"
-  fullName: "java.lang.String"
+  spec.java:
+  - uid: "java.lang.String"
+    name: "String"
+    fullName: "java.lang.String"
 - uid: "com.microsoft.store.partnercenter.products.IAvailability"
   name: "IAvailability"
   nameWithType: "IAvailability"
@@ -106,12 +107,12 @@ references:
 - uid: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.products.Availability>"
   spec.java:
   - uid: "com.microsoft.store.partnercenter.models.ResourceCollection"
-    name: "com.microsoft.store.partnercenter.models.ResourceCollection"
+    name: "ResourceCollection"
     fullName: "com.microsoft.store.partnercenter.models.ResourceCollection"
   - name: "<"
     fullName: "<"
   - uid: "com.microsoft.store.partnercenter.models.products.Availability"
-    name: "com.microsoft.store.partnercenter.models.products.Availability"
+    name: "Availability"
     fullName: "com.microsoft.store.partnercenter.models.products.Availability"
   - name: ">"
     fullName: ">"

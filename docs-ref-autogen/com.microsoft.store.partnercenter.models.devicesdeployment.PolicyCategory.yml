@@ -119,9 +119,10 @@ items:
       type: "com.microsoft.store.partnercenter.models.devicesdeployment.PolicyCategory[]"
 references:
 - uid: "java.lang.String"
-  name: "String"
-  nameWithType: "String"
-  fullName: "java.lang.String"
+  spec.java:
+  - uid: "java.lang.String"
+    name: "String"
+    fullName: "java.lang.String"
 - uid: "com.microsoft.store.partnercenter.models.devicesdeployment.PolicyCategory.PolicyCategory*"
   name: "PolicyCategory"
   nameWithType: "PolicyCategory.PolicyCategory"

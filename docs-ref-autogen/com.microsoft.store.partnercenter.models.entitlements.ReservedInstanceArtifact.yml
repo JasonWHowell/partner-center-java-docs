@@ -125,9 +125,10 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.entitlements.ReservedInstanceArtifact.setLink"
   package: "com.microsoft.store.partnercenter.models.entitlements"
 - uid: "java.lang.String"
-  name: "String"
-  nameWithType: "String"
-  fullName: "java.lang.String"
+  spec.java:
+  - uid: "java.lang.String"
+    name: "String"
+    fullName: "java.lang.String"
 - uid: "com.microsoft.store.partnercenter.models.entitlements.ReservedInstanceArtifact.getResourceId*"
   name: "getResourceId"
   nameWithType: "ReservedInstanceArtifact.getResourceId"

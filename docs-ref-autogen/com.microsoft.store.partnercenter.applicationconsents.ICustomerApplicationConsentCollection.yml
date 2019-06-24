@@ -64,9 +64,10 @@ items:
       description: "ApplicationConsent entity."
 references:
 - uid: "java.lang.String"
-  name: "String"
-  nameWithType: "String"
-  fullName: "java.lang.String"
+  spec.java:
+  - uid: "java.lang.String"
+    name: "String"
+    fullName: "java.lang.String"
 - uid: "com.microsoft.store.partnercenter.applicationconsents.IApplicationConsent"
   name: "IApplicationConsent"
   nameWithType: "IApplicationConsent"

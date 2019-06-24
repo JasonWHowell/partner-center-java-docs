@@ -127,9 +127,10 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.orders.Pricing.Pricing"
   package: "com.microsoft.store.partnercenter.models.orders"
 - uid: "java.lang.Double"
-  name: "Double"
-  nameWithType: "Double"
-  fullName: "java.lang.Double"
+  spec.java:
+  - uid: "java.lang.Double"
+    name: "Double"
+    fullName: "java.lang.Double"
 - uid: "com.microsoft.store.partnercenter.models.orders.Pricing.getDiscountedPrice*"
   name: "getDiscountedPrice"
   nameWithType: "Pricing.getDiscountedPrice"

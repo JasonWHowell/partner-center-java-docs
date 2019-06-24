@@ -43,9 +43,10 @@ items:
       description: "The updated customer profile."
 references:
 - uid: "T"
-  name: "T"
-  nameWithType: "T"
-  fullName: "T"
+  spec.java:
+  - uid: "T"
+    name: "T"
+    fullName: "T"
 - uid: "com.microsoft.store.partnercenter.customers.profiles.ICustomerProfile.update*"
   name: "update"
   nameWithType: "ICustomerProfile<T>.update"

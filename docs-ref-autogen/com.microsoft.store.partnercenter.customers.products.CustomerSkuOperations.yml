@@ -88,9 +88,10 @@ references:
   nameWithType: "IPartner"
   fullName: "com.microsoft.store.partnercenter.IPartner"
 - uid: "java.lang.String"
-  name: "String"
-  nameWithType: "String"
-  fullName: "java.lang.String"
+  spec.java:
+  - uid: "java.lang.String"
+    name: "String"
+    fullName: "java.lang.String"
 - uid: "com.microsoft.store.partnercenter.customers.products.CustomerSkuOperations.CustomerSkuOperations*"
   name: "CustomerSkuOperations"
   nameWithType: "CustomerSkuOperations.CustomerSkuOperations"

@@ -37,9 +37,10 @@ items:
       description: "The entities."
 references:
 - uid: "TResourceCollection"
-  name: "TResourceCollection"
-  nameWithType: "TResourceCollection"
-  fullName: "TResourceCollection"
+  spec.java:
+  - uid: "TResourceCollection"
+    name: "TResourceCollection"
+    fullName: "TResourceCollection"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations.get*"
   name: "get"
   nameWithType: "IEntireEntityCollectionRetrievalOperations<T,TResourceCollection>.get"

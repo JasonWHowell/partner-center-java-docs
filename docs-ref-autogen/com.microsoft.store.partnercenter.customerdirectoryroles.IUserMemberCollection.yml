@@ -105,9 +105,10 @@ items:
       description: "The directory role user members."
 references:
 - uid: "java.lang.String"
-  name: "String"
-  nameWithType: "String"
-  fullName: "java.lang.String"
+  spec.java:
+  - uid: "java.lang.String"
+    name: "String"
+    fullName: "java.lang.String"
 - uid: "com.microsoft.store.partnercenter.customerdirectoryroles.IUserMember"
   name: "IUserMember"
   nameWithType: "IUserMember"
@@ -133,12 +134,12 @@ references:
 - uid: "com.microsoft.store.partnercenter.models.SeekBasedResourceCollection<com.microsoft.store.partnercenter.models.roles.UserMember>"
   spec.java:
   - uid: "com.microsoft.store.partnercenter.models.SeekBasedResourceCollection"
-    name: "com.microsoft.store.partnercenter.models.SeekBasedResourceCollection"
+    name: "SeekBasedResourceCollection"
     fullName: "com.microsoft.store.partnercenter.models.SeekBasedResourceCollection"
   - name: "<"
     fullName: "<"
   - uid: "com.microsoft.store.partnercenter.models.roles.UserMember"
-    name: "com.microsoft.store.partnercenter.models.roles.UserMember"
+    name: "UserMember"
     fullName: "com.microsoft.store.partnercenter.models.roles.UserMember"
   - name: ">"
     fullName: ">"

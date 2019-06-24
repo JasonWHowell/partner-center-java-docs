@@ -182,9 +182,10 @@ items:
       type: "com.microsoft.store.partnercenter.models.customers.CustomerPartnerRelationship[]"
 references:
 - uid: "java.lang.String"
-  name: "String"
-  nameWithType: "String"
-  fullName: "java.lang.String"
+  spec.java:
+  - uid: "java.lang.String"
+    name: "String"
+    fullName: "java.lang.String"
 - uid: "com.microsoft.store.partnercenter.models.customers.CustomerPartnerRelationship.CustomerPartnerRelationship*"
   name: "CustomerPartnerRelationship"
   nameWithType: "CustomerPartnerRelationship.CustomerPartnerRelationship"

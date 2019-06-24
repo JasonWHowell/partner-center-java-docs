@@ -135,9 +135,10 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.roles.UserMember.UserMember"
   package: "com.microsoft.store.partnercenter.models.roles"
 - uid: "java.lang.String"
-  name: "String"
-  nameWithType: "String"
-  fullName: "java.lang.String"
+  spec.java:
+  - uid: "java.lang.String"
+    name: "String"
+    fullName: "java.lang.String"
 - uid: "com.microsoft.store.partnercenter.models.roles.UserMember.getId*"
   name: "getId"
   nameWithType: "UserMember.getId"

@@ -134,9 +134,10 @@ items:
       type: "com.microsoft.store.partnercenter.models.partners.VettingVersion[]"
 references:
 - uid: "java.lang.String"
-  name: "String"
-  nameWithType: "String"
-  fullName: "java.lang.String"
+  spec.java:
+  - uid: "java.lang.String"
+    name: "String"
+    fullName: "java.lang.String"
 - uid: "com.microsoft.store.partnercenter.models.partners.VettingVersion.VettingVersion*"
   name: "VettingVersion"
   nameWithType: "VettingVersion.VettingVersion"

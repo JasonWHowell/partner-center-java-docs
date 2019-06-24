@@ -120,7 +120,7 @@ references:
 - uid: "java.lang.Class<?>"
   spec.java:
   - uid: "java.lang.Class"
-    name: "java.lang.Class"
+    name: "Class"
     fullName: "java.lang.Class"
   - name: "<"
     fullName: "<"
@@ -135,9 +135,10 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.ResourceAttributes.ResourceAttributes"
   package: "com.microsoft.store.partnercenter.models"
 - uid: "java.lang.String"
-  name: "String"
-  nameWithType: "String"
-  fullName: "java.lang.String"
+  spec.java:
+  - uid: "java.lang.String"
+    name: "String"
+    fullName: "java.lang.String"
 - uid: "com.microsoft.store.partnercenter.models.ResourceAttributes.getEtag*"
   name: "getEtag"
   nameWithType: "ResourceAttributes.getEtag"

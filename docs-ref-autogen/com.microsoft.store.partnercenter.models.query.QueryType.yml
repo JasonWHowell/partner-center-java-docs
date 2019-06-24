@@ -139,9 +139,10 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.query.QueryType.values"
   package: "com.microsoft.store.partnercenter.models.query"
 - uid: "java.lang.String"
-  name: "String"
-  nameWithType: "String"
-  fullName: "java.lang.String"
+  spec.java:
+  - uid: "java.lang.String"
+    name: "String"
+    fullName: "java.lang.String"
 - uid: "com.microsoft.store.partnercenter.models.query.QueryType.valueOf*"
   name: "valueOf"
   nameWithType: "QueryType.valueOf"

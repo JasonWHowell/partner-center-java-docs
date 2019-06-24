@@ -169,9 +169,10 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.Contact.Contact"
   package: "com.microsoft.store.partnercenter.models"
 - uid: "java.lang.String"
-  name: "String"
-  nameWithType: "String"
-  fullName: "java.lang.String"
+  spec.java:
+  - uid: "java.lang.String"
+    name: "String"
+    fullName: "java.lang.String"
 - uid: "com.microsoft.store.partnercenter.models.Contact.getFirstName*"
   name: "getFirstName"
   nameWithType: "Contact.getFirstName"

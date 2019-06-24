@@ -44,13 +44,15 @@ items:
       description: "The requested entities subset."
 references:
 - uid: "int"
-  name: "int"
-  nameWithType: "int"
-  fullName: "int"
+  spec.java:
+  - uid: "int"
+    name: "int"
+    fullName: "int"
 - uid: "TResourceCollection"
-  name: "TResourceCollection"
-  nameWithType: "TResourceCollection"
-  fullName: "TResourceCollection"
+  spec.java:
+  - uid: "TResourceCollection"
+    name: "TResourceCollection"
+    fullName: "TResourceCollection"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IPagedEntityCollectionRetrievalOperations.get*"
   name: "get"
   nameWithType: "IPagedEntityCollectionRetrievalOperations<T,TResourceCollection>.get"

@@ -36,9 +36,10 @@ items:
       description: "The invoice statement."
 references:
 - uid: "java.io.InputStream"
-  name: "InputStream"
-  nameWithType: "InputStream"
-  fullName: "java.io.InputStream"
+  spec.java:
+  - uid: "java.io.InputStream"
+    name: "InputStream"
+    fullName: "java.io.InputStream"
 - uid: "com.microsoft.store.partnercenter.invoices.IInvoiceStatement.get*"
   name: "get"
   nameWithType: "IInvoiceStatement.get"

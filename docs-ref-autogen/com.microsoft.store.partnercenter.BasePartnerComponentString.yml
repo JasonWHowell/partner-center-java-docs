@@ -68,9 +68,10 @@ references:
   fullName: "com.microsoft.store.partnercenter.BasePartnerComponentString.BasePartnerComponentString"
   package: "com.microsoft.store.partnercenter"
 - uid: "java.lang.String"
-  name: "String"
-  nameWithType: "String"
-  fullName: "java.lang.String"
+  spec.java:
+  - uid: "java.lang.String"
+    name: "String"
+    fullName: "java.lang.String"
 - uid: "com.microsoft.store.partnercenter.BasePartnerComponent<java.lang.String>"
   name: "BasePartnerComponent<String>"
   nameWithType: "BasePartnerComponent<String>"

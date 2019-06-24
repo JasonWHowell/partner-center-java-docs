@@ -63,9 +63,10 @@ references:
   fullName: "com.microsoft.store.partnercenter.IPartnerComponent<TContext>.getPartner"
   package: "com.microsoft.store.partnercenter"
 - uid: "TContext"
-  name: "TContext"
-  nameWithType: "TContext"
-  fullName: "TContext"
+  spec.java:
+  - uid: "TContext"
+    name: "TContext"
+    fullName: "TContext"
 - uid: "com.microsoft.store.partnercenter.IPartnerComponent.getContext*"
   name: "getContext"
   nameWithType: "IPartnerComponent<TContext>.getContext"

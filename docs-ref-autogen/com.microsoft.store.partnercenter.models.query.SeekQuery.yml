@@ -99,9 +99,10 @@ items:
       type: "com.microsoft.store.partnercenter.models.query.SeekOperation"
 references:
 - uid: "java.lang.Object"
-  name: "Object"
-  nameWithType: "Object"
-  fullName: "java.lang.Object"
+  spec.java:
+  - uid: "java.lang.Object"
+    name: "Object"
+    fullName: "java.lang.Object"
 - uid: "com.microsoft.store.partnercenter.models.query.SeekQuery.SeekQuery*"
   name: "SeekQuery"
   nameWithType: "SeekQuery.SeekQuery"

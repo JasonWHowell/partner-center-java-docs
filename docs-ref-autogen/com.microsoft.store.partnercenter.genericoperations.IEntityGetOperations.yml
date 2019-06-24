@@ -36,9 +36,10 @@ items:
       description: "The entity."
 references:
 - uid: "T"
-  name: "T"
-  nameWithType: "T"
-  fullName: "T"
+  spec.java:
+  - uid: "T"
+    name: "T"
+    fullName: "T"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations.get*"
   name: "get"
   nameWithType: "IEntityGetOperations<T>.get"

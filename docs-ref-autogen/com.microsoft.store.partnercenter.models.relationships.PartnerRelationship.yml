@@ -235,9 +235,10 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.relationships.PartnerRelationship.PartnerRelationship"
   package: "com.microsoft.store.partnercenter.models.relationships"
 - uid: "java.lang.String"
-  name: "String"
-  nameWithType: "String"
-  fullName: "java.lang.String"
+  spec.java:
+  - uid: "java.lang.String"
+    name: "String"
+    fullName: "java.lang.String"
 - uid: "com.microsoft.store.partnercenter.models.relationships.PartnerRelationship.getId*"
   name: "getId"
   nameWithType: "PartnerRelationship.getId"

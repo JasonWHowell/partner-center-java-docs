@@ -60,9 +60,10 @@ items:
       description: "All the customer directory roles."
 references:
 - uid: "java.lang.String"
-  name: "String"
-  nameWithType: "String"
-  fullName: "java.lang.String"
+  spec.java:
+  - uid: "java.lang.String"
+    name: "String"
+    fullName: "java.lang.String"
 - uid: "com.microsoft.store.partnercenter.customerdirectoryroles.IDirectoryRole"
   name: "IDirectoryRole"
   nameWithType: "IDirectoryRole"
@@ -75,12 +76,12 @@ references:
 - uid: "com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.roles.DirectoryRole>"
   spec.java:
   - uid: "com.microsoft.store.partnercenter.models.ResourceCollection"
-    name: "com.microsoft.store.partnercenter.models.ResourceCollection"
+    name: "ResourceCollection"
     fullName: "com.microsoft.store.partnercenter.models.ResourceCollection"
   - name: "<"
     fullName: "<"
   - uid: "com.microsoft.store.partnercenter.models.roles.DirectoryRole"
-    name: "com.microsoft.store.partnercenter.models.roles.DirectoryRole"
+    name: "DirectoryRole"
     fullName: "com.microsoft.store.partnercenter.models.roles.DirectoryRole"
   - name: ">"
     fullName: ">"

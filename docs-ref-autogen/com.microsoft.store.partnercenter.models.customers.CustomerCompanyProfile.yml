@@ -237,9 +237,10 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile.setAddress"
   package: "com.microsoft.store.partnercenter.models.customers"
 - uid: "java.lang.String"
-  name: "String"
-  nameWithType: "String"
-  fullName: "java.lang.String"
+  spec.java:
+  - uid: "java.lang.String"
+    name: "String"
+    fullName: "java.lang.String"
 - uid: "com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile.getCompanyName*"
   name: "getCompanyName"
   nameWithType: "CustomerCompanyProfile.getCompanyName"

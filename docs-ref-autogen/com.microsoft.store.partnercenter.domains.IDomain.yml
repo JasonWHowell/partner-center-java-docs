@@ -36,9 +36,10 @@ items:
       description: "true if the domain exists, false otherwise."
 references:
 - uid: "boolean"
-  name: "boolean"
-  nameWithType: "boolean"
-  fullName: "boolean"
+  spec.java:
+  - uid: "boolean"
+    name: "boolean"
+    fullName: "boolean"
 - uid: "com.microsoft.store.partnercenter.domains.IDomain.exists*"
   name: "exists"
   nameWithType: "IDomain.exists"

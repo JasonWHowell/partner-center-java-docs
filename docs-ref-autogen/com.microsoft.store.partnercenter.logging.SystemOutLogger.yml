@@ -96,9 +96,10 @@ references:
   fullName: "com.microsoft.store.partnercenter.logging.SystemOutLogger.SystemOutLogger"
   package: "com.microsoft.store.partnercenter.logging"
 - uid: "java.lang.String"
-  name: "String"
-  nameWithType: "String"
-  fullName: "java.lang.String"
+  spec.java:
+  - uid: "java.lang.String"
+    name: "String"
+    fullName: "java.lang.String"
 - uid: "com.microsoft.store.partnercenter.logging.SystemOutLogger.logInformation*"
   name: "logInformation"
   nameWithType: "SystemOutLogger.logInformation"

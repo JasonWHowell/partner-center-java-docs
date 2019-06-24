@@ -158,9 +158,10 @@ items:
       description: "An optional request context. If not provided, the context associated with the partner operations\n            will be used."
 references:
 - uid: "boolean"
-  name: "boolean"
-  nameWithType: "boolean"
-  fullName: "boolean"
+  spec.java:
+  - uid: "boolean"
+    name: "boolean"
+    fullName: "boolean"
 - uid: "com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumerator.isFirstPage*"
   name: "isFirstPage"
   nameWithType: "IResourceCollectionEnumerator<T>.isFirstPage"
@@ -177,9 +178,10 @@ references:
   fullName: "com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumerator<T>.hasValue"
   package: "com.microsoft.store.partnercenter.enumerators"
 - uid: "T"
-  name: "T"
-  nameWithType: "T"
-  fullName: "T"
+  spec.java:
+  - uid: "T"
+    name: "T"
+    fullName: "T"
 - uid: "com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumerator.getCurrent*"
   name: "getCurrent"
   nameWithType: "IResourceCollectionEnumerator<T>.getCurrent"

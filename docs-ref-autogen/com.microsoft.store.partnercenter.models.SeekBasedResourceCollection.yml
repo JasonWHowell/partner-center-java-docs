@@ -115,7 +115,7 @@ references:
 - uid: "java.util.List<T>"
   spec.java:
   - uid: "java.util.List"
-    name: "java.util.List"
+    name: "List"
     fullName: "java.util.List"
   - name: "<"
     fullName: "<"
@@ -132,7 +132,7 @@ references:
 - uid: "com.microsoft.store.partnercenter.models.ResourceCollection<T>"
   spec.java:
   - uid: "com.microsoft.store.partnercenter.models.ResourceCollection"
-    name: "com.microsoft.store.partnercenter.models.ResourceCollection"
+    name: "ResourceCollection"
     fullName: "com.microsoft.store.partnercenter.models.ResourceCollection"
   - name: "<"
     fullName: "<"
@@ -142,9 +142,10 @@ references:
   - name: ">"
     fullName: ">"
 - uid: "java.lang.String"
-  name: "String"
-  nameWithType: "String"
-  fullName: "java.lang.String"
+  spec.java:
+  - uid: "java.lang.String"
+    name: "String"
+    fullName: "java.lang.String"
 - uid: "com.microsoft.store.partnercenter.models.SeekBasedResourceCollection.getContinuationToken*"
   name: "getContinuationToken"
   nameWithType: "SeekBasedResourceCollection<T>.getContinuationToken"

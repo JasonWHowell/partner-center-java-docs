@@ -41,13 +41,15 @@ items:
       description: "The entity information that was just created."
 references:
 - uid: "T"
-  name: "T"
-  nameWithType: "T"
-  fullName: "T"
+  spec.java:
+  - uid: "T"
+    name: "T"
+    fullName: "T"
 - uid: "T1"
-  name: "T1"
-  nameWithType: "T1"
-  fullName: "T1"
+  spec.java:
+  - uid: "T1"
+    name: "T1"
+    fullName: "T1"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations.create*"
   name: "create"
   nameWithType: "IEntityCreateOperations<T,T1>.create"

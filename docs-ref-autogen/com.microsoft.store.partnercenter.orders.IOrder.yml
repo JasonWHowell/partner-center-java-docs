@@ -96,9 +96,10 @@ references:
   fullName: "com.microsoft.store.partnercenter.orders.IOrder.getProvisioningStatus"
   package: "com.microsoft.store.partnercenter.orders"
 - uid: "java.lang.Boolean"
-  name: "Boolean"
-  nameWithType: "Boolean"
-  fullName: "java.lang.Boolean"
+  spec.java:
+  - uid: "java.lang.Boolean"
+    name: "Boolean"
+    fullName: "java.lang.Boolean"
 - uid: "com.microsoft.store.partnercenter.models.orders.Order"
   name: "Order"
   nameWithType: "Order"

@@ -73,7 +73,7 @@ references:
 - uid: "com.fasterxml.jackson.core.type.TypeReference<TResourceCollection>"
   spec.java:
   - uid: "com.fasterxml.jackson.core.type.TypeReference"
-    name: "com.fasterxml.jackson.core.type.TypeReference"
+    name: "TypeReference"
     fullName: "com.fasterxml.jackson.core.type.TypeReference"
   - name: "<"
     fullName: "<"
@@ -88,13 +88,14 @@ references:
   fullName: "com.microsoft.store.partnercenter.factory.IndexBasedCollectionEnumeratorFactory<T,TResourceCollection>.IndexBasedCollectionEnumeratorFactory"
   package: "com.microsoft.store.partnercenter.factory"
 - uid: "TResourceCollection"
-  name: "TResourceCollection"
-  nameWithType: "TResourceCollection"
-  fullName: "TResourceCollection"
+  spec.java:
+  - uid: "TResourceCollection"
+    name: "TResourceCollection"
+    fullName: "TResourceCollection"
 - uid: "com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumerator<TResourceCollection>"
   spec.java:
   - uid: "com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumerator"
-    name: "com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumerator"
+    name: "IResourceCollectionEnumerator"
     fullName: "com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumerator"
   - name: "<"
     fullName: "<"

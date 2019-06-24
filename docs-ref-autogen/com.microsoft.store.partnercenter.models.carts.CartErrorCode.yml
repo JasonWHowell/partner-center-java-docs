@@ -264,9 +264,10 @@ items:
       type: "com.microsoft.store.partnercenter.models.carts.CartErrorCode[]"
 references:
 - uid: "int"
-  name: "int"
-  nameWithType: "int"
-  fullName: "int"
+  spec.java:
+  - uid: "int"
+    name: "int"
+    fullName: "int"
 - uid: "com.microsoft.store.partnercenter.models.carts.CartErrorCode.CartErrorCode*"
   name: "CartErrorCode"
   nameWithType: "CartErrorCode.CartErrorCode"
@@ -278,9 +279,10 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.carts.CartErrorCode.values"
   package: "com.microsoft.store.partnercenter.models.carts"
 - uid: "java.lang.String"
-  name: "String"
-  nameWithType: "String"
-  fullName: "java.lang.String"
+  spec.java:
+  - uid: "java.lang.String"
+    name: "String"
+    fullName: "java.lang.String"
 - uid: "com.microsoft.store.partnercenter.models.carts.CartErrorCode.valueOf*"
   name: "valueOf"
   nameWithType: "CartErrorCode.valueOf"

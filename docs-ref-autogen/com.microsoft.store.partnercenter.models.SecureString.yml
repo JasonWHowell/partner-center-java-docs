@@ -69,9 +69,10 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.SecureString.SecureString"
   package: "com.microsoft.store.partnercenter.models"
 - uid: "int"
-  name: "int"
-  nameWithType: "int"
-  fullName: "int"
+  spec.java:
+  - uid: "int"
+    name: "int"
+    fullName: "int"
 - uid: "com.microsoft.store.partnercenter.models.SecureString.getLength*"
   name: "getLength"
   nameWithType: "SecureString.getLength"

@@ -201,9 +201,10 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.licenses.ServicePlan.ServicePlan"
   package: "com.microsoft.store.partnercenter.models.licenses"
 - uid: "java.lang.String"
-  name: "String"
-  nameWithType: "String"
-  fullName: "java.lang.String"
+  spec.java:
+  - uid: "java.lang.String"
+    name: "String"
+    fullName: "java.lang.String"
 - uid: "com.microsoft.store.partnercenter.models.licenses.ServicePlan.getDisplayName*"
   name: "getDisplayName"
   nameWithType: "ServicePlan.getDisplayName"

@@ -63,9 +63,10 @@ items:
       description: "The exception to throw."
 references:
 - uid: "okhttp3.Response"
-  name: "Response"
-  nameWithType: "Response"
-  fullName: "okhttp3.Response"
+  spec.java:
+  - uid: "okhttp3.Response"
+    name: "Response"
+    fullName: "okhttp3.Response"
 - uid: "com.microsoft.store.partnercenter.exception.PartnerException"
   name: "PartnerException"
   nameWithType: "PartnerException"

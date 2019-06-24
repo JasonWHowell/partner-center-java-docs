@@ -111,9 +111,10 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.orders.OrderLineItemActivationLink.OrderLineItemActivationLink"
   package: "com.microsoft.store.partnercenter.models.orders"
 - uid: "int"
-  name: "int"
-  nameWithType: "int"
-  fullName: "int"
+  spec.java:
+  - uid: "int"
+    name: "int"
+    fullName: "int"
 - uid: "com.microsoft.store.partnercenter.models.orders.OrderLineItemActivationLink.getLineItemNumber*"
   name: "getLineItemNumber"
   nameWithType: "OrderLineItemActivationLink.getLineItemNumber"

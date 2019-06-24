@@ -46,9 +46,10 @@ items:
       description: "The audit records that match the given query."
 references:
 - uid: "org.joda.time.DateTime"
-  name: "DateTime"
-  nameWithType: "DateTime"
-  fullName: "org.joda.time.DateTime"
+  spec.java:
+  - uid: "org.joda.time.DateTime"
+    name: "DateTime"
+    fullName: "org.joda.time.DateTime"
 - uid: "com.microsoft.store.partnercenter.models.query.IQuery"
   name: "IQuery"
   nameWithType: "IQuery"
@@ -56,12 +57,12 @@ references:
 - uid: "com.microsoft.store.partnercenter.models.SeekBasedResourceCollection<com.microsoft.store.partnercenter.models.auditing.AuditRecord>"
   spec.java:
   - uid: "com.microsoft.store.partnercenter.models.SeekBasedResourceCollection"
-    name: "com.microsoft.store.partnercenter.models.SeekBasedResourceCollection"
+    name: "SeekBasedResourceCollection"
     fullName: "com.microsoft.store.partnercenter.models.SeekBasedResourceCollection"
   - name: "<"
     fullName: "<"
   - uid: "com.microsoft.store.partnercenter.models.auditing.AuditRecord"
-    name: "com.microsoft.store.partnercenter.models.auditing.AuditRecord"
+    name: "AuditRecord"
     fullName: "com.microsoft.store.partnercenter.models.auditing.AuditRecord"
   - name: ">"
     fullName: ">"

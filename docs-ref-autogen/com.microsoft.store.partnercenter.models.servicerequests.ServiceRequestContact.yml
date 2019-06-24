@@ -249,9 +249,10 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestContact.setOrganization"
   package: "com.microsoft.store.partnercenter.models.servicerequests"
 - uid: "java.lang.String"
-  name: "String"
-  nameWithType: "String"
-  fullName: "java.lang.String"
+  spec.java:
+  - uid: "java.lang.String"
+    name: "String"
+    fullName: "java.lang.String"
 - uid: "com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestContact.getContactId*"
   name: "getContactId"
   nameWithType: "ServiceRequestContact.getContactId"

@@ -117,9 +117,10 @@ items:
       description: "A string representation of the query."
 references:
 - uid: "java.lang.Object"
-  name: "Object"
-  nameWithType: "Object"
-  fullName: "java.lang.Object"
+  spec.java:
+  - uid: "java.lang.Object"
+    name: "Object"
+    fullName: "java.lang.Object"
 - uid: "com.microsoft.store.partnercenter.models.query.CountQuery.CountQuery*"
   name: "CountQuery"
   nameWithType: "CountQuery.CountQuery"
@@ -149,9 +150,10 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.query.CountQuery.setFilter"
   package: "com.microsoft.store.partnercenter.models.query"
 - uid: "java.lang.String"
-  name: "String"
-  nameWithType: "String"
-  fullName: "java.lang.String"
+  spec.java:
+  - uid: "java.lang.String"
+    name: "String"
+    fullName: "java.lang.String"
 - uid: "com.microsoft.store.partnercenter.models.query.CountQuery.toString*"
   name: "toString"
   nameWithType: "CountQuery.toString"

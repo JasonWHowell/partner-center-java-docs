@@ -60,7 +60,7 @@ references:
 - uid: "java.util.List<TResource>"
   spec.java:
   - uid: "java.util.List"
-    name: "java.util.List"
+    name: "List"
     fullName: "java.util.List"
   - name: "<"
     fullName: "<"
@@ -77,7 +77,7 @@ references:
 - uid: "com.microsoft.store.partnercenter.models.ResourceCollection<TResource>"
   spec.java:
   - uid: "com.microsoft.store.partnercenter.models.ResourceCollection"
-    name: "com.microsoft.store.partnercenter.models.ResourceCollection"
+    name: "ResourceCollection"
     fullName: "com.microsoft.store.partnercenter.models.ResourceCollection"
   - name: "<"
     fullName: "<"

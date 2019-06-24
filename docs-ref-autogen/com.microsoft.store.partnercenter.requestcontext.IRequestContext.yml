@@ -70,9 +70,10 @@ items:
       description: "The request identifier."
 references:
 - uid: "java.util.UUID"
-  name: "UUID"
-  nameWithType: "UUID"
-  fullName: "java.util.UUID"
+  spec.java:
+  - uid: "java.util.UUID"
+    name: "UUID"
+    fullName: "java.util.UUID"
 - uid: "com.microsoft.store.partnercenter.requestcontext.IRequestContext.getRequestId*"
   name: "getRequestId"
   nameWithType: "IRequestContext.getRequestId"
@@ -84,9 +85,10 @@ references:
   fullName: "com.microsoft.store.partnercenter.requestcontext.IRequestContext.getCorrelationId"
   package: "com.microsoft.store.partnercenter.requestcontext"
 - uid: "java.lang.String"
-  name: "String"
-  nameWithType: "String"
-  fullName: "java.lang.String"
+  spec.java:
+  - uid: "java.lang.String"
+    name: "String"
+    fullName: "java.lang.String"
 - uid: "com.microsoft.store.partnercenter.requestcontext.IRequestContext.getLocale*"
   name: "getLocale"
   nameWithType: "IRequestContext.getLocale"

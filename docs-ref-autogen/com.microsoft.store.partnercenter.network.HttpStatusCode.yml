@@ -141,6 +141,7 @@ references:
   fullName: "com.microsoft.store.partnercenter.network.HttpStatusCode.HttpStatusCode"
   package: "com.microsoft.store.partnercenter.network"
 - uid: "int"
-  name: "int"
-  nameWithType: "int"
-  fullName: "int"
+  spec.java:
+  - uid: "int"
+    name: "int"
+    fullName: "int"

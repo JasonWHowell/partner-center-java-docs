@@ -63,9 +63,10 @@ items:
       description: "The catalog view operations by target view"
 references:
 - uid: "java.lang.String"
-  name: "String"
-  nameWithType: "String"
-  fullName: "java.lang.String"
+  spec.java:
+  - uid: "java.lang.String"
+    name: "String"
+    fullName: "java.lang.String"
 - uid: "com.microsoft.store.partnercenter.products.IProduct"
   name: "IProduct"
   nameWithType: "IProduct"

@@ -103,9 +103,10 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.subscriptions.SubscriptionRegistrationStatus.SubscriptionRegistrationStatus"
   package: "com.microsoft.store.partnercenter.models.subscriptions"
 - uid: "java.lang.String"
-  name: "String"
-  nameWithType: "String"
-  fullName: "java.lang.String"
+  spec.java:
+  - uid: "java.lang.String"
+    name: "String"
+    fullName: "java.lang.String"
 - uid: "com.microsoft.store.partnercenter.models.subscriptions.SubscriptionRegistrationStatus.getSubscriptionId*"
   name: "getSubscriptionId"
   nameWithType: "SubscriptionRegistrationStatus.getSubscriptionId"

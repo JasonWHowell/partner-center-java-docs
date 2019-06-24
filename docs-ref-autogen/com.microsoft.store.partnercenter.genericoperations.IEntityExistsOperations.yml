@@ -33,9 +33,10 @@ items:
       description: "A value indicating whether the entity exists or not."
 references:
 - uid: "boolean"
-  name: "boolean"
-  nameWithType: "boolean"
-  fullName: "boolean"
+  spec.java:
+  - uid: "boolean"
+    name: "boolean"
+    fullName: "boolean"
 - uid: "com.microsoft.store.partnercenter.genericoperations.IEntityExistsOperations.exists*"
   name: "exists"
   nameWithType: "IEntityExistsOperations.exists"

@@ -103,9 +103,10 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.partners.MpnProfile.MpnProfile"
   package: "com.microsoft.store.partnercenter.models.partners"
 - uid: "java.lang.String"
-  name: "String"
-  nameWithType: "String"
-  fullName: "java.lang.String"
+  spec.java:
+  - uid: "java.lang.String"
+    name: "String"
+    fullName: "java.lang.String"
 - uid: "com.microsoft.store.partnercenter.models.partners.MpnProfile.getPartnerName*"
   name: "getPartnerName"
   nameWithType: "MpnProfile.getPartnerName"

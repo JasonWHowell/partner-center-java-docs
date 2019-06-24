@@ -367,9 +367,10 @@ references:
   fullName: "com.microsoft.store.partnercenter.models.Address.Address"
   package: "com.microsoft.store.partnercenter.models"
 - uid: "java.lang.String"
-  name: "String"
-  nameWithType: "String"
-  fullName: "java.lang.String"
+  spec.java:
+  - uid: "java.lang.String"
+    name: "String"
+    fullName: "java.lang.String"
 - uid: "com.microsoft.store.partnercenter.models.Address.getCountry*"
   name: "getCountry"
   nameWithType: "Address.getCountry"
