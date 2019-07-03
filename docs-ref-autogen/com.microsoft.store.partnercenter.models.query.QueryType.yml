@@ -20,7 +20,8 @@ items:
   syntax:
     content: "public enum QueryType extends Enum<QueryType>"
   inheritance:
-  - "java.lang.Enum<com.microsoft.store.partnercenter.models.query.QueryType>"
+  - "java.lang.Object"
+  - "java.lang.Enum"
 - uid: "com.microsoft.store.partnercenter.models.query.QueryType.COUNT"
   id: "COUNT"
   parent: "com.microsoft.store.partnercenter.models.query.QueryType"

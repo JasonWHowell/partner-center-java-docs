@@ -18,7 +18,8 @@ items:
   syntax:
     content: "public class SkuOperations extends BasePartnerComponent<TripletTuple<String,String,String>> implements ISku"
   inheritance:
-  - "com.microsoft.store.partnercenter.BasePartnerComponent<com.microsoft.store.partnercenter.models.utils.TripletTuple<java.lang.String,java.lang.String,java.lang.String>>"
+  - "java.lang.Object"
+  - "com.microsoft.store.partnercenter.BasePartnerComponent"
   implements:
   - "com.microsoft.store.partnercenter.products.ISku"
 - uid: "com.microsoft.store.partnercenter.products.SkuOperations.SkuOperations(com.microsoft.store.partnercenter.IPartner,java.lang.String,java.lang.String,java.lang.String)"

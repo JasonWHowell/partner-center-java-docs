@@ -58,6 +58,7 @@ items:
   syntax:
     content: "public class CountryInformation extends ResourceBase"
   inheritance:
+  - "java.lang.Object"
   - "com.microsoft.store.partnercenter.models.ResourceBase"
 - uid: "com.microsoft.store.partnercenter.models.validations.CountryInformation.CountryInformation()"
   id: "CountryInformation()"

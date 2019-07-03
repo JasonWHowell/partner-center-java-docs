@@ -20,7 +20,8 @@ items:
   syntax:
     content: "public enum ParticipantType extends Enum<ParticipantType>"
   inheritance:
-  - "java.lang.Enum<com.microsoft.store.partnercenter.models.carts.ParticipantType>"
+  - "java.lang.Object"
+  - "java.lang.Enum"
 - uid: "com.microsoft.store.partnercenter.models.carts.ParticipantType.ParticipantType(java.lang.String)"
   id: "ParticipantType(java.lang.String)"
   parent: "com.microsoft.store.partnercenter.models.carts.ParticipantType"

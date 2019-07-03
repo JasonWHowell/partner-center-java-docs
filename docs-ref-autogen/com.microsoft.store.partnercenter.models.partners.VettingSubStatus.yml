@@ -25,7 +25,8 @@ items:
   syntax:
     content: "public enum VettingSubStatus extends Enum<VettingSubStatus>"
   inheritance:
-  - "java.lang.Enum<com.microsoft.store.partnercenter.models.partners.VettingSubStatus>"
+  - "java.lang.Object"
+  - "java.lang.Enum"
 - uid: "com.microsoft.store.partnercenter.models.partners.VettingSubStatus.BUSINESS_VERIFICATION"
   id: "BUSINESS_VERIFICATION"
   parent: "com.microsoft.store.partnercenter.models.partners.VettingSubStatus"

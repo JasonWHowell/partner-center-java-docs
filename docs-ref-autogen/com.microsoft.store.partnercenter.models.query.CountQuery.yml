@@ -21,6 +21,7 @@ items:
   syntax:
     content: "public class CountQuery extends BaseQuery"
   inheritance:
+  - "java.lang.Object"
   - "com.microsoft.store.partnercenter.models.query.BaseQuery"
 - uid: "com.microsoft.store.partnercenter.models.query.CountQuery.CountQuery()"
   id: "CountQuery()"

@@ -22,6 +22,10 @@ items:
   syntax:
     content: "public class PartnerResponseParseException extends PartnerException"
   inheritance:
+  - "java.lang.Object"
+  - "java.lang.Throwable"
+  - "java.lang.Exception"
+  - "java.lang.RuntimeException"
   - "com.microsoft.store.partnercenter.exception.PartnerException"
 - uid: "com.microsoft.store.partnercenter.exception.PartnerResponseParseException.PartnerResponseParseException()"
   id: "PartnerResponseParseException()"

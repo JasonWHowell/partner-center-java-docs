@@ -27,7 +27,8 @@ items:
   syntax:
     content: "public enum UpgradeErrorCode extends Enum<UpgradeErrorCode>"
   inheritance:
-  - "java.lang.Enum<com.microsoft.store.partnercenter.models.subscriptions.UpgradeErrorCode>"
+  - "java.lang.Object"
+  - "java.lang.Enum"
 - uid: "com.microsoft.store.partnercenter.models.subscriptions.UpgradeErrorCode.CONCURRENCY_CONFLICTS"
   id: "CONCURRENCY_CONFLICTS"
   parent: "com.microsoft.store.partnercenter.models.subscriptions.UpgradeErrorCode"

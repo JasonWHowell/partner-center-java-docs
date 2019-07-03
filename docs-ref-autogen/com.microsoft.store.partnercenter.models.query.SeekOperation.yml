@@ -22,7 +22,8 @@ items:
   syntax:
     content: "public enum SeekOperation extends Enum<SeekOperation>"
   inheritance:
-  - "java.lang.Enum<com.microsoft.store.partnercenter.models.query.SeekOperation>"
+  - "java.lang.Object"
+  - "java.lang.Enum"
 - uid: "com.microsoft.store.partnercenter.models.query.SeekOperation.FIRST"
   id: "FIRST"
   parent: "com.microsoft.store.partnercenter.models.query.SeekOperation"

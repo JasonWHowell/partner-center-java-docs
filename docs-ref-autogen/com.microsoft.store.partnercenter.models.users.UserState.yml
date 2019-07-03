@@ -20,7 +20,8 @@ items:
   syntax:
     content: "public enum UserState extends Enum<UserState>"
   inheritance:
-  - "java.lang.Enum<com.microsoft.store.partnercenter.models.users.UserState>"
+  - "java.lang.Object"
+  - "java.lang.Enum"
 - uid: "com.microsoft.store.partnercenter.models.users.UserState.ACTIVE"
   id: "ACTIVE"
   parent: "com.microsoft.store.partnercenter.models.users.UserState"

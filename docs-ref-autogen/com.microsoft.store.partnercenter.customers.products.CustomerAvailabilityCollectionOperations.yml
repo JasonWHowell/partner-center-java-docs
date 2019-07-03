@@ -19,7 +19,8 @@ items:
   syntax:
     content: "public class CustomerAvailabilityCollectionOperations extends BasePartnerComponent<TripletTuple<String,String,String>> implements IAvailabilityCollection"
   inheritance:
-  - "com.microsoft.store.partnercenter.BasePartnerComponent<com.microsoft.store.partnercenter.models.utils.TripletTuple<java.lang.String,java.lang.String,java.lang.String>>"
+  - "java.lang.Object"
+  - "com.microsoft.store.partnercenter.BasePartnerComponent"
   implements:
   - "com.microsoft.store.partnercenter.products.IAvailabilityCollection"
 - uid: "com.microsoft.store.partnercenter.customers.products.CustomerAvailabilityCollectionOperations.CustomerAvailabilityCollectionOperations(com.microsoft.store.partnercenter.IPartner,java.lang.String,java.lang.String,java.lang.String)"

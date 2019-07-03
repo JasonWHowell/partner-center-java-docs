@@ -20,6 +20,7 @@ items:
   syntax:
     content: "public class StandardResourceCollectionLinks extends StandardResourceLinks"
   inheritance:
+  - "java.lang.Object"
   - "com.microsoft.store.partnercenter.models.StandardResourceLinks"
 - uid: "com.microsoft.store.partnercenter.models.StandardResourceCollectionLinks.StandardResourceCollectionLinks()"
   id: "StandardResourceCollectionLinks()"

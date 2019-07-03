@@ -37,7 +37,8 @@ items:
   syntax:
     content: "public enum ResourceType extends Enum<ResourceType>"
   inheritance:
-  - "java.lang.Enum<com.microsoft.store.partnercenter.models.auditing.ResourceType>"
+  - "java.lang.Object"
+  - "java.lang.Enum"
 - uid: "com.microsoft.store.partnercenter.models.auditing.ResourceType.AGREEMENT"
   id: "AGREEMENT"
   parent: "com.microsoft.store.partnercenter.models.auditing.ResourceType"

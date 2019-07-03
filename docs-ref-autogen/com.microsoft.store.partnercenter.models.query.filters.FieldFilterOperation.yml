@@ -28,7 +28,8 @@ items:
   syntax:
     content: "public enum FieldFilterOperation extends Enum<FieldFilterOperation>"
   inheritance:
-  - "java.lang.Enum<com.microsoft.store.partnercenter.models.query.filters.FieldFilterOperation>"
+  - "java.lang.Object"
+  - "java.lang.Enum"
 - uid: "com.microsoft.store.partnercenter.models.query.filters.FieldFilterOperation.AND"
   id: "AND"
   parent: "com.microsoft.store.partnercenter.models.query.filters.FieldFilterOperation"

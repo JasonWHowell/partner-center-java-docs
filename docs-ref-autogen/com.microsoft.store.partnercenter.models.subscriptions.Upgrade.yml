@@ -26,6 +26,7 @@ items:
   syntax:
     content: "public class Upgrade extends ResourceBase"
   inheritance:
+  - "java.lang.Object"
   - "com.microsoft.store.partnercenter.models.ResourceBase"
 - uid: "com.microsoft.store.partnercenter.models.subscriptions.Upgrade.Upgrade()"
   id: "Upgrade()"

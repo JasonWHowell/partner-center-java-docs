@@ -17,6 +17,8 @@ items:
   syntax:
     content: "public class ExtensionsOperations extends BasePartnerComponentString implements IExtensions"
   inheritance:
+  - "java.lang.Object"
+  - "com.microsoft.store.partnercenter.BasePartnerComponent"
   - "com.microsoft.store.partnercenter.BasePartnerComponentString"
   implements:
   - "com.microsoft.store.partnercenter.extensions.IExtensions"

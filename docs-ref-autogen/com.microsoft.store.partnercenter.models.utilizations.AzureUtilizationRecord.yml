@@ -30,6 +30,7 @@ items:
   syntax:
     content: "public class AzureUtilizationRecord extends ResourceBase"
   inheritance:
+  - "java.lang.Object"
   - "com.microsoft.store.partnercenter.models.ResourceBase"
 - uid: "com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationRecord.AzureUtilizationRecord()"
   id: "AzureUtilizationRecord()"

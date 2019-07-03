@@ -20,7 +20,8 @@ items:
   syntax:
     content: "public enum VettingVersion extends Enum<VettingVersion>"
   inheritance:
-  - "java.lang.Enum<com.microsoft.store.partnercenter.models.partners.VettingVersion>"
+  - "java.lang.Object"
+  - "java.lang.Enum"
 - uid: "com.microsoft.store.partnercenter.models.partners.VettingVersion.CURRENT"
   id: "CURRENT"
   parent: "com.microsoft.store.partnercenter.models.partners.VettingVersion"

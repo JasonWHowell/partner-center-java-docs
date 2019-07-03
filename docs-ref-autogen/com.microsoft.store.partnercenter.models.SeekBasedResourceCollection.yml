@@ -22,7 +22,11 @@ items:
     typeParameters:
     - id: "T"
   inheritance:
-  - "com.microsoft.store.partnercenter.models.ResourceCollection<T>"
+  - "java.lang.Object"
+  - "com.microsoft.store.partnercenter.models.ResourceBase"
+  - "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks"
+  - "com.microsoft.store.partnercenter.models.ResourceCollectionWithLinks"
+  - "com.microsoft.store.partnercenter.models.ResourceCollection"
 - uid: "com.microsoft.store.partnercenter.models.SeekBasedResourceCollection.SeekBasedResourceCollection(com.microsoft.store.partnercenter.models.ResourceCollection<T>)"
   id: "SeekBasedResourceCollection(com.microsoft.store.partnercenter.models.ResourceCollection<T>)"
   parent: "com.microsoft.store.partnercenter.models.SeekBasedResourceCollection"

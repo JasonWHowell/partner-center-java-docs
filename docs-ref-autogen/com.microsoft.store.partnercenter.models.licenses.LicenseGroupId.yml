@@ -21,7 +21,8 @@ items:
   syntax:
     content: "public enum LicenseGroupId extends Enum<LicenseGroupId>"
   inheritance:
-  - "java.lang.Enum<com.microsoft.store.partnercenter.models.licenses.LicenseGroupId>"
+  - "java.lang.Object"
+  - "java.lang.Enum"
 - uid: "com.microsoft.store.partnercenter.models.licenses.LicenseGroupId.GROUP1"
   id: "GROUP1"
   parent: "com.microsoft.store.partnercenter.models.licenses.LicenseGroupId"

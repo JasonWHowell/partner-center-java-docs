@@ -20,7 +20,8 @@ items:
   syntax:
     content: "public enum UpgradeType extends Enum<UpgradeType>"
   inheritance:
-  - "java.lang.Enum<com.microsoft.store.partnercenter.models.subscriptions.UpgradeType>"
+  - "java.lang.Object"
+  - "java.lang.Enum"
 - uid: "com.microsoft.store.partnercenter.models.subscriptions.UpgradeType.NONE"
   id: "NONE"
   parent: "com.microsoft.store.partnercenter.models.subscriptions.UpgradeType"

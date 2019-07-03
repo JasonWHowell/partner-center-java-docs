@@ -65,6 +65,8 @@ items:
   syntax:
     content: "public class Subscription extends Contract"
   inheritance:
+  - "java.lang.Object"
+  - "com.microsoft.store.partnercenter.models.ResourceBase"
   - "com.microsoft.store.partnercenter.models.Contract"
 - uid: "com.microsoft.store.partnercenter.models.subscriptions.Subscription.Subscription()"
   id: "Subscription()"

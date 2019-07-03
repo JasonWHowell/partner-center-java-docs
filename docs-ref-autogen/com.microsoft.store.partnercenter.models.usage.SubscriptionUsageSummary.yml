@@ -20,6 +20,9 @@ items:
   syntax:
     content: "public class SubscriptionUsageSummary extends UsageSummaryBase"
   inheritance:
+  - "java.lang.Object"
+  - "com.microsoft.store.partnercenter.models.ResourceBase"
+  - "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks"
   - "com.microsoft.store.partnercenter.models.usage.UsageSummaryBase"
 - uid: "com.microsoft.store.partnercenter.models.usage.SubscriptionUsageSummary.SubscriptionUsageSummary()"
   id: "SubscriptionUsageSummary()"

@@ -17,7 +17,8 @@ items:
   syntax:
     content: "public class SkuCollectionByTargetSegmentOperations extends BasePartnerComponent<TripletTuple<String,String,String>> implements ISkuCollectionByTargetSegment"
   inheritance:
-  - "com.microsoft.store.partnercenter.BasePartnerComponent<com.microsoft.store.partnercenter.models.utils.TripletTuple<java.lang.String,java.lang.String,java.lang.String>>"
+  - "java.lang.Object"
+  - "com.microsoft.store.partnercenter.BasePartnerComponent"
   implements:
   - "com.microsoft.store.partnercenter.products.ISkuCollectionByTargetSegment"
 - uid: "com.microsoft.store.partnercenter.products.SkuCollectionByTargetSegmentOperations.SkuCollectionByTargetSegmentOperations(com.microsoft.store.partnercenter.IPartner,java.lang.String,java.lang.String,java.lang.String)"

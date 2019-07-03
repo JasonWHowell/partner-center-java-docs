@@ -21,7 +21,8 @@ items:
   syntax:
     content: "public enum ServiceRequestStatus extends Enum<ServiceRequestStatus>"
   inheritance:
-  - "java.lang.Enum<com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestStatus>"
+  - "java.lang.Object"
+  - "java.lang.Enum"
 - uid: "com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestStatus.ATTENTION_NEEDED"
   id: "ATTENTION_NEEDED"
   parent: "com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestStatus"

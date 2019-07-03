@@ -19,7 +19,8 @@ items:
   syntax:
     content: "public enum ServiceRequestSearchField extends Enum<ServiceRequestSearchField>"
   inheritance:
-  - "java.lang.Enum<com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestSearchField>"
+  - "java.lang.Object"
+  - "java.lang.Enum"
 - uid: "com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestSearchField.STATUS"
   id: "STATUS"
   parent: "com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestSearchField"

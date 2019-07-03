@@ -18,7 +18,8 @@ items:
   syntax:
     content: "public class ProductCollectionByCountryByTargetViewOperations extends BasePartnerComponent<Tuple<String,String>> implements IProductCollectionByCountryByTargetView"
   inheritance:
-  - "com.microsoft.store.partnercenter.BasePartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>"
+  - "java.lang.Object"
+  - "com.microsoft.store.partnercenter.BasePartnerComponent"
   implements:
   - "com.microsoft.store.partnercenter.products.IProductCollectionByCountryByTargetView"
 - uid: "com.microsoft.store.partnercenter.products.ProductCollectionByCountryByTargetViewOperations.ProductCollectionByCountryByTargetViewOperations(com.microsoft.store.partnercenter.IPartner,java.lang.String,java.lang.String)"

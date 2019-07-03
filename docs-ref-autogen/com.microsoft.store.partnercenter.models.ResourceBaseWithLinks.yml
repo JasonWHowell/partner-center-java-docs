@@ -21,6 +21,7 @@ items:
     typeParameters:
     - id: "TLinks"
   inheritance:
+  - "java.lang.Object"
   - "com.microsoft.store.partnercenter.models.ResourceBase"
 - uid: "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.ResourceBaseWithLinks()"
   id: "ResourceBaseWithLinks()"

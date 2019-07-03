@@ -23,7 +23,8 @@ items:
   syntax:
     content: "public enum DeviceUploadStatusType extends Enum<DeviceUploadStatusType>"
   inheritance:
-  - "java.lang.Enum<com.microsoft.store.partnercenter.models.devicesdeployment.DeviceUploadStatusType>"
+  - "java.lang.Object"
+  - "java.lang.Enum"
 - uid: "com.microsoft.store.partnercenter.models.devicesdeployment.DeviceUploadStatusType.DeviceUploadStatusType(java.lang.String)"
   id: "DeviceUploadStatusType(java.lang.String)"
   parent: "com.microsoft.store.partnercenter.models.devicesdeployment.DeviceUploadStatusType"

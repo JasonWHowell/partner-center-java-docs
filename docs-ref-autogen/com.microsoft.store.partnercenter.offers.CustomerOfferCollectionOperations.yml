@@ -18,6 +18,8 @@ items:
   syntax:
     content: "public class CustomerOfferCollectionOperations extends BasePartnerComponentString implements ICustomerOfferCollection"
   inheritance:
+  - "java.lang.Object"
+  - "com.microsoft.store.partnercenter.BasePartnerComponent"
   - "com.microsoft.store.partnercenter.BasePartnerComponentString"
   implements:
   - "com.microsoft.store.partnercenter.offers.ICustomerOfferCollection"

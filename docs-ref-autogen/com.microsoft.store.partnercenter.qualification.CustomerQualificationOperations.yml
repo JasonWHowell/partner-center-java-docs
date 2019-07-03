@@ -19,6 +19,8 @@ items:
   syntax:
     content: "public class CustomerQualificationOperations extends BasePartnerComponentString implements ICustomerQualification"
   inheritance:
+  - "java.lang.Object"
+  - "com.microsoft.store.partnercenter.BasePartnerComponent"
   - "com.microsoft.store.partnercenter.BasePartnerComponentString"
   implements:
   - "com.microsoft.store.partnercenter.qualification.ICustomerQualification"

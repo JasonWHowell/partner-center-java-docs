@@ -21,7 +21,8 @@ items:
   syntax:
     content: "public enum UserDomainType extends Enum<UserDomainType>"
   inheritance:
-  - "java.lang.Enum<com.microsoft.store.partnercenter.models.users.UserDomainType>"
+  - "java.lang.Object"
+  - "java.lang.Enum"
 - uid: "com.microsoft.store.partnercenter.models.users.UserDomainType.FEDERATED"
   id: "FEDERATED"
   parent: "com.microsoft.store.partnercenter.models.users.UserDomainType"

@@ -23,7 +23,8 @@ items:
   syntax:
     content: "public enum CustomerPartnerRelationship extends Enum<CustomerPartnerRelationship>"
   inheritance:
-  - "java.lang.Enum<com.microsoft.store.partnercenter.models.customers.CustomerPartnerRelationship>"
+  - "java.lang.Object"
+  - "java.lang.Enum"
 - uid: "com.microsoft.store.partnercenter.models.customers.CustomerPartnerRelationship.ADVISOR"
   id: "ADVISOR"
   parent: "com.microsoft.store.partnercenter.models.customers.CustomerPartnerRelationship"

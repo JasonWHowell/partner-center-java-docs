@@ -19,7 +19,10 @@ items:
     typeParameters:
     - id: "TResource"
   inheritance:
-  - "com.microsoft.store.partnercenter.models.ResourceCollectionWithLinks<TResource,com.microsoft.store.partnercenter.models.StandardResourceCollectionLinks>"
+  - "java.lang.Object"
+  - "com.microsoft.store.partnercenter.models.ResourceBase"
+  - "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks"
+  - "com.microsoft.store.partnercenter.models.ResourceCollectionWithLinks"
 - uid: "com.microsoft.store.partnercenter.models.ResourceCollection.ResourceCollection(com.microsoft.store.partnercenter.models.ResourceCollection<TResource>)"
   id: "ResourceCollection(com.microsoft.store.partnercenter.models.ResourceCollection<TResource>)"
   parent: "com.microsoft.store.partnercenter.models.ResourceCollection"

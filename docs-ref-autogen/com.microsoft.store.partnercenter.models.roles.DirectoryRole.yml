@@ -20,6 +20,7 @@ items:
   syntax:
     content: "public class DirectoryRole extends ResourceBase"
   inheritance:
+  - "java.lang.Object"
   - "com.microsoft.store.partnercenter.models.ResourceBase"
 - uid: "com.microsoft.store.partnercenter.models.roles.DirectoryRole.DirectoryRole()"
   id: "DirectoryRole()"

@@ -36,6 +36,7 @@ items:
   syntax:
     content: "public class AzureMeter extends ResourceBase"
   inheritance:
+  - "java.lang.Object"
   - "com.microsoft.store.partnercenter.models.ResourceBase"
 - uid: "com.microsoft.store.partnercenter.models.ratecards.AzureMeter.AzureMeter()"
   id: "AzureMeter()"

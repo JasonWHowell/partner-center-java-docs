@@ -22,7 +22,8 @@ items:
   syntax:
     content: "public enum ProvisioningStatus extends Enum<ProvisioningStatus>"
   inheritance:
-  - "java.lang.Enum<com.microsoft.store.partnercenter.models.subscriptions.ProvisioningStatus>"
+  - "java.lang.Object"
+  - "java.lang.Enum"
 - uid: "com.microsoft.store.partnercenter.models.subscriptions.ProvisioningStatus.FAILED"
   id: "FAILED"
   parent: "com.microsoft.store.partnercenter.models.subscriptions.ProvisioningStatus"

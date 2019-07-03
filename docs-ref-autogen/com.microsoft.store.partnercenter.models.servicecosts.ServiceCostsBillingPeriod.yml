@@ -21,7 +21,8 @@ items:
   syntax:
     content: "public enum ServiceCostsBillingPeriod extends Enum<ServiceCostsBillingPeriod>"
   inheritance:
-  - "java.lang.Enum<com.microsoft.store.partnercenter.models.servicecosts.ServiceCostsBillingPeriod>"
+  - "java.lang.Object"
+  - "java.lang.Enum"
 - uid: "com.microsoft.store.partnercenter.models.servicecosts.ServiceCostsBillingPeriod.CURRENT"
   id: "CURRENT"
   parent: "com.microsoft.store.partnercenter.models.servicecosts.ServiceCostsBillingPeriod"

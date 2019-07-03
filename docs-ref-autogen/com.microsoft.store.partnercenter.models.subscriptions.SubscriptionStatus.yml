@@ -21,7 +21,8 @@ items:
   syntax:
     content: "public enum SubscriptionStatus extends Enum<SubscriptionStatus>"
   inheritance:
-  - "java.lang.Enum<com.microsoft.store.partnercenter.models.subscriptions.SubscriptionStatus>"
+  - "java.lang.Object"
+  - "java.lang.Enum"
 - uid: "com.microsoft.store.partnercenter.models.subscriptions.SubscriptionStatus.ACTIVE"
   id: "ACTIVE"
   parent: "com.microsoft.store.partnercenter.models.subscriptions.SubscriptionStatus"

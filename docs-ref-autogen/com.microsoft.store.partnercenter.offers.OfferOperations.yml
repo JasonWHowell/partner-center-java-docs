@@ -18,7 +18,8 @@ items:
   syntax:
     content: "public class OfferOperations extends BasePartnerComponent<Tuple<String,String>> implements IOffer"
   inheritance:
-  - "com.microsoft.store.partnercenter.BasePartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>"
+  - "java.lang.Object"
+  - "com.microsoft.store.partnercenter.BasePartnerComponent"
   implements:
   - "com.microsoft.store.partnercenter.offers.IOffer"
 - uid: "com.microsoft.store.partnercenter.offers.OfferOperations.OfferOperations(com.microsoft.store.partnercenter.IPartner,java.lang.String,java.lang.String)"

@@ -22,7 +22,8 @@ items:
   syntax:
     content: "public enum OperationStatus extends Enum<OperationStatus>"
   inheritance:
-  - "java.lang.Enum<com.microsoft.store.partnercenter.models.auditing.OperationStatus>"
+  - "java.lang.Object"
+  - "java.lang.Enum"
 - uid: "com.microsoft.store.partnercenter.models.auditing.OperationStatus.DECLINE"
   id: "DECLINE"
   parent: "com.microsoft.store.partnercenter.models.auditing.OperationStatus"

@@ -22,7 +22,8 @@ items:
   syntax:
     content: "public enum ServiceIncidentStatus extends Enum<ServiceIncidentStatus>"
   inheritance:
-  - "java.lang.Enum<com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidentStatus>"
+  - "java.lang.Object"
+  - "java.lang.Enum"
 - uid: "com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidentStatus.CRITICAL"
   id: "CRITICAL"
   parent: "com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidentStatus"

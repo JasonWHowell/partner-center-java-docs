@@ -17,6 +17,9 @@ items:
   syntax:
     content: "public class CustomerUser extends User"
   inheritance:
+  - "java.lang.Object"
+  - "com.microsoft.store.partnercenter.models.ResourceBase"
+  - "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks"
   - "com.microsoft.store.partnercenter.models.users.User"
 - uid: "com.microsoft.store.partnercenter.models.users.CustomerUser.CustomerUser()"
   id: "CustomerUser()"

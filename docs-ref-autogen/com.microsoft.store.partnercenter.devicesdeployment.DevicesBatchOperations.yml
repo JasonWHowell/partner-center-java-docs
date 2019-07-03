@@ -17,7 +17,8 @@ items:
   syntax:
     content: "public class DevicesBatchOperations extends BasePartnerComponent<Tuple<String,String>> implements IDevicesBatch"
   inheritance:
-  - "com.microsoft.store.partnercenter.BasePartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>"
+  - "java.lang.Object"
+  - "com.microsoft.store.partnercenter.BasePartnerComponent"
   implements:
   - "com.microsoft.store.partnercenter.devicesdeployment.IDevicesBatch"
 - uid: "com.microsoft.store.partnercenter.devicesdeployment.DevicesBatchOperations.DevicesBatchOperations(com.microsoft.store.partnercenter.IPartner,java.lang.String,java.lang.String)"

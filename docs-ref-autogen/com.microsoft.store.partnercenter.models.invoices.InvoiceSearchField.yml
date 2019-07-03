@@ -19,7 +19,8 @@ items:
   syntax:
     content: "public enum InvoiceSearchField extends Enum<InvoiceSearchField>"
   inheritance:
-  - "java.lang.Enum<com.microsoft.store.partnercenter.models.invoices.InvoiceSearchField>"
+  - "java.lang.Object"
+  - "java.lang.Enum"
 - uid: "com.microsoft.store.partnercenter.models.invoices.InvoiceSearchField.INVOICE_DATE"
   id: "INVOICE_DATE"
   parent: "com.microsoft.store.partnercenter.models.invoices.InvoiceSearchField"

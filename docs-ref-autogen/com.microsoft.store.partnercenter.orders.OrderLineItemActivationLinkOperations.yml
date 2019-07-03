@@ -17,7 +17,8 @@ items:
   syntax:
     content: "public class OrderLineItemActivationLinkOperations extends BasePartnerComponent<TripletTuple<String,String,Integer>> implements IOrderLineItemActivationLink"
   inheritance:
-  - "com.microsoft.store.partnercenter.BasePartnerComponent<com.microsoft.store.partnercenter.models.utils.TripletTuple<java.lang.String,java.lang.String,java.lang.Integer>>"
+  - "java.lang.Object"
+  - "com.microsoft.store.partnercenter.BasePartnerComponent"
   implements:
   - "com.microsoft.store.partnercenter.orders.IOrderLineItemActivationLink"
 - uid: "com.microsoft.store.partnercenter.orders.OrderLineItemActivationLinkOperations.OrderLineItemActivationLinkOperations(com.microsoft.store.partnercenter.IPartner,java.lang.String,java.lang.String,int)"

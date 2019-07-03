@@ -19,7 +19,8 @@ items:
   syntax:
     content: "public enum AgreementType extends Enum<AgreementType>"
   inheritance:
-  - "java.lang.Enum<com.microsoft.store.partnercenter.models.agreements.AgreementType>"
+  - "java.lang.Object"
+  - "java.lang.Enum"
 - uid: "com.microsoft.store.partnercenter.models.agreements.AgreementType.AgreementType(java.lang.String)"
   id: "AgreementType(java.lang.String)"
   parent: "com.microsoft.store.partnercenter.models.agreements.AgreementType"

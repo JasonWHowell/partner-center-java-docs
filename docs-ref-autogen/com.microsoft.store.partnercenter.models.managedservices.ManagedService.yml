@@ -24,7 +24,9 @@ items:
   syntax:
     content: "public class ManagedService extends ResourceBaseWithLinks<ManagedServiceLinks>"
   inheritance:
-  - "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks<com.microsoft.store.partnercenter.models.managedservices.ManagedServiceLinks>"
+  - "java.lang.Object"
+  - "com.microsoft.store.partnercenter.models.ResourceBase"
+  - "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks"
 - uid: "com.microsoft.store.partnercenter.models.managedservices.ManagedService.ManagedService()"
   id: "ManagedService()"
   parent: "com.microsoft.store.partnercenter.models.managedservices.ManagedService"

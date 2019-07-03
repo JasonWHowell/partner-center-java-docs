@@ -26,6 +26,7 @@ items:
   syntax:
     content: "public class AzureRateCard extends ResourceBase"
   inheritance:
+  - "java.lang.Object"
   - "com.microsoft.store.partnercenter.models.ResourceBase"
 - uid: "com.microsoft.store.partnercenter.models.ratecards.AzureRateCard.AzureRateCard()"
   id: "AzureRateCard()"

@@ -18,6 +18,8 @@ items:
   syntax:
     content: "public class CustomerBillingProfileOperations extends BasePartnerComponentString implements ICustomerProfile<CustomerBillingProfile>"
   inheritance:
+  - "java.lang.Object"
+  - "com.microsoft.store.partnercenter.BasePartnerComponent"
   - "com.microsoft.store.partnercenter.BasePartnerComponentString"
   implements:
   - "com.microsoft.store.partnercenter.customers.profiles.ICustomerProfile<com.microsoft.store.partnercenter.models.customers.CustomerBillingProfile>"

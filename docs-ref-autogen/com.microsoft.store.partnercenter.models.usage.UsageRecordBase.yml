@@ -26,6 +26,7 @@ items:
   syntax:
     content: "public class UsageRecordBase extends ResourceBase"
   inheritance:
+  - "java.lang.Object"
   - "com.microsoft.store.partnercenter.models.ResourceBase"
 - uid: "com.microsoft.store.partnercenter.models.usage.UsageRecordBase.UsageRecordBase()"
   id: "UsageRecordBase()"

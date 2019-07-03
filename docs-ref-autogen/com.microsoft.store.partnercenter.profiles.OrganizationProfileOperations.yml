@@ -18,6 +18,8 @@ items:
   syntax:
     content: "public class OrganizationProfileOperations extends BasePartnerComponentString implements IOrganizationProfile"
   inheritance:
+  - "java.lang.Object"
+  - "com.microsoft.store.partnercenter.BasePartnerComponent"
   - "com.microsoft.store.partnercenter.BasePartnerComponentString"
   implements:
   - "com.microsoft.store.partnercenter.profiles.IOrganizationProfile"

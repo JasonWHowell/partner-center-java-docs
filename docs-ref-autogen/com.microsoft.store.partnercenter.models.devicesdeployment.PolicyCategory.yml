@@ -20,7 +20,8 @@ items:
   syntax:
     content: "public enum PolicyCategory extends Enum<PolicyCategory>"
   inheritance:
-  - "java.lang.Enum<com.microsoft.store.partnercenter.models.devicesdeployment.PolicyCategory>"
+  - "java.lang.Object"
+  - "java.lang.Enum"
 - uid: "com.microsoft.store.partnercenter.models.devicesdeployment.PolicyCategory.NONE"
   id: "NONE"
   parent: "com.microsoft.store.partnercenter.models.devicesdeployment.PolicyCategory"

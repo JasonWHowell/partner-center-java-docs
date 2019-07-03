@@ -19,6 +19,7 @@ items:
   syntax:
     content: "public class PartnerServiceRetryStrategy extends RetryStrategy"
   inheritance:
+  - "java.lang.Object"
   - "com.microsoft.rest.retry.RetryStrategy"
 - uid: "com.microsoft.store.partnercenter.network.PartnerServiceRetryStrategy.Name"
   id: "Name"

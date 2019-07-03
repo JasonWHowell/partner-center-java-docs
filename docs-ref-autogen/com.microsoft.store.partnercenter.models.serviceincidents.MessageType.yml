@@ -22,7 +22,8 @@ items:
   syntax:
     content: "public enum MessageType extends Enum<MessageType>"
   inheritance:
-  - "java.lang.Enum<com.microsoft.store.partnercenter.models.serviceincidents.MessageType>"
+  - "java.lang.Object"
+  - "java.lang.Enum"
 - uid: "com.microsoft.store.partnercenter.models.serviceincidents.MessageType.ALL"
   id: "ALL"
   parent: "com.microsoft.store.partnercenter.models.serviceincidents.MessageType"

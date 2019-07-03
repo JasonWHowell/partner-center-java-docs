@@ -17,6 +17,7 @@ items:
   syntax:
     content: "public class AggregatePartnerOperations extends PartnerOperations implements IAggregatePartner"
   inheritance:
+  - "java.lang.Object"
   - "com.microsoft.store.partnercenter.PartnerOperations"
   implements:
   - "com.microsoft.store.partnercenter.IAggregatePartner"

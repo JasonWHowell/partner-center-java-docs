@@ -21,6 +21,8 @@ items:
   syntax:
     content: "public class PartnerProfileCollectionOperations extends BasePartnerComponentString implements IPartnerProfileCollection"
   inheritance:
+  - "java.lang.Object"
+  - "com.microsoft.store.partnercenter.BasePartnerComponent"
   - "com.microsoft.store.partnercenter.BasePartnerComponentString"
   implements:
   - "com.microsoft.store.partnercenter.profiles.IPartnerProfileCollection"

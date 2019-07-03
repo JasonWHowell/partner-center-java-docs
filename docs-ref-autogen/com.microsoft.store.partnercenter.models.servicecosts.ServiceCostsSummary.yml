@@ -34,7 +34,9 @@ items:
   syntax:
     content: "public class ServiceCostsSummary extends ResourceBaseWithLinks<ServiceCostsSummaryLinks>"
   inheritance:
-  - "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks<com.microsoft.store.partnercenter.models.servicecosts.ServiceCostsSummaryLinks>"
+  - "java.lang.Object"
+  - "com.microsoft.store.partnercenter.models.ResourceBase"
+  - "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks"
 - uid: "com.microsoft.store.partnercenter.models.servicecosts.ServiceCostsSummary.ServiceCostsSummary()"
   id: "ServiceCostsSummary()"
   parent: "com.microsoft.store.partnercenter.models.servicecosts.ServiceCostsSummary"

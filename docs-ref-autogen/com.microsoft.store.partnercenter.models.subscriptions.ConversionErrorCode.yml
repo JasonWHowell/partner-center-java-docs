@@ -20,7 +20,8 @@ items:
   syntax:
     content: "public enum ConversionErrorCode extends Enum<ConversionErrorCode>"
   inheritance:
-  - "java.lang.Enum<com.microsoft.store.partnercenter.models.subscriptions.ConversionErrorCode>"
+  - "java.lang.Object"
+  - "java.lang.Enum"
 - uid: "com.microsoft.store.partnercenter.models.subscriptions.ConversionErrorCode.CONVERSIONS_NOT_FOUND"
   id: "CONVERSIONS_NOT_FOUND"
   parent: "com.microsoft.store.partnercenter.models.subscriptions.ConversionErrorCode"

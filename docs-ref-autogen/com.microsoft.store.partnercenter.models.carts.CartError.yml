@@ -20,6 +20,7 @@ items:
   syntax:
     content: "public class CartError extends ResourceBase"
   inheritance:
+  - "java.lang.Object"
   - "com.microsoft.store.partnercenter.models.ResourceBase"
 - uid: "com.microsoft.store.partnercenter.models.carts.CartError.CartError()"
   id: "CartError()"

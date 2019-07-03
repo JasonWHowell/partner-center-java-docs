@@ -16,7 +16,8 @@ items:
   syntax:
     content: "public class CustomerUserRoleCollectionOperations extends BasePartnerComponent<Tuple<String,String>> implements ICustomerUserRoleCollection"
   inheritance:
-  - "com.microsoft.store.partnercenter.BasePartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>"
+  - "java.lang.Object"
+  - "com.microsoft.store.partnercenter.BasePartnerComponent"
   implements:
   - "com.microsoft.store.partnercenter.customerusers.ICustomerUserRoleCollection"
 - uid: "com.microsoft.store.partnercenter.customerusers.CustomerUserRoleCollectionOperations.CustomerUserRoleCollectionOperations(com.microsoft.store.partnercenter.IPartner,java.lang.String,java.lang.String)"

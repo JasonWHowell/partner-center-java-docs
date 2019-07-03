@@ -32,6 +32,7 @@ items:
   syntax:
     content: "public class ConfigurationPolicy extends ResourceBase"
   inheritance:
+  - "java.lang.Object"
   - "com.microsoft.store.partnercenter.models.ResourceBase"
 - uid: "com.microsoft.store.partnercenter.models.devicesdeployment.ConfigurationPolicy.ConfigurationPolicy()"
   id: "ConfigurationPolicy()"

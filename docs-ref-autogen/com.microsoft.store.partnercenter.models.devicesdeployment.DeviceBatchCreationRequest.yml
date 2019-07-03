@@ -20,6 +20,7 @@ items:
   syntax:
     content: "public class DeviceBatchCreationRequest extends ResourceBase"
   inheritance:
+  - "java.lang.Object"
   - "com.microsoft.store.partnercenter.models.ResourceBase"
 - uid: "com.microsoft.store.partnercenter.models.devicesdeployment.DeviceBatchCreationRequest.DeviceBatchCreationRequest()"
   id: "DeviceBatchCreationRequest()"

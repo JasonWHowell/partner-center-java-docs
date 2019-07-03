@@ -19,7 +19,8 @@ items:
   syntax:
     content: "public enum SortDirection extends Enum<SortDirection>"
   inheritance:
-  - "java.lang.Enum<com.microsoft.store.partnercenter.models.query.sort.SortDirection>"
+  - "java.lang.Object"
+  - "java.lang.Enum"
 - uid: "com.microsoft.store.partnercenter.models.query.sort.SortDirection.ASCENDING"
   id: "ASCENDING"
   parent: "com.microsoft.store.partnercenter.models.query.sort.SortDirection"

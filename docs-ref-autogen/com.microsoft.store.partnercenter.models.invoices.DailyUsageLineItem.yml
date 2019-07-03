@@ -31,6 +31,9 @@ items:
   syntax:
     content: "public class DailyUsageLineItem extends BaseUsageBasedLineItem"
   inheritance:
+  - "java.lang.Object"
+  - "com.microsoft.store.partnercenter.models.ResourceBase"
+  - "com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem"
   - "com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem"
 - uid: "com.microsoft.store.partnercenter.models.invoices.DailyUsageLineItem.DailyUsageLineItem()"
   id: "DailyUsageLineItem()"

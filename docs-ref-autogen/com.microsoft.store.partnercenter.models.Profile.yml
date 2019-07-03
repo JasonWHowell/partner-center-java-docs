@@ -28,6 +28,7 @@ items:
     typeParameters:
     - id: "T"
   inheritance:
+  - "java.lang.Object"
   - "com.microsoft.store.partnercenter.models.ResourceBase"
 - uid: "com.microsoft.store.partnercenter.models.Profile.Profile()"
   id: "Profile()"

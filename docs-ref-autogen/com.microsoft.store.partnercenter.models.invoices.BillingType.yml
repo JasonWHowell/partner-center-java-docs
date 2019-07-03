@@ -20,7 +20,8 @@ items:
   syntax:
     content: "public enum BillingType extends Enum<BillingType>"
   inheritance:
-  - "java.lang.Enum<com.microsoft.store.partnercenter.models.invoices.BillingType>"
+  - "java.lang.Object"
+  - "java.lang.Enum"
 - uid: "com.microsoft.store.partnercenter.models.invoices.BillingType.BillingType(java.lang.String)"
   id: "BillingType(java.lang.String)"
   parent: "com.microsoft.store.partnercenter.models.invoices.BillingType"

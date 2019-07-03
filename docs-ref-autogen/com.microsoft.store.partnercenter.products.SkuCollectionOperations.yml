@@ -19,7 +19,8 @@ items:
   syntax:
     content: "public class SkuCollectionOperations extends BasePartnerComponent<Tuple<String,String>> implements ISkuCollection"
   inheritance:
-  - "com.microsoft.store.partnercenter.BasePartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>"
+  - "java.lang.Object"
+  - "com.microsoft.store.partnercenter.BasePartnerComponent"
   implements:
   - "com.microsoft.store.partnercenter.products.ISkuCollection"
 - uid: "com.microsoft.store.partnercenter.products.SkuCollectionOperations.SkuCollectionOperations(com.microsoft.store.partnercenter.IPartner,java.lang.String,java.lang.String)"

@@ -18,6 +18,8 @@ items:
   syntax:
     content: "public class CartCollectionOperations extends BasePartnerComponentString implements ICartCollection"
   inheritance:
+  - "java.lang.Object"
+  - "com.microsoft.store.partnercenter.BasePartnerComponent"
   - "com.microsoft.store.partnercenter.BasePartnerComponentString"
   implements:
   - "com.microsoft.store.partnercenter.carts.ICartCollection"

@@ -18,7 +18,8 @@ items:
   syntax:
     content: "public class ReconciliationLineItemCollectionOperations extends BasePartnerComponent<String> implements IReconciliationLineItemCollection"
   inheritance:
-  - "com.microsoft.store.partnercenter.BasePartnerComponent<java.lang.String>"
+  - "java.lang.Object"
+  - "com.microsoft.store.partnercenter.BasePartnerComponent"
   implements:
   - "com.microsoft.store.partnercenter.invoices.IReconciliationLineItemCollection"
 - uid: "com.microsoft.store.partnercenter.invoices.ReconciliationLineItemCollectionOperations.ReconciliationLineItemCollectionOperations(com.microsoft.store.partnercenter.IPartner,java.lang.String,com.microsoft.store.partnercenter.models.invoices.BillingProvider,com.microsoft.store.partnercenter.models.invoices.InvoiceLineItemType,java.lang.String,com.microsoft.store.partnercenter.models.invoices.BillingPeriod)"

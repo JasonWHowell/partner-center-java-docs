@@ -17,7 +17,8 @@ items:
   syntax:
     content: "public class SubscriptionAddOnCollectionOperations extends BasePartnerComponent<Tuple<String,String>> implements ISubscriptionAddOnCollection"
   inheritance:
-  - "com.microsoft.store.partnercenter.BasePartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>"
+  - "java.lang.Object"
+  - "com.microsoft.store.partnercenter.BasePartnerComponent"
   implements:
   - "com.microsoft.store.partnercenter.subscriptions.ISubscriptionAddOnCollection"
 - uid: "com.microsoft.store.partnercenter.subscriptions.SubscriptionAddOnCollectionOperations.SubscriptionAddOnCollectionOperations(com.microsoft.store.partnercenter.IPartner,java.lang.String,java.lang.String)"

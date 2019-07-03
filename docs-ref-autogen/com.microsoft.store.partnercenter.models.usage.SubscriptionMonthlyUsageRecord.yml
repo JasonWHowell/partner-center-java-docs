@@ -26,6 +26,8 @@ items:
   syntax:
     content: "public class SubscriptionMonthlyUsageRecord extends UsageRecordBase"
   inheritance:
+  - "java.lang.Object"
+  - "com.microsoft.store.partnercenter.models.ResourceBase"
   - "com.microsoft.store.partnercenter.models.usage.UsageRecordBase"
 - uid: "com.microsoft.store.partnercenter.models.usage.SubscriptionMonthlyUsageRecord.SubscriptionMonthlyUsageRecord()"
   id: "SubscriptionMonthlyUsageRecord()"

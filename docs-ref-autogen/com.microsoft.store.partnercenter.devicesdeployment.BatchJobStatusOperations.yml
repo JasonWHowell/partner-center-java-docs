@@ -17,7 +17,8 @@ items:
   syntax:
     content: "public class BatchJobStatusOperations extends BasePartnerComponent<Tuple<String,String>> implements IBatchJobStatus"
   inheritance:
-  - "com.microsoft.store.partnercenter.BasePartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>"
+  - "java.lang.Object"
+  - "com.microsoft.store.partnercenter.BasePartnerComponent"
   implements:
   - "com.microsoft.store.partnercenter.devicesdeployment.IBatchJobStatus"
 - uid: "com.microsoft.store.partnercenter.devicesdeployment.BatchJobStatusOperations.BatchJobStatusOperations(com.microsoft.store.partnercenter.IPartner,java.lang.String,java.lang.String)"

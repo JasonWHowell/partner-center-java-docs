@@ -22,7 +22,8 @@ items:
   syntax:
     content: "public enum CustomerSearchField extends Enum<CustomerSearchField>"
   inheritance:
-  - "java.lang.Enum<com.microsoft.store.partnercenter.models.customers.CustomerSearchField>"
+  - "java.lang.Object"
+  - "java.lang.Enum"
 - uid: "com.microsoft.store.partnercenter.models.customers.CustomerSearchField.COMPANY_NAME"
   id: "COMPANY_NAME"
   parent: "com.microsoft.store.partnercenter.models.customers.CustomerSearchField"

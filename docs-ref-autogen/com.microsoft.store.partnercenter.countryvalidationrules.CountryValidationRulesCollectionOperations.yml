@@ -17,6 +17,8 @@ items:
   syntax:
     content: "public class CountryValidationRulesCollectionOperations extends BasePartnerComponentString implements ICountryValidationRulesCollection"
   inheritance:
+  - "java.lang.Object"
+  - "com.microsoft.store.partnercenter.BasePartnerComponent"
   - "com.microsoft.store.partnercenter.BasePartnerComponentString"
   implements:
   - "com.microsoft.store.partnercenter.countryvalidationrules.ICountryValidationRulesCollection"

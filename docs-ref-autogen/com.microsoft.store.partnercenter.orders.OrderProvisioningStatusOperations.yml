@@ -17,7 +17,8 @@ items:
   syntax:
     content: "public class OrderProvisioningStatusOperations extends BasePartnerComponent<Tuple<String,String>> implements IOrderProvisioningStatus"
   inheritance:
-  - "com.microsoft.store.partnercenter.BasePartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>"
+  - "java.lang.Object"
+  - "com.microsoft.store.partnercenter.BasePartnerComponent"
   implements:
   - "com.microsoft.store.partnercenter.orders.IOrderProvisioningStatus"
 - uid: "com.microsoft.store.partnercenter.orders.OrderProvisioningStatusOperations.OrderProvisioningStatusOperations(com.microsoft.store.partnercenter.IPartner,java.lang.String,java.lang.String)"

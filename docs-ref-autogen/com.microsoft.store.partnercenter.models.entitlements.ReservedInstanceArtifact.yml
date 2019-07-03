@@ -20,6 +20,9 @@ items:
   syntax:
     content: "public class ReservedInstanceArtifact extends Artifact"
   inheritance:
+  - "java.lang.Object"
+  - "com.microsoft.store.partnercenter.models.ResourceBase"
+  - "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks"
   - "com.microsoft.store.partnercenter.models.entitlements.Artifact"
 - uid: "com.microsoft.store.partnercenter.models.entitlements.ReservedInstanceArtifact.ReservedInstanceArtifact()"
   id: "ReservedInstanceArtifact()"

@@ -17,6 +17,8 @@ items:
   syntax:
     content: "public class CustomerLicensesDeploymentInsightsCollectionOperations extends BasePartnerComponentString implements ICustomerLicensesDeploymentInsightsCollection"
   inheritance:
+  - "java.lang.Object"
+  - "com.microsoft.store.partnercenter.BasePartnerComponent"
   - "com.microsoft.store.partnercenter.BasePartnerComponentString"
   implements:
   - "com.microsoft.store.partnercenter.analytics.ICustomerLicensesDeploymentInsightsCollection"

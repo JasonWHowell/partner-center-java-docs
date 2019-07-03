@@ -17,6 +17,8 @@ items:
   syntax:
     content: "public class AuditRecordsCollection extends BasePartnerComponentString implements IAuditRecordsCollection"
   inheritance:
+  - "java.lang.Object"
+  - "com.microsoft.store.partnercenter.BasePartnerComponent"
   - "com.microsoft.store.partnercenter.BasePartnerComponentString"
   implements:
   - "com.microsoft.store.partnercenter.auditrecords.IAuditRecordsCollection"

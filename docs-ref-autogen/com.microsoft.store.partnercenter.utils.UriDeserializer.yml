@@ -16,7 +16,8 @@ items:
   syntax:
     content: "public class UriDeserializer extends JsonDeserializer<URI>"
   inheritance:
-  - "com.fasterxml.jackson.databind.JsonDeserializer<java.net.URI>"
+  - "java.lang.Object"
+  - "com.fasterxml.jackson.databind.JsonDeserializer"
 - uid: "com.microsoft.store.partnercenter.utils.UriDeserializer.UriDeserializer()"
   id: "UriDeserializer()"
   parent: "com.microsoft.store.partnercenter.utils.UriDeserializer"

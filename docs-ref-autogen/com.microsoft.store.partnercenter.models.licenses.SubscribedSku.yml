@@ -34,6 +34,7 @@ items:
   syntax:
     content: "public class SubscribedSku extends ResourceBase"
   inheritance:
+  - "java.lang.Object"
   - "com.microsoft.store.partnercenter.models.ResourceBase"
 - uid: "com.microsoft.store.partnercenter.models.licenses.SubscribedSku.SubscribedSku()"
   id: "SubscribedSku()"

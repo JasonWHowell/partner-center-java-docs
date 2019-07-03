@@ -19,7 +19,10 @@ items:
     - id: "T"
     - id: "TResourceCollection"
   inheritance:
-  - "com.microsoft.store.partnercenter.enumerators.BaseResourceCollectionEnumerator<TResourceCollection>"
+  - "java.lang.Object"
+  - "com.microsoft.store.partnercenter.BasePartnerComponent"
+  - "com.microsoft.store.partnercenter.BasePartnerComponentString"
+  - "com.microsoft.store.partnercenter.enumerators.BaseResourceCollectionEnumerator"
 - uid: "com.microsoft.store.partnercenter.enumerators.IndexBasedCollectionEnumerator.IndexBasedCollectionEnumerator(com.microsoft.store.partnercenter.IPartner,TResourceCollection,com.fasterxml.jackson.databind.ObjectMapper,com.fasterxml.jackson.core.type.TypeReference<TResourceCollection>)"
   id: "IndexBasedCollectionEnumerator(com.microsoft.store.partnercenter.IPartner,TResourceCollection,com.fasterxml.jackson.databind.ObjectMapper,com.fasterxml.jackson.core.type.TypeReference<TResourceCollection>)"
   parent: "com.microsoft.store.partnercenter.enumerators.IndexBasedCollectionEnumerator"

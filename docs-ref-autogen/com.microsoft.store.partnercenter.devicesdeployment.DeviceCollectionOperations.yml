@@ -19,7 +19,8 @@ items:
   syntax:
     content: "public class DeviceCollectionOperations extends BasePartnerComponent<Tuple<String,String>> implements IDeviceCollection"
   inheritance:
-  - "com.microsoft.store.partnercenter.BasePartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>"
+  - "java.lang.Object"
+  - "com.microsoft.store.partnercenter.BasePartnerComponent"
   implements:
   - "com.microsoft.store.partnercenter.devicesdeployment.IDeviceCollection"
 - uid: "com.microsoft.store.partnercenter.devicesdeployment.DeviceCollectionOperations.DeviceCollectionOperations(com.microsoft.store.partnercenter.IPartner,java.lang.String,java.lang.String)"

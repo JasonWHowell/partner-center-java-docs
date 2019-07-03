@@ -45,6 +45,9 @@ items:
   syntax:
     content: "public class UsageBasedLineItem extends BaseUsageBasedLineItem"
   inheritance:
+  - "java.lang.Object"
+  - "com.microsoft.store.partnercenter.models.ResourceBase"
+  - "com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem"
   - "com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem"
 - uid: "com.microsoft.store.partnercenter.models.invoices.UsageBasedLineItem.UsageBasedLineItem()"
   id: "UsageBasedLineItem()"

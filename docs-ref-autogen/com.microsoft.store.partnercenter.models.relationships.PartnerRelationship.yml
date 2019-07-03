@@ -28,6 +28,7 @@ items:
   syntax:
     content: "public class PartnerRelationship extends ResourceBase"
   inheritance:
+  - "java.lang.Object"
   - "com.microsoft.store.partnercenter.models.ResourceBase"
 - uid: "com.microsoft.store.partnercenter.models.relationships.PartnerRelationship.PartnerRelationship()"
   id: "PartnerRelationship()"

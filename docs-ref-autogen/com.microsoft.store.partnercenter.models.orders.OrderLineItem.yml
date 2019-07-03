@@ -38,7 +38,9 @@ items:
   syntax:
     content: "public class OrderLineItem extends ResourceBaseWithLinks<OrderLineItemLinks>"
   inheritance:
-  - "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks<com.microsoft.store.partnercenter.models.orders.OrderLineItemLinks>"
+  - "java.lang.Object"
+  - "com.microsoft.store.partnercenter.models.ResourceBase"
+  - "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks"
 - uid: "com.microsoft.store.partnercenter.models.orders.OrderLineItem.OrderLineItem()"
   id: "OrderLineItem()"
   parent: "com.microsoft.store.partnercenter.models.orders.OrderLineItem"

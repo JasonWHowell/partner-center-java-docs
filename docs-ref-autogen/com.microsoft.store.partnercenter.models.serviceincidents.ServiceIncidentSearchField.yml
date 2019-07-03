@@ -19,7 +19,8 @@ items:
   syntax:
     content: "public enum ServiceIncidentSearchField extends Enum<ServiceIncidentSearchField>"
   inheritance:
-  - "java.lang.Enum<com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidentSearchField>"
+  - "java.lang.Object"
+  - "java.lang.Enum"
 - uid: "com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidentSearchField.RESOLVED"
   id: "RESOLVED"
   parent: "com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidentSearchField"

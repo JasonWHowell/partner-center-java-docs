@@ -16,6 +16,8 @@ items:
   syntax:
     content: "public class OfferCountrySelector extends BasePartnerComponentString implements ICountrySelector<IOfferCollection>"
   inheritance:
+  - "java.lang.Object"
+  - "com.microsoft.store.partnercenter.BasePartnerComponent"
   - "com.microsoft.store.partnercenter.BasePartnerComponentString"
   implements:
   - "com.microsoft.store.partnercenter.genericoperations.ICountrySelector<com.microsoft.store.partnercenter.offers.IOfferCollection>"

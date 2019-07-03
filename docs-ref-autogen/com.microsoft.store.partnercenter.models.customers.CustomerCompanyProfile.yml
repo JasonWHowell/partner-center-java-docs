@@ -26,7 +26,9 @@ items:
   syntax:
     content: "public class CustomerCompanyProfile extends ResourceBaseWithLinks<StandardResourceLinks>"
   inheritance:
-  - "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks<com.microsoft.store.partnercenter.models.StandardResourceLinks>"
+  - "java.lang.Object"
+  - "com.microsoft.store.partnercenter.models.ResourceBase"
+  - "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks"
 - uid: "com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile.CustomerCompanyProfile()"
   id: "CustomerCompanyProfile()"
   parent: "com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile"

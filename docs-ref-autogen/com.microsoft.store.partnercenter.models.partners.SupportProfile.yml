@@ -22,7 +22,9 @@ items:
   syntax:
     content: "public class SupportProfile extends ResourceBaseWithLinks<StandardResourceLinks>"
   inheritance:
-  - "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks<com.microsoft.store.partnercenter.models.StandardResourceLinks>"
+  - "java.lang.Object"
+  - "com.microsoft.store.partnercenter.models.ResourceBase"
+  - "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks"
 - uid: "com.microsoft.store.partnercenter.models.partners.SupportProfile.SupportProfile()"
   id: "SupportProfile()"
   parent: "com.microsoft.store.partnercenter.models.partners.SupportProfile"

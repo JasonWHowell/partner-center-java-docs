@@ -21,7 +21,8 @@ items:
   syntax:
     content: "public enum CustomerQualification extends Enum<CustomerQualification>"
   inheritance:
-  - "java.lang.Enum<com.microsoft.store.partnercenter.models.customers.CustomerQualification>"
+  - "java.lang.Object"
+  - "java.lang.Enum"
 - uid: "com.microsoft.store.partnercenter.models.customers.CustomerQualification.CustomerQualification(java.lang.String)"
   id: "CustomerQualification(java.lang.String)"
   parent: "com.microsoft.store.partnercenter.models.customers.CustomerQualification"

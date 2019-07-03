@@ -20,7 +20,8 @@ items:
   syntax:
     content: "public enum AzureUtilizationGranularity extends Enum<AzureUtilizationGranularity>"
   inheritance:
-  - "java.lang.Enum<com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationGranularity>"
+  - "java.lang.Object"
+  - "java.lang.Enum"
 - uid: "com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationGranularity.AzureUtilizationGranularity(java.lang.String)"
   id: "AzureUtilizationGranularity(java.lang.String)"
   parent: "com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationGranularity"

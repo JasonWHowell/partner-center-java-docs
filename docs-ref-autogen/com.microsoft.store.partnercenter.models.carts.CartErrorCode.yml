@@ -29,7 +29,8 @@ items:
   syntax:
     content: "public enum CartErrorCode extends Enum<CartErrorCode>"
   inheritance:
-  - "java.lang.Enum<com.microsoft.store.partnercenter.models.carts.CartErrorCode>"
+  - "java.lang.Object"
+  - "java.lang.Enum"
 - uid: "com.microsoft.store.partnercenter.models.carts.CartErrorCode.CATALOG_ITEM_ID_IS_NOT_VALID"
   id: "CATALOG_ITEM_ID_IS_NOT_VALID"
   parent: "com.microsoft.store.partnercenter.models.carts.CartErrorCode"

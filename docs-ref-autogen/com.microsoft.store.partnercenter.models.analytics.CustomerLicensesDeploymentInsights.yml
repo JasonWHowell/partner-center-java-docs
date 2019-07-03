@@ -22,6 +22,7 @@ items:
   syntax:
     content: "public class CustomerLicensesDeploymentInsights extends CustomerLicensesInsightsBase"
   inheritance:
+  - "java.lang.Object"
   - "com.microsoft.store.partnercenter.models.analytics.CustomerLicensesInsightsBase"
 - uid: "com.microsoft.store.partnercenter.models.analytics.CustomerLicensesDeploymentInsights.CustomerLicensesDeploymentInsights()"
   id: "CustomerLicensesDeploymentInsights()"

@@ -18,6 +18,8 @@ items:
   syntax:
     content: "public class LegalBusinessProfileOperations extends BasePartnerComponentString implements ILegalBusinessProfile"
   inheritance:
+  - "java.lang.Object"
+  - "com.microsoft.store.partnercenter.BasePartnerComponent"
   - "com.microsoft.store.partnercenter.BasePartnerComponentString"
   implements:
   - "com.microsoft.store.partnercenter.profiles.ILegalBusinessProfile"

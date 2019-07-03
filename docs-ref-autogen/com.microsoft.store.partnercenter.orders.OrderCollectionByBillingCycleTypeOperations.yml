@@ -18,7 +18,8 @@ items:
   syntax:
     content: "public class OrderCollectionByBillingCycleTypeOperations extends BasePartnerComponent<Tuple<String,BillingCycleType>> implements IOrderCollectionByBillingCycleType"
   inheritance:
-  - "com.microsoft.store.partnercenter.BasePartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,com.microsoft.store.partnercenter.models.offers.BillingCycleType>>"
+  - "java.lang.Object"
+  - "com.microsoft.store.partnercenter.BasePartnerComponent"
   implements:
   - "com.microsoft.store.partnercenter.orders.IOrderCollectionByBillingCycleType"
 - uid: "com.microsoft.store.partnercenter.orders.OrderCollectionByBillingCycleTypeOperations.OrderCollectionByBillingCycleTypeOperations(com.microsoft.store.partnercenter.IPartner,java.lang.String,com.microsoft.store.partnercenter.models.offers.BillingCycleType)"

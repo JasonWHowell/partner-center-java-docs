@@ -72,6 +72,8 @@ items:
   syntax:
     content: "public class LicenseBasedLineItem extends InvoiceLineItem"
   inheritance:
+  - "java.lang.Object"
+  - "com.microsoft.store.partnercenter.models.ResourceBase"
   - "com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem"
 - uid: "com.microsoft.store.partnercenter.models.invoices.LicenseBasedLineItem.LicenseBasedLineItem()"
   id: "LicenseBasedLineItem()"

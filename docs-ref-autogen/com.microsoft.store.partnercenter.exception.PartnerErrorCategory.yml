@@ -28,7 +28,8 @@ items:
   syntax:
     content: "public enum PartnerErrorCategory extends Enum<PartnerErrorCategory>"
   inheritance:
-  - "java.lang.Enum<com.microsoft.store.partnercenter.exception.PartnerErrorCategory>"
+  - "java.lang.Object"
+  - "java.lang.Enum"
 - uid: "com.microsoft.store.partnercenter.exception.PartnerErrorCategory.ALREADY_EXISTS"
   id: "ALREADY_EXISTS"
   parent: "com.microsoft.store.partnercenter.exception.PartnerErrorCategory"

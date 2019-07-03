@@ -19,6 +19,7 @@ items:
   syntax:
     content: "public abstract class Contract extends ResourceBase"
   inheritance:
+  - "java.lang.Object"
   - "com.microsoft.store.partnercenter.models.ResourceBase"
 - uid: "com.microsoft.store.partnercenter.models.Contract.Contract()"
   id: "Contract()"

@@ -20,7 +20,8 @@ items:
   syntax:
     content: "public enum InvoiceLineItemType extends Enum<InvoiceLineItemType>"
   inheritance:
-  - "java.lang.Enum<com.microsoft.store.partnercenter.models.invoices.InvoiceLineItemType>"
+  - "java.lang.Object"
+  - "java.lang.Enum"
 - uid: "com.microsoft.store.partnercenter.models.invoices.InvoiceLineItemType.BILLINGLINEITEMS"
   id: "BILLINGLINEITEMS"
   parent: "com.microsoft.store.partnercenter.models.invoices.InvoiceLineItemType"

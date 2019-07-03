@@ -24,6 +24,7 @@ items:
   syntax:
     content: "public class UserLicenseError extends ResourceBase"
   inheritance:
+  - "java.lang.Object"
   - "com.microsoft.store.partnercenter.models.ResourceBase"
 - uid: "com.microsoft.store.partnercenter.models.subscriptions.UserLicenseError.UserLicenseError()"
   id: "UserLicenseError()"

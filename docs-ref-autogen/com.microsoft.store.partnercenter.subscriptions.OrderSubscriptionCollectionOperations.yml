@@ -17,7 +17,8 @@ items:
   syntax:
     content: "public class OrderSubscriptionCollectionOperations extends BasePartnerComponent<Tuple<String,String>> implements IEntireEntityCollectionRetrievalOperations<Subscription,ResourceCollection<Subscription>>"
   inheritance:
-  - "com.microsoft.store.partnercenter.BasePartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>"
+  - "java.lang.Object"
+  - "com.microsoft.store.partnercenter.BasePartnerComponent"
   implements:
   - "com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations<com.microsoft.store.partnercenter.models.subscriptions.Subscription,com.microsoft.store.partnercenter.models.ResourceCollection<com.microsoft.store.partnercenter.models.subscriptions.Subscription>>"
 - uid: "com.microsoft.store.partnercenter.subscriptions.OrderSubscriptionCollectionOperations.OrderSubscriptionCollectionOperations(com.microsoft.store.partnercenter.IPartner,java.lang.String,java.lang.String)"

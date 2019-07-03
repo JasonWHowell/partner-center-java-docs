@@ -26,6 +26,7 @@ items:
   syntax:
     content: "public class DeviceBatch extends StandardResourceLinks"
   inheritance:
+  - "java.lang.Object"
   - "com.microsoft.store.partnercenter.models.StandardResourceLinks"
 - uid: "com.microsoft.store.partnercenter.models.devicesdeployment.DeviceBatch.DeviceBatch()"
   id: "DeviceBatch()"

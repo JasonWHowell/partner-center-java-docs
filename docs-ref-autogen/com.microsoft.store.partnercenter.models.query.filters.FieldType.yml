@@ -21,7 +21,8 @@ items:
   syntax:
     content: "public enum FieldType extends Enum<FieldType>"
   inheritance:
-  - "java.lang.Enum<com.microsoft.store.partnercenter.models.query.filters.FieldType>"
+  - "java.lang.Object"
+  - "java.lang.Enum"
 - uid: "com.microsoft.store.partnercenter.models.query.filters.FieldType.DATE_TIME_OFFSET"
   id: "DATE_TIME_OFFSET"
   parent: "com.microsoft.store.partnercenter.models.query.filters.FieldType"

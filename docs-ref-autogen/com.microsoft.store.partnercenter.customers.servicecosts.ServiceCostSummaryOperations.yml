@@ -17,7 +17,8 @@ items:
   syntax:
     content: "public class ServiceCostSummaryOperations extends BasePartnerComponent<Tuple<String,String>> implements IServiceCostSummary"
   inheritance:
-  - "com.microsoft.store.partnercenter.BasePartnerComponent<com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>>"
+  - "java.lang.Object"
+  - "com.microsoft.store.partnercenter.BasePartnerComponent"
   implements:
   - "com.microsoft.store.partnercenter.customers.servicecosts.IServiceCostSummary"
 - uid: "com.microsoft.store.partnercenter.customers.servicecosts.ServiceCostSummaryOperations.ServiceCostSummaryOperations(com.microsoft.store.partnercenter.IPartner,com.microsoft.store.partnercenter.models.utils.Tuple<java.lang.String,java.lang.String>)"

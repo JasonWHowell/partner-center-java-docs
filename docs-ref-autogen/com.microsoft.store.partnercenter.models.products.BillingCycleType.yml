@@ -23,7 +23,8 @@ items:
   syntax:
     content: "public enum BillingCycleType extends Enum<BillingCycleType>"
   inheritance:
-  - "java.lang.Enum<com.microsoft.store.partnercenter.models.products.BillingCycleType>"
+  - "java.lang.Object"
+  - "java.lang.Enum"
 - uid: "com.microsoft.store.partnercenter.models.products.BillingCycleType.ANNUAL"
   id: "ANNUAL"
   parent: "com.microsoft.store.partnercenter.models.products.BillingCycleType"

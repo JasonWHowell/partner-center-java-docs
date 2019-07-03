@@ -20,7 +20,8 @@ items:
   syntax:
     content: "public enum PartnerRelationshipType extends Enum<PartnerRelationshipType>"
   inheritance:
-  - "java.lang.Enum<com.microsoft.store.partnercenter.models.relationships.PartnerRelationshipType>"
+  - "java.lang.Object"
+  - "java.lang.Enum"
 - uid: "com.microsoft.store.partnercenter.models.relationships.PartnerRelationshipType.IS_INDIRECT_CLOUD_SOLUTION_PROVIDER_OF"
   id: "IS_INDIRECT_CLOUD_SOLUTION_PROVIDER_OF"
   parent: "com.microsoft.store.partnercenter.models.relationships.PartnerRelationshipType"

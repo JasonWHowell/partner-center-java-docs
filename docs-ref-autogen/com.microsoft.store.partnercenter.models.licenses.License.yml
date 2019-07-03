@@ -20,6 +20,7 @@ items:
   syntax:
     content: "public class License extends ResourceBase"
   inheritance:
+  - "java.lang.Object"
   - "com.microsoft.store.partnercenter.models.ResourceBase"
 - uid: "com.microsoft.store.partnercenter.models.licenses.License.License()"
   id: "License()"

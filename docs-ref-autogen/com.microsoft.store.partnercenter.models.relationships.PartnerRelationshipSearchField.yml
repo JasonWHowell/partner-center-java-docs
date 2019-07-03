@@ -19,7 +19,8 @@ items:
   syntax:
     content: "public enum PartnerRelationshipSearchField extends Enum<PartnerRelationshipSearchField>"
   inheritance:
-  - "java.lang.Enum<com.microsoft.store.partnercenter.models.relationships.PartnerRelationshipSearchField>"
+  - "java.lang.Object"
+  - "java.lang.Enum"
 - uid: "com.microsoft.store.partnercenter.models.relationships.PartnerRelationshipSearchField.NAME"
   id: "NAME"
   parent: "com.microsoft.store.partnercenter.models.relationships.PartnerRelationshipSearchField"

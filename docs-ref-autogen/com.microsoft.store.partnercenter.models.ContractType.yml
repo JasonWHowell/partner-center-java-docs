@@ -20,7 +20,8 @@ items:
   syntax:
     content: "public enum ContractType extends Enum<ContractType>"
   inheritance:
-  - "java.lang.Enum<com.microsoft.store.partnercenter.models.ContractType>"
+  - "java.lang.Object"
+  - "java.lang.Enum"
 - uid: "com.microsoft.store.partnercenter.models.ContractType.ContractType(java.lang.String)"
   id: "ContractType(java.lang.String)"
   parent: "com.microsoft.store.partnercenter.models.ContractType"

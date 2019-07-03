@@ -25,6 +25,7 @@ items:
   syntax:
     content: "public class SimpleFieldFilter extends FieldFilter"
   inheritance:
+  - "java.lang.Object"
   - "com.microsoft.store.partnercenter.models.query.filters.FieldFilter"
 - uid: "com.microsoft.store.partnercenter.models.query.filters.SimpleFieldFilter.SimpleFieldFilter()"
   id: "SimpleFieldFilter()"

@@ -30,6 +30,9 @@ items:
   syntax:
     content: "public class PartnerException extends RuntimeException"
   inheritance:
+  - "java.lang.Object"
+  - "java.lang.Throwable"
+  - "java.lang.Exception"
   - "java.lang.RuntimeException"
 - uid: "com.microsoft.store.partnercenter.exception.PartnerException.PartnerException()"
   id: "PartnerException()"

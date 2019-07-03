@@ -26,7 +26,9 @@ items:
     - id: "TResource"
     - id: "TLinks"
   inheritance:
-  - "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks<TLinks>"
+  - "java.lang.Object"
+  - "com.microsoft.store.partnercenter.models.ResourceBase"
+  - "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks"
 - uid: "com.microsoft.store.partnercenter.models.ResourceCollectionWithLinks.ResourceCollectionWithLinks()"
   id: "ResourceCollectionWithLinks()"
   parent: "com.microsoft.store.partnercenter.models.ResourceCollectionWithLinks"

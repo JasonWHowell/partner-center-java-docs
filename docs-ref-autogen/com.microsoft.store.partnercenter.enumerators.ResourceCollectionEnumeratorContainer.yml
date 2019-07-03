@@ -25,6 +25,8 @@ items:
   syntax:
     content: "public class ResourceCollectionEnumeratorContainer extends BasePartnerComponentString implements IResourceCollectionEnumeratorContainer"
   inheritance:
+  - "java.lang.Object"
+  - "com.microsoft.store.partnercenter.BasePartnerComponent"
   - "com.microsoft.store.partnercenter.BasePartnerComponentString"
   implements:
   - "com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumeratorContainer"

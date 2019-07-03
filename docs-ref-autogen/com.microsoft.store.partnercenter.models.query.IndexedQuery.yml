@@ -23,6 +23,8 @@ items:
   syntax:
     content: "public class IndexedQuery extends SimpleQuery"
   inheritance:
+  - "java.lang.Object"
+  - "com.microsoft.store.partnercenter.models.query.BaseQuery"
   - "com.microsoft.store.partnercenter.models.query.SimpleQuery"
 - uid: "com.microsoft.store.partnercenter.models.query.IndexedQuery.IndexedQuery()"
   id: "IndexedQuery()"

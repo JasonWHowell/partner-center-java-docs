@@ -24,7 +24,8 @@ items:
   syntax:
     content: "public enum PolicySettingsType extends Enum<PolicySettingsType>"
   inheritance:
-  - "java.lang.Enum<com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType>"
+  - "java.lang.Object"
+  - "java.lang.Enum"
 - uid: "com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType.None"
   id: "None"
   parent: "com.microsoft.store.partnercenter.models.devicesdeployment.PolicySettingsType"

@@ -21,7 +21,8 @@ items:
   syntax:
     content: "public enum ServiceRequestSeverity extends Enum<ServiceRequestSeverity>"
   inheritance:
-  - "java.lang.Enum<com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestSeverity>"
+  - "java.lang.Object"
+  - "java.lang.Enum"
 - uid: "com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestSeverity.CRITICAL"
   id: "CRITICAL"
   parent: "com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestSeverity"

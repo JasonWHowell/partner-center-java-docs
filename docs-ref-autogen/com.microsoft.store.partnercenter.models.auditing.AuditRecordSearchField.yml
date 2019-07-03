@@ -21,7 +21,8 @@ items:
   syntax:
     content: "public enum AuditRecordSearchField extends Enum<AuditRecordSearchField>"
   inheritance:
-  - "java.lang.Enum<com.microsoft.store.partnercenter.models.auditing.AuditRecordSearchField>"
+  - "java.lang.Object"
+  - "java.lang.Enum"
 - uid: "com.microsoft.store.partnercenter.models.auditing.AuditRecordSearchField.AuditRecordSearchField(java.lang.String)"
   id: "AuditRecordSearchField(java.lang.String)"
   parent: "com.microsoft.store.partnercenter.models.auditing.AuditRecordSearchField"
