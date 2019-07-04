@@ -29,6 +29,18 @@ items:
     - id: "T4"
   inheritance:
   - "java.lang.Object"
+  inheritedMembers:
+  - "java.lang.Object.clone()"
+  - "java.lang.Object.equals(java.lang.Object)"
+  - "java.lang.Object.finalize()"
+  - "java.lang.Object.getClass()"
+  - "java.lang.Object.hashCode()"
+  - "java.lang.Object.notify()"
+  - "java.lang.Object.notifyAll()"
+  - "java.lang.Object.toString()"
+  - "java.lang.Object.wait()"
+  - "java.lang.Object.wait(long)"
+  - "java.lang.Object.wait(long,int)"
 - uid: "com.microsoft.store.partnercenter.models.utils.QuadrupleTuple.QuadrupleTuple(T1,T2,T3,T4)"
   id: "QuadrupleTuple(T1,T2,T3,T4)"
   parent: "com.microsoft.store.partnercenter.models.utils.QuadrupleTuple"

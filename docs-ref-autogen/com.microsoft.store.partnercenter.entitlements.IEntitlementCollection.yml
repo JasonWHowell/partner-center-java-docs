@@ -77,6 +77,8 @@ references:
   - uid: "com.microsoft.store.partnercenter.models.entitlements.Entitlement"
     name: "Entitlement"
     fullName: "com.microsoft.store.partnercenter.models.entitlements.Entitlement"
+  - name: ","
+    fullName: ","
   - uid: "com.microsoft.store.partnercenter.models.ResourceCollection"
     name: "ResourceCollection"
     fullName: "com.microsoft.store.partnercenter.models.ResourceCollection"

@@ -170,6 +170,8 @@ references:
   - uid: "com.microsoft.store.partnercenter.models.subscriptions.Subscription"
     name: "Subscription"
     fullName: "com.microsoft.store.partnercenter.models.subscriptions.Subscription"
+  - name: ","
+    fullName: ","
   - uid: "com.microsoft.store.partnercenter.models.ResourceCollection"
     name: "ResourceCollection"
     fullName: "com.microsoft.store.partnercenter.models.ResourceCollection"
