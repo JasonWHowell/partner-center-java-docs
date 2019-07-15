@@ -58,10 +58,12 @@ items:
   overload: "com.microsoft.store.partnercenter.models.products.ProductLinks.getSkus*"
   type: "Method"
   package: "com.microsoft.store.partnercenter.models.products"
+  summary: "Gets the SKUs link."
   syntax:
     content: "public Link getSkus()"
     return:
       type: "com.microsoft.store.partnercenter.models.Link"
+      description: "The SKUs link."
 - uid: "com.microsoft.store.partnercenter.models.products.ProductLinks.setSkus(com.microsoft.store.partnercenter.models.Link)"
   id: "setSkus(com.microsoft.store.partnercenter.models.Link)"
   parent: "com.microsoft.store.partnercenter.models.products.ProductLinks"
@@ -73,11 +75,13 @@ items:
   overload: "com.microsoft.store.partnercenter.models.products.ProductLinks.setSkus*"
   type: "Method"
   package: "com.microsoft.store.partnercenter.models.products"
+  summary: "Sets the SKUs links."
   syntax:
     content: "public void setSkus(Link value)"
     parameters:
     - id: "value"
       type: "com.microsoft.store.partnercenter.models.Link"
+      description: "The SKUs link."
 references:
 - uid: "com.microsoft.store.partnercenter.models.products.ProductLinks.ProductLinks*"
   name: "ProductLinks"

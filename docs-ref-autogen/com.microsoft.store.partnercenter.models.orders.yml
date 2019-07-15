@@ -11,6 +11,7 @@ items:
   - "com.microsoft.store.partnercenter.models.orders.OrderLinks"
   - "com.microsoft.store.partnercenter.models.orders.Pricing"
   - "com.microsoft.store.partnercenter.models.orders.QuantityProvisioningStatus"
+  - "com.microsoft.store.partnercenter.models.orders.RenewsTo"
   langs:
   - "java"
   name: "com.microsoft.store.partnercenter.models.orders"
@@ -52,3 +53,7 @@ references:
   name: "QuantityProvisioningStatus"
   nameWithType: "QuantityProvisioningStatus"
   fullName: "com.microsoft.store.partnercenter.models.orders.QuantityProvisioningStatus"
+- uid: "com.microsoft.store.partnercenter.models.orders.RenewsTo"
+  name: "RenewsTo"
+  nameWithType: "RenewsTo"
+  fullName: "com.microsoft.store.partnercenter.models.orders.RenewsTo"

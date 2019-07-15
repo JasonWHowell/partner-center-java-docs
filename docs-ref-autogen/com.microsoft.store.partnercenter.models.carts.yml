@@ -10,6 +10,7 @@ items:
   - "com.microsoft.store.partnercenter.models.carts.CartLineItem"
   - "com.microsoft.store.partnercenter.models.carts.OrderError"
   - "com.microsoft.store.partnercenter.models.carts.ParticipantType"
+  - "com.microsoft.store.partnercenter.models.carts.RenewsTo"
   langs:
   - "java"
   name: "com.microsoft.store.partnercenter.models.carts"
@@ -47,3 +48,7 @@ references:
   name: "ParticipantType"
   nameWithType: "ParticipantType"
   fullName: "com.microsoft.store.partnercenter.models.carts.ParticipantType"
+- uid: "com.microsoft.store.partnercenter.models.carts.RenewsTo"
+  name: "RenewsTo"
+  nameWithType: "RenewsTo"
+  fullName: "com.microsoft.store.partnercenter.models.carts.RenewsTo"
